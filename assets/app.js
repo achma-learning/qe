@@ -181,6 +181,25 @@
     btn.title = `Pomodoro — ${m}:${s} ${pomo.running ? '(running, P to pause)' : '(paused, P to start)'}`;
   }
 
+  // ===== Mode (training vs exam) =====
+  function getMode() { return LS.get('mode', 'training'); }
+  function setMode(m) { LS.set('mode', m); renderModePill(); }
+  function toggleMode() {
+    const m = getMode() === 'exam' ? 'training' : 'exam';
+    setMode(m);
+    toast(m === 'exam' ? '📝 Exam mode — full set, correction at the end' : '🎯 Training mode — instant correction per Q', m === 'exam' ? 'warn' : 'ok');
+  }
+  function renderModePill() {
+    const pill = document.getElementById('qe-mode-pill');
+    if (!pill) return;
+    const m = getMode();
+    pill.classList.toggle('exam', m === 'exam');
+    pill.querySelector('.label').textContent = m === 'exam' ? 'Exam' : 'Training';
+    pill.title = m === 'exam'
+      ? 'Mode: Exam (full exam, correction at end). Click to switch to Training.'
+      : 'Mode: Training (question-by-question, instant correction). Click to switch to Exam.';
+  }
+
   // ===== Top bar (shared) =====
   function buildTopbar(opts = {}) {
     const top = document.createElement('div');
@@ -193,6 +212,12 @@
       <div class="crumb">${opts.crumbHtml || ''}</div>
       <div class="spacer"></div>
       ${opts.search ? `<input type="search" id="qe-search" class="search" placeholder="Search modules…  /" autocomplete="off">` : ''}
+      ${opts.modePill !== false ? `
+        <button id="qe-mode-pill" class="mode-pill" type="button">
+          <span class="dot"></span>
+          <span class="label">Training</span>
+        </button>
+      ` : ''}
       <button id="qe-pomo" title="Pomodoro (P)">
         <svg viewBox="0 0 36 36" aria-hidden="true">
           <path fill="none" stroke="rgba(127,127,127,.18)" stroke-width="3.4"
@@ -215,6 +240,18 @@
     document.getElementById('qe-theme').addEventListener('click', toggleTheme);
     document.getElementById('qe-help').addEventListener('click', showHelp);
     document.getElementById('qe-settings').addEventListener('click', showSettings);
+    const pillEl = document.getElementById('qe-mode-pill');
+    if (pillEl) {
+      renderModePill();
+      pillEl.addEventListener('click', () => {
+        toggleMode();
+        // On dashboard the pill is a global toggle, nothing else to do.
+        // On viewer pages, reload so the viewer reboots in the new mode.
+        if (document.querySelector('.viewer, .exam-picker, .review-head')) {
+          location.href = location.pathname;
+        }
+      });
+    }
     pomoInit();
   }
 
@@ -269,7 +306,16 @@
           <div class="keys">${k('L')}</div><div>Toggle light/dark theme</div>
           <div class="keys">${k('S')} / ${k('Shift+S')} / ${k('6')}</div><div>Settings</div>
           <div class="keys">${k('?')}</div><div>This help</div>
-          <div class="keys">${k('Esc')}</div><div>Close overlay</div>
+          <div class="keys">${k('Esc')}</div><div>Close overlay · exit exam back to picker</div>
+        </div>
+        <div class="group-title">Exam mode</div>
+        <div class="help-grid">
+          <div class="keys"><kbd>Mode pill</kbd></div><div>Toggle Training ↔ Exam (top bar, persisted)</div>
+          <div class="keys">${k('1')}–${k('9')} (picker)</div><div>Start that exam</div>
+          <div class="keys">${k('Shift+Enter')}</div><div>Submit exam (press twice to confirm)</div>
+          <div class="keys">${k('Esc')} (exam-run)</div><div>Pause and back to picker (progress kept)</div>
+          <div class="keys">${k('1')}–${k('5')} (review)</div><div>Filter: all / correct / partial / wrong / skipped</div>
+          <div class="keys">${k('R')} (review)</div><div>Retake same exam (clears stored answers)</div>
         </div>
         <div class="esc-hint">Click background or press Esc to close.</div>
       `;
@@ -386,9 +432,20 @@
       panel.innerHTML = `
         <h3>⚙️ Settings</h3>
         <div style="display:flex;flex-direction:column;gap:14px;font-size:14px;">
+          <div style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--bg-soft);">
+            <div style="font-weight:700;margin-bottom:6px;">Mode</div>
+            <label style="display:flex;align-items:center;gap:10px;cursor:pointer;margin-bottom:4px;">
+              <input type="radio" name="set-mode" value="training" ${getMode() === 'training' ? 'checked' : ''}>
+              <span><b>🎯 Training</b> — question by question, instant correction</span>
+            </label>
+            <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
+              <input type="radio" name="set-mode" value="exam" ${getMode() === 'exam' ? 'checked' : ''}>
+              <span><b>📝 Exam</b> — full exam, correction at the end</span>
+            </label>
+          </div>
           <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
             <input type="checkbox" id="set-auto" ${cfg.autoAdvance ? 'checked' : ''}>
-            <span><b>Auto-advance</b> — apply current loadout (Q/A timers)</span>
+            <span><b>Auto-advance</b> — apply current loadout (Q/A timers) — Training only</span>
           </label>
           <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
             <input type="checkbox" id="set-multi" ${cfg.multiSelect ? 'checked' : ''}>
@@ -419,14 +476,23 @@
         cfg.showCorrectionOnCopy = panel.querySelector('#set-corr').checked;
         const m = parseInt(panel.querySelector('#set-pomo').value, 10);
         if (!isNaN(m) && m > 0 && m <= 180) cfg.pomoMinutes = m;
+        const oldMode = getMode();
+        const newMode = panel.querySelector('input[name="set-mode"]:checked').value;
+        LS.set('mode', newMode);
         LS.set('autoAdvance', cfg.autoAdvance);
         LS.set('multiSelect', cfg.multiSelect);
         LS.set('showCorrectionOnCopy', cfg.showCorrectionOnCopy);
         LS.set('pomoMinutes', cfg.pomoMinutes);
         if (!pomo.running) { pomo.remaining = pomo.total(); LS.set('pomo.paused', 0); }
         pomoRender();
+        renderModePill();
         toast('✓ Settings saved', 'ok');
         closeOverlays();
+        if (oldMode !== newMode && document.querySelector('.viewer, .exam-picker, .review-head')) {
+          // Viewer needs a reboot to apply the new mode
+          location.href = location.pathname;
+          return;
+        }
         if (state.viewer) {
           state.viewer.render();
           if (cfg.autoAdvance) state.viewer.startTimer(); else state.viewer.stopTimer();
@@ -632,11 +698,20 @@
           <div class="hint">
             <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
             <kbd>/</kbd> search · <kbd>M</kbd> switcher · <kbd>L</kbd> theme · <kbd>?</kbd> help
+            · current mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
           </div>
         </div>
         <div id="qe-semesters"></div>
       </div>
     `;
+    const modeInline = document.getElementById('qe-mode-inline');
+    const refreshModeInline = () => {
+      const m = getMode();
+      modeInline.textContent = m === 'exam' ? '📝 Exam (full set, correction at end)' : '🎯 Training (instant correction)';
+      modeInline.style.color = m === 'exam' ? 'var(--warn)' : 'var(--accent)';
+    };
+    refreshModeInline();
+    document.getElementById('qe-mode-pill')?.addEventListener('click', refreshModeInline);
     const semRoot = document.getElementById('qe-semesters');
 
     function render(filter = '') {
@@ -809,11 +884,53 @@
     const questions = parsed.questions;
     const exams = parsed.exams;
 
+    // Pre-compute global offset of each exam (start index in flat questions[])
+    const examStarts = [];
+    {
+      let acc = 0;
+      for (const grp of exams) { examStarts.push(acc); acc += grp.questions.length; }
+    }
+    const examIdxOf = (qIdx) => {
+      for (let i = exams.length - 1; i >= 0; i--) if (qIdx >= examStarts[i]) return i;
+      return 0;
+    };
+
     const progKey = `progress.${module.slug}`;
     const ansKey = `answers.${module.slug}`;
-    let answers = LS.get(ansKey, {}); // qIdx -> { picked: ['A','C'], correct: bool, partial: bool, checked: bool }
+    let answers = LS.get(ansKey, {}); // qIdx -> { picked: [...], correct, partial, checked }
     let idx = LS.get(`current.${module.slug}`, 0);
     if (idx < 0 || idx >= questions.length) idx = 0;
+
+    // Mode wiring
+    const globalMode = LS.get('mode', 'training');
+    const urlParams = new URLSearchParams(location.search);
+    const urlExam = urlParams.get('exam');
+    let viewMode = 'training';            // training | exam-pick | exam-run | exam-review
+    let activeExamIdx = null;             // index into exams[]
+    let reviewFilter = 'all';             // all | wrong | partial | correct | skipped
+    if (globalMode === 'exam') {
+      if (urlExam !== null && /^\d+$/.test(urlExam)) {
+        const ei = parseInt(urlExam, 10);
+        if (ei >= 0 && ei < exams.length) {
+          activeExamIdx = ei;
+          const sess = examSession(ei);
+          viewMode = sess.submitted ? 'exam-review' : 'exam-run';
+          const grp = exams[ei];
+          const localCur = Math.max(0, Math.min(grp.questions.length - 1, sess.cur || 0));
+          idx = examStarts[ei] + localCur;
+        } else {
+          viewMode = 'exam-pick';
+        }
+      } else {
+        viewMode = 'exam-pick';
+      }
+    }
+
+    function examSessionKey(ei) { return `exam.${module.slug}.${ei}`; }
+    function examSession(ei) {
+      return LS.get(examSessionKey(ei), { picked: {}, cur: 0, submitted: false, submittedAt: 0, durationSec: 0 });
+    }
+    function saveExamSession(ei, sess) { LS.set(examSessionKey(ei), sess); }
 
     let picked = new Set();
     let checked = false;
@@ -825,6 +942,9 @@
     let dashboardConfirm = false, dashboardConfirmT = null;
     let resetConfirm = false, resetConfirmT = null;
     let tLong = false, tLongT = null;
+    let submitConfirm = false, submitConfirmT = null;
+    let examStartT = 0;
+    let examTimerH = null;
 
     function persist() {
       LS.set(ansKey, answers);
@@ -856,34 +976,74 @@
       return { correct: allRight && got.size > 0, partial, unknown: false };
     }
 
-    function render() {
-      loadCurrentAnswer();
-      const q = currentQ();
-      const total = questions.length;
+    // Build the per-exam sidebar HTML. Tracks offset directly (no .indexOf scan),
+    // distinguishes untouched / picked / correct / partial / wrong chips, and
+    // highlights the active exam header.  `chipState(qIdx)` returns one of:
+    //   { kind: 'untouched' | 'picked' | 'correct' | 'partial' | 'wrong' }
+    function buildSidebarHtml(opts) {
+      opts = opts || {};
+      const chipState = opts.chipState || ((qIdx) => {
+        const rec = answers[qIdx];
+        if (!rec) return { kind: 'untouched' };
+        if (rec.checked) {
+          if (rec.unknown) return { kind: 'unknown' };
+          if (rec.partial) return { kind: 'partial' };
+          if (rec.correct) return { kind: 'correct' };
+          return { kind: 'wrong' };
+        }
+        if (rec.picked && rec.picked.length > 0) return { kind: 'picked' };
+        return { kind: 'untouched' };
+      });
+      const interactive = opts.interactive !== false;
+      const currentGlobal = opts.currentGlobal != null ? opts.currentGlobal : idx;
 
-      // Group sidebar by exam
-      const sidebarHtml = exams.map(grp => {
-        const offset = questions.indexOf(grp.questions[0]);
+      let offset = 0;
+      return exams.map((grp, ei) => {
+        const start = offset;
+        const end = offset + grp.questions.length;
+        const isCurrentExam = (currentGlobal >= start && currentGlobal < end);
+        let answered = 0, correct = 0, picked = 0;
         const chips = grp.questions.map((qq, j) => {
-          const qIdx = offset + j;
-          const rec = answers[qIdx];
+          const qIdx = start + j;
+          const st = chipState(qIdx);
           let cls = 'q-chip';
-          if (qIdx === idx) cls += ' current';
-          if (rec && rec.checked) {
-            cls += ' answered';
-            if (rec.correct) cls += ' correct';
-            else cls += ' wrong';
-          }
-          return `<div class="${cls}" data-idx="${qIdx}" title="Q${qq.qn} — ${qq.topic || ''}">${qq.qn}</div>`;
+          if (qIdx === currentGlobal) cls += ' current';
+          if (st.kind === 'correct')      { cls += ' correct'; answered++; correct++; }
+          else if (st.kind === 'partial') { cls += ' partial'; answered++; }
+          else if (st.kind === 'wrong')   { cls += ' wrong';   answered++; }
+          else if (st.kind === 'unknown') { cls += ' picked';  answered++; }
+          else if (st.kind === 'picked')  { cls += ' picked';  picked++; }
+          if (st.flagged) cls += ' flagged';
+          const idAttr = interactive ? `data-idx="${qIdx}"` : '';
+          return `<div class="${cls}" ${idAttr} title="Q${qq.qn}${qq.topic ? ' — ' + qq.topic : ''}">${qq.qn}</div>`;
         }).join('');
-        const examLink = grp.url ? `<a href="${grp.url}" target="_blank" title="Open original on e-qe.online">↗</a>` : '';
+        offset = end;
+        const examLink = grp.url ? `<a href="${grp.url}" target="_blank" rel="noopener" title="Open original on e-qe.online">↗</a>` : '';
+        const stats = `<span class="stats">${answered}/${grp.questions.length}${correct ? ' · <b>' + correct + '✓</b>' : ''}${picked ? ' · ' + picked + '◔' : ''} ${examLink}</span>`;
         return `
-          <div class="exam-group">
-            <div class="exam-name"><span>${grp.name}</span><span>${grp.count} ${examLink}</span></div>
+          <div class="exam-group" data-exam-idx="${ei}">
+            <div class="exam-name ${isCurrentExam ? 'current' : ''}">
+              <span class="name" title="${grp.name}">${grp.name}</span>
+              ${stats}
+            </div>
             <div class="q-list">${chips}</div>
           </div>
         `;
       }).join('');
+    }
+
+    function render() {
+      if (viewMode === 'exam-pick')   return renderExamPicker();
+      if (viewMode === 'exam-run')    return renderExamRun();
+      if (viewMode === 'exam-review') return renderExamReview();
+      renderTraining();
+    }
+
+    function renderTraining() {
+      loadCurrentAnswer();
+      const q = currentQ();
+      const total = questions.length;
+      const sidebarHtml = buildSidebarHtml();
 
       const optionsHtml = (q.options || []).map((o) => {
         const isPicked = picked.has(o.letter);
@@ -976,18 +1136,426 @@
       else hideIsland();
     }
 
+    // ===== Exam mode helpers =====
+    function enterExam(ei) {
+      // Make sure any stale training-mode auto-advance timer is invalidated
+      // before we switch view modes.
+      stopTimer(); hideIsland();
+      activeExamIdx = ei;
+      const sess = examSession(ei);
+      viewMode = sess.submitted ? 'exam-review' : 'exam-run';
+      const start = examStarts[ei];
+      const localCur = Math.max(0, Math.min(exams[ei].questions.length - 1, sess.cur || 0));
+      idx = start + localCur;
+      if (!sess.submitted && (!sess.startedAt)) {
+        sess.startedAt = Date.now();
+        saveExamSession(ei, sess);
+      }
+      examStartT = (sess.startedAt || Date.now());
+      try {
+        const u = new URL(location.href);
+        u.searchParams.set('exam', String(ei));
+        history.replaceState(null, '', u);
+      } catch {}
+      render();
+    }
+    function exitExam() {
+      viewMode = 'exam-pick';
+      activeExamIdx = null;
+      stopExamTimer();
+      try {
+        const u = new URL(location.href);
+        u.searchParams.delete('exam');
+        history.replaceState(null, '', u);
+      } catch {}
+      render();
+    }
+    function submitExam() {
+      if (activeExamIdx == null) return;
+      const ei = activeExamIdx;
+      const sess = examSession(ei);
+      sess.submitted = true;
+      sess.submittedAt = Date.now();
+      sess.durationSec = Math.max(1, Math.floor((Date.now() - (sess.startedAt || Date.now())) / 1000));
+      saveExamSession(ei, sess);
+      viewMode = 'exam-review';
+      stopExamTimer();
+      reviewFilter = 'all';
+      render();
+    }
+    function restartExam(ei) {
+      LS.del(`exam.${module.slug}.${ei}`);
+      enterExam(ei);
+    }
+    function evaluateExamLocal(ei, localIdx) {
+      const sess = examSession(ei);
+      const grp = exams[ei];
+      const q = grp.questions[localIdx];
+      const got = sess.picked[localIdx] || [];
+      const correct = q.correct || [];
+      if (correct.length === 0) return { kind: got.length ? 'unknown' : 'skipped' };
+      if (got.length === 0) return { kind: 'skipped' };
+      const setG = new Set(got), setC = new Set(correct);
+      let allRight = true, anyWrong = false;
+      for (const c of setC) if (!setG.has(c)) allRight = false;
+      for (const g of setG) if (!setC.has(g)) { anyWrong = true; allRight = false; }
+      if (allRight && !anyWrong) return { kind: 'correct' };
+      if (!anyWrong) return { kind: 'partial' };
+      return { kind: 'wrong' };
+    }
+    function examScore(ei) {
+      const grp = exams[ei];
+      let correct = 0, partial = 0, wrong = 0, skipped = 0, unknown = 0;
+      for (let j = 0; j < grp.questions.length; j++) {
+        const ev = evaluateExamLocal(ei, j);
+        if (ev.kind === 'correct') correct++;
+        else if (ev.kind === 'partial') partial++;
+        else if (ev.kind === 'wrong') wrong++;
+        else if (ev.kind === 'skipped') skipped++;
+        else if (ev.kind === 'unknown') unknown++;
+      }
+      return { correct, partial, wrong, skipped, unknown, total: grp.questions.length };
+    }
+
+    function renderExamPicker() {
+      stopTimer(); hideIsland();
+      const tiles = exams.map((grp, ei) => {
+        const sess = examSession(ei);
+        const picks = Object.keys(sess.picked || {}).length;
+        let status = '', statusCls = 'fresh';
+        if (sess.submitted) {
+          const s = examScore(ei);
+          status = `✓ ${s.correct}/${s.total} (${Math.round(s.correct / s.total * 100)}%)`;
+          statusCls = 'done';
+        } else if (picks > 0) {
+          status = `… ${picks}/${grp.questions.length} answered (in progress)`;
+          statusCls = 'draft';
+        } else {
+          status = 'Not started';
+        }
+        const pct = sess.submitted ? Math.round(examScore(ei).correct / grp.questions.length * 100) : Math.round(picks / grp.questions.length * 100);
+        return `
+          <div class="exam-tile" data-ei="${ei}" role="button" tabindex="0">
+            <span class="num">${ei < 9 ? ei + 1 : ''}</span>
+            <div class="name">${escapeHtml(grp.name)}</div>
+            <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a class="src-link" href="' + grp.url + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
+            <div class="status ${statusCls}">${status}</div>
+            <div class="progress"><span style="width:${pct}%"></span></div>
+          </div>
+        `;
+      }).join('');
+      root.innerHTML = `
+        <div class="exam-picker">
+          <div class="head">
+            <h2>📝 Exam Mode — ${escapeHtml(module.name)}</h2>
+            <p>Pick an exam to take. You'll answer every question in one sitting, with no feedback. Submit at the end to see the full correction.</p>
+            <div class="hint">
+              <kbd>1</kbd>–<kbd>9</kbd> open · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> start ·
+              <kbd>Esc</kbd> / <kbd>0</kbd> dashboard ·
+              <button id="btn-mode-switch" style="margin-left:8px;">Switch to Training mode</button>
+            </div>
+          </div>
+          <div class="exam-list" id="exam-list">${tiles}</div>
+        </div>
+      `;
+      const list = root.querySelector('#exam-list');
+      list.querySelectorAll('.exam-tile').forEach(t => {
+        t.addEventListener('click', (e) => {
+          // Let the source ↗ anchor open its own tab; everywhere else, enter the exam.
+          if (e.target.closest('a.src-link')) return;
+          enterExam(parseInt(t.dataset.ei, 10));
+        });
+        t.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            enterExam(parseInt(t.dataset.ei, 10));
+          }
+        });
+      });
+      root.querySelector('#btn-mode-switch').addEventListener('click', () => {
+        LS.set('mode', 'training');
+        location.href = location.pathname;
+      });
+    }
+
+    function startExamTimer() {
+      stopExamTimer();
+      examTimerH = setInterval(() => {
+        const banner = document.getElementById('exam-banner-timer');
+        if (banner) {
+          const sec = Math.floor((Date.now() - examStartT) / 1000);
+          const m = Math.floor(sec / 60), s = String(sec % 60).padStart(2, '0');
+          banner.textContent = `${m}:${s}`;
+        }
+      }, 1000);
+    }
+    function stopExamTimer() {
+      if (examTimerH) { clearInterval(examTimerH); examTimerH = null; }
+    }
+
+    function renderExamRun() {
+      const ei = activeExamIdx;
+      const grp = exams[ei];
+      const start = examStarts[ei];
+      const total = grp.questions.length;
+      const localIdx = idx - start;
+      const q = grp.questions[localIdx];
+      const sess = examSession(ei);
+      const sessPicked = sess.picked[localIdx] || [];
+      picked = new Set(sessPicked);
+      checked = false;
+
+      const sidebarHtml = buildSidebarHtml({
+        chipState: (qIdx) => {
+          if (qIdx < start || qIdx >= start + total) {
+            return { kind: 'untouched', dim: true };
+          }
+          const li = qIdx - start;
+          const p = sess.picked[li];
+          if (p && p.length > 0) return { kind: 'picked' };
+          return { kind: 'untouched' };
+        },
+        currentGlobal: idx,
+      });
+
+      const optionsHtml = (q.options || []).map((o) => {
+        const isPicked = picked.has(o.letter);
+        let cls = 'opt';
+        if (isPicked) cls += ' selected';
+        return `
+          <div class="${cls}" data-letter="${o.letter}">
+            <div class="letter">${o.letter}</div>
+            <div class="text">${escapeHtml(o.text)}</div>
+          </div>
+        `;
+      }).join('');
+
+      const answered = Object.keys(sess.picked || {}).filter(k => (sess.picked[k] || []).length > 0).length;
+      const pct = total ? (answered / total) * 100 : 0;
+      const elapsedSec = Math.floor((Date.now() - examStartT) / 1000);
+      const elapsedM = Math.floor(elapsedSec / 60), elapsedS = String(elapsedSec % 60).padStart(2, '0');
+
+      root.innerHTML = `
+        <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
+          ${cfg.sidebarHidden ? '' : `
+            <aside class="sidebar">
+              <h3>${module.name}</h3>
+              ${sidebarHtml}
+            </aside>
+          `}
+          <div class="qpane">
+            <div class="exam-banner">
+              <span class="dot"></span>
+              <span class="label">EXAM</span>
+              <span>${escapeHtml(grp.name)} · Q ${localIdx + 1}/${total} · ${answered} answered</span>
+              <span class="timer" id="exam-banner-timer">${elapsedM}:${elapsedS}</span>
+            </div>
+            <div class="qhead">
+              <div class="qmeta">Q <b>${q.qn}</b> / ${total}</div>
+              ${q.topic ? `<div class="qtopic">${escapeHtml(q.topic)}</div>` : ''}
+            </div>
+            <div class="qtext">${escapeHtml(q.text)}</div>
+            <div class="options">${optionsHtml}</div>
+            <div class="controls">
+              <button id="btn-prev" title="Prev (← / K)">‹ Prev</button>
+              <button id="btn-next" title="Next (→ / N / J / Space / Enter)">Next ›</button>
+              <button id="btn-reset" title="Reset (R)">Clear</button>
+              <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
+              <button id="btn-exit-exam" title="Pause & exit (Esc)">⏸ Exit</button>
+              <button id="btn-submit" class="primary" title="Submit exam (press twice)">Submit ▶</button>
+              <div class="progress" title="${answered}/${total} answered"><span style="width:${pct}%"></span></div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      root.querySelectorAll('.opt').forEach(el => {
+        el.addEventListener('click', () => toggle(el.dataset.letter));
+      });
+      root.querySelector('#btn-prev').addEventListener('click', prev);
+      root.querySelector('#btn-next').addEventListener('click', next);
+      root.querySelector('#btn-reset').addEventListener('click', resetCurrent);
+      root.querySelector('#btn-toggle-side').addEventListener('click', toggleSidebar);
+      root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
+      root.querySelector('#btn-submit').addEventListener('click', tryConfirmSubmit);
+      root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
+        el.addEventListener('click', () => { gotoIdx(parseInt(el.dataset.idx, 10)); });
+      });
+      startExamTimer();
+    }
+
+    function tryConfirmSubmit() {
+      if (submitConfirm) {
+        clearTimeout(submitConfirmT); submitConfirm = false;
+        submitExam();
+      } else {
+        submitConfirm = true;
+        const ei = activeExamIdx;
+        const sess = examSession(ei);
+        const total = exams[ei].questions.length;
+        const answered = Object.keys(sess.picked || {}).filter(k => (sess.picked[k] || []).length > 0).length;
+        const left = total - answered;
+        toast(`📝 Press Submit again to lock in (${left} unanswered)`, left > 0 ? 'warn' : 'ok');
+        submitConfirmT = setTimeout(() => { submitConfirm = false; }, 3000);
+      }
+    }
+
+    function renderExamReview() {
+      stopTimer(); hideIsland(); stopExamTimer();
+      const ei = activeExamIdx;
+      const grp = exams[ei];
+      const start = examStarts[ei];
+      const sess = examSession(ei);
+      const s = examScore(ei);
+      const score100 = Math.round(s.correct / s.total * 100);
+      const dur = sess.durationSec || 0;
+      const durM = Math.floor(dur / 60), durS = String(dur % 60).padStart(2, '0');
+      const scoreCls = score100 >= 70 ? 'good' : score100 >= 50 ? 'mid' : 'bad';
+
+      const inExam = (idx >= start && idx < start + grp.questions.length);
+      const sidebarHtml = buildSidebarHtml({
+        chipState: (qIdx) => {
+          if (qIdx < start || qIdx >= start + grp.questions.length) return { kind: 'untouched' };
+          const li = qIdx - start;
+          const ev = evaluateExamLocal(ei, li);
+          if (ev.kind === 'skipped') return { kind: 'untouched' };
+          return { kind: ev.kind };
+        },
+        currentGlobal: inExam ? idx : -1,
+      });
+
+      const items = grp.questions.map((q, j) => {
+        const ev = evaluateExamLocal(ei, j);
+        const picks = new Set(sess.picked[j] || []);
+        const correctSet = new Set(q.correct || []);
+        let verdict = ev.kind;
+        const optsHtml = (q.options || []).map(o => {
+          let cls = 'ri-opt';
+          const isC = correctSet.has(o.letter);
+          const isP = picks.has(o.letter);
+          if (isC && isP) cls += ' picked-correct';
+          else if (!isC && isP) cls += ' picked-wrong';
+          else if (isC && !isP) cls += ' correct missed';
+          return `<div class="${cls}"><span class="letter">${o.letter}</span><span>${escapeHtml(o.text)}</span></div>`;
+        }).join('');
+        return `
+          <div class="review-item ${verdict}" data-verdict="${verdict}" data-local="${j}">
+            <div class="ri-head">
+              <span class="qn">Q${q.qn}</span>
+              <span class="verdict ${verdict}">${verdictLabel(verdict)}</span>
+              ${q.topic ? `<span class="topic">${escapeHtml(q.topic)}</span>` : ''}
+            </div>
+            <div class="ri-q">${escapeHtml(q.text)}</div>
+            <div class="ri-opts">${optsHtml}</div>
+          </div>
+        `;
+      }).join('');
+
+      root.innerHTML = `
+        <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
+          ${cfg.sidebarHidden ? '' : `
+            <aside class="sidebar">
+              <h3>${module.name}</h3>
+              ${sidebarHtml}
+            </aside>
+          `}
+          <div class="qpane">
+            <div class="review-head">
+              <div>
+                <h2>📊 ${escapeHtml(grp.name)} — Results</h2>
+                <div class="sub">${s.correct} correct · ${s.partial} partial · ${s.wrong} wrong · ${s.skipped} skipped${s.unknown ? ' · ' + s.unknown + ' no-correction' : ''}${dur ? ' · ' + durM + ':' + durS + ' taken' : ''}</div>
+                <div class="review-actions">
+                  <button id="btn-exit-exam">‹ Pick another exam</button>
+                  <button id="btn-restart-exam">↻ Retake this exam</button>
+                  ${grp.url ? `<a class="btn" href="${grp.url}" target="_blank" rel="noopener">↗ Original source</a>` : ''}
+                </div>
+              </div>
+              <div class="score ${scoreCls}">${score100}%<small>${s.correct}/${s.total}</small></div>
+            </div>
+            <div class="review-filters">
+              <span class="chip ${reviewFilter==='all'?'active':''}"     data-f="all">All ${s.total}</span>
+              <span class="chip ${reviewFilter==='correct'?'active':''}" data-f="correct">Correct ${s.correct}</span>
+              <span class="chip ${reviewFilter==='partial'?'active':''}" data-f="partial">Partial ${s.partial}</span>
+              <span class="chip ${reviewFilter==='wrong'?'active':''}"   data-f="wrong">Wrong ${s.wrong}</span>
+              <span class="chip ${reviewFilter==='skipped'?'active':''}" data-f="skipped">Skipped ${s.skipped}</span>
+            </div>
+            <div id="review-items">${items}</div>
+          </div>
+        </div>
+      `;
+
+      function applyFilter() {
+        root.querySelectorAll('.review-item').forEach(el => {
+          if (reviewFilter === 'all' || el.dataset.verdict === reviewFilter) el.style.display = '';
+          else el.style.display = 'none';
+        });
+      }
+      applyFilter();
+
+      root.querySelectorAll('.review-filters .chip').forEach(c => {
+        c.addEventListener('click', () => {
+          reviewFilter = c.dataset.f;
+          root.querySelectorAll('.review-filters .chip').forEach(x => x.classList.toggle('active', x.dataset.f === reviewFilter));
+          applyFilter();
+        });
+      });
+      root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
+      root.querySelector('#btn-restart-exam').addEventListener('click', () => restartExam(activeExamIdx));
+      root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
+        el.addEventListener('click', () => {
+          const qi = parseInt(el.dataset.idx, 10);
+          const li = qi - start;
+          if (li < 0 || li >= grp.questions.length) return;
+          idx = qi; // focus this question so Alt+C / Shift+V copy the right one
+          // Incremental highlight — avoid wiping the long review list.
+          root.querySelectorAll('.q-chip.current').forEach(c => c.classList.remove('current'));
+          el.classList.add('current');
+          const target = root.querySelector(`.review-item[data-local="${li}"]`);
+          if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+      });
+    }
+
+    function verdictLabel(k) {
+      return ({
+        correct: '✓ Correct',
+        partial: '~ Partial',
+        wrong:   '✗ Wrong',
+        skipped: '— Skipped',
+        unknown: '? No official correction',
+      })[k] || k;
+    }
+
+    function examLocalIdx() { return idx - examStarts[activeExamIdx]; }
+
     function toggle(letter) {
-      if (checked) return; // locked
+      if (viewMode === 'exam-review') return;
+      if (viewMode === 'exam-run') {
+        const ei = activeExamIdx;
+        const li = examLocalIdx();
+        const sess = examSession(ei);
+        const cur = new Set(sess.picked[li] || []);
+        if (!cfg.multiSelect) cur.clear();
+        if (cur.has(letter)) cur.delete(letter); else cur.add(letter);
+        sess.picked[li] = [...cur];
+        sess.cur = li;
+        saveExamSession(ei, sess);
+        picked = cur;
+        // re-render just the option states without rebuilding the whole pane
+        renderExamRun();
+        return;
+      }
+      // training
+      if (checked) return;
       if (!cfg.multiSelect) picked.clear();
       if (picked.has(letter)) picked.delete(letter); else picked.add(letter);
-      // Save partial pick
       answers[idx] = { ...(answers[idx] || {}), picked: [...picked], checked: false };
       persist();
       render();
     }
 
     function check() {
-      const q = currentQ();
+      if (viewMode !== 'training') return;
       checked = true;
       const ev = evaluate();
       answers[idx] = {
@@ -1002,36 +1570,79 @@
       render();
     }
 
-    function next() {
-      if (idx < questions.length - 1) {
-        idx++;
-        phase = 'question';
+    function navWithin(direction) {
+      if (viewMode === 'exam-run') {
+        const ei = activeExamIdx;
+        const grp = exams[ei];
+        const start = examStarts[ei];
+        const end = start + grp.questions.length;
+        const ni = idx + direction;
+        if (ni < start || ni >= end) return false;
+        idx = ni;
+        const sess = examSession(ei);
+        sess.cur = ni - start;
+        saveExamSession(ei, sess);
         render();
-      } else {
-        toast('🏁 End of module. Great work!', 'ok');
+        return true;
       }
+      if (direction > 0 && idx < questions.length - 1) { idx++; phase = 'question'; render(); return true; }
+      if (direction < 0 && idx > 0) { idx--; phase = 'question'; render(); return true; }
+      return false;
+    }
+
+    function next() {
+      if (viewMode === 'exam-review') return;
+      const moved = navWithin(+1);
+      if (!moved && viewMode !== 'exam-run') toast('🏁 End of module. Great work!', 'ok');
+      else if (!moved && viewMode === 'exam-run') toast('Last question — press Submit when ready', 'warn');
     }
     function prev() {
-      if (idx > 0) {
-        idx--;
-        phase = 'question';
-        render();
-      }
+      if (viewMode === 'exam-review') return;
+      navWithin(-1);
     }
     function gotoIdx(i) {
+      if (viewMode === 'exam-run') {
+        const ei = activeExamIdx;
+        const start = examStarts[ei];
+        const end = start + exams[ei].questions.length;
+        if (i < start || i >= end) return;
+        idx = i;
+        const sess = examSession(ei);
+        sess.cur = i - start;
+        saveExamSession(ei, sess);
+        render();
+        return;
+      }
+      if (viewMode === 'exam-review') return;
       if (i < 0 || i >= questions.length) return;
       idx = i;
       phase = 'question';
       render();
     }
     function gotoQuestionPrompt() {
-      const v = window.prompt(`Go to question (1–${questions.length}):`, String(idx + 1));
+      const max = (viewMode === 'exam-run') ? exams[activeExamIdx].questions.length : questions.length;
+      const curDisplay = (viewMode === 'exam-run') ? (examLocalIdx() + 1) : (idx + 1);
+      const v = window.prompt(`Go to question (1–${max}):`, String(curDisplay));
       if (!v) return;
       const n = parseInt(v, 10);
-      if (!isNaN(n) && n >= 1 && n <= questions.length) gotoIdx(n - 1);
+      if (isNaN(n) || n < 1 || n > max) return;
+      if (viewMode === 'exam-run') gotoIdx(examStarts[activeExamIdx] + n - 1);
+      else gotoIdx(n - 1);
     }
 
     function resetCurrent() {
+      if (viewMode === 'exam-run') {
+        const ei = activeExamIdx;
+        const li = examLocalIdx();
+        const sess = examSession(ei);
+        delete sess.picked[li];
+        saveExamSession(ei, sess);
+        picked.clear();
+        render();
+        toast('🔄 Cleared', 'warn');
+        return;
+      }
+      if (viewMode === 'exam-review') return;
       delete answers[idx];
       picked.clear();
       checked = false;
@@ -1042,9 +1653,10 @@
     }
 
     function spaceAction() {
+      if (viewMode === 'exam-run') { next(); return; }
+      if (viewMode === 'exam-review') return;
       if (!checked) {
         if (picked.size === 0) {
-          // pick random
           const q = currentQ();
           if (!q.options.length) return;
           const r = q.options[Math.floor(Math.random() * q.options.length)];
@@ -1117,18 +1729,25 @@
 
     // ===== Copy prompts =====
     function buildSimplePrompt() {
+      if (viewMode === 'exam-pick' || viewMode === 'exam-review') return null;
       const q = currentQ();
+      if (!q) return null;
       const opts = q.options.map(o => `${o.letter}. ${o.text}`).join('\n');
       return `Question médicale :\n${q.text}\n\nPropositions :\n${opts}\n\nPour chaque proposition, indique si elle est VRAIE ou FAUSSE avec une explication courte et précise.`;
     }
     function buildAIPrompt() {
+      if (viewMode === 'exam-pick') return null;
       const q = currentQ();
+      if (!q) return null;
       const opts = q.options.map(o => `${o.letter}. ${o.text}`).join('\n');
       let p = `Rôle : Agis en tant que Professeur agrégé de médecine et expert en pédagogie médicale. Corrige ce QCM avec rigueur et clarté.\n\n`;
       p += `### Contexte\n* Module : ${module.name}\n* Examen : ${q.exam}\n* Question : Q${q.qn}${q.topic ? ' — ' + q.topic : ''}\n\n`;
       p += `### Question\n${q.text}\n\n`;
       p += `### Propositions\n${opts}\n\n`;
-      if (cfg.showCorrectionOnCopy && checked && q.correct && q.correct.length) {
+      // Show correction only when it's already been revealed to the user
+      // (training-mode checked, or exam-review). Never leak during exam-run.
+      const correctionVisible = (viewMode === 'training' && checked) || viewMode === 'exam-review';
+      if (cfg.showCorrectionOnCopy && correctionVisible && q.correct && q.correct.length) {
         p += `### Correction officielle\n${q.correct.join(', ')}\n\n`;
       }
       p += `### Ta mission (Markdown)\n`;
@@ -1142,6 +1761,7 @@
     }
     function copyPrompt(builder, label) {
       const text = builder();
+      if (!text) { toast('Open a question first to copy', 'warn'); return; }
       navigator.clipboard.writeText(text).then(
         () => toast(`📋 ${label} copied (${text.length} chars)`, 'ok'),
         () => {
@@ -1165,8 +1785,57 @@
       }
 
       const k = e.key;
-      // Always-on shortcuts
+
+      // Esc exits exam-run/review back to picker; from picker, goes to dashboard.
+      if (k === 'Escape' && !document.querySelector('.overlay')) {
+        if (viewMode === 'exam-run' || viewMode === 'exam-review') {
+          e.preventDefault(); exitExam(); return;
+        }
+        if (viewMode === 'exam-pick') {
+          e.preventDefault(); window.location.href = '../index.html'; return;
+        }
+      }
+
+      // Exam picker: digit jump + dashboard
+      if (viewMode === 'exam-pick') {
+        if (handleGlobalKeys(e)) return;
+        if (/^[1-9]$/.test(k)) {
+          const ei = parseInt(k, 10) - 1;
+          if (ei < exams.length) { e.preventDefault(); enterExam(ei); }
+          return;
+        }
+        if (k === '0' || (k === 'd' && !e.ctrlKey && !e.metaKey)) {
+          e.preventDefault();
+          if (dashboardConfirm) { clearTimeout(dashboardConfirmT); window.location.href = '../index.html'; }
+          else { dashboardConfirm = true; toast('🏠 Press 0/D again for Dashboard', 'warn');
+                 dashboardConfirmT = setTimeout(() => { dashboardConfirm = false; }, 1500); }
+          return;
+        }
+        if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
+        return;
+      }
+
+      // Exam review: filter chips by digit, R retake, H sidebar
+      if (viewMode === 'exam-review') {
+        if (handleGlobalKeys(e)) return;
+        if (/^[1-5]$/.test(k)) {
+          e.preventDefault();
+          reviewFilter = ['all','correct','partial','wrong','skipped'][parseInt(k, 10) - 1];
+          render();
+          return;
+        }
+        if (k === 'r' || k === 'R') { e.preventDefault(); restartExam(activeExamIdx); return; }
+        if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
+        return;
+      }
+
+      // Always-on shortcuts (training / exam-run share these)
       if (handleGlobalKeys(e)) return;
+
+      // Submit exam shortcut: Shift+Enter
+      if (viewMode === 'exam-run' && e.shiftKey && k === 'Enter') {
+        e.preventDefault(); tryConfirmSubmit(); return;
+      }
 
       // Module page-specific
       if (e.altKey && !e.ctrlKey && !e.metaKey && !e.shiftKey && k.toLowerCase() === 'c') {
@@ -1278,7 +1947,7 @@
     if (k === 'p' && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); pomoToggle(); return true; }
     if (k === 'P' && e.shiftKey) { e.preventDefault(); pomoToggle(); return true; }
     if (k === 'm' || k === 'M') { e.preventDefault(); showModuleSwitcher(); return true; }
-    if (k === 's' && e.shiftKey) { e.preventDefault(); showSettings(); return true; }
+    if ((k === 's' || k === 'S') && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); showSettings(); return true; }
     return false;
   }
 
