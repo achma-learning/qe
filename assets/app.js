@@ -664,12 +664,14 @@
           a.dataset.idx = String(globalIdx);
           a.dataset.slug = m.slug;
           const prog = LS.get(`progress.${m.slug}`, null);
+          const cnt = (window.QE_COUNTS || {})[m.slug];
+          const total = (prog && prog.total) || (cnt && cnt.questions) || null;
           const pct = prog && prog.total ? Math.round((prog.answered / prog.total) * 100) : 0;
           a.innerHTML = `
             <span class="num">${globalIdx <= 9 ? globalIdx : ''}</span>
             <div class="title">${m.name}</div>
-            <div class="meta">${m.sem} · ${m.file.split('/').pop()}</div>
-            ${prog ? `<div class="meta">${prog.answered}/${prog.total} · ${prog.correct || 0}✓</div><div class="progress"><span style="width:${pct}%"></span></div>` : ''}
+            <div class="meta">${m.sem}${total ? ' · ' + total + ' Q' : ''}${cnt ? ' · ' + cnt.exams + ' exams' : ''}</div>
+            ${prog ? `<div class="meta">${prog.answered}/${prog.total} answered · ${prog.correct || 0}✓</div><div class="progress"><span style="width:${pct}%"></span></div>` : ''}
           `;
           grid.appendChild(a);
         });
@@ -773,20 +775,24 @@
     island.id = 'qe-island';
     document.body.appendChild(island);
 
-    // Load text file
-    let text;
-    try {
-      const url = '../' + encodeURI(module.file);
-      const res = await fetch(url, { cache: 'force-cache' });
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      text = await res.text();
-    } catch (e) {
-      root.innerHTML = `<div class="empty"><div class="ico">⚠️</div>Failed to load <code>${module.file}</code><br><small>${e.message}</small><br><br>Serve the folder via a local web server (e.g. <code>python -m http.server</code>) — opening as <code>file://</code> blocks fetch.</div>`;
-      return;
+    // Prefer pre-baked data (offline-friendly), fall back to live parse if absent
+    let parsed;
+    if (window.QE_DATA && window.QE_DATA.slug === module.slug) {
+      parsed = { questions: window.QE_DATA.questions, exams: window.QE_DATA.exams };
+    } else {
+      try {
+        const url = '../' + encodeURI(module.file);
+        const res = await fetch(url, { cache: 'force-cache' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const text = await res.text();
+        parsed = parseQuestionsFile(text);
+      } catch (e) {
+        root.innerHTML = `<div class="empty"><div class="ico">⚠️</div>Failed to load <code>${module.file}</code><br><small>${e.message}</small><br><br>Run <code>node tools/build-data.js</code> to bake offline data, or serve the folder via <code>python3 -m http.server</code>.</div>`;
+        return;
+      }
     }
 
-    const parsed = parseQuestionsFile(text);
-    if (parsed.questions.length === 0) {
+    if (!parsed.questions || parsed.questions.length === 0) {
       root.innerHTML = `<div class="empty"><div class="ico">📭</div>No questions parsed from this module.</div>`;
       return;
     }

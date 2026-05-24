@@ -5,13 +5,32 @@ question files.
 
 ## Run it
 
-It's pure static HTML/CSS/JS — no build step. But `fetch()` on the question
-files needs an HTTP origin, so serve the folder instead of opening `file://`:
+Pure static HTML/CSS/JS — no install, no build step at use time. Three ways:
+
+### 1. Offline — open `index.html` directly (download as ZIP)
+
+The build step (already run, committed) bakes every `.txt` into
+`data/<slug>.data.js`, loaded via plain `<script>` tags so it works on
+`file://`. Just unzip the repo and double-click `index.html`.
+
+### 2. Local HTTP server (recommended for dev)
 
 ```sh
 python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
+
+This path also falls back to live-parsing the original `.txt` files via
+`fetch()` if the baked data is missing, so you can edit a `.txt` and
+reload without rebuilding.
+
+### 3. Rebuild the offline bundle after editing `.txt` or the parser
+
+```sh
+node tools/build-data.js
+```
+
+Regenerates `data/*.data.js` and `data/_counts.js`.
 
 ## Files
 
@@ -21,6 +40,9 @@ python3 -m http.server 8000
 - `assets/app.js` — parser, viewer, keyboard layer, pomodoro, overlays
 - `assets/style.css` — dark/light theme, dynamic island timer, etc.
 - `data/<semester>/<module>.txt` — source question files
+- `data/<slug>.data.js` — baked offline payload (run `tools/build-data.js`)
+- `data/_counts.js` — question + exam counts surfaced on the dashboard
+- `tools/build-data.js` — Node script: parses every `.txt` → `data/*.data.js`
 
 ## Keyboard (the whole point)
 
