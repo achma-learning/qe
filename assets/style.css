@@ -178,7 +178,8 @@ html.light .topbar { background: rgba(245,247,255,.85); }
 .sidebar .exam-name { font-size: 12px; color: var(--text-dim); padding: 4px 6px; font-family: var(--mono); display: flex; justify-content: space-between; gap: 6px; align-items: center; }
 .sidebar .exam-name.current { color: var(--accent); font-weight: 700; }
 .sidebar .exam-name.current::before { content: "▸ "; }
-.sidebar .exam-name .stats { color: var(--text-faint); font-size: 11px; }
+.sidebar .exam-name .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; flex: 1; }
+.sidebar .exam-name .stats { color: var(--text-faint); font-size: 11px; flex-shrink: 0; }
 .sidebar .exam-name .stats b { color: var(--ok); }
 .sidebar .q-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 2px 4px 8px; }
 .sidebar .q-chip {

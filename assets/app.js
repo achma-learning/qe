@@ -915,7 +915,9 @@
           activeExamIdx = ei;
           const sess = examSession(ei);
           viewMode = sess.submitted ? 'exam-review' : 'exam-run';
-          idx = examStarts[ei] + (sess.cur || 0);
+          const grp = exams[ei];
+          const localCur = Math.max(0, Math.min(grp.questions.length - 1, sess.cur || 0));
+          idx = examStarts[ei] + localCur;
         } else {
           viewMode = 'exam-pick';
         }
@@ -1136,6 +1138,9 @@
 
     // ===== Exam mode helpers =====
     function enterExam(ei) {
+      // Make sure any stale training-mode auto-advance timer is invalidated
+      // before we switch view modes.
+      stopTimer(); hideIsland();
       activeExamIdx = ei;
       const sess = examSession(ei);
       viewMode = sess.submitted ? 'exam-review' : 'exam-run';
@@ -1230,13 +1235,13 @@
         }
         const pct = sess.submitted ? Math.round(examScore(ei).correct / grp.questions.length * 100) : Math.round(picks / grp.questions.length * 100);
         return `
-          <a class="exam-tile" data-ei="${ei}" tabindex="0">
+          <div class="exam-tile" data-ei="${ei}" role="button" tabindex="0">
             <span class="num">${ei < 9 ? ei + 1 : ''}</span>
             <div class="name">${escapeHtml(grp.name)}</div>
-            <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a href="' + grp.url + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
+            <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a class="src-link" href="' + grp.url + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
             <div class="status ${statusCls}">${status}</div>
             <div class="progress"><span style="width:${pct}%"></span></div>
-          </a>
+          </div>
         `;
       }).join('');
       root.innerHTML = `
@@ -1255,7 +1260,17 @@
       `;
       const list = root.querySelector('#exam-list');
       list.querySelectorAll('.exam-tile').forEach(t => {
-        t.addEventListener('click', () => enterExam(parseInt(t.dataset.ei, 10)));
+        t.addEventListener('click', (e) => {
+          // Let the source ↗ anchor open its own tab; everywhere else, enter the exam.
+          if (e.target.closest('a.src-link')) return;
+          enterExam(parseInt(t.dataset.ei, 10));
+        });
+        t.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            enterExam(parseInt(t.dataset.ei, 10));
+          }
+        });
       });
       root.querySelector('#btn-mode-switch').addEventListener('click', () => {
         LS.set('mode', 'training');
@@ -1397,6 +1412,7 @@
       const durM = Math.floor(dur / 60), durS = String(dur % 60).padStart(2, '0');
       const scoreCls = score100 >= 70 ? 'good' : score100 >= 50 ? 'mid' : 'bad';
 
+      const inExam = (idx >= start && idx < start + grp.questions.length);
       const sidebarHtml = buildSidebarHtml({
         chipState: (qIdx) => {
           if (qIdx < start || qIdx >= start + grp.questions.length) return { kind: 'untouched' };
@@ -1405,7 +1421,7 @@
           if (ev.kind === 'skipped') return { kind: 'untouched' };
           return { kind: ev.kind };
         },
-        currentGlobal: -1,
+        currentGlobal: inExam ? idx : -1,
       });
 
       const items = grp.questions.map((q, j) => {
@@ -1490,6 +1506,10 @@
           const qi = parseInt(el.dataset.idx, 10);
           const li = qi - start;
           if (li < 0 || li >= grp.questions.length) return;
+          idx = qi; // focus this question so Alt+C / Shift+V copy the right one
+          // Incremental highlight — avoid wiping the long review list.
+          root.querySelectorAll('.q-chip.current').forEach(c => c.classList.remove('current'));
+          el.classList.add('current');
           const target = root.querySelector(`.review-item[data-local="${li}"]`);
           if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
@@ -1709,18 +1729,25 @@
 
     // ===== Copy prompts =====
     function buildSimplePrompt() {
+      if (viewMode === 'exam-pick' || viewMode === 'exam-review') return null;
       const q = currentQ();
+      if (!q) return null;
       const opts = q.options.map(o => `${o.letter}. ${o.text}`).join('\n');
       return `Question médicale :\n${q.text}\n\nPropositions :\n${opts}\n\nPour chaque proposition, indique si elle est VRAIE ou FAUSSE avec une explication courte et précise.`;
     }
     function buildAIPrompt() {
+      if (viewMode === 'exam-pick') return null;
       const q = currentQ();
+      if (!q) return null;
       const opts = q.options.map(o => `${o.letter}. ${o.text}`).join('\n');
       let p = `Rôle : Agis en tant que Professeur agrégé de médecine et expert en pédagogie médicale. Corrige ce QCM avec rigueur et clarté.\n\n`;
       p += `### Contexte\n* Module : ${module.name}\n* Examen : ${q.exam}\n* Question : Q${q.qn}${q.topic ? ' — ' + q.topic : ''}\n\n`;
       p += `### Question\n${q.text}\n\n`;
       p += `### Propositions\n${opts}\n\n`;
-      if (cfg.showCorrectionOnCopy && checked && q.correct && q.correct.length) {
+      // Show correction only when it's already been revealed to the user
+      // (training-mode checked, or exam-review). Never leak during exam-run.
+      const correctionVisible = (viewMode === 'training' && checked) || viewMode === 'exam-review';
+      if (cfg.showCorrectionOnCopy && correctionVisible && q.correct && q.correct.length) {
         p += `### Correction officielle\n${q.correct.join(', ')}\n\n`;
       }
       p += `### Ta mission (Markdown)\n`;
@@ -1734,6 +1761,7 @@
     }
     function copyPrompt(builder, label) {
       const text = builder();
+      if (!text) { toast('Open a question first to copy', 'warn'); return; }
       navigator.clipboard.writeText(text).then(
         () => toast(`📋 ${label} copied (${text.length} chars)`, 'ok'),
         () => {
@@ -1919,7 +1947,7 @@
     if (k === 'p' && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); pomoToggle(); return true; }
     if (k === 'P' && e.shiftKey) { e.preventDefault(); pomoToggle(); return true; }
     if (k === 'm' || k === 'M') { e.preventDefault(); showModuleSwitcher(); return true; }
-    if (k === 's' && e.shiftKey) { e.preventDefault(); showSettings(); return true; }
+    if ((k === 's' || k === 'S') && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); showSettings(); return true; }
     return false;
   }
 
