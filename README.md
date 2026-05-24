@@ -14,3 +14,6 @@ list of question data
 # to consider :
 simple system to use but powerfull
 keyboard driven for poweruser, like here : https://github.com/achma-learning/eqe/blob/main/%2B%2B%2B%20userscript.txt
+
+# later make a button in each exam page to download : current exam + correction as pdf, by upload a pdf version of original pdf
+
