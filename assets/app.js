@@ -1090,10 +1090,20 @@
       return { correct: allRight && got.size > 0, partial, unknown: false };
     }
 
+    // Persistent map of which non-current exam groups the user has manually
+    // expanded. The current exam is always open regardless of this map.
+    const openKey = `examOpen.${module.slug}`;
+    const getOpenExams = () => LS.get(openKey, {});
+    const setExamOpen = (ei, open) => {
+      const m = getOpenExams();
+      if (open) m[ei] = true; else delete m[ei];
+      LS.set(openKey, m);
+    };
+
     // Build the per-exam sidebar HTML. Tracks offset directly (no .indexOf scan),
     // distinguishes untouched / picked / correct / partial / wrong chips, and
     // highlights the active exam header.  `chipState(qIdx)` returns one of:
-    //   { kind: 'untouched' | 'picked' | 'correct' | 'partial' | 'wrong' }
+    //   { kind: 'untouched' | 'picked' | 'correct' | 'partial' | 'wrong' | 'unknown' }
     function buildSidebarHtml(opts) {
       opts = opts || {};
       const chipState = opts.chipState || ((qIdx) => {
@@ -1110,12 +1120,14 @@
       });
       const interactive = opts.interactive !== false;
       const currentGlobal = opts.currentGlobal != null ? opts.currentGlobal : idx;
+      const openMap = getOpenExams();
 
       let offset = 0;
       return exams.map((grp, ei) => {
         const start = offset;
         const end = offset + grp.questions.length;
         const isCurrentExam = (currentGlobal >= start && currentGlobal < end);
+        const isOpen = isCurrentExam || !!openMap[ei];
         let answered = 0, correct = 0, picked = 0;
         const chips = grp.questions.map((qq, j) => {
           const qIdx = start + j;
@@ -1135,8 +1147,9 @@
         const examLink = grp.url ? `<a href="${grp.url}" target="_blank" rel="noopener" title="Open original on e-qe.online">↗</a>` : '';
         const stats = `<span class="stats">${answered}/${grp.questions.length}${correct ? ' · <b>' + correct + '✓</b>' : ''}${picked ? ' · ' + picked + '◔' : ''} ${examLink}</span>`;
         return `
-          <div class="exam-group" data-exam-idx="${ei}">
-            <div class="exam-name ${isCurrentExam ? 'current' : ''}">
+          <div class="exam-group ${isOpen ? '' : 'collapsed'}" data-exam-idx="${ei}">
+            <div class="exam-name ${isCurrentExam ? 'current' : ''}" role="${isCurrentExam ? 'heading' : 'button'}" aria-expanded="${isOpen}" tabindex="${isCurrentExam ? '-1' : '0'}">
+              <span class="chev" aria-hidden="true">▾</span>
               <span class="name" title="${grp.name}">${grp.name}</span>
               ${stats}
             </div>
@@ -1144,6 +1157,28 @@
           </div>
         `;
       }).join('');
+    }
+
+    // Hook up the exam-name toggle clicks. Call from every render that builds a sidebar.
+    function wireSidebarToggles(rootEl) {
+      rootEl.querySelectorAll('.exam-group').forEach(grp => {
+        const head = grp.querySelector('.exam-name');
+        if (!head) return;
+        const toggle = (e) => {
+          if (e && e.target.closest('a')) return;            // ↗ link → open tab
+          if (head.classList.contains('current')) return;     // current is forced open
+          if (e) { e.preventDefault(); e.stopPropagation(); }
+          const ei = parseInt(grp.dataset.examIdx, 10);
+          const collapsing = !grp.classList.contains('collapsed');
+          grp.classList.toggle('collapsed');
+          head.setAttribute('aria-expanded', String(!collapsing));
+          setExamOpen(ei, !collapsing);
+        };
+        head.addEventListener('click', toggle);
+        head.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') toggle(e);
+        });
+      });
     }
 
     function render() {
@@ -1244,6 +1279,7 @@
       root.querySelectorAll('.q-chip').forEach(el => {
         el.addEventListener('click', () => { gotoIdx(parseInt(el.dataset.idx, 10)); });
       });
+      wireSidebarToggles(root);
 
       // Restart timer for current phase
       if (cfg.autoAdvance) startTimer();
@@ -1525,6 +1561,7 @@
       root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
         el.addEventListener('click', () => { gotoIdx(parseInt(el.dataset.idx, 10)); });
       });
+      wireSidebarToggles(root);
       startExamTimer();
     }
 
@@ -1658,6 +1695,7 @@
           if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
         });
       });
+      wireSidebarToggles(root);
     }
 
     function verdictLabel(k) {
