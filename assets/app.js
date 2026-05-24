@@ -37,7 +37,52 @@
       try { localStorage.setItem('qe:' + k, JSON.stringify(v)); } catch {}
     },
     del(k) { try { localStorage.removeItem('qe:' + k); } catch {} },
+    // Iterate over every qe:* key and remove the ones matching the predicate.
+    delMatching(pred) {
+      try {
+        const toDel = [];
+        for (let i = 0; i < localStorage.length; i++) {
+          const k = localStorage.key(i);
+          if (k && k.startsWith('qe:') && pred(k.slice(3))) toDel.push(k);
+        }
+        toDel.forEach(k => localStorage.removeItem(k));
+        return toDel.length;
+      } catch { return 0; }
+    },
   };
+
+  // ===== Progress reset helpers =====
+  // Wipe every storage entry tied to a module: training answers + per-exam
+  // sessions + cursor + cached progress summary.
+  function resetModuleProgress(slug) {
+    const n = LS.delMatching(key =>
+      key === `answers.${slug}` ||
+      key === `current.${slug}` ||
+      key === `progress.${slug}` ||
+      key.startsWith(`exam.${slug}.`)
+    );
+    return n;
+  }
+  // Wipe just one exam's session (used in the exam picker / review screen).
+  function resetExamProgress(slug, ei) {
+    LS.del(`exam.${slug}.${ei}`);
+  }
+  // Wipe training-mode answers for a specific exam range only. The training
+  // 'current' cursor is left alone; the user can keep where they were.
+  function resetTrainingExamRange(slug, startIdx, count) {
+    const ans = LS.get(`answers.${slug}`, {});
+    let removed = 0;
+    for (let i = startIdx; i < startIdx + count; i++) {
+      if (ans[i] !== undefined) { delete ans[i]; removed++; }
+    }
+    LS.set(`answers.${slug}`, ans);
+    // Recompute progress summary
+    const total = LS.get(`progress.${slug}`, { total: 0 }).total || 0;
+    const checked = Object.values(ans).filter(a => a.checked).length;
+    const correct = Object.values(ans).filter(a => a.checked && a.correct).length;
+    LS.set(`progress.${slug}`, { total, answered: checked, correct });
+    return removed;
+  }
 
   // ===== Theme =====
   function applyTheme(t) {
@@ -53,13 +98,14 @@
 
   // ===== Toast =====
   let toastT = null;
+  const raf = (cb) => (typeof requestAnimationFrame === 'function' ? requestAnimationFrame(cb) : setTimeout(cb, 16));
   function toast(msg, kind = '') {
     let el = document.getElementById('qe-toast');
     if (!el) { el = document.createElement('div'); el.id = 'qe-toast'; document.body.appendChild(el); }
     el.className = '';
     if (kind) el.classList.add(kind);
     el.textContent = msg;
-    requestAnimationFrame(() => el.classList.add('show'));
+    raf(() => el.classList.add('show'));
     clearTimeout(toastT);
     toastT = setTimeout(() => el.classList.remove('show'), 2200);
   }
@@ -316,6 +362,14 @@
           <div class="keys">${k('Esc')} (exam-run)</div><div>Pause and back to picker (progress kept)</div>
           <div class="keys">${k('1')}–${k('5')} (review)</div><div>Filter: all / correct / partial / wrong / skipped</div>
           <div class="keys">${k('R')} (review)</div><div>Retake same exam (clears stored answers)</div>
+          <div class="keys">${k('0')} / ${k('D')} ×2</div><div>Back to dashboard (anywhere)</div>
+        </div>
+        <div class="group-title">Reset progress</div>
+        <div class="help-grid">
+          <div class="keys">↻ on module card</div><div>Wipe ALL progress for that module (training + every exam). Click ↻ twice to confirm.</div>
+          <div class="keys">${k('R')} ×2 (dashboard)</div><div>Same — focus a card with arrows, then press R twice.</div>
+          <div class="keys">↻ on exam tile</div><div>Wipe just that exam's session. Click ↻ twice to confirm.</div>
+          <div class="keys">${k('R')} (training)</div><div>Reset the CURRENT question only (press R twice).</div>
         </div>
         <div class="esc-hint">Click background or press Esc to close.</div>
       `;
@@ -697,7 +751,7 @@
           <p>Keyboard-driven question trainer. Pick a module to start practising.</p>
           <div class="hint">
             <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
-            <kbd>/</kbd> search · <kbd>M</kbd> switcher · <kbd>L</kbd> theme · <kbd>?</kbd> help
+            <kbd>/</kbd> search · <kbd>R</kbd>×2 reset focused module · <kbd>L</kbd> theme · <kbd>?</kbd> help
             · current mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
           </div>
         </div>
@@ -742,12 +796,30 @@
           const cnt = (window.QE_COUNTS || {})[m.slug];
           const total = (prog && prog.total) || (cnt && cnt.questions) || null;
           const pct = prog && prog.total ? Math.round((prog.answered / prog.total) * 100) : 0;
+          const hasProgress = !!(prog && (prog.answered > 0));
+          // Also count any submitted-or-draft exam sessions for the badge
+          let examSessions = 0;
+          for (let i = 0; i < localStorage.length; i++) {
+            const k = localStorage.key(i);
+            if (k && k.startsWith(`qe:exam.${m.slug}.`)) examSessions++;
+          }
+          const showReset = hasProgress || examSessions > 0;
           a.innerHTML = `
             <span class="num">${globalIdx <= 9 ? globalIdx : ''}</span>
+            ${showReset ? `<button class="card-reset" type="button" title="Reset all progress for this module (click twice to confirm)" aria-label="Reset progress">↻</button>` : ''}
             <div class="title">${m.name}</div>
-            <div class="meta">${m.sem}${total ? ' · ' + total + ' Q' : ''}${cnt ? ' · ' + cnt.exams + ' exams' : ''}</div>
+            <div class="meta">${m.sem}${total ? ' · ' + total + ' Q' : ''}${cnt ? ' · ' + cnt.exams + ' exams' : ''}${examSessions ? ' · ' + examSessions + ' exam' + (examSessions>1?'s':'') + ' taken' : ''}</div>
             ${prog ? `<div class="meta">${prog.answered}/${prog.total} answered · ${prog.correct || 0}✓</div><div class="progress"><span style="width:${pct}%"></span></div>` : ''}
           `;
+          // Wire the reset button so it doesn't navigate.
+          const resetBtn = a.querySelector('.card-reset');
+          if (resetBtn) {
+            resetBtn.addEventListener('click', (ev) => {
+              ev.preventDefault();
+              ev.stopPropagation();
+              tryResetModule(m, resetBtn);
+            });
+          }
           grid.appendChild(a);
         });
         semRoot.appendChild(block);
@@ -769,6 +841,29 @@
       const card = cards[focusIdx];
       card.classList.add('focused');
       card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      // Reset confirmation is bound to the focused card; clear pending state on focus change.
+      resetPending = null;
+      clearTimeout(resetPendingT);
+    }
+
+    let resetPending = null; // slug currently armed for confirm
+    let resetPendingT = null;
+    function tryResetModule(m, srcBtn) {
+      if (resetPending === m.slug) {
+        clearTimeout(resetPendingT);
+        resetPending = null;
+        const n = resetModuleProgress(m.slug);
+        toast(`🔄 ${m.name} — ${n} progress entries wiped`, 'ok');
+        render(document.getElementById('qe-search')?.value || '');
+      } else {
+        resetPending = m.slug;
+        toast(`⚠️ ${m.name}: click ↻ again (or R) within 2s to wipe ALL progress`, 'warn');
+        if (srcBtn) {
+          srcBtn.classList.add('armed');
+          setTimeout(() => srcBtn.classList.remove('armed'), 2000);
+        }
+        resetPendingT = setTimeout(() => { resetPending = null; }, 2000);
+      }
     }
 
     const search = document.getElementById('qe-search');
@@ -821,6 +916,25 @@
         const grid = (cards[focusIdx] || cards[0]).parentElement;
         const cs = getComputedStyle(grid).gridTemplateColumns.split(' ').length;
         focusCardByIdx(focusIdx < 0 ? 0 : focusIdx - cs);
+        return;
+      }
+      if (k === 'r' || k === 'R') {
+        if (focusIdx < 0) {
+          toast('Focus a module card first (arrows), then press R twice', 'warn');
+          return;
+        }
+        const card = cards[focusIdx];
+        const slug = card.dataset.slug;
+        const m = mods.find(x => x.slug === slug);
+        if (!m) return;
+        e.preventDefault();
+        tryResetModule(m, card.querySelector('.card-reset'));
+        return;
+      }
+      if (k === '0' || (k === 'd' && !e.shiftKey && !e.ctrlKey && !e.metaKey && !e.altKey)) {
+        e.preventDefault();
+        // Already on dashboard — flash a hint instead of navigating.
+        toast('🏠 You are on the Dashboard', 'ok');
         return;
       }
     }, true);
@@ -1187,6 +1301,27 @@
       LS.del(`exam.${module.slug}.${ei}`);
       enterExam(ei);
     }
+
+    // Two-click confirm for the ↻ button on each picker tile. Just wipes that
+    // exam's session and re-renders the picker so the status flips back to "Not started".
+    let tileResetPendingEi = null, tileResetT = null;
+    function tryResetExamTile(ei, srcBtn) {
+      if (tileResetPendingEi === ei) {
+        clearTimeout(tileResetT);
+        tileResetPendingEi = null;
+        resetExamProgress(module.slug, ei);
+        toast(`🔄 ${exams[ei].name} — exam progress wiped`, 'ok');
+        if (viewMode === 'exam-pick') render();
+      } else {
+        tileResetPendingEi = ei;
+        toast(`⚠️ Click ↻ again to wipe "${exams[ei].name}"`, 'warn');
+        if (srcBtn) {
+          srcBtn.classList.add('armed');
+          setTimeout(() => srcBtn.classList.remove('armed'), 2000);
+        }
+        tileResetT = setTimeout(() => { tileResetPendingEi = null; }, 2000);
+      }
+    }
     function evaluateExamLocal(ei, localIdx) {
       const sess = examSession(ei);
       const grp = exams[ei];
@@ -1234,9 +1369,11 @@
           status = 'Not started';
         }
         const pct = sess.submitted ? Math.round(examScore(ei).correct / grp.questions.length * 100) : Math.round(picks / grp.questions.length * 100);
+        const showReset = (picks > 0 || sess.submitted);
         return `
           <div class="exam-tile" data-ei="${ei}" role="button" tabindex="0">
             <span class="num">${ei < 9 ? ei + 1 : ''}</span>
+            ${showReset ? `<button class="tile-reset" type="button" data-ei="${ei}" title="Reset this exam's progress (click twice)" aria-label="Reset exam">↻</button>` : ''}
             <div class="name">${escapeHtml(grp.name)}</div>
             <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a class="src-link" href="' + grp.url + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
             <div class="status ${statusCls}">${status}</div>
@@ -1261,8 +1398,8 @@
       const list = root.querySelector('#exam-list');
       list.querySelectorAll('.exam-tile').forEach(t => {
         t.addEventListener('click', (e) => {
-          // Let the source ↗ anchor open its own tab; everywhere else, enter the exam.
-          if (e.target.closest('a.src-link')) return;
+          if (e.target.closest('a.src-link')) return;           // ↗ link → open tab, stop here
+          if (e.target.closest('.tile-reset')) return;          // ↻ → handled below
           enterExam(parseInt(t.dataset.ei, 10));
         });
         t.addEventListener('keydown', (e) => {
@@ -1270,6 +1407,13 @@
             e.preventDefault();
             enterExam(parseInt(t.dataset.ei, 10));
           }
+        });
+      });
+      list.querySelectorAll('.tile-reset').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          tryResetExamTile(parseInt(btn.dataset.ei, 10), btn);
         });
       });
       root.querySelector('#btn-mode-switch').addEventListener('click', () => {
@@ -1815,7 +1959,7 @@
         return;
       }
 
-      // Exam review: filter chips by digit, R retake, H sidebar
+      // Exam review: filter chips by digit, R retake, H sidebar, 0/D dashboard
       if (viewMode === 'exam-review') {
         if (handleGlobalKeys(e)) return;
         if (/^[1-5]$/.test(k)) {
@@ -1826,6 +1970,16 @@
         }
         if (k === 'r' || k === 'R') { e.preventDefault(); restartExam(activeExamIdx); return; }
         if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
+        if (k === '0' || (k === 'd' && !e.ctrlKey && !e.metaKey && !e.altKey)) {
+          e.preventDefault();
+          if (dashboardConfirm) { clearTimeout(dashboardConfirmT); window.location.href = '../index.html'; }
+          else {
+            dashboardConfirm = true;
+            toast('🏠 Press 0/D again for Dashboard', 'warn');
+            dashboardConfirmT = setTimeout(() => { dashboardConfirm = false; }, 1500);
+          }
+          return;
+        }
         return;
       }
 
