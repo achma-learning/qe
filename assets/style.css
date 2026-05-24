@@ -204,13 +204,30 @@ html.light .topbar { background: rgba(245,247,255,.85); }
   position: sticky; top: 64px;
 }
 .sidebar h3 { margin: 4px 6px 8px; font-size: 13px; color: var(--text-dim); text-transform: uppercase; letter-spacing: .8px; }
-.sidebar .exam-group { margin-bottom: 8px; }
-.sidebar .exam-name { font-size: 12px; color: var(--text-dim); padding: 4px 6px; font-family: var(--mono); display: flex; justify-content: space-between; gap: 6px; align-items: center; }
-.sidebar .exam-name.current { color: var(--accent); font-weight: 700; }
-.sidebar .exam-name.current::before { content: "▸ "; }
+.sidebar .exam-group { margin-bottom: 6px; }
+.sidebar .exam-name {
+  font-size: 12px; color: var(--text-dim); padding: 5px 6px;
+  font-family: var(--mono); display: flex; gap: 6px; align-items: center;
+  cursor: pointer; user-select: none; border-radius: 6px;
+  transition: background .12s, color .12s;
+}
+.sidebar .exam-name:hover { background: var(--bg-soft); color: var(--text); }
+.sidebar .exam-name.current { color: var(--accent); font-weight: 700; background: rgba(108,141,255,.08); cursor: default; }
+.sidebar .exam-name.current:hover { background: rgba(108,141,255,.12); }
+.sidebar .exam-name .chev {
+  font-size: 10px; line-height: 1; flex-shrink: 0;
+  display: inline-block; width: 10px; text-align: center;
+  color: var(--text-faint);
+  transition: transform .15s ease, color .15s;
+}
+.sidebar .exam-name.current .chev { color: var(--accent); }
+.sidebar .exam-group.collapsed .exam-name .chev { transform: rotate(-90deg); }
 .sidebar .exam-name .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; flex: 1; }
 .sidebar .exam-name .stats { color: var(--text-faint); font-size: 11px; flex-shrink: 0; }
 .sidebar .exam-name .stats b { color: var(--ok); }
+
+/* Collapsible body — display:none keeps it simple (and avoids tall q-list overflow surprises) */
+.sidebar .exam-group.collapsed .q-list { display: none; }
 .sidebar .q-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 4px; padding: 2px 4px 8px; }
 .sidebar .q-chip {
   display: flex; align-items: center; justify-content: center;
