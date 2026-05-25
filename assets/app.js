@@ -84,6 +84,76 @@
     return removed;
   }
 
+  // ===== Global stats =====
+  // Aggregates every qe:progress.* + qe:answers.* + qe:exam.*.* into a single
+  // summary used by the dashboard. Cheap enough to recompute on every render
+  // (≤22 modules, all keys in localStorage).
+  function computeGlobalStats() {
+    const mods = window.QE_MODULES || [];
+    const counts = window.QE_COUNTS || {};
+    let totalQuestions = 0, totalAnswered = 0, totalCorrect = 0;
+    let totalPartial = 0, totalWrong = 0;
+    let modulesTouched = 0, examSessions = 0, examsSubmitted = 0;
+    const perModule = [];
+    for (const m of mods) {
+      const prog = LS.get(`progress.${m.slug}`, null);
+      const cnt = counts[m.slug];
+      const total = (prog && prog.total) || (cnt && cnt.questions) || 0;
+      totalQuestions += total;
+      const ans = LS.get(`answers.${m.slug}`, {});
+      let answered = 0, correct = 0, partial = 0, wrong = 0;
+      for (const rec of Object.values(ans)) {
+        if (!rec || !rec.checked) continue;
+        answered++;
+        if (rec.correct) correct++;
+        else if (rec.partial) partial++;
+        else if (!rec.unknown) wrong++;
+      }
+      if (answered > 0) modulesTouched++;
+      totalAnswered += answered;
+      totalCorrect += correct;
+      totalPartial += partial;
+      totalWrong += wrong;
+      perModule.push({
+        slug: m.slug, name: m.name, sem: m.sem, total, answered, correct, partial, wrong,
+        accuracy: answered > 0 ? (correct + partial * 0.5) / answered : 0,
+      });
+    }
+    // Exam sessions across all modules
+    try {
+      for (let i = 0; i < localStorage.length; i++) {
+        const k = localStorage.key(i);
+        if (!k || !k.startsWith('qe:exam.')) continue;
+        examSessions++;
+        try {
+          const v = JSON.parse(localStorage.getItem(k));
+          if (v && v.submitted) examsSubmitted++;
+        } catch {}
+      }
+    } catch {}
+    const accuracy = totalAnswered > 0
+      ? Math.round((totalCorrect * 100) / totalAnswered)
+      : 0;
+    return {
+      totalQuestions, totalAnswered, totalCorrect, totalPartial, totalWrong,
+      modulesTouched, totalModules: mods.length,
+      examSessions, examsSubmitted, accuracy, perModule,
+    };
+  }
+
+  // Prefetch a module's baked data file so navigating to its viewer is instant.
+  // Each data file is ~750KB; one hover saves a full network round-trip.
+  const _prefetched = new Set();
+  function prefetchData(slug, basePath) {
+    if (!slug || _prefetched.has(slug)) return;
+    _prefetched.add(slug);
+    const link = document.createElement('link');
+    link.rel = 'prefetch';
+    link.as = 'script';
+    link.href = (basePath || '') + 'data/' + slug + '.data.js';
+    document.head.appendChild(link);
+  }
+
   // ===== Theme =====
   function applyTheme(t) {
     document.documentElement.classList.toggle('light', t === 'light');
@@ -334,6 +404,7 @@
           <div class="keys">${k('G')}</div><div>Go to question # (prompt)</div>
           <div class="keys">${k('M')} / ${k('9')}</div><div>Module switcher</div>
           <div class="keys">${k('D')} / ${k('0')}</div><div>Dashboard (press 0 twice on viewer)</div>
+          <div class="keys">${k('C')} (dashboard)</div><div>Continue last module where you left off</div>
         </div>
         <div class="group-title">Pacing</div>
         <div class="help-grid">
@@ -749,12 +820,16 @@
         <div class="hero">
           <h1>MCQ Question Bank</h1>
           <p>Keyboard-driven question trainer. Pick a module to start practising.</p>
+          <div id="qe-stats" class="hero-stats" aria-label="Overall progress"></div>
+          <div id="qe-continue"></div>
           <div class="hint">
             <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
-            <kbd>/</kbd> search · <kbd>R</kbd>×2 reset focused module · <kbd>L</kbd> theme · <kbd>?</kbd> help
-            · current mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
+            <kbd>/</kbd> search · <kbd>C</kbd> continue · <kbd>R</kbd>×2 reset focused ·
+            <kbd>L</kbd> theme · <kbd>?</kbd> help
+            · mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
           </div>
         </div>
+        <div id="qe-weak"></div>
         <div id="qe-semesters"></div>
       </div>
     `;
@@ -767,6 +842,82 @@
     refreshModeInline();
     document.getElementById('qe-mode-pill')?.addEventListener('click', refreshModeInline);
     const semRoot = document.getElementById('qe-semesters');
+    const statsRoot = document.getElementById('qe-stats');
+    const continueRoot = document.getElementById('qe-continue');
+    const weakRoot = document.getElementById('qe-weak');
+
+    function renderStatsHero() {
+      const s = computeGlobalStats();
+      const fmt = (n) => n.toLocaleString('fr-FR');
+      const accClass = s.totalAnswered === 0 ? '' : (s.accuracy >= 70 ? 'good' : s.accuracy >= 50 ? 'mid' : 'bad');
+      statsRoot.innerHTML = `
+        <div class="stat"><div class="num">${fmt(s.totalAnswered)}<small>/${fmt(s.totalQuestions)}</small></div><div class="lbl">answered</div></div>
+        <div class="stat"><div class="num ${accClass}">${s.totalAnswered ? s.accuracy + '%' : '—'}</div><div class="lbl">accuracy</div></div>
+        <div class="stat"><div class="num">${s.totalCorrect}<small> · ${s.totalPartial}◔ · ${s.totalWrong}✗</small></div><div class="lbl">✓ correct / partial / wrong</div></div>
+        <div class="stat"><div class="num">${s.modulesTouched}<small>/${s.totalModules}</small></div><div class="lbl">modules touched</div></div>
+        <div class="stat"><div class="num">${s.examsSubmitted}<small>${s.examSessions > s.examsSubmitted ? ' +' + (s.examSessions - s.examsSubmitted) + ' draft' : ''}</small></div><div class="lbl">exams completed</div></div>
+      `;
+
+      // Continue tile — last visited module, jumping to current Q (training)
+      const last = LS.get('lastModule', null);
+      const lastMod = last && mods.find(m => m.slug === last.slug);
+      if (lastMod) {
+        const cur = LS.get(`current.${lastMod.slug}`, 0);
+        const prog = LS.get(`progress.${lastMod.slug}`, null);
+        const total = (prog && prog.total) || ((window.QE_COUNTS || {})[lastMod.slug] || {}).questions || 0;
+        const sub = total ? `Q ${cur + 1}<small> / ${total}</small>` : '';
+        continueRoot.innerHTML = `
+          <a class="continue-tile" href="modules/${lastMod.slug}.html" data-slug="${lastMod.slug}">
+            <span class="play">▶</span>
+            <span class="ct-label">Continue</span>
+            <b class="ct-name">${lastMod.name}</b>
+            <span class="ct-sub">${sub}</span>
+            <span class="ct-key"><kbd>C</kbd></span>
+          </a>
+        `;
+        const ctile = continueRoot.querySelector('.continue-tile');
+        const pf = () => prefetchData(lastMod.slug, '');
+        ctile.addEventListener('mouseenter', pf, { once: true });
+        ctile.addEventListener('focus', pf, { once: true });
+      } else {
+        continueRoot.innerHTML = '';
+      }
+
+      // Weakest 3 modules — only show modules with ≥ 5 answered (sample-size guard)
+      const weakest = s.perModule
+        .filter(m => m.answered >= 5)
+        .sort((a, b) => a.accuracy - b.accuracy)
+        .slice(0, 3);
+      if (weakest.length === 0) {
+        weakRoot.innerHTML = '';
+      } else {
+        weakRoot.innerHTML = `
+          <div class="weak-strip">
+            <h4>🎯 Needs work — lowest accuracy</h4>
+            <div class="weak-list">
+              ${weakest.map(m => {
+                const pct = Math.round(m.accuracy * 100);
+                const cls = pct >= 70 ? 'good' : pct >= 50 ? 'mid' : 'bad';
+                return `
+                  <a class="weak-item" href="modules/${m.slug}.html" data-slug="${m.slug}">
+                    <span class="wi-name">${m.name}</span>
+                    <span class="wi-meta">${m.sem} · ${m.answered}/${m.total} answered</span>
+                    <span class="wi-bar"><span class="${cls}" style="width:${pct}%"></span></span>
+                    <span class="wi-pct ${cls}">${pct}%</span>
+                  </a>
+                `;
+              }).join('')}
+            </div>
+          </div>
+        `;
+        weakRoot.querySelectorAll('.weak-item').forEach(a => {
+          const slug = a.dataset.slug;
+          const pf = () => prefetchData(slug, '');
+          a.addEventListener('mouseenter', pf, { once: true });
+          a.addEventListener('focus', pf, { once: true });
+        });
+      }
+    }
 
     function render(filter = '') {
       const f = filter.trim().toLowerCase();
@@ -820,6 +971,10 @@
               tryResetModule(m, resetBtn);
             });
           }
+          // Prefetch the module's baked data on hover/focus — viewer loads instantly.
+          const pf = () => prefetchData(m.slug, '');
+          a.addEventListener('mouseenter', pf, { once: true });
+          a.addEventListener('focus', pf, { once: true });
           grid.appendChild(a);
         });
         semRoot.appendChild(block);
@@ -854,6 +1009,7 @@
         resetPending = null;
         const n = resetModuleProgress(m.slug);
         toast(`🔄 ${m.name} — ${n} progress entries wiped`, 'ok');
+        renderStatsHero();
         render(document.getElementById('qe-search')?.value || '');
       } else {
         resetPending = m.slug;
@@ -869,6 +1025,7 @@
     const search = document.getElementById('qe-search');
     search.addEventListener('input', () => render(search.value));
 
+    renderStatsHero();
     render();
 
     // Dashboard-specific keyboard
@@ -888,6 +1045,16 @@
       }
 
       if (k === '/') { e.preventDefault(); search.focus(); search.select(); return; }
+      if (k === 'c' || k === 'C') {
+        const last = LS.get('lastModule', null);
+        if (last && mods.find(m => m.slug === last.slug)) {
+          e.preventDefault();
+          window.location.href = `modules/${last.slug}.html`;
+          return;
+        }
+        toast('No module visited yet — pick one first', 'warn');
+        return;
+      }
       if (handleGlobalKeys(e)) return;
 
       const cards = [...semRoot.querySelectorAll('.card')];
@@ -958,6 +1125,9 @@
       indexHref: '../index.html',
       crumbHtml: `<a href="../index.html">Dashboard</a> · <b>${module.name}</b> <span style="opacity:.6">(${module.sem})</span>`,
     });
+
+    // Remember this module so the dashboard's "Continue" tile can jump back.
+    LS.set('lastModule', { slug: module.slug, name: module.name, sem: module.sem, ts: Date.now() });
 
     // Island timer host
     const island = document.createElement('div');
