@@ -104,10 +104,13 @@
       let answered = 0, correct = 0, partial = 0, wrong = 0;
       for (const rec of Object.values(ans)) {
         if (!rec || !rec.checked) continue;
+        // Questions without an official correction can't be graded — leave
+        // them out of every metric so accuracy stays honest.
+        if (rec.unknown) continue;
         answered++;
         if (rec.correct) correct++;
         else if (rec.partial) partial++;
-        else if (!rec.unknown) wrong++;
+        else wrong++;
       }
       if (answered > 0) modulesTouched++;
       totalAnswered += answered;
@@ -405,6 +408,7 @@
           <div class="keys">${k('M')} / ${k('9')}</div><div>Module switcher</div>
           <div class="keys">${k('D')} / ${k('0')}</div><div>Dashboard (press 0 twice on viewer)</div>
           <div class="keys">${k('C')} (dashboard)</div><div>Continue last module where you left off</div>
+          <div class="keys">${k('W')} (dashboard)</div><div>📊 Weakness analysis — topic & module accuracy, jump to first wrong</div>
         </div>
         <div class="group-title">Pacing</div>
         <div class="help-grid">
@@ -629,6 +633,211 @@
     });
   }
 
+  // ===== Weakness Analysis =====
+  // Aggregate answers from localStorage joined with the baked qIdx→topic index.
+  // Returns slices ready to render: per-(module,topic) rows + per-module rows,
+  // each carrying first-wrong qIdx so we can jump straight in via ?q=N.
+  function computeWeaknesses(opts) {
+    const minAnswered = Math.max(1, (opts && opts.minAnswered) || 3);
+    const topics = window.QE_TOPICS || {};
+    const mods = window.QE_MODULES || [];
+    const modBySlug = Object.fromEntries(mods.map(m => [m.slug, m]));
+    const rows = [];
+    const modRows = [];
+    let touchedQuestions = 0, touchedTopics = 0;
+    for (const slug of Object.keys(topics)) {
+      const m = modBySlug[slug];
+      if (!m) continue;
+      const ti = topics[slug];
+      const ans = LS.get(`answers.${slug}`, {});
+      const acc = ti.t.map(() => ({ answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1 }));
+      const modAcc = { answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1 };
+      for (const [qIdxStr, rec] of Object.entries(ans)) {
+        if (!rec || !rec.checked || rec.unknown) continue;
+        const qIdx = parseInt(qIdxStr, 10);
+        const tIdx = ti.q[qIdx];
+        if (tIdx == null) continue;
+        const a = acc[tIdx];
+        a.answered++;
+        modAcc.answered++;
+        if (rec.correct) { a.correct++; modAcc.correct++; }
+        else if (rec.partial) { a.partial++; modAcc.partial++; }
+        else {
+          a.wrong++; modAcc.wrong++;
+          if (a.firstWrongQ < 0 || qIdx < a.firstWrongQ) a.firstWrongQ = qIdx;
+          if (modAcc.firstWrongQ < 0 || qIdx < modAcc.firstWrongQ) modAcc.firstWrongQ = qIdx;
+        }
+      }
+      touchedQuestions += modAcc.answered;
+      for (let i = 0; i < ti.t.length; i++) {
+        const a = acc[i];
+        if (a.answered === 0) continue;
+        touchedTopics++;
+        rows.push({
+          slug, sem: m.sem, moduleName: m.name, topic: ti.t[i],
+          answered: a.answered, correct: a.correct, partial: a.partial, wrong: a.wrong,
+          firstWrongQ: a.firstWrongQ,
+          accuracy: (a.correct + a.partial * 0.5) / a.answered,
+        });
+      }
+      if (modAcc.answered > 0) {
+        modRows.push({
+          slug, sem: m.sem, moduleName: m.name,
+          answered: modAcc.answered, correct: modAcc.correct, partial: modAcc.partial, wrong: modAcc.wrong,
+          firstWrongQ: modAcc.firstWrongQ,
+          accuracy: (modAcc.correct + modAcc.partial * 0.5) / modAcc.answered,
+        });
+      }
+    }
+    const byAcc = (a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong || b.answered - a.answered;
+    return {
+      meta: { touchedQuestions, touchedTopics, totalTopics: rows.length },
+      topics: rows.filter(r => r.answered >= minAnswered).sort(byAcc),
+      modules: modRows.filter(r => r.answered >= minAnswered).sort(byAcc),
+      allTopics: rows.sort(byAcc),
+    };
+  }
+
+  function showAnalysis() {
+    if (document.querySelector('.overlay')) { closeOverlays(); return; }
+    const state = {
+      tab: LS.get('analysis.tab', 'topics'),       // topics | modules
+      minAnswered: LS.get('analysis.minAnswered', 3),
+      cursor: 0,
+    };
+    const accClass = (a) => a >= 0.7 ? 'good' : a >= 0.5 ? 'mid' : 'bad';
+    const pct = (a) => Math.round(a * 100);
+
+    makeOverlay((panel) => {
+      panel.classList.add('analysis-panel');
+
+      function rowsForTab(w) {
+        return state.tab === 'modules' ? w.modules : w.topics;
+      }
+      function rowHref(row) {
+        // Jump to first wrong question (training mode) if we have one; else module home.
+        const q = row.firstWrongQ;
+        return `modules/${row.slug}.html` + (q >= 0 ? `?q=${q}` : '');
+      }
+
+      function renderBody() {
+        const w = computeWeaknesses({ minAnswered: state.minAnswered });
+        const rows = rowsForTab(w);
+        const empty = w.meta.touchedQuestions === 0
+          ? `<div class="empty"><div class="ico">📭</div>No answers yet — finish a few questions, then come back.</div>`
+          : (rows.length === 0
+            ? `<div class="empty"><div class="ico">🎯</div>No ${state.tab} hit the <b>${state.minAnswered}+ answered</b> threshold yet.<br><small>Lower the threshold or keep practising.</small></div>`
+            : '');
+
+        state.cursor = Math.max(0, Math.min(state.cursor, rows.length - 1));
+
+        const head = `
+          <div class="analysis-head">
+            <h3>📊 Weakness Analysis</h3>
+            <div class="analysis-sub">${w.meta.touchedQuestions.toLocaleString('fr-FR')} answered · ${w.meta.totalTopics} topics touched · ${w.meta.touchedTopics ? 'sorted lowest accuracy first' : ''}</div>
+          </div>
+          <div class="analysis-bar">
+            <div class="tabs" role="tablist">
+              <button class="tab ${state.tab === 'topics' ? 'active' : ''}" data-tab="topics"><kbd>1</kbd> Topics</button>
+              <button class="tab ${state.tab === 'modules' ? 'active' : ''}" data-tab="modules"><kbd>2</kbd> Modules</button>
+            </div>
+            <div class="filter">
+              <label>Min answered <select id="ana-min">
+                ${[1,3,5,10,20].map(n => `<option value="${n}" ${n === state.minAnswered ? 'selected' : ''}>${n}+</option>`).join('')}
+              </select></label>
+              <span class="count">${rows.length} shown</span>
+            </div>
+          </div>
+        `;
+
+        const list = empty || `
+          <div class="analysis-list" tabindex="0">
+            ${rows.map((r, i) => {
+              const ac = accClass(r.accuracy);
+              const action = r.firstWrongQ >= 0 ? `↪ first wrong: Q${r.firstWrongQ + 1}` : 'open module';
+              return `
+                <a class="analysis-row ${i === state.cursor ? 'focused' : ''} ${ac}"
+                   data-idx="${i}" href="${rowHref(r)}" data-slug="${r.slug}">
+                  <div class="ar-main">
+                    ${state.tab === 'topics' ? `
+                      <div class="ar-title">${escapeHtml(r.topic)}</div>
+                      <div class="ar-sub">${r.sem} · ${escapeHtml(r.moduleName)}</div>
+                    ` : `
+                      <div class="ar-title">${escapeHtml(r.moduleName)}</div>
+                      <div class="ar-sub">${r.sem}</div>
+                    `}
+                  </div>
+                  <div class="ar-counts">
+                    <span title="correct">${r.correct}✓</span>
+                    <span title="partial">${r.partial}◔</span>
+                    <span title="wrong">${r.wrong}✗</span>
+                    <span class="ar-of">/ ${r.answered}</span>
+                  </div>
+                  <div class="ar-bar"><span class="${ac}" style="width:${pct(r.accuracy)}%"></span></div>
+                  <div class="ar-pct ${ac}">${pct(r.accuracy)}%</div>
+                  <div class="ar-action">${action}</div>
+                </a>
+              `;
+            }).join('')}
+          </div>
+        `;
+
+        const foot = `<div class="esc-hint"><kbd>↑↓</kbd>/<kbd>j</kbd><kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>1</kbd>/<kbd>2</kbd> tab · <kbd>Esc</kbd> close</div>`;
+        panel.innerHTML = head + list + foot;
+        wire();
+      }
+
+      function wire() {
+        panel.querySelectorAll('.tab').forEach(t => {
+          t.addEventListener('click', () => {
+            state.tab = t.dataset.tab;
+            state.cursor = 0;
+            LS.set('analysis.tab', state.tab);
+            renderBody();
+          });
+        });
+        const sel = panel.querySelector('#ana-min');
+        if (sel) sel.addEventListener('change', () => {
+          state.minAnswered = parseInt(sel.value, 10) || 3;
+          state.cursor = 0;
+          LS.set('analysis.minAnswered', state.minAnswered);
+          renderBody();
+        });
+        panel.querySelectorAll('.analysis-row').forEach(a => {
+          a.addEventListener('mouseenter', () => prefetchData(a.dataset.slug, ''), { once: true });
+        });
+        // Scroll the focused row into view (after layout)
+        const focused = panel.querySelector('.analysis-row.focused');
+        if (focused) focused.scrollIntoView({ block: 'nearest' });
+      }
+
+      // Key dispatch is owned by handleOverlayKeys so it wins against the
+      // dashboard's document listener (which was bound earlier).
+      const keyHandler = (e) => {
+        const w = computeWeaknesses({ minAnswered: state.minAnswered });
+        const rows = rowsForTab(w);
+        const k = e.key;
+        if (k === '1') { state.tab = 'topics';  LS.set('analysis.tab', 'topics');  state.cursor = 0; renderBody(); return true; }
+        if (k === '2') { state.tab = 'modules'; LS.set('analysis.tab', 'modules'); state.cursor = 0; renderBody(); return true; }
+        if (k === 'ArrowDown' || k === 'j' || k === 'J') { if (rows.length) { state.cursor = (state.cursor + 1) % rows.length; renderBody(); } return true; }
+        if (k === 'ArrowUp'   || k === 'k' || k === 'K') { if (rows.length) { state.cursor = (state.cursor - 1 + rows.length) % rows.length; renderBody(); } return true; }
+        if (k === 'Home') { state.cursor = 0; renderBody(); return true; }
+        if (k === 'End')  { state.cursor = Math.max(0, rows.length - 1); renderBody(); return true; }
+        if (k === 'Enter') {
+          const row = rows[state.cursor];
+          if (row) window.location.href = rowHref(row);
+          return true;
+        }
+        return false;
+      };
+
+      renderBody();
+      // Stash on the overlay element so handleOverlayKeys finds it.
+      const overlay = panel.closest('.overlay');
+      if (overlay) overlay._qeKeyHandler = keyHandler;
+    });
+  }
+
   // ===== Fullscreen =====
   let fsExitPending = false, fsExitT = null;
   function isFS() { return !!(document.fullscreenElement || document.webkitFullscreenElement); }
@@ -824,8 +1033,8 @@
           <div id="qe-continue"></div>
           <div class="hint">
             <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
-            <kbd>/</kbd> search · <kbd>C</kbd> continue · <kbd>R</kbd>×2 reset focused ·
-            <kbd>L</kbd> theme · <kbd>?</kbd> help
+            <kbd>/</kbd> search · <kbd>C</kbd> continue · <kbd>W</kbd> analysis ·
+            <kbd>R</kbd>×2 reset focused · <kbd>L</kbd> theme · <kbd>?</kbd> help
             · mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
           </div>
         </div>
@@ -893,7 +1102,7 @@
       } else {
         weakRoot.innerHTML = `
           <div class="weak-strip">
-            <h4>🎯 Needs work — lowest accuracy</h4>
+            <h4>🎯 Needs work — lowest accuracy modules · <a href="#" id="qe-open-analysis">📊 Full analysis</a> <kbd>W</kbd></h4>
             <div class="weak-list">
               ${weakest.map(m => {
                 const pct = Math.round(m.accuracy * 100);
@@ -916,6 +1125,8 @@
           a.addEventListener('mouseenter', pf, { once: true });
           a.addEventListener('focus', pf, { once: true });
         });
+        const openAnalysis = weakRoot.querySelector('#qe-open-analysis');
+        if (openAnalysis) openAnalysis.addEventListener('click', (e) => { e.preventDefault(); showAnalysis(); });
       }
     }
 
@@ -1045,6 +1256,7 @@
       }
 
       if (k === '/') { e.preventDefault(); search.focus(); search.select(); return; }
+      if (k === 'w' || k === 'W') { e.preventDefault(); showAnalysis(); return; }
       if (k === 'c' || k === 'C') {
         const last = LS.get('lastModule', null);
         if (last && mods.find(m => m.slug === last.slug)) {
@@ -1189,6 +1401,13 @@
     const globalMode = LS.get('mode', 'training');
     const urlParams = new URLSearchParams(location.search);
     const urlExam = urlParams.get('exam');
+    const urlQ = urlParams.get('q');
+    // ?q=N deep-link (training only): jump straight to that question. Used by the
+    // dashboard's Weakness Analysis to land on the first wrong question of a topic.
+    if (urlQ !== null && /^\d+$/.test(urlQ)) {
+      const qj = parseInt(urlQ, 10);
+      if (qj >= 0 && qj < questions.length) idx = qj;
+    }
     let viewMode = 'training';            // training | exam-pick | exam-run | exam-review
     let activeExamIdx = null;             // index into exams[]
     let reviewFilter = 'all';             // all | wrong | partial | correct | skipped
@@ -2292,6 +2511,11 @@
     const overlay = document.querySelector('.overlay');
     if (!overlay) return false;
     if (e.key === 'Escape') { e.preventDefault(); closeOverlays(); return true; }
+    // Overlay-owned keyboard dispatch (e.g. analysis panel) takes priority so
+    // its 1/2/arrows aren't grabbed by the dashboard's underlying handler.
+    if (typeof overlay._qeKeyHandler === 'function') {
+      if (overlay._qeKeyHandler(e)) { e.preventDefault(); return true; }
+    }
     // 1-9 number selection forwarded to module switcher list
     if (/^[1-9]$/.test(e.key)) {
       const rows = overlay.querySelectorAll('.row[data-href], .row[data-idx]');
@@ -2325,6 +2549,7 @@
     showHelp,
     showSettings,
     showModuleSwitcher,
+    showAnalysis,
     PRESETS,
   };
 })();
