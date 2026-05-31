@@ -4197,7 +4197,7 @@ C] Mettre sous antidépresseur
 D] Arrêter les neuroleptiques  
 E] Arrêter les antidépresseurs  
 
-Correction proposée - Janvier 2023 Q4 = A, B, E
+Correction officielle - Janvier 2023 Q4 = A, B, E
 
 # Janvier 2023 Q5 - Depression
 
@@ -5633,7 +5633,7 @@ C] Prescrire une benzodiazépine
 D] Prescrire un thymorégulateur  
 E] Mettre le patient d'emblée sous contention  
 
-Correction proposée - Janvier 2022 Q23 = A, B, C
+Correction officielle - Janvier 2022 Q23 = A, B, C
 
 # Janvier 2022 Q24 - Trouble des conduites
 
@@ -6225,7 +6225,7 @@ C] Prescrire un antidépresseur
 D] Prescrire un thymorégulateur  
 E] Prescrire l'ECT si résistance au traitement  
 
-Correction proposée - Juin 2022 Q22 = A, B, E
+Correction officielle - Juin 2022 Q22 = A, B, E
 
 # Juin 2022 Q23 - Patient qui délire
 
@@ -6973,7 +6973,7 @@ C] Des posologies importantes sont souvent nécessaires
 D] La durée du traitement est de 6 mois  
 E] Les anxiolytiques et les antipsychotiques peuvent constituer un traitement adjuvant  
 
-Correction proposée - Janvier 2021 Q34 = A, C, E
+Correction officielle - Janvier 2021 Q34 = A, C, E
 
 # Janvier 2021 Q35 - Trouble phobique
 
