@@ -45,9 +45,20 @@ It's keyboard-first by design. The one shortcut worth memorising: **`Ctrl`/`Cmd`
 
 Two ways to study: **Training** (correction after every question) and **Exam** (answer a full set, then get a /20 grade on the real FMPM scale, plus a downloadable list of what you missed).
 
+## Adding your own exams
+
+The questions are just text files under `data/sX/` — edit one and either push it or rebuild locally:
+
+```bash
+node tools/check-data.js     # flags typos that would silently drop a question
+node tools/build-data.js     # bakes your edits in — then refresh the page
+```
+
+Push to `main` (even an edit straight on github.com) and a GitHub Action re-bakes the data for you, so the online site and the offline download both update on their own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
+
 ## What's new
 
-Most recent shipped change: **exam answer-sheet view with FMPM /20 grading, and a per-module error report you can download.**
+Most recent shipped change: **add your own exams** — a step-by-step guide plus a one-command validator (`node tools/check-data.js`) that catches the silent formatting slips (a mistyped exam name, a stray space) before they quietly cost you a question.
 
 ## Why I built this
 
@@ -59,5 +70,6 @@ No `LICENSE` file — this is a personal study project, so treat it as all-right
 
 ## See also
 
+- [`how-to-add-new-exam.md`](./how-to-add-new-exam.md) — how to add or edit exams (format + the gotchas)
 - [`CONTEXT.md`](./CONTEXT.md) — the orientation file for AI assistants joining the project
 - [`docs/UX-AUDIT.md`](./docs/UX-AUDIT.md) — design rationale, architecture notes, and what's on the roadmap
