@@ -169,6 +169,73 @@
   }
   applyTheme(LS.get('theme', 'dark'));
 
+  // ===== Focus mode (distraction-free) =====
+  function applyFocus(on) {
+    document.documentElement.classList.toggle('focus-mode', !!on);
+    LS.set('focusMode', !!on);
+  }
+  function toggleFocus() {
+    const next = !document.documentElement.classList.contains('focus-mode');
+    applyFocus(next);
+    toast(next ? '🎯 Focus mode ON — just you and the question (Z to exit)' : '🎯 Focus mode OFF', next ? 'ok' : '');
+    if (state.viewer) state.viewer.render();
+  }
+  applyFocus(LS.get('focusMode', false));
+
+  // ===== Activity log / streaks =====
+  // One compact record per calendar day in qe:activity:
+  //   { 'YYYY-MM-DD': { answered, correct, ms } }
+  // Powers the streak counter, the "today" count and the 14-day trend sparkline.
+  // Local-date keyed so streaks line up with the user's own midnight.
+  function localDayStr(d) {
+    d = d || new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${y}-${m}-${day}`;
+  }
+  function logActivity(correct, ms) {
+    const a = LS.get('activity', {});
+    const key = localDayStr();
+    const d = a[key] || { answered: 0, correct: 0, ms: 0 };
+    d.answered++;
+    if (correct) d.correct++;
+    d.ms += Math.max(0, ms || 0);
+    a[key] = d;
+    // Bound storage: keep the most recent ~400 day-records.
+    const keys = Object.keys(a).sort();
+    if (keys.length > 400) keys.slice(0, keys.length - 400).forEach(k => delete a[k]);
+    LS.set('activity', a);
+  }
+  function computeActivity() {
+    const a = LS.get('activity', {});
+    const today = a[localDayStr()] || { answered: 0, correct: 0, ms: 0 };
+    // Current streak: consecutive days with activity, ending today or yesterday
+    // (so the streak survives until midnight even before you study today).
+    let streak = 0;
+    const cursor = new Date();
+    if (!a[localDayStr(cursor)]) cursor.setDate(cursor.getDate() - 1);
+    while (a[localDayStr(cursor)]) { streak++; cursor.setDate(cursor.getDate() - 1); }
+    // Longest streak across the whole log.
+    const days = Object.keys(a).sort();
+    let longest = 0, run = 0, prev = null;
+    for (const k of days) {
+      run = (prev && (new Date(k) - new Date(prev)) === 86400000) ? run + 1 : 1;
+      if (run > longest) longest = run;
+      prev = k;
+    }
+    // Last 14 days, oldest→newest, for the sparkline.
+    const last14 = [];
+    for (let i = 13; i >= 0; i--) {
+      const dt = new Date(); dt.setDate(dt.getDate() - i);
+      const k = localDayStr(dt);
+      last14.push({ day: k, answered: (a[k] || {}).answered || 0 });
+    }
+    let totalMs = 0;
+    for (const k of days) totalMs += (a[k].ms || 0);
+    return { today, streak, longest, last14, totalMs, activeDays: days.length };
+  }
+
   // ===== Toast =====
   let toastT = null;
   const raf = (cb) => (typeof requestAnimationFrame === 'function' ? requestAnimationFrame(cb) : setTimeout(cb, 16));
@@ -350,15 +417,27 @@
                 style="transform:rotate(90deg);transform-origin:50% 50%;">25</text>
         </svg>
       </button>
+      <button id="qe-cmdk" class="cmdk-btn" title="Command palette (Ctrl/Cmd + K)"><kbd>⌘</kbd><kbd>K</kbd></button>
       <button id="qe-theme" title="Toggle theme (L)">🌓</button>
       <button id="qe-help" title="Help (?)">⌨️</button>
       <button id="qe-settings" title="Settings (Shift+S)">⚙️</button>
     `;
     document.body.prepend(top);
     document.getElementById('qe-pomo').addEventListener('click', pomoToggle);
+    document.getElementById('qe-cmdk').addEventListener('click', showCommandPalette);
     document.getElementById('qe-theme').addEventListener('click', toggleTheme);
     document.getElementById('qe-help').addEventListener('click', showHelp);
     document.getElementById('qe-settings').addEventListener('click', showSettings);
+    // Floating "exit focus" affordance — lives outside the (hidden) top bar.
+    if (!document.getElementById('qe-focus-exit')) {
+      const fx = document.createElement('button');
+      fx.id = 'qe-focus-exit';
+      fx.className = 'focus-exit';
+      fx.textContent = '✕ Focus';
+      fx.title = 'Exit focus mode (Z)';
+      fx.addEventListener('click', toggleFocus);
+      document.body.appendChild(fx);
+    }
     const pillEl = document.getElementById('qe-mode-pill');
     if (pillEl) {
       renderModePill();
@@ -399,6 +478,7 @@
         <h3>⌨️ Keyboard Shortcuts</h3>
         <div class="group-title">Navigation</div>
         <div class="help-grid">
+          <div class="keys"><kbd>Ctrl/⌘</kbd> <kbd>K</kbd></div><div><b>Command palette</b> — jump to any module or run any command</div>
           <div class="keys">${k('1 2 3 4 5')}</div><div>Select option (toggle in multi-select)</div>
           <div class="keys">${k('Space')} / ${k('Enter')}</div><div>Check answer · continue</div>
           <div class="keys">${k('←')} ${k('→')} ${k('↑')} ${k('↓')}</div><div>Prev / next question</div>
@@ -425,6 +505,7 @@
           <div class="keys">${k('H')}</div><div>Toggle sidebar</div>
           <div class="keys">${k('F')}</div><div>Fullscreen (press F twice to exit)</div>
           <div class="keys">${k('L')}</div><div>Toggle light/dark theme</div>
+          <div class="keys">${k('Z')}</div><div>Focus mode (distraction-free)</div>
           <div class="keys">${k('S')} / ${k('Shift+S')} / ${k('6')}</div><div>Settings</div>
           <div class="keys">${k('?')}</div><div>This help</div>
           <div class="keys">${k('Esc')}</div><div>Close overlay · exit exam back to picker</div>
@@ -650,8 +731,8 @@
       if (!m) continue;
       const ti = topics[slug];
       const ans = LS.get(`answers.${slug}`, {});
-      const acc = ti.t.map(() => ({ answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1 }));
-      const modAcc = { answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1 };
+      const acc = ti.t.map(() => ({ answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1, lastTs: 0 }));
+      const modAcc = { answered: 0, correct: 0, partial: 0, wrong: 0, firstWrongQ: -1, lastTs: 0 };
       for (const [qIdxStr, rec] of Object.entries(ans)) {
         if (!rec || !rec.checked || rec.unknown) continue;
         const qIdx = parseInt(qIdxStr, 10);
@@ -660,6 +741,7 @@
         const a = acc[tIdx];
         a.answered++;
         modAcc.answered++;
+        if (rec.ts) { if (rec.ts > a.lastTs) a.lastTs = rec.ts; if (rec.ts > modAcc.lastTs) modAcc.lastTs = rec.ts; }
         if (rec.correct) { a.correct++; modAcc.correct++; }
         else if (rec.partial) { a.partial++; modAcc.partial++; }
         else {
@@ -676,7 +758,7 @@
         rows.push({
           slug, sem: m.sem, moduleName: m.name, topic: ti.t[i],
           answered: a.answered, correct: a.correct, partial: a.partial, wrong: a.wrong,
-          firstWrongQ: a.firstWrongQ,
+          firstWrongQ: a.firstWrongQ, lastTs: a.lastTs,
           accuracy: (a.correct + a.partial * 0.5) / a.answered,
         });
       }
@@ -684,17 +766,20 @@
         modRows.push({
           slug, sem: m.sem, moduleName: m.name,
           answered: modAcc.answered, correct: modAcc.correct, partial: modAcc.partial, wrong: modAcc.wrong,
-          firstWrongQ: modAcc.firstWrongQ,
+          firstWrongQ: modAcc.firstWrongQ, lastTs: modAcc.lastTs,
           accuracy: (modAcc.correct + modAcc.partial * 0.5) / modAcc.answered,
         });
       }
     }
     const byAcc = (a, b) => a.accuracy - b.accuracy || b.wrong - a.wrong || b.answered - a.answered;
+    const byStrength = (a, b) => b.accuracy - a.accuracy || b.answered - a.answered;
+    const eligible = rows.filter(r => r.answered >= minAnswered);
     return {
       meta: { touchedQuestions, touchedTopics, totalTopics: rows.length },
-      topics: rows.filter(r => r.answered >= minAnswered).sort(byAcc),
+      topics: eligible.slice().sort(byAcc),
       modules: modRows.filter(r => r.answered >= minAnswered).sort(byAcc),
-      allTopics: rows.sort(byAcc),
+      strengths: eligible.slice().sort(byStrength),
+      allTopics: rows.slice().sort(byAcc),
     };
   }
 
@@ -712,8 +797,15 @@
       panel.classList.add('analysis-panel');
 
       function rowsForTab(w) {
-        return state.tab === 'modules' ? w.modules : w.topics;
+        if (state.tab === 'modules') return w.modules;
+        if (state.tab === 'strengths') return w.strengths || [];
+        return w.topics;
       }
+      const recency = (r) => {
+        if (!r.lastTs) return '';
+        const d = Math.max(0, Math.floor((Date.now() - r.lastTs) / 86400000));
+        return d === 0 ? ' · seen today' : ` · seen ${d}d ago`;
+      };
       function rowHref(row) {
         // Jump to first wrong question (training mode) if we have one; else module home.
         const q = row.firstWrongQ;
@@ -738,8 +830,9 @@
           </div>
           <div class="analysis-bar">
             <div class="tabs" role="tablist">
-              <button class="tab ${state.tab === 'topics' ? 'active' : ''}" data-tab="topics"><kbd>1</kbd> Topics</button>
+              <button class="tab ${state.tab === 'topics' ? 'active' : ''}" data-tab="topics"><kbd>1</kbd> Weak topics</button>
               <button class="tab ${state.tab === 'modules' ? 'active' : ''}" data-tab="modules"><kbd>2</kbd> Modules</button>
+              <button class="tab ${state.tab === 'strengths' ? 'active' : ''}" data-tab="strengths"><kbd>3</kbd> Strengths</button>
             </div>
             <div class="filter">
               <label>Min answered <select id="ana-min">
@@ -759,12 +852,12 @@
                 <a class="analysis-row ${i === state.cursor ? 'focused' : ''} ${ac}"
                    data-idx="${i}" href="${rowHref(r)}" data-slug="${r.slug}">
                   <div class="ar-main">
-                    ${state.tab === 'topics' ? `
-                      <div class="ar-title">${escapeHtml(r.topic)}</div>
-                      <div class="ar-sub">${r.sem} · ${escapeHtml(r.moduleName)}</div>
-                    ` : `
+                    ${state.tab === 'modules' ? `
                       <div class="ar-title">${escapeHtml(r.moduleName)}</div>
-                      <div class="ar-sub">${r.sem}</div>
+                      <div class="ar-sub">${r.sem}${recency(r)}</div>
+                    ` : `
+                      <div class="ar-title">${escapeHtml(r.topic)}</div>
+                      <div class="ar-sub">${r.sem} · ${escapeHtml(r.moduleName)}${recency(r)}</div>
                     `}
                   </div>
                   <div class="ar-counts">
@@ -782,8 +875,12 @@
           </div>
         `;
 
-        const foot = `<div class="esc-hint"><kbd>↑↓</kbd>/<kbd>j</kbd><kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>1</kbd>/<kbd>2</kbd> tab · <kbd>Esc</kbd> close</div>`;
-        panel.innerHTML = head + list + foot;
+        const rem = computeReminders(4);
+        const remBand = rem.length
+          ? `<div class="analysis-reminders">${rem.map(r => `<span class="ana-rem ${r.kind}">${r.icon} ${r.text}</span>`).join('')}</div>`
+          : '';
+        const foot = `<div class="esc-hint"><kbd>↑↓</kbd>/<kbd>j</kbd><kbd>k</kbd> move · <kbd>Enter</kbd> open · <kbd>1</kbd>/<kbd>2</kbd>/<kbd>3</kbd> tab · <kbd>Esc</kbd> close</div>`;
+        panel.innerHTML = head + remBand + list + foot;
         wire();
       }
 
@@ -817,8 +914,9 @@
         const w = computeWeaknesses({ minAnswered: state.minAnswered });
         const rows = rowsForTab(w);
         const k = e.key;
-        if (k === '1') { state.tab = 'topics';  LS.set('analysis.tab', 'topics');  state.cursor = 0; renderBody(); return true; }
-        if (k === '2') { state.tab = 'modules'; LS.set('analysis.tab', 'modules'); state.cursor = 0; renderBody(); return true; }
+        if (k === '1') { state.tab = 'topics';    LS.set('analysis.tab', 'topics');    state.cursor = 0; renderBody(); return true; }
+        if (k === '2') { state.tab = 'modules';   LS.set('analysis.tab', 'modules');   state.cursor = 0; renderBody(); return true; }
+        if (k === '3') { state.tab = 'strengths'; LS.set('analysis.tab', 'strengths'); state.cursor = 0; renderBody(); return true; }
         if (k === 'ArrowDown' || k === 'j' || k === 'J') { if (rows.length) { state.cursor = (state.cursor + 1) % rows.length; renderBody(); } return true; }
         if (k === 'ArrowUp'   || k === 'k' || k === 'K') { if (rows.length) { state.cursor = (state.cursor - 1 + rows.length) % rows.length; renderBody(); } return true; }
         if (k === 'Home') { state.cursor = 0; renderBody(); return true; }
@@ -836,6 +934,181 @@
       const overlay = panel.closest('.overlay');
       if (overlay) overlay._qeKeyHandler = keyHandler;
     });
+  }
+
+  // ===== Study coach — natural-language reminders =====
+  // Joins the weakness slices + activity log + topic recency into a short,
+  // ranked list of human reminders. Each may carry { slug, q } so the UI can
+  // deep-link straight to the relevant module (and first wrong question).
+  function computeReminders(max) {
+    max = max || 5;
+    const w = computeWeaknesses({ minAnswered: 5 });
+    const act = computeActivity();
+    const now = Date.now();
+    const daysAgo = (ts) => ts ? Math.floor((now - ts) / 86400000) : null;
+    const out = [];
+    // 1) Hardest topics (low accuracy, enough samples).
+    w.topics.filter(t => t.accuracy < 0.6).slice(0, 3).forEach(t => out.push({
+      icon: '⚠️', kind: 'weak',
+      text: `You're struggling with <b>${escapeHtml(t.topic)}</b> (${Math.round(t.accuracy * 100)}% over ${t.answered})`,
+      slug: t.slug, q: t.firstWrongQ,
+    }));
+    // 2) Stale topics — practised before but not seen in a while.
+    (w.allTopics || [])
+      .map(t => ({ t, days: daysAgo(t.lastTs) }))
+      .filter(x => x.days != null && x.days >= 10)
+      .sort((a, b) => b.days - a.days)
+      .slice(0, 2)
+      .forEach(({ t, days }) => out.push({
+        icon: '🕓', kind: 'stale',
+        text: `You haven't reviewed <b>${escapeHtml(t.topic)}</b> in ${days} days`,
+        slug: t.slug, q: t.firstWrongQ,
+      }));
+    // 3) Weakest module overall.
+    if (w.modules.length && w.modules[0].accuracy < 0.65) {
+      const m = w.modules[0];
+      out.push({
+        icon: '📉', kind: 'module',
+        text: `<b>${escapeHtml(m.moduleName)}</b> is your weakest module (${Math.round(m.accuracy * 100)}%)`,
+        slug: m.slug, q: m.firstWrongQ,
+      });
+    }
+    // 4) Streak / nudges / positive reinforcement.
+    if (act.streak >= 2) out.unshift({ icon: '🔥', kind: 'streak', text: `<b>${act.streak}-day streak</b> — keep it going!` });
+    else if (act.today.answered === 0) out.push({ icon: '🎯', kind: 'nudge', text: `Nothing yet today — a quick 10 keeps the streak alive.` });
+    const best = (w.strengths || [])[0];
+    if (best && best.accuracy >= 0.85) out.push({
+      icon: '💪', kind: 'strength',
+      text: `Strongest area: <b>${escapeHtml(best.topic)}</b> (${Math.round(best.accuracy * 100)}%)`,
+    });
+    return out.slice(0, max);
+  }
+
+  // ===== Command palette (Ctrl/Cmd + K) =====
+  // Single fuzzy launcher shared by the dashboard and every viewer page:
+  // jump to any module, or run any command, without touching the mouse.
+  function paletteContext() {
+    const onViewer = !!state.viewer;
+    const modHref = (slug) => onViewer ? `${slug}.html` : `modules/${slug}.html`;
+    return { onViewer, modHref };
+  }
+  function buildPaletteItems() {
+    const { onViewer, modHref } = paletteContext();
+    const mods = window.QE_MODULES || [];
+    const counts = window.QE_COUNTS || {};
+    const go = (href) => () => { window.location.href = href; };
+    const items = [];
+    // Commands
+    items.push({ icon: '🎨', title: 'Toggle theme', sub: 'light / dark', hint: 'L', run: toggleTheme });
+    items.push({ icon: '🎯', title: 'Toggle focus mode', sub: 'distraction-free', hint: 'Z', run: toggleFocus });
+    items.push({ icon: '📊', title: 'Open analytics & weakness analysis', sub: 'strengths · weak topics · reminders', hint: 'W', run: showAnalysis });
+    items.push({ icon: '⚙️', title: 'Settings', hint: 'S', run: showSettings });
+    items.push({ icon: '⌨️', title: 'Keyboard shortcuts', hint: '?', run: showHelp });
+    items.push({ icon: '🍅', title: (pomo.running ? 'Pause' : 'Start') + ' pomodoro', hint: 'P', run: pomoToggle });
+    items.push({ icon: '🔁', title: 'Toggle Training / Exam mode', sub: 'currently ' + getMode(), run: () => { toggleMode(); if (onViewer) location.href = location.pathname; } });
+    items.push({ icon: '⛶', title: 'Toggle fullscreen', hint: 'F', run: toggleFS });
+    if (onViewer) {
+      items.push({ icon: '#️⃣', title: 'Go to question…', hint: 'G', run: () => { if (state.viewer && state.viewer.gotoPrompt) state.viewer.gotoPrompt(); } });
+      items.push({ icon: '📚', title: 'Switch module', hint: 'M', run: showModuleSwitcher });
+      items.push({ icon: '🏠', title: 'Back to dashboard', hint: '0', run: go('../index.html') });
+    }
+    const last = LS.get('lastModule', null);
+    if (last && mods.find(m => m.slug === last.slug)) {
+      items.push({ icon: '▶', title: 'Continue: ' + last.name, sub: 'jump back in', hint: 'C', run: go(modHref(last.slug)) });
+    }
+    // Modules
+    mods.forEach(m => items.push({
+      icon: '📕', title: m.name,
+      sub: m.sem.toUpperCase() + ((counts[m.slug] || {}).questions ? ' · ' + counts[m.slug].questions + ' Q' : ''),
+      kind: 'module', slug: m.slug, run: go(modHref(m.slug)),
+    }));
+    return items;
+  }
+  // Lightweight fuzzy scorer: subsequence match with bonuses for word-starts
+  // and consecutive hits. Returns -1 for no match. No deps, fast enough for
+  // the few dozen palette rows even on every keystroke.
+  function fuzzyScore(query, text) {
+    if (!query) return 0;
+    const q = query.toLowerCase(), t = (text || '').toLowerCase();
+    let qi = 0, score = 0, streak = 0, prevIdx = -2;
+    for (let ti = 0; ti < t.length && qi < q.length; ti++) {
+      if (t[ti] === q[qi]) {
+        let s = 1;
+        if (ti === prevIdx + 1) { streak++; s += streak * 2; } else streak = 0;
+        if (ti === 0 || /[\s\-·/]/.test(t[ti - 1])) s += 3;
+        score += s; prevIdx = ti; qi++;
+      }
+    }
+    return qi === q.length ? score : -1;
+  }
+  function showCommandPalette() {
+    if (document.querySelector('.overlay.cmdk')) { closeOverlays(); return; }
+    const allItems = buildPaletteItems();
+    const st = { q: '', cursor: 0, results: allItems };
+    makeOverlay((panel, overlay) => {
+      overlay.classList.add('cmdk');
+      overlay._qeOwnsTyping = true;
+      panel.classList.add('cmdk-panel');
+      const filter = () => {
+        const q = st.q.trim();
+        st.results = !q ? allItems : allItems
+          .map(it => ({ it, s: Math.max(fuzzyScore(q, it.title), fuzzyScore(q, it.sub) - 2) }))
+          .filter(x => x.s >= 0)
+          .sort((a, b) => b.s - a.s)
+          .map(x => x.it);
+      };
+      const run = (i) => {
+        const it = st.results[i];
+        if (!it) return;
+        closeOverlays();
+        setTimeout(() => { try { it.run(); } catch {} }, 0);
+      };
+      const renderList = () => {
+        const list = panel.querySelector('.cmdk-list');
+        st.cursor = Math.max(0, Math.min(st.cursor, st.results.length - 1));
+        list.innerHTML = st.results.length ? st.results.map((it, i) => `
+          <div class="cmdk-item ${i === st.cursor ? 'sel' : ''}" data-idx="${i}">
+            <span class="ci-ico">${it.icon || '•'}</span>
+            <span class="ci-main"><span class="ci-title">${escapeHtml(it.title)}</span>${it.sub ? `<span class="ci-sub">${escapeHtml(it.sub)}</span>` : ''}</span>
+            ${it.kind === 'module' ? '<span class="ci-tag">module</span>' : ''}
+            ${it.hint ? `<kbd>${it.hint}</kbd>` : ''}
+          </div>`).join('') : `<div class="cmdk-empty">No matches for “${escapeHtml(st.q)}”</div>`;
+        const sel = list.querySelector('.cmdk-item.sel');
+        if (sel) sel.scrollIntoView({ block: 'nearest' });
+        list.querySelectorAll('.cmdk-item').forEach(el => {
+          el.addEventListener('click', () => run(parseInt(el.dataset.idx, 10)));
+          el.addEventListener('mousemove', () => {
+            const i = parseInt(el.dataset.idx, 10);
+            if (i !== st.cursor) { st.cursor = i; list.querySelectorAll('.cmdk-item').forEach(x => x.classList.toggle('sel', x === el)); }
+          });
+        });
+      };
+      panel.innerHTML = `
+        <div class="cmdk-input-wrap">
+          <span class="cmdk-prompt">⌘K</span>
+          <input type="text" class="cmdk-input" aria-label="Command palette" placeholder="Type a command or module…  (↑↓ to move, ↵ to run)" autocomplete="off" spellcheck="false">
+        </div>
+        <div class="cmdk-list"></div>
+        <div class="cmdk-foot"><kbd>↑</kbd><kbd>↓</kbd> move · <kbd>↵</kbd> run · <kbd>Esc</kbd> close</div>
+      `;
+      const input = panel.querySelector('.cmdk-input');
+      renderList();
+      input.addEventListener('input', () => { st.q = input.value; st.cursor = 0; filter(); renderList(); });
+      setTimeout(() => input.focus(), 0);
+      // The overlay owns navigation keys; typing falls through to the input.
+      overlay._qeKeyHandler = (e) => {
+        const k = e.key;
+        if (k === 'ArrowDown' || (k === 'n' && e.ctrlKey)) { if (st.results.length) { st.cursor = (st.cursor + 1) % st.results.length; renderList(); } return true; }
+        if (k === 'ArrowUp'   || (k === 'p' && e.ctrlKey)) { if (st.results.length) { st.cursor = (st.cursor - 1 + st.results.length) % st.results.length; renderList(); } return true; }
+        if (k === 'Tab') { if (st.results.length) { st.cursor = (st.cursor + (e.shiftKey ? -1 : 1) + st.results.length) % st.results.length; renderList(); } return true; }
+        if (k === 'Enter') { run(st.cursor); return true; }
+        return false;
+      };
+    });
+  }
+  function toggleCommandPalette() {
+    if (document.querySelector('.overlay.cmdk')) { closeOverlays(); return; }
+    showCommandPalette();
   }
 
   // ===== Fullscreen =====
@@ -1032,12 +1305,13 @@
           <div id="qe-stats" class="hero-stats" aria-label="Overall progress"></div>
           <div id="qe-continue"></div>
           <div class="hint">
-            <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
+            <kbd>⌘</kbd><kbd>K</kbd> palette · <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
             <kbd>/</kbd> search · <kbd>C</kbd> continue · <kbd>W</kbd> analysis ·
-            <kbd>R</kbd>×2 reset focused · <kbd>L</kbd> theme · <kbd>?</kbd> help
+            <kbd>R</kbd>×2 reset · <kbd>L</kbd> theme · <kbd>?</kbd> help
             · mode → <span id="qe-mode-inline" style="font-weight:700;color:var(--accent)"></span>
           </div>
         </div>
+        <div id="qe-coach"></div>
         <div id="qe-weak"></div>
         <div id="qe-semesters"></div>
       </div>
@@ -1054,18 +1328,22 @@
     const statsRoot = document.getElementById('qe-stats');
     const continueRoot = document.getElementById('qe-continue');
     const weakRoot = document.getElementById('qe-weak');
+    const coachRoot = document.getElementById('qe-coach');
 
     function renderStatsHero() {
       const s = computeGlobalStats();
+      const act = computeActivity();
       const fmt = (n) => n.toLocaleString('fr-FR');
       const accClass = s.totalAnswered === 0 ? '' : (s.accuracy >= 70 ? 'good' : s.accuracy >= 50 ? 'mid' : 'bad');
       statsRoot.innerHTML = `
         <div class="stat"><div class="num">${fmt(s.totalAnswered)}<small>/${fmt(s.totalQuestions)}</small></div><div class="lbl">answered</div></div>
         <div class="stat"><div class="num ${accClass}">${s.totalAnswered ? s.accuracy + '%' : '—'}</div><div class="lbl">accuracy</div></div>
         <div class="stat"><div class="num">${s.totalCorrect}<small> · ${s.totalPartial}◔ · ${s.totalWrong}✗</small></div><div class="lbl">✓ correct / partial / wrong</div></div>
+        <div class="stat"><div class="num">${act.streak}<small> 🔥</small></div><div class="lbl">day streak${act.longest > act.streak ? ' · best ' + act.longest : ''}</div></div>
         <div class="stat"><div class="num">${s.modulesTouched}<small>/${s.totalModules}</small></div><div class="lbl">modules touched</div></div>
         <div class="stat"><div class="num">${s.examsSubmitted}<small>${s.examSessions > s.examsSubmitted ? ' +' + (s.examSessions - s.examsSubmitted) + ' draft' : ''}</small></div><div class="lbl">exams completed</div></div>
       `;
+      renderCoach();
 
       // Continue tile — last visited module, jumping to current Q (training)
       const last = LS.get('lastModule', null);
@@ -1128,6 +1406,46 @@
         const openAnalysis = weakRoot.querySelector('#qe-open-analysis');
         if (openAnalysis) openAnalysis.addEventListener('click', (e) => { e.preventDefault(); showAnalysis(); });
       }
+    }
+
+    // Study-coach panel: streak + 14-day activity sparkline + ranked reminders.
+    function renderCoach() {
+      if (!coachRoot) return;
+      const act = computeActivity();
+      const reminders = computeReminders(5);
+      const peak = Math.max(1, ...act.last14.map(d => d.answered));
+      const spark = act.last14.map(d => {
+        const h = d.answered ? Math.max(10, Math.round((d.answered / peak) * 100)) : 4;
+        return `<span class="sp ${d.answered ? '' : 'empty'}" style="height:${h}%" title="${d.day}: ${d.answered} answered"></span>`;
+      }).join('');
+      const remHtml = reminders.length
+        ? reminders.map(r => {
+            const href = r.slug ? `modules/${r.slug}.html${r.q >= 0 ? `?q=${r.q}` : ''}` : null;
+            const inner = `<span class="rm-ico">${r.icon}</span><span class="rm-text">${r.text}</span>${href ? '<span class="rm-go">↪</span>' : ''}`;
+            return href
+              ? `<a class="reminder ${r.kind}" href="${href}" data-slug="${r.slug}">${inner}</a>`
+              : `<div class="reminder ${r.kind}">${inner}</div>`;
+          }).join('')
+        : `<div class="reminder nudge"><span class="rm-ico">✨</span><span class="rm-text">Answer a few questions to unlock personalised recommendations.</span></div>`;
+      coachRoot.innerHTML = `
+        <div class="coach">
+          <div class="coach-trend">
+            <div class="ct-top"><span class="ct-streak">🔥 ${act.streak}</span><span class="ct-lbl">day streak</span></div>
+            <div class="spark" aria-hidden="true">${spark}</div>
+            <div class="ct-foot">${act.today.answered} today · 14-day activity</div>
+          </div>
+          <div class="coach-reminders">
+            <h4>📌 Recommended for you <a href="#" id="qe-coach-analysis">full analysis ↗</a></h4>
+            <div class="reminders">${remHtml}</div>
+          </div>
+        </div>
+      `;
+      coachRoot.querySelectorAll('.reminder[data-slug]').forEach(a => {
+        const slug = a.dataset.slug;
+        a.addEventListener('mouseenter', () => prefetchData(slug, ''), { once: true });
+      });
+      const an = coachRoot.querySelector('#qe-coach-analysis');
+      if (an) an.addEventListener('click', (e) => { e.preventDefault(); showAnalysis(); });
     }
 
     function render(filter = '') {
@@ -1241,6 +1559,7 @@
 
     // Dashboard-specific keyboard
     document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
       if (handleOverlayKeys(e)) return;
       const target = e.target;
       const inField = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA');
@@ -1438,6 +1757,8 @@
     let picked = new Set();
     let checked = false;
     let phase = 'question'; // question | answer
+    let shownAt = Date.now();   // when the current question was first shown
+    let shownIdx = -1;          // which idx that timestamp belongs to
     let timerH = null;
     let timerStart = 0;
     let timerDur = 0;
@@ -1579,6 +1900,9 @@
 
     function renderTraining() {
       loadCurrentAnswer();
+      // Start the per-question timer the first time a new question is shown
+      // (re-renders from toggling options keep the same clock).
+      if (shownIdx !== idx) { shownIdx = idx; shownAt = Date.now(); }
       const q = currentQ();
       const total = questions.length;
       const sidebarHtml = buildSidebarHtml();
@@ -1717,6 +2041,14 @@
       sess.submittedAt = Date.now();
       sess.durationSec = Math.max(1, Math.floor((Date.now() - (sess.startedAt || Date.now())) / 1000));
       saveExamSession(ei, sess);
+      // Feed the streak/trend: count each answered (non-skipped) question once.
+      const grp = exams[ei];
+      const perQMs = Math.round((sess.durationSec * 1000) / Math.max(1, grp.questions.length));
+      for (let j = 0; j < grp.questions.length; j++) {
+        const ev = evaluateExamLocal(ei, j);
+        if (ev.kind === 'skipped') continue;
+        logActivity(ev.kind === 'correct', perQMs);
+      }
       viewMode = 'exam-review';
       stopExamTimer();
       reviewFilter = 'all';
@@ -2129,13 +2461,21 @@
       if (viewMode !== 'training') return;
       checked = true;
       const ev = evaluate();
+      const prev = answers[idx] || {};
+      const dt = Math.min(600000, Math.max(0, Date.now() - shownAt)); // clamp idle skew
       answers[idx] = {
         picked: [...picked],
         checked: true,
         correct: ev.correct,
         partial: ev.partial,
         unknown: ev.unknown,
+        ts: Date.now(),                       // last-seen, powers recency reminders
+        tMs: prev.tMs ? prev.tMs : dt,        // time to first answer
+        n: (prev.n || 0) + 1,                 // review frequency
       };
+      // Count a day's activity only the first time a question is checked, so
+      // re-checking the same one doesn't inflate the streak/trend.
+      if (!prev.checked) logActivity(!ev.unknown && ev.correct, dt);
       persist();
       phase = 'answer';
       render();
@@ -2218,6 +2558,7 @@
       picked.clear();
       checked = false;
       phase = 'question';
+      shownAt = Date.now();   // restart the per-question clock
       persist();
       render();
       toast('🔄 Question reset', 'warn');
@@ -2347,6 +2688,7 @@
 
     // ===== Keyboard =====
     function onKey(e) {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
       if (handleOverlayKeys(e)) return;
       const target = e.target;
       const inField = target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA');
@@ -2503,6 +2845,7 @@
       onKeyUp,
       startTimer,
       stopTimer,
+      gotoPrompt: gotoQuestionPrompt,
     };
   }
 
@@ -2515,6 +2858,9 @@
     // its 1/2/arrows aren't grabbed by the dashboard's underlying handler.
     if (typeof overlay._qeKeyHandler === 'function') {
       if (overlay._qeKeyHandler(e)) { e.preventDefault(); return true; }
+      // Search-style overlays (command palette) own their text input: let
+      // unhandled keys type normally instead of triggering digit shortcuts.
+      if (overlay._qeOwnsTyping) return false;
     }
     // 1-9 number selection forwarded to module switcher list
     if (/^[1-9]$/.test(e.key)) {
@@ -2529,6 +2875,7 @@
     if (k === 'Escape') { closeOverlays(); return true; }
     if (k === '?' || (k === '/' && e.shiftKey)) { e.preventDefault(); showHelp(); return true; }
     if (k === 'l' || k === 'L') { e.preventDefault(); toggleTheme(); return true; }
+    if (k === 'z' || k === 'Z') { e.preventDefault(); toggleFocus(); return true; }
     if (k === 'f' || k === 'F') { e.preventDefault(); toggleFS(); return true; }
     if (k === 'p' && !e.ctrlKey && !e.metaKey && !e.altKey) { e.preventDefault(); pomoToggle(); return true; }
     if (k === 'P' && e.shiftKey) { e.preventDefault(); pomoToggle(); return true; }
@@ -2550,6 +2897,10 @@
     showSettings,
     showModuleSwitcher,
     showAnalysis,
+    showCommandPalette,
+    toggleFocus,
+    computeActivity,
+    computeReminders,
     PRESETS,
   };
 })();
