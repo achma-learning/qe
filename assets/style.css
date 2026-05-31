@@ -685,3 +685,101 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
   .sidebar { position: static; max-height: 200px; }
   .topbar .search { width: 140px; }
 }
+
+/* ============== ACCESSIBILITY & READABILITY ============== */
+/* Visible keyboard focus everywhere (mouse clicks stay clean via :focus-visible). */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible,
+.opt:focus-visible, .card:focus-visible, .exam-tile:focus-visible,
+.q-chip:focus-visible, .cmdk-item:focus-visible, .reminder:focus-visible,
+.analysis-row:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; text-rendering: optimizeLegibility; }
+/* Cap line length on long-form text so it stays readable on wide screens. */
+.qtext { max-width: 72ch; }
+.options { max-width: 880px; }
+/* Respect reduced-motion: speed > effects. */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============== COMMAND PALETTE (⌘K) ============== */
+.cmdk-btn { display: inline-flex; align-items: center; gap: 2px; padding: 5px 8px; }
+.cmdk-btn kbd { min-width: 0; padding: 0 4px; border-bottom-width: 2px; font-size: 11px; }
+.overlay.cmdk { align-items: flex-start; padding-top: 11vh; }
+.cmdk-panel { max-width: 600px; padding: 0; overflow: hidden; }
+.cmdk-input-wrap { display: flex; align-items: center; gap: 10px; padding: 13px 16px; border-bottom: 1px solid var(--border); }
+.cmdk-prompt { font-family: var(--mono); font-weight: 800; color: var(--accent); font-size: 12px; background: var(--bg-soft); padding: 3px 7px; border-radius: 6px; }
+.cmdk-input { flex: 1; background: transparent; border: none; outline: none; color: var(--text); font-family: var(--sans); font-size: 16px; }
+.cmdk-input::placeholder { color: var(--text-faint); }
+.cmdk-list { max-height: 52vh; overflow-y: auto; padding: 6px; }
+.cmdk-item { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 9px; cursor: pointer; }
+.cmdk-item .ci-ico { width: 22px; text-align: center; font-size: 15px; flex-shrink: 0; }
+.cmdk-item .ci-main { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.cmdk-item .ci-title { font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmdk-item .ci-sub { font-family: var(--mono); font-size: 11px; color: var(--text-faint); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmdk-item .ci-tag { font-family: var(--mono); font-size: 10px; color: var(--text-faint); border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px; flex-shrink: 0; }
+.cmdk-item kbd { flex-shrink: 0; }
+.cmdk-item.sel { background: var(--bg-elev); box-shadow: inset 0 0 0 1.5px var(--accent); }
+.cmdk-empty { padding: 26px; text-align: center; color: var(--text-faint); font-size: 13px; }
+.cmdk-foot { padding: 8px 14px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 11px; color: var(--text-faint); display: flex; gap: 6px; align-items: center; }
+
+/* ============== FOCUS MODE (distraction-free) ============== */
+html.focus-mode .topbar,
+html.focus-mode .sidebar,
+html.focus-mode #qe-island,
+html.focus-mode .qhead .qexam,
+html.focus-mode .controls #btn-toggle-side,
+html.focus-mode .controls #btn-loadout,
+html.focus-mode .controls #btn-auto,
+html.focus-mode .controls #btn-mod { display: none !important; }
+html.focus-mode .viewer { grid-template-columns: 1fr; max-width: 800px; padding-top: 30px; }
+html.focus-mode .qpane { border: none; background: transparent; min-height: 84vh; padding-top: 6px; }
+html.focus-mode .qtext { font-size: 19px; }
+.focus-exit {
+  display: none; position: fixed; top: 12px; right: 14px; z-index: 99998;
+  align-items: center; gap: 6px; font-family: var(--mono); font-size: 12px;
+  background: var(--panel); border: 1px solid var(--border); color: var(--text-dim);
+}
+.focus-exit:hover { border-color: var(--accent); color: var(--text); }
+html.focus-mode .focus-exit { display: inline-flex; }
+
+/* ============== STUDY COACH ============== */
+#qe-coach:empty { display: none; }
+.coach { display: grid; grid-template-columns: 230px 1fr; gap: 12px; margin: 4px 0 0; }
+.coach-trend, .coach-reminders { background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.coach-trend { display: flex; flex-direction: column; gap: 8px; }
+.coach-trend .ct-top { display: flex; align-items: baseline; gap: 6px; }
+.coach-trend .ct-streak { font-family: var(--mono); font-weight: 800; font-size: 24px; color: var(--warn); font-variant-numeric: tabular-nums; }
+.coach-trend .ct-lbl { font-size: 12px; color: var(--text-dim); }
+.coach-trend .spark { display: flex; align-items: flex-end; gap: 3px; height: 46px; }
+.coach-trend .spark .sp { flex: 1; background: linear-gradient(180deg, var(--accent), var(--accent-2)); border-radius: 2px 2px 0 0; min-height: 4px; }
+.coach-trend .spark .sp.empty { background: var(--bg-soft); }
+.coach-trend .ct-foot { font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
+.coach-reminders h4 { margin: 0 0 8px; font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: .7px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.coach-reminders h4 a { font-size: 11px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
+.reminders { display: flex; flex-direction: column; gap: 6px; }
+.reminder { display: flex; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 9px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text); font-size: 13px; text-decoration: none; transition: border-color .12s, transform .08s; }
+a.reminder:hover { border-color: var(--accent); text-decoration: none; transform: translateX(2px); }
+.reminder .rm-ico { flex-shrink: 0; }
+.reminder .rm-text { flex: 1; }
+.reminder .rm-text b { color: var(--text); font-weight: 700; }
+.reminder .rm-go { color: var(--accent); font-weight: 700; }
+.reminder.weak { border-left: 3px solid var(--bad); }
+.reminder.module { border-left: 3px solid var(--warn); }
+.reminder.stale { border-left: 3px solid var(--accent-2); }
+.reminder.streak { border-left: 3px solid var(--warn); }
+.reminder.strength { border-left: 3px solid var(--ok); }
+@media (max-width: 700px) { .coach { grid-template-columns: 1fr; } }
+
+/* ============== ANALYSIS REMINDERS BAND ============== */
+.analysis-reminders { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }
+.analysis-reminders .ana-rem { font-size: 12px; padding: 4px 9px; border-radius: 999px; background: var(--bg-soft); border: 1px solid var(--border); color: var(--text-dim); }
+.analysis-reminders .ana-rem b { color: var(--text); }
+.analysis-bar .tab[data-tab="strengths"].active { border-color: var(--ok); }
