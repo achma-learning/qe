@@ -1,96 +1,63 @@
 # qe — MCQ Question Bank
 
-A keyboard-driven, static MCQ trainer built directly on top of the `data/*.txt`
-question files.
+> Cram for med-school exams by blitzing ~15,000 real past-exam questions — all keyboard, all offline, no login.
 
-## Run it
+_TODO: add a screenshot or GIF showing the dashboard → answering a question → instant correction_
 
-Pure static HTML/CSS/JS — no install, no build step at use time. Three ways:
+## What it is
 
-### 1. Offline — open `index.html` directly (download as ZIP)
+`qe` turns years of past medical-school exam papers (saved as plain `.txt` files) into a fast multiple-choice trainer. Pick your answers, get instant correction, and let it track the topics you keep getting wrong. It ships with 22 modules — 15,442 questions across 313 exams, semesters 5 to 10 — but it'll happily run on any questions in the same text format.
 
-The build step (already run, committed) bakes every `.txt` into
-`data/<slug>.data.js`, loaded via plain `<script>` tags so it works on
-`file://`. Just unzip the repo and double-click `index.html`.
+The one weird thing: **zero dependencies, no build step, no server.** No npm, no framework. Download the repo as a ZIP, double-click `index.html`, and it runs offline — questions and all. Your progress lives in your browser and never leaves it.
 
-### 2. Local HTTP server (recommended for dev)
+## Install & run
 
-```sh
+Nothing to install. Pick one:
+
+```bash
+# Option 1 — just open it (fully offline)
+# Download the repo as a ZIP, unzip, and double-click index.html
+
+# Option 2 — local server (nicer if you're editing the question files)
 python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-This path also falls back to live-parsing the original `.txt` files via
-`fetch()` if the baked data is missing, so you can edit a `.txt` and
-reload without rebuilding.
+Edited a question `.txt` (or the parser) and want it baked back into the offline bundle? That's the only step that needs Node:
 
-### 3. Rebuild the offline bundle after editing `.txt` or the parser
-
-```sh
+```bash
 node tools/build-data.js
 ```
 
-Regenerates `data/*.data.js` and `data/_counts.js`.
+No environment variables, no API keys, no accounts. The app never touches the network.
 
-## Files
+## Usage
 
-- `index.html` — dashboard listing every module, grouped by semester
-- `modules/<slug>.html` — one viewer page per `.txt` module
-- `assets/modules.js` — manifest mapping slugs → `.txt` files
-- `assets/app.js` — parser, viewer, keyboard layer, command palette, analytics
-  engine (streaks/reminders), focus mode, pomodoro, overlays
-- `assets/style.css` — dark/light theme, command palette, focus mode, study
-  coach, dynamic island timer, accessibility (focus-visible, reduced-motion)
-- `data/<semester>/<module>.txt` — source question files
-- `data/<slug>.data.js` — baked offline payload (run `tools/build-data.js`)
-- `data/_counts.js` — question + exam counts surfaced on the dashboard
-- `tools/build-data.js` — Node script: parses every `.txt` → `data/*.data.js`
+Open `index.html` and you land on the **dashboard** — every module grouped by semester. Type to search, or press a number to jump, then `Enter` to open one. Inside a module:
 
-## Keyboard (the whole point)
+- `1`–`5` — toggle answer options
+- `Space` / `Enter` — check your answer (press again to move on)
+- `←` `→` — previous / next question
+- `Z` — focus mode (everything but the question vanishes)
+- `W` (on the dashboard) — weakness analysis: accuracy per topic, weakest first, with a jump straight to your first wrong answer
 
-Everywhere:
-- `Ctrl`/`Cmd`+`K` **command palette** — fuzzy-jump to any module or run any
-  command (theme, focus, analysis, mode, pomodoro…) from anywhere
-- `Z` focus mode (distraction-free) · `L` theme · `F` fullscreen · `?` help · `Esc` close
+It's keyboard-first by design. The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that fuzzy-jumps to any module or runs any command. Press `?` anywhere for the full key map.
 
-Dashboard:
-- `1`–`9` jump · `↑↓←→` / `hjkl` focus · `Enter` open
-- `/` search · `C` continue · `W` analytics & weakness analysis · `M` switcher
+Two ways to study: **Training** (correction after every question) and **Exam** (answer a full set, then get a /20 grade on the real FMPM scale, plus a downloadable list of what you missed).
 
-Viewer:
-- `1`–`5` toggle option · `Space`/`Enter` check / continue · `R` reset (×2)
-- `←→↑↓` / `N J K` prev/next · `G` goto Q# · `0`/`D` dashboard (×2)
-- `T` / `8` cycle loadout · `Shift+T` table · `A` auto-advance toggle
-- `P` pomodoro · `F` fullscreen (×2 to exit) · `H` sidebar
-- `V` copy prompt · `Shift+V` AI menu · `Alt+C` copy AI-ready prompt
-- `M` / `9` module switcher · `Shift+S` / `6` settings · `Esc` close
+## What's new
 
-State (progress, theme, loadout, pomodoro, focus mode, daily activity) persists in
-`localStorage`.
+Most recent shipped change: **exam answer-sheet view with FMPM /20 grading, and a per-module error report you can download.**
 
-## Learning analytics (100 % local, offline)
+## Why I built this
 
-A small local engine turns your answers into guidance — no account, no network:
+I had years of past exam questions rotting in text files and no decent way to drill them — every quiz app wanted an account, a subscription, or wifi I didn't have. So I built the dumbest thing that works: one folder you open offline, drive entirely from the keyboard, that quietly remembers what you're bad at.
 
-- **Streaks & trends** — a daily activity log (`qe:activity`) powers the 🔥 streak
-  counter and the 14-day sparkline on the dashboard.
-- **Weakness analysis** (`W`) — accuracy per **topic** and per **module**, lowest
-  first, with a **Strengths** tab and "seen N days ago" recency. Jumps straight to
-  the first wrong question.
-- **Personalised reminders** — natural-language nudges on the dashboard
-  ("You're struggling with Cardiology (58 %)", "You haven't reviewed Hypertension
-  in 14 days", "Strongest area: …"), each deep-linking into the relevant module.
-- Per-question **time-to-answer** and **review frequency** are recorded on each
-  answer record (`tMs`, `n`, `ts`) for future spaced-repetition features.
+## License
 
-Topic labels come from the existing `# <exam> Q<n> - <topic>` headers, baked into
-`data/_topics.js` at build time.
+No `LICENSE` file — this is a personal study project, so treat it as all-rights-reserved. The exam questions belong to their original authors (e-qe.online and the exam writers), not me.
 
-## TODO / future
+## See also
 
-1. PDF backups per exam
-2. Link-out to the original e-qe.online exam page (already wired when the
-   `// <exam> (Correction officielle) : https://...` hint line is present)
-3. Per-exam "real exam" mode (full set, correction at the end)
-4. Theme-based browsing (re-mix questions across exams by topic tag)
-
+- [`CONTEXT.md`](./CONTEXT.md) — the orientation file for AI assistants joining the project
+- [`docs/UX-AUDIT.md`](./docs/UX-AUDIT.md) — design rationale, architecture notes, and what's on the roadmap
