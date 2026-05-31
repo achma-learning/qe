@@ -144,6 +144,335 @@
     };
   }
 
+  // =====================================================================
+  // ===== FMPM grading barème (note /20 from # of fully-correct QCM) =====
+  // =====================================================================
+  // Lookup tables transcribed from the official "Barème de correction des QCM".
+  // Index = number of correct answers, value = grade /20. Columns exist for
+  // 50 / 40 / 30 / 20-question papers; index 0 maps to 0. Validation = ≥ 10/20
+  // (e.g. 30/50 → 10.00, the highlighted threshold on the sheet).
+  const BAREME = {
+    50: [0,0.10,0.20,0.35,0.55,0.75,0.95,1.15,1.40,1.70,2.00,2.40,2.80,3.15,3.45,3.75,4.25,4.75,5.25,5.75,6.25,6.75,7.25,7.60,7.80,8.00,8.40,8.80,9.20,9.60,10.00,10.40,10.80,11.25,11.75,12.25,12.65,13.05,13.44,13.85,14.25,14.75,15.25,15.80,16.40,17.00,17.60,18.20,18.80,19.40,20.00],
+    40: [0,0.14,0.29,0.49,0.77,1.05,1.33,1.61,1.97,2.39,2.81,3.37,3.93,4.42,4.84,5.27,5.97,6.67,7.37,8.07,8.77,9.48,10.18,10.67,10.95,11.23,11.80,12.36,12.92,13.47,14.03,14.60,15.16,15.79,16.49,17.20,17.76,18.31,18.87,19.43,20.00],
+    30: [0,0.20,0.41,0.70,1.10,1.50,1.90,2.30,2.80,3.40,4.00,4.80,5.60,6.30,6.90,7.51,8.50,9.50,10.50,11.50,12.50,13.51,14.50,15.21,15.60,16.00,16.81,17.61,18.40,19.20,20.00],
+    20: [0,0.32,0.65,1.11,1.76,2.40,3.03,3.67,4.48,5.44,6.40,7.67,8.96,10.08,11.04,12.01,13.60,15.20,16.80,18.40,20.00],
+  };
+  // Grade /20 for `correct` good answers out of `total` questions. Standard
+  // paper sizes use the matching column; any other size is scaled onto the /50
+  // curve (so 49/48/40… exams still get a sensible, monotonic note).
+  function examGrade(correct, total) {
+    if (!total || total <= 0) return 0;
+    const c = Math.max(0, Math.min(total, correct | 0));
+    const table = BAREME[total];
+    if (table) return table[c] || 0;
+    const t50 = BAREME[50];
+    const c50 = Math.max(0, Math.min(50, Math.round((c / total) * 50)));
+    return t50[c50] || 0;
+  }
+  // Minimum number of correct answers needed to reach 10/20 (validation).
+  function examPassThreshold(total) {
+    for (let c = 0; c <= total; c++) if (examGrade(c, total) >= 10) return c;
+    return total;
+  }
+
+  // Build a bubble-sheet style correction grid that mirrors the FMPM answer
+  // sheet ("Élément de réponse" / CORRECTION): rows Q1..Qn, columns A–E, the
+  // official answers marked in green and the candidate's wrong picks in red.
+  function buildExamAnswerSheet(grp, sess, info) {
+    const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+    const N = grp.questions.length;
+    const mid = Math.ceil(N / 2);
+    const picksOf = (j) => new Set((sess.picked && sess.picked[j]) || []);
+    const cellFor = (q, j, letter) => {
+      const opt = (q.options || []).find(o => o.letter === letter);
+      if (!opt) return `<td class="as-cell na"></td>`;
+      const hasCorr = (q.correct || []).length > 0;
+      const correct = (q.correct || []).includes(letter);
+      const picked = picksOf(j).has(letter);
+      let cls = 'as-cell', mark = '';
+      if (!hasCorr) { if (picked) { cls += ' picked'; mark = '•'; } }   // no official correction
+      else if (correct && picked) { cls += ' got'; mark = '✓'; }
+      else if (correct && !picked) { cls += ' missed'; mark = '✓'; }
+      else if (!correct && picked) { cls += ' wrong'; mark = '✗'; }
+      const tip = `Q${q.qn} ${letter}${correct ? ' — bonne réponse' : ''}${picked ? ' — votre choix' : ''}`;
+      return `<td class="${cls}" title="${escapeHtml(tip)}">${mark}</td>`;
+    };
+    const rowFor = (j) => {
+      const q = grp.questions[j];
+      return `<tr><td class="as-qn">Q${q.qn}</td>${LETTERS.map(L => cellFor(q, j, L)).join('')}</tr>`;
+    };
+    const head = `<tr><th class="as-qn"></th>${LETTERS.map(L => `<th>${L}</th>`).join('')}</tr>`;
+    const colTable = (from, to) => `
+      <table class="as-table">
+        <thead>${head}</thead>
+        <tbody>${Array.from({ length: Math.max(0, to - from) }, (_, k) => rowFor(from + k)).join('')}</tbody>
+      </table>`;
+    return `
+      <div class="answer-sheet">
+        <div class="as-paper">
+          <div class="as-head">
+            <div class="as-univ">
+              <b>Université Cadi Ayyad</b><br>
+              Faculté de Médecine et de Pharmacie de Marrakech
+            </div>
+            <div class="as-fields">
+              <div><span>Module :</span> ${escapeHtml(info.module || '')}</div>
+              <div><span>Niveau :</span> ${escapeHtml(info.niveau || '')}</div>
+              <div><span>Session :</span> ${escapeHtml(info.session || '')}</div>
+            </div>
+            <div class="as-stamp">CORRECTION</div>
+          </div>
+          <div class="as-grids">
+            <div class="as-col">${colTable(0, mid)}</div>
+            ${mid < N ? `<div class="as-col">${colTable(mid, N)}</div>` : ''}
+          </div>
+          <div class="as-legend">
+            <span class="lg got">✓ Bonne réponse cochée</span>
+            <span class="lg missed">✓ Bonne réponse (non cochée)</span>
+            <span class="lg wrong">✗ Votre choix erroné</span>
+          </div>
+        </div>
+      </div>`;
+  }
+
+  // =====================================================================
+  // ===== Per-module error report (downloadable .txt) ===================
+  // =====================================================================
+  // Lazily pull a module's baked data, gather every wrong/partial answer across
+  // training + exam sessions, and offer a downloadable error log. Lives at
+  // module scope so the dashboard can surface it per card.
+  let dashboardRefresh = null;     // set by bootDashboard so report-reset can refresh cards
+  const _dataCache = {};
+  function loadModuleData(slug, basePath) {
+    return new Promise((resolve, reject) => {
+      if (_dataCache[slug]) { resolve(_dataCache[slug]); return; }
+      if (window.QE_DATA && window.QE_DATA.slug === slug) {
+        _dataCache[slug] = window.QE_DATA; resolve(window.QE_DATA); return;
+      }
+      const s = document.createElement('script');
+      s.src = (basePath || '') + 'data/' + slug + '.data.js';
+      s.onload = () => {
+        if (window.QE_DATA && window.QE_DATA.slug === slug) {
+          _dataCache[slug] = window.QE_DATA; resolve(window.QE_DATA);
+        } else {
+          reject(new Error('Données chargées mais identifiant inattendu.'));
+        }
+      };
+      s.onerror = () => reject(new Error('Échec du chargement de ' + s.src));
+      document.head.appendChild(s);
+    });
+  }
+
+  // Same grading rules as the viewer's evaluate()/evaluateExamLocal().
+  function gradePick(correctArr, pickedArr) {
+    const correct = new Set(correctArr || []);
+    const got = new Set(pickedArr || []);
+    if (correct.size === 0) return got.size ? 'unknown' : 'skipped';
+    if (got.size === 0) return 'skipped';
+    let allRight = true, anyWrong = false;
+    for (const c of correct) if (!got.has(c)) allRight = false;
+    for (const g of got) if (!correct.has(g)) { anyWrong = true; allRight = false; }
+    if (allRight && !anyWrong) return 'correct';
+    if (!anyWrong) return 'partial';
+    return 'wrong';
+  }
+
+  // Collect every wrong/partial answer for a module across training + exams.
+  function collectModuleReport(slug, data) {
+    const questions = data.questions || [];
+    const exams = data.exams || [];
+    const examStarts = [];
+    { let acc = 0; for (const g of exams) { examStarts.push(acc); acc += g.questions.length; } }
+    const items = [];
+
+    // Training-mode answers (qIdx = flat index into questions[]).
+    const ans = LS.get(`answers.${slug}`, {});
+    for (const [qIdxStr, rec] of Object.entries(ans)) {
+      if (!rec || !rec.checked) continue;
+      const qIdx = parseInt(qIdxStr, 10);
+      const q = questions[qIdx];
+      if (!q) continue;
+      const verdict = gradePick(q.correct, rec.picked);
+      if (verdict === 'wrong' || verdict === 'partial') {
+        items.push({
+          qIdx, source: 'Entraînement', verdict,
+          exam: q.exam, qn: q.qn, topic: q.topic, text: q.text,
+          options: q.options || [], correct: q.correct || [], picked: rec.picked || [],
+        });
+      }
+    }
+    // Exam sessions (picked keyed by local index within the exam group).
+    for (let ei = 0; ei < exams.length; ei++) {
+      const sess = LS.get(`exam.${slug}.${ei}`, null);
+      if (!sess || !sess.picked) continue;
+      const grp = exams[ei];
+      for (const [liStr, pickedArr] of Object.entries(sess.picked)) {
+        const li = parseInt(liStr, 10);
+        const q = grp.questions[li];
+        if (!q) continue;
+        const verdict = gradePick(q.correct, pickedArr);
+        if (verdict === 'wrong' || verdict === 'partial') {
+          items.push({
+            qIdx: (examStarts[ei] || 0) + li,
+            source: `Examen : ${grp.name}${sess.submitted ? ' (soumis)' : ' (brouillon)'}`,
+            verdict,
+            exam: q.exam, qn: q.qn, topic: q.topic, text: q.text,
+            options: q.options || [], correct: q.correct || [], picked: pickedArr || [],
+          });
+        }
+      }
+    }
+    items.sort((a, b) => a.qIdx - b.qIdx || String(a.source).localeCompare(String(b.source)));
+    return items;
+  }
+
+  // Render the human-readable .txt body: each false question with its full
+  // statement, the official correction, and the user's own selection.
+  function buildReportText(module, items) {
+    const out = [];
+    const sep = '═'.repeat(64);
+    const sub = '─'.repeat(64);
+    const now = new Date();
+    const nWrong = items.filter(i => i.verdict === 'wrong').length;
+    const nPart = items.filter(i => i.verdict === 'partial').length;
+    out.push(sep);
+    out.push(`  RAPPORT D'ERREURS — ${module.name}`);
+    out.push(`  Module : ${module.slug}  (${(module.sem || '').toUpperCase()})`);
+    out.push(`  Date   : ${now.toLocaleString('fr-FR')}`);
+    out.push(`  Total  : ${items.length} question(s) à revoir — ${nWrong} fausse(s), ${nPart} partielle(s)`);
+    out.push(sep);
+    out.push('');
+    out.push('Légende :  ✓ = bonne réponse (correction officielle)    ✗ = votre choix erroné');
+    out.push('');
+    if (items.length === 0) {
+      out.push('Aucune erreur enregistrée pour ce module. Bravo ! 🎉');
+      out.push('');
+      return out.join('\n');
+    }
+    items.forEach((it, i) => {
+      const map = {};
+      (it.options || []).forEach(o => { map[o.letter] = o.text; });
+      const corr = it.correct || [];
+      const pick = it.picked || [];
+      const corrSet = new Set(corr), pickSet = new Set(pick);
+      const fmt = (arr) => arr.length ? arr.map(l => `${l} — ${map[l] || '?'}`).join('  ;  ') : '(aucune)';
+      out.push(sub);
+      out.push(`#${i + 1}  ·  Q${it.qn}  ·  ${it.exam}${it.topic ? '  ·  ' + it.topic : ''}`);
+      out.push(`Verdict : ${it.verdict === 'partial' ? '~ Réponse partielle' : '✗ Réponse fausse'}    |    Source : ${it.source}`);
+      out.push('');
+      out.push('Énoncé :');
+      out.push('  ' + String(it.text || '').split('\n').join('\n  '));
+      out.push('');
+      out.push('Propositions :');
+      (it.options || []).forEach(o => {
+        let g = '    ';
+        if (corrSet.has(o.letter)) g = '  ✓ ';
+        else if (pickSet.has(o.letter)) g = '  ✗ ';
+        out.push(`${g}${o.letter}. ${o.text}`);
+      });
+      out.push('');
+      out.push('  ✓ Correction officielle : ' + fmt(corr));
+      out.push('  ✗ Votre sélection        : ' + fmt(pick));
+      out.push('');
+    });
+    out.push(sep);
+    out.push(`Fin du rapport — ${items.length} question(s) à revoir.`);
+    out.push('');
+    return out.join('\n');
+  }
+
+  function downloadTextFile(filename, text) {
+    try {
+      const blob = new Blob([text], { type: 'text/plain;charset=utf-8' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url; a.download = filename;
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1500);
+      return true;
+    } catch { return false; }
+  }
+
+  // Two-step confirm reset bound to a button inside the report overlay.
+  function wireReportReset(module, body) {
+    const rs = body.querySelector('#rep-reset');
+    if (!rs) return;
+    let armed = false, t = null;
+    rs.addEventListener('click', () => {
+      if (armed) {
+        clearTimeout(t); armed = false;
+        const n = resetModuleProgress(module.slug);
+        toast(`🔄 ${module.name} — progression réinitialisée (${n} entrée${n > 1 ? 's' : ''})`, 'ok');
+        closeOverlays();
+        if (typeof dashboardRefresh === 'function') dashboardRefresh();
+      } else {
+        armed = true;
+        rs.textContent = '⚠️ Confirmer la réinitialisation';
+        rs.classList.add('armed');
+        toast('⚠️ Cliquez à nouveau pour tout effacer', 'warn');
+        t = setTimeout(() => { armed = false; rs.textContent = '↻ Réinitialiser la progression'; rs.classList.remove('armed'); }, 2500);
+      }
+    });
+  }
+
+  function renderReportBody(module, data, body) {
+    const items = collectModuleReport(module.slug, data);
+    const nWrong = items.filter(i => i.verdict === 'wrong').length;
+    const nPart = items.filter(i => i.verdict === 'partial').length;
+    const preview = items.slice(0, 6).map(it => `
+      <div class="rp-item ${it.verdict}">
+        <span class="rp-qn">Q${it.qn}</span>
+        <span class="rp-text">${escapeHtml((it.text || '').slice(0, 90))}${(it.text || '').length > 90 ? '…' : ''}</span>
+        <span class="rp-corr" title="Correction officielle">✓ ${escapeHtml(it.correct.join(', ') || '—')}</span>
+        <span class="rp-pick" title="Votre sélection">✗ ${escapeHtml(it.picked.join(', ') || '—')}</span>
+      </div>`).join('');
+    body.innerHTML = `
+      <div class="report-summary">
+        <div class="rs-stat"><b>${items.length}</b><span>à revoir</span></div>
+        <div class="rs-stat bad"><b>${nWrong}</b><span>✗ fausses</span></div>
+        <div class="rs-stat mid"><b>${nPart}</b><span>~ partielles</span></div>
+      </div>
+      ${items.length === 0
+        ? `<div class="report-empty">Aucune erreur enregistrée pour ce module. 🎉<br><small>Réponds à des questions en mode Entraînement ou Examen, puis reviens ici.</small></div>`
+        : `<div class="report-note">Le fichier <code>.txt</code> liste <b>chaque question fausse</b> avec son énoncé, la <b>correction officielle</b> et <b>ta sélection</b>.</div>
+           <div class="report-preview">${preview}${items.length > 6 ? `<div class="rp-more">+ ${items.length - 6} autre(s) question(s) dans le fichier…</div>` : ''}</div>`
+      }
+      <div class="report-actions">
+        <button id="rep-download" class="primary"${items.length === 0 ? ' disabled' : ''}>⬇ Télécharger le rapport (.txt)</button>
+        <button id="rep-reset" class="rep-danger">↻ Réinitialiser la progression</button>
+      </div>
+      <div class="esc-hint">Le rapport se télécharge en fichier texte · Esc pour fermer</div>
+    `;
+    const dl = body.querySelector('#rep-download');
+    if (dl && items.length) {
+      dl.addEventListener('click', () => {
+        const text = buildReportText(module, items);
+        const ok = downloadTextFile(`qe-rapport-erreurs-${module.slug}-${localDayStr()}.txt`, text);
+        toast(ok ? `⬇ Rapport téléchargé — ${items.length} question(s)` : '⚠️ Téléchargement impossible', ok ? 'ok' : 'warn');
+      });
+    }
+    wireReportReset(module, body);
+  }
+
+  function showModuleReport(module, basePath) {
+    if (document.querySelector('.overlay')) { closeOverlays(); return; }
+    makeOverlay((panel) => {
+      panel.classList.add('report-panel');
+      panel.innerHTML = `
+        <h3>📄 Rapport d'erreurs — ${escapeHtml(module.name)}</h3>
+        <div class="report-body"><div class="report-loading">⏳ Chargement des données du module…</div></div>
+      `;
+      const body = panel.querySelector('.report-body');
+      loadModuleData(module.slug, basePath || '').then(data => {
+        renderReportBody(module, data, body);
+      }).catch(err => {
+        body.innerHTML = `<div class="report-error">⚠️ Impossible de charger les données du module.<br><small>${escapeHtml(err.message)}</small></div>
+          <div class="report-actions"><button id="rep-reset" class="rep-danger">↻ Réinitialiser la progression</button></div>`;
+        wireReportReset(module, body);
+      });
+    });
+  }
+
   // Prefetch a module's baked data file so navigating to its viewer is instant.
   // Each data file is ~750KB; one hover saves a full network round-trip.
   const _prefetched = new Set();
@@ -271,11 +600,24 @@
 
   let preset = PRESETS[cfg.presetIndex] || PRESETS[0];
 
+  // Keep the viewer's loadout button (`#btn-loadout`) showing the active preset.
+  // The button is rebuilt on every viewer render, but cycling the preset via the
+  // T/8 shortcut or the loadout table does NOT re-render the pane — so patch the
+  // element in place whenever the preset changes, from wherever it changed.
+  function syncLoadoutButton() {
+    const btn = document.getElementById('btn-loadout');
+    if (btn) {
+      btn.textContent = `${preset.emoji} ${preset.q}/${preset.a}`;
+      btn.title = `Loadout: ${preset.name} — ${preset.q}s / ${preset.a}s (T)`;
+    }
+  }
+
   function cyclePreset() {
     cfg.presetIndex = (cfg.presetIndex + 1) % PRESETS.length;
     preset = PRESETS[cfg.presetIndex];
     LS.set('presetIndex', cfg.presetIndex);
     toast(`${preset.emoji} ${preset.name} — ${preset.q}s / ${preset.a}s — ${preset.desc}`, 'ok');
+    syncLoadoutButton();
     if (state.viewer && cfg.autoAdvance) state.viewer.startTimer();
   }
 
@@ -515,13 +857,15 @@
           <div class="keys"><kbd>Mode pill</kbd></div><div>Toggle Training ↔ Exam (top bar, persisted)</div>
           <div class="keys">${k('1')}–${k('9')} (picker)</div><div>Start that exam</div>
           <div class="keys">${k('Shift+Enter')}</div><div>Submit exam (press twice to confirm)</div>
+          <div class="keys">Après soumission</div><div>Note /20 (barème FMPM) · « <i>{examen} validée</i> » si ≥ 10/20 (≥ 30/50) · feuille de correction A–E façon FMPM</div>
           <div class="keys">${k('Esc')} (exam-run)</div><div>Pause and back to picker (progress kept)</div>
           <div class="keys">${k('1')}–${k('5')} (review)</div><div>Filter: all / correct / partial / wrong / skipped</div>
           <div class="keys">${k('R')} (review)</div><div>Retake same exam (clears stored answers)</div>
           <div class="keys">${k('0')} / ${k('D')} ×2</div><div>Back to dashboard (anywhere)</div>
         </div>
-        <div class="group-title">Reset progress</div>
+        <div class="group-title">Reports & reset</div>
         <div class="help-grid">
+          <div class="keys">📄 on module card</div><div>Download an error report (.txt): every wrong question + official correction + your selection. Has a reset button too.</div>
           <div class="keys">↻ on module card</div><div>Wipe ALL progress for that module (training + every exam). Click ↻ twice to confirm.</div>
           <div class="keys">${k('R')} ×2 (dashboard)</div><div>Same — focus a card with arrows, then press R twice.</div>
           <div class="keys">↻ on exam tile</div><div>Wipe just that exam's session. Click ↻ twice to confirm.</div>
@@ -557,6 +901,7 @@
           preset = PRESETS[cfg.presetIndex];
           LS.set('presetIndex', cfg.presetIndex);
           toast(`${preset.emoji} ${preset.name} — ${preset.q}s/${preset.a}s`, 'ok');
+          syncLoadoutButton();
           if (state.viewer && cfg.autoAdvance) state.viewer.startTimer();
           closeOverlays();
         });
@@ -1452,7 +1797,9 @@
       const f = filter.trim().toLowerCase();
       semRoot.innerHTML = '';
       let globalIdx = 0;
-      Object.keys(grouped).sort().forEach(sem => {
+      // Home page order: newest semester first → s10, s9, s8, s7, s6, s5.
+      const semNum = (s) => parseInt(String(s).replace(/\D/g, ''), 10) || 0;
+      Object.keys(grouped).sort((a, b) => semNum(b) - semNum(a)).forEach(sem => {
         const list = grouped[sem].filter(m => !f || m.name.toLowerCase().includes(f) || m.sem.includes(f));
         if (list.length === 0) return;
         const block = document.createElement('div');
@@ -1486,6 +1833,7 @@
           const showReset = hasProgress || examSessions > 0;
           a.innerHTML = `
             <span class="num">${globalIdx <= 9 ? globalIdx : ''}</span>
+            ${showReset ? `<button class="card-report" type="button" title="Rapport d'erreurs — télécharger un .txt des questions fausses" aria-label="Rapport d'erreurs">📄</button>` : ''}
             ${showReset ? `<button class="card-reset" type="button" title="Reset all progress for this module (click twice to confirm)" aria-label="Reset progress">↻</button>` : ''}
             <div class="title">${m.name}</div>
             <div class="meta">${m.sem}${total ? ' · ' + total + ' Q' : ''}${cnt ? ' · ' + cnt.exams + ' exams' : ''}${examSessions ? ' · ' + examSessions + ' exam' + (examSessions>1?'s':'') + ' taken' : ''}</div>
@@ -1498,6 +1846,15 @@
               ev.preventDefault();
               ev.stopPropagation();
               tryResetModule(m, resetBtn);
+            });
+          }
+          // Report button — open the per-module error report (loads data lazily).
+          const reportBtn = a.querySelector('.card-report');
+          if (reportBtn) {
+            reportBtn.addEventListener('click', (ev) => {
+              ev.preventDefault();
+              ev.stopPropagation();
+              showModuleReport(m, '');
             });
           }
           // Prefetch the module's baked data on hover/focus — viewer loads instantly.
@@ -1556,6 +1913,12 @@
 
     renderStatsHero();
     render();
+
+    // Let the per-module report overlay refresh cards/stats after a reset.
+    dashboardRefresh = () => {
+      renderStatsHero();
+      render(document.getElementById('qe-search')?.value || '');
+    };
 
     // Dashboard-specific keyboard
     document.addEventListener('keydown', (e) => {
@@ -2049,6 +2412,14 @@
         if (ev.kind === 'skipped') continue;
         logActivity(ev.kind === 'correct', perQMs);
       }
+      // FMPM barème: note /20, validation at ≥ 10/20 (e.g. ≥ 30/50 correct).
+      const sc = examScore(ei);
+      const grade20 = examGrade(sc.correct, sc.total);
+      if (grade20 >= 10) {
+        toast(`✅ ${grp.name} validée — ${grade20.toFixed(2)}/20 (${sc.correct}/${sc.total})`, 'ok');
+      } else {
+        toast(`❌ ${grp.name} non validée — ${grade20.toFixed(2)}/20 (${sc.correct}/${sc.total})`, 'warn');
+      }
       viewMode = 'exam-review';
       stopExamTimer();
       reviewFilter = 'all';
@@ -2313,6 +2684,23 @@
       const dur = sess.durationSec || 0;
       const durM = Math.floor(dur / 60), durS = String(dur % 60).padStart(2, '0');
       const scoreCls = score100 >= 70 ? 'good' : score100 >= 50 ? 'mid' : 'bad';
+      // FMPM barème grade + validation + bubble-sheet correction (template PDF).
+      const grade20 = examGrade(s.correct, s.total);
+      const validated = grade20 >= 10;
+      const threshold = examPassThreshold(s.total);
+      const answerSheetHtml = buildExamAnswerSheet(grp, sess, {
+        module: module.name,
+        niveau: (module.sem || '').toUpperCase(),
+        session: grp.name,
+      });
+      const verdictHtml = `
+        <div class="exam-verdict ${validated ? 'ok' : 'no'}">
+          <div class="ev-grade">${grade20.toFixed(2)}<small>/20</small></div>
+          <div class="ev-main">
+            <div class="ev-title">${validated ? '✅ ' : '❌ '}${escapeHtml(grp.name)} ${validated ? 'validée' : 'non validée'}</div>
+            <div class="ev-sub">${s.correct}/${s.total} bonnes réponses · seuil de validation 10/20 (≥ ${threshold}/${s.total})${validated ? '' : ` · il manque ${Math.max(0, threshold - s.correct)} bonne(s) réponse(s)`}</div>
+          </div>
+        </div>`;
 
       const inExam = (idx >= start && idx < start + grp.questions.length);
       const sidebarHtml = buildSidebarHtml({
@@ -2365,7 +2753,7 @@
             <div class="review-head">
               <div>
                 <h2>📊 ${escapeHtml(grp.name)} — Results</h2>
-                <div class="sub">${s.correct} correct · ${s.partial} partial · ${s.wrong} wrong · ${s.skipped} skipped${s.unknown ? ' · ' + s.unknown + ' no-correction' : ''}${dur ? ' · ' + durM + ':' + durS + ' taken' : ''}</div>
+                <div class="sub">${s.correct} correct · ${s.partial} partial · ${s.wrong} wrong · ${s.skipped} skipped${s.unknown ? ' · ' + s.unknown + ' no-correction' : ''}${dur ? ' · ' + durM + ':' + durS + ' taken' : ''} · Note ${grade20.toFixed(2)}/20</div>
                 <div class="review-actions">
                   <button id="btn-exit-exam">‹ Pick another exam</button>
                   <button id="btn-restart-exam">↻ Retake this exam</button>
@@ -2374,6 +2762,8 @@
               </div>
               <div class="score ${scoreCls}">${score100}%<small>${s.correct}/${s.total}</small></div>
             </div>
+            ${verdictHtml}
+            ${answerSheetHtml}
             <div class="review-filters">
               <span class="chip ${reviewFilter==='all'?'active':''}"     data-f="all">All ${s.total}</span>
               <span class="chip ${reviewFilter==='correct'?'active':''}" data-f="correct">Correct ${s.correct}</span>
