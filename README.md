@@ -47,14 +47,14 @@ Two ways to study: **Training** (correction after every question) and **Exam** (
 
 ## Adding your own exams
 
-The questions are just text files under `data/sX/` — edit one, check it, rebuild:
+The questions are just text files under `data/sX/` — edit one and either push it or rebuild locally:
 
 ```bash
 node tools/check-data.js     # flags typos that would silently drop a question
 node tools/build-data.js     # bakes your edits in — then refresh the page
 ```
 
-Full walkthrough with the format and the gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
+Push to `main` (even an edit straight on github.com) and a GitHub Action re-bakes the data for you, so the online site and the offline download both update on their own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
 
 ## What's new
 

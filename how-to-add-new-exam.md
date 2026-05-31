@@ -110,23 +110,34 @@ It parses your files with the **same parser the website uses** and flags the sil
 | Warning | What it means | Fix |
 |---|---|---|
 | **orphan correction** (line N) | A `Correction officielle …` line didn't attach to any question | Make the exam name + Q number match the question's header exactly |
+| **unrecognized correction** (line N) | A line starts with "Correction" but isn't `Correction officielle - …` (e.g. `Correction proposée`). It's dropped **and** swallowed into the option above it | Use exactly `Correction officielle - <Exam> Q<n> = <letters>` |
+| **option letters out of sequence** | Options came out like `[A B D]` — one didn't parse | Check the missing letter's line starts with `C]` at the line start |
+| **malformed option** (line N) | A space before the bracket (`A ]`) stops it parsing as an option | Write `A]`, not `A ]` |
 | **too few options** | A question has < 2 options — an option line didn't parse | Make sure each starts with `A]` `B]` … at the line start |
 | **question before the first "---"** | Text above the first separator is ignored | Add a `---` line above your first question |
 | **duplicate question** | Two questions share the same exam + Q number | Renumber one of them |
 
-`✓ all clear` means you're good to build.
+`✓ all clear` means you're good to build. Add `--strict` (`node tools/check-data.js --strict`) to make it exit with an error if anything's wrong — that's what CI uses.
 
 ---
 
-## See your changes
+## See your changes — online and offline
+
+**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back, so **both** the online site (GitHub Pages) and the offline ZIP download update by themselves. No Node needed.
+
+**If you edit locally:** run the build yourself, then refresh —
 
 ```bash
-node tools/build-data.js
+node tools/check-data.js     # make sure nothing's wrong
+node tools/build-data.js     # bake .txt → data/*.data.js
 ```
 
-Then **refresh the page.** This step is required: the site loads the pre-baked `data/<module>.data.js` files (so it works offline), **not** the raw `.txt`. If you skip the rebuild, nothing changes on screen.
+Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so it works offline), **not** the raw `.txt`. Commit **both** the `.txt` and the regenerated `data/*` files.
 
-If you're pushing to GitHub, commit **both** the edited `.txt` **and** the regenerated `data/*.data.js` / `data/_counts.js` / `data/_topics.js`.
+> **One-time setup for the auto-build / online site:**
+> - **Settings → Actions → General → Workflow permissions →** enable **Read and write permissions** (lets the Action commit the baked data back).
+> - **Settings → Pages → Deploy from a branch → `main` / `(root)`** to turn on the online version.
+> - The `.nojekyll` file in the repo is what lets Pages serve `data/_counts.js` and `data/_topics.js` — GitHub's Jekyll hides files whose names start with `_`.
 
 ---
 

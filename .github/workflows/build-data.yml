@@ -1,0 +1,56 @@
+name: Build & validate question data
+
+# Keeps the baked data (data/*.data.js, _counts.js, _topics.js) in sync with the
+# source .txt files, so editing a .txt — even straight on github.com — updates
+# BOTH the online site (GitHub Pages) and the offline ZIP, with no manual build.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**/*.txt'
+      - 'assets/app.js'
+      - 'assets/modules.js'
+      - 'tools/**'
+  pull_request:
+    paths:
+      - 'data/**/*.txt'
+      - 'assets/app.js'
+      - 'assets/modules.js'
+      - 'tools/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # On PRs: block the merge if a question or answer would be silently lost.
+      - name: Validate .txt (strict)
+        if: github.event_name == 'pull_request'
+        run: node tools/check-data.js --strict
+
+      # On pushes to main (and manual runs): re-bake and commit the result back.
+      # The commit only touches data/*.data.js (+ _counts/_topics), which aren't in
+      # the trigger paths above, so it can't loop. [skip ci] is a second guard.
+      - name: Rebuild baked data and commit it back
+        if: github.event_name != 'pull_request'
+        run: |
+          node tools/check-data.js   # report (non-blocking) so warnings show in the log
+          node tools/build-data.js
+          if [ -n "$(git status --porcelain data/)" ]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "Rebuild baked question data [skip ci]"
+            git push
+          else
+            echo "Baked data already up to date."
+          fi
