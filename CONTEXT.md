@@ -24,7 +24,7 @@ _Last synced: 2026-05-31 @ 7e212ef_
   node tools/build-data.js     # bakes .txt → data/*.data.js (+ _counts.js, _topics.js)
   ```
   Commit the regenerated `data/*` files — offline mode reads them. Full guide: `how-to-add-new-exam.md`.
-- **Online + offline stay in sync via CI:** pushing a `.txt` change triggers `.github/workflows/build-data.yml`, which re-bakes `data/*` and commits it back; GitHub Pages then redeploys. (Needs Actions "Read and write" perms + Pages enabled — see `how-to-add-new-exam.md`.)
+- **The live site auto-deploys from CI:** every push to `main` runs `.github/workflows/deploy.yml`, which bakes `data/*` from the `.txt` and publishes the site to GitHub Pages. Requires Pages **Source = "GitHub Actions"** (one-time). It also commits the baked data back (best-effort, needs Actions read/write) so the offline ZIP stays current — see `how-to-add-new-exam.md`.
 - **Required env vars:** _None._ The app makes no network calls and needs no keys.
 
 ## 3. Tech Stack
@@ -47,8 +47,8 @@ _Last synced: 2026-05-31 @ 7e212ef_
 - `data/_counts.js` / `data/_topics.js` — auto-generated indexes for dashboard counts + weakness analysis. **Do not edit.**
 - `docs/UX-AUDIT.md` — the design/architecture rationale and feature roadmap. Good background; this file (§7) tracks the live state.
 - `how-to-add-new-exam.md` — human-facing guide for adding/editing exams: the `.txt` format, the strict-vs-forgiving rules, and the validator.
-- `.github/workflows/build-data.yml` — CI: validates `.txt` (`--strict`) on PRs; on push to `main` re-bakes `data/*` and commits it back so online (Pages) + offline both track the `.txt` sources.
-- `.nojekyll` — makes GitHub Pages serve the `_`-prefixed `data/_counts.js` / `_topics.js` (Jekyll hides `_*` by default). **Do not delete.**
+- `.github/workflows/deploy.yml` — CI: on PRs validates `.txt` (`--strict`); on push to `main` bakes `data/*`, deploys the site to GitHub Pages, and commits the baked data back (best-effort) for the offline copy.
+- `.nojekyll` — safety net for branch-based Pages (Jekyll hides `_`-prefixed files like `data/_counts.js`). Moot for the Actions deploy, harmless to keep. **Don't delete.**
 
 **Scale:** 22 modules · 15,442 questions · 313 exams (summed from `data/_counts.js`).
 
@@ -77,10 +77,10 @@ _Last synced: 2026-05-31 @ 7e212ef_
 - **`localStorage` ~5 MB ceiling.** Answer maps and the bounded ~400-day `qe:activity` log stay small. If a future feature stores full per-attempt history, move **that feature** to IndexedDB — don't migrate everything.
 - **Looks-dead-but-isn't (skip on cleanup):** the `.q-chip.flagged` CSS with nothing setting it, and `resetTrainingExamRange` (`app.js:72`, unused) are both reserved for the planned bookmark/review feature (R1 in `docs/UX-AUDIT.md`). Leave them.
 - **`modules.js` is eval'd in a fake `window` at load time** (`tools/parser-bridge.js:28`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the tools can't read it.
-- **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** Without the root **`.nojekyll`**, `data/_counts.js` and `data/_topics.js` 404 online → dashboard counts + weakness analysis break. Don't delete `.nojekyll`.
+- **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** The Actions deploy (`deploy.yml`) serves a staged `_site/` so this doesn't bite, but the root **`.nojekyll`** is kept as a safety net for anyone serving via branch-based Pages (else `data/_counts.js` / `_topics.js` 404 → dashboard counts + weakness analysis break).
 
 ## 7. Current State
-- **Last shipped:** fixed 5 `Correction proposée` lines that were silently swallowing option E and dropping the answer (→ `officielle`, re-baked); strengthened `check-data.js` (unrecognized-correction, out-of-sequence/malformed options, `--strict`); added CI (`.github/workflows/build-data.yml`) that re-bakes data on push, and `.nojekyll` so Pages serves the `_*` data files.
+- **Last shipped:** CI (`.github/workflows/deploy.yml`) that bakes `data/*` from the `.txt` and **deploys the site to GitHub Pages on every push** (so editing a `.txt` updates the live site), with a best-effort baked-data commit-back for the offline copy. Earlier in this PR: fixed 5 `Correction proposée` lines that silently swallowed option E + dropped the answer; strengthened `check-data.js` (`--strict`, unrecognized-correction, out-of-sequence/malformed options).
 - **Recently before that:** `how-to-add-new-exam.md` + the `check-data.js` validator and `tools/parser-bridge.js`; exam answer-sheet + FMPM /20 grade + error report (PR #9); command palette, analytics, focus mode (PR #8); the docs pass.
 - **Working on now:** nothing active — the add-exam authoring + sync workflow just landed.
 - **Next up** (roadmap in `docs/UX-AUDIT.md`, pick ≤3):

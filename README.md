@@ -54,7 +54,7 @@ node tools/check-data.js     # flags typos that would silently drop a question
 node tools/build-data.js     # bakes your edits in — then refresh the page
 ```
 
-Push to `main` (even an edit straight on github.com) and a GitHub Action re-bakes the data for you, so the online site and the offline download both update on their own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
+Push to `main` (even an edit straight on github.com) and a GitHub Action rebuilds and redeploys the site, so the live website reflects your new questions on its own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
 
 ## What's new
 

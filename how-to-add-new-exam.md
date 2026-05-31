@@ -123,7 +123,7 @@ It parses your files with the **same parser the website uses** and flags the sil
 
 ## See your changes — online and offline
 
-**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back, so **both** the online site (GitHub Pages) and the offline ZIP download update by themselves. No Node needed.
+**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action rebuilds the site from your files and redeploys it, so the **live website** reflects your new questions by itself. No Node needed.
 
 **If you edit locally:** run the build yourself, then refresh —
 
@@ -134,10 +134,9 @@ node tools/build-data.js     # bake .txt → data/*.data.js
 
 Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so it works offline), **not** the raw `.txt`. Commit **both** the `.txt` and the regenerated `data/*` files.
 
-> **One-time setup for the auto-build / online site:**
-> - **Settings → Actions → General → Workflow permissions →** enable **Read and write permissions** (lets the Action commit the baked data back).
-> - **Settings → Pages → Deploy from a branch → `main` / `(root)`** to turn on the online version.
-> - The `.nojekyll` file in the repo is what lets Pages serve `data/_counts.js` and `data/_topics.js` — GitHub's Jekyll hides files whose names start with `_`.
+> **One-time setup (do this once, in your repo's Settings):**
+> - **Pages → Build and deployment → Source → "GitHub Actions".** This is the only switch the live site needs. After it, every push rebuilds and deploys the site.
+> - *(Optional)* **Actions → General → Workflow permissions → "Read and write".** Lets the build also commit the baked data back, so the **offline** download stays current too. Skip it and the live site still updates — only the committed `data/*.data.js` lags.
 
 ---
 
