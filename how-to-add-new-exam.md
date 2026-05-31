@@ -123,7 +123,7 @@ It parses your files with the **same parser the website uses** and flags the sil
 
 ## See your changes — online and offline
 
-**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back, so **both** the online site (GitHub Pages) and the offline ZIP download update by themselves. No Node needed.
+**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back; GitHub Pages then redeploys the site on its own, so the **live website** shows your new questions. No Node needed.
 
 **If you edit locally:** run the build yourself, then refresh —
 
@@ -134,10 +134,11 @@ node tools/build-data.js     # bake .txt → data/*.data.js
 
 Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so it works offline), **not** the raw `.txt`. Commit **both** the `.txt` and the regenerated `data/*` files.
 
-> **One-time setup for the auto-build / online site:**
-> - **Settings → Actions → General → Workflow permissions →** enable **Read and write permissions** (lets the Action commit the baked data back).
-> - **Settings → Pages → Deploy from a branch → `main` / `(root)`** to turn on the online version.
-> - The `.nojekyll` file in the repo is what lets Pages serve `data/_counts.js` and `data/_topics.js` — GitHub's Jekyll hides files whose names start with `_`.
+> **One-time setup (do this once, in your repo's Settings):**
+> - **Pages → Build and deployment → Source → "Deploy from a branch" → `main` / `(root)`.** That's all the live site needs — it serves the files in the repo as-is.
+> - **Actions → General → Workflow permissions → "Read and write".** Lets the Action commit the re-baked data back when you edit a `.txt` on github.com, so the live site picks it up. (Skip it and just rebuild locally + push instead.)
+
+**Use it offline / install it:** open the live site once, then your browser's **Install** button (address-bar icon, or "Add to Home Screen" on phones) installs it like an app — after that it opens and works with no internet. The downloaded ZIP also works fully offline: just open `index.html`.
 
 ---
 

@@ -1,8 +1,10 @@
-name: Build & validate question data
+name: Keep baked data in sync
 
-# Keeps the baked data (data/*.data.js, _counts.js, _topics.js) in sync with the
-# source .txt files, so editing a .txt — even straight on github.com — updates
-# BOTH the online site (GitHub Pages) and the offline ZIP, with no manual build.
+# The website is served by GitHub Pages straight from this branch's files
+# (Settings -> Pages -> Deploy from a branch -> main -> /root). So the only job
+# of CI is to keep the baked data (data/*.data.js, _counts.js, _topics.js) in
+# step with the .txt sources -- including when you edit a .txt on github.com.
+# When CI commits the rebuilt data back, Pages redeploys on its own.
 on:
   push:
     branches: [main]
@@ -33,24 +35,24 @@ jobs:
           node-version: '20'
 
       # On PRs: block the merge if a question or answer would be silently lost.
-      - name: Validate .txt (strict)
+      - name: Validate (strict)
         if: github.event_name == 'pull_request'
         run: node tools/check-data.js --strict
 
       # On pushes to main (and manual runs): re-bake and commit the result back.
-      # The commit only touches data/*.data.js (+ _counts/_topics), which aren't in
-      # the trigger paths above, so it can't loop. [skip ci] is a second guard.
+      # The bot commit only touches data/*.data.js (+ _counts/_topics), which are
+      # not in the trigger paths above, so it can't loop. [skip ci] is a 2nd guard.
       - name: Rebuild baked data and commit it back
         if: github.event_name != 'pull_request'
         run: |
-          node tools/check-data.js   # report (non-blocking) so warnings show in the log
+          node tools/check-data.js
           node tools/build-data.js
           if [ -n "$(git status --porcelain data/)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/
             git commit -m "Rebuild baked question data [skip ci]"
-            git push
+            git push || { echo "::error::Could not push. Enable Settings -> Actions -> General -> Workflow permissions -> Read and write."; exit 1; }
           else
             echo "Baked data already up to date."
           fi

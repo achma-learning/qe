@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#6c8dff"/>
+  <text x="50%" y="54%" fill="#ffffff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-weight="800" font-size="230" text-anchor="middle" dominant-baseline="central">QE</text>
+</svg>

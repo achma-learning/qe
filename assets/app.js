@@ -3293,4 +3293,27 @@
     computeReminders,
     PRESETS,
   };
+
+  // ===== PWA: installable + offline on the web (the file:// copy is already offline) =====
+  (function registerPWA() {
+    try {
+      if (!String(location.protocol).startsWith('http')) return;     // skip file://
+      const base = /\/modules\//.test(location.pathname) ? '../' : './';
+      if (!document.querySelector('link[rel="manifest"]')) {
+        const l = document.createElement('link');
+        l.rel = 'manifest'; l.href = base + 'manifest.webmanifest';
+        document.head.appendChild(l);
+      }
+      if (!document.querySelector('meta[name="theme-color"]')) {
+        const m = document.createElement('meta');
+        m.name = 'theme-color'; m.content = '#6c8dff';
+        document.head.appendChild(m);
+      }
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register(base + 'sw.js').catch(() => {});
+        });
+      }
+    } catch (e) { /* PWA is a progressive enhancement — never block the app */ }
+  })();
 })();
