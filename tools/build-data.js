@@ -12,22 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
-
-const ROOT = path.resolve(__dirname, '..');
-
-function loadParser() {
-  const code = fs.readFileSync(path.join(ROOT, 'assets', 'app.js'), 'utf8');
-  const m = code.match(/function parseQuestionsFile\(text\) \{[\s\S]*?\n  \}\n/);
-  if (!m) throw new Error('parseQuestionsFile not found in assets/app.js');
-  return new Function(m[0] + '\nreturn parseQuestionsFile;')();
-}
-
-function loadModules() {
-  const code = fs.readFileSync(path.join(ROOT, 'assets', 'modules.js'), 'utf8');
-  const sandbox = { window: {} };
-  new Function('window', code)(sandbox.window);
-  return sandbox.window.QE_MODULES || [];
-}
+const { ROOT, loadParser, loadModules } = require('./parser-bridge');
 
 // Build a compact qIdx → topic index for the dashboard's Weakness Analysis.
 // Each module gets { t: [unique topic strings], q: [topic index per question] }.

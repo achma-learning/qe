@@ -16,13 +16,14 @@ _Last synced: 2026-05-31 @ c3a7004_
   python3 -m http.server 8000
   # then open http://localhost:8000/
   ```
-  Over HTTP it can also live-parse the original `.txt` via `fetch()` if a baked data file is missing, so you can edit a `.txt` and just reload.
+  Note: the viewer loads the **baked** `data/<slug>.data.js` (always present), so editing a `.txt` shows nothing until you rebuild (below). The `fetch()` live-parse only kicks in if a `.data.js` is missing/404s.
 - **Run offline:** Double-click `index.html`. Works on `file://` because the questions are pre-baked into `data/<slug>.data.js` and loaded with plain `<script>` tags.
-- **Rebuild data (after editing any `.txt` or the parser):**
+- **Add / edit exams:** edit the `.txt` under `data/<sem>/`, then validate and rebuild:
   ```sh
-  node tools/build-data.js
+  node tools/check-data.js     # flags silent mistakes (orphan corrections, bad options)
+  node tools/build-data.js     # bakes .txt → data/*.data.js (+ _counts.js, _topics.js)
   ```
-  Regenerates `data/*.data.js`, `data/_counts.js`, `data/_topics.js`. Commit the regenerated files — offline mode reads them.
+  Commit the regenerated `data/*` files — offline mode reads them. Full guide: `how-to-add-new-exam.md`.
 - **Required env vars:** _None._ The app makes no network calls and needs no keys.
 
 ## 3. Tech Stack
@@ -36,12 +37,15 @@ _Last synced: 2026-05-31 @ c3a7004_
 - `assets/app.js` — **the monolith (~3,300 lines).** The entire app: `.txt` parser, dashboard, viewer, keyboard layer, command palette, analytics engine, exam grading, focus mode, pomodoro, report export. Everything lives in one IIFE exposing `window.QE.bootDashboard` / `bootViewer`.
 - `assets/modules.js` — hand-maintained **manifest**: `window.QE_MODULES = [{ sem, slug, name, file }]` + `QE_SEMESTERS` labels. The source of truth for which modules exist and where their `.txt` lives.
 - `assets/style.css` — all styling (~855 lines): dark/light themes, command palette, focus mode, "dynamic island" timer, accessibility (`:focus-visible`, `prefers-reduced-motion`).
-- `tools/build-data.js` — Node script that bakes each `.txt` → `data/<slug>.data.js` and writes `_counts.js` / `_topics.js`. **Watch out:** it pulls `parseQuestionsFile` out of `app.js` by regex (see §6).
+- `tools/build-data.js` — bakes each `.txt` → `data/<slug>.data.js` and writes `_counts.js` / `_topics.js`.
+- `tools/check-data.js` — validator: parses every `.txt` with the real parser and warns about silent mistakes (orphan corrections, too-few-options, pre-separator questions). Run before baking.
+- `tools/parser-bridge.js` — shared loader that lifts `parseQuestionsFile` + the module manifest out of `app.js`/`modules.js` so the build and validator never drift from the app (see §6).
 - `modules/<slug>.html` — one viewer page per module. Carries `<div id="qe-root" data-module="<slug>">`, loads that module's `.data.js`, calls `QE.bootViewer()`. All 22 are near-identical.
 - `data/<sem>/<module>.txt` — **the only hand-edited data.** Source question files (semesters s5–s10).
 - `data/<slug>.data.js` — auto-generated baked payload (`window.QE_DATA = {...}`). **Do not edit.**
 - `data/_counts.js` / `data/_topics.js` — auto-generated indexes for dashboard counts + weakness analysis. **Do not edit.**
 - `docs/UX-AUDIT.md` — the design/architecture rationale and feature roadmap. Good background; this file (§7) tracks the live state.
+- `how-to-add-new-exam.md` — human-facing guide for adding/editing exams: the `.txt` format, the strict-vs-forgiving rules, and the validator.
 
 **Scale:** 22 modules · 15,442 questions · 313 exams (summed from `data/_counts.js`).
 
@@ -62,18 +66,19 @@ _Last synced: 2026-05-31 @ c3a7004_
 - **No network calls, no CDNs, no fetched fonts.** Preserve the offline guarantee. Everything stays inline ES / SVG / CSS.
 
 ## 6. Fragile Bits & Landmines
-- **The parser is extracted by regex — don't reformat it.** `tools/build-data.js:20` slurps `parseQuestionsFile` out of `app.js` with `/function parseQuestionsFile\(text\) \{[\s\S]*?\n  \}\n/`. That function (`assets/app.js:1499–1625`) **must** keep the exact signature `function parseQuestionsFile(text) {` and close with a two-space-indented `}` (i.e. `\n  }\n`). Renaming it, changing its indentation, or adding another `\n  }\n`-shaped block inside it silently breaks the build. _Symptom if broken: build throws "parseQuestionsFile not found" or bakes garbage._
+- **The parser is extracted by regex — don't reformat it.** `tools/parser-bridge.js:20` slurps `parseQuestionsFile` out of `app.js` with `/function parseQuestionsFile\(text\) \{[\s\S]*?\n  \}\n/`. That function (`assets/app.js:1499–1625`) **must** keep the exact signature `function parseQuestionsFile(text) {` and close with a two-space-indented `}` (i.e. `\n  }\n`). Renaming it, changing its indentation, or adding another `\n  }\n`-shaped block inside it silently breaks the build. _Symptom if broken: build throws "parseQuestionsFile not found" or bakes garbage._
 - **`.txt` parsing is heuristic and format-sensitive.** Headers (`<exam> Q<n> - <topic>`) are only detected **after the first `---`/`===` separator** and only when the previous line was a boundary (`isLikelyHeader`, `app.js:1522`). Stray separators, colons, or `?`/`!` endings change what counts as a header. Eyeball the question count after editing a `.txt`.
 - **"Unknown correction" is excluded from accuracy on purpose.** Questions without a `Correction officielle - <exam> Q<n> = <letters>` line get `hasCorrection:false`, and the viewer marks answers `rec.unknown` so they don't pollute accuracy (`app.js:2157`). This is a deliberate honesty call — **don't "fix" it** to count them.
+- **Corrections bind by an exact `exam`+`qn` match and silently drop otherwise** (`app.js:1562`). A `Correction officielle - …` line whose exam name or number doesn't match its question — even by one space (`Juin2025` vs `Juin 2025`) — just doesn't attach; the question then shows "no official answer" with no error anywhere. **Run `node tools/check-data.js`** after editing any `.txt`; it exists to catch exactly this.
 - **`BAREME` grade tables are hard-coded official curves.** `app.js:154` holds the FMPM /20 conversion for 50/40/30/20-question papers; other sizes are scaled onto the /50 curve. These are real published values — don't recompute or "simplify" them.
 - **`localStorage` ~5 MB ceiling.** Answer maps and the bounded ~400-day `qe:activity` log stay small. If a future feature stores full per-attempt history, move **that feature** to IndexedDB — don't migrate everything.
 - **Looks-dead-but-isn't (skip on cleanup):** the `.q-chip.flagged` CSS with nothing setting it, and `resetTrainingExamRange` (`app.js:72`, unused) are both reserved for the planned bookmark/review feature (R1 in `docs/UX-AUDIT.md`). Leave them.
-- **`modules.js` is eval'd in a fake `window` at build time** (`build-data.js:25`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the build can't read it.
+- **`modules.js` is eval'd in a fake `window` at load time** (`tools/parser-bridge.js:28`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the tools can't read it.
 
 ## 7. Current State
-- **Last shipped:** Exam answer-sheet view + FMPM /20 grading, downloadable per-module error report, loadout sync, dashboard "continue/home" ordering (commit `578e809`, merged via PR #9).
-- **Recently before that:** Command palette (`Ctrl`/`Cmd`+`K`), 100%-local learning analytics (streaks, 14-day trend, weakness/strength + recency reminders), focus mode (`Z`), readability/a11y polish (PR #8).
-- **Working on now:** This documentation pass (`CONTEXT.md`).
+- **Last shipped:** `how-to-add-new-exam.md` + a `node tools/check-data.js` validator that catches silent `.txt` mistakes (orphan corrections, malformed options) before baking; parser/manifest loading factored into `tools/parser-bridge.js`, shared by the build and the validator.
+- **Recently before that:** exam answer-sheet + FMPM /20 grade and downloadable error report (PR #9); command palette, local analytics, focus mode (PR #8); the `CONTEXT.md` + `README.md` docs pass.
+- **Working on now:** nothing active — the add-exam workflow just landed.
 - **Next up** (roadmap in `docs/UX-AUDIT.md`, pick ≤3):
   1. **R1 — Bookmark / mark-difficult + review queue** (wire the dormant `.flagged` chip; keys `B`/`X`).
   2. **R2 — Global question/topic search** inside the command palette (currently matches modules only).
