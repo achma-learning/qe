@@ -24,13 +24,14 @@ _Last synced: 2026-05-31 @ 3b68e34_
   node tools/build-data.js     # bakes .txt → data/*.data.js (+ _counts.js, _topics.js)
   ```
   Commit the regenerated `data/*` files — offline mode reads them. Full guide: `how-to-add-new-exam.md`.
-- **The live site auto-deploys from CI:** every push to `main` runs `.github/workflows/deploy.yml`, which bakes `data/*` from the `.txt` and publishes the site to GitHub Pages. Requires Pages **Source = "GitHub Actions"** (one-time). It also commits the baked data back (best-effort, needs Actions read/write) so the offline ZIP stays current — see `how-to-add-new-exam.md`.
+- **Live site = GitHub Pages serving this branch** (Settings → Pages → Deploy from a branch → `main` / root): it serves the committed files as-is, so it works at the project subpath `https://achma-learning.github.io/qe/` thanks to the app's all-relative paths. `.github/workflows/build-data.yml` re-bakes `data/*` on push and commits it back (needs Actions read/write), so a `.txt` edit on github.com reaches the live site.
+- **Installable / offline PWA:** `sw.js` + `manifest.webmanifest` make the online site installable and work offline; registered from `app.js`, guarded to http(s) (the `file://` copy is offline regardless).
 - **Required env vars:** _None._ The app makes no network calls and needs no keys.
 
 ## 3. Tech Stack
 - **Language + runtime:** Vanilla JavaScript (browser ES + Node for the one build script). No TypeScript. No declared runtime version — there is no `package.json`, lockfile, or `.nvmrc`. HTML5 + CSS3.
 - **Framework / key libraries:** **None.** Zero dependencies, no bundler, no package manager, no CDN. This is a hard constraint, not an accident (see §5).
-- **What kind of project:** Static multi-page web app (one dashboard + one viewer page per module) plus a single Node CLI build script.
+- **What kind of project:** Static multi-page web app + installable offline PWA (one dashboard + one viewer page per module), plus Node CLI tools (build + validate).
 - **External services:** None at runtime. Content was sourced from e-qe.online; the app only ever *links out* to those exam pages when a URL hint line is present.
 
 ## 4. Code Map (The Important Files Only)
@@ -47,8 +48,9 @@ _Last synced: 2026-05-31 @ 3b68e34_
 - `data/_counts.js` / `data/_topics.js` — auto-generated indexes for dashboard counts + weakness analysis. **Do not edit.**
 - `docs/UX-AUDIT.md` — the design/architecture rationale and feature roadmap. Good background; this file (§7) tracks the live state.
 - `how-to-add-new-exam.md` — human-facing guide for adding/editing exams: the `.txt` format, the strict-vs-forgiving rules, and the validator.
-- `.github/workflows/deploy.yml` — CI: on PRs validates `.txt` (`--strict`); on push to `main` bakes `data/*`, deploys the site to GitHub Pages, and commits the baked data back (best-effort) for the offline copy.
-- `.nojekyll` — safety net for branch-based Pages (Jekyll hides `_`-prefixed files like `data/_counts.js`). Moot for the Actions deploy, harmless to keep. **Don't delete.**
+- `.github/workflows/build-data.yml` — CI: on PRs validates `.txt` (`--strict`); on push to `main` re-bakes `data/*` and commits it back so branch-based Pages redeploys with fresh data.
+- `manifest.webmanifest` + `sw.js` + `icon.svg` — PWA: make the online site installable and offline-capable (service worker: network-first for pages, stale-while-revalidate for assets/data). Registered from `app.js`.
+- `.nojekyll` — **essential** for branch-based Pages: Jekyll hides `_`-prefixed files, so without it `data/_counts.js` / `_topics.js` 404 (breaking dashboard counts + weakness analysis). **Don't delete.**
 
 **Scale:** 22 modules · 15,442 questions · 313 exams (summed from `data/_counts.js`).
 
@@ -77,12 +79,13 @@ _Last synced: 2026-05-31 @ 3b68e34_
 - **`localStorage` ~5 MB ceiling.** Answer maps and the bounded ~400-day `qe:activity` log stay small. If a future feature stores full per-attempt history, move **that feature** to IndexedDB — don't migrate everything.
 - **Looks-dead-but-isn't (skip on cleanup):** the `.q-chip.flagged` CSS with nothing setting it, and `resetTrainingExamRange` (`app.js:72`, unused) are both reserved for the planned bookmark/review feature (R1 in `docs/UX-AUDIT.md`). Leave them.
 - **`modules.js` is eval'd in a fake `window` at load time** (`tools/parser-bridge.js:28`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the tools can't read it.
-- **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** The Actions deploy (`deploy.yml`) serves a staged `_site/` so this doesn't bite, but the root **`.nojekyll`** is kept as a safety net for anyone serving via branch-based Pages (else `data/_counts.js` / `_topics.js` 404 → dashboard counts + weakness analysis break).
+- **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** The site is served branch-based, so the root **`.nojekyll`** is load-bearing: without it `data/_counts.js` / `_topics.js` 404 → dashboard counts + weakness analysis break. Verified live (all `_*` files return 200). Don't delete it.
+- **Service worker caches aggressively.** `sw.js` is network-first for navigations, stale-while-revalidate for assets/data, so a deploy shows up within a reload or two online. If you change caching behaviour, bump `CACHE` in `sw.js` to evict old entries. It runs only on http(s), never `file://`.
 
 ## 7. Current State
-- **Last shipped:** CI (`.github/workflows/deploy.yml`) that bakes `data/*` from the `.txt` and **deploys the site to GitHub Pages on every push** (so editing a `.txt` updates the live site), with a best-effort baked-data commit-back for the offline copy. Earlier in this PR: fixed 5 `Correction proposée` lines that silently swallowed option E + dropped the answer; strengthened `check-data.js` (`--strict`, unrecognized-correction, out-of-sequence/malformed options).
+- **Last shipped:** Made it an **installable, offline PWA** (`sw.js` + `manifest.webmanifest`, registered from `app.js`) and settled deployment on **branch-based GitHub Pages** (live at https://achma-learning.github.io/qe/), with `build-data.yml` re-baking + committing data on push. Earlier in this PR: fixed 5 `Correction proposée` lines that silently swallowed option E + dropped the answer; strengthened `check-data.js` (`--strict`, unrecognized-correction, out-of-sequence/malformed options).
 - **Recently before that:** `how-to-add-new-exam.md` + the `check-data.js` validator and `tools/parser-bridge.js`; exam answer-sheet + FMPM /20 grade + error report (PR #9); command palette, analytics, focus mode (PR #8); the docs pass.
-- **Working on now:** nothing active — the add-exam authoring + sync workflow just landed.
+- **Working on now:** nothing active — authoring workflow, data fixes, and the PWA/deploy just landed.
 - **Next up** (roadmap in `docs/UX-AUDIT.md`, pick ≤3):
   1. **R1 — Bookmark / mark-difficult + review queue** (wire the dormant `.flagged` chip; keys `B`/`X`).
   2. **R2 — Global question/topic search** inside the command palette (currently matches modules only).

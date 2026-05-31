@@ -123,7 +123,7 @@ It parses your files with the **same parser the website uses** and flags the sil
 
 ## See your changes — online and offline
 
-**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action rebuilds the site from your files and redeploys it, so the **live website** reflects your new questions by itself. No Node needed.
+**If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back; GitHub Pages then redeploys the site on its own, so the **live website** shows your new questions. No Node needed.
 
 **If you edit locally:** run the build yourself, then refresh —
 
@@ -135,8 +135,10 @@ node tools/build-data.js     # bake .txt → data/*.data.js
 Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so it works offline), **not** the raw `.txt`. Commit **both** the `.txt` and the regenerated `data/*` files.
 
 > **One-time setup (do this once, in your repo's Settings):**
-> - **Pages → Build and deployment → Source → "GitHub Actions".** This is the only switch the live site needs. After it, every push rebuilds and deploys the site.
-> - *(Optional)* **Actions → General → Workflow permissions → "Read and write".** Lets the build also commit the baked data back, so the **offline** download stays current too. Skip it and the live site still updates — only the committed `data/*.data.js` lags.
+> - **Pages → Build and deployment → Source → "Deploy from a branch" → `main` / `(root)`.** That's all the live site needs — it serves the files in the repo as-is.
+> - **Actions → General → Workflow permissions → "Read and write".** Lets the Action commit the re-baked data back when you edit a `.txt` on github.com, so the live site picks it up. (Skip it and just rebuild locally + push instead.)
+
+**Use it offline / install it:** open the live site once, then your browser's **Install** button (address-bar icon, or "Add to Home Screen" on phones) installs it like an app — after that it opens and works with no internet. The downloaded ZIP also works fully offline: just open `index.html`.
 
 ---
 

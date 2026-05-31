@@ -54,11 +54,11 @@ node tools/check-data.js     # flags typos that would silently drop a question
 node tools/build-data.js     # bakes your edits in — then refresh the page
 ```
 
-Push to `main` (even an edit straight on github.com) and a GitHub Action rebuilds and redeploys the site, so the live website reflects your new questions on its own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
+Push to `main` (even an edit straight on github.com) and a GitHub Action re-bakes the data and commits it back; GitHub Pages then redeploys, so the live website shows your new questions on its own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
 
 ## What's new
 
-Most recent shipped change: **add your own exams** — a step-by-step guide plus a one-command validator (`node tools/check-data.js`) that catches the silent formatting slips (a mistyped exam name, a stray space) before they quietly cost you a question.
+Most recent shipped change: **installable, works-offline web app** — open the live site once and your browser can Install it (or Add to Home Screen) to use it offline, like a native app. Plus a one-command validator (`node tools/check-data.js`) that catches silent formatting slips before they cost you a question.
 
 ## Why I built this
 
