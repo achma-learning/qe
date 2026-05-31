@@ -135,8 +135,8 @@ node tools/build-data.js     # bake .txt → data/*.data.js
 Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so it works offline), **not** the raw `.txt`. Commit **both** the `.txt` and the regenerated `data/*` files.
 
 > **One-time setup (do this once, in your repo's Settings):**
-> - **Pages → Build and deployment → Source → "Deploy from a branch" → `main` / `(root)`.** That's all the live site needs — it serves the files in the repo as-is.
-> - **Actions → General → Workflow permissions → "Read and write".** Lets the Action commit the re-baked data back when you edit a `.txt` on github.com, so the live site picks it up. (Skip it and just rebuild locally + push instead.)
+> - **Pages → Build and deployment → Source → "GitHub Actions".** This is the switch the live site needs: every push to `main` runs the build-&-deploy workflow and publishes the site. Watch it in the **Actions** tab.
+> - *(Optional)* **Actions → General → Workflow permissions → "Read and write".** Lets the workflow also commit the re-baked `data/*` back so the offline ZIP stays current. Skip it and the live site still updates — only the committed baked data lags.
 
 **Use it offline / install it:** open the live site once, then your browser's **Install** button (address-bar icon, or "Add to Home Screen" on phones) installs it like an app — after that it opens and works with no internet. The downloaded ZIP also works fully offline: just open `index.html`.
 
