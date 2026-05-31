@@ -926,8 +926,8 @@
           ${list.map((m, i) => `
             <div class="row ${m.slug === cur ? 'selected' : ''}" data-href="${modHref(m)}">
               <span class="num">${m.sem.replace('s','')}.${i + 1}</span>
-              <span class="label">${m.name}</span>
-              <span class="right">${m.file.split('/').pop()}</span>
+              <span class="label">${escapeHtml(m.name)}</span>
+              <span class="right">${escapeHtml(m.file.split('/').pop())}</span>
             </div>`).join('')}
         `).join('')}
         <div class="esc-hint">
@@ -1702,7 +1702,7 @@
           <a class="continue-tile" href="modules/${lastMod.slug}.html" data-slug="${lastMod.slug}">
             <span class="play">▶</span>
             <span class="ct-label">Continue</span>
-            <b class="ct-name">${lastMod.name}</b>
+            <b class="ct-name">${escapeHtml(lastMod.name)}</b>
             <span class="ct-sub">${sub}</span>
             <span class="ct-key"><kbd>C</kbd></span>
           </a>
@@ -1732,7 +1732,7 @@
                 const cls = pct >= 70 ? 'good' : pct >= 50 ? 'mid' : 'bad';
                 return `
                   <a class="weak-item" href="modules/${m.slug}.html" data-slug="${m.slug}">
-                    <span class="wi-name">${m.name}</span>
+                    <span class="wi-name">${escapeHtml(m.name)}</span>
                     <span class="wi-meta">${m.sem} · ${m.answered}/${m.total} answered</span>
                     <span class="wi-bar"><span class="${cls}" style="width:${pct}%"></span></span>
                     <span class="wi-pct ${cls}">${pct}%</span>
@@ -1835,7 +1835,7 @@
             <span class="num">${globalIdx <= 9 ? globalIdx : ''}</span>
             ${showReset ? `<button class="card-report" type="button" title="Rapport d'erreurs — télécharger un .txt des questions fausses" aria-label="Rapport d'erreurs">📄</button>` : ''}
             ${showReset ? `<button class="card-reset" type="button" title="Reset all progress for this module (click twice to confirm)" aria-label="Reset progress">↻</button>` : ''}
-            <div class="title">${m.name}</div>
+            <div class="title">${escapeHtml(m.name)}</div>
             <div class="meta">${m.sem}${total ? ' · ' + total + ' Q' : ''}${cnt ? ' · ' + cnt.exams + ' exams' : ''}${examSessions ? ' · ' + examSessions + ' exam' + (examSessions>1?'s':'') + ' taken' : ''}</div>
             ${prog ? `<div class="meta">${prog.answered}/${prog.total} answered · ${prog.correct || 0}✓</div><div class="progress"><span style="width:${pct}%"></span></div>` : ''}
           `;
@@ -1869,7 +1869,7 @@
       // Reapply focus
       focusCardByIdx(focusIdx);
       if (semRoot.querySelector('.card') === null) {
-        semRoot.innerHTML = `<div class="empty"><div class="ico">🔍</div>No modules match "<b>${filter}</b>"</div>`;
+        semRoot.innerHTML = `<div class="empty"><div class="ico">🔍</div>No modules match "<b>${escapeHtml(filter)}</b>"</div>`;
       }
     }
 
@@ -2010,14 +2010,14 @@
     const mods = window.QE_MODULES || [];
     const module = mods.find(m => m.slug === moduleSlug);
     if (!module) {
-      document.body.innerHTML = `<div class="empty"><div class="ico">⚠️</div>Unknown module: ${moduleSlug}</div>`;
+      document.body.innerHTML = `<div class="empty"><div class="ico">⚠️</div>Unknown module: ${escapeHtml(moduleSlug)}</div>`;
       return;
     }
 
     buildTopbar({
       search: false,
       indexHref: '../index.html',
-      crumbHtml: `<a href="../index.html">Dashboard</a> · <b>${module.name}</b> <span style="opacity:.6">(${module.sem})</span>`,
+      crumbHtml: `<a href="../index.html">Dashboard</a> · <b>${escapeHtml(module.name)}</b> <span style="opacity:.6">(${escapeHtml(module.sem)})</span>`,
     });
 
     // Remember this module so the dashboard's "Continue" tile can jump back.
@@ -2040,7 +2040,11 @@
         const text = await res.text();
         parsed = parseQuestionsFile(text);
       } catch (e) {
-        root.innerHTML = `<div class="empty"><div class="ico">⚠️</div>Failed to load <code>${module.file}</code><br><small>${e.message}</small><br><br>Run <code>node tools/build-data.js</code> to bake offline data, or serve the folder via <code>python3 -m http.server</code>.</div>`;
+        const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
+        const hint = offline
+          ? `You're offline and this module hasn't been saved for offline use yet.<br>Open it once while online, then it'll work offline.`
+          : `Couldn't load this module's questions.<br><small>${escapeHtml(e.message)}</small><br>Try reloading, or go back to the <a href="../index.html">dashboard</a>.`;
+        root.innerHTML = `<div class="empty"><div class="ico">⚠️</div>${hint}</div>`;
         return;
       }
     }
@@ -2214,16 +2218,16 @@
           else if (st.kind === 'picked')  { cls += ' picked';  picked++; }
           if (st.flagged) cls += ' flagged';
           const idAttr = interactive ? `data-idx="${qIdx}"` : '';
-          return `<div class="${cls}" ${idAttr} title="Q${qq.qn}${qq.topic ? ' — ' + qq.topic : ''}">${qq.qn}</div>`;
+          return `<div class="${cls}" ${idAttr} title="${escapeHtml('Q' + qq.qn + (qq.topic ? ' — ' + qq.topic : ''))}">${qq.qn}</div>`;
         }).join('');
         offset = end;
-        const examLink = grp.url ? `<a href="${grp.url}" target="_blank" rel="noopener" title="Open original on e-qe.online">↗</a>` : '';
+        const examLink = grp.url ? `<a href="${escapeHtml(grp.url)}" target="_blank" rel="noopener" title="Open original on e-qe.online">↗</a>` : '';
         const stats = `<span class="stats">${answered}/${grp.questions.length}${correct ? ' · <b>' + correct + '✓</b>' : ''}${picked ? ' · ' + picked + '◔' : ''} ${examLink}</span>`;
         return `
           <div class="exam-group ${isOpen ? '' : 'collapsed'}" data-exam-idx="${ei}">
             <div class="exam-name ${isCurrentExam ? 'current' : ''}" role="${isCurrentExam ? 'heading' : 'button'}" aria-expanded="${isOpen}" tabindex="${isCurrentExam ? '-1' : '0'}">
               <span class="chev" aria-hidden="true">▾</span>
-              <span class="name" title="${grp.name}">${grp.name}</span>
+              <span class="name" title="${escapeHtml(grp.name)}">${escapeHtml(grp.name)}</span>
               ${stats}
             </div>
             <div class="q-list">${chips}</div>
@@ -2299,11 +2303,11 @@
         if (ev.unknown) {
           feedback = `<div class="feedback show">No official correction recorded for this question.<small>Choices revealed only · select an answer and try the next one.</small></div>`;
         } else if (ev.correct) {
-          feedback = `<div class="feedback show ok">✓ Correct! (${correctLetters})<small>${q.exam} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show ok">✓ Correct! (${correctLetters})<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         } else if (ev.partial) {
-          feedback = `<div class="feedback show partial">~ Partial. Right answer(s): ${correctLetters}<small>${q.exam} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show partial">~ Partial. Right answer(s): ${correctLetters}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         } else {
-          feedback = `<div class="feedback show bad">✗ Incorrect. Right answer(s): ${correctLetters}<small>${q.exam} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show bad">✗ Incorrect. Right answer(s): ${correctLetters}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         }
       }
 
@@ -2311,15 +2315,15 @@
         <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
           ${cfg.sidebarHidden ? '' : `
             <aside class="sidebar">
-              <h3>${module.name}</h3>
+              <h3>${escapeHtml(module.name)}</h3>
               ${sidebarHtml}
             </aside>
           `}
           <div class="qpane">
             <div class="qhead">
               <div class="qmeta">Q <b>${idx + 1}</b> / ${total} · ${answeredCount} answered · ${correctCount}✓</div>
-              <div class="qexam">${q.exam}</div>
-              ${q.topic ? `<div class="qtopic">${q.topic}</div>` : ''}
+              <div class="qexam">${escapeHtml(q.exam)}</div>
+              ${q.topic ? `<div class="qtopic">${escapeHtml(q.topic)}</div>` : ''}
             </div>
             <div class="qtext">${escapeHtml(q.text)}</div>
             <div class="options">${optionsHtml}</div>
@@ -2466,6 +2470,9 @@
       if (!anyWrong) return { kind: 'partial' };
       return { kind: 'wrong' };
     }
+    // Safe percentage helper — guards against empty exam groups (a hand-edited
+    // .txt could yield an exam with 0 questions, which would otherwise show NaN%).
+    function pctOf(n, d) { return d > 0 ? Math.round((n / d) * 100) : 0; }
     function examScore(ei) {
       const grp = exams[ei];
       let correct = 0, partial = 0, wrong = 0, skipped = 0, unknown = 0;
@@ -2488,7 +2495,7 @@
         let status = '', statusCls = 'fresh';
         if (sess.submitted) {
           const s = examScore(ei);
-          status = `✓ ${s.correct}/${s.total} (${Math.round(s.correct / s.total * 100)}%)`;
+          status = `✓ ${s.correct}/${s.total} (${pctOf(s.correct, s.total)}%)`;
           statusCls = 'done';
         } else if (picks > 0) {
           status = `… ${picks}/${grp.questions.length} answered (in progress)`;
@@ -2496,14 +2503,14 @@
         } else {
           status = 'Not started';
         }
-        const pct = sess.submitted ? Math.round(examScore(ei).correct / grp.questions.length * 100) : Math.round(picks / grp.questions.length * 100);
+        const pct = sess.submitted ? pctOf(examScore(ei).correct, grp.questions.length) : pctOf(picks, grp.questions.length);
         const showReset = (picks > 0 || sess.submitted);
         return `
           <div class="exam-tile" data-ei="${ei}" role="button" tabindex="0">
             <span class="num">${ei < 9 ? ei + 1 : ''}</span>
             ${showReset ? `<button class="tile-reset" type="button" data-ei="${ei}" title="Reset this exam's progress (click twice)" aria-label="Reset exam">↻</button>` : ''}
             <div class="name">${escapeHtml(grp.name)}</div>
-            <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a class="src-link" href="' + grp.url + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
+            <div class="meta">${grp.questions.length} questions${grp.url ? ' · <a class="src-link" href="' + escapeHtml(grp.url) + '" target="_blank" rel="noopener" title="Source">↗</a>' : ''}</div>
             <div class="status ${statusCls}">${status}</div>
             <div class="progress"><span style="width:${pct}%"></span></div>
           </div>
@@ -2611,7 +2618,7 @@
         <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
           ${cfg.sidebarHidden ? '' : `
             <aside class="sidebar">
-              <h3>${module.name}</h3>
+              <h3>${escapeHtml(module.name)}</h3>
               ${sidebarHtml}
             </aside>
           `}
@@ -2680,7 +2687,7 @@
       const start = examStarts[ei];
       const sess = examSession(ei);
       const s = examScore(ei);
-      const score100 = Math.round(s.correct / s.total * 100);
+      const score100 = pctOf(s.correct, s.total);
       const dur = sess.durationSec || 0;
       const durM = Math.floor(dur / 60), durS = String(dur % 60).padStart(2, '0');
       const scoreCls = score100 >= 70 ? 'good' : score100 >= 50 ? 'mid' : 'bad';
@@ -2745,7 +2752,7 @@
         <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
           ${cfg.sidebarHidden ? '' : `
             <aside class="sidebar">
-              <h3>${module.name}</h3>
+              <h3>${escapeHtml(module.name)}</h3>
               ${sidebarHtml}
             </aside>
           `}
@@ -2757,7 +2764,7 @@
                 <div class="review-actions">
                   <button id="btn-exit-exam">‹ Pick another exam</button>
                   <button id="btn-restart-exam">↻ Retake this exam</button>
-                  ${grp.url ? `<a class="btn" href="${grp.url}" target="_blank" rel="noopener">↗ Original source</a>` : ''}
+                  ${grp.url ? `<a class="btn" href="${escapeHtml(grp.url)}" target="_blank" rel="noopener">↗ Original source</a>` : ''}
                 </div>
               </div>
               <div class="score ${scoreCls}">${score100}%<small>${s.correct}/${s.total}</small></div>

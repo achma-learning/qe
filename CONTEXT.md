@@ -1,5 +1,5 @@
 # qe — MCQ Question Bank — AI Context File
-_Last synced: 2026-05-31 @ 9c46e76_
+_Last synced: 2026-05-31 @ c399c7a_
 
 ## 1. What This Is (Plain English)
 - **In one sentence:** A no-install website that drills you on ~15,000 past medical-school exam multiple-choice questions, entirely from the keyboard and fully offline.
@@ -80,10 +80,12 @@ _Last synced: 2026-05-31 @ 9c46e76_
 - **Looks-dead-but-isn't (skip on cleanup):** the `.q-chip.flagged` CSS with nothing setting it, and `resetTrainingExamRange` (`app.js:72`, unused) are both reserved for the planned bookmark/review feature (R1 in `docs/UX-AUDIT.md`). Leave them.
 - **`modules.js` is eval'd in a fake `window` at load time** (`tools/parser-bridge.js:28`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the tools can't read it.
 - **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** `.nojekyll` (staged into the deploy artifact and at the repo root) is load-bearing: without it `data/_counts.js` / `_topics.js` 404 → dashboard counts + weakness analysis break. Don't delete it.
-- **Service worker caches aggressively.** `sw.js` is network-first for navigations, stale-while-revalidate for assets/data, so a deploy shows up within a reload or two online. If you change caching behaviour, bump `CACHE` in `sw.js` to evict old entries. It runs only on http(s), never `file://`.
+- **Service worker caches aggressively.** `sw.js` is network-first for navigations (only caching `res.ok`), stale-while-revalidate for assets/data, so a deploy shows up within a reload or two online. If you change caching behaviour, bump `CACHE` in `sw.js` to evict old entries. It runs only on http(s), never `file://`.
+- **Escape every data-derived value before `innerHTML`.** All rendering uses `innerHTML` template strings, so any field from question data or `localStorage` (`q.text`, `q.exam`, `q.topic`, `module.name`, `grp.name`, `grp.url`, the search box) must go through `escapeHtml()` — real medical text contains `<`/`>`/`&`. Exception: `computeReminders()` returns intentional `<b>…</b>` HTML with its dynamic parts already escaped at the source, so it's injected raw on purpose. Toasts are safe (they use `.textContent`).
 
 ## 7. Current State
-- **Last shipped:** Made it an **installable, offline PWA** (`sw.js` + `manifest.webmanifest`, registered from `app.js`) and a **GitHub Actions → Pages** deploy (`deploy.yml`) that bakes + publishes the site on every push (the "GitHub Actions" Pages source). This replaced a branch-based attempt that wasn't publishing because the Pages source was set to "GitHub Actions" with no deploying workflow. Earlier: fixed 5 `Correction proposée` lines that silently swallowed option E + dropped the answer; strengthened `check-data.js`.
+- **Last shipped:** Bug-fix pass — **consistent HTML-escaping** of all data-derived fields (`q.exam`, `q.topic`, `module.name`, `grp.name`, `grp.url`, search input) that were escaped in some render paths but raw in others; medical text and module names contain `<`/`>`/`&`, so a hand-added topic like `IRC <30` would have broken rendering. Also: SW now only caches successful navigations (a 404 can't get stuck as the offline page) + precaches `icon.svg` (`CACHE` bumped to `qe-v2`); `pctOf()` guards exam-score `%` against 0-question groups (`NaN%`); the viewer's offline-load error is now user-facing instead of telling web users to run a Node command.
+- **Before that:** installable offline PWA (`sw.js` + `manifest.webmanifest`) + GitHub Actions → Pages deploy (`deploy.yml`); fixed 5 `Correction proposée` lines that silently swallowed option E; strengthened `check-data.js`.
 - **Recently before that:** `how-to-add-new-exam.md` + the `check-data.js` validator and `tools/parser-bridge.js`; exam answer-sheet + FMPM /20 grade + error report (PR #9); command palette, analytics, focus mode (PR #8); the docs pass.
 - **Working on now:** nothing active — authoring workflow, data fixes, and the PWA/deploy just landed.
 - **Next up** (roadmap in `docs/UX-AUDIT.md`, pick ≤3):
