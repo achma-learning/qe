@@ -1,5 +1,5 @@
 # qe — MCQ Question Bank — AI Context File
-_Last synced: 2026-05-31 @ 7e212ef_
+_Last synced: 2026-05-31 @ 3b68e34_
 
 ## 1. What This Is (Plain English)
 - **In one sentence:** A no-install website that drills you on ~15,000 past medical-school exam multiple-choice questions, entirely from the keyboard and fully offline.
