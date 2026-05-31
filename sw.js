@@ -9,7 +9,7 @@
  * Bump CACHE to force a clean slate on a breaking change.
  * Note: service workers only run over http(s); the file:// copy is already offline.
  */
-const CACHE = 'qe-v1';
+const CACHE = 'qe-v2';
 
 // Small app shell so the dashboard opens offline on a cold start. Paths are
 // relative to the SW's scope, so this works at a project subpath (/<repo>/).
@@ -22,6 +22,7 @@ const SHELL = [
   './data/_counts.js',
   './data/_topics.js',
   './manifest.webmanifest',
+  './icon.svg',
 ];
 
 self.addEventListener('install', (event) => {
@@ -51,15 +52,21 @@ self.addEventListener('fetch', (event) => {
   if (url.origin !== self.location.origin) return; // leave cross-origin alone
 
   // Page loads: network-first -> cache -> dashboard fallback.
+  // Only successful responses are cached, so a transient 404/redirect can't get
+  // stuck as the offline page. The fallback uses an absolute URL so it matches a
+  // cache key regardless of which subpath (/ or /modules/) we navigated from.
   if (req.mode === 'navigate') {
+    const indexUrl = new URL('./index.html', self.registration.scope).href;
     event.respondWith(
       fetch(req)
         .then((res) => {
-          const copy = res.clone();
-          caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+          if (res && res.ok) {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+          }
           return res;
         })
-        .catch(() => caches.match(req).then((hit) => hit || caches.match('./index.html')))
+        .catch(() => caches.match(req).then((hit) => hit || caches.match(indexUrl)))
     );
     return;
   }
