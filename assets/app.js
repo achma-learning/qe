@@ -1952,6 +1952,12 @@
       renderStatsHero();
       render(document.getElementById('qe-search')?.value || '');
     };
+    // Refresh cards/stats if a reset happened in another tab, or this page is
+    // restored from the back/forward cache after resetting a module elsewhere.
+    window.addEventListener('pageshow', (e) => { if (e.persisted) dashboardRefresh(); });
+    window.addEventListener('storage', (e) => {
+      if (!e.key || /^qe:(answers|exam|progress)\./.test(e.key)) dashboardRefresh();
+    });
 
     // Dashboard-specific keyboard
     document.addEventListener('keydown', (e) => {
@@ -3668,6 +3674,15 @@
       if ((e.key === 'c' || e.key === 'C') && !copyBtn.disabled) { e.preventDefault(); copyBtn.click(); }
       if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
     }, true);
+
+    // Keep the on-screen report honest when a module's progress is reset
+    // elsewhere: re-read localStorage and rebuild when this page is restored
+    // from the back/forward cache (back button) or when another tab changes a
+    // qe:answers/exam/progress key. Otherwise it could show errors just wiped.
+    window.addEventListener('pageshow', (e) => { if (e.persisted) regenerate(); });
+    window.addEventListener('storage', (e) => {
+      if (!e.key || /^qe:(answers|exam|progress)\./.test(e.key)) regenerate();
+    });
 
     regenerate();
   }
