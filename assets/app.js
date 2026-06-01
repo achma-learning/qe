@@ -732,12 +732,14 @@
   function buildTopbar(opts = {}) {
     const top = document.createElement('div');
     top.className = 'topbar';
+    const reportHref = (opts.indexHref || 'index.html').replace('index.html', 'report.html');
     top.innerHTML = `
       <a class="brand" href="${opts.indexHref || 'index.html'}" title="Dashboard">
         <span class="logo">QE</span>
         <span>MCQ Bank</span>
       </a>
       <div class="crumb">${opts.crumbHtml || ''}</div>
+      <a class="topbar-link" href="${reportHref}" title="AI report — build a prompt from your mistakes">Report</a>
       <div class="spacer"></div>
       ${opts.search ? `<input type="search" id="qe-search" class="search" placeholder="Search modules…  /" autocomplete="off">` : ''}
       ${opts.modePill !== false ? `
