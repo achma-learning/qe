@@ -3563,7 +3563,46 @@
       currentPrompt = buildAIReportPrompt(reportStatsToMarkdown(s), sections, { items: totalItems, modules: modulesWithErrors });
       copyBtn.disabled = dlBtn.disabled = false;
       summary.innerHTML = `<b>${totalItems}</b> question(s) à revoir · ${modulesWithErrors} module(s) · <span class="rt-chars">${currentPrompt.length.toLocaleString('fr-FR')} caractères</span>`;
-      out.innerHTML = statsPanelHtml(s) + previewBlocks.join('');
+      // The Personalized Revision Plan is shown ON THE PAGE ONLY — it is built
+      // from `s` here and deliberately NOT part of `currentPrompt`, so it is
+      // never copied to the clipboard nor written to the downloaded .txt.
+      out.innerHTML = revisionPlanHtml(s) + statsPanelHtml(s) + previewBlocks.join('');
+    }
+
+    // App-computed study plan (on-screen only). Splits mostly-wrong topics
+    // (real knowledge gaps → deep work) from mostly-partial ones (nearly there
+    // → quick wins), and orders them by how often they cost you points.
+    function revisionPlanHtml(s) {
+      const top = s.topicRows.slice(0, 6);
+      const gaps  = s.topicRows.filter(r => r.wrong >  r.partial).slice(0, 6).map(r => r.topic);
+      const close = s.topicRows.filter(r => r.partial >= r.wrong).slice(0, 6).map(r => r.topic);
+      const item = (r, i) => {
+        const isGap = r.wrong > r.partial;
+        const action = isGap
+          ? 'Lacune de connaissances — reprends les bases de ce thème.'
+          : 'Tu y es presque — affine les détails, les exceptions et les pièges.';
+        return `<li class="pi ${isGap ? 'gap' : 'close'}">
+          <span class="pi-rank">${i + 1}</span>
+          <span class="pi-body">
+            <span class="pi-top"><b>${escapeHtml(r.topic)}</b><span class="pi-count">${r.count} erreur(s) · ${r.wrong}✗ ${r.partial}◔</span></span>
+            <span class="pi-action">${action}</span>
+          </span>
+        </li>`;
+      };
+      return `
+        <div class="ro-plan">
+          <div class="ro-plan-head">
+            <h3>🗺️ Personalized Revision Plan</h3>
+            <span class="ro-plan-badge" title="Cette section reste sur la page — elle n'est ni copiée ni incluse dans le .txt">👁 affiché ici · pas dans le prompt</span>
+          </div>
+          <p class="ro-plan-sub">D'après tes <b>${s.total}</b> erreur(s), commence dans cet ordre :</p>
+          <ol class="ro-plan-list">${top.map(item).join('')}</ol>
+          <div class="ro-plan-tips">
+            ${gaps.length  ? `<div>📚 <b>À reprendre à fond</b> (lacunes réelles) : ${gaps.map(escapeHtml).join(' · ')}</div>` : ''}
+            ${close.length ? `<div>⚡ <b>Quick wins</b> (tu y es presque) : ${close.map(escapeHtml).join(' · ')}</div>` : ''}
+            <div>✅ <b>Ensuite</b> : reteste ces thèmes en mode Examen pour valider tes progrès.</div>
+          </div>
+        </div>`;
     }
 
     // A compact on-page version of the statistical analysis (mirrors the .txt).
