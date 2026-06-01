@@ -2176,6 +2176,8 @@
     let timerStart = 0;
     let timerDur = 0;
     let timerEpoch = 0;
+    let timerIdx = -1;          // question idx the auto-advance countdown belongs to
+    let timerPhase = null;      // phase the auto-advance countdown belongs to
     let dashboardConfirm = false, dashboardConfirmT = null;
     let resetConfirm = false, resetConfirmT = null;
     let tLong = false, tLongT = null;
@@ -2407,9 +2409,9 @@
       });
       wireSidebarToggles(root);
 
-      // Restart timer for current phase
-      if (cfg.autoAdvance) startTimer();
-      else hideIsland();
+      // Restart the countdown only when the question/phase changed (not on
+      // option-toggle re-renders).
+      syncTimer();
     }
 
     // ===== Exam mode helpers =====
@@ -2629,6 +2631,7 @@
       const sessPicked = sess.picked[localIdx] || [];
       picked = new Set(sessPicked);
       checked = false;
+      phase = 'question';   // exam has no answer phase — the countdown always times the question
 
       const sidebarHtml = buildSidebarHtml({
         chipState: (qIdx) => {
@@ -2708,6 +2711,9 @@
       });
       wireSidebarToggles(root);
       startExamTimer();
+      // Per-question auto-advance countdown: resets on every navigation (manual
+      // or auto), but not when merely picking an option (same idx → no restart).
+      syncTimer();
     }
 
     function tryConfirmSubmit() {
@@ -3036,7 +3042,9 @@
       cfg.autoAdvance = !cfg.autoAdvance;
       LS.set('autoAdvance', cfg.autoAdvance);
       toast(cfg.autoAdvance ? '▶ Auto-advance ON' : '⏸ Auto-advance OFF', 'ok');
-      if (cfg.autoAdvance) startTimer(); else { stopTimer(); hideIsland(); }
+      // render() → syncTimer() starts the countdown when turning on; stop it
+      // explicitly when turning off (covers modes whose render skips syncTimer).
+      if (!cfg.autoAdvance) { stopTimer(); hideIsland(); timerIdx = -1; timerPhase = null; }
       render();
     }
 
@@ -3080,6 +3088,17 @@
     function stopTimer() {
       if (timerH) { clearTimeout(timerH); timerH = null; }
       timerEpoch++;
+    }
+    // Called on every render. Restarts the per-question countdown only when the
+    // question (or phase) actually changes — so navigating to another question
+    // resets the timer, while re-renders from picking an option keep the clock.
+    function syncTimer() {
+      if (!cfg.autoAdvance) { stopTimer(); hideIsland(); timerIdx = -1; timerPhase = null; return; }
+      if (idx !== timerIdx || phase !== timerPhase || !timerH) {
+        timerIdx = idx;
+        timerPhase = phase;
+        startTimer();
+      }
     }
 
     // ===== Copy prompts =====
