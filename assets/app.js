@@ -393,6 +393,33 @@
     } catch { return false; }
   }
 
+  // Robust clipboard copy. navigator.clipboard is missing/blocked on file:// and
+  // other non-secure contexts, so fall back to a hidden textarea + execCommand.
+  // Returns a Promise<boolean> (true = copied). Never throws.
+  function execCopy(text) {
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;top:-9999px;left:-9999px;opacity:0';
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      const ok = document.execCommand('copy');
+      ta.remove();
+      return ok;
+    } catch { return false; }
+  }
+  function copyText(text) {
+    return new Promise((resolve) => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(text).then(() => resolve(true), () => resolve(execCopy(text)));
+        } else {
+          resolve(execCopy(text));
+        }
+      } catch { resolve(execCopy(text)); }
+    });
+  }
+
   // Two-step confirm reset bound to a button inside the report overlay.
   function wireReportReset(module, body) {
     const rs = body.querySelector('#rep-reset');
@@ -739,7 +766,7 @@
         <span>MCQ Bank</span>
       </a>
       <div class="crumb">${opts.crumbHtml || ''}</div>
-      <a class="topbar-link" href="${reportHref}" title="AI report — build a prompt from your mistakes">Report</a>
+      ${opts.reportLink === false ? '' : `<a class="topbar-link" href="${reportHref}" title="AI report — build a prompt from your mistakes">Report</a>`}
       <div class="spacer"></div>
       ${opts.search ? `<input type="search" id="qe-search" class="search" placeholder="Search modules…  /" autocomplete="off">` : ''}
       ${opts.modePill !== false ? `
@@ -965,7 +992,7 @@
         <div class="esc-hint">Press 1–${svcs.length} · Esc to close</div>
       `;
       const fire = (s) => {
-        navigator.clipboard.writeText(promptText).catch(() => {});
+        copyText(promptText);
         if (s.url) window.open(s.url, '_blank');
         else toast('📋 Copied to clipboard', 'ok');
         closeOverlays();
@@ -3077,16 +3104,9 @@
     function copyPrompt(builder, label) {
       const text = builder();
       if (!text) { toast('Open a question first to copy', 'warn'); return; }
-      navigator.clipboard.writeText(text).then(
-        () => toast(`📋 ${label} copied (${text.length} chars)`, 'ok'),
-        () => {
-          const ta = document.createElement('textarea');
-          ta.value = text;
-          ta.style.cssText = 'position:fixed;top:-9999px';
-          document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
-          toast(`📋 ${label} copied`, 'ok');
-        }
-      );
+      copyText(text).then(ok => toast(
+        ok ? `📋 ${label} copied (${text.length} chars)` : '⚠️ Copy failed — select & copy manually',
+        ok ? 'ok' : 'warn'));
     }
 
     // ===== Keyboard =====
@@ -3340,7 +3360,7 @@
   }
 
   function bootReport() {
-    buildTopbar({ search: false, crumbHtml: `<a href="index.html">Dashboard</a> · <b>Rapport IA</b>` });
+    buildTopbar({ search: false, reportLink: false, crumbHtml: `<a href="index.html">Dashboard</a> · <b>Rapport IA</b>` });
     const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
     const mods = window.QE_MODULES || [];
     const sems = window.QE_SEMESTERS || {};
@@ -3503,14 +3523,9 @@
 
     copyBtn.addEventListener('click', () => {
       if (!currentPrompt) return;
-      const ok = () => toast(`📋 Prompt copié (${currentPrompt.length.toLocaleString('fr-FR')} car.)`, 'ok');
-      navigator.clipboard.writeText(currentPrompt).then(ok, () => {
-        const ta = document.createElement('textarea');
-        ta.value = currentPrompt; ta.style.cssText = 'position:fixed;top:-9999px';
-        document.body.appendChild(ta); ta.select();
-        try { document.execCommand('copy'); ok(); } catch { toast('⚠️ Copie impossible', 'warn'); }
-        ta.remove();
-      });
+      copyText(currentPrompt).then(ok => toast(
+        ok ? `📋 Prompt copié (${currentPrompt.length.toLocaleString('fr-FR')} car.)` : '⚠️ Copie impossible — sélectionne le texte et copie à la main',
+        ok ? 'ok' : 'warn'));
     });
     dlBtn.addEventListener('click', () => {
       if (!currentPrompt) return;
