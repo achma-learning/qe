@@ -3340,20 +3340,78 @@
     return out.join('\n');
   }
 
-  // Assemble the full AI prompt from per-module sections + a totals header.
-  function buildAIReportPrompt(sections, totals) {
+  // Compute a statistical analysis of the errors (app-side, deterministic):
+  // totals, wrong-vs-partial split, per-module breakdown, and a per-topic
+  // frequency ranking — the raw material for "notions à forte rentabilité".
+  function reportStats(allItems) {
+    const total = allItems.length;
+    const wrong = allItems.filter(i => i.verdict === 'wrong').length;
+    const partial = total - wrong;
+    const pct = (n) => total ? Math.round((n / total) * 100) : 0;
+
+    const byMod = new Map();
+    allItems.forEach(i => byMod.set(i.module, (byMod.get(i.module) || 0) + 1));
+    const modRows = [...byMod.entries()].sort((a, b) => b[1] - a[1]);
+
+    const byTopic = new Map();
+    allItems.forEach(i => {
+      const t = ((i.topic || '').trim()) || '(sans thème)';
+      const r = byTopic.get(t) || { count: 0, wrong: 0, partial: 0, mods: new Set() };
+      r.count++; if (i.verdict === 'wrong') r.wrong++; else r.partial++; r.mods.add(i.module);
+      byTopic.set(t, r);
+    });
+    const topicRows = [...byTopic.entries()].map(([topic, r]) => ({ topic, ...r }))
+      .sort((a, b) => b.count - a.count || b.wrong - a.wrong);
+
+    return { total, wrong, partial, pct, modRows, topicRows };
+  }
+
+  // Render the stats as a Markdown section for the AI prompt / .txt.
+  function reportStatsToMarkdown(s) {
+    const out = [];
+    out.push(`## 📊 Analyse statistique de mes erreurs`);
+    out.push('');
+    out.push(`- **Total :** ${s.total} question(s) à revoir — ${s.wrong} fausse(s) (${s.pct(s.wrong)} %) · ${s.partial} partielle(s) (${s.pct(s.partial)} %)`);
+    out.push(`- **Modules concernés :** ${s.modRows.length}`);
+    out.push('');
+    out.push(`**Erreurs par module :**`);
+    s.modRows.forEach(([name, n]) => out.push(`- ${name} : ${n}`));
+    out.push('');
+    out.push(`**Thèmes les plus ratés** (fréquence — base des notions à forte rentabilité) :`);
+    s.topicRows.slice(0, 15).forEach((r, i) => {
+      out.push(`${i + 1}. ${r.topic} — ${r.count} erreur(s) (${r.wrong} fausse(s), ${r.partial} partielle(s))${r.mods.size > 1 ? ` · ${r.mods.size} modules` : ''}`);
+    });
+    out.push('');
+    return out.join('\n');
+  }
+
+  // Assemble the full AI prompt: role + computed stats + mission + per-module
+  // question blocks. The mission asks the AI for the qualitative work the app
+  // can't do: classify each error (knowledge / reasoning / QCM-trap) and turn
+  // the topic-frequency ranking into high-yield study priorities.
+  function buildAIReportPrompt(statsMd, sections, totals) {
     const p = [];
-    p.push(`Rôle : Agis comme un Professeur agrégé de médecine et un tuteur pédagogique exigeant et bienveillant.`);
+    p.push(`Rôle : Agis comme un Professeur agrégé de médecine et un tuteur pédagogique exigeant et bienveillant, spécialiste de la préparation aux QCM.`);
     p.push('');
-    p.push(`Voici la liste de mes erreurs de QCM (${totals.items} question(s) sur ${totals.modules} module(s)). Pour chaque question, tu as l'énoncé, les propositions, la correction officielle quand elle existe, et la réponse que j'ai donnée.`);
+    p.push(`Voici mes erreurs de QCM (${totals.items} question(s) sur ${totals.modules} module(s)), précédées d'une analyse statistique. Pour chaque question : l'énoncé, les propositions, la correction officielle si elle existe, et la réponse que j'ai donnée.`);
     p.push('');
     p.push(`### Ta mission`);
-    p.push(`1. Pour chaque question, explique **pourquoi la bonne réponse est correcte** et **pourquoi chaque proposition que j'ai choisie est fausse**.`);
-    p.push(`2. Quand la correction officielle est absente, donne la réponse la plus probable en le signalant clairement.`);
-    p.push(`3. Termine par une **synthèse** : mes 3–5 lacunes récurrentes (par thème), et un **plan de révision priorisé** pour les corriger.`);
-    p.push(`4. Sois concis, structuré en Markdown, et va à l'essentiel clinique.`);
+    p.push(`1. **Correction ciblée** — pour chaque question, explique pourquoi la bonne réponse est correcte et pourquoi chaque proposition que j'ai choisie est fausse. Si la correction officielle manque, donne la réponse la plus probable en le signalant.`);
+    p.push(`2. **Typologie de l'erreur** — classe chaque question dans **une** catégorie, avec une justification en une ligne :`);
+    p.push(`   - 🧠 **Connaissance** — il me manquait un fait / une notion.`);
+    p.push(`   - 🔗 **Raisonnement** — je connaissais les notions mais j'ai mal relié/déduit les données.`);
+    p.push(`   - 🪤 **Piège QCM** — erreur de lecture/formulation : négation, « toujours/jamais », unités, proposition la plus complète, etc.`);
+    p.push(`3. **Bilan statistique** — donne la répartition de mes erreurs **par catégorie** (nombre et %) et **par thème**, et commente le tableau statistique fourni (tendances, points faibles dominants).`);
+    p.push(`4. **Notions à forte rentabilité pédagogique** — identifie les 3 à 6 notions qui me feront gagner le plus de points, en croisant : fréquence dans mes erreurs × importance clinique × probabilité de tomber. Pour chacune : pourquoi elle est rentable + l'essentiel à retenir (format fiche).`);
+    p.push(`5. **Plan de révision priorisé** — court et concret : quoi réviser d'abord, et comment neutraliser mes pièges récurrents.`);
+    p.push(`6. Reste concis, structuré en Markdown, et va à l'essentiel clinique.`);
     p.push('');
     p.push('---');
+    p.push('');
+    p.push(statsMd);
+    p.push('---');
+    p.push('');
+    p.push(`# 📚 Détail de mes erreurs`);
     p.push('');
     p.push(sections.join('\n---\n\n'));
     return p.join('\n');
@@ -3461,6 +3519,7 @@
       out.innerHTML = `<div class="report-loading">⏳ Lecture de ${slugs.length} module(s)…</div>`;
 
       const sections = [];
+      const allItems = [];
       let totalItems = 0, modulesWithErrors = 0;
       const previewBlocks = [];
       for (const slug of slugs) {
@@ -3476,6 +3535,7 @@
         }
         modulesWithErrors++;
         totalItems += items.length;
+        items.forEach(it => allItems.push({ module: m.name, ...it }));   // for the statistical analysis
         sections.push(reportItemsToMarkdown(m.name, items));
         previewBlocks.push(`
           <div class="ro-mod">
@@ -3499,10 +3559,36 @@
         return;
       }
 
-      currentPrompt = buildAIReportPrompt(sections, { items: totalItems, modules: modulesWithErrors });
+      const s = reportStats(allItems);
+      currentPrompt = buildAIReportPrompt(reportStatsToMarkdown(s), sections, { items: totalItems, modules: modulesWithErrors });
       copyBtn.disabled = dlBtn.disabled = false;
       summary.innerHTML = `<b>${totalItems}</b> question(s) à revoir · ${modulesWithErrors} module(s) · <span class="rt-chars">${currentPrompt.length.toLocaleString('fr-FR')} caractères</span>`;
-      out.innerHTML = previewBlocks.join('');
+      out.innerHTML = statsPanelHtml(s) + previewBlocks.join('');
+    }
+
+    // A compact on-page version of the statistical analysis (mirrors the .txt).
+    function statsPanelHtml(s) {
+      const top = s.topicRows.slice(0, 8);
+      const maxc = top.length ? top[0].count : 1;
+      return `
+        <div class="ro-stats">
+          <div class="ro-stats-row">
+            <div class="ro-stat"><b>${s.total}</b><span>à revoir</span></div>
+            <div class="ro-stat bad"><b>${s.wrong}</b><span>✗ fausses (${s.pct(s.wrong)}%)</span></div>
+            <div class="ro-stat mid"><b>${s.partial}</b><span>◔ partielles (${s.pct(s.partial)}%)</span></div>
+            <div class="ro-stat"><b>${s.modRows.length}</b><span>modules</span></div>
+          </div>
+          <div class="ro-stats-topics">
+            <div class="ro-stats-lbl">🎯 Thèmes les plus ratés — forte rentabilité, à réviser d'abord</div>
+            ${top.map(r => `
+              <div class="ro-topic">
+                <span class="rt-name">${escapeHtml(r.topic)}</span>
+                <span class="rt-bar"><span style="width:${Math.round((r.count / maxc) * 100)}%"></span></span>
+                <span class="rt-n">${r.count}</span>
+              </div>`).join('')}
+          </div>
+          <div class="ro-stats-foot">La classification (connaissance · raisonnement · piège) et les notions prioritaires sont demandées à l'IA dans le prompt.</div>
+        </div>`;
     }
 
     // Checkbox + bulk wiring
