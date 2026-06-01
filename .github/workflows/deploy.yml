@@ -53,33 +53,36 @@ jobs:
         if: github.event_name != 'pull_request'
         run: node tools/check-data.js || true
 
-      # Turn the .txt files into the baked data the site reads.
+      # Turn the .txt files into the baked data the site reads, and scan
+      # qe-analysis/<slug>/ for high-yield docs → qe-analysis/_analysis.js.
       - name: Bake data
-        run: node tools/build-data.js
+        run: |
+          node tools/build-data.js
+          node tools/build-analysis.js
 
-      # Keep the committed baked data in sync too (for the offline ZIP / git).
+      # Keep the committed generated files in sync too (for the offline ZIP / git).
       # Best-effort: if it can't push, the live deploy below still happens.
-      - name: Commit baked data back
+      - name: Commit generated files back
         if: github.event_name != 'pull_request'
         continue-on-error: true
         run: |
-          if [ -n "$(git status --porcelain data/)" ]; then
+          if [ -n "$(git status --porcelain data/ qe-analysis/_analysis.js)" ]; then
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/
-            git commit -m "Rebuild baked question data [skip ci]"
-            git push || echo "::warning::Could not push baked data (enable Settings → Actions → General → Read and write permissions). The site was still deployed."
+            git add data/ qe-analysis/_analysis.js
+            git commit -m "Rebuild baked data + analysis manifest [skip ci]"
+            git push || echo "::warning::Could not push generated files (enable Settings → Actions → General → Read and write permissions). The site was still deployed."
           else
-            echo "Baked data already up to date."
+            echo "Generated files already up to date."
           fi
 
-      # Stage exactly the files the website needs — INCLUDING the PWA files.
+      # Stage exactly the files the website needs — INCLUDING the PWA + analysis docs.
       - name: Stage site
         if: github.event_name != 'pull_request'
         run: |
           mkdir -p _site
-          cp index.html report.html manifest.webmanifest sw.js icon.svg .nojekyll _site/
-          cp -r assets data modules _site/
+          cp index.html report.html high-yield.html manifest.webmanifest sw.js icon.svg .nojekyll _site/
+          cp -r assets data modules qe-analysis _site/
 
       - name: Configure Pages
         if: github.event_name != 'pull_request'

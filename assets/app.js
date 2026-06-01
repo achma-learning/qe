@@ -759,14 +759,19 @@
   function buildTopbar(opts = {}) {
     const top = document.createElement('div');
     top.className = 'topbar';
-    const reportHref = (opts.indexHref || 'index.html').replace('index.html', 'report.html');
+    const navBase = (opts.indexHref || 'index.html').replace('index.html', '');
+    const navLinks = [
+      { key: 'report',    href: navBase + 'report.html',     label: 'Report',     title: 'AI report — build a prompt from your mistakes' },
+      { key: 'highyield', href: navBase + 'high-yield.html', label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
+    ].filter(n => n.key !== opts.active)
+     .map(n => `<a class="topbar-link" href="${n.href}" title="${escapeHtml(n.title)}">${n.label}</a>`).join('');
     top.innerHTML = `
       <a class="brand" href="${opts.indexHref || 'index.html'}" title="Dashboard">
         <span class="logo">QE</span>
         <span>MCQ Bank</span>
       </a>
       <div class="crumb">${opts.crumbHtml || ''}</div>
-      ${opts.reportLink === false ? '' : `<a class="topbar-link" href="${reportHref}" title="AI report — build a prompt from your mistakes">Report</a>`}
+      ${navLinks}
       <div class="spacer"></div>
       ${opts.search ? `<input type="search" id="qe-search" class="search" placeholder="Search modules…  /" autocomplete="off">` : ''}
       ${opts.modePill !== false ? `
@@ -1377,6 +1382,7 @@
     items.push({ icon: '🎯', title: 'Toggle focus mode', sub: 'distraction-free', hint: 'Z', run: toggleFocus });
     items.push({ icon: '📊', title: 'Open analytics & weakness analysis', sub: 'strengths · weak topics · reminders', hint: 'W', run: showAnalysis });
     items.push({ icon: '🧠', title: 'AI report — fix my mistakes', sub: 'build a prompt from your wrong answers', run: go(onViewer ? '../report.html' : 'report.html') });
+    items.push({ icon: '📈', title: 'High-yield analysis', sub: 'ranked high-yield docs per module', run: go(onViewer ? '../high-yield.html' : 'high-yield.html') });
     items.push({ icon: '⚙️', title: 'Settings', hint: 'S', run: showSettings });
     items.push({ icon: '⌨️', title: 'Keyboard shortcuts', hint: '?', run: showHelp });
     items.push({ icon: '🍅', title: (pomo.running ? 'Pause' : 'Start') + ' pomodoro', hint: 'P', run: pomoToggle });
@@ -1681,6 +1687,7 @@
           <div id="qe-continue"></div>
           <div class="hero-cta">
             <a class="report-link" href="report.html">🧠 Rapport IA — corrige tes erreurs</a>
+            <a class="report-link alt" href="high-yield.html">📈 Questions à forte rentabilité</a>
           </div>
           <div class="hint">
             <kbd>⌘</kbd><kbd>K</kbd> palette · <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
@@ -3424,7 +3431,7 @@
   }
 
   function bootReport() {
-    buildTopbar({ search: false, reportLink: false, crumbHtml: `<a href="index.html">Dashboard</a> · <b>Rapport IA</b>` });
+    buildTopbar({ search: false, active: 'report', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Rapport IA</b>` });
     const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
     const mods = window.QE_MODULES || [];
     const sems = window.QE_SEMESTERS || {};
@@ -3687,6 +3694,103 @@
     regenerate();
   }
 
+  // =====================================================================
+  // ==============  HIGH-YIELD ANALYSIS PAGE (high-yield.html)  =========
+  // =====================================================================
+  // A document browser: lists every module (no quiz) and links/previews its
+  // high-yield analysis doc (PDF / Word / txt) from qe-analysis/<slug>/. The
+  // available docs come from window.QE_ANALYSIS, baked by tools/build-analysis.js.
+  function bootHighYield() {
+    buildTopbar({ search: false, active: 'highyield', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Forte rentabilité</b>` });
+    const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
+    const mods = window.QE_MODULES || [];
+    const sems = window.QE_SEMESTERS || {};
+    const counts = window.QE_COUNTS || {};
+    const analysis = window.QE_ANALYSIS || {};
+    const semNum = (s) => parseInt(String(s).replace(/\D/g, ''), 10) || 0;
+    const grouped = {};
+    mods.forEach(m => { (grouped[m.sem] ||= []).push(m); });
+
+    const PREVIEWABLE = /\.(pdf|txt|md)$/i;
+    const docMeta = (f) => {
+      if (/\.pdf$/i.test(f))        return { icon: '📄' };
+      if (/\.(docx?|odt)$/i.test(f)) return { icon: '📝' };
+      if (/\.(txt|md)$/i.test(f))    return { icon: '📃' };
+      if (/\.pptx?$/i.test(f))       return { icon: '📊' };
+      return { icon: '📎' };
+    };
+    const available = mods.filter(m => (analysis[m.slug] || []).length).length;
+
+    const card = (m) => {
+      const files = analysis[m.slug] || [];
+      const base = `qe-analysis/${m.slug}/`;
+      const cnt = counts[m.slug];
+      const meta = `${m.sem}${cnt ? ' · ' + cnt.questions + ' Q' : ''}`;
+      if (!files.length) {
+        return `<div class="hy-card empty">
+          <div class="hy-title">${escapeHtml(m.name)}</div>
+          <div class="hy-meta">${meta}</div>
+          <div class="hy-soon">Analyse à venir</div>
+        </div>`;
+      }
+      const docs = files.map((f) => {
+        const href = base + encodeURIComponent(f);
+        const can = PREVIEWABLE.test(f);
+        return `<div class="hy-doc">
+          <span class="hy-doc-name">${docMeta(f).icon} ${escapeHtml(f)}</span>
+          <span class="hy-doc-act">
+            ${can ? `<button class="mini hy-prev" data-src="${escapeHtml(href)}" data-name="${escapeHtml(f)}">Aperçu</button>` : ''}
+            <a class="mini" href="${escapeHtml(href)}" target="_blank" rel="noopener">${can ? 'Ouvrir ↗' : 'Télécharger ↓'}</a>
+          </span>
+        </div>`;
+      }).join('');
+      return `<div class="hy-card has">
+        <div class="hy-title">${escapeHtml(m.name)} <span class="hy-badge">${files.length}</span></div>
+        <div class="hy-meta">${meta}</div>
+        <div class="hy-docs">${docs}</div>
+        <div class="hy-preview"></div>
+      </div>`;
+    };
+
+    root.innerHTML = `
+      <div class="container hy-page">
+        <div class="hero hy-hero">
+          <h1>📈 Questions à forte rentabilité</h1>
+          <p>Pour chaque module, le document d'analyse <b>high-yield</b> (leçons classées par fréquence, Q/R dédupliquées et pièges ⚠) produit avec le skill <code>qe-analysis</code>. <b>${available}/${mods.length}</b> module(s) disponible(s).</p>
+        </div>
+        <div id="hy-grid">
+          ${Object.keys(grouped).sort((a, b) => semNum(b) - semNum(a)).map(sem => `
+            <div class="semester">
+              <div class="semester-head"><span class="tag">${sem.toUpperCase()}</span><span class="name">${escapeHtml(sems[sem] || '')}</span></div>
+              <div class="hy-cards">${grouped[sem].map(card).join('')}</div>
+            </div>`).join('')}
+        </div>
+      </div>
+    `;
+
+    // Inline preview (PDF / txt) via an iframe — toggles open/closed per doc.
+    root.querySelectorAll('.hy-prev').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const cardEl = btn.closest('.hy-card');
+        const host = cardEl.querySelector('.hy-preview');
+        const src = btn.dataset.src;
+        if (host.dataset.src === src && host.innerHTML) { host.innerHTML = ''; host.dataset.src = ''; btn.classList.remove('on'); return; }
+        cardEl.querySelectorAll('.hy-prev').forEach(b => b.classList.remove('on'));
+        btn.classList.add('on');
+        host.dataset.src = src;
+        host.innerHTML = `<iframe class="hy-frame" src="${escapeHtml(src)}" title="${escapeHtml(btn.dataset.name)}"></iframe>`;
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
+      if (handleOverlayKeys(e)) return;
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+      if (handleGlobalKeys(e)) return;
+      if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
+    }, true);
+  }
+
   // ===== Utils =====
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -3697,6 +3801,7 @@
     bootDashboard,
     bootViewer,
     bootReport,
+    bootHighYield,
     showHelp,
     showSettings,
     showModuleSwitcher,
