@@ -117,6 +117,15 @@ html.light .topbar { background: rgba(245,247,255,.85); }
 .hero h1 { margin: 0 0 6px 0; font-size: 26px; }
 .hero p { margin: 0; color: var(--text-dim); font-size: 14px; }
 .hero .hint { margin-top: 12px; font-family: var(--mono); font-size: 12px; color: var(--text-faint); }
+.hero-cta { margin-top: 14px; }
+.report-link {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 14px; border-radius: 10px; font-size: 13px; font-weight: 600;
+  background: linear-gradient(135deg, rgba(108,141,255,.20), rgba(140,92,255,.14));
+  border: 1.5px solid var(--accent); color: var(--text); text-decoration: none;
+  transition: transform .12s, filter .12s;
+}
+.report-link:hover { transform: translateY(-1px); filter: brightness(1.08); text-decoration: none; }
 
 /* ============== HERO STATS ============== */
 .hero-stats {
@@ -681,14 +690,154 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .review-filters .chip[data-f="wrong"].active   { border-color: var(--bad); color: var(--bad); }
 .review-filters .chip[data-f="partial"].active { border-color: var(--warn); color: var(--warn); }
 
+/* ============== AI REPORT PAGE ============== */
+.report-hero h1 { font-size: 22px; }
+.report-grid {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 16px;
+  align-items: start;
+}
+.report-pick {
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 12px; position: sticky; top: 64px; max-height: calc(100vh - 96px); overflow-y: auto;
+}
+.report-pick .rp-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.report-pick .rp-head h3 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .6px; color: var(--text-dim); }
+.rp-bulk { display: flex; gap: 4px; }
+.rp-bulk .mini, .report-toolbar .mini {
+  font-size: 11px; padding: 3px 8px; background: var(--bg-soft); border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text-dim); cursor: pointer;
+}
+.rp-bulk .mini:hover { border-color: var(--accent); color: var(--text); }
+.rp-sem { margin-bottom: 10px; }
+.rp-sem-head { font-family: var(--mono); font-size: 10.5px; color: var(--text-faint); text-transform: uppercase; letter-spacing: .6px; margin: 6px 2px 4px; }
+.rp-mod {
+  display: flex; align-items: center; gap: 8px; padding: 7px 8px; border-radius: 8px;
+  cursor: pointer; font-size: 13px; transition: background .12s;
+}
+.rp-mod:hover { background: var(--bg-soft); }
+.rp-mod input { width: 16px; height: 16px; accent-color: var(--accent); flex-shrink: 0; cursor: pointer; }
+.rp-mod-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rp-mod-meta { font-family: var(--mono); font-size: 11px; color: var(--text-faint); flex-shrink: 0; }
+.rp-mod-meta.has { color: var(--bad); font-weight: 700; }
+
+.report-main { min-width: 0; }
+.report-toolbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;
+  padding: 12px 14px; background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); margin-bottom: 12px; position: sticky; top: 64px; z-index: 5;
+}
+.rt-summary { font-size: 14px; color: var(--text-dim); min-width: 0; }
+.rt-summary b { color: var(--text); font-variant-numeric: tabular-nums; }
+.rt-chars { font-family: var(--mono); font-size: 12px; color: var(--text-faint); }
+.rt-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.report-output { display: flex; flex-direction: column; gap: 12px; }
+.report-loading, .report-empty {
+  padding: 40px 20px; text-align: center; color: var(--text-dim);
+  background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);
+}
+.report-empty .ico { font-size: 32px; margin-bottom: 8px; }
+.report-empty small { color: var(--text-faint); }
+.ro-mod { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; }
+.ro-mod.empty, .ro-mod.error { color: var(--text-faint); font-size: 13px; padding: 8px 12px; }
+.ro-mod.error { color: var(--bad); }
+.ro-mod-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; font-size: 14px; }
+.ro-mod-head span { font-family: var(--mono); font-size: 11px; color: var(--bad); }
+.ro-item { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; padding: 5px 0; border-top: 1px solid var(--border); font-size: 13px; }
+.ro-item .ro-qn { font-family: var(--mono); font-weight: 700; color: var(--text-dim); }
+.ro-item.wrong .ro-qn { color: var(--bad); }
+.ro-item.partial .ro-qn { color: var(--warn); }
+.ro-item .ro-text { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--text-dim); }
+.ro-item .ro-corr { font-family: var(--mono); font-size: 11px; color: var(--ok); flex-shrink: 0; }
+.ro-more { font-size: 12px; color: var(--text-faint); padding-top: 6px; }
+
+@media (max-width: 760px) {
+  .report-grid { grid-template-columns: 1fr; }
+  .report-pick { position: static; max-height: 320px; }
+  .report-toolbar { position: sticky; top: 56px; }
+  .ro-item { grid-template-columns: auto 1fr; }
+  .ro-item .ro-corr { grid-column: 2; text-align: right; }
+}
+
 /* ============== UTIL ============== */
 .hidden { display: none !important; }
 .right { float: right; }
 
-@media (max-width: 800px) {
-  .viewer { grid-template-columns: 1fr; }
-  .sidebar { position: static; max-height: 200px; }
-  .topbar .search { width: 140px; }
+/* ============== RESPONSIVE: TABLET & MOBILE ============== */
+
+/* Tablet & small laptop (≤ 900px): collapse the viewer to one column, let the
+   sidebar sit on top as a horizontally-scrolling strip, ease the topbar. */
+@media (max-width: 900px) {
+  .viewer { grid-template-columns: 1fr; padding: 12px; gap: 12px; }
+  .sidebar { position: static; max-height: 40vh; }
+  .topbar { gap: 8px; padding: 8px 12px; }
+  .topbar .crumb { font-size: 12px; }
+  .review-head { grid-template-columns: 1fr; }
+  .review-head .score { text-align: left; }
+}
+
+/* Phone (≤ 600px): single-column everything, bigger tap targets, no hover-only
+   reveals, wrap the topbar so its controls never overflow off-screen. */
+@media (max-width: 600px) {
+  .container { padding: 12px; }
+  .hero { padding: 18px 16px; border-radius: 12px; }
+  .hero h1 { font-size: 21px; }
+  .hero .hint { display: none; }                 /* keyboard hints are desktop-only */
+
+  /* Topbar: brand + actions wrap to a tidy second row instead of clipping. */
+  .topbar { flex-wrap: wrap; row-gap: 8px; position: sticky; }
+  .topbar .crumb { order: 5; flex-basis: 100%; }
+  .topbar .spacer { display: none; }
+  .topbar .search { width: 100%; order: 6; }
+  .topbar button, .topbar .cmdk-btn { min-height: 38px; min-width: 38px; }
+
+  /* Module grid → single column; bump card padding for thumbs. */
+  .grid { grid-template-columns: 1fr; }
+  .card { padding: 16px; }
+
+  /* Viewer: roomy options with comfortable touch targets. */
+  .qtext { font-size: 16px; }
+  .opt { padding: 12px; gap: 12px; }
+  .opt .letter { width: 30px; height: 30px; flex-shrink: 0; }
+  .controls { gap: 6px; }
+  .controls button { min-height: 40px; flex: 1 1 auto; }
+  .controls .progress { order: 99; flex-basis: 100%; }
+
+  /* Sidebar question chips: a touch larger so they're tappable. */
+  .sidebar .q-list { grid-template-columns: repeat(6, 1fr); gap: 5px; }
+  .sidebar .q-chip { height: 32px; font-size: 12px; }
+
+  /* Exam mode + review fit a phone. */
+  .exam-list { grid-template-columns: 1fr; }
+  .exam-banner { flex-wrap: wrap; font-size: 12px; }
+  .review-head { padding: 16px; }
+  .review-head h2 { font-size: 19px; }
+
+  /* Overlays (palette, settings, analysis) go near-fullscreen on phones. */
+  .overlay { padding: 8px; align-items: flex-start; }
+  .overlay .panel { max-height: 92vh; padding: 16px; }
+  .cmdk-panel { max-width: 100%; }
+
+  /* Report page tools stack and stay reachable. */
+  .report-toolbar { flex-direction: column; align-items: stretch; }
+  .rt-actions { justify-content: stretch; }
+  .rt-actions button { flex: 1; min-height: 42px; }
+}
+
+/* Tiny phones (≤ 380px): trim the chrome a little more. */
+@media (max-width: 380px) {
+  .hero-stats { grid-template-columns: 1fr 1fr; }
+  .sidebar .q-list { grid-template-columns: repeat(5, 1fr); }
+  .topbar .brand span:not(.logo) { display: none; }   /* keep just the logo */
+}
+
+/* Coarse-pointer (touch) devices: kill hover lifts that "stick" after a tap,
+   and guarantee a 40px minimum tap target on interactive bits. */
+@media (hover: none) and (pointer: coarse) {
+  .card:hover, .exam-tile:hover, .continue-tile:hover, .weak-item:hover,
+  .report-link:hover { transform: none; }
+  .opt, .q-chip, .exam-tile, .tab, .review-filters .chip { touch-action: manipulation; }
 }
 
 /* ============== ACCESSIBILITY & READABILITY ============== */

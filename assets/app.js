@@ -1347,6 +1347,7 @@
     items.push({ icon: '🎨', title: 'Toggle theme', sub: 'light / dark', hint: 'L', run: toggleTheme });
     items.push({ icon: '🎯', title: 'Toggle focus mode', sub: 'distraction-free', hint: 'Z', run: toggleFocus });
     items.push({ icon: '📊', title: 'Open analytics & weakness analysis', sub: 'strengths · weak topics · reminders', hint: 'W', run: showAnalysis });
+    items.push({ icon: '🧠', title: 'AI report — fix my mistakes', sub: 'build a prompt from your wrong answers', run: go(onViewer ? '../report.html' : 'report.html') });
     items.push({ icon: '⚙️', title: 'Settings', hint: 'S', run: showSettings });
     items.push({ icon: '⌨️', title: 'Keyboard shortcuts', hint: '?', run: showHelp });
     items.push({ icon: '🍅', title: (pomo.running ? 'Pause' : 'Start') + ' pomodoro', hint: 'P', run: pomoToggle });
@@ -1649,6 +1650,9 @@
           <p>Keyboard-driven question trainer. Pick a module to start practising.</p>
           <div id="qe-stats" class="hero-stats" aria-label="Overall progress"></div>
           <div id="qe-continue"></div>
+          <div class="hero-cta">
+            <a class="report-link" href="report.html">🧠 Rapport IA — corrige tes erreurs</a>
+          </div>
           <div class="hint">
             <kbd>⌘</kbd><kbd>K</kbd> palette · <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
             <kbd>/</kbd> search · <kbd>C</kbd> continue · <kbd>W</kbd> analysis ·
@@ -3281,6 +3285,251 @@
     return false;
   }
 
+  // =====================================================================
+  // ====================  AI REPORT PAGE (report.html)  =================
+  // =====================================================================
+  // A standalone "prompt engineer" page: pick any modules, collect every
+  // wrong/partial answer (with the official correction when present), and build
+  // one clean Markdown prompt you can hand to an AI to explain & fix your errors.
+  // Reuses collectModuleReport()/gradePick()/loadModuleData() so grading matches
+  // the viewer exactly.
+
+  // Turn the collected error items of one module into a Markdown block.
+  function reportItemsToMarkdown(moduleName, items) {
+    const out = [];
+    out.push(`## ${moduleName}  (${items.length} question${items.length > 1 ? 's' : ''} à revoir)`);
+    out.push('');
+    items.forEach((it, i) => {
+      const map = {};
+      (it.options || []).forEach(o => { map[o.letter] = o.text; });
+      const fmt = (arr) => (arr && arr.length) ? arr.map(l => `${l}) ${map[l] || '?'}`).join(' ; ') : '(aucune)';
+      out.push(`### ${i + 1}. ${it.exam} · Q${it.qn}${it.topic ? ' · ' + it.topic : ''}  — ${it.verdict === 'partial' ? 'réponse partielle' : 'réponse fausse'}`);
+      out.push('');
+      out.push(`**Énoncé :** ${String(it.text || '').replace(/\n+/g, ' ').trim()}`);
+      out.push('');
+      out.push('**Propositions :**');
+      (it.options || []).forEach(o => { out.push(`- ${o.letter}) ${o.text}`); });
+      out.push('');
+      const hasCorr = it.correct && it.correct.length;
+      out.push(`- ✅ Correction officielle : ${hasCorr ? fmt(it.correct) : '_(non disponible — propose la réponse la plus probable)_'}`);
+      out.push(`- ❌ Ma réponse : ${fmt(it.picked)}`);
+      out.push('');
+    });
+    return out.join('\n');
+  }
+
+  // Assemble the full AI prompt from per-module sections + a totals header.
+  function buildAIReportPrompt(sections, totals) {
+    const p = [];
+    p.push(`Rôle : Agis comme un Professeur agrégé de médecine et un tuteur pédagogique exigeant et bienveillant.`);
+    p.push('');
+    p.push(`Voici la liste de mes erreurs de QCM (${totals.items} question(s) sur ${totals.modules} module(s)). Pour chaque question, tu as l'énoncé, les propositions, la correction officielle quand elle existe, et la réponse que j'ai donnée.`);
+    p.push('');
+    p.push(`### Ta mission`);
+    p.push(`1. Pour chaque question, explique **pourquoi la bonne réponse est correcte** et **pourquoi chaque proposition que j'ai choisie est fausse**.`);
+    p.push(`2. Quand la correction officielle est absente, donne la réponse la plus probable en le signalant clairement.`);
+    p.push(`3. Termine par une **synthèse** : mes 3–5 lacunes récurrentes (par thème), et un **plan de révision priorisé** pour les corriger.`);
+    p.push(`4. Sois concis, structuré en Markdown, et va à l'essentiel clinique.`);
+    p.push('');
+    p.push('---');
+    p.push('');
+    p.push(sections.join('\n---\n\n'));
+    return p.join('\n');
+  }
+
+  function bootReport() {
+    buildTopbar({ search: false, crumbHtml: `<a href="index.html">Dashboard</a> · <b>Rapport IA</b>` });
+    const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
+    const mods = window.QE_MODULES || [];
+    const sems = window.QE_SEMESTERS || {};
+    const counts = window.QE_COUNTS || {};
+
+    // Persist the selection so it survives reloads. Default: the last-visited module.
+    let selected = new Set(LS.get('report.selected', null) || []);
+    if (selected.size === 0) {
+      const last = LS.get('lastModule', null);
+      if (last && mods.find(m => m.slug === last.slug)) selected.add(last.slug);
+    }
+    const saveSel = () => LS.set('report.selected', [...selected]);
+
+    // Quick per-module error counts from training answers only (cheap, no data
+    // file needed) so the checkboxes can show a hint without loading 16 MB.
+    function quickWrongCount(slug) {
+      const ans = LS.get(`answers.${slug}`, {});
+      let n = 0;
+      for (const rec of Object.values(ans)) {
+        if (rec && rec.checked && !rec.unknown && !rec.correct) n++;
+      }
+      return n;
+    }
+
+    const grouped = {};
+    mods.forEach(m => { (grouped[m.sem] ||= []).push(m); });
+    const semNum = (s) => parseInt(String(s).replace(/\D/g, ''), 10) || 0;
+
+    root.innerHTML = `
+      <div class="container report-page">
+        <div class="hero report-hero">
+          <h1>🧠 Rapport IA — corrige tes erreurs</h1>
+          <p>Sélectionne un ou plusieurs modules. On rassemble chaque question <b>fausse</b> ou <b>partielle</b> (avec la correction officielle quand elle existe) et on construit un prompt prêt à coller dans une IA pour t'expliquer et t'aider à progresser.</p>
+        </div>
+
+        <div class="report-grid">
+          <aside class="report-pick">
+            <div class="rp-head">
+              <h3>Modules</h3>
+              <div class="rp-bulk">
+                <button id="rp-all" class="mini">Tout</button>
+                <button id="rp-none" class="mini">Aucun</button>
+                <button id="rp-wrong" class="mini" title="Sélectionner les modules où tu as des erreurs">Avec erreurs</button>
+              </div>
+            </div>
+            <div class="rp-modules">
+              ${Object.keys(grouped).sort((a, b) => semNum(b) - semNum(a)).map(sem => `
+                <div class="rp-sem">
+                  <div class="rp-sem-head">${sem.toUpperCase()} · ${sems[sem] || ''}</div>
+                  ${grouped[sem].map(m => {
+                    const wc = quickWrongCount(m.slug);
+                    return `
+                      <label class="rp-mod" data-slug="${m.slug}">
+                        <input type="checkbox" data-slug="${m.slug}" ${selected.has(m.slug) ? 'checked' : ''}>
+                        <span class="rp-mod-name">${escapeHtml(m.name)}</span>
+                        <span class="rp-mod-meta ${wc ? 'has' : ''}">${wc ? wc + ' ✗' : ''}</span>
+                      </label>`;
+                  }).join('')}
+                </div>
+              `).join('')}
+            </div>
+          </aside>
+
+          <section class="report-main">
+            <div class="report-toolbar">
+              <div class="rt-summary" id="rt-summary">Sélectionne des modules pour générer le rapport.</div>
+              <div class="rt-actions">
+                <button id="rp-copy" class="primary" disabled>📋 Copier le prompt</button>
+                <button id="rp-download" disabled>⬇ .txt</button>
+              </div>
+            </div>
+            <div class="report-output" id="report-output">
+              <div class="report-empty"><div class="ico">📋</div>Aucun module sélectionné.<br><small>Coche un module à gauche.</small></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    `;
+
+    const out = root.querySelector('#report-output');
+    const summary = root.querySelector('#rt-summary');
+    const copyBtn = root.querySelector('#rp-copy');
+    const dlBtn = root.querySelector('#rp-download');
+    let currentPrompt = '';
+
+    // Build the report from the current selection (loads each module's data lazily).
+    async function regenerate() {
+      saveSel();
+      const slugs = [...selected];
+      if (slugs.length === 0) {
+        currentPrompt = '';
+        copyBtn.disabled = dlBtn.disabled = true;
+        summary.textContent = 'Sélectionne des modules pour générer le rapport.';
+        out.innerHTML = `<div class="report-empty"><div class="ico">📋</div>Aucun module sélectionné.<br><small>Coche un module à gauche.</small></div>`;
+        return;
+      }
+      summary.textContent = 'Chargement des données…';
+      out.innerHTML = `<div class="report-loading">⏳ Lecture de ${slugs.length} module(s)…</div>`;
+
+      const sections = [];
+      let totalItems = 0, modulesWithErrors = 0;
+      const previewBlocks = [];
+      for (const slug of slugs) {
+        const m = mods.find(x => x.slug === slug);
+        if (!m) continue;
+        let data;
+        try { data = await loadModuleData(slug, ''); }
+        catch { previewBlocks.push(`<div class="ro-mod error">⚠️ ${escapeHtml(m.name)} — données indisponibles</div>`); continue; }
+        const items = collectModuleReport(slug, data);
+        if (items.length === 0) {
+          previewBlocks.push(`<div class="ro-mod empty">✓ ${escapeHtml(m.name)} — aucune erreur enregistrée</div>`);
+          continue;
+        }
+        modulesWithErrors++;
+        totalItems += items.length;
+        sections.push(reportItemsToMarkdown(m.name, items));
+        previewBlocks.push(`
+          <div class="ro-mod">
+            <div class="ro-mod-head"><b>${escapeHtml(m.name)}</b><span>${items.length} à revoir</span></div>
+            ${items.slice(0, 5).map(it => `
+              <div class="ro-item ${it.verdict}">
+                <span class="ro-qn">Q${it.qn}</span>
+                <span class="ro-text">${escapeHtml((it.text || '').replace(/\n+/g, ' ').slice(0, 120))}${(it.text || '').length > 120 ? '…' : ''}</span>
+                <span class="ro-corr" title="Correction officielle">✓ ${escapeHtml((it.correct || []).join(', ') || '—')}</span>
+              </div>`).join('')}
+            ${items.length > 5 ? `<div class="ro-more">+ ${items.length - 5} autre(s) dans le prompt…</div>` : ''}
+          </div>`);
+      }
+
+      if (totalItems === 0) {
+        currentPrompt = '';
+        copyBtn.disabled = dlBtn.disabled = true;
+        summary.textContent = 'Aucune erreur sur les modules choisis. 🎉';
+        out.innerHTML = previewBlocks.join('') ||
+          `<div class="report-empty"><div class="ico">🎉</div>Aucune erreur enregistrée.<br><small>Réponds à des questions en Entraînement ou Examen, puis reviens.</small></div>`;
+        return;
+      }
+
+      currentPrompt = buildAIReportPrompt(sections, { items: totalItems, modules: modulesWithErrors });
+      copyBtn.disabled = dlBtn.disabled = false;
+      summary.innerHTML = `<b>${totalItems}</b> question(s) à revoir · ${modulesWithErrors} module(s) · <span class="rt-chars">${currentPrompt.length.toLocaleString('fr-FR')} caractères</span>`;
+      out.innerHTML = previewBlocks.join('');
+    }
+
+    // Checkbox + bulk wiring
+    root.querySelectorAll('.rp-mod input[type=checkbox]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        if (cb.checked) selected.add(cb.dataset.slug); else selected.delete(cb.dataset.slug);
+        regenerate();
+      });
+    });
+    const setAll = (pred) => {
+      selected = new Set(mods.filter(pred).map(m => m.slug));
+      root.querySelectorAll('.rp-mod input[type=checkbox]').forEach(cb => { cb.checked = selected.has(cb.dataset.slug); });
+      regenerate();
+    };
+    root.querySelector('#rp-all').addEventListener('click', () => setAll(() => true));
+    root.querySelector('#rp-none').addEventListener('click', () => setAll(() => false));
+    root.querySelector('#rp-wrong').addEventListener('click', () => setAll(m => quickWrongCount(m.slug) > 0));
+
+    copyBtn.addEventListener('click', () => {
+      if (!currentPrompt) return;
+      const ok = () => toast(`📋 Prompt copié (${currentPrompt.length.toLocaleString('fr-FR')} car.)`, 'ok');
+      navigator.clipboard.writeText(currentPrompt).then(ok, () => {
+        const ta = document.createElement('textarea');
+        ta.value = currentPrompt; ta.style.cssText = 'position:fixed;top:-9999px';
+        document.body.appendChild(ta); ta.select();
+        try { document.execCommand('copy'); ok(); } catch { toast('⚠️ Copie impossible', 'warn'); }
+        ta.remove();
+      });
+    });
+    dlBtn.addEventListener('click', () => {
+      if (!currentPrompt) return;
+      const ok = downloadTextFile(`qe-prompt-ia-${localDayStr()}.txt`, currentPrompt);
+      toast(ok ? '⬇ Prompt téléchargé' : '⚠️ Téléchargement impossible', ok ? 'ok' : 'warn');
+    });
+
+    // Keyboard: C copies, Esc → dashboard.
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
+      if (handleOverlayKeys(e)) return;
+      const inField = e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA');
+      if (inField) return;
+      if (handleGlobalKeys(e)) return;
+      if ((e.key === 'c' || e.key === 'C') && !copyBtn.disabled) { e.preventDefault(); copyBtn.click(); }
+      if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
+    }, true);
+
+    regenerate();
+  }
+
   // ===== Utils =====
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -3290,6 +3539,7 @@
   window.QE = {
     bootDashboard,
     bootViewer,
+    bootReport,
     showHelp,
     showSettings,
     showModuleSwitcher,
