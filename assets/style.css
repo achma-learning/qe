@@ -745,6 +745,20 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 }
 .report-empty .ico { font-size: 32px; margin-bottom: 8px; }
 .report-empty small { color: var(--text-faint); }
+.ro-stats { background: var(--panel); border: 1px solid var(--accent); border-radius: var(--radius); padding: 14px; }
+.ro-stats-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 12px; }
+.ro-stat { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 10px; padding: 8px 10px; display: flex; flex-direction: column; }
+.ro-stat b { font-family: var(--mono); font-size: 22px; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.ro-stat span { font-size: 11px; color: var(--text-faint); }
+.ro-stat.bad b { color: var(--bad); }
+.ro-stat.mid b { color: var(--warn); }
+.ro-stats-lbl { font-size: 12px; font-weight: 700; color: var(--text-dim); margin-bottom: 8px; }
+.ro-topic { display: grid; grid-template-columns: minmax(90px, 1fr) 2fr auto; gap: 10px; align-items: center; padding: 3px 0; font-size: 13px; }
+.ro-topic .rt-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ro-topic .rt-bar { height: 8px; background: var(--bg-soft); border-radius: 4px; overflow: hidden; }
+.ro-topic .rt-bar > span { display: block; height: 100%; background: linear-gradient(90deg, var(--bad), var(--warn)); border-radius: 4px; }
+.ro-topic .rt-n { font-family: var(--mono); font-weight: 800; color: var(--bad); font-variant-numeric: tabular-nums; }
+.ro-stats-foot { margin-top: 10px; font-size: 11px; color: var(--text-faint); font-style: italic; }
 .ro-mod { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 10px 12px; }
 .ro-mod.empty, .ro-mod.error { color: var(--text-faint); font-size: 13px; padding: 8px 12px; }
 .ro-mod.error { color: var(--bad); }
