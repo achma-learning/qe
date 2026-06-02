@@ -16,6 +16,8 @@
      V               copy question prompt
      Shift+V         AI service menu (ChatGPT/Claude/Gemini/Perplexity)
      Alt+C           copy AI-ready prompt (with correction if revealed)
+                     in exam review: ↑↓/JK move across correction cards;
+                     Alt+C copies the hovered (or focused) card's prompt
      S / 6           settings panel
      Shift+S         settings panel
      D / 0           dashboard (press 0 twice to confirm on viewer)
@@ -905,6 +907,8 @@
           <div class="keys">${k('Esc')} (exam-run)</div><div>Pause and back to picker (progress kept)</div>
           <div class="keys">${k('↑↓←→')} (picker)</div><div>Move focus across exam tiles · <kbd>Enter</kbd> starts the focused one</div>
           <div class="keys">${k('1')}–${k('5')} (review)</div><div>Filter: all / correct / partial / wrong / skipped</div>
+          <div class="keys">${k('↑↓')} ${k('J')} ${k('K')} (review)</div><div>Move focus across correction cards · <kbd>Enter</kbd> copies the focused one</div>
+          <div class="keys">${k('Alt+C')} (review)</div><div>Copy the correction prompt for the card under the mouse (or the focused one)</div>
           <div class="keys">${k('R')} (review)</div><div>Retake same exam (clears stored answers)</div>
           <div class="keys">📋 on a review card</div><div>Copy a correction prompt — énoncé + your answer + official correction — ready to paste into an AI</div>
           <div class="keys">${k('0')} / ${k('D')} ×2</div><div>Back to dashboard (anywhere)</div>
@@ -2250,6 +2254,8 @@
     let examStartT = 0;
     let examTimerH = null;
     let examPickFocus = -1;     // keyboard focus cursor on the exam-picker tiles
+    let reviewFocus = -1;       // keyboard focus cursor on the exam-review correction cards
+    let reviewHover = -1;       // data-local of the review card under the mouse (Alt+C copies it)
 
     function persist() {
       LS.set(ansKey, answers);
@@ -2922,6 +2928,10 @@
           if (reviewFilter === 'all' || el.dataset.verdict === reviewFilter) el.style.display = '';
           else el.style.display = 'none';
         });
+        // Filtering changes which cards are visible — drop the keyboard cursor so
+        // the next ↑/↓ restarts cleanly from the top of the new visible set.
+        root.querySelectorAll('.review-item.focused').forEach(el => el.classList.remove('focused'));
+        reviewFocus = -1;
       }
       applyFilter();
 
@@ -2934,27 +2944,19 @@
       });
       root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
       root.querySelector('#btn-restart-exam').addEventListener('click', () => restartExam(activeExamIdx));
-      // Per-question 📋 — copy a ready-to-paste correction prompt for that card.
-      root.querySelectorAll('.ri-copy').forEach(btn => {
-        btn.addEventListener('click', (e) => {
+      // Fresh list — clear the keyboard/hover cursors from any previous render.
+      reviewFocus = -1; reviewHover = -1;
+      // Per-card wiring: the 📋 button copies a ready-to-paste correction prompt,
+      // and mouseenter/leave track which card is hovered so Alt+C copies that one.
+      root.querySelectorAll('.review-item').forEach(item => {
+        const j = parseInt(item.dataset.local, 10);
+        item.addEventListener('mouseenter', () => { reviewHover = j; });
+        item.addEventListener('mouseleave', () => { if (reviewHover === j) reviewHover = -1; });
+        const btn = item.querySelector('.ri-copy');
+        if (btn) btn.addEventListener('click', (e) => {
           e.preventDefault();
           e.stopPropagation();
-          const item = btn.closest('.review-item');
-          if (!item) return;
-          const j = parseInt(item.dataset.local, 10);
-          const text = buildExamReviewPrompt(activeExamIdx, j);
-          if (!text) { toast('Rien à copier', 'warn'); return; }
-          copyText(text).then(ok => {
-            if (ok) {
-              toast(`📋 Prompt copié — Q${grp.questions[j].qn} (${text.length} car.)`, 'ok');
-              const prev = btn.textContent;
-              btn.textContent = '✓ Copié';
-              btn.classList.add('copied');
-              setTimeout(() => { btn.textContent = prev; btn.classList.remove('copied'); }, 1300);
-            } else {
-              toast('⚠️ Copie impossible — sélectionnez et copiez manuellement', 'warn');
-            }
-          });
+          copyReviewItemEl(item);
         });
       });
       root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
@@ -2971,6 +2973,66 @@
         });
       });
       wireSidebarToggles(root);
+    }
+
+    // Copy the ready-to-paste correction prompt (énoncé + ma réponse + correction
+    // officielle, "Professeur agrégé" format) for one review card, with the same
+    // toast + ✓ button feedback whether triggered by the 📋 button or by Alt+C.
+    function copyReviewItemEl(item) {
+      if (!item) return;
+      const grp = exams[activeExamIdx];
+      const j = parseInt(item.dataset.local, 10);
+      if (!grp || isNaN(j)) return;
+      const text = buildExamReviewPrompt(activeExamIdx, j);
+      if (!text) { toast('Rien à copier', 'warn'); return; }
+      copyText(text).then(ok => {
+        if (ok) {
+          toast(`📋 Prompt copié — Q${grp.questions[j].qn} (${text.length} car.)`, 'ok');
+          const btn = item.querySelector('.ri-copy');
+          if (btn) {
+            const prev = btn.textContent;
+            btn.textContent = '✓ Copié';
+            btn.classList.add('copied');
+            setTimeout(() => { btn.textContent = prev; btn.classList.remove('copied'); }, 1300);
+          }
+        } else {
+          toast('⚠️ Copie impossible — sélectionnez et copiez manuellement', 'warn');
+        }
+      });
+    }
+
+    // Move the keyboard focus cursor among the *visible* review cards (mirrors the
+    // dashboard's focusCardByIdx / the picker's focusExamTile). Also syncs `idx`
+    // and the sidebar's "current" chip so Alt+C / Shift+V stay on the same Q.
+    function focusReviewItem(i) {
+      const vis = [...root.querySelectorAll('.review-item')].filter(el => el.style.display !== 'none');
+      root.querySelectorAll('.review-item.focused').forEach(el => el.classList.remove('focused'));
+      if (vis.length === 0) { reviewFocus = -1; return; }
+      reviewFocus = Math.max(0, Math.min(i, vis.length - 1));
+      const el = vis[reviewFocus];
+      el.classList.add('focused');
+      el.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      const li = parseInt(el.dataset.local, 10);
+      const gi = examStarts[activeExamIdx] + li;
+      if (!isNaN(gi)) {
+        idx = gi;
+        root.querySelectorAll('.q-chip.current').forEach(c => c.classList.remove('current'));
+        const chip = root.querySelector(`.q-chip[data-idx="${gi}"]`);
+        if (chip) chip.classList.add('current');
+      }
+    }
+
+    // Alt+C / Enter on the review screen: copy the prompt for whichever card the
+    // mouse is hovering, else the keyboard-focused card. Nudge the user otherwise.
+    function copyReviewActive() {
+      let el = null;
+      if (reviewHover >= 0) {
+        const h = root.querySelector(`.review-item[data-local="${reviewHover}"]`);
+        if (h && h.style.display !== 'none') el = h;
+      }
+      if (!el) el = root.querySelector('.review-item.focused');
+      if (!el) { toast('Survolez une question (ou ↑/↓) puis Alt+C', 'warn'); return; }
+      copyReviewItemEl(el);
     }
 
     function verdictLabel(k) {
@@ -3334,15 +3396,29 @@
         return;
       }
 
-      // Exam review: filter chips by digit, R retake, H sidebar, 0/D dashboard
+      // Exam review: Alt+C copy hovered/focused card, ↑↓/JK navigate cards,
+      // digit filter chips, R retake, H sidebar, 0/D dashboard
       if (viewMode === 'exam-review') {
         if (handleGlobalKeys(e)) return;
+        // Alt+C — copy the correction prompt for the hovered (or focused) card.
+        if (e.altKey && !e.ctrlKey && !e.metaKey && !e.shiftKey && k.toLowerCase() === 'c') {
+          e.preventDefault(); copyReviewActive(); return;
+        }
         if (/^[1-5]$/.test(k)) {
           e.preventDefault();
           reviewFilter = ['all','correct','partial','wrong','skipped'][parseInt(k, 10) - 1];
           render();
           return;
         }
+        // Navigate between correction cards (mirrors dashboard / exam-picker focus).
+        if (k === 'ArrowDown' || k === 'ArrowRight' || k === 'n' || k === 'N' || k === 'j' || k === 'J') {
+          e.preventDefault(); focusReviewItem(reviewFocus < 0 ? 0 : reviewFocus + 1); return;
+        }
+        if (k === 'ArrowUp' || k === 'ArrowLeft' || k === 'k' || k === 'K') {
+          e.preventDefault(); focusReviewItem(reviewFocus < 0 ? 0 : reviewFocus - 1); return;
+        }
+        // Enter activates the focused/hovered card = copy its prompt.
+        if (k === 'Enter') { e.preventDefault(); copyReviewActive(); return; }
         if (k === 'r' || k === 'R') { e.preventDefault(); restartExam(activeExamIdx); return; }
         if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
         if (k === '0' || (k === 'd' && !e.ctrlKey && !e.metaKey && !e.altKey)) {
