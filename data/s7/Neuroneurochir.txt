@@ -84,7 +84,7 @@ Correction officielle - Normal 2025 Q5 = A
 
 # Normal 2025 Q6 - Pathologies vasculaires intracrâniennes
 
-6. Chez cette patiente, si o n suppose que l'étiologie est une rupture d'anévrysme intracrânien, Quel (s) examen (s) demanderiez-vous pour confirmer ce diagnostic ?
+6. Chez cette patiente, si on suppose que l'étiologie est une rupture d'anévrysme intracrânien, Quel (s) examen (s) demanderiez-vous pour confirmer ce diagnostic ?
 
 A] Une tomodensitométrie cérébrale.
 B] Un EEG
