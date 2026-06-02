@@ -660,6 +660,10 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .review-item.wrong   { border-left-color: var(--bad); }
 .review-item.skipped { border-left-color: var(--text-faint); }
 .review-item.unknown { border-left-color: var(--accent-2); }
+/* Keyboard-focused correction card (↑↓ / J K). Hover gets the same hint so it's
+   clear Alt+C will copy whichever card you're on. */
+.review-item.focused { outline: 2px solid var(--accent); outline-offset: 2px; }
+.review-item:hover { border-color: var(--accent); }
 .review-item .ri-head { display: flex; gap: 10px; align-items: center; margin-bottom: 6px; }
 .review-item .ri-head .ri-spacer { flex: 1 1 auto; }
 .review-item .ri-head .ri-copy {
