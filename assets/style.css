@@ -660,7 +660,16 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .review-item.wrong   { border-left-color: var(--bad); }
 .review-item.skipped { border-left-color: var(--text-faint); }
 .review-item.unknown { border-left-color: var(--accent-2); }
-.review-item .ri-head { display: flex; gap: 10px; align-items: baseline; margin-bottom: 6px; }
+.review-item .ri-head { display: flex; gap: 10px; align-items: center; margin-bottom: 6px; }
+.review-item .ri-head .ri-spacer { flex: 1 1 auto; }
+.review-item .ri-head .ri-copy {
+  font-family: var(--mono); font-size: 11px; font-weight: 700; line-height: 1.4;
+  padding: 3px 9px; border-radius: 7px; cursor: pointer; white-space: nowrap;
+  background: var(--bg-soft); border: 1.5px solid var(--border); color: var(--text-dim);
+  transition: color .15s, border-color .15s;
+}
+.review-item .ri-head .ri-copy:hover { color: var(--text); border-color: var(--accent); }
+.review-item .ri-head .ri-copy.copied { color: var(--ok); border-color: var(--ok); }
 .review-item .ri-head .qn  { font-family: var(--mono); font-weight: 800; color: var(--accent); }
 .review-item .ri-head .verdict { font-family: var(--mono); font-size: 12px; font-weight: 700; }
 .review-item .ri-head .verdict.correct { color: var(--ok); }
