@@ -71,7 +71,7 @@ _Last synced: 2026-05-31 @ 7ddd6e1_
   - `answers.<slug>` → `{ qIdx: { picked, checked, correct, partial, unknown, ts, tMs, n } }` (per-question result; `ts`/`tMs`/`n` = last-seen, time-on-task, review count).
   - `progress.<slug>`, `current.<slug>` (cursor), `exam.<slug>.<examIndex>` (per-exam session).
   - `activity` → `{ 'YYYY-MM-DD': { answered, correct, ms } }` (bounded ~400 days; powers streaks/trend).
-  - UI/config singletons: `theme`, `mode`, `presetIndex`, `autoAdvance`, `sidebarHidden`, `multiSelect`, `focusMode`, `lastModule`, `pomoMinutes`, `pomo.*`, `showCorrectionOnCopy`, `analysis.*`.
+  - UI/config singletons: `theme`, `mode`, `presetIndex`, `autoAdvance`, `sidebarHidden`, `multiSelect`, `focusMode`, `lastModule`, `pomoMinutes`, `pomo.*`, `showCorrectionOnCopy`, `analysis.*`, `visibleModules` (array of slugs shown on the dashboard; absent ⇒ all visible).
 - **No network calls, no CDNs, no fetched fonts.** Preserve the offline guarantee. Everything stays inline ES / SVG / CSS.
 
 ## 6. Fragile Bits & Landmines
