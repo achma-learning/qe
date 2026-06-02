@@ -739,6 +739,16 @@
   // ===== Mode (training vs exam) =====
   function getMode() { return LS.get('mode', 'training'); }
   function setMode(m) { LS.set('mode', m); renderModePill(); }
+
+  // ===== Visible-modules preference (dashboard) =====
+  // Which modules show on the dashboard (and therefore which the 1–9 jump keys
+  // map to). Absent/non-array key => ALL modules visible, so a newly added
+  // module appears automatically until the user narrows the set in Settings.
+  // When narrowed, it's stored as an array of the visible module slugs.
+  function getVisibleModuleSet() {
+    const arr = LS.get('visibleModules', null);
+    return Array.isArray(arr) ? new Set(arr) : null;   // null => show all
+  }
   function toggleMode() {
     const m = getMode() === 'exam' ? 'training' : 'exam';
     setMode(m);
@@ -893,8 +903,10 @@
           <div class="keys">${k('Shift+Enter')}</div><div>Submit exam (press twice to confirm)</div>
           <div class="keys">Après soumission</div><div>Note /20 (barème FMPM) · « <i>{examen} validée</i> » si ≥ 10/20 (≥ 30/50) · feuille de correction A–E façon FMPM</div>
           <div class="keys">${k('Esc')} (exam-run)</div><div>Pause and back to picker (progress kept)</div>
+          <div class="keys">${k('↑↓←→')} (picker)</div><div>Move focus across exam tiles · <kbd>Enter</kbd> starts the focused one</div>
           <div class="keys">${k('1')}–${k('5')} (review)</div><div>Filter: all / correct / partial / wrong / skipped</div>
           <div class="keys">${k('R')} (review)</div><div>Retake same exam (clears stored answers)</div>
+          <div class="keys">📋 on a review card</div><div>Copy a correction prompt — énoncé + your answer + official correction — ready to paste into an AI</div>
           <div class="keys">${k('0')} / ${k('D')} ×2</div><div>Back to dashboard (anywhere)</div>
         </div>
         <div class="group-title">Reports & reset</div>
@@ -1017,6 +1029,22 @@
 
   function showSettings() {
     if (document.querySelector('.overlay')) { closeOverlays(); return; }
+    // Visible-modules checklist (dashboard) — grouped by semester, newest first.
+    const mods = window.QE_MODULES || [];
+    const sems = window.QE_SEMESTERS || {};
+    const visSet = getVisibleModuleSet();   // null => all visible
+    const grouped = {};
+    mods.forEach(m => { (grouped[m.sem] ||= []).push(m); });
+    const semNum = (s) => parseInt(String(s).replace(/\D/g, ''), 10) || 0;
+    const modsChecklist = Object.keys(grouped).sort((a, b) => semNum(b) - semNum(a)).map(sem => `
+      <div>
+        <div style="font-family:var(--mono);font-size:11px;font-weight:700;color:var(--text-dim);margin:4px 0 2px;">${sem.toUpperCase()} — ${escapeHtml(sems[sem] || '')}</div>
+        ${grouped[sem].map(m => `
+          <label style="display:flex;align-items:center;gap:8px;cursor:pointer;padding:2px 0;">
+            <input type="checkbox" class="set-mod-vis" data-slug="${escapeHtml(m.slug)}" ${(!visSet || visSet.has(m.slug)) ? 'checked' : ''}>
+            <span>${escapeHtml(m.name)}</span>
+          </label>`).join('')}
+      </div>`).join('');
     makeOverlay((panel) => {
       panel.innerHTML = `
         <h3>⚙️ Settings</h3>
@@ -1053,6 +1081,18 @@
             <b>Current loadout:</b> ${preset.emoji} ${preset.name} — ${preset.q}s / ${preset.a}s
             <button id="set-cycle" style="margin-left:8px;">Cycle</button>
           </div>
+          <div style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--bg-soft);">
+            <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:4px;">
+              <span style="font-weight:700;">📋 Visible modules <span style="font-weight:400;color:var(--text-dim);">— shown on the dashboard · keys <kbd>1</kbd>–<kbd>9</kbd> map to these</span></span>
+              <span style="display:flex;gap:6px;">
+                <button type="button" id="set-mods-all" style="font-size:12px;">Select all</button>
+                <button type="button" id="set-mods-none" style="font-size:12px;">Clear</button>
+              </span>
+            </div>
+            <div id="set-mods-list" style="max-height:200px;overflow-y:auto;display:flex;flex-direction:column;gap:6px;padding-right:4px;">
+              ${modsChecklist}
+            </div>
+          </div>
           <div style="display:flex;gap:8px;justify-content:flex-end;">
             <button id="set-save" class="primary">Save</button>
             <button id="set-close">Close</button>
@@ -1072,6 +1112,12 @@
         LS.set('multiSelect', cfg.multiSelect);
         LS.set('showCorrectionOnCopy', cfg.showCorrectionOnCopy);
         LS.set('pomoMinutes', cfg.pomoMinutes);
+        // Visible modules: store the slug list, or clear the key when ALL are
+        // checked so future modules default to visible.
+        const boxes = [...panel.querySelectorAll('.set-mod-vis')];
+        const checkedSlugs = boxes.filter(b => b.checked).map(b => b.dataset.slug);
+        if (boxes.length && checkedSlugs.length === boxes.length) LS.del('visibleModules');
+        else LS.set('visibleModules', checkedSlugs);
         if (!pomo.running) { pomo.remaining = pomo.total(); LS.set('pomo.paused', 0); }
         pomoRender();
         renderModePill();
@@ -1082,6 +1128,9 @@
           location.href = location.pathname;
           return;
         }
+        // Refresh the dashboard grid/stats so a changed visible-modules set
+        // (and its 1–9 mapping) takes effect immediately.
+        if (typeof dashboardRefresh === 'function') dashboardRefresh();
         if (state.viewer) {
           state.viewer.render();
           if (cfg.autoAdvance) state.viewer.startTimer(); else state.viewer.stopTimer();
@@ -1090,6 +1139,12 @@
       panel.querySelector('#set-save').addEventListener('click', save);
       panel.querySelector('#set-close').addEventListener('click', closeOverlays);
       panel.querySelector('#set-cycle').addEventListener('click', cyclePreset);
+      panel.querySelector('#set-mods-all').addEventListener('click', () => {
+        panel.querySelectorAll('.set-mod-vis').forEach(b => { b.checked = true; });
+      });
+      panel.querySelector('#set-mods-none').addEventListener('click', () => {
+        panel.querySelectorAll('.set-mod-vis').forEach(b => { b.checked = false; });
+      });
     });
   }
 
@@ -1835,12 +1890,15 @@
 
     function render(filter = '') {
       const f = filter.trim().toLowerCase();
+      const visSet = getVisibleModuleSet();   // null => show all
       semRoot.innerHTML = '';
       let globalIdx = 0;
       // Home page order: newest semester first → s10, s9, s8, s7, s6, s5.
       const semNum = (s) => parseInt(String(s).replace(/\D/g, ''), 10) || 0;
       Object.keys(grouped).sort((a, b) => semNum(b) - semNum(a)).forEach(sem => {
-        const list = grouped[sem].filter(m => !f || m.name.toLowerCase().includes(f) || m.sem.includes(f));
+        const list = grouped[sem].filter(m =>
+          (!visSet || visSet.has(m.slug)) &&                                   // hidden modules are skipped
+          (!f || m.name.toLowerCase().includes(f) || m.sem.includes(f)));
         if (list.length === 0) return;
         const block = document.createElement('div');
         block.className = 'semester';
@@ -1909,7 +1967,14 @@
       // Reapply focus
       focusCardByIdx(focusIdx);
       if (semRoot.querySelector('.card') === null) {
-        semRoot.innerHTML = `<div class="empty"><div class="ico">🔍</div>No modules match "<b>${escapeHtml(filter)}</b>"</div>`;
+        if (f) {
+          semRoot.innerHTML = `<div class="empty"><div class="ico">🔍</div>No modules match "<b>${escapeHtml(filter)}</b>"</div>`;
+        } else {
+          // No search term but still nothing → every module is hidden in Settings.
+          semRoot.innerHTML = `<div class="empty"><div class="ico">🙈</div>All modules are hidden.<br><button id="qe-open-settings-empty" class="primary" style="margin-top:12px;">⚙️ Choose visible modules</button></div>`;
+          const b = semRoot.querySelector('#qe-open-settings-empty');
+          if (b) b.addEventListener('click', () => showSettings());
+        }
       }
     }
 
@@ -2184,6 +2249,7 @@
     let submitConfirm = false, submitConfirmT = null;
     let examStartT = 0;
     let examTimerH = null;
+    let examPickFocus = -1;     // keyboard focus cursor on the exam-picker tiles
 
     function persist() {
       LS.set(ansKey, answers);
@@ -2603,6 +2669,20 @@
         LS.set('mode', 'training');
         location.href = location.pathname;
       });
+      // Reapply the keyboard focus cursor after a re-render (e.g. a tile reset).
+      if (examPickFocus >= 0) focusExamTile(examPickFocus);
+    }
+
+    // Move the keyboard focus cursor among the exam-picker tiles (mirrors the
+    // dashboard's focusCardByIdx). Arrow keys drive this; Enter opens the tile.
+    function focusExamTile(i) {
+      const tiles = [...root.querySelectorAll('.exam-tile')];
+      root.querySelectorAll('.exam-tile.focused').forEach(t => t.classList.remove('focused'));
+      if (tiles.length === 0) { examPickFocus = -1; return; }
+      examPickFocus = Math.max(0, Math.min(i, tiles.length - 1));
+      const tile = tiles[examPickFocus];
+      tile.classList.add('focused');
+      tile.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     }
 
     function startExamTimer() {
@@ -2792,7 +2872,9 @@
             <div class="ri-head">
               <span class="qn">Q${q.qn}</span>
               <span class="verdict ${verdict}">${verdictLabel(verdict)}</span>
+              <span class="ri-spacer"></span>
               ${q.topic ? `<span class="topic">${escapeHtml(q.topic)}</span>` : ''}
+              <button class="ri-copy" type="button" title="Copier le prompt de correction (énoncé + ma réponse + correction officielle)">📋 Copier</button>
             </div>
             <div class="ri-q">${escapeHtml(q.text)}</div>
             <div class="ri-opts">${optsHtml}</div>
@@ -2852,6 +2934,29 @@
       });
       root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
       root.querySelector('#btn-restart-exam').addEventListener('click', () => restartExam(activeExamIdx));
+      // Per-question 📋 — copy a ready-to-paste correction prompt for that card.
+      root.querySelectorAll('.ri-copy').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          const item = btn.closest('.review-item');
+          if (!item) return;
+          const j = parseInt(item.dataset.local, 10);
+          const text = buildExamReviewPrompt(activeExamIdx, j);
+          if (!text) { toast('Rien à copier', 'warn'); return; }
+          copyText(text).then(ok => {
+            if (ok) {
+              toast(`📋 Prompt copié — Q${grp.questions[j].qn} (${text.length} car.)`, 'ok');
+              const prev = btn.textContent;
+              btn.textContent = '✓ Copié';
+              btn.classList.add('copied');
+              setTimeout(() => { btn.textContent = prev; btn.classList.remove('copied'); }, 1300);
+            } else {
+              toast('⚠️ Copie impossible — sélectionnez et copiez manuellement', 'warn');
+            }
+          });
+        });
+      });
       root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
         el.addEventListener('click', () => {
           const qi = parseInt(el.dataset.idx, 10);
@@ -3133,6 +3238,38 @@
       p += `6. **Perle 💎** : piège classique, recommandation ou astuce mnémotechnique.`;
       return p;
     }
+    // Self-contained correction prompt for ONE exam-review question: énoncé +
+    // the user's selection + the official correction, in the same "Professeur
+    // agrégé" format. Used by the 📋 button on each review card so any question
+    // can be handed to an AI without leaving the results screen.
+    function buildExamReviewPrompt(ei, j) {
+      const grp = exams[ei];
+      if (!grp) return null;
+      const q = grp.questions[j];
+      if (!q) return null;
+      const sess = examSession(ei);
+      const picks = sess.picked[j] || [];
+      const map = {};
+      (q.options || []).forEach(o => { map[o.letter] = o.text; });
+      const optsList = (q.options || []).map(o => `${o.letter}. ${o.text}`).join('\n');
+      const fmtLetters = (arr) => (arr && arr.length)
+        ? arr.map(l => `${l}. ${map[l] || '?'}`).join('\n')
+        : '(aucune réponse cochée)';
+      let p = `Rôle : Agis en tant que Professeur agrégé de médecine et expert en pédagogie médicale. Corrige ce QCM avec rigueur et clarté.\n\n`;
+      p += `### Contexte\n* Module : ${module.name}\n* Examen : ${q.exam || grp.name}\n* Question : Q${q.qn}${q.topic ? ' — ' + q.topic : ''}\n\n`;
+      p += `### Question\n${q.text}\n\n`;
+      p += `### Propositions\n${optsList}\n\n`;
+      p += `### Ma réponse\n${fmtLetters(picks)}\n\n`;
+      p += `### Correction officielle\n${(q.correct && q.correct.length) ? fmtLetters(q.correct) : '(non disponible)'}\n\n`;
+      p += `### Ta mission (Markdown)\n`;
+      p += `1. **Verdict** : la (ou les) bonne(s) réponse(s) en gras.\n`;
+      p += `2. **Diagnostic / cadre** : identifie la pathologie ou le mécanisme central.\n`;
+      p += `3. **Mots-clés** : puces des éléments décisifs de l'énoncé.\n`;
+      p += `4. **Justification** : pourquoi la (les) bonne(s) réponse(s).\n`;
+      p += `5. **Distracteurs** : pourquoi chaque mauvaise proposition est fausse, et à quoi elle ferait référence sinon.\n`;
+      p += `6. **Perle 💎** : piège classique, recommandation ou astuce mnémotechnique.`;
+      return p;
+    }
     function copyPrompt(builder, label) {
       const text = builder();
       if (!text) { toast('Open a question first to copy', 'warn'); return; }
@@ -3164,13 +3301,27 @@
         }
       }
 
-      // Exam picker: digit jump + dashboard
+      // Exam picker: digit jump + arrow focus + dashboard
       if (viewMode === 'exam-pick') {
         if (handleGlobalKeys(e)) return;
         if (/^[1-9]$/.test(k)) {
           const ei = parseInt(k, 10) - 1;
           if (ei < exams.length) { e.preventDefault(); enterExam(ei); }
           return;
+        }
+        // Arrow keys move a focus cursor across the exam tiles; Enter opens it.
+        if (k === 'ArrowRight') { e.preventDefault(); focusExamTile(examPickFocus < 0 ? 0 : examPickFocus + 1); return; }
+        if (k === 'ArrowLeft')  { e.preventDefault(); focusExamTile(examPickFocus < 0 ? 0 : examPickFocus - 1); return; }
+        if (k === 'ArrowDown' || k === 'ArrowUp') {
+          e.preventDefault();
+          const list = root.querySelector('#exam-list');
+          const cols = list ? getComputedStyle(list).gridTemplateColumns.split(' ').length : 1;
+          const step = (k === 'ArrowDown' ? cols : -cols);
+          focusExamTile(examPickFocus < 0 ? 0 : examPickFocus + step);
+          return;
+        }
+        if (k === 'Enter' && examPickFocus >= 0 && examPickFocus < exams.length) {
+          e.preventDefault(); enterExam(examPickFocus); return;
         }
         if (k === '0' || (k === 'd' && !e.ctrlKey && !e.metaKey)) {
           e.preventDefault();
