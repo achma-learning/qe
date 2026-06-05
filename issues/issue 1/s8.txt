@@ -1,0 +1,152 @@
+# Traumato-Rhumato-MPR
+
+## 1. Traumatologie:
+
+### Pr.Chafik
+
+- [x]  Fractures de la diaphyse humérale
+- [x]  Fractures de la palette humérale
+- [x]  Fc coude
+- [x]  Avant bras
+- [x]  Fractures du poignet (scaphoide)
+- [x]  Infections de la main
+
+### Pr.Abbkari
+
+- [x]  Traumas du bassin / Luxation de la hanche
+- [x]  Fractures de l'extrémité supérieur du fémur
+- [x]  Fractures du genou
+- [x]  Lésions méniscopiquementaires du genou
+
+### Pr.Margad
+
+- [x]  Trauma de la cheville
+- [x]  Traumatismes vasculo-nerveuse
+- [x]  Traumas de l'épaule
+- [x]  Plaies de la main
+- [x]  Fractures de la main
+- [x]  Fracture du fémur
+- [x]  Fracture de la jambe
+- [x]  Tumeurs osseuses
+- [x]  Tumeurs des parties molles
+
+## 2.  Rhumatologie:
+
+### Pr.Niamane
+
+- [x]  Introd à la rhumato
+- [x]  Radicaligie des membres
+- [x]  Ostéoporose
+- [x]  Ostéomalacie
+- [x]  Hypercalcémies
+- [x]  Ab-articulaire
+
+### Pr.Belkhou
+
+- [x]  Epaule douloureuse
+- [x]  Hanche douloureuse
+- [x]  Mono arthrite
+- [x]  Tuberculose ostéo-articulaire
+- [x]  CAT devant rhumatisme inflammatoire débutant
+- [x]  Lombalgies
+- [x]  Algodystrophie
+- [x]  Sd du canal carpien
+
+### Pr.Bouchti
+
+- [x]  Polyarthrite rhumatoide
+- [x]  Goutte
+- [x]  Arthrose
+- [x]  Spondylarthrite ankylosante
+
+## 3. MPR:
+
+### Pr.Abdelfettah
+
+- [x]  Handicap
+- [x]  Intervenants et techniques de rééducation et de readaptation
+- [x]  Appareillages et aides techniques
+- [x]  MPR et domaines d'interventions
+- [x]  L'activité physique
+- [x]  Troubles de la marche
+- [x]  MPR et Affections Neurologiques
+
+# Anatomopathologie
+
+### Pr.Rais
+
+- [x]  Cancer du sein
+- [x]  Tumeurs hépatiques
+- [x]  Démarche diagnostique devant une métastase hépatique d’un primitif inconnu
+- [x]  Tumeur de l'ovaire
+
+### Pr.Rachidi
+
+- [x]  Polypes et polyposes digestives
+- [x]  Cancers colo-rectales
+- [x]  Comment remplir une fiche de demande d’examen anapath
+- [x]  Lecture critique d'un compte rendu Anatomopathologie
+
+### Pr.Rharrassi
+
+- [x]  Tumeurs broncho-pulmonaires
+- [x]  Mastopathies bénignes
+
+### Pr.Azami
+
+- [x]  Tumeurs de la vessie
+- [x]  Cancer du prostate
+- [x]  Tumeurs du rein
+
+# Maladies de système
+
+### Pr.Essadouni
+
+- [x]  Lupus
+- [x]  Sclérodermie systémique
+- [x]  Vascularites systémiques
+- [x]  Maladie de Behçet
+- [x]  Sd de Gougerot-sjogren
+
+### Pr. Laila
+
+- [x]  Vascularites systémiques + Artérite à cellules génates
+- [x]  Phénomène de Raynaud
+- [x]  Maladie de Takayasu
+- [x]  Myopathies inflammatoires
+- [x]  SAPL
+
+# Génétique-Immuno
+
+## 1. Génétique :
+
+### Pr.Aboussair
+
+- [x]  Modes de transmission des maladies génétiques
+- [x]  Génétique des populations
+- [x]  Mutations : classification, conséquences et nomenclature
+- [x]  La pathologie chromosomique et exemples de pathologies autosomes
+- [x]  Sd de Turner
+- [x]  Sd de Klinefelter
+- [x]  Conseil génétique
+- [x]  Diagnostic anténatal
+- [x]  Sd de Prader Wili
+
+## 2. Immuno:
+
+### Pr.Admou
+
+- [x]  Déficits immunitaires
+- [x]  Hypersensibilité immédiate et allergie
+- [x]  Hypersensibilité type 2 et 3
+- [x]  Hypersensibilité type 4
+- [x]  Auto-immunité et maladies auto- immunes
+
+### Pr.Hazimi
+
+- [x]  Immunité anti-infectieuse
+- [x]  Immunité anti-tumorale
+- [x]  Immunité anti-greffe
+- [x]  Vaccination
+- [x]  Anticorps monoclonaux
+- [x]  Immunosuppresseurs
