@@ -1,0 +1,2 @@
+the claude .skill has changed a bit, and the provided .skill file is the old version
+and this is just a example / template

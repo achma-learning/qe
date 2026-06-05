@@ -1,0 +1,21 @@
+liste des cours en Santé Publique par professeur :
+# Pr.Amine
++ Initiation à la méthodologie de recherche clinique (3parties)
++ Les études descriptives
++ Les études étiologiques (cas témoins + cohorte)
++ Mesure de fréquence en épidémiologie
++ Essai clinique randomisé
++ Critères de causalité
++ Validité d'un test diagnostic
+# Pr.Sebbani
++ Intervention en Sante Publique
++ Plannification d'une intervention en Santé Publique
++ Promotion et prévention en Sante Publique
++ Sécurité et qualité de soins
+# Pr.Adermouch
++ Santé et maladie
++ Déterminants de la santé
++ Concepts en santé pub partie 1 et 2
++ Santé environnementale
++ Caractériser l'exposition environnementale
++ Intervention environnementale
