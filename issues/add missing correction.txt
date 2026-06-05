@@ -1,0 +1,2 @@
+	1. for exam without correction, copy them and given them to claude with good prompt and add correction - when to do this , after generation the high yiled questions
+use claude code and mention to respect the formating guidelines for questions
