@@ -2888,6 +2888,28 @@
         `;
       }).join('');
 
+      // Footer nav — jump straight from this correction to the previous / next
+      // exam (mirrors clicking its picker tile: shows that exam's correction if
+      // already taken, otherwise starts it). Only shown when there's more than
+      // one exam to move between. This footer is exclusive to exam-review.
+      const prevEi = ei - 1, nextEi = ei + 1;
+      const hasPrev = prevEi >= 0, hasNext = nextEi < exams.length;
+      const navHtml = exams.length <= 1 ? '' : `
+        <div class="review-nav">
+          <button id="btn-prev-exam" class="rn-btn rn-prev" type="button" ${hasPrev ? '' : 'disabled'}
+            title="${hasPrev ? 'Previous exam: ' + escapeHtml(exams[prevEi].name) : 'This is the first exam'}">
+            <span class="rn-dir">‹ Previous exam <kbd>[</kbd></span>
+            <span class="rn-name">${hasPrev ? escapeHtml(exams[prevEi].name) : '—'}</span>
+          </button>
+          <span class="rn-pos">Exam ${ei + 1} / ${exams.length}</span>
+          <button id="btn-next-exam" class="rn-btn rn-next" type="button" ${hasNext ? '' : 'disabled'}
+            title="${hasNext ? 'Next exam: ' + escapeHtml(exams[nextEi].name) : 'This is the last exam'}">
+            <span class="rn-dir"><kbd>]</kbd> Next exam ›</span>
+            <span class="rn-name">${hasNext ? escapeHtml(exams[nextEi].name) : '—'}</span>
+          </button>
+        </div>
+      `;
+
       root.innerHTML = `
         <div class="viewer ${cfg.sidebarHidden ? 'no-sidebar' : ''}">
           ${cfg.sidebarHidden ? '' : `
@@ -2919,6 +2941,7 @@
               <span class="chip ${reviewFilter==='skipped'?'active':''}" data-f="skipped">Skipped ${s.skipped}</span>
             </div>
             <div id="review-items">${items}</div>
+            ${navHtml}
           </div>
         </div>
       `;
@@ -2944,6 +2967,11 @@
       });
       root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
       root.querySelector('#btn-restart-exam').addEventListener('click', () => restartExam(activeExamIdx));
+      // Footer prev/next-exam buttons (no-ops at the ends — they render disabled).
+      const prevExamBtn = root.querySelector('#btn-prev-exam');
+      if (prevExamBtn && !prevExamBtn.disabled) prevExamBtn.addEventListener('click', () => enterExam(activeExamIdx - 1));
+      const nextExamBtn = root.querySelector('#btn-next-exam');
+      if (nextExamBtn && !nextExamBtn.disabled) nextExamBtn.addEventListener('click', () => enterExam(activeExamIdx + 1));
       // Fresh list — clear the keyboard/hover cursors from any previous render.
       reviewFocus = -1; reviewHover = -1;
       // Per-card wiring: the 📋 button copies a ready-to-paste correction prompt,
@@ -3419,6 +3447,17 @@
         }
         // Enter activates the focused/hovered card = copy its prompt.
         if (k === 'Enter') { e.preventDefault(); copyReviewActive(); return; }
+        // [ / ] — jump to the previous / next exam (same as the footer buttons).
+        if (k === '[') {
+          e.preventDefault();
+          if (activeExamIdx > 0) enterExam(activeExamIdx - 1); else toast('Already at the first exam', 'warn');
+          return;
+        }
+        if (k === ']') {
+          e.preventDefault();
+          if (activeExamIdx < exams.length - 1) enterExam(activeExamIdx + 1); else toast('Already at the last exam', 'warn');
+          return;
+        }
         if (k === 'r' || k === 'R') { e.preventDefault(); restartExam(activeExamIdx); return; }
         if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
         if (k === '0' || (k === 'd' && !e.ctrlKey && !e.metaKey && !e.altKey)) {
