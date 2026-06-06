@@ -4208,27 +4208,59 @@
       const col = root.querySelector('#cur-collapse'); if (col) col.addEventListener('click', () => setAll(false));
     }
 
-    // Fallback for an unbaked dev server: fetch the .txt files directly (http(s)
-    // only — fetch() can't read file://, which is why we bake for offline).
-    function fetchCurriculum() {
+    // Read the curriculum from the live .txt files. Used both as the file://
+    // fallback when nothing is baked, and (on a server) to self-heal a stale
+    // bake. A 404 means the semester genuinely has no file (exists:false); a
+    // network error keeps whatever the bake had so we never lose a semester.
+    function fetchCurriculum(baked) {
+      const bs = (baked && baked.semesters) || {};
+      const bc = (baked && baked.complete) || {};
       const semesters = {};
       const sems = YEARS.flatMap(y => y.sems);
       const one = (sem) => {
-        const file = `${sem} liste cours.txt`;
+        const file = (bs[sem] && bs[sem].file) || `${sem} liste cours.txt`;
         return fetch(fileHref(file))
           .then(res => res.ok ? res.text().then(raw => ({ file, exists: true, raw })) : { file, exists: false, raw: '' })
-          .catch(() => ({ file, exists: false, raw: '' }))
+          .catch(() => bs[sem] || { file, exists: false, raw: '' })
           .then(rec => { semesters[sem] = rec; });
       };
-      const completeP = fetch(fileHref(COMPLETE_FILE))
-        .then(res => ({ file: COMPLETE_FILE, exists: res.ok }))
-        .catch(() => ({ file: COMPLETE_FILE, exists: false }));
+      const completeFile = bc.file || COMPLETE_FILE;
+      const completeP = fetch(fileHref(completeFile))
+        .then(res => ({ file: completeFile, exists: res.ok }))
+        .catch(() => ({ file: completeFile, exists: !!bc.exists }));
       return Promise.all([...sems.map(one), completeP])
         .then(results => ({ semesters, complete: results[results.length - 1] }));
     }
 
-    if (window.QE_CURRICULUM) render(window.QE_CURRICULUM);
-    else fetchCurriculum().then(render).catch(() => render(null));
+    // True if the freshly-fetched curriculum differs from the baked one (a
+    // semester appeared/disappeared or its content changed). Lets us skip a
+    // needless re-render (which would reset the open/closed state) when in sync.
+    function curriculumDiffers(a, b) {
+      if (!b) return true;
+      const sa = a.semesters || {}, sb = b.semesters || {};
+      const keys = new Set([...Object.keys(sa), ...Object.keys(sb)]);
+      for (const k of keys) {
+        const x = sa[k] || {}, y = sb[k] || {};
+        if (!!x.exists !== !!y.exists) return true;
+        if ((x.raw || '') !== (y.raw || '')) return true;
+      }
+      return !!(a.complete || {}).exists !== !!(b.complete || {}).exists;
+    }
+
+    // Render the baked data immediately (instant, and the only source on
+    // file://). Then, on an http(s) server, re-read the live .txt files and
+    // re-render if they differ — so a semester .txt added/edited without
+    // re-running tools/build-curriculum.js (e.g. the late s4) still shows up.
+    // For an offline file:// copy, rebuild the bake to refresh it.
+    const baked = window.QE_CURRICULUM || null;
+    if (baked) render(baked);
+    if (/^https?:$/.test(location.protocol)) {
+      fetchCurriculum(baked)
+        .then(fresh => { if (fresh && curriculumDiffers(fresh, baked)) render(fresh); })
+        .catch(() => { if (!baked) render(null); });
+    } else if (!baked) {
+      render(null);
+    }
 
     document.addEventListener('keydown', (e) => {
       if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
