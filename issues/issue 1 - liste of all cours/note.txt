@@ -1,5 +1,0 @@
-1ere annee = s1 + s2
-2eme annee = s3 + s4
-3eme annee = s5 + s6
-4eme annee = s7 + s8
-5eme annee = s9 + s10
