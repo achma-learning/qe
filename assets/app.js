@@ -773,8 +773,9 @@
     top.className = 'topbar';
     const navBase = (opts.indexHref || 'index.html').replace('index.html', '');
     const navLinks = [
-      { key: 'report',    href: navBase + 'report.html',     label: 'Report',     title: 'AI report — build a prompt from your mistakes' },
-      { key: 'highyield', href: navBase + 'high-yield.html', label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
+      { key: 'report',     href: navBase + 'report.html',     label: 'Report',     title: 'AI report — build a prompt from your mistakes' },
+      { key: 'highyield',  href: navBase + 'high-yield.html', label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
+      { key: 'curriculum', href: navBase + 'curriculum.html', label: 'Curriculum', title: 'Programme officiel FMPM (S1–S10) par semestre' },
     ].filter(n => n.key !== opts.active)
      .map(n => `<a class="topbar-link" href="${n.href}" title="${escapeHtml(n.title)}">${n.label}</a>`).join('');
     top.innerHTML = `
@@ -4025,7 +4026,8 @@
           <span class="hy-doc-name">${docMeta(f).icon} ${escapeHtml(f)}</span>
           <span class="hy-doc-act">
             ${can ? `<button class="mini hy-prev" data-src="${escapeHtml(href)}" data-name="${escapeHtml(f)}">Aperçu</button>` : ''}
-            <a class="mini" href="${escapeHtml(href)}" target="_blank" rel="noopener">${can ? 'Ouvrir ↗' : 'Télécharger ↓'}</a>
+            <a class="mini" href="${escapeHtml(href)}" target="_blank" rel="noopener">Ouvrir ↗</a>
+            <a class="mini" href="${escapeHtml(href)}" download="${escapeHtml(f)}">Télécharger ↓</a>
           </span>
         </div>`;
       }).join('');
@@ -4076,6 +4078,167 @@
     }, true);
   }
 
+  // =====================================================================
+  // ===================  CURRICULUM PAGE (curriculum.html)  =============
+  // =====================================================================
+  // Renders the FMPM program (data/liste cours/<sem> liste cours.txt) as two
+  // semesters per academic year, with collapsible Module → Sub-module → Course
+  // trees and direct download of each source .txt (+ the complete S1–S10 file).
+  // Reads the baked window.QE_CURRICULUM (tools/build-curriculum.js); if it's
+  // missing (unbaked dev server) it falls back to fetch()ing the .txt files,
+  // exactly like the question viewer falls back from data/<slug>.data.js.
+  function bootCurriculum() {
+    buildTopbar({ search: false, active: 'curriculum', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Curriculum</b>` });
+    const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
+
+    const DIR = 'data/liste cours/';
+    const COMPLETE_FILE = 'curriculum_FMPM_S1-S10.txt';
+    const YEARS = [
+      { label: '1ère année', sems: ['s1', 's2'] },
+      { label: '2ème année', sems: ['s3', 's4'] },
+      { label: '3ème année', sems: ['s5', 's6'] },
+      { label: '4ème année', sems: ['s7', 's8'] },
+      { label: '5ème année', sems: ['s9', 's10'] },
+    ];
+    // Encode the relative path (keeps "/", encodes the spaces in "liste cours").
+    const fileHref = (file) => encodeURI(DIR + file);
+
+    // Parse the indented "- " outline into a tree of { text, children }. Depth
+    // comes from leading whitespace, so it handles Module / Sub-module / Course
+    // (or any depth) generically. The bare "S1" title and any "#"-prefixed
+    // professor/metadata line are dropped — never shown (per the spec).
+    function parseCurriculum(raw) {
+      const out = [];
+      const stack = [{ indent: -1, node: { children: out } }];
+      (raw || '').split(/\r?\n/).forEach(line => {
+        if (!line.trim()) return;
+        const m = line.match(/^(\s*)[-+*•·]\s+(.*)$/);
+        let indent, text;
+        if (m) { indent = m[1].length; text = m[2].trim(); }
+        else {
+          const t = line.trim();
+          if (/^s\d{1,2}$/i.test(t)) return;          // bare "S1" semester title
+          indent = (line.match(/^\s*/)[0] || '').length;
+          text = t;
+        }
+        if (!text || text.charAt(0) === '#') return;    // professor / metadata marker
+        while (stack.length > 1 && indent <= stack[stack.length - 1].indent) stack.pop();
+        const node = { text, children: [] };
+        stack[stack.length - 1].node.children.push(node);
+        stack.push({ indent, node });
+      });
+      return out;
+    }
+
+    // Number of leaf courses in a subtree (badge on each module / sub-module).
+    function countLeaves(nodes) {
+      let n = 0;
+      nodes.forEach(x => { n += (x.children && x.children.length) ? countLeaves(x.children) : 1; });
+      return n;
+    }
+
+    // A node with children → collapsible <details>; a leaf → plain <li>.
+    // Modules (depth 0) start open; sub-modules start collapsed to stay compact
+    // on very large files.
+    function renderNodes(nodes, depth) {
+      return `<ul class="cur-list cur-d${depth}">` + nodes.map(n => {
+        if (n.children && n.children.length) {
+          const open = depth === 0 ? ' open' : '';
+          return `<li class="cur-branch"><details${open}><summary>`
+            + `<span class="cur-name">${escapeHtml(n.text)}</span>`
+            + `<span class="cur-count">${countLeaves(n.children)}</span></summary>`
+            + renderNodes(n.children, depth + 1) + `</details></li>`;
+        }
+        return `<li class="cur-leaf">${escapeHtml(n.text)}</li>`;
+      }).join('') + `</ul>`;
+    }
+
+    function semColumn(sem, info) {
+      const SU = sem.toUpperCase();
+      const file = (info && info.file) || `${sem} liste cours.txt`;
+      if (!info || !info.exists) {
+        return `<section class="cur-sem missing" aria-label="${SU}">
+          <div class="cur-sem-head is-missing"><span class="cur-sem-tag">${SU}</span></div>
+          <div class="cur-empty">Curriculum non disponible</div>
+        </section>`;
+      }
+      const tree = parseCurriculum(info.raw);
+      const body = tree.length ? renderNodes(tree, 0) : `<div class="cur-empty">Curriculum vide</div>`;
+      return `<section class="cur-sem" aria-label="${SU}">
+        <a class="cur-sem-head" href="${escapeHtml(fileHref(file))}" download="${escapeHtml(file)}"
+           title="Download semester curriculum (.txt)">
+          <span class="cur-sem-tag">${SU}</span>
+          <span class="cur-sem-dl" aria-hidden="true">⬇</span>
+          <span class="cur-sem-meta">${tree.length} module(s) · ${countLeaves(tree)} cours</span>
+        </a>
+        ${body}
+      </section>`;
+    }
+
+    function render(curr) {
+      const sems = (curr && curr.semesters) || {};
+      const complete = (curr && curr.complete) || { file: COMPLETE_FILE, exists: true };
+      const dlAll = (pos) => complete.exists
+        ? `<a class="cur-dl-all" href="${escapeHtml(fileHref(complete.file))}" download="${escapeHtml(complete.file)}">⬇ Download Complete Curriculum (S1–S10)</a>`
+        : `<span class="cur-dl-all disabled" title="Fichier complet non disponible">⬇ Download Complete Curriculum (S1–S10)</span>`;
+      const yearsHtml = YEARS.map(y => `
+        <section class="cur-year">
+          <h2 class="cur-year-title">${y.label}</h2>
+          <div class="cur-cols">${y.sems.map(s => semColumn(s, sems[s])).join('')}</div>
+        </section>`).join('');
+      root.innerHTML = `
+        <div class="container cur-page">
+          <div class="hero cur-hero">
+            <h1>📚 Curriculum FMPM — S1 à S10</h1>
+            <p>Le programme officiel des cours, regroupé par année (deux semestres par ligne). Survolez un semestre pour télécharger son fichier source <code>.txt</code>, ou récupérez le curriculum complet ci-dessous.</p>
+            <div class="cur-dl-row">
+              ${dlAll('top')}
+              <span class="cur-tools">
+                <button type="button" class="mini" id="cur-expand">Tout déplier</button>
+                <button type="button" class="mini" id="cur-collapse">Tout replier</button>
+              </span>
+            </div>
+          </div>
+          ${yearsHtml}
+          <div class="cur-dl-row cur-dl-bottom">${dlAll('bottom')}</div>
+        </div>`;
+
+      const setAll = (open) => root.querySelectorAll('.cur-sem details').forEach(d => { d.open = open; });
+      const exp = root.querySelector('#cur-expand'); if (exp) exp.addEventListener('click', () => setAll(true));
+      const col = root.querySelector('#cur-collapse'); if (col) col.addEventListener('click', () => setAll(false));
+    }
+
+    // Fallback for an unbaked dev server: fetch the .txt files directly (http(s)
+    // only — fetch() can't read file://, which is why we bake for offline).
+    function fetchCurriculum() {
+      const semesters = {};
+      const sems = YEARS.flatMap(y => y.sems);
+      const one = (sem) => {
+        const file = `${sem} liste cours.txt`;
+        return fetch(fileHref(file))
+          .then(res => res.ok ? res.text().then(raw => ({ file, exists: true, raw })) : { file, exists: false, raw: '' })
+          .catch(() => ({ file, exists: false, raw: '' }))
+          .then(rec => { semesters[sem] = rec; });
+      };
+      const completeP = fetch(fileHref(COMPLETE_FILE))
+        .then(res => ({ file: COMPLETE_FILE, exists: res.ok }))
+        .catch(() => ({ file: COMPLETE_FILE, exists: false }));
+      return Promise.all([...sems.map(one), completeP])
+        .then(results => ({ semesters, complete: results[results.length - 1] }));
+    }
+
+    if (window.QE_CURRICULUM) render(window.QE_CURRICULUM);
+    else fetchCurriculum().then(render).catch(() => render(null));
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
+      if (handleOverlayKeys(e)) return;
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+      if (handleGlobalKeys(e)) return;
+      if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
+    }, true);
+  }
+
   // ===== Utils =====
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -4087,6 +4250,7 @@
     bootViewer,
     bootReport,
     bootHighYield,
+    bootCurriculum,
     showHelp,
     showSettings,
     showModuleSwitcher,
