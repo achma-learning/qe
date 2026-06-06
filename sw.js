@@ -9,7 +9,7 @@
  * Bump CACHE to force a clean slate on a breaking change.
  * Note: service workers only run over http(s); the file:// copy is already offline.
  */
-const CACHE = 'qe-v4';
+const CACHE = 'qe-v5';
 
 // Small app shell so the dashboard opens offline on a cold start. Paths are
 // relative to the SW's scope, so this works at a project subpath (/<repo>/).
@@ -18,11 +18,13 @@ const SHELL = [
   './index.html',
   './report.html',
   './high-yield.html',
+  './curriculum.html',
   './assets/app.js',
   './assets/modules.js',
   './assets/style.css',
   './data/_counts.js',
   './data/_topics.js',
+  './data/liste%20cours/_curriculum.js',
   './qe-analysis/_analysis.js',
   './manifest.webmanifest',
   './icon.svg',

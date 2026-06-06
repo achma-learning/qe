@@ -870,6 +870,83 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .hy-preview:empty { display: none; }
 .hy-frame { width: 100%; height: 70vh; border: 1px solid var(--border); border-radius: 10px; margin-top: 8px; background: #fff; }
 
+/* ============== CURRICULUM PAGE (curriculum.html) ============== */
+.cur-hero h1 { font-size: 22px; }
+.cur-dl-row { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 14px; }
+.cur-dl-bottom { justify-content: center; margin: 30px 0 12px; }
+.cur-dl-all {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 18px; border-radius: 12px; font-weight: 700; font-size: 15px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2)); color: #fff;
+  text-decoration: none; border: none; box-shadow: 0 4px 14px rgba(108,141,255,.3);
+  transition: filter .12s, transform .08s;
+}
+.cur-dl-all:hover { filter: brightness(1.08); }
+.cur-dl-all:active { transform: scale(.98); }
+.cur-dl-all.disabled { opacity: .5; pointer-events: none; background: var(--bg-soft); color: var(--text-dim); box-shadow: none; }
+.cur-tools { display: inline-flex; gap: 6px; }
+.cur-tools .mini {
+  font-size: 12px; padding: 5px 10px; border-radius: 7px; border: 1px solid var(--border);
+  background: var(--bg-soft); color: var(--text-dim); cursor: pointer;
+}
+.cur-tools .mini:hover { border-color: var(--accent); color: var(--text); }
+
+.cur-year { margin-top: 26px; }
+.cur-year-title {
+  font-family: var(--mono); font-size: 13px; font-weight: 700; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--text-dim);
+  margin: 0 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--border);
+}
+.cur-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.cur-sem { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 4px 10px 12px; }
+.cur-sem.missing { border-style: dashed; }
+
+.cur-sem-head {
+  display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text);
+  padding: 10px 8px; margin: 0 -2px; border-radius: 10px;
+  position: sticky; top: 58px; z-index: 5; background: var(--panel);
+  border-bottom: 1px solid var(--border);
+}
+a.cur-sem-head { cursor: pointer; }
+a.cur-sem-head:hover { background: var(--bg-elev); }
+a.cur-sem-head:hover .cur-sem-tag { color: var(--accent-2); }
+.cur-sem-tag { font-family: var(--mono); font-weight: 800; font-size: 18px; color: var(--accent); }
+.cur-sem-dl { color: var(--accent); font-size: 15px; opacity: .4; transition: opacity .15s, transform .15s; }
+a.cur-sem-head:hover .cur-sem-dl,
+a.cur-sem-head:focus-visible .cur-sem-dl { opacity: 1; transform: translateY(1px); }
+.cur-sem-meta { margin-left: auto; font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+.cur-sem-head.is-missing .cur-sem-tag { color: var(--text-faint); }
+.cur-empty { padding: 14px 10px; color: var(--text-dim); font-size: 13px; font-style: italic; }
+
+.cur-list { list-style: none; margin: 0; padding: 0; }
+.cur-list .cur-list { padding-left: 14px; margin: 2px 0 4px; border-left: 1px solid var(--border); }
+.cur-leaf {
+  position: relative; font-size: 13px; line-height: 1.5; color: var(--text-dim);
+  padding: 2px 0 2px 16px;
+}
+.cur-leaf::before { content: "·"; position: absolute; left: 5px; color: var(--text-faint); font-weight: 700; }
+.cur-branch > details > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; gap: 8px;
+  padding: 4px 6px; border-radius: 7px; font-size: 13.5px; font-weight: 600; color: var(--text);
+}
+.cur-branch > details > summary::-webkit-details-marker { display: none; }
+.cur-branch > details > summary::before {
+  content: "▸"; flex: 0 0 auto; color: var(--text-faint); font-size: 11px; transition: transform .12s;
+}
+.cur-branch > details[open] > summary::before { transform: rotate(90deg); }
+.cur-branch > details > summary:hover { background: var(--bg-soft); }
+.cur-d0 > .cur-branch > details > summary { font-size: 14.5px; font-weight: 700; }
+.cur-name { flex: 1 1 auto; min-width: 0; }
+.cur-count {
+  flex: 0 0 auto; font-family: var(--mono); font-size: 11px; color: var(--text-dim);
+  background: var(--bg-soft); border: 1px solid var(--border); border-radius: 999px; padding: 0 7px;
+}
+
+@media (max-width: 720px) {
+  .cur-cols { grid-template-columns: 1fr; }
+  .cur-sem-head { position: static; }
+}
+
 /* ============== RESPONSIVE: TABLET & MOBILE ============== */
 
 /* Tablet & small laptop (≤ 900px): collapse the viewer to one column, let the
