@@ -21,6 +21,7 @@ on:
       - 'modules/**'
       - 'tools/**'
       - 'index.html'
+      - 'curriculum.html'
   workflow_dispatch:
 
 permissions:
@@ -59,6 +60,7 @@ jobs:
         run: |
           node tools/build-data.js
           node tools/build-analysis.js
+          node tools/build-curriculum.js
 
       # Keep the committed generated files in sync too (for the offline ZIP / git).
       # Best-effort: if it can't push, the live deploy below still happens.
@@ -81,7 +83,7 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           mkdir -p _site
-          cp index.html report.html high-yield.html manifest.webmanifest sw.js icon.svg .nojekyll _site/
+          cp index.html report.html high-yield.html curriculum.html manifest.webmanifest sw.js icon.svg .nojekyll _site/
           cp -r assets data modules qe-analysis _site/
 
       - name: Configure Pages
