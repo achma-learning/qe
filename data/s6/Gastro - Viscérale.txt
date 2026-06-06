@@ -52,7 +52,7 @@ C] Se complique toujours d'une fistule biliaire
 D] Intéresse surtout les segments 7 et 8
 E] Se prête au traitement coelioscopique par excellence
 
-Ratt 2025 Q4 - Questions inclassifiables
+Ratt 2025 Q4 - lithiase de la vesicule biliaire
 
 La pratique de la cœlioscopie en chirurgie abdominale est indiquée dans les pathologies suivantes sauf une :
 
@@ -92,7 +92,7 @@ C] Le diabète
 D] Le tabac
 E] Le cystadénome séreux
 
-Ratt 2025 Q8 - Questions inclassifiables
+Ratt 2025 Q8 - appendicites aigues
 
 Un patient âgé de 56 ans se présente pour des douleurs de la fosse iliaque droite évoluant depuis 17 jours. L'examen montre une température à 37,4°C et une masse de la fosse iliaque droite indolore. Les diagnostics à évoquer sont :
 
@@ -102,7 +102,7 @@ C] Une tumeur caecale
 D] Une péritonite aiguë
 E] Un plastron appendiculaire
 
-Ratt 2025 Q9 - Questions inclassifiables
+Ratt 2025 Q9 - appendicites aigues
 
 Les trois premiers examens complémentaires à demander dans un but diagnostique sont :
 
@@ -122,7 +122,7 @@ C] Une antibiothérapie
 D] Une abstention thérapeutique
 E] Une appendicectomie
 
-Ratt 2025 Q11 - Questions inclassifiables
+Ratt 2025 Q11 - ischemie intestinale aigu
 
 Les signes cliniques orientant vers un infarctus mésentérique sont :
 
@@ -262,7 +262,7 @@ C] L'alcoolisme chronique
 D] Kyste biliaire du foie
 E] L'existence d'une immunodépression
 
-Ratt 2025 Q25 - Questions inclassifiables
+Ratt 2025 Q25 - cirrhose
 
 Patiente âgée de 54 ans consulte pour une asthénie profonde. L'examen clinique retrouve une ascite de moyenne abondance. Quels sont les diagnostics à évoquer à ce stade ?
 
@@ -272,7 +272,7 @@ C] Une cirrhose
 D] Un syndrome néphrotique
 E] Une hépatite chronique
 
-Ratt 2025 Q26 - Questions inclassifiables
+Ratt 2025 Q26 - cirrhose
 
 Le bilan initial doit comporter
 
@@ -282,7 +282,7 @@ C] Une ponction d'ascite exploratrice
 D] Une protéinurie de 24 heures
 E] Dosage des transaminases
 
-Ratt 2025 Q27 - Questions inclassifiables
+Ratt 2025 Q27 - cirrhose
 
 Le bilan a retrouvé une hépatomégalie et une splénomégalie à l'échographie, un taux de prothrombine à 50% et un HBs positif. A ce stade quel est le diagnostic le plus probable ?
 
@@ -352,7 +352,7 @@ C] L'éradication permet la cicatrisation des ulcères duodénaux
 D] La sérologie est utilisée pour vérifier l'éradication
 E] Le test respiratoire est faussé si IPP pris récemment
 
-Ratt 2025 Q34 - Questions inclassifiables
+Ratt 2025 Q34 - tbk digestive
 
 Un homme de 30 ans se présente avec douleurs abdominales et ascite riche en lymphocytes.
 
@@ -402,7 +402,7 @@ C] Donne souvent une diarrhée avec stéatorrhée
 D] Se diagnostique toujours par endoscopie digestive haute
 E] Peut entraîner une dénutrition et un amaigrissement
 
-Ratt 2025 Q39 - Questions inclassifiables
+Ratt 2025 Q39 - gastrite
 
 Parmi les étiologies des gastropathies, on peut citer :
 
@@ -516,7 +516,7 @@ E] La fibroscopie haute est obligatoire pour retenir le diagnostic
 
 Juin 2025 (Correction officielle) : https://www.e-qe.online/exam/1c6c0531-962b-4107-a2d5-48a86165242a
 
-Juin 2025 Q1 - Questions inclassifiables
+Juin 2025 Q1 - dyspepsie
 
 Mme Radia âgée de 52 ans, consulte en urgence pour épigastralgie aiguë, les diagnostics à évoquer sont:
 
@@ -526,7 +526,7 @@ C] Une gastrite aiguë
 D] Un abcès du foie
 E] Une pyélonéphrite du rein gauche
 
-Correction officielle - Juin 2025 Q1 - Questions inclassifiables = A,B,C,D
+Correction officielle - Juin 2025 Q1 - dyspepsie = A,B,C,D
 
 Juin 2025 Q2 - pancreatites aigues
 
@@ -648,7 +648,7 @@ E] se manifeste par une hyperleucocytose à prédominance lymphocytaire quand il
 
 Correction officielle - Juin 2025 Q11 - Abcès hépatique = B,D
 
-Juin 2025 Q12 - Questions inclassifiables
+Juin 2025 Q12 - peritonite aigues
 
 Une femme de 32 ans consulte pour des douleurs abdominales évoluant depuis 24 heures. L'examen physique montre une température à 38°C et une défense abdominale généralisée. Quels sont les diagnostics à évoquer ?
 
@@ -658,9 +658,9 @@ C] Une sigmoïdite
 D] Une pancréatite aiguë
 E] Une péritonite aiguë
 
-Correction officielle - Juin 2025 Q12 - Questions inclassifiables = A,D,E
+Correction officielle - Juin 2025 Q12 - peritonite aigues = A,D,E
 
-Juin 2025 Q13 - Questions inclassifiables
+Juin 2025 Q13 - peritonite aigues
 
 Quels sont les examens utiles au diagnostic
 
@@ -670,7 +670,7 @@ C] Une lipasémie
 D] Une coloscopie
 E] Une tomodensitométrie abdominale
 
-Correction officielle - Juin 2025 Q13 - Questions inclassifiables = A,B,C,E
+Correction officielle - Juin 2025 Q13 - peritonite aigues = A,B,C,E
 
 Juin 2025 Q14 - appendicites aigues
 
@@ -732,7 +732,7 @@ E] Contre indique la ponction biopsie du foie
 
 Correction officielle - Juin 2025 Q18 - tumeur du foie = A,B,C,D
 
-Juin 2025 Q19 - Questions inclassifiables
+Juin 2025 Q19 - lithiase de la vesicule biliaire
 
 La cholécystectomie coelioscopique pour lithiase:
 
@@ -742,7 +742,7 @@ C] Est contre-indiquée si vésicule scléro-atrophique
 D] Donne plus de brides
 E] Expose à moins de risque d'éventration
 
-Correction officielle - Juin 2025 Q19 - Questions inclassifiables = E
+Correction officielle - Juin 2025 Q19 - lithiase de la vesicule biliaire = E
 
 Juin 2025 Q20 - cancer du rectum
 
@@ -780,7 +780,7 @@ E] Se prête au traitement coelioscopique par excellence
 
 Correction officielle - Juin 2025 Q22 - kyste hydatique du foie = C
 
-Juin 2025 Q23 - Questions inclassifiables
+Juin 2025 Q23 - lithiase de la vesicule biliaire
 
 La pratique de la cœlioscopie en chirurgie abdominale est indiquée dans les pathologies suivantes sauf une:
 
@@ -790,9 +790,9 @@ C] Lithiase vésiculaire avec dégénérescence maligne
 D] hydro cholécystite lithiasique
 E] Pyocholécyste
 
-Correction officielle - Juin 2025 Q23 - Questions inclassifiables = C
+Correction officielle - Juin 2025 Q23 - lithiase de la vesicule biliaire = C
 
-Juin 2025 Q24 - Questions inclassifiables
+Juin 2025 Q24 - occlusion intestinale aigu
 
 CAS CLINIQUE: Une patiente de 32 ans ayant l'antécédent d'une césarienne il y a 2 ans consulte aux urgences pour des douleurs abdominales depuis 24 heures, des vomissements postprandiaux alimentaires et un arrêt des gaz. L'examen abdominal note une cicatrice de pfannenstiel et des orifices herniaires libres, une légère distension abdominale. Le reste de l'examen est sans particularités. Le premier diagnostic à évoquer est :
 
@@ -802,9 +802,9 @@ C] Une diverticulose sigmoïdienne
 D] Une appendicite méso coeliaque
 E] Une occlusion intestinale aigüe sur bride
 
-Correction officielle - Juin 2025 Q24 - Questions inclassifiables = E
+Correction officielle - Juin 2025 Q24 - occlusion intestinale aigu = E
 
-Juin 2025 Q25 - Questions inclassifiables
+Juin 2025 Q25 - occlusion intestinale aigu
 
 Pour confirmer votre diagnostic vous demander:
 
@@ -814,9 +814,9 @@ C] Une coloscopie
 D] Une échographie abdominale
 E] Un scanner abdominal
 
-Correction officielle - Juin 2025 Q25 - Questions inclassifiables = E
+Correction officielle - Juin 2025 Q25 - occlusion intestinale aigu = E
 
-Juin 2025 Q26 - Questions inclassifiables
+Juin 2025 Q26 - rgo
 
 Patiente âgé de 30 ans sans antécédents pathologiques particuliers qui se présente pour des brûlures rétrosternale ascendante à point de départ épigastrique et des régurgitations acides sans hémorragies digestives ni altérations de l'état générale ni dysphagie et avec un examen clinique normal Quel est le diagnostic le plus probable (une seule proposition):
 
@@ -826,9 +826,9 @@ C] Une dyspepsie
 D] Une maladie ulcéreuse gastroduodénale
 E] Un reflux gastro-œsophagien
 
-Correction officielle - Juin 2025 Q26 - Questions inclassifiables = E
+Correction officielle - Juin 2025 Q26 - rgo = E
 
-Juin 2025 Q27 - Questions inclassifiables
+Juin 2025 Q27 - rgo
 
 Chez cette patiente vous :
 
@@ -838,9 +838,9 @@ C] Demandez une fibroscopie œsogastroduodénale.
 D] Réalisez une échographie abdominale
 E] Réalisez un bilan biologique
 
-Correction officielle - Juin 2025 Q27 - Questions inclassifiables = A
+Correction officielle - Juin 2025 Q27 - rgo = A
 
-Juin 2025 Q28 - Questions inclassifiables
+Juin 2025 Q28 - troubles fonctionnels intestinaux
 
 Le syndrome de l'intestin irritable (SII):
 
@@ -850,9 +850,9 @@ C] La qualité de vie est souvent altérée
 D] Est représenté par un groupe uniforme de patient
 E] Les explorations complémentaires sont obligatoires
 
-Correction officielle - Juin 2025 Q28 - Questions inclassifiables = A,C
+Correction officielle - Juin 2025 Q28 - troubles fonctionnels intestinaux = A,C
 
-Juin 2025 Q29 - Questions inclassifiables
+Juin 2025 Q29 - troubles fonctionnels intestinaux
 
 Les indications d'une coloscopie chez un patient suivie pour syndrome de l'intestin irritable sont:
 
@@ -862,7 +862,7 @@ C] Antécédents familiaux de maladie de CROHN
 D] L'existence des signes extra digestifs
 E] Récidive des symptômes à l'arrêt du traitement
 
-Correction officielle - Juin 2025 Q29 - Questions inclassifiables = B,C
+Correction officielle - Juin 2025 Q29 - troubles fonctionnels intestinaux = B,C
 
 Juin 2025 Q30 - rgo
 
@@ -948,7 +948,7 @@ E] Les granulomes caséeux sont un argument fort
 
 Correction officielle - Juin 2025 Q36 - tbk digestive = B,D,E
 
-Juin 2025 Q37 - Questions inclassifiables
+Juin 2025 Q37 - sd de malabsorption
 
 Une femme de 28 ans, sans antécédent, se plaint de diarrhée chronique, ballonnements et anémie microcytaire.
 
@@ -958,7 +958,7 @@ C] Un régime sans lactose est suffisant en cas de positivité
 D] Une carence en fer isolée peut révéler cette pathologie
 E] Le diagnostic peut être confirmé uniquement par un test génétique
 
-Correction officielle - Juin 2025 Q37 - Questions inclassifiables = A,B,D
+Correction officielle - Juin 2025 Q37 - sd de malabsorption = A,B,D
 
 Juin 2025 Q38 - lithiase de la vesicule biliaire
 
@@ -1020,7 +1020,7 @@ E] Une hépatite virale B aiguë à sa phase précoce
 
 Correction officielle - Juin 2025 Q42 - Hépatites = D
 
-Juin 2025 Q43 - Questions inclassifiables
+Juin 2025 Q43 - mici
 
 Cas clinique: Une patiente âgée de 34 ans consulte pour une douleur de la fosse iliaque droite évoluant depuis 15 jours. Quels sont les diagnostics à évoquer chez cette patiente?
 
@@ -1030,9 +1030,9 @@ C] Une maladie de crohn iléo caecale
 D] Une tuberculose iléo caecale
 E] Un adénocarcinome caecale
 
-Correction officielle - Juin 2025 Q43 - Questions inclassifiables = B,C,D,E
+Correction officielle - Juin 2025 Q43 - mici = B,C,D,E
 
-Juin 2025 Q44 - Questions inclassifiables
+Juin 2025 Q44 - mici
 
 Le bilan initial chez cette patiente doit comporter:
 
@@ -1042,9 +1042,9 @@ C] une échographie abdominale
 D] un scanner abdominal
 E] une coloscopie
 
-Correction officielle - Juin 2025 Q44 - Questions inclassifiables = [pending]
+Correction officielle - Juin 2025 Q44 - mici = [pending]
 
-Juin 2025 Q45 - Questions inclassifiables
+Juin 2025 Q45 - mici
 
 L'examen clinique de la patiente a mis en évidence une arthrite du genou gauche et une fistule anale. Quel est le diagnostic le plus probable à ce stade?
 
@@ -1054,9 +1054,9 @@ C] une maladie de crohn iléo coecale
 D] une tuberculose iléocoecale
 E] un adénocarcinome coecal
 
-Correction officielle - Juin 2025 Q45 - Questions inclassifiables = C
+Correction officielle - Juin 2025 Q45 - mici = C
 
-Juin 2025 Q46 - Questions inclassifiables
+Juin 2025 Q46 - cirrhose
 
 Une cirrhose peut se compliquer de :
 
@@ -1066,9 +1066,9 @@ C] Infection du liquide d'ascite
 D] Carcinome hépatocellulaire
 E] Cancer de l'estomac
 
-Correction officielle - Juin 2025 Q46 - Questions inclassifiables = A,B,C,D
+Correction officielle - Juin 2025 Q46 - cirrhose = A,B,C,D
 
-Juin 2025 Q47 - Questions inclassifiables
+Juin 2025 Q47 - fistules anales et suppuration
 
 Une fistule anale peut se compliquer de :
 
@@ -1078,9 +1078,9 @@ C] Suintement
 D] Prurit
 E] Dysurie
 
-Correction officielle - Juin 2025 Q47 - Questions inclassifiables = B,C,D,E
+Correction officielle - Juin 2025 Q47 - fistules anales et suppuration = B,C,D,E
 
-Juin 2025 Q48 - Questions inclassifiables
+Juin 2025 Q48 - fistules anales et suppuration
 
 Une fistule anale est complexe si elle est :
 
@@ -1090,9 +1090,9 @@ C] Directe: un seul orifice interne et un seul orifice externe direct
 D] En fer à cheval
 E] Multi-opérée
 
-Correction officielle - Juin 2025 Q48 - Questions inclassifiables = B,D,E
+Correction officielle - Juin 2025 Q48 - fistules anales et suppuration = B,D,E
 
-Juin 2025 Q49 - Questions inclassifiables
+Juin 2025 Q49 - gastrite
 
 La gastrite auto-immune:
 
@@ -1102,9 +1102,9 @@ C] peut être associée à une sclérose combinée de la moelle
 D] peut évoluer vers un cancer
 E] est souvent associée à d'autres pathologies auto-immunes
 
-Correction officielle - Juin 2025 Q49 - Questions inclassifiables = B,C,D,E
+Correction officielle - Juin 2025 Q49 - gastrite = B,C,D,E
 
-Juin 2025 Q50 - Questions inclassifiables
+Juin 2025 Q50 - gastrite
 
 La gastrite aiguë phlegmoneuse est :
 
@@ -1114,7 +1114,7 @@ C] Très souvent asymptomatique
 D] Plus fréquente chez un sujet sain
 E] Responsable d'un épaississement de la paroi gastrique à l'imagerie
 
-Correction officielle - Juin 2025 Q50 - Questions inclassifiables = A,E
+Correction officielle - Juin 2025 Q50 - gastrite = A,E
 
 ---
 

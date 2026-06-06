@@ -171,7 +171,7 @@ E] Endocardite
 
 Correction officielle - Normal 2026 Q13 = A
 
-# Normal 2026 Q14 - Questions inclassifiables
+# Normal 2026 Q14 - État de choc
 
 14. Le traitement de choix du choc cardiogénique :
 
@@ -5579,7 +5579,7 @@ E] La détresse respiratoire est la conséquence de lésions de la membrane alve
 
 Correction officielle - Janvier 2021 Q11 = A,B,D,E
 
-# Janvier 2021 Q12 - Questions inclassifiables
+# Janvier 2021 Q12 - État de choc
 
 12. Le traitement de choix du choc anaphylactique :
 

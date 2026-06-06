@@ -127,7 +127,7 @@ E] administration de plasma frais congelé
 
 Correction officielle - Normal 2025 Q9 = A
 
-# Normal 2025 Q10 - Questions inclassifiables
+# Normal 2025 Q10 - Les anémies
 
 10. Les anomalies morphologiques observées au cours d'une thalassémie mineure :
 
@@ -647,7 +647,7 @@ E] La leishmaniose
 
 Correction officielle - normal 2024 Q2 = A,D
 
-# normal 2024 Q3 - Questions inclassifiables
+# normal 2024 Q3 - Les lymphome
 
 3. Un enfant de 6 ans est admis en urgence dans un tableau de dyspnée, toux et syndrome cave supérieur. L'examen clinique retrouve un syndrome d'épanchement pleural, des adénopathies cervicales volumineuses et un frottement péricardique. Quel est le diagnostic le plus probable?
 
@@ -671,7 +671,7 @@ E] Le rein
 
 Correction officielle - normal 2024 Q4 = A,B,C
 
-# normal 2024 Q5 - Questions inclassifiables
+# normal 2024 Q5 - CIVD
 
 5. Un patient de 60 ans présente les anomalies biologiques suivantes : plaquettes :1000/mm3; TCA :70s (Témoin :30s); TP :25% (N :70-100%); fibrinogène :0,2g/l (N :2-4 g/l); D-dimères :6000 μg/l (N:<500 μg/l). Quel est votre diagnostic?
 
@@ -803,7 +803,7 @@ E] la ferritinémie
 
 Correction officielle - normal 2024 Q15 = E
 
-# normal 2024 Q16 - Questions inclassifiables
+# normal 2024 Q16 - Polyglobulie de vaquez
 
 16. Un homme de 70 ans consulte pour épistaxis récurrentes depuis plusieurs semaines, céphalées, vertiges. bourdonnement d'oreilles et prurit à l'eau. Aucun antécédent notable n'est retrouvé. À l'examen clinique, vous observez une érythrose faciale. Il n'a pas de rate palpable. A l'hémogramme GB:16000/mm, PNN:13000/mm, Le 2500/mm', monocytes :400/mm, PNE:100/mm', PNB:100/mm3 GR: 6,7 T/l; hémoglobine: 21 g/dl; hématocrite: 61 %; VGM: 90 fl; CCMH: 34% : plaquettes: 610000/mm. Les résultats de l'hémogramme sont confirmés sur une nouvelle numération. Quel(s) diagnostic(s) pouvez-vous envisager?
 
@@ -815,7 +815,7 @@ E] Leucémie aiguë myéloblastique
 
 Correction officielle - normal 2024 Q16 = B
 
-# normal 2024 Q17 - Questions inclassifiables
+# normal 2024 Q17 - Polyglobulie de vaquez
 
 17. Quels sont les bilans que vous allez demander pour confirmer le diagnostic :
 
@@ -827,7 +827,7 @@ E] Dosage d'EPO
 
 Correction officielle - normal 2024 Q17 = C,D,E
 
-# normal 2024 Q18 - Questions inclassifiables
+# normal 2024 Q18 - Polyglobulie de vaquez
 
 18. Quel(s) est (sont) le(s) risque(s) immédiat(s) qu'encourt potentiellement ce patient?
 
@@ -839,7 +839,7 @@ E] Crise de goutte
 
 Correction officielle - normal 2024 Q18 = A,B,C,D
 
-# normal 2024 Q19 - Questions inclassifiables
+# normal 2024 Q19 - Les leucémies
 
 19. Enfant âgé de 6 ans, se présente aux urgences pour des ecchymoses apparues sur les bras et les jambes depuis 3 semaines. De plus en plus d'ecchymoses apparaissent associées à une pâleur et une asthénie. A son arrivée, on constate fièvre à 38,3 °C: pouls = 93, TA = 118/39; asthénie, pâleur, ecchymoses à la face antérieure des jambes, adénopathies centimétriques inguinales et cervicales et une splénomégalie, à 2 cm de débord costal, le reste de l'examen clinique est normal Qu'évoque-t-on, en premier lieu, devant la présentation clinique chez cet enfant ?
 
@@ -851,7 +851,7 @@ E] Un purpura thrombopénique immunologique
 
 Correction officielle - normal 2024 Q19 = D
 
-# normal 2024 Q20 - Questions inclassifiables
+# normal 2024 Q20 - Les leucémies
 
 20. Un hémogramme a été réalisé, il a montré :Hb :7,8 g/dl,; VGM: 90 L; CCMH: 34, plaquettes: 16000/mm'; GB: 6770/mm3 PNN: 473/mm3; lymphocytes: 3791/mm3. Cette numération fait évoquer deux diagnostics principaux, lesquels?
 
@@ -863,7 +863,7 @@ E] Un purpura thrombopénique immunologique
 
 Correction officielle - normal 2024 Q20 = A,B
 
-# normal 2024 Q21 - Questions inclassifiables
+# normal 2024 Q21 - Les leucémies
 
 21. Quel examen doit être réalisé en priorité pour porter le diagnostic?
 
@@ -923,7 +923,7 @@ E] IIIA.
 
 Correction officielle - normal 2024 Q25 = C
 
-# normal 2024 Q26 - Questions inclassifiables
+# normal 2024 Q26 - Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile
 
 26. En cours de chimiothérapie survient une fièvre, 10 jours après la première cure. Que faites-vous à l'arrivée du patient à l'hôpital?
 
@@ -935,7 +935,7 @@ E] Antibiothérapie ciblée sur les résultats des examens bactériologiques
 
 Correction officielle - normal 2024 Q26 = B,C,D
 
-# normal 2024 Q27 - Questions inclassifiables
+# normal 2024 Q27 - Les leucémies
 
 27. Devant une hyperlymphocytose chronique chez un patient de 63 ans, quels sont les diagnostics pouvant être évoqués ?
 
@@ -1287,7 +1287,7 @@ E] Le rein
 
 Correction officielle - ratt 2024 Q5 = A,B,C
 
-# ratt 2024 Q6 - Questions inclassifiables
+# ratt 2024 Q6 - CIVD
 
 6. Un patient de 70 ans présente les anomalies biologiques suivantes : plaquettes :1000/mm3 ; TCA :70s (Témoin :30s); TP :25% (N :70-100%); fibrinogène :0,2g/l (N :2-4g/l); D-dimères :6000 μg/l (N:<500 μg/l). Quel est votre diagnostic?
 
@@ -1299,7 +1299,7 @@ E] Insuffisance hépatocellulaire
 
 Correction officielle - ratt 2024 Q6 = C
 
-# ratt 2024 Q7 - Questions inclassifiables
+# ratt 2024 Q7 - Les lymphome
 
 7. Un enfant de 4 ans est admis en urgence dans un tableau d'invagination intestinale aiguë. Quel est le diagnostic le plus probable?
 
@@ -1527,7 +1527,7 @@ E] Les leucémies aiguës hyperleucocytaires sont des urgences thérapeutiques
 
 Correction officielle - ratt 2024 Q25 = B,C,E
 
-# ratt 2024 Q26 - Questions inclassifiables
+# ratt 2024 Q26 - Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile
 
 26. Quels sont les signes biologiques d'un syndrome de lyse tumorale?
 
@@ -1861,7 +1861,7 @@ C] une neutropénie
 D] une myélémie
 E] une lymphocytose
 
-# Octobre 2024 Q4 - Questions inclassifiables
+# Octobre 2024 Q4 - L'aplasie médullaire
 
 4. Dans quelle pathologie on n'observe jamais d'adénopathies ?
 
@@ -2031,7 +2031,7 @@ C] un traitement à vie
 D] un traitement jusqu'à disparition des signes cliniques.
 E] un traitement jusqu'à normalisation de l'hémogramme
 
-# Octobre 2024 Q21 - Questions inclassifiables
+# Octobre 2024 Q21 - Les leucémies
 
 21. Quelle pathologie se complique d'un syndrome de Richter?
 
@@ -2101,7 +2101,7 @@ C] un myélome multiple
 D] une leucémie aiguë à promyélocytes
 E] une maladie d'Hodgkin
 
-# Octobre 2024 Q28 - Questions inclassifiables
+# Octobre 2024 Q28 - Les anémies
 
 28. Une réticulocytose élevée s'observe habituellement dans :
 
@@ -2527,7 +2527,7 @@ E] d'aphérèse
 
 Correction officielle - session Novembre 2024 Q16 = A,B
 
-# session Novembre 2024 Q17 - Questions inclassifiables
+# session Novembre 2024 Q17 - Les leucémies
 
 17. L'association d'un pancytopénie sévère et d'une splénomégalie peut correspondre à l'un des diagnostics lesquels?
 
@@ -2539,7 +2539,7 @@ E] myélome multiple
 
 Correction officielle - session Novembre 2024 Q17 = C
 
-# session Novembre 2024 Q18 - Questions inclassifiables
+# session Novembre 2024 Q18 - CIVD
 
 18. quelle est la cause probable des résultats biologiques suivants : plaquettes :20000/mm2; TCA :70s (Témoin :30s); TP :25%; facteur V :25%; facteur II :60%, fibrinogène :0,40g/l; produits de dégradation du fibrinogène élevés.
 
@@ -2599,7 +2599,7 @@ E] une carence en vitamine B6
 
 Correction officielle - session Novembre 2024 Q22 = B
 
-# session Novembre 2024 Q23 - Questions inclassifiables
+# session Novembre 2024 Q23 - Myélomes multiples
 
 23. L'observation de plasmocytes est indispensable au diagnostic de :
 
@@ -2963,7 +2963,7 @@ E] La carence en vitamine B9
 
 Correction officielle - normal 2023 Q2 = B,C,D,E
 
-# normal 2023 Q3 - Questions inclassifiables
+# normal 2023 Q3 - Les lymphome
 
 3. Un enfant de 5 ans présente une toux, un syndrome cave supérieur d'installation rapide avec un élargissement médiastinal et une pleurésie à la radiographie. Quel est le diagnostic le plus probable ?
 
@@ -3119,7 +3119,7 @@ E] Le seul traitement curateur est une allogreffe de moelle
 
 Correction officielle - normal 2023 Q15 = A,C,D
 
-# normal 2023 Q16 - Questions inclassifiables
+# normal 2023 Q16 - Les anémies
 
 16. Un enfant de 5 ans présente des douleurs intenses du rachis lombaire et des deux membres inférieurs apparues 2 jours auparavant avec à l'examen clinique une fébricule à 38°, un syndrome anémique, un ictère et une splénomégalie. L'hémogramme montre: GB = 14000/mm', Hb = 5,8g/dl, VGM = 84 fl, CCMH = 32%, Pq = 210000/mm3. Les réticulocytes = 300000/mm3. Le frottis sanguin objective des globules rouges sous forme de faucille avec un chiffre de bilirubine indirecte élevé. Quel est le diagnostic le plus probable?
 
@@ -3131,7 +3131,7 @@ E] une sphérocytose héréditaire
 
 Correction officielle - normal 2023 Q16 = B
 
-# normal 2023 Q17 - Questions inclassifiables
+# normal 2023 Q17 - Les anémies
 
 17. Quel est l'examen paraclinique nécessaire pour confirmer votre diagnostic
 
@@ -3191,7 +3191,7 @@ E] Une biopsie ostéo-médullaire
 
 Correction officielle - normal 2023 Q21 = B
 
-# normal 2023 Q22 - Questions inclassifiables
+# normal 2023 Q22 - Les lymphome
 
 22. Patient de 25 ans présente des adénopathies cervicales et sus-claviculaires bilatérales apparues 6 mois auparavant associées à une fièvre, sueurs nocturnes et amaigrissement chiffré à 8 kg. La radiographie du thorax montre un élargissement médiastinal. L'hémogramme est normal. La VS est à 30mm. Quels sont les diagnostics à évoquer?
 
@@ -3203,7 +3203,7 @@ E] un myélome multiple
 
 Correction officielle - normal 2023 Q22 = A,B,C
 
-# normal 2023 Q23 - Questions inclassifiables
+# normal 2023 Q23 - Les lymphome
 
 23. Quel est l'examen à demander pour confirmer le diagnostic?
 
@@ -3215,7 +3215,7 @@ E] une électrophorèse des protéines sériques
 
 Correction officielle - normal 2023 Q23 = C
 
-# normal 2023 Q24 - Questions inclassifiables
+# normal 2023 Q24 - Les leucémies
 
 24. un enfant de 9 ans est admis pour fièvre et pâleur évoluant depuis 6 jours. L'examen clinique retrouve des ecchymoses généralisées, des adénopathies cervicales de 2cm et une hypertrophie gingivale. L'hémogramme montre: GB = 90000/mm3, Hb = 6 g/dl, Pq = 10000/mm3. Au frottis sanguin 90% de cellules atypiques. Quels sont les examens à préconiser pour établir le diagnostic?
 
@@ -3227,7 +3227,7 @@ E] un caryotype médullaire
 
 Correction officielle - normal 2023 Q24 = A,D
 
-# normal 2023 Q25 - Questions inclassifiables
+# normal 2023 Q25 - Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile
 
 25. Le diagnostic le plus probable chez notre patient a été confirmé, et le bilan complémentaire a retrouvé une augmentation des LDH à 3000 UI/L, une hyperuricémie à 120 mg/l, hyperkaliémie à 6 mmol/l, hyperphosphatémie à 100 mg/l avec hypocalcémie à 65 mg/l. Quelle complication présente le patient ?
 
@@ -3543,7 +3543,7 @@ Correction officielle - normal 2023 Q50 = C,D,E
 
 // normal 2022 (Correction officielle) : https://www.e-qe.online/exam/63e024c9-9ca5-4b23-a387-5478fdec6c46
 
-# normal 2022 Q1 - Questions inclassifiables
+# normal 2022 Q1 - Polyglobulie de vaquez
 
 1. Un homme de 50 ans tabagique à 20 paquets/année a présenté une dysarthrie transitoire. Il apparaît érythrosique. L'hémogramme montre: GR = 6000000/mm3, Hb = 20 g/dl, Ht = 64%. Pq = 550000/mm3, GB = 16500/mm PNN = 75% Lc = 20% PNE = 1%, PNB = 0%, monocytes = 4%. Réticulocytes = 1%, VS = 1 mm. Cet hémogramme fait apparaître une anomalie :
 
@@ -3555,7 +3555,7 @@ E] des globules blancs
 
 Correction officielle - normal 2022 Q1 = A,C,D,E
 
-# normal 2022 Q2 - Questions inclassifiables
+# normal 2022 Q2 - Les leucémies
 
 2. Un malade de 23 ans est hospitalisé pour surinfection d'une bronchite chronique, L'examen clinique retrouve une splénomégalie de 2 cm de débord. On lui trouve la NFS suivante. GR = 3900000/mm3, Hb = 12 g/dl, Pq = 450000/mm3, GB = 33000/mm3, PNN = 66%, Lc = 12%, PNE = 6%, PNB = 11%, monocytes = 5%. Cette NFS vous paraît compatible avec :
 
@@ -3567,7 +3567,7 @@ E] une allergie
 
 Correction officielle - normal 2022 Q2 = C
 
-# normal 2022 Q3 - Questions inclassifiables
+# normal 2022 Q3 - Les leucémies
 
 3. Un homme de 50 ans consulte pour pâleur, asthénie et dyspnée d'effort. L'examen clinique ne montre qu'une splénomégalie modérée, Il est apyrétique.L'hémogramme montre: Hb = 10g/dl Ht =:30%, GR = 3300000/mm3, GB = 200000/mm3 (PNN 1%, Lc = 1%, monocytes = 15%, Pq = 110000/mm3. Réticulocytes = 0,8%. Blastes avec des corps d'Auer = 83%. Le bilan d'hémostase normal. La vie du malade est menacée à court terme dans les 24 heures par
 
@@ -3579,7 +3579,7 @@ E] un choc septique
 
 Correction officielle - normal 2022 Q3 = C,D
 
-# normal 2022 Q4 - Questions inclassifiables
+# normal 2022 Q4 - Les anémies
 
 4. Un adolescent de 14 ans est adressé pour splénomégalie. L'examen révèle une pâleur, un subictère conjonctival et un pôle inférieur de rate, débordant le rebord costal. Il n'existe ni fièvre ni douleur. L'étude des antécédents, en dehors des maladies de l'enfance, relève un épisode ictérique inexpliqué dans la petite enfance et la notion d'urines souvent foncées. L'hémogramme montre: Hb = 9 g/dl, Ht = 28%, GR = 2800000/mm3, réticulocytes = 9%. GB = 12000/mm3, PNN = 66%, Lc = 26% (monocytes :3%, myélocytes :1%, métamyélocytes :2%, érythroblastes :2%. Anisocytose, polychromatophilie, ovalocytes, présence de microsphérocytes nombreux et de quelques corps de Jolly. Bilirubine totale: 30 mg/l, bilirubine conjuguée : 2 mg/l. transaminases: 20 UI. Le diagnostic le plus probable chez ce patient est?
 
@@ -3591,7 +3591,7 @@ E] Maladie de Minkowski-Chauffard
 
 Correction officielle - normal 2022 Q4 = E
 
-# normal 2022 Q5 - Questions inclassifiables
+# normal 2022 Q5 - PTI
 
 5. Patiente de 25 ans est hospitalisée en raison de l'apparition d'un purpura pétéchial et ecchymotique, cutanéo muqueux avec épistaxis et gingivorragies. L'examen clinique est normal. Elle n'a pas d'antécédent particulier. Le fond d'œil est normal. L'hémogramme montre Hb: 12 g/dl, Ht: 36%, Pqt 5000/mm3 GB: 5000/mm3, PNN : 60%, Lc: 30%, monocytes: 10%. Parmi les hypothèses suivantes, quelles sont celles que vous pouvez exclure sur les arguments cliniques et biologiques dont vous disposez ?
 
@@ -3603,7 +3603,7 @@ E] maladie de Willebrand
 
 Correction officielle - normal 2022 Q5 = B,E
 
-# normal 2022 Q6 - Questions inclassifiables
+# normal 2022 Q6 - PTI
 
 6. Parmi les examens suivants, il est indispensable de réaliser sans délai :
 
@@ -3615,7 +3615,7 @@ E] myélogramme
 
 Correction officielle - normal 2022 Q6 = B,E
 
-# normal 2022 Q7 - Questions inclassifiables
+# normal 2022 Q7 - PTI
 
 7. Les résultats des examens précédents sont normaux. Vous cherchez alors une cause infectieuse latente ou passée inaperçue. Parmi les examens utiles:
 
@@ -3627,7 +3627,7 @@ E] sérodiagnostic de Wright
 
 Correction officielle - normal 2022 Q7 = D
 
-# normal 2022 Q8 - Questions inclassifiables
+# normal 2022 Q8 - PTI
 
 8. Vous complétez l'enquête étiologique par un ou plusieurs des examens suivants :
 
@@ -3639,7 +3639,7 @@ E] immuno électrophorèse du sérum
 
 Correction officielle - normal 2022 Q8 = B
 
-# normal 2022 Q9 - Questions inclassifiables
+# normal 2022 Q9 - PTI
 
 9. Les résultats des examens précédents sont normaux ou négatifs. Vous n'avez cependant pas attendu pour prescrire un traitement. Celui-ci comporte, en première intention, un des choix suivants :.
 
@@ -3651,7 +3651,7 @@ E] aucun traitement n'est indispensable
 
 Correction officielle - normal 2022 Q9 = C
 
-# normal 2022 Q10 - Questions inclassifiables
+# normal 2022 Q10 - PTI
 
 10. Huit jours plus tard, la patiente a 30000/mm3 de plaquettes. Le syndrome hémorragique ne s'est pas majoré. Vous décidez alors une des attitudes suivantes :
 
@@ -3663,7 +3663,7 @@ E] ne pas modifier le traitement à ce stade
 
 Correction officielle - normal 2022 Q10 = E
 
-# normal 2022 Q11 - Questions inclassifiables
+# normal 2022 Q11 - CIVD
 
 11. Un allongement du temps de Quick associé à un allongement du TCA s' observe au cours :
 
@@ -3723,7 +3723,7 @@ E] transfuser des culots globulaires
 
 Correction officielle - normal 2022 Q15 = C
 
-# normal 2022 Q16 - Questions inclassifiables
+# normal 2022 Q16 - Les lymphome
 
 16. Chez un malade de 50 ans présentant une poly adénopathie axillaire et inguinale bilatérale, quels sont les diagnostics pouvant être envisagés ?
 
@@ -3735,7 +3735,7 @@ E] lymphome malin non Hodgkinien
 
 Correction officielle - normal 2022 Q16 = A,C,D,E
 
-# normal 2022 Q17 - Questions inclassifiables
+# normal 2022 Q17 - PTI
 
 17. Quelle vaccination faut-il effectuer préalablement à une splénectomie ?
 
@@ -3747,7 +3747,7 @@ E] antigrippale
 
 Correction officielle - normal 2022 Q17 = B
 
-# normal 2022 Q18 - Questions inclassifiables
+# normal 2022 Q18 - Les leucémies
 
 18. Chez un sujet de 20 ans parmi les maladies suivantes certaines s'accompagnent de splénomégalie lesquelles?
 
@@ -3759,7 +3759,7 @@ E] purpura thrombopénique idiopathique
 
 Correction officielle - normal 2022 Q18 = A,B,D
 
-# normal 2022 Q19 - Questions inclassifiables
+# normal 2022 Q19 - Les lymphome
 
 19. L'association d'une splénomégalie et d'adénopathies cervicales peut être rencontrée dans :
 
@@ -3783,7 +3783,7 @@ E] une maladie d'Hodgkin stade IIB
 
 Correction officielle - normal 2022 Q20 = B,D
 
-# normal 2022 Q21 - Questions inclassifiables
+# normal 2022 Q21 - Les anémies
 
 21. Chez un homme la découverte sur un hémogramme des résultats suivants : GR: 6500000/mm3, Hb: 13g/100ml, Ht: 43% évoque :
 
@@ -3795,7 +3795,7 @@ E] une thalassémie hétérozygote
 
 Correction officielle - normal 2022 Q21 = E
 
-# normal 2022 Q22 - Questions inclassifiables
+# normal 2022 Q22 - Les leucémies
 
 22. Les affections malignes des tissus hématopoïétiques comprennent :
 
@@ -4195,7 +4195,7 @@ E] Dosage de l'érythropoïétine
 
 Correction officielle - ratt 2022 Q4 = B
 
-# ratt 2022 Q5 - Questions inclassifiables
+# ratt 2022 Q5 - Les lymphome
 
 5. L'observation des cellules de Sternberg est indispensable au diagnostic:
 
@@ -4327,7 +4327,7 @@ E] d'aphérèse
 
 Correction officielle - ratt 2022 Q15 = A,B
 
-# ratt 2022 Q16 - Questions inclassifiables
+# ratt 2022 Q16 - L'aplasie médullaire
 
 16. Dans quelle pathologie on n'observe jamais d'adénopathies?
 
@@ -4363,7 +4363,7 @@ E] leucémie monoblastique
 
 Correction officielle - ratt 2022 Q18 = A
 
-# ratt 2022 Q19 - Questions inclassifiables
+# ratt 2022 Q19 - Les leucémies
 
 19. Un enfant âgé de 8 ans présente une volumineuse splénomégalie. L'hémogramme montre: Hémoglobine : 5 g/dl, VGM : 90 fl, GB : 75000/mm3, blastes : 90%, plaquettes : 15000/mm3. Le myélogramme objective 40% de blastes vacuolisés. La coloration myéloperoxydase est négative. Quel est le diagnostic ?
 
@@ -4387,7 +4387,7 @@ E] Ferritinémie supérieure à 10000 ng/ml
 
 Correction officielle - ratt 2022 Q20 = B
 
-# ratt 2022 Q21 - Questions inclassifiables
+# ratt 2022 Q21 - Les anémies
 
 21. Une pancytopénie peut être secondaire à :
 
@@ -4483,7 +4483,7 @@ E] irradié
 
 Correction officielle - ratt 2022 Q28 = A,B
 
-# ratt 2022 Q29 - Questions inclassifiables
+# ratt 2022 Q29 - Les leucémies
 
 29. Quelle pathologie se complique d'un syndrome de Richter?
 
@@ -4799,7 +4799,7 @@ E] Les cellules de Burkitt
 
 Correction officielle - normal 2021 Q4 = B
 
-# normal 2021 Q5 - Questions inclassifiables
+# normal 2021 Q5 - Les leucémies
 
 5. Quelle pathologie se complique d'un syndrome de Richter ?
 
@@ -5475,7 +5475,7 @@ E] Sphérocytose héréditaire
 
 Correction officielle - normal 2020 Q10 = E
 
-# normal 2020 Q11 - Questions inclassifiables
+# normal 2020 Q11 - Les leucémies
 
 11. Chez une femme de 65 ans, une polyadénopathie associée à une hyperlymphocytose sanguine à 15000/mm3 doit faire rechercher :
 
@@ -5643,7 +5643,7 @@ E] une maladie d'Hodgkin
 
 Correction officielle - normal 2020 Q24 = D
 
-# normal 2020 Q25 - Questions inclassifiables
+# normal 2020 Q25 - CIVD
 
 25. quelle est la cause probable des résultats biologiques suivants : plaquettes : 10000/mm3; TCA : 70s (Témoin : 30s) ; TP : 25% ; facteur V : 25% ; facteur Il : 60%, fibrinogène : 0,40g/l ; produits de dégradation du fibrinogène élevés.
 
@@ -5667,7 +5667,7 @@ E] ne touche jamais les sujets de race noire
 
 Correction officielle - normal 2020 Q26 = D
 
-# normal 2020 Q27 - Questions inclassifiables
+# normal 2020 Q27 - Les lymphome
 
 27. L'observation de cellules blastiques vacuolisées est indispensable au diagnostic de :
 
@@ -5959,7 +5959,7 @@ Correction officielle - normal 2020 Q50 = A,B,C,D,E
 
 // normal 2019 (Correction officielle) : https://www.e-qe.online/exam/0f49b2f3-612c-4315-bcc4-692bf5fbb2ae
 
-# normal 2019 Q1 - Questions inclassifiables
+# normal 2019 Q1 - Les lymphome
 
 1. La présence de cellules blastiques vacuolisés est caractéristique de :
 
@@ -6043,7 +6043,7 @@ E] peut se compliquer d'une arthropathie
 
 Correction officielle - normal 2019 Q7 = E
 
-# normal 2019 Q8 - Questions inclassifiables
+# normal 2019 Q8 - Polyglobulie de vaquez
 
 8. Dans quelle pathologie on observe un prurit aquagénique :
 
@@ -6067,7 +6067,7 @@ E] Sont transfusés à la posologie de 10 à 20 cc/Kg de poids
 
 Correction officielle - normal 2019 Q9 = C
 
-# normal 2019 Q10 - Questions inclassifiables
+# normal 2019 Q10 - Les leucémies
 
 10. Quelle pathologie se complique d'un syndrome de Richter ?
 
@@ -6079,7 +6079,7 @@ E] le lymphome non Hodgkinien
 
 Correction officielle - normal 2019 Q10 = D
 
-# normal 2019 Q11 - Questions inclassifiables
+# normal 2019 Q11 - Polyglobulie de vaquez
 
 11. Un homme de 60 ans est hospitalisé en urgence pour céphalées, douleurs sternales et épistaxis. L'hémogramme montre : Hémoglobine :20 g/100ml, Hématocrite : 67%, globules rouges 7000000/mm3, plaquettes 700000/mm3 et globules blancs : 16000/mm3 . Quelle attitude thérapeutique conseillez-vous en urgence au malade ?
 
@@ -6163,7 +6163,7 @@ E] anti-tumoral
 
 Correction officielle - normal 2019 Q17 = A
 
-# normal 2019 Q18 - Questions inclassifiables
+# normal 2019 Q18 - Les lymphome
 
 18. l'observation des cellules de sternberg est indispensable au diagnostic de :
 
@@ -6271,7 +6271,7 @@ E] 90%
 
 Correction officielle - normal 2019 Q26 = E
 
-# normal 2019 Q27 - Questions inclassifiables
+# normal 2019 Q27 - L'aplasie médullaire
 
 27. Dans quelle pathologie on n'observe jamais d'adénopathies ?
 
@@ -6575,7 +6575,7 @@ E] réticulocytes
 
 Correction officielle - Ratt 2019 Q1 = B
 
-# Ratt 2019 Q2 - Questions inclassifiables
+# Ratt 2019 Q2 - Les lymphome
 
 2. L'observation de blastes vacuolisés au myélogramme permet d'évoquer :
 
@@ -6695,7 +6695,7 @@ E] Surcharge volémique
 
 Correction officielle - Ratt 2019 Q11 = C,D,E
 
-# Ratt 2019 Q12 - Questions inclassifiables
+# Ratt 2019 Q12 - Les leucémies
 
 12. L'observation de cellules blastiques est indispensable au diagnostic de :
 
@@ -6743,7 +6743,7 @@ E] Sont transfusés à la posologie de 10 à 20 cc/Kg
 
 Correction officielle - Ratt 2019 Q15 = A,C
 
-# Ratt 2019 Q16 - Questions inclassifiables
+# Ratt 2019 Q16 - Les leucémies
 
 16. Quelle pathologie se complique du syndrome de Richter :
 
@@ -6863,7 +6863,7 @@ E] d'aphérèse
 
 Correction officielle - Ratt 2019 Q25 = A,B
 
-# Ratt 2019 Q26 - Questions inclassifiables
+# Ratt 2019 Q26 - Les lymphome
 
 26. L'autogreffe de moelle est indiquée dans les maladies suivantes :
 
@@ -6875,7 +6875,7 @@ E] maladie d'Hodgkin
 
 Correction officielle - Ratt 2019 Q26 = A,B,E
 
-# Ratt 2019 Q27 - Questions inclassifiables
+# Ratt 2019 Q27 - Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile
 
 27. les signes biologiques du syndrome de lyse tumoral sont :
 
@@ -6887,7 +6887,7 @@ E] hypocalcémie
 
 Correction officielle - Ratt 2019 Q27 = A,C,E
 
-# Ratt 2019 Q28 - Questions inclassifiables
+# Ratt 2019 Q28 - Les leucémies
 
 28. Chez une femme de 65 ans, une polyadénopathie cervicale bilatérale et symétrique associée à une hyperlymphocytose sanguine à 15000/mn3 doit faire rechercher :
 

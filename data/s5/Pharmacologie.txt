@@ -1409,7 +1409,7 @@ E] Ne se fait pas par induction enzymatique
 
 Correction officielle - 2025 N Q25 = A,B,C,D
 
-# 2025 N Q26 - Questions inclassifiables
+# 2025 N Q26 - cas clinique en cardio
 
 26. Patient porteur de prothèse mitrale sous antivitamines K. son INR est à 2,8. Que faire ?
 
@@ -1421,7 +1421,7 @@ E] aucune
 
 Correction officielle - 2025 N Q26 = A
 
-# 2025 N Q27 - Questions inclassifiables
+# 2025 N Q27 - cas clinique en cardio
 
 27. Les thiénopyridines sont indiqués dans :
 
@@ -1433,7 +1433,7 @@ E] l'angioplastie coronaire
 
 Correction officielle - 2025 N Q27 = B,E
 
-# 2025 N Q28 - Questions inclassifiables
+# 2025 N Q28 - cas clinique en cardio
 
 28. L'apixaban :
 
@@ -1625,7 +1625,7 @@ E] Sténose des artères rénales
 
 Correction officielle - 2025 N Q43 = C
 
-# 2025 N Q44 - Questions inclassifiables
+# 2025 N Q44 - Les anti-inflammatoires
 
 44. Dans le mécanisme d'action des glucocorticoïdes, quel effet est minéralo- corticoïde :
 

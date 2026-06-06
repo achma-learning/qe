@@ -673,7 +673,7 @@ E] Une réversibilité des symptômes sous bêta-2 mimétiques à courte durée 
 
 Correction officielle - normal 2025 Q4 = B,E
 
-# normal 2025 Q5 - Questions inclassifiables
+# normal 2025 Q5 - pneumologie pédiatrique
 
 5. Devant une dyspnée du nourrisson, les éléments de gravité qu'il faut chercher sont :
 
@@ -961,7 +961,7 @@ E] Un hydrolysat de protéines du lait de vache
 
 Correction officielle - normal 2025 Q28 = E
 
-# normal 2025 Q29 - Questions inclassifiables
+# normal 2025 Q29 - endocrinologie pédiatrique
 
 29. Fille de 6 ans, présentant depuis 3 semaines une énurésie secondaire, avec amaigrissement et polyphagie, consulte aux urgences pour des vomissements aigus et une dyspnée; L'examen retrouve une enfant déshydratée, polypnéique avec une polyurie. Il s'agit :
 
@@ -6061,7 +6061,7 @@ C] Les signes psychiatriques
 D] Le contage tuberculeux dans l'entourage
 E] L'existence de parotidomégalie.
 
-# Juin 2019 Q11 - Questions inclassifiables
+# Juin 2019 Q11 - Pathologies infectieuses et métaboliques du nouveau-né
 
 11. Chez le nouveau-né ictérique les conditions à risque majoré de neuro-toxicité de la bilirubine libre sont :
 
@@ -6071,7 +6071,7 @@ C] Asphyxie périnatale
 D] Hypoalbuminémie (<40g/l)
 E] La macrosomie.
 
-# Juin 2019 Q12 - Questions inclassifiables
+# Juin 2019 Q12 - Réanimation et soins immédiats du nouveau-né
 
 12. Les signes en faveur d'une encéphalopathie anoxo-ischémique sont :
 
@@ -6081,7 +6081,7 @@ C] Une décélération précoce.
 D] Un liquide amniotique méconial.
 E] Des convulsions néonatales précoces.
 
-# Juin 2019 Q13 - Questions inclassifiables
+# Juin 2019 Q13 - Réanimation et soins immédiats du nouveau-né
 
 13. La conduite à tenir en cas d'inhalation de liquide méconial consiste à :
 
@@ -6091,7 +6091,7 @@ C] Si le nouveau-né est vigoureux il faut aspirer avec une sonde naso-trachéal
 D] Si le nouveau-né n'a pas crié, il faut l'intuber et aspirer le méconium puis le ventiler.
 E] Aucune proposition n'est juste.
 
-# Juin 2019 Q14 - Questions inclassifiables
+# Juin 2019 Q14 - Pathologies infectieuses et métaboliques du nouveau-né
 
 14. Dans l'infection néonatale précoce les éléments de gravité sont :
 
@@ -6101,7 +6101,7 @@ C] L'infection suspectée ou confirmée chez son frère jumeau en cas de grosses
 D] L'ictère néonatal.
 E] Aucune proposition n'est juste....
 
-# Juin 2019 Q15 - Questions inclassifiables
+# Juin 2019 Q15 - Développement et croissance néonatale
 
 15. Les 2 scores les plus fiables pour estimer l'âge gestationnel du prématuré
 
@@ -6111,7 +6111,7 @@ C] Le score de Dubowitz
 D] Le score de Sarnat
 E] Le score de Thomson
 
-# Juin 2019 Q16 - Questions inclassifiables
+# Juin 2019 Q16 - Développement et croissance néonatale
 
 16. Pour Estimer l'âge gestationnel du nouveau-né prématuré, on se base sur certains éléments morphologiques, entourez ceux qui sont corrects:
 
@@ -6121,7 +6121,7 @@ C] L'aspect des cheveux.
 D] L'aspect des organes génitaux externes
 E] L'aspect des mains.
 
-# Juin 2019 Q17 - Questions inclassifiables
+# Juin 2019 Q17 - Développement et croissance néonatale
 
 17. Parmi les complications métaboliques du prématuré, entourez les bonnes réponses:
 
@@ -6131,7 +6131,7 @@ C] Hypocalcémie
 D] Hypokaliémie
 E] Hypomagnésémie
 
-# Juin 2019 Q18 - Questions inclassifiables
+# Juin 2019 Q18 - Développement et croissance néonatale
 
 18. Entourez les bonnes réponses concernant le nouveau-né ayant un retard de croissance intra-utérin (RCIU) dysharmonieux :
 
@@ -6141,7 +6141,7 @@ C] Il est affamé
 D] Il a la peau lisse et fine
 E] Il a un pannicule adipeux développé
 
-# Juin 2019 Q19 - Questions inclassifiables
+# Juin 2019 Q19 - Développement et croissance néonatale
 
 19. Parmi les complications à long terme d'un nouveau-né ayant un retard de croissance intra-utérin (RCIU)
 
@@ -6151,7 +6151,7 @@ C] Le diabète
 D] L'insuffisance rénale
 E] L'insuffisance cardiaque
 
-# Juin 2019 Q20 - Questions inclassifiables
+# Juin 2019 Q20 - Les convulsions néonatales
 
 20. Les convulsions subtiles chez le nouveau-né se manifestent cliniquement par :
 
@@ -6161,7 +6161,7 @@ C] Des mouvements oculaires
 D] Des mouvements de pédalage
 E] Des mouvements oro-buccaux
 
-# Juin 2019 Q21 - Questions inclassifiables
+# Juin 2019 Q21 - Hématologie et oncologie pédiatrique
 
 21. Le purpura thrombopénique idiopathique est caractérisé par :
 
@@ -6171,7 +6171,7 @@ C] Des plaquettes en nombre normal
 D] Arthralgies diffuses
 E] Régression après corticothérapie
 
-# Juin 2019 Q22 - Questions inclassifiables
+# Juin 2019 Q22 - Hématologie et oncologie pédiatrique
 
 22. L'hémophilie de l'enfant se caractérise par:
 
@@ -6181,7 +6181,7 @@ C] L'hémostase secondaire est normale
 D] Le traitement repose sur la supplémentation en fer
 E] Les réserves en fer sont augmentées
 
-# Juin 2019 Q23 - Questions inclassifiables
+# Juin 2019 Q23 - Gastroentérologie pédiatrique
 
 23. Dans les vomissements de l'enfant
 
@@ -6191,7 +6191,7 @@ C] L'association à une hémorragie digestive impose la réalisation d'une fibro
 D] Une urgence chirurgicale doit être éliminée en cas de vomissements verdâtres
 E] Le traitement doit être symptomatique et étiologique
 
-# Juin 2019 Q24 - Questions inclassifiables
+# Juin 2019 Q24 - Gastroentérologie pédiatrique
 
 24. La maladie cœliaque du nourrisson
 
@@ -6201,7 +6201,7 @@ C] Est responsable d'une dénutrition sévère
 D] Son traitement repose sur un régime sans gluten
 E] L'épreuve de rechute doit se faire quel que soit l'âge de l'enfant
 
-# Juin 2019 Q25 - Questions inclassifiables
+# Juin 2019 Q25 - endocrinologie pédiatrique
 
 25. Le schéma d'insuline à deux injections
 
@@ -6211,7 +6211,7 @@ C] Les doses sont réparties en 2/3 le matin et 1/3 le soir
 D] Son inconvénient est l'hyperglycémie en fin de journée
 E] Utilise 2/3 d'insuline semi lente et 1/3 d'insuline rapide
 
-# Juin 2019 Q26 - Questions inclassifiables
+# Juin 2019 Q26 - endocrinologie pédiatrique
 
 26. Dans l'hypothyroïdie congénitale
 
@@ -6221,7 +6221,7 @@ C] La TSH est basse
 D] La T4 est basse
 E] Le traitement substitutif est indispensable pour une durée de 4 semaines:
 
-# Juin 2019 Q27 - Questions inclassifiables
+# Juin 2019 Q27 - nutrition pédiatrique
 
 27. L'allergie aux protéines du lait de vache
 
@@ -6231,7 +6231,7 @@ C] Une diarrhée chronique peut être le seul symptôme
 D] Son diagnostic nécessite impérativement des examens para cliniques
 E] Son traitement repose sur un régime pauvre en protéines
 
-# Juin 2019 Q28 - Questions inclassifiables
+# Juin 2019 Q28 - nutrition pédiatrique
 
 28. L'allaitement maternel
 
@@ -6241,7 +6241,7 @@ C] Contient des oligosaccharides
 D] Ne contient pas de vitamine K
 E] Apporte du fer avec une biodisponibilité élevée
 
-# Juin 2019 Q29 - Questions inclassifiables
+# Juin 2019 Q29 - Néphrologie pédiatrique
 
 29. La néphrose lipoïdique se caractérise par :
 
@@ -6251,7 +6251,7 @@ C] La possibilité d'un syndrome néphrétique aigu
 D] Les rechutes
 E] Une prolifération extra capillaire à la PBR
 
-# Juin 2019 Q30 - Questions inclassifiables
+# Juin 2019 Q30 - Néphrologie pédiatrique
 
 30. L'hématurie récidivante peut être secondaire à:
 
@@ -6261,7 +6261,7 @@ C] Lithiases urinaires
 D] GNA post infectieuse streptococcique
 E] Néphrose lipoïdique
 
-# Juin 2019 Q31 - Questions inclassifiables
+# Juin 2019 Q31 - Urologie pédiatrique
 
 31. Une PNA chez un nourrisson de 6 mois sans facteurs de gravité se traite par
 
@@ -6271,7 +6271,7 @@ C] Cefixime per os pendant 10 jours
 D] C3G par voie injectable pendant 2 à 4 jours puis relais per os par céfixime
 E] C3Gpar voie injectable pendant 48 h avec aminoside pendant 5 jours
 
-# Juin 2019 Q32 - Questions inclassifiables
+# Juin 2019 Q32 - Urologie pédiatrique
 
 32. Les germes fréquemment responsables de l'infection urinaire sont:
 
@@ -6281,7 +6281,7 @@ C] ECOLI
 D] Proteus
 E] Klebsiella SP
 
-# Juin 2019 Q33 - Questions inclassifiables
+# Juin 2019 Q33 - Chirurgie digestive et abdominale pédiatrique
 
 33. Un nourrisson de huit mois est admis aux urgences pour distension abdominale installée il y'a 6 heures. Vous devez cherchez à l'anamnèse :
 
@@ -6291,7 +6291,7 @@ C] Une hématurie.
 D] Des vomissements.
 E] Une dysphagie.
 
-# Juin 2019 Q34 - Questions inclassifiables
+# Juin 2019 Q34 - Chirurgie digestive et abdominale pédiatrique
 
 34. Vous êtes appelés à la maternité pour un nouveau né de 6 heures qui présente une dyspnée avec hypersalivation et distension abdominale. Le diagnostic le plus probable:
 
@@ -6301,7 +6301,7 @@ C] Une hernie congénitale de coupole gauche.
 D] Une atrésie de l'œsophage.
 E] Une hernie congénitale de coupole droite.
 
-# Juin 2019 Q35 - Questions inclassifiables
+# Juin 2019 Q35 - Malformations congénitales
 
 35. Une échographie anténatale chez une femme enceinte à 09 semaines d'aménorrhée a montré la présence d'anses intestinales à l'extérieur de la cavité abdominale.
 
@@ -6311,7 +6311,7 @@ C] Il s'agit d'une omphalocèle type II.
 D] Il s'agit d'un gastroschisis.
 E] Il s'agit d'un état normal.
 
-# Juin 2019 Q36 - Questions inclassifiables
+# Juin 2019 Q36 - Chirurgie digestive et abdominale pédiatrique
 
 36. Vous êtes appelés à la salle d'accouchement pour examiner une masse de la paroi abdominale couverte par une membrane translucide de contenu intestinale chez un nouveau né de 3 heures.
 
@@ -6321,7 +6321,7 @@ C] Le defect doit être à travers l'anneau ombilical.
 D] Il s'agit d'une omphalocèle.
 E] Il s'agit d'un laparoschisis.
 
-# Juin 2019 Q37 - Questions inclassifiables
+# Juin 2019 Q37 - Chirurgie digestive et abdominale pédiatrique
 
 37. Un nouveau né d'un jour est admis aux urgences pour polypnée. L'examen clinique a trouvé un hémithorax gauche bombé. Vous devez :
 
@@ -6331,7 +6331,7 @@ C] Drainer le thorax.
 D] Faire une exsufflation thoracique.
 E] Assister par une ventilation au masque.
 
-# Juin 2019 Q38 - Questions inclassifiables
+# Juin 2019 Q38 - Chirurgie digestive et abdominale pédiatrique
 
 38. Un nouveau-né de 03 jours admis aux urgences pour distension abdominale et vomissement bilieux. Vous devez chercher :
 
@@ -6341,7 +6341,7 @@ C] Une malformation anorectale.
 D] Faire une ponction d'ascite.
 E] Une atrésie duodénale.
 
-# Juin 2019 Q39 - Questions inclassifiables
+# Juin 2019 Q39 - Chirurgie digestive et abdominale pédiatrique
 
 39. Un nourrisson de 02 mois est amené aux urgences pour masse de l'hypochondre gauche évoluant depuis 1 mois. L'examen clinique a révélé une masse rénitente et fixe au plan profond avec fièvre à 39°c. Il peut s'agir :
 
@@ -6351,7 +6351,7 @@ C] Une masse rénale.
 D] Une invagination intestinale aigue.
 E] Une hernie diaphragmatique gauche compliquée.
 
-# Juin 2019 Q40 - Questions inclassifiables
+# Juin 2019 Q40 - Urologie pédiatrique
 
 40. Un nourrisson de 4 mois est amené en consultation pour une grosse bourse gauche, évoluant depuis la naissance. Après examen, le diagnostic retenu est une hydrocèle gauche non communicante.Quels éléments ont permis de retenir ce diagnostic et d'éliminer les autres pathologies du canal péritonéo-vaginal ?
 
@@ -6361,7 +6361,7 @@ C] Le caractère non réductible.
 D] L'épreuve de la transillumination négative.
 E] Le caractère douloureux à la palpation.
 
-# Juin 2019 Q41 - Questions inclassifiables
+# Juin 2019 Q41 - Urologie pédiatrique
 
 41. Quelle sera votre attitude?
 
@@ -6371,7 +6371,7 @@ C] Une ponction évacuatrice pour éviter la compression testiculaire.
 D] Demander une échographie scrotale pour confirmer le diagnostic.
 E] Proposer une exploration chirurgicale en urgence.
 
-# Juin 2019 Q42 - Questions inclassifiables
+# Juin 2019 Q42 - Chirurgie digestive et abdominale pédiatrique
 
 42. Un nourrisson de 40 jours normal depuis la naissance, est amené aux urgences pour vomissements apparus il y a une semaine. La maman rapporte que le nourrisson est tout le temps affamé, se jette sur le biberon mais après 15-20 minutes il vomit tout son biberon. Le nourrisson aurait perdu du poids. L'examen note des signes de déshydratation et d'amaigrissement sans autre anomalie: Le diagnostic le plus probable est:
 
@@ -6381,7 +6381,7 @@ C] Reflux gastro-oesophagien
 D] Sténose hypertrophique du Pylore
 E] Plicature gastrique
 
-# Juin 2019 Q43 - Questions inclassifiables
+# Juin 2019 Q43 - Chirurgie digestive et abdominale pédiatrique
 
 43. Un nouveau-né âgé 15jours sans ATCD particulier est amené aux urgences:car il a commencé à vomir bilieux depuis 12 heures avec un arrêt du transit . la maman .est inquiète il n'a jamais vomis avant. Son examen note des signes de déshydratation, une température normale des constantes vitales normales, abdomen non distendu.Votre diagnostic le plus probable est :
 
@@ -6391,7 +6391,7 @@ C] Atrésie du duodénum
 D] Atrésie du grêle
 E] Maladie de Hirschsprung
 
-# Juin 2019 Q44 - Questions inclassifiables
+# Juin 2019 Q44 - Orthopédie pédiatrique
 
 44. Un enfant de 2 ans présente une spondylodiscite bactérienne de la 2 éme vertèbre lombaire évoluant depuis 24 heures Quelles sont les signes en faveur de diagnostic
 
@@ -6401,7 +6401,7 @@ C] Un psoïtis
 D] Un syndrome méningé
 E] Une perte de lordose lombaire.
 
-# Juin 2019 Q45 - Questions inclassifiables
+# Juin 2019 Q45 - Orthopédie pédiatrique
 
 45. Une boiterie douloureuse chez un enfant de 13 ans peut faire évoquer
 
@@ -6411,7 +6411,7 @@ C] Des séquelles d'une arthrite de hanche
 D] Une spondylodiscite
 E] Tumeur osseuse
 
-# Juin 2019 Q46 - Questions inclassifiables
+# Juin 2019 Q46 - Orthopédie pédiatrique
 
 46. Que retenez-vous en faveur d'une scoliose chez un enfant
 
@@ -6421,7 +6421,7 @@ C] La présence d'un psoitis avec douleur de la fosse iliaque
 D] Une asymétrie d'écart entre les deux bras et le tronc
 E] Une inégalité de longueur des membres inférieurs
 
-# Juin 2019 Q47 - Questions inclassifiables
+# Juin 2019 Q47 - Orthopédie pédiatrique
 
 47. Une fille de 12 ans, victime d'un traumatisme du genou droit, la radiographie du genou face et profil a montré un décollement de toute l'épiphyse fémorale inférieure avec un trait métaphysaire associé. Il s'agissait:
 
@@ -6431,7 +6431,7 @@ C] D'un décollement épiphysaire type 3 de salter et harris
 D] D'un décollement épiphysaire type 4 de salter et harris
 E] D'un décollement épiphysaire type 5 de salter et harris
 
-# Juin 2019 Q48 - Questions inclassifiables
+# Juin 2019 Q48 - Orthopédie pédiatrique
 
 48. Un Garçon de 6 ans, hospitalisé pour ostéomyélite aiguë de l'extrémité inférieure du fémur droit avec signes de sepsis. Quel traitement antibiotique probabiliste vous démarrez en urgence?
 
@@ -6441,7 +6441,7 @@ C] Le céfotaxime + vancomycine
 D] La gentamicine scule
 E] La vancomycine seule
 
-# Juin 2019 Q49 - Questions inclassifiables
+# Juin 2019 Q49 - Orthopédie pédiatrique
 
 49. Dans l'arthrite septique du nouveau-né:
 
@@ -6451,7 +6451,7 @@ C] Le tableau clinique est toujours typique d'une arthrite septique
 D] Le traitement est basé sur une antibiothérapie seule
 E] Parmi les germes en cause, le Kingella Kingae est le germe le plus incriminé
 
-# Juin 2019 Q50 - Questions inclassifiables
+# Juin 2019 Q50 - Orthopédie pédiatrique
 
 50. Le pied bot varus équin chez un nouveau-né se définit par :
 

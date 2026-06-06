@@ -225,7 +225,7 @@ E] Absence de réponse au traitement ATB non spécifique
 
 Correction officielle - Juin 2025 Q17 - Infection respiratoires basses = B,C,E
 
-Juin 2025 Q18 - Questions inclassifiables
+Juin 2025 Q18 - insuffisance respiratoire aigue
 
 Cochez les signes cliniques qui se voient en cas hypercapnie :
 
@@ -235,7 +235,7 @@ C] Vasodilatation cutanée
 D] Sueurs
 E] Asterixis [mouvements anormaux des mains]
 
-Correction officielle - Juin 2025 Q18 - Questions inclassifiables = C,D,E
+Correction officielle - Juin 2025 Q18 - insuffisance respiratoire aigue = C,D,E
 
 Juin 2025 Q19 - insuffisance respiratoire aigue
 
@@ -285,7 +285,7 @@ E] Neurofibrome
 
 Correction officielle - Juin 2025 Q22 - Tumeurs mediastinales = E
 
-Juin 2025 Q23 - Questions inclassifiables
+Juin 2025 Q23 - TBK commune
 
 Une hémoptysie qui survient chez un ancien tuberculeux doit faire évoquer les diagnostics suivants :
 
@@ -295,7 +295,7 @@ C] Des dilatations des bronches
 D] Une cancérisation sur séquelles de tuberculose
 E] Un aspergillome
 
-Correction officielle - Juin 2025 Q23 - Questions inclassifiables = A,C,D,E
+Correction officielle - Juin 2025 Q23 - TBK commune = A,C,D,E
 
 Juin 2025 Q24 - pneumopathies interstitielles diffuses
 
@@ -333,7 +333,7 @@ E] La PaO2
 
 Correction officielle - Juin 2025 Q26 - pneumopathies interstitielles diffuses = B
 
-Juin 2025 Q27 - Questions inclassifiables
+Juin 2025 Q27 - pneumopathies interstitielles diffuses
 
 La fibrose pulmonaire idiopathique:
 
@@ -343,7 +343,7 @@ C] L'existence des cas familiaux est possible
 D] Le verre dépoli est la lésion radiologique typique
 E] L'aspect en rayon de miel prédominant au niveau des bases et en sous pleural est l'aspect radiologique typique
 
-Correction officielle - Juin 2025 Q27 - Questions inclassifiables = A,B,C,E
+Correction officielle - Juin 2025 Q27 - pneumopathies interstitielles diffuses = A,B,C,E
 
 Juin 2025 Q28 - AAE et pneumopathie d'hypersensibilité
 
@@ -429,7 +429,7 @@ E] La fonction respiratoire (VEMS/DEP).
 
 Correction officielle - Juin 2025 Q34 - asthme = A,B,C,D,E
 
-Juin 2025 Q35 - Questions inclassifiables
+Juin 2025 Q35 - cancer bronchiques
 
 Devant une opacité hilaire droite irrégulière suspecte isolée, l'examen de première intention à visée étiologique est :
 
@@ -439,7 +439,7 @@ C] La fibroscopie bronchique
 D] La biopsie ganglionnaire
 E] La biopsie pleurale
 
-Correction officielle - Juin 2025 Q35 - Questions inclassifiables = C
+Correction officielle - Juin 2025 Q35 - cancer bronchiques = C
 
 Juin 2025 Q36 - pathologie du tabac
 
@@ -477,7 +477,7 @@ E] Les tests de provocation bronchique spécifique
 
 Correction officielle - Juin 2025 Q38 - asthme = B,C,E
 
-Juin 2025 Q39 - Questions inclassifiables
+Juin 2025 Q39 - pneumoconioses
 
 L'exposition à l'amiante est responsable de :
 
@@ -487,7 +487,7 @@ C] Fibrose pulmonaire idiopathique
 D] Mésothéliome
 E] Asbestose
 
-Correction officielle - Juin 2025 Q39 - Questions inclassifiables = B,D,E
+Correction officielle - Juin 2025 Q39 - pneumoconioses = B,D,E
 
 Juin 2025 Q40 - sarcoidose
 
@@ -513,7 +513,7 @@ E] Un syndrome cave supérieur
 
 Correction officielle - Juin 2025 Q41 - cancer bronchiques = A,B,C,D,E
 
-Juin 2025 Q42 - Questions inclassifiables
+Juin 2025 Q42 - Infection respiratoires basses
 
 La COVID 19:
 
@@ -523,7 +523,7 @@ C] Les complications thromboemboliques sont fréquentes
 D] Est confirmé par PCR respiratoire
 E] Le verre dépoli prédominant au niveau des bases et en sous pleural est l'aspect scannographique le plus fréquent
 
-Correction officielle - Juin 2025 Q42 - Questions inclassifiables = A,C,D,E
+Correction officielle - Juin 2025 Q42 - Infection respiratoires basses = A,C,D,E
 
 Juin 2025 Q43 - les traumatismes thoraciques
 

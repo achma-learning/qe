@@ -441,7 +441,7 @@ E] Infections urinaires récidivantes
 
 Correction officielle - Normal 2025 Q35 = A,B,D,E
 
-# Normal 2025 Q36 - Questions inclassifiables
+# Normal 2025 Q36 - Tumeurs de la vessie
 
 36. Parmi les propositions suivantes, lesquelles sont des tumeurs urothéliales papillaires non invasives?
 
@@ -453,7 +453,7 @@ E] Tumeur urothéliale papillaire de bas potentiel de malignité
 
 Correction officielle - Normal 2025 Q36 = A,D,E
 
-# Normal 2025 Q37 - Questions inclassifiables
+# Normal 2025 Q37 - Tumeurs de la vessie
 
 37. L'examen anatomopathologique d'une résection transurétrale de vessie (RTUV) objective une prolifération tumorale urothéliale d'architecture papillaire avec des anomalies architecturales et des atypies cytonucléaires marquées avec invasion du muscle vésical, vous retenez le diagnostic suivant :
 
@@ -501,7 +501,7 @@ E] Il précise la stratégie thérapeutique et évalue le pronostic de la maladi
 
 Correction officielle - Normal 2025 Q40 = A,C,E
 
-# Normal 2025 Q41 - Questions inclassifiables
+# Normal 2025 Q41 - Cancer du col utérin
 
 41. Mme D.F, âgée de 45 ans, consulte pour un bilan gynécologique. Elle n'a jamais eu de frottis cervico-utérin auparavant. Quelle(s) est(sont) la ou les affirmation(s) exacte(s) ?
 
@@ -513,7 +513,7 @@ E] Le frottis doit être effectué en dehors des périodes menstruelles
 
 Correction officielle - Normal 2025 Q41 = A,C,E
 
-# Normal 2025 Q42 - Questions inclassifiables
+# Normal 2025 Q42 - Cancer du col utérin
 
 42. L'étude cytologique du frottis cervico-utérin de Mme D.F a révélé une lésion malpighienne intra-épithéliale de haut grade (HSIL). Quelles sont les deux conduites diagnostiques complémentaires à réaliser en première intention?
 
@@ -525,7 +525,7 @@ E] Phénotypage viral d'HPV
 
 Correction officielle - Normal 2025 Q42 = B,E
 
-# Normal 2025 Q43 - Questions inclassifiables
+# Normal 2025 Q43 - Cancer du col utérin
 
 43. Mme D.F a bénéficié d'une biopsie du col utérin dont l'étude anatomopathologique a objectivé une prolifération tumorale carcinomateuse infiltrant le chorion, faite de cellules tumorales polygonales avec des ponts d'union et des globes cornées. L'étude immunohistochimique montre une expression des anticorps anti-P40 et anti-P16; vous retenez le diagnostic suivant :
 
