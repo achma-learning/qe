@@ -36,7 +36,6 @@ for (const s of SEMS) {
 const completeRaw = readIf(COMPLETE);
 
 const payload = {
-  generatedAt: new Date().toISOString(),
   dir: DIR_REL + '/',
   complete: { file: COMPLETE, exists: completeRaw !== null },
   semesters,
