@@ -18,7 +18,7 @@ ratt 2019 = 50/50 Questions
 
 // normal 2026 (Correction officielle) : https://www.e-qe.online/exam/12757401-b77a-4525-97bf-d279172e6ed0
 
-# normal 2026 Q1 - Questions inclassifiables
+# normal 2026 Q1 - Psoriasis
 
 1. Un Patient de 50 ans, hypertendu sous inhibiteur calcique, tabagique chronique présente des lésions érythémato-squameuses au niveau des coudes et des genoux évoluant par poussées et rémission depuis 10 ans. La conduite à tenir consiste :
 
@@ -246,7 +246,7 @@ E] Une gomme syphilitique
 
 Correction officielle - normal 2026 Q19 = D
 
-# normal 2026 Q20 - Questions inclassifiables
+# normal 2026 Q20 - Dermatose bacteriénne
 
 20. Yasser, enfant âgé de 5 ans, il présentait depuis une semaine ces lésions (Figure 2). Vous expliquez à la maman que c'est :
 
@@ -778,7 +778,7 @@ E] Un syndrome de Lyell
 
 Correction officielle - normal 2025 Q13 = E
 
-# normal 2025 Q14 - Questions inclassifiables
+# normal 2025 Q14 - Infections cutanées
 
 14. Enfant Youssef, âgé de 6 ans, sans antécédent pathologique particulier, vous consulte pour des érosions muqueuses labiogingivales aiguës, avec une température à 39°C, adénopathie cervicale à droite. Vous évoquez en premier :
 
@@ -1454,7 +1454,7 @@ E] Molluscum contagiosum
 
 Correction officielle - Normal 2024 Q19 = A,B,D
 
-# Normal 2024 Q20 - Questions inclassifiables
+# Normal 2024 Q20 - Les cancers cutanés
 
 20. Un patient de 60 ans consulte pour une bande pigmentée unguéale qui s'étend au repli unguéal proximal évoluant depuis 6 mois. Le diagnostic le plus probable est :
 
@@ -1478,7 +1478,7 @@ E] Demander un test de Nelson
 
 Correction officielle - Normal 2024 Q21 = D
 
-# Normal 2024 Q22 - Questions inclassifiables
+# Normal 2024 Q22 - Psoriasis
 
 22. Un patient de 30 ans présente des lésions érythémato-squameuses localisées aux niveau des coudes et des genoux évoluant par poussées sans autres atteintes. Le diagnostic le plus probable est :
 
@@ -1490,7 +1490,7 @@ E] L'urticaire
 
 Correction officielle - Normal 2024 Q22 = A
 
-# Normal 2024 Q23 - Questions inclassifiables
+# Normal 2024 Q23 - Psoriasis
 
 23. Chez ce patient, vous pouvez prescrire
 
@@ -1938,7 +1938,7 @@ E] Association de Benzathine pénicilline, fluoroquinolone et doxycycline
 
 Correction officielle - Ratt 2024 Q9 = C
 
-# Ratt 2024 Q10 - Questions inclassifiables
+# Ratt 2024 Q10 - Psoriasis
 
 10. Un patient âgé de 50 ans, hypertendu sous traitement, présente des plaques érythémato-squameuses évoluant par poussées depuis plus de 10 ans. Le Diagnostic le plus probable chez ce patient est :
 
@@ -1974,7 +1974,7 @@ E] Aphte génitale
 
 Correction officielle - Ratt 2024 Q12 = A
 
-# Ratt 2024 Q13 - Questions inclassifiables
+# Ratt 2024 Q13 - toxidermie
 
 13. Lahcen, patient de 45 ans, est admis aux urgences à 4 heures du matin pour cette éruption fébrile diffuse à tout le tégument (figure 1), associée à une chéilite érosive et conjonctivite depuis 4 jours, son médecin traitant l'avait mis sous quinolones per os il y a une semaine pour une infection urinaire. Vous évoquez :
 
@@ -1986,7 +1986,7 @@ E] Un syndrome de Lyell
 
 Correction officielle - Ratt 2024 Q13 = E
 
-# Ratt 2024 Q14 - Questions inclassifiables
+# Ratt 2024 Q14 - Infections cutanées
 
 14. Enfant Yassine, âgé de 6 ans, sans antécédent pathologique particulier, vous consulte pour ces lésions sur la figure 2, avec une température à 39°C, adénopathie cervicale à droite. Vous évoquez en premier :
 
@@ -2058,7 +2058,7 @@ E] Elle est souvent bénigne
 
 Correction officielle - Ratt 2024 Q19 = E
 
-# Ratt 2024 Q20 - Questions inclassifiables
+# Ratt 2024 Q20 - Infections cutanées
 
 20. Mme Aïcha, âgée de 50 ans vous consulte pour ces lésions évoluant depuis deux jours avec des douleurs lombaires à type de brûlure (figure 3). Quel est votre diagnostic :
 
@@ -2106,7 +2106,7 @@ E] Corticothérapie injectable
 
 Correction officielle - Ratt 2024 Q23 = B
 
-# Ratt 2024 Q24 - Questions inclassifiables
+# Ratt 2024 Q24 - Mycoses
 
 24. Mme Leila, âgée de 60 ans, consulte pour une éruption prurigineuse des plis axillaires. L'examen dermatologique trouve un placard érythémateux recouvert de dépôts blanchâtres. Quel est votre diagnostic :
 
@@ -2542,7 +2542,7 @@ E] Une injection de Benzathine pénicilline 2,4 MU tous les 3 semaines jusqu'à 
 
 Correction officielle - Novembre 2024 Q9 = A
 
-# Novembre 2024 Q10 - Questions inclassifiables
+# Novembre 2024 Q10 - Psoriasis
 
 10. Un patient âgé de 40 ans, présente des plaques érythémato-squameuses évoluant par poussées depuis plus de 10 ans au niveau des coudes et des genoux. Le Diagnostic le plus probable chez ce patient est
 
@@ -2554,7 +2554,7 @@ E] Psoriasis
 
 Correction officielle - Novembre 2024 Q10 = E
 
-# Novembre 2024 Q11 - Questions inclassifiables
+# Novembre 2024 Q11 - Psoriasis
 
 11. Chez ce patient, vous pouvez prescrire en première intention
 
@@ -2566,7 +2566,7 @@ E] Rétinoïde per os
 
 Correction officielle - Novembre 2024 Q11 = A,B
 
-# Novembre 2024 Q12 - Questions inclassifiables
+# Novembre 2024 Q12 - les IST
 
 12. Un patient de 40 ans, marié, présente des ulcérations génitales à répétition à raison de 3 poussées par an, sans notion de prise médicamenteuse et sans notion de rapport extra conjugal. Les diagnostics à évoquer sont :
 
@@ -2590,7 +2590,7 @@ E] Un syndrome de Lyell
 
 Correction officielle - Novembre 2024 Q13 = E
 
-# Novembre 2024 Q14 - Questions inclassifiables
+# Novembre 2024 Q14 - Infections cutanées
 
 14. Enfant Youssef, âgé de 6 ans, sans antécédent pathologique particulier, vous consulte pour des érosions muqueuses labiogingivales aiguës, avec une température à 39°C, adénopathie cervicale à droite. Vous évoquez en premier :
 
@@ -2674,7 +2674,7 @@ E] Candidose
 
 Correction officielle - Novembre 2024 Q20 = C
 
-# Novembre 2024 Q21 - Questions inclassifiables
+# Novembre 2024 Q21 - Infections cutanées
 
 21. Ahmed est un enfant de 7 ans, vous consulte pour ces lésions papuleuses, ombiliquées au centre, prurigineuses, éparpillées sur l'abdomen, évoluant depuis 3 mois. Vous évoquez en premier :
 
@@ -2710,7 +2710,7 @@ E] Corticothérapie injectable
 
 Correction officielle - Novembre 2024 Q23 = B
 
-# Novembre 2024 Q24 - Questions inclassifiables
+# Novembre 2024 Q24 - Mycoses
 
 24. Mme Laila, âgée de 60 ans, consulte pour une éruption prurigineuse des plis axillaires. L'examen dermatologique trouve un placard érythémateux recouvert de dépôts blanchâtres. Quel est votre diagnostic
 
@@ -3494,7 +3494,7 @@ E] Une désinfection des bonnets, peigne, à l'aide d'une poudre antibiotique.
 
 Correction officielle - normal 2022 Q38 = B,C
 
-# normal 2022 Q39 - Questions inclassifiables
+# normal 2022 Q39 - Dermatose bulleuse
 
 39. Monsieur X âgé de 60 ans consulte pour des bulles flasques localisées au niveau des genoux et des coudes évoluant depuis 3 mois laissant des grains de milium. Quel est le diagnostic le plus probable ?
 
@@ -3506,7 +3506,7 @@ E] Epidermolyse bulleuse acquise
 
 Correction officielle - normal 2022 Q39 = E
 
-# normal 2022 Q40 - Questions inclassifiables
+# normal 2022 Q40 - Dermatose bulleuse
 
 40. Monsieur X âgé de 20 ans consulte pour des lésions vésiculo-bulleuses prurigineuses localisées au niveau des faces d'extension sans atteinte des muqueuses buccale et génitale, évoluant depuis 2 mois. Quel est le diagnostic le plus probable ?
 
@@ -3518,7 +3518,7 @@ E] Epidermolyse bulleuse acquise
 
 Correction officielle - normal 2022 Q40 = C
 
-# normal 2022 Q41 - Questions inclassifiables
+# normal 2022 Q41 - Dermatose bulleuse
 
 41. Après confirmation du diagnostic chez ce malade, le traitement de première intention à préconiser chez ce malade est :
 
@@ -3602,7 +3602,7 @@ E] Association de Benzathine pénicilline, fluoroquinolone et doxycycline
 
 Correction officielle - normal 2022 Q47 = B
 
-# normal 2022 Q48 - Questions inclassifiables
+# normal 2022 Q48 - Psoriasis
 
 48. Un patient âgé de 50 ans, hypertendu sous traitement, présente des plaques érythémato squameuses évoluant par poussées depuis plus de 10 ans. Le Diagnostic le plus probable chez ce patient est :
 
@@ -3714,7 +3714,7 @@ E] L'urticaire
 
 Correction officielle - normal 2021 Q6 = A,C,D
 
-# normal 2021 Q7 - Questions inclassifiables
+# normal 2021 Q7 - Ectoparasitoses
 
 7. Rim, âgée de 6 ans, n'a pas d' antécédent pathologique, qui présente depuis 3 jours un prurit du cuir chevelu, du cou et de la partie haute du dos. L'examen clinique du cuir chevelu trouve des lésions de folliculite, des petits corps gris ovoïdes suspendus latéralement au cheveu, avec des adénopathies cervicales. Qu'évoquez vous en premier chez cette petite ?
 
@@ -3738,7 +3738,7 @@ E] Exclusivement médicamenteux
 
 Correction officielle - normal 2021 Q8 = A,C,D
 
-# normal 2021 Q9 - Questions inclassifiables
+# normal 2021 Q9 - Infections cutanées
 
 9. Brahim, 36 ans, tabagique à 8 paquet année , consulte pour des lésions charnues, rouge vif, à surface hérissée de petites verrucosités siégeant sur le sillon balano préputial. Qu'évoquez-vous en premier ?
 
@@ -3786,7 +3786,7 @@ E] Une perfusion des immunoglobulines intraveineuse
 
 Correction officielle - normal 2021 Q12 = A
 
-# normal 2021 Q13 - Questions inclassifiables
+# normal 2021 Q13 - dermatite
 
 13. Nourrisson Ziad, âgé de 17 mois, sans antécédent pathologique particulier, présentait des lésions érythémato-vésiculeuses des joues et du front avec. une xérose cutanée diffuse depuis 6 mois, Le diagnostic que vous évoquez en premier est :
 
@@ -3894,7 +3894,7 @@ E] VDRL utilise un antigène non spécifique cardiolipidique
 
 Correction officielle - normal 2021 Q21 = C,E
 
-# normal 2021 Q22 - Questions inclassifiables
+# normal 2021 Q22 - Psoriasis
 
 22. Les pustules peuvent se voir dans les pathologies suivantes :
 
@@ -3906,7 +3906,7 @@ E] L'urticaire cholinergique
 
 Correction officielle - normal 2021 Q22 = A,B,C,D
 
-# normal 2021 Q23 - Questions inclassifiables
+# normal 2021 Q23 - Psoriasis
 
 23. Une pachyonychie (hyperkératose sous unguéale) peut se voir dans les pathologies suivantes :
 
@@ -3930,7 +3930,7 @@ E] Les B bloquants
 
 Correction officielle - normal 2021 Q24 = A,B,E
 
-# normal 2021 Q25 - Questions inclassifiables
+# normal 2021 Q25 - Psoriasis
 
 25. Une atteinte articulaire peut se voir dans les dermatoses suivantes
 
@@ -4822,7 +4822,7 @@ E] Epidermolyse bulleuse acquise
 
 Correction officielle - ratt 2021 Q48 = D
 
-# ratt 2021 Q49 - Questions inclassifiables
+# ratt 2021 Q49 - Psoriasis
 
 49. Une plaque érythémato squameuse du cuir chevelu évoque les diagnostics suivants
 
@@ -4834,7 +4834,7 @@ E] Urticaire
 
 Correction officielle - ratt 2021 Q49 = A,B,C
 
-# ratt 2021 Q50 - Questions inclassifiables
+# ratt 2021 Q50 - Psoriasis
 
 50. Une érythrodermie est une urgence dermatologique, peut se voir dans les pathologies suivantes :
 
@@ -5306,7 +5306,7 @@ E] Prélèvement mycologique des ongles
 
 Correction officielle - normal 2020 Q38 = A,B
 
-# normal 2020 Q39 - Questions inclassifiables
+# normal 2020 Q39 - Dermatose bulleuse
 
 39. Les dermatoses suivantes peuvent se compliquer de cécité, lesquelles ?
 
@@ -5318,7 +5318,7 @@ E] Gale
 
 Correction officielle - normal 2020 Q39 = A,B,C,D
 
-# normal 2020 Q40 - Questions inclassifiables
+# normal 2020 Q40 - Infections cutanées
 
 40. Les dermatoses suivantes sont vésiculeuses : lesquelles ?
 
@@ -5330,7 +5330,7 @@ E] La varicelle
 
 Correction officielle - normal 2020 Q40 = A,B,D,E
 
-# normal 2020 Q41 - Questions inclassifiables
+# normal 2020 Q41 - Ectoparasitoses
 
 41. Rim fillette de 5 ans, consulte pour un prurit du cuir chevelu évoluant depuis 6 semaines. Le (s) étiologie (s) que vous évoquez est (sont) :
 
@@ -5426,7 +5426,7 @@ E] Aphtes génitales
 
 Correction officielle - normal 2020 Q48 = C,E
 
-# normal 2020 Q49 - Questions inclassifiables
+# normal 2020 Q49 - Psoriasis
 
 49. Un adulte a des squames très épaisses blanchâtres au niveau des deux genoux persistant depuis deux ans sans autres signes associés. Le diagnostic le plus probable est :
 
@@ -5438,7 +5438,7 @@ E] Maladie de paget extra mammaire
 
 Correction officielle - normal 2020 Q49 = C
 
-# normal 2020 Q50 - Questions inclassifiables
+# normal 2020 Q50 - Psoriasis
 
 50. Chez ce patient, vous proposez en première intention :
 
@@ -5754,7 +5754,7 @@ E] du potassium par voie orale est prescrit quotidiennement
 
 Correction officielle - normal 2019 Q25 = A,D
 
-# normal 2019 Q26 - Questions inclassifiables
+# normal 2019 Q26 - Infections cutanées
 
 26. Les dermatoses suivantes sont vésiculeuses sauf une laquelle ?
 
@@ -6030,7 +6030,7 @@ E] Un frottis à. la recherche des corps de leishmanie
 
 Correction officielle - normal 2019 Q48 = B
 
-# normal 2019 Q49 - Questions inclassifiables
+# normal 2019 Q49 - Érythème noueux
 
 49. Une femme de 30 ans consulte pour des lésions érythémateuses douloureuses et infiltrés des deux jambes avec arthralgies et une fièvre à 38° vous évoquez :
 
@@ -6042,7 +6042,7 @@ E] Un érythème induré de Bazin
 
 Correction officielle - normal 2019 Q49 = B
 
-# normal 2019 Q50 - Questions inclassifiables
+# normal 2019 Q50 - Érythème noueux
 
 50. La radiographie thoracique a montré un aspect évocateur d'adénopathies thoraciques bilatérales symétriques. Le diagnostic le plus probable est :
 
@@ -6406,7 +6406,7 @@ E] Présence d' anticorps anti membrane basale à I'immunofluorescence indirecte
 
 Correction officielle - ratt 2019 Q29 = A,D
 
-# ratt 2019 Q30 - Questions inclassifiables
+# ratt 2019 Q30 - Dermatose bacteriénne
 
 30. Devant un placard brunâtre squameux des plis inguinaux, quel diagnostic évoquer ?
 
@@ -6418,7 +6418,7 @@ E] Erythrasma
 
 Correction officielle - ratt 2019 Q30 = E
 
-# ratt 2019 Q31 - Questions inclassifiables
+# ratt 2019 Q31 - Dermatose bacteriénne
 
 31. Quel (s) traitement (s) prescrire ?
 
@@ -6454,7 +6454,7 @@ E] Elle est toujours traitée par une antibiothérapie générale
 
 Correction officielle - ratt 2019 Q33 = E
 
-# ratt 2019 Q34 - Questions inclassifiables
+# ratt 2019 Q34 - Psoriasis
 
 34. Devant une lésion squameuse du cuir chevelu quels diagnostics évoquer ?
 
@@ -6502,7 +6502,7 @@ E] Peut se compliquer de staphylococcie maligne de la face
 
 Correction officielle - ratt 2019 Q37 = A,D
 
-# ratt 2019 Q38 - Questions inclassifiables
+# ratt 2019 Q38 - Ectoparasitoses
 
 38. Nourrisson Zaid, âgé de 14 mois, sans antécédent pathologique particulier, présentait des pustules palmoplantaires évoluant depuis 4 semaines, la maman rapportait qu'il était grognant et que son grand frère se grattait depuis 4 jours : Le diagnostic que vous évoquez en premier :
 

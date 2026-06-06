@@ -18,7 +18,7 @@ Mai 2017 = 50/50 Questions
 
 // Normal 2025 (Correction officielle) : https://www.e-qe.online/exam/143c6015-d5d1-4392-b64d-fe90bd2e68e5
 
-# Normal 2025 Q1 - Questions inclassifiables
+# Normal 2025 Q1 - Prévention et promotion de santé
 
 1. Selon le modèle relationnel de la prévention primaire (I), secondaire (Il), tertiaire (III) et quaternaire (IV) :
 
@@ -30,7 +30,7 @@ E] Le point de vue du médecin est croisé avec celui du malade
 
 Correction officielle - Normal 2025 Q1 = B
 
-# Normal 2025 Q2 - Questions inclassifiables
+# Normal 2025 Q2 - Prévention et promotion de santé
 
 2. Pour la mise en place d'un programme de dépistage, il faut que :
 
@@ -42,7 +42,7 @@ E] Le test de dépistage soit acceptable
 
 Correction officielle - Normal 2025 Q2 = A,B,C,D,E
 
-# Normal 2025 Q3 - Questions inclassifiables
+# Normal 2025 Q3 - Prévention et promotion de santé
 
 3. Concernant les séances d'éducation thérapeutique pour les patients diabétiques suivis dans un service, quelles sont les propositions justes :
 
@@ -54,7 +54,7 @@ E] Il s'agit surtout de changer le comportement du patient
 
 Correction officielle - Normal 2025 Q3 = C,D
 
-# Normal 2025 Q4 - Questions inclassifiables
+# Normal 2025 Q4 - Prévention et promotion de santé
 
 4. A l'occasion de la semaine santé, vous participez avec un groupe d'étudiants et de bénévoles associatifs à un programme au profit des étudiants en médecine. Après sondage et focus groupe,les activités ont inclus des séances de sensibilisation, des compétitions sportives dans un jardin aménagé et de la mobilisation de partenaires. A la présentation du programme, on vous a posé les questions suivantes. Veuillez apporter les réponses appropriées ; De quel type d'intervention s'agit-il ?
 
@@ -66,7 +66,7 @@ E] Prévention environnementale
 
 Correction officielle - Normal 2025 Q4 = A,D
 
-# Normal 2025 Q5 - Questions inclassifiables
+# Normal 2025 Q5 - Intervention de santé
 
 5. Quelles sont les étapes manquantes à la description de l'intervention ?
 
@@ -78,7 +78,7 @@ E] La phase d'amélioration
 
 Correction officielle - Normal 2025 Q5 = B,D,E
 
-# Normal 2025 Q6 - Questions inclassifiables
+# Normal 2025 Q6 - Intervention de santé
 
 6. Quelles stratégies sont illustrées dans la description de l'intervention ?
 
@@ -90,7 +90,7 @@ E] La création de milieu favorable
 
 Correction officielle - Normal 2025 Q6 = B,D,E
 
-# Normal 2025 Q7 - Questions inclassifiables
+# Normal 2025 Q7 - Intervention de santé
 
 7. Comment peut-on évaluer les résultats de l'intervention ?
 
@@ -102,7 +102,7 @@ E] Evaluer l'efficacité théorique et réelle de l'intervention
 
 Correction officielle - Normal 2025 Q7 = C,E
 
-# Normal 2025 Q8 - Questions inclassifiables
+# Normal 2025 Q8 - Intervention de santé
 
 8. Les composantes décrites de cette intervention sont :
 
@@ -114,7 +114,7 @@ E] Les résultats
 
 Correction officielle - Normal 2025 Q8 = A,B,D
 
-# Normal 2025 Q9 - Questions inclassifiables
+# Normal 2025 Q9 - Qualité de soins
 
 9. L'évaluation des pratiques professionnelles permet la sécurité des soins, en plus de la conformité aux nouveautés scientifiques, et l'investigation des effets indésirables associés aux soins. L'avis du patient peut refléter d'autres dimensions de la qualité. D'après l'énoncé, quelles sont les méthodes d'amélioration de la qualité nuancées ?
 
@@ -126,7 +126,7 @@ E] La revue de mortalité morbidité
 
 Correction officielle - Normal 2025 Q9 = B,C,D,E
 
-# Normal 2025 Q10 - Questions inclassifiables
+# Normal 2025 Q10 - Sécurité de soins
 
 10. Qu'est-ce qui peut définir un évènement indésirable associé aux soins (EIAS) ? :
 
@@ -138,7 +138,7 @@ E] Une bonne coordination de soins
 
 Correction officielle - Normal 2025 Q10 = A,B,D
 
-# Normal 2025 Q11 - Questions inclassifiables
+# Normal 2025 Q11 - Qualité de soins
 
 11. Concernant les dimensions de la qualité, cochez les réponses justes :
 
@@ -150,7 +150,7 @@ E] l'efficience est différente de l'efficacité des soins
 
 Correction officielle - Normal 2025 Q11 = A,D,E
 
-# Normal 2025 Q12 - Questions inclassifiables
+# Normal 2025 Q12 - Sécurité de soins
 
 12. La stratégie de recherche des causes d'un ElAS doit comprendre :
 
@@ -162,7 +162,7 @@ E] La recherche des causes cachées du système
 
 Correction officielle - Normal 2025 Q12 = A,B,D,E
 
-# Normal 2025 Q13 - Questions inclassifiables
+# Normal 2025 Q13 - Concept de base en santé publique
 
 13. La santé publique est caractérisée par :
 
@@ -174,7 +174,7 @@ E] L'action sur les déterminants de la santé
 
 Correction officielle - Normal 2025 Q13 = A,C,D,E
 
-# Normal 2025 Q14 - Questions inclassifiables
+# Normal 2025 Q14 - Maladie et santé
 
 14. La notion de santé comme « capacité d'adaptation » correspond au modèle :
 
@@ -186,7 +186,7 @@ E] Psycho-social
 
 Correction officielle - Normal 2025 Q14 = B
 
-# Normal 2025 Q15 - Questions inclassifiables
+# Normal 2025 Q15 - Maladie et santé
 
 15. Le modèle bio-psychosocial :
 
@@ -198,7 +198,7 @@ E] Considère la santé comme une ressource de la vie
 
 Correction officielle - Normal 2025 Q15 = D
 
-# Normal 2025 Q16 - Questions inclassifiables
+# Normal 2025 Q16 - Maladie et santé
 
 16. La déficience correspond à:
 
@@ -210,7 +210,7 @@ E] Une perception d'un handicap
 
 Correction officielle - Normal 2025 Q16 = A,B
 
-# Normal 2025 Q17 - Questions inclassifiables
+# Normal 2025 Q17 - Concept de base en santé publique
 
 17. Pendant le courant de l'hygiène publique, la santé publique avait pour objectif(s) de :
 
@@ -222,7 +222,7 @@ E] Insister sur le concept de promotion de la santé
 
 Correction officielle - Normal 2025 Q17 = A
 
-# Normal 2025 Q18 - Questions inclassifiables
+# Normal 2025 Q18 - Concept de base en santé publique
 
 18. Dans le cadre des fonctions essentielles de santé publique, les fonctions « support » incluent ?
 
@@ -234,7 +234,7 @@ E] La promotion de la santé
 
 Correction officielle - Normal 2025 Q18 = C,D
 
-# Normal 2025 Q19 - Questions inclassifiables
+# Normal 2025 Q19 - Déterminant de santé publique
 
 19. Le cancer du poumon est le premier cancer chez l'homme. Le rôle de l'exposition au tabac est scientifiquement prouvé comme facteur de risque puissant pour différents cancers. Ainsi, la lutte anti-tabac est l'une des stratégies importantes de santé publique. Parmi les interventions, on trouve : a. Le dépistage du cancer du poumon chez les fumeurs. b. La loi interdit de fumer sur les lieux publics. Dans cet exemple, le tabagisme actif est un facteur :
 
@@ -246,7 +246,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q19 = A
 
-# Normal 2025 Q20 - Questions inclassifiables
+# Normal 2025 Q20 - Déterminant de santé publique
 
 20. Pour un non-fumeur, l'exposition à la fumée du tabac dans les lieux publics correspond à:
 
@@ -258,7 +258,7 @@ E] Un déterminant psychologique
 
 Correction officielle - Normal 2025 Q20 = D
 
-# Normal 2025 Q21 - Questions inclassifiables
+# Normal 2025 Q21 - Prévention et promotion de santé
 
 21. Par rapport au cancer du poumon, l'intervention « a » intervient dans la phase :
 
@@ -269,7 +269,7 @@ D] Post-clinique
 
 Correction officielle - Normal 2025 Q21 = B
 
-# Normal 2025 Q22 - Questions inclassifiables
+# Normal 2025 Q22 - Prévention et promotion de santé
 
 22. L'intervention « a » est une mesure de prévention :
 
@@ -279,7 +279,7 @@ C] Tertiaire
 
 Correction officielle - Normal 2025 Q22 = B
 
-# Normal 2025 Q23 - Questions inclassifiables
+# Normal 2025 Q23 - Prévention et promotion de santé
 
 23. L'intervention « b » correspond à une approche ?
 
@@ -288,7 +288,7 @@ B] Préventive
 
 Correction officielle - Normal 2025 Q23 = A
 
-# Normal 2025 Q24 - Questions inclassifiables
+# Normal 2025 Q24 - SANTE environmental
 
 24. Les preuves scientifiques se sont accumulées en rapport avec le lien entre l'exposition à l'amiante et le mésothéliome. Il s'agit d'une exposition professionnelie au long court pour laquelle la maladie se développe après une période de latence de plusieurs années. L'exposition au tabac est un autre facteur de risque de ce cancer. Par rapport aux carcinogènes du tabac, de quel type d'agents s'agit-il ?
 
@@ -300,7 +300,7 @@ E] Aucune réponse n'est juste
 
 Correction officielle - Normal 2025 Q24 = A
 
-# Normal 2025 Q25 - Questions inclassifiables
+# Normal 2025 Q25 - SANTE environmental
 
 25. Quelle voie d'exposition peut-on évoquer ? (1 réponse)
 
@@ -310,7 +310,7 @@ C] Ingestion
 
 Correction officielle - Normal 2025 Q25 = A
 
-# Normal 2025 Q26 - Questions inclassifiables
+# Normal 2025 Q26 - SANTE environmental
 
 26. En ce qui concerne l'amiante, le vecteur considéré est :
 
@@ -320,7 +320,7 @@ C] Eau
 
 Correction officielle - Normal 2025 Q26 = B
 
-# Normal 2025 Q27 - Questions inclassifiables
+# Normal 2025 Q27 - SANTE environmental
 
 27. Le mésothéliome correspond à un effet de santé :
 
@@ -332,7 +332,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q27 = A,B
 
-# Normal 2025 Q28 - Questions inclassifiables
+# Normal 2025 Q28 - SANTE environmental
 
 28. L'exposition concomitante à l'amiante et au tabac :
 
@@ -342,7 +342,7 @@ C] Ces deux concepts ne s'appliquent pas à cette situation
 
 Correction officielle - Normal 2025 Q28 = A
 
-# Normal 2025 Q29 - Questions inclassifiables
+# Normal 2025 Q29 - Études cas témoins
 
 29. Une étude cas-témoins consiste à recruter deux groupes de:
 
@@ -351,7 +351,7 @@ B] Exposés et non exposés
 
 Correction officielle - Normal 2025 Q29 = A
 
-# Normal 2025 Q30 - Questions inclassifiables
+# Normal 2025 Q30 - Études cas témoins
 
 30. Parmi les limites de l'étude cas-témoins :
 
@@ -363,7 +363,7 @@ E] Nécessite un grand nombre de sujets au début
 
 Correction officielle - Normal 2025 Q30 = A,B
 
-# Normal 2025 Q31 - Questions inclassifiables
+# Normal 2025 Q31 - Études cas témoins
 
 31. L'étude cas-témoins vise à vérifier l'hypothèse de la relation entre un facteur de risque est une maladie :
 
@@ -372,7 +372,7 @@ B] Faux
 
 Correction officielle - Normal 2025 Q31 = B
 
-# Normal 2025 Q32 - Questions inclassifiables
+# Normal 2025 Q32 - Études cas témoins
 
 32. La mesure d'association utilisée dans une étude cas-témoins est :
 
@@ -384,7 +384,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q32 = D
 
-# Normal 2025 Q33 - Questions inclassifiables
+# Normal 2025 Q33 - Études cas témoins
 
 33. Les études étiologiques incluent:
 
@@ -396,7 +396,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q33 = B,C
 
-# Normal 2025 Q34 - Questions inclassifiables
+# Normal 2025 Q34 - Études descriptives
 
 34. Une série de cas permet de:
 
@@ -408,7 +408,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q34 = C
 
-# Normal 2025 Q35 - Questions inclassifiables
+# Normal 2025 Q35 - Études cas témoins
 
 35. Afin de prouver la relation entre le mésothéliome et deux facteurs d'exposition: l'amiante et le tabagisme, des chercheurs ont mené une étude auprès de 200 patients atteints de mésothéliome. Ils ont recruté également 200 sujets de la population générale indemnes de mésothéliome. Ils ont posé des questions à tous les participants par rapport à leur exposition antérieure à l'amiante (oui/non) et par rapport à leurs habitudes tabagiques. De quel type d'étude s'agit-il ?
 
@@ -420,7 +420,7 @@ E] Série de cas
 
 Correction officielle - Normal 2025 Q35 = A
 
-# Normal 2025 Q36 - Questions inclassifiables
+# Normal 2025 Q36 - Études cas témoins
 
 36. Il s'agit d'une étude :
 
@@ -432,7 +432,7 @@ E] A+D
 
 Correction officielle - Normal 2025 Q36 = A,C
 
-# Normal 2025 Q37 - Questions inclassifiables
+# Normal 2025 Q37 - Études cas témoins
 
 37. En considérant la séquence temporelle exposition-maladie, il s'agit d'une étude :
 
@@ -442,7 +442,7 @@ C] Transversale
 
 Correction officielle - Normal 2025 Q37 = A
 
-# Normal 2025 Q38 - Questions inclassifiables
+# Normal 2025 Q38 - Études cas témoins
 
 38. A partir de cette étude, on peut calculer l'incidence du mésothémiomedans la population générale :
 
@@ -451,7 +451,7 @@ B] Faux
 
 Correction officielle - Normal 2025 Q38 = B
 
-# Normal 2025 Q39 - Questions inclassifiables
+# Normal 2025 Q39 - Études cas témoins
 
 39. La mesure d'association adéquate dans cette situation est :
 
@@ -463,7 +463,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q39 = D
 
-# Normal 2025 Q40 - Questions inclassifiables
+# Normal 2025 Q40 - Études cas témoins
 
 40. Pour vérifier l'hypothèse d'association, on utilise l'intervalle de confiance de la mesure d'association calculée. Pour que l'association soit significative, l'intervalle de confiance ne doit pas contenir :
 
@@ -473,7 +473,7 @@ C] La valeur 1
 
 Correction officielle - Normal 2025 Q40 = C
 
-# Normal 2025 Q41 - Questions inclassifiables
+# Normal 2025 Q41 - Études descriptives
 
 41. Afin d'estimer l'ampleur du tabagisme chez la population marocaine, les autorités de santé publique mènent une étude auprès d'un échantillon aléatoiro de 1000 suiets adultes. La variable principale dans publique mènent une etude auprès d'un échantillon aléatoire de 1000 sujets adultes. La variable principale dans cette étude le fait de fumer tous les jours depuis 6 mois ou plus. Dans l'échantillon, il y avait 260 fumeurs selon la définition considérée. L'échantillon adopté dans cet exemple est un échantillon probabiliste :
 
@@ -482,7 +482,7 @@ B] Faux
 
 Correction officielle - Normal 2025 Q41 = A
 
-# Normal 2025 Q42 - Questions inclassifiables
+# Normal 2025 Q42 - Études descriptives
 
 42. L'objectif de l'étude décrite dans l'exemple est de:
 
@@ -494,7 +494,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q42 = C
 
-# Normal 2025 Q43 - Questions inclassifiables
+# Normal 2025 Q43 - Études descriptives
 
 Il s'agit d'une étude :
 
@@ -505,7 +505,7 @@ D. Descriptive
 
 Correction officielle - Normal 2025 Q43 = D
 
-# Normal 2025 Q44 - Questions inclassifiables
+# Normal 2025 Q44 - Études descriptives
 
 44. L'étude décrite permet d'estimer la prévalence du tabagisme.
 
@@ -514,7 +514,7 @@ B] Faux
 
 Correction officielle - Normal 2025 Q44 = A
 
-# Normal 2025 Q45 - Questions inclassifiables
+# Normal 2025 Q45 - Études descriptives
 
 45. L'étude décrite dans l'exemple est de type :
 
@@ -526,7 +526,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q45 = A
 
-# Normal 2025 Q46 - Questions inclassifiables
+# Normal 2025 Q46 - Études descriptives
 
 46. Le résultat principal de cette étude est :
 
@@ -538,7 +538,7 @@ E] Le taux de mortalité
 
 Correction officielle - Normal 2025 Q46 = B
 
-# Normal 2025 Q47 - Questions inclassifiables
+# Normal 2025 Q47 - Études descriptives
 
 47. La proportion des tabagiques dans cette étude est de :
 
@@ -550,7 +550,7 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2025 Q47 = C
 
-# Normal 2025 Q48 - Questions inclassifiables
+# Normal 2025 Q48 - Essai clinique randomisée
 
 48. Pour tester l'efficacité d'un nouveau protocole de chimiothérapie pour le traitement du manière aléatoire, le premier groupe recevra le nouveau protocole, alors que le deuxième groupe recevra le mésothéliome, les chercheurs planifient de répartir les 200 patients atteints de mésothéliome en 2 groupes de protocole standard. Ni les malades ni les médecins qui font le suivi ne sauront quel traitement est pris par chaque malade. De quel type d'étude s'agit-il ?
 
@@ -562,7 +562,7 @@ E] Série de cas
 
 Correction officielle - Normal 2025 Q48 = B
 
-# Normal 2025 Q49 - Questions inclassifiables
+# Normal 2025 Q49 - Essai clinique randomisée
 
 49. Il s'agit d'une étude :
 
@@ -573,7 +573,7 @@ D. Transversale
 
 Correction officielle - Normal 2025 Q49 = A,B
 
-# Normal 2025 Q50 - Questions inclassifiables
+# Normal 2025 Q50 - Essai clinique randomisée
 
 50. Il s'agit d'une étude :
 

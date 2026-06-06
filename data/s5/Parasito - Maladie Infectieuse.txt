@@ -356,7 +356,7 @@ E] Antigènes dans les urines
 
 Correction officielle - janvier 2026 Q28 = C
 
-# janvier 2026 Q29 - Questions inclassifiables
+# janvier 2026 Q29 - Flagelloses digestives et urogénitales
 
 29. Le Cycle de développement de Giardia duodenalis présente les caractéristiques suivantes :
 
@@ -1104,7 +1104,7 @@ E] Stade E
 
 Correction officielle - Janvier 2025 Q40 = C
 
-# Janvier 2025 Q41 - Questions inclassifiables
+# Janvier 2025 Q41 - Rickettsiose - Fièvre Q
 
 41. Un patient de 40 ans consulte pour une éruption cutanée généralisée touchant aussi les paumes et les plantes et qui est apparue depuis 5 jours avec fièvre. Au niveau de la cuisse on retrouve aussi une ulcération d'un centimètre couverte d'une croute noirâtre.Cette lésion de la cuisse s'appelle :
 
@@ -1116,7 +1116,7 @@ E] Un érythème migrant
 
 Correction officielle - Janvier 2025 Q41 = D
 
-# Janvier 2025 Q42 - Questions inclassifiables
+# Janvier 2025 Q42 - Rickettsiose - Fièvre Q
 
 42. Cette lésion est pathognomonique de :
 
@@ -1128,7 +1128,7 @@ E] Une borréliose
 
 Correction officielle - Janvier 2025 Q42 = D
 
-# Janvier 2025 Q43 - Questions inclassifiables
+# Janvier 2025 Q43 - Rickettsiose - Fièvre Q
 
 43. Le traitement antibiotique que vous allez prescrire à ce patient est :
 
@@ -1200,7 +1200,7 @@ E] Réaliser de première intention une biopsie ostéomédullaire
 
 Correction officielle - Janvier 2025 Q48 = A,B,C,D
 
-# Janvier 2025 Q49 - Questions inclassifiables
+# Janvier 2025 Q49 - Les infections à streptocoques
 
 49. Parmi les signes d'évolution vers une nécrose d'une dermo-hypodermite bactérienne :
 
@@ -3399,7 +3399,7 @@ E] Ankylostomose
 
 Correction officielle - 2023 N Q38 = C,D,E
 
-# 2023 N Q39 - Questions inclassifiables
+# 2023 N Q39 - Généralités en parasitologies mycologie médicale
 
 39. Quelles sont les parasitoses qui ont besoin d'un hôte intermédiaire ?
 
@@ -3459,7 +3459,7 @@ E] L'auto Infestation entretient l'infection parasitaire.
 
 Correction officielle - 2023 N Q43 = B,E
 
-# 2023 N Q44 - Questions inclassifiables
+# 2023 N Q44 - Le diagnostique des parasites
 
 44. Parmi lesquelles des situations infectieuses suivantes, observe-t-on une hyperéosinophilie sanguine?
 
@@ -3507,7 +3507,7 @@ E] La pédiculose.
 
 Correction officielle - 2023 N Q47 = D
 
-# 2023 N Q48 - Questions inclassifiables
+# 2023 N Q48 - Généralités en parasitologies mycologie médicale
 
 48. La cuisson suffisante de la viande est une des mesures préventives vis-à-vis des parasitoses suivantes :
 
@@ -4643,7 +4643,7 @@ E] Peut se traduire par une hyperéosinophilie pendant la phase de migration lar
 
 Correction officielle - 2021 N Q41 = B,E
 
-# 2021 N Q42 - Questions inclassifiables
+# 2021 N Q42 - Taeniasis et cysticercose
 
 42. Le scotch-test anal est recommandé dans le diagnostic parasitologique de :
 
@@ -4679,7 +4679,7 @@ E] Le traitement de référence est le praziquantel.
 
 Correction officielle - 2021 N Q44 = A,B,E
 
-# 2021 N Q45 - Questions inclassifiables
+# 2021 N Q45 - Généralités en parasitologies mycologie médicale
 
 45. Parmi les parasitoses suivantes, quelles sont celles qui peuvent se prévenir par le lavage des fruits et crudités ?
 
@@ -4703,7 +4703,7 @@ E] Les gamétocytes de Plasmodium falciparum sont recherchés dans la goutte ép
 
 Correction officielle - 2021 N Q46 = A,E
 
-# 2021 N Q47 - Questions inclassifiables
+# 2021 N Q47 - Généralités en parasitologies mycologie médicale
 
 47. Quels sont les parasites pouvant donner une atteinte cérébrale ?
 
@@ -4739,7 +4739,7 @@ E] donne des gamètes chez l'hôte définitif
 
 Correction officielle - 2021 N Q49 = B,D,E
 
-# 2021 N Q50 - Questions inclassifiables
+# 2021 N Q50 - Généralités en parasitologies mycologie médicale
 
 50. Quels sont les parasites et ou champignons pouvant donner une atteinte hépatique ?
 
@@ -5283,7 +5283,7 @@ E] Les œufs du Bothriocéphale sont mis en évidence dans les crachats.
 
 Correction officielle - 2021 R Q44 = C
 
-# 2021 R Q45 - Questions inclassifiables
+# 2021 R Q45 - Amibes et amibiases
 
 45. Quels sont les parasites pouvant donner une atteinte hépatique ?
 
@@ -5671,7 +5671,7 @@ E] La Giardiose
 
 Correction officielle - 2020 N Q26 = D,E
 
-# 2020 N Q27 - Questions inclassifiables
+# 2020 N Q27 - Généralités en parasitologies mycologie médicale
 
 27. Quels sont les éléments infestants dans les maladies parasitaires ?
 
@@ -5683,7 +5683,7 @@ E] Les spores fongiques
 
 Correction officielle - 2020 N Q27 = A,D
 
-# 2020 N Q28 - Questions inclassifiables
+# 2020 N Q28 - Généralités en parasitologies mycologie médicale
 
 28. Les champignons transmis par inhalation sont ?
 
@@ -5779,7 +5779,7 @@ E] se multiplie chez l'homme par Schizogonie
 
 Correction officielle - 2020 N Q35 = B,E
 
-# 2020 N Q36 - Questions inclassifiables
+# 2020 N Q36 - Généralités en parasitologies mycologie médicale
 
 36. Plasmodium knowlesi, Toxoplasma gondii et Cryptosporidium hominis ont en commun de :
 
@@ -5791,7 +5791,7 @@ E] se multiplier chez l'Homme par Gamogonie
 
 Correction officielle - 2020 N Q36 = A
 
-# 2020 N Q37 - Questions inclassifiables
+# 2020 N Q37 - Généralités en parasitologies mycologie médicale
 
 37. Quels sont les parasites transmis à l'Homme par la consommation de viande peu cuite contenant des larves?
 
@@ -5963,7 +5963,7 @@ Correction officielle - 2020 N Q50 = E
 
 // 2020 R (Correction officielle) : https://www.e-qe.online/exam/6992c652-9a12-450b-b9de-2614ee652aa9
 
-# 2020 R Q1 - Questions inclassifiables
+# 2020 R Q1 - Généralités en parasitologies mycologie médicale
 
 1. Quelles sont les 2 parasitoses à transmission vectorielle parmi celles-ci:
 
@@ -5975,7 +5975,7 @@ E] L' Ascaridiose
 
 Correction officielle - 2020 R Q1 = C,D
 
-# 2020 R Q2 - Questions inclassifiables
+# 2020 R Q2 - Généralités en parasitologies mycologie médicale
 
 2. Précisez les éléments infestants dans les mycoses :
 
@@ -5987,7 +5987,7 @@ E] Les spores fongiques
 
 Correction officielle - 2020 R Q2 = C,E
 
-# 2020 R Q3 - Questions inclassifiables
+# 2020 R Q3 - champignons filamenteux
 
 3. Quels sont les champignons recherchés dans les crachats ?
 
@@ -5999,7 +5999,7 @@ E] Cryptococcus neoformans
 
 Correction officielle - 2020 R Q3 = B,E
 
-# 2020 R Q4 - Questions inclassifiables
+# 2020 R Q4 - Généralités en parasitologies mycologie médicale
 
 4. Quelles sont les parasitoses pour lesquelles, les parasites pénètrent par voie transcutanée ?
 
@@ -6083,7 +6083,7 @@ E] est réalisé par biologie moléculaire
 
 Correction officielle - 2020 R Q10 = B,D,E
 
-# 2020 R Q11 - Questions inclassifiables
+# 2020 R Q11 - Généralités en parasitologies mycologie médicale
 
 11. Ankylostoma duodenale, Strongyloides stercoralis et Cryptosporidium hominis ont en commun de :
 
@@ -6095,7 +6095,7 @@ E] avoir un mollusque d'eau douce comme hôte intermédiaire
 
 Correction officielle - 2020 R Q11 = D
 
-# 2020 R Q12 - Questions inclassifiables
+# 2020 R Q12 - Généralités en parasitologies mycologie médicale
 
 12. Quels sont les parasites transmis à l'Homme par la consommation de l'eau, des légumes ou fruits contaminés par des Oocystes?
 
@@ -6143,7 +6143,7 @@ E] Le diagnostic repose sur la sérologie
 
 Correction officielle - 2020 R Q15 = B,E
 
-# 2020 R Q16 - Questions inclassifiables
+# 2020 R Q16 - Généralités en parasitologies mycologie médicale
 
 16. La lutte contre le vecteur dans les parasitoses à transmission vectorielle passe par :
 
@@ -6167,7 +6167,7 @@ E] la recherche des kystes dans les selles
 
 Correction officielle - 2020 R Q17 = A,B,C
 
-# 2020 R Q18 - Questions inclassifiables
+# 2020 R Q18 - Généralités en parasitologies mycologie médicale
 
 18. L'ingestion de viande insuffisamment cuite peut transmettre:
 
@@ -6879,7 +6879,7 @@ E] Une Oxyurose
 
 Correction officielle - 2019 N Q26 = D
 
-# 2019 N Q27 - Questions inclassifiables
+# 2019 N Q27 - Généralités en parasitologies mycologie médicale
 
 27. Quelle sont les parasitoses à transmission vectorielle parmi celles-ci :
 
@@ -6891,7 +6891,7 @@ E] La Trypanosomiase
 
 Correction officielle - 2019 N Q27 = B,C,E
 
-# 2019 N Q28 - Questions inclassifiables
+# 2019 N Q28 - Généralités en parasitologies mycologie médicale
 
 28. Dans les maladies parasitaires, la prophylaxie passe par :
 
@@ -6999,7 +6999,7 @@ E] Entre le s homosexuels
 
 Correction officielle - 2019 N Q36 = B,D
 
-# 2019 N Q37 - Questions inclassifiables
+# 2019 N Q37 - Généralités en parasitologies mycologie médicale
 
 37. Plasmodium vivax, Toxoplasma gondii et Cryptosporidium hominis ont en commun :
 
@@ -7471,7 +7471,7 @@ E] La sérologie n'a pas d'intérêt diagnostique
 
 Correction officielle - 2019 R Q25 = C
 
-# 2019 R Q26 - Questions inclassifiables
+# 2019 R Q26 - Généralités en parasitologies mycologie médicale
 
 26. Les parasites de l'Homme ont la caractéristique de :
 
@@ -7483,7 +7483,7 @@ E] Tirent profit de leur hôte après l'avoir tué
 
 Correction officielle - 2019 R Q26 = D
 
-# 2019 R Q27 - Questions inclassifiables
+# 2019 R Q27 - Le diagnostique des parasites
 
 27. L'hyperéosinophilie sanguine d'origine parasitaire :
 
@@ -7615,7 +7615,7 @@ E] Microsporum audouinii
 
 Correction officielle - 2019 R Q37 = B
 
-# 2019 R Q38 - Questions inclassifiables
+# 2019 R Q38 - Généralités en parasitologies mycologie médicale
 
 38. Parmi ces parasites, désigner celui qui se transmet par un vecteur?
 
@@ -7687,7 +7687,7 @@ E] Kystes de Sarcoptes scabei dans le derme
 
 Correction officielle - 2019 R Q43 = D
 
-# 2019 R Q44 - Questions inclassifiables
+# 2019 R Q44 - Taeniasis et cysticercose
 
 44. Le scotch-test anal est recommandé dans le diagnostic parasitologique de :
 

@@ -1835,7 +1835,7 @@ C] écho doppler artériel des membres supérieurs
 D] électrocardiogramme
 E] radiographie des mains
 
-# Novembre 2024 Q12 - Questions inclassifiables
+# Novembre 2024 Q12 - SAPL
 
 12. Mme âgée de 36 ans se présente aux urgence pour une jambe gauche augmentée de volume douloureuse et dont l'échodoppler veineux montre une phlébite surale elle a comme antécédents médicaux 3 avortements à répétitions, et une thrombophlèbite du membre inférieure droit il y a 2 ans, sa tension artérielle est à 120/70 mmhg. Quel est votre diagnostic?
 
@@ -1845,7 +1845,7 @@ C] un syndrome des antiphospholipides
 D] éclampsie
 E] une maladie de TAKAYASU
 
-# Novembre 2024 Q13 - Questions inclassifiables
+# Novembre 2024 Q13 - SAPL
 
 13. Quels anticorps pouvez-vous retrouvez à un taux significatif dans ce cas?
 
@@ -1855,7 +1855,7 @@ C] Anticorps anticardiolipine
 D] Anticorps anti B2GPI
 E] Anticorps anti CCP
 
-# Novembre 2024 Q14 - Questions inclassifiables
+# Novembre 2024 Q14 - dermatomyosite
 
 14. Mr A âgé de 50 ans présente depuis une semaine une asthénie, une douleur des cuisses et des épaules, une difficulté à monter les escaliers et à se peigner, Érythème et œdèmes des paupières en lunettes, des lésions érythémato-squameuses en regard des MCP, IPP et IPD.Quel est votre diagnostic?
 
@@ -1865,7 +1865,7 @@ C] Une dermatomyosite
 D] Un syndrome des anti synthétases
 E] Sclérodermie systémique
 
-# Novembre 2024 Q15 - Questions inclassifiables
+# Novembre 2024 Q15 - dermatomyosite
 
 15. Quels sont les examens complémentaires utiles au diagnostic?
 
@@ -1875,7 +1875,7 @@ C] l'électromyogramme
 D] les radiographies des épaules
 E] l'échographie des cuisses et épaules
 
-# Novembre 2024 Q16 - Questions inclassifiables
+# Novembre 2024 Q16 - Introduction aux vascularites systémiques et horton
 
 16. Mme HB âgée de 67 ans sans antécédents pathologiques particulier se plaint de céphalées depuis 2 semaines de siège temporale avec une hyperesthésie du cuire chevelu à l'examen clinique une sensibilité de l'artère temporale avec au plan biologique une CRP a 50 mg/l. quel est votre diagnostic?
 
@@ -1885,7 +1885,7 @@ C] granulomatose avec polyangéite
 D] polyangéite microscopique
 E] vascularite cryoglobulinémique
 
-# Novembre 2024 Q17 - Questions inclassifiables
+# Novembre 2024 Q17 - Introduction aux vascularites systémiques et horton
 
 17. quel est le traitement de première intention dans ce cas ?
 
@@ -2819,7 +2819,7 @@ E] L'atteinte axillo-sous clavière se traduit par une claudication intermittent
 
 Correction officielle - Mai 2023 Q8 = B,C,D,E
 
-# Mai 2023 Q9 - Questions inclassifiables
+# Mai 2023 Q9 - Lupus érythémateux systémique
 
 9. Cas: 1. Patiente de 30 ans, est hospitalisée pour polyarthralgies inflammatoires des petites articulations des main: évoluant depuis 3 mois. Elle n'est pas fébrile. L'auscultation cardiaque et pulmonaire est normale. L'examen rhumatologique est normal en dehors d'une douleur à la palpation des IPP. Le reste de l'examen clinique est normal Sur le plan paraclinique: VS: 60 mm la 1re heure; CRP: 15 mg/1; GB: 3 000/mm3; PNN: 1000; Ly: 800; Hb: 9 g/100 ml; VGM: 92, TCMH: 28, taux de réticulocytes: 200. 000, plaquettes: 100 000/mm3; TP : 8' %; TCA: 40/30; créatinine: 10 mg/l. Antinucléaires en IFI: 1/500.Quelle est le mécanisme de cette anémie ?
 
@@ -2831,7 +2831,7 @@ E] Carence en vitamine B12
 
 Correction officielle - Mai 2023 Q9 = B
 
-# Mai 2023 Q10 - Questions inclassifiables
+# Mai 2023 Q10 - Lupus érythémateux systémique
 
 10. Quel est votre diagnostic?
 
@@ -2843,7 +2843,7 @@ E] Une maladie de Behçet
 
 Correction officielle - Mai 2023 Q10 = D
 
-# Mai 2023 Q11 - Questions inclassifiables
+# Mai 2023 Q11 - Lupus érythémateux systémique
 
 11. Quel est le diagnostic différentiel à l'étape clinique?
 
@@ -2855,7 +2855,7 @@ E] Une dermatomyosite
 
 Correction officielle - Mai 2023 Q11 = A
 
-# Mai 2023 Q12 - Questions inclassifiables
+# Mai 2023 Q12 - Lupus érythémateux systémique
 
 12. Quelles données des examens complémentaires sont-elles en faveur ?
 
@@ -2867,7 +2867,7 @@ E] Créatinine à 10 mg/l
 
 Correction officielle - Mai 2023 Q12 = A,B,C,D
 
-# Mai 2023 Q13 - Questions inclassifiables
+# Mai 2023 Q13 - Lupus érythémateux systémique
 
 13. Le bilan d'extension repose sur
 
@@ -3436,7 +3436,7 @@ E] Une hyperleucocytose
 
 Correction officielle - Normal 2022 Q9 = A,B
 
-# Normal 2022 Q10 - Questions inclassifiables
+# Normal 2022 Q10 - Syndrome de gougerot-sjogren
 
 10. Parmi les facteurs prédictifs de l'évolution vers un lymphome
 
@@ -4364,7 +4364,7 @@ E] maladies mitochondriales
 
 Correction officielle - Ratt 2022 Q36 = D
 
-# Ratt 2022 Q37 - Questions inclassifiables
+# Ratt 2022 Q37 - Généralités en génétique
 
 37. La drépanocytose est une maladie autosomique récessive dont l'incidence des hétérozygotes est de 1/625 chez la population africo-américaine. Quelle est la fréquence des hétérozygotes?
 
@@ -7308,7 +7308,7 @@ E] L'apparition de chaînes légères dans les urines
 
 Correction officielle - Ratt 2019 Q9 = A,D,E
 
-# Ratt 2019 Q10 - Questions inclassifiables
+# Ratt 2019 Q10 - Artérite de takayasu
 
 10. Cas clinique: 3. Mme B. âgée de 40 ans,sans antécédents pathologique particulier souffre depuis 3 mois d'une Claudication intermittente du membre supérieur droit (MSD) avec à l'examen diminution du pouls radial droit. Quel diagnostic évoquez- vous en premier ?
 
@@ -7320,7 +7320,7 @@ E] Périartérite noueuse
 
 Correction officielle - Ratt 2019 Q10 = C
 
-# Ratt 2019 Q11 - Questions inclassifiables
+# Ratt 2019 Q11 - Artérite de takayasu
 
 11. Quels examens complémentaires proposez vous pour votre diagnostic?
 
@@ -8672,7 +8672,7 @@ E] 45,XX,rob(14;21)(q10;q10),+21
 
 Correction officielle - Normal génétique 2017 Q22 = C
 
-# Normal génétique 2017 Q23 - Questions inclassifiables
+# Normal génétique 2017 Q23 - Le conseil génétique
 
 23. Quels sont les différents types de zygotes pouvant être conçus par ce couple ?
 
@@ -8684,7 +8684,7 @@ E] Trisomie 14 à l'origine d'une fausse couche spontanée.
 
 Correction officielle - Normal génétique 2017 Q23 = A,B,C,D,E
 
-# Normal génétique 2017 Q24 - Questions inclassifiables
+# Normal génétique 2017 Q24 - Le conseil génétique
 
 24. Quel est le risque de récurrence de la trisomie 21 dans la descendance de ce couple ?
 
@@ -8696,7 +8696,7 @@ E] 100%
 
 Correction officielle - Normal génétique 2017 Q24 = B
 
-# Normal génétique 2017 Q25 - Questions inclassifiables
+# Normal génétique 2017 Q25 - Le conseil génétique
 
 25. Quelles sont les possibilités offertes à ce couple ?
 
@@ -8708,7 +8708,7 @@ E] Toutes les propositions ci-dessus sont fausses.
 
 Correction officielle - Normal génétique 2017 Q25 = A,B,C,D
 
-# Normal génétique 2017 Q26 - Questions inclassifiables
+# Normal génétique 2017 Q26 - Pathologie chromosomique
 
 26. Quelles sont les 3 principales explorations (radiologiques et biologiques) à effectuer chez cette enfant trisomique 21 ?
 
@@ -8720,7 +8720,7 @@ E] La radiographie du rachis cervical.
 
 Correction officielle - Normal génétique 2017 Q26 = C,D,E
 
-# Normal génétique 2017 Q27 - Questions inclassifiables
+# Normal génétique 2017 Q27 - Pathologie chromosomique
 
 27. Vous recevez en consultation un nouveau-né présentant un syndrome malformatif, une fente labio palatine bilatérale, une microphtalmie et une hexadactylie. Quel diagnostic suspectez-vous ?
 
@@ -8732,7 +8732,7 @@ E] Syndrome de Wolf-Hirschhorn.
 
 Correction officielle - Normal génétique 2017 Q27 = B
 
-# Normal génétique 2017 Q28 - Questions inclassifiables
+# Normal génétique 2017 Q28 - Pathologie chromosomique
 
 28. Vous recevez en consultation un nouveau-né de sexe masculin présentant un syndrome malformatif, un retard de croissance intra-utérin et une dysmorphie faciale en casque de guerrier grec. Quel diagnostic suspectez-vous ?
 
@@ -8744,7 +8744,7 @@ E] Syndrome de Wolf-Hirschhorn.
 
 Correction officielle - Normal génétique 2017 Q28 = E
 
-# Normal génétique 2017 Q29 - Questions inclassifiables
+# Normal génétique 2017 Q29 - Pathologie chromosomique
 
 29. Quelle est l'anomalie chromosomique impliquée dans ce syndrome ?
 
@@ -8756,7 +8756,7 @@ E] Délétion 4q16.
 
 Correction officielle - Normal génétique 2017 Q29 = D
 
-# Normal génétique 2017 Q30 - Questions inclassifiables
+# Normal génétique 2017 Q30 - Pathologie chromosomique
 
 30. Le caryotype constitutionnel sanguin chez ce patient revient normal. Quel test génétique de 2ème intention allez-vous demander pour confirmer le diagnostic suspecté ?
 
@@ -8768,7 +8768,7 @@ E] L'utilisation des marqueurs microsatellites.
 
 Correction officielle - Normal génétique 2017 Q30 = C
 
-# Normal génétique 2017 Q31 - Questions inclassifiables
+# Normal génétique 2017 Q31 - Syndrome de l'X fragile
 
 31. A propos du syndrome de l'X fragile, quelles sont les propositions justes ?
 
@@ -8780,7 +8780,7 @@ E] C'est une maladie due à une expansion du triplet CAG au niveau du gène FMR1
 
 Correction officielle - Normal génétique 2017 Q31 = B
 
-# Normal génétique 2017 Q32 - Questions inclassifiables
+# Normal génétique 2017 Q32 - Syndrome de Turner
 
 32. A propos du syndrome de Turner, quelles sont les propositions exactes ?
 
@@ -8792,7 +8792,7 @@ E] Ce syndrome est associé à un risque de manifestation de maladies récessive
 
 Correction officielle - Normal génétique 2017 Q32 = A,D,E
 
-# Normal génétique 2017 Q33 - Questions inclassifiables
+# Normal génétique 2017 Q33 - Diagnostic anténatal et Caryotype
 
 33. Chez un sujet phénotypiquement normal dont le caryotype est à 46 chromosomes, quelles sont les anomalies que l'on peut observer ?
 
@@ -8804,7 +8804,7 @@ E] Une inversion chromosomique.
 
 Correction officielle - Normal génétique 2017 Q33 = D,E
 
-# Normal génétique 2017 Q34 - Questions inclassifiables
+# Normal génétique 2017 Q34 - Syndrome de Klinefelter
 
 34. Quelles sont les propositions justes concernant le syndrome de Klinefelter ?
 
@@ -8816,7 +8816,7 @@ E] La prise en charge inclut l'administration de testostérone.
 
 Correction officielle - Normal génétique 2017 Q34 = A,D,E
 
-# Normal génétique 2017 Q35 - Questions inclassifiables
+# Normal génétique 2017 Q35 - Syndrome de Turner
 
 35. Le syndrome de Turner chez une adolescente peut inclure :
 
@@ -8828,7 +8828,7 @@ E] Des organes génitaux de type infantile.
 
 Correction officielle - Normal génétique 2017 Q35 = A,B,C,D,E
 
-# Normal génétique 2017 Q36 - Questions inclassifiables
+# Normal génétique 2017 Q36 - Diagnostic anténatal et Caryotype
 
 36. A propos du caryotype, quelles sont les propositions justes ?
 
@@ -8840,7 +8840,7 @@ E] Il permet de mettre en évidence les anomalies chromosomiques de nombre ou de
 
 Correction officielle - Normal génétique 2017 Q36 = A,D,E
 
-# Normal génétique 2017 Q37 - Questions inclassifiables
+# Normal génétique 2017 Q37 - Syndrome de l'X fragile
 
 37. Quel est le type de mutation moléculaire la plus retrouvée dans le syndrome de l'X fragile ?
 
@@ -8852,7 +8852,7 @@ E] Une expansion du triplet CGG au niveau du gène FMR1.
 
 Correction officielle - Normal génétique 2017 Q37 = E
 
-# Normal génétique 2017 Q38 - Questions inclassifiables
+# Normal génétique 2017 Q38 - Syndrome de Turner
 
 38. Le conseil génétique est rassurant dans le syndrome de Turner en cas de :
 
@@ -8864,7 +8864,7 @@ E] Anomalies chromosomiques secondaires à un remaniement parental.
 
 Correction officielle - Normal génétique 2017 Q38 = A,B,C,D
 
-# Normal génétique 2017 Q39 - Questions inclassifiables
+# Normal génétique 2017 Q39 - Diagnostic anténatal et Caryotype
 
 39. Le caryotype constitutionnel est indiqué chez l'adulte dans les situations suivantes :
 
@@ -8876,7 +8876,7 @@ E] Parents et familles d'enfants porteurs d'une anomalie chromosomique.
 
 Correction officielle - Normal génétique 2017 Q39 = B,C,D,E
 
-# Normal génétique 2017 Q40 - Questions inclassifiables
+# Normal génétique 2017 Q40 - Modes de transmission des maladies héréditaires
 
 40. Parmi les pathologies ci-dessous, lesquelles sont à transmission récessive liée à l'X ?
 
@@ -8888,7 +8888,7 @@ E] Syndrome de Marfan.
 
 Correction officielle - Normal génétique 2017 Q40 = B,C
 
-# Normal génétique 2017 Q41 - Questions inclassifiables
+# Normal génétique 2017 Q41 - Modes de transmission des maladies héréditaires
 
 41. A propos de l'hérédité mitochondriale, quelles sont les propositions justes ?
 
@@ -8900,7 +8900,7 @@ E] Le tableau clinique est variable en fonction de l'âge et du tissu.
 
 Correction officielle - Normal génétique 2017 Q41 = C,D,E
 
-# Normal génétique 2017 Q42 - Questions inclassifiables
+# Normal génétique 2017 Q42 - Le conseil génétique
 
 42. Le conseil génétique est facile à calculer en cas de :
 
@@ -8912,7 +8912,7 @@ E] affections monogéniques.
 
 Correction officielle - Normal génétique 2017 Q42 = C,E
 
-# Normal génétique 2017 Q43 - Questions inclassifiables
+# Normal génétique 2017 Q43 - Généralités en génétique
 
 43. A propos des mutations géniques, quelles sont les propositions justes ?
 
@@ -8924,7 +8924,7 @@ E] Les mutations germinales sont transmises à la descendance.
 
 Correction officielle - Normal génétique 2017 Q43 = A,D,E
 
-# Normal génétique 2017 Q44 - Questions inclassifiables
+# Normal génétique 2017 Q44 - Modes de transmission des maladies héréditaires
 
 44. A propos de la myopathie de Duchenne, quelles sont les propositions justes ?
 
@@ -8936,7 +8936,7 @@ E] Il n'y a pas de corrélation entre la sévérité du tableau clinique et la t
 
 Correction officielle - Normal génétique 2017 Q44 = A,D,E
 
-# Normal génétique 2017 Q45 - Questions inclassifiables
+# Normal génétique 2017 Q45 - Diagnostic anténatal et Caryotype
 
 45. A propos du diagnostic anténatal, quelles sont les propositions exactes ?
 
@@ -8948,7 +8948,7 @@ E] Il doit être précédé d'une consultation de conseil génétique.
 
 Correction officielle - Normal génétique 2017 Q45 = A,B,D,E
 
-# Normal génétique 2017 Q46 - Questions inclassifiables
+# Normal génétique 2017 Q46 - Diagnostic anténatal et Caryotype
 
 46. A propos du diagnostic préconceptionnel, quelles sont les 2 propositions justes ?
 
@@ -8960,7 +8960,7 @@ E] Il est basé sur une analyse génétique des 1er et 2ème globules polaires d
 
 Correction officielle - Normal génétique 2017 Q46 = B,E
 
-# Normal génétique 2017 Q47 - Questions inclassifiables
+# Normal génétique 2017 Q47 - Modes de transmission des maladies héréditaires
 
 47. Quel est le risque d'un sujet achondroplasie d'avoir un enfant atteint par la même pathologie ?
 
@@ -8984,7 +8984,7 @@ E] Autosomique dominant
 
 Correction officielle - Normal génétique 2017 Q48 = C
 
-# Normal génétique 2017 Q49 - Questions inclassifiables
+# Normal génétique 2017 Q49 - Modes de transmission des maladies héréditaires
 
 49. Quel est le risque de III3 d'être conductrice ?
 
@@ -8996,7 +8996,7 @@ E] 0%
 
 Correction officielle - Normal génétique 2017 Q49 = A
 
-# Normal génétique 2017 Q50 - Questions inclassifiables
+# Normal génétique 2017 Q50 - Modes de transmission des maladies héréditaires
 
 50. Quel est le risque de IV2 d'avoir un garçon atteint ?
 

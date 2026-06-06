@@ -286,7 +286,7 @@ E] Est une tumeur de bon pronostic
 
 Correction officielle - Normal 2025 Q22 = A,B,D
 
-# Normal 2025 Q23 - Questions inclassifiables
+# Normal 2025 Q23 - Pathologies traumatiques
 
 23. Quelles complications doit-on craindre chez un opéré du crâne ?
 
@@ -298,7 +298,7 @@ E] Une infection
 
 Correction officielle - Normal 2025 Q23 = A,B,C,D,E
 
-# Normal 2025 Q24 - Questions inclassifiables
+# Normal 2025 Q24 - Pathologies traumatiques
 
 24. Quelles complications doit-on craindre chez un opéré du rachis ?
 
@@ -370,7 +370,7 @@ E] Dosage de la créatine kinase
 
 Correction officielle - Normal 2025 Q29 = A,B,C,D
 
-# Normal 2025 Q30 - Questions inclassifiables
+# Normal 2025 Q30 - Pathologies neurologiques périphériques
 
 30. Patient âgé de 20 ans, présente suite à un syndrome grippal une impotence fonctionnelle des MI puis des MS installée sur 3 jours. Examen clinique retrouvait une tétraplégie, hypotonie des 4 membres, ROT abolis aux 4 membres, Réflexe cutané plantaire indifférent. Quel diagnostic évoqueriez vous en premier?
 
@@ -382,7 +382,7 @@ E] polyneuropathie
 
 Correction officielle - Normal 2025 Q30 = A
 
-# Normal 2025 Q31 - Questions inclassifiables
+# Normal 2025 Q31 - Pathologies neurologiques périphériques
 
 31. Quel bilan demanderiez vous chez ce patient?
 
@@ -394,7 +394,7 @@ E] Etude du LCR
 
 Correction officielle - Normal 2025 Q31 = A,E
 
-# Normal 2025 Q32 - Questions inclassifiables
+# Normal 2025 Q32 - Pathologies neurologiques périphériques
 
 32. Etude d u LCR montrait une protéinorachie à 0,9 g/L, cellules à 1 éléments, quel(s)traitement (s) proposeriez-vous ?
 
@@ -610,7 +610,7 @@ E] Des troubles du schéma corporel
 
 Correction officielle - Normal 2025 Q49 = A,C,D,E
 
-# Normal 2025 Q50 - Questions inclassifiables
+# Normal 2025 Q50 - Les AVCs
 
 50. L'imagerie par résonnance magnétique (IRM) :
 
@@ -7130,7 +7130,7 @@ E] L'atteinte neurologique peut être réversible
 
 Correction officielle - Normal 2018 Q47 = E
 
-# Normal 2018 Q48 - Questions inclassifiables
+# Normal 2018 Q48 - Pathologies tumorales du système nerveux central
 
 48. CAS CLINIQUE : Un enfant âgé de 4 ans se plaint depuis 3 semaines de céphalées diffuses associées à des vomissements et à des troubles de la marche évoluant de façon progressive. A l'examen la marche est instable avec élargissement du polygone de sustentation et tendance à la chute dans tous les sens. Il n'y a pas de trouble de la coordination motrice. Il existe un strabisme convergent bilatéral sans autres atteintes des nerfs crâniens. Quels sont les différents syndromes que vous pouvez relever de cette observation?
 
@@ -7142,7 +7142,7 @@ E] Syndrome vestibulaire
 
 Correction officielle - Normal 2018 Q48 = A,B
 
-# Normal 2018 Q49 - Questions inclassifiables
+# Normal 2018 Q49 - Pathologies tumorales du système nerveux central
 
 49. A cette étape clinique quel (s) diagnostic (s) évoqueriez vous ?
 
@@ -7154,7 +7154,7 @@ E] hydrocéphalie malformative
 
 Correction officielle - Normal 2018 Q49 = D
 
-# Normal 2018 Q50 - Questions inclassifiables
+# Normal 2018 Q50 - Pathologies tumorales du système nerveux central
 
 50. Quel est ou quels sont les examens complémentaires demanderiez vous pour assoir le (les) diagnostic (s) ?
 

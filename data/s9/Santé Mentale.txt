@@ -1604,7 +1604,7 @@ E] Est souvent de sexe féminin
 
 Correction officielle - 2025 Rattrapage Q31 = C,D,E
 
-# 2025 Rattrapage Q32 - Questions inclassifiables
+# 2025 Rattrapage Q32 - Les troubles psychosomatiques
 
 32. Parmi les troubles psychosomatiques on cite :
 
@@ -2464,7 +2464,7 @@ E] Mettre sous antidépresseur
 
 Correction officielle - Juin 2024 Q2 = A,B,D,E
 
-# Juin 2024 Q3 - Questions inclassifiables
+# Juin 2024 Q3 - Depression
 
 3. Quels sont les autres symptômes à demander?
 
@@ -2476,7 +2476,7 @@ E] ATCD personnels de tentative de suicide
 
 Correction officielle - Juin 2024 Q3 = A,B,C,D,E
 
-# Juin 2024 Q4 - Questions inclassifiables
+# Juin 2024 Q4 - Depression
 
 4. Parmi les facteurs explicatifs de la dépression on note:
 
@@ -9163,7 +9163,7 @@ E] Sismothérapie avec benzodiazepine
 
 Correction officielle - Janvier 2018 Q15 = A
 
-# Janvier 2018 Q16 - Questions inclassifiables
+# Janvier 2018 Q16 - Thérapeutique
 
 16. Parmi les effets suivant lequel ne fait pas parties des effets caractéristiques des anxiolytiques :
 

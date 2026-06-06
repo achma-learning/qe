@@ -597,7 +597,7 @@ E] Un déficit de flexion du genou
 
 Correction officielle - normal 2025 Q48 = A,B,C,E
 
-# normal 2025 Q49 - Questions inclassifiables
+# normal 2025 Q49 - Traumatismes des nerfs périphériques
 
 49. Le nerf susceptible d'être atteint est :
 
@@ -7810,7 +7810,7 @@ E] les lésions vasculaires associées
 
 Correction officielle - Mai 2018 Q45 = A,B,C,D,E
 
-# Mai 2018 Q46 - Questions inclassifiables
+# Mai 2018 Q46 - traumatisme vasculaire
 
 46. Parmi ces complications laquelle ne fait pas partie du crush syndrome
 
@@ -7994,7 +7994,7 @@ E] L'ostéonécrose aseptique de la tête fémorale.
 
 Correction officielle - Mai 2017 Q10 = A,D
 
-# Mai 2017 Q11 - Questions inclassifiables
+# Mai 2017 Q11 - Arthrose
 
 11. Mme B. 72 ans, consulte pour une gonalgie droite qui rend difficile la marche, la montée et la descente d'escaliers. La douleur est calrnée par le repos. A l'examen clinique : genu varum bilatéral. Il existe un choc rotulien à droite, une limitation douloureuse des amplitudes de flexion et extension. L'examen neurologique est normal. Elle pèse 70 kg pour 1m55. Quel est le diagnostic le plus probable ?
 
@@ -8006,7 +8006,7 @@ E] Tendinite de la patte d'oie
 
 Correction officielle - Mai 2017 Q11 = B
 
-# Mai 2017 Q12 - Questions inclassifiables
+# Mai 2017 Q12 - Arthrose
 
 12. Sur quels arguments cliniques ? Toutes les propositions sont justes sauf une
 
@@ -8042,7 +8042,7 @@ E] Déminéralisation diffuse
 
 Correction officielle - Mai 2017 Q14 = A,B,C,D
 
-# Mai 2017 Q15 - Questions inclassifiables
+# Mai 2017 Q15 - Spondyloarthrite
 
 15. Mr N, âgé de 21 ans, consulte pour une polyarthrite qui a débuté il y a six mois. Elle a touché les talons, les genoux puis les épaules. Une douleur de la fesse droite qui le réveille le matin vers 5 h .Sa sœur est suivie pour un psoriasis cutané L'examen note: une limitation des épaules en abduction. L'articulation sacro-iliaque droite est douloureuse à la palpation. Le rachis lombaire est limité en flexion antérieure (main- sol 40 cm, indice de Schöber 2 cm). Le tendon d'Achille droit est sensible à la palpation. Le reste de l'examen clinique est normal. Le diagnostic le plus probable est :
 
