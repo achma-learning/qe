@@ -4025,7 +4025,8 @@
           <span class="hy-doc-name">${docMeta(f).icon} ${escapeHtml(f)}</span>
           <span class="hy-doc-act">
             ${can ? `<button class="mini hy-prev" data-src="${escapeHtml(href)}" data-name="${escapeHtml(f)}">Aperçu</button>` : ''}
-            <a class="mini" href="${escapeHtml(href)}" target="_blank" rel="noopener">${can ? 'Ouvrir ↗' : 'Télécharger ↓'}</a>
+            <a class="mini" href="${escapeHtml(href)}" target="_blank" rel="noopener">Ouvrir ↗</a>
+            <a class="mini" href="${escapeHtml(href)}" download="${escapeHtml(f)}">Télécharger ↓</a>
           </span>
         </div>`;
       }).join('');
