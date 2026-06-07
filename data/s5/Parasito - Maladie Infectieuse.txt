@@ -2449,6 +2449,8 @@ C] La glycémie
 D] La procalcitonine
 E] Le taux de protides
 
+Correction probable - 2024 Exceptionnel Q1 = C
+
 # 2024 Exceptionnel Q2 - La méningo-encéphalite herpétique
 
 2. Chez ce même patient, quels éléments clinico-biologiques peuvent être en faveur d'une origine herpétique :
@@ -2458,6 +2460,8 @@ B] La prédominance lymphocytaire de la cellularité du LCR
 C] Le caractère hémorragique du LCR
 D] Un début progressif sur trois semaines
 E] Une hypoglycorachie
+
+Correction probable - 2024 Exceptionnel Q2 = A,B,C
 
 # 2024 Exceptionnel Q3 - Le Choléra
 
@@ -2469,6 +2473,8 @@ C] Une gastroentérite à staphylocoque aureus
 D] Une salmonellose
 E] Une shigellose
 
+Correction probable - 2024 Exceptionnel Q3 = A
+
 # 2024 Exceptionnel Q4 - Le Tétanos
 
 4. Un agriculteur âgé de 60 ans diabétique se présente aux urgences le 25 décembre pour une limitation douloureuse de l'ouverture de la bouche apparue depuis le 22 décembre et qui s'est compliquée le lendemain d'une contracture généralisée. L'examen clinique du patient retrouve une fièvre à 39°C, une plaie négligée du dos de la main droite datant selon le patient du 12 décembre. En faveur du tétanos chez ce patient:
@@ -2478,6 +2484,8 @@ B] Le trismus
 C] La contracture généralisée
 D] La plaie de la main
 E] Le diabète
+
+Correction probable - 2024 Exceptionnel Q4 = A,B,C,D
 
 # 2024 Exceptionnel Q5 - Le Tétanos
 
@@ -2489,6 +2497,8 @@ C] Rechercher la toxine tétanique au niveau de la plaie
 D] Faire le scanner cérébral
 E] Le diagnostic est clinique
 
+Correction probable - 2024 Exceptionnel Q5 = E
+
 # 2024 Exceptionnel Q6 - Le Tétanos
 
 6. On retient donc le diagnostic de tétanos, quels sont les facteurs de gravité chez cet homme selon le score de Dakar ?
@@ -2498,6 +2508,8 @@ B] La durée d'invasion
 C] La porte d'entrée
 D] La fièvre
 E] Les contractures généralisées
+
+Correction probable - 2024 Exceptionnel Q6 = A,B,C,D,E
 
 # 2024 Exceptionnel Q7 - La rage humaine
 
@@ -2509,6 +2521,8 @@ C] Une vaccination antirabique post exposition de type Essen
 D] Une vaccination antirabique de pré exposition
 E] Une administration d'immunoglobulines antirabiques
 
+Correction probable - 2024 Exceptionnel Q7 = B,C,D,E
+
 # 2024 Exceptionnel Q8 - Fièvres typhoïdes
 
 8. Parmi ces signes cliniques, lequel n'est pas caractéristique de la fièvre typhoïde ?
@@ -2518,6 +2532,8 @@ B] Le pouls augmente parallèlement à la température
 C] Fièvre à 40° C
 D] Epistaxis
 E] Somnolence
+
+Correction probable - 2024 Exceptionnel Q8 = B
 
 # 2024 Exceptionnel Q9 - Paludisme ou Malaria
 
@@ -2529,6 +2545,8 @@ C] Une hépatite virale A
 D] Une leptospirose
 E] Une primo-infection à VIH
 
+Correction probable - 2024 Exceptionnel Q9 = A
+
 # 2024 Exceptionnel Q10 - Paludisme ou Malaria
 
 10. Chez ce même patient, en plus d'un bilan standard comprenant un hémogramme une CRP et un bilan hépatique, quel examen réaliserez-vous en urgence pour confirmer le diagnostic?
@@ -2538,6 +2556,8 @@ B] Une goutte épaisse et frottis sanguin
 C] Une radiographie du thorax
 D] Une sérologie de l'hépatite virale A
 E] Une sérologie de la leptospirose
+
+Correction probable - 2024 Exceptionnel Q10 = B
 
 # 2024 Exceptionnel Q11 - AES
 
@@ -2549,6 +2569,8 @@ C] De prendre la trithérapie pendant 3 mois
 D] De faire un don de sang pour vérifier sa sérologie VIH
 E] De déclarer l'AES
 
+Correction probable - 2024 Exceptionnel Q11 = B,E
+
 # 2024 Exceptionnel Q12 - AES
 
 12. Vous recevez un externe victime d'un accident d'exposition au sang par blessure profonde au niveau de son doigt. Le patient source a une hépatite B au stade de cirrhose mais il est négatif pour l'infection VIH et l'hépatite C. Pour l'externe, ses Ac anti-Hbs sont à 100 U/ml. Quelle attitude préconisez-vous pour l'externe?
@@ -2558,6 +2580,8 @@ B] Faire un rappel du vaccin de l'hépatite B
 C] Refaire la sérologie de l'hépatite B dans trois mois
 D] Refaire la sérologie VIH dans 6 semaines
 E] Arrêter le suivi médical
+
+Correction probable - 2024 Exceptionnel Q12 = D
 
 # 2024 Exceptionnel Q13 - Les infections associées aux soins (IAS)
 
@@ -2569,6 +2593,8 @@ C] Avant le contact avec l'environnement d'un patient
 D] Après avoir vider la pochette à urine du patient
 E] Une demi-heure avant de faire les prélèvements au patient
 
+Correction probable - 2024 Exceptionnel Q13 = A,B,D
+
 # 2024 Exceptionnel Q14 - vih
 
 14. Un patient de 32 ans a une infection VIH confirmée, l'examen clinique retrouve des lésions nodulaires et infiltrées violacées au niveau de la bouche et du visage, il s'agit de:
@@ -2578,6 +2604,8 @@ B] Leucoplasie chevelue de la langue
 C] Aphtes
 D] Kaposi
 E] Purpura
+
+Correction probable - 2024 Exceptionnel Q14 = D
 
 # 2024 Exceptionnel Q15 - vih
 
@@ -2589,6 +2617,8 @@ C] Dépister aussi l'épouse
 D] Ne dépister l'enfant que si l'épouse est infectée par le VIH
 E] Si l'infection VIH est confirmée chez l'épouse, démarrer la trithérapie chez elle après son accouchement
 
+Correction probable - 2024 Exceptionnel Q15 = A,B,C
+
 # 2024 Exceptionnel Q16 - Leptospiroses
 
 16. En faveur de la leptospirose ictéro-hémorragique :
@@ -2598,6 +2628,8 @@ B] L'existence d'un ictère orangé flamboyant
 C] Une méningite avec prédominance de polynucléaires neutrophiles
 D] Une créatinémie à 50 mg/l (valeurs normales 6-12 mg/l)
 E] Des épistaxis
+
+Correction probable - 2024 Exceptionnel Q16 = A,B,E
 
 # 2024 Exceptionnel Q17 - Toxico-infections alimentaires collectives (TIAC)
 
@@ -2609,6 +2641,8 @@ C] La contamination est seulement digestive
 D] Est secondaire à la libération d'une toxine par l'agent en cause
 E] Peut provoquer une paralysie des muscles respiratoires
 
+Correction probable - 2024 Exceptionnel Q17 = B,D,E
+
 # 2024 Exceptionnel Q18 - Rickettsiose - Fièvre Q
 
 18. En faveur de la fièvre boutonneuse méditerranéenne on retient :
@@ -2618,6 +2652,8 @@ B] Une tache noire dans tous les cas
 C] Un exanthème avec atteinte des paumes et des plantes
 D] Un érythème migrant chronique
 E] Une fièvre élevée
+
+Correction probable - 2024 Exceptionnel Q18 = A,C,E
 
 # 2024 Exceptionnel Q19 - Rickettsiose - Fièvre Q
 
@@ -2629,6 +2665,8 @@ C] L'amoxicilline
 D] La doxycycline
 E] La josamycine
 
+Correction probable - 2024 Exceptionnel Q19 = D,E
+
 # 2024 Exceptionnel Q20 - Les méningites infectieuses de l'adulte
 
 20. Un patient de 65 ans présente un syndrome méningé depuis 3 semaines. L'étude du LCR retrouve : 250 GB/mm3 dont 80% sont des lymphocytes. La glycorachie: 1g/l pour une glycémie à 3g/1. Albuminorachie : 4g/l. La CRP était à 50 mg/l. NFS: GB à 6000/mm3 dont PNN à 4000/mm3 et Lymphocytes à 500/mm3. Les anomalies retrouvées dans le LCR et dans le sang chez ce patient sont :
@@ -2638,6 +2676,8 @@ B] Une lymphopénie
 C] Une hyperalbuminorachie
 D] Une glycorachie élevée
 E] Une hyperglycémie
+
+Correction probable - 2024 Exceptionnel Q20 = B,C
 
 # 2024 Exceptionnel Q21 - Les méningites infectieuses de l'adulte
 
@@ -2649,6 +2689,8 @@ C] Méningite listérienne
 D] Méningite virale
 E] Méningite à pneumocoque
 
+Correction probable - 2024 Exceptionnel Q21 = A,B,C
+
 # 2024 Exceptionnel Q22 - Les méningites infectieuses de l'adulte
 
 22. Pour retenir un diagnostic vous demandez les examens suivants dans le LCR :
@@ -2658,6 +2700,8 @@ B] Le Gene xpert du Mycobacterium tuberculosis
 C] L'examen à l'encre de chine
 D] La culture bactérienne à la recherche de Listeria monocytogenes
 E] La culture sur milieux de Lowenstein Jensen
+
+Correction probable - 2024 Exceptionnel Q22 = C,D,E
 
 # 2024 Exceptionnel Q23 - Les méningites infectieuses de l'adulte
 
@@ -2669,6 +2713,8 @@ C] Démarrer les antibacillaires pour une durée de 9 mois
 D] Démarrer une corticothérapie
 E] Dépister une infection au VIH
 
+Correction probable - 2024 Exceptionnel Q23 = A,C,D,E
+
 # 2024 Exceptionnel Q24 - Borrélioses
 
 24. L'érythème migrant chronique est une lésion pathognomonique de :
@@ -2678,6 +2724,8 @@ B] La maladie de Lyme
 C] La brucellose
 D] La bilharziose
 E] La fièvre typhoïde
+
+Correction probable - 2024 Exceptionnel Q24 = B
 
 # 2024 Exceptionnel Q25 - Les fièvres persistantes
 
@@ -2689,6 +2737,8 @@ C] Un mois
 D] 40 jours
 E] Plusieurs mois
 
+Correction probable - 2024 Exceptionnel Q25 = C
+
 # 2024 Exceptionnel Q26 - lié au peril fecale
 
 26. Sélectionnez parmi les parasitoses citées ci-dessous celle liée au péril fécal :
@@ -2698,6 +2748,8 @@ B] Trichomonose
 C] Leishmaniose
 D] Paludisme
 E] Trypanosomose
+
+Correction probable - 2024 Exceptionnel Q26 = A
 
 # 2024 Exceptionnel Q27 - Amibes et amibiases
 
@@ -2709,6 +2761,8 @@ C] Production d'enzymes protéolytiques
 D] La lyse des hématies
 E] Une barrière mécanique au niveau du duodénum
 
+Correction probable - 2024 Exceptionnel Q27 = C,D
+
 # 2024 Exceptionnel Q28 - Flagelloses digestives et urogénitales
 
 28. Giardia intestinalis est transmis par :
@@ -2718,6 +2772,8 @@ B] Les kystes matures
 C] Les larves strongyloides
 D] Les oocystes
 E] Les formes promastigotes
+
+Correction probable - 2024 Exceptionnel Q28 = B
 
 # 2024 Exceptionnel Q29 - Flagelloses digestives et urogénitales
 
@@ -2729,6 +2785,8 @@ C] Les anticorps spécifiques dans le sang
 D] Les Oocystes dans les selles
 E] Les larves dans les selles
 
+Correction probable - 2024 Exceptionnel Q29 = B
+
 # 2024 Exceptionnel Q30 - Protozooses intestinales opportunistes
 
 30. Quels sont les symptômes causés par les espèces du genre Cryptosporidium en cas d'immunodépression profonde:
@@ -2738,6 +2796,8 @@ B] Troubles hydro électrolytiques
 C] Gingivorragies
 D] Aplasie médullaire
 E] Cardiomégalie
+
+Correction probable - 2024 Exceptionnel Q30 = B
 
 # 2024 Exceptionnel Q31 - Toxoplasmoses
 
@@ -2749,6 +2809,8 @@ C] S'interdire la consommation du poisson fumé
 D] Eviter de consommer les légumes frais
 E] Être mise sous Spiramycine à titre prophylactique
 
+Correction probable - 2024 Exceptionnel Q31 = B,D,E
+
 # 2024 Exceptionnel Q32 - Toxoplasmoses
 
 32. Le diagnostic prénatal de la toxoplasmose materno-foetale est basé sur :
@@ -2758,6 +2820,8 @@ B] La recherche des anticorps anti Toxoplasma dans le liquide amniotique
 C] La recherche de Toxoplasma gondii sur sang total fœtal
 D] La recherche des anticorps anti Toxoplasma sur sang total foetal
 E] La recherche de l'ADN toxoplasmique sur liquide amniotique
+
+Correction probable - 2024 Exceptionnel Q32 = E
 
 # 2024 Exceptionnel Q33 - Leishmanioses
 
@@ -2769,6 +2833,8 @@ C] Splénomégalie
 D] Hémorragies
 E] Anémie hémolytique
 
+Correction probable - 2024 Exceptionnel Q33 = B,C,E
+
 # 2024 Exceptionnel Q34 - Leishmanioses
 
 34. Choisissez trois recherches permettant le diagnostic de la leishmaniose cutanée à Leishmania tropica au Maroc ?
@@ -2778,6 +2844,8 @@ B] Des formes promastigotes sur le frottis du produit de raclage de la lésion
 C] Des anticorps spécifiques anti-amastigote dans le sang périphérique
 D] L'identification des promastigotes après culture sur milieu au sang du lapin NNN
 E] La détection de l'ADN parasitaire par PCR sur le produit de raclage de la lésion
+
+Correction probable - 2024 Exceptionnel Q34 = A,D,E
 
 # 2024 Exceptionnel Q35 - Leishmanioses
 
@@ -2789,6 +2857,8 @@ C] Traités précocement et efficacement les malades
 D] Porter des vêtements cours à la tombée de la nuit
 E] Porter des bottes et éviter la mache pieds nus
 
+Correction probable - 2024 Exceptionnel Q35 = A,C
+
 # 2024 Exceptionnel Q36 - Paludisme ou Malaria
 
 36. Au cours du développement de Plasmodium falciparum chez l'Homme, le parasite :
@@ -2798,6 +2868,8 @@ B] Se reproduit par schizogonie érythrocytaire
 C] Se transforme en gametocyte dans les leucocytes
 D] Donne des hypnozoïtes dans le foie
 E] Passe dans le LCR en phase finale du cycle.
+
+Correction probable - 2024 Exceptionnel Q36 = A,B
 
 # 2024 Exceptionnel Q37 - Paludisme ou Malaria
 
@@ -2809,6 +2881,8 @@ C] La sérologie constitue le diagnostic de première intention
 D] La recherche du parasite se fait sur frottis sanguin associé à la goutte épaisse
 E] Les résultats de l'analyse parasitologique doivent être rendus en moins de 02 heures
 
+Correction probable - 2024 Exceptionnel Q37 = A,B,D,E
+
 # 2024 Exceptionnel Q38 - Les Trypanosomiases : Maladie du sommeil et maladie de Chagas
 
 38. La trypanosomiase humaine Africaine (Maladie du sommeil) se manifeste par :
@@ -2818,6 +2892,8 @@ B] Des adénopathies cervicales
 C] Des troubles du cycle circadien
 D] Des troubles neurologiques
 E] Une diarrhée glairo-sanglante
+
+Correction probable - 2024 Exceptionnel Q38 = A,B,C,D
 
 # 2024 Exceptionnel Q39 - oxyure
 
@@ -2829,6 +2905,8 @@ C] Aux oeufs embryonnés à la ponte.
 D] A l'immunodépression du patient.
 E] Au climat froid et humide
 
+Correction probable - 2024 Exceptionnel Q39 = C
+
 # 2024 Exceptionnel Q40 - oxyure
 
 40. Le prurit anal est le symptôme majeur de :
@@ -2838,6 +2916,8 @@ B] L'ankylostomose.
 C] L'oxyurose.
 D] La bilharziose.
 E] La taeniasis.
+
+Correction probable - 2024 Exceptionnel Q40 = C
 
 # 2024 Exceptionnel Q41 - Le diagnostique des parasites
 
@@ -2849,6 +2929,8 @@ C] Les adultes de Sarcoptes sont retrouvés dans les prélèvements des sillons 
 D] Les scolex d'Echinococcus granulosus sont détectés dans le sang.
 E] Les œufs du Bothriocéphale sont mis en évidence dans les crachats
 
+Correction probable - 2024 Exceptionnel Q41 = C
+
 # 2024 Exceptionnel Q42 - oxyure
 
 42. Quels sont les parasites pouvant donner une atteinte hépatique ?
@@ -2858,6 +2940,8 @@ B] Enterobius vermicularis.
 C] Entamoeba histolytica.
 D] Giardia intestinalis.
 E] Trichuris trichiura.
+
+Correction probable - 2024 Exceptionnel Q42 = C
 
 # 2024 Exceptionnel Q43 - oxyure
 
@@ -2869,6 +2953,8 @@ C] Est transmis à l'Homme par voie transcutanée active
 D] Est caractérisée une femelle parthénogénétique
 E] Peut déterminer une vulvo-vaginite chez la fillette
 
+Correction probable - 2024 Exceptionnel Q43 = D,E
+
 # 2024 Exceptionnel Q44 - oxyure
 
 44. Dans l'oxyurose la prophylaxie consiste à :
@@ -2878,6 +2964,8 @@ B] Traiter les animaux de compagnie.
 C] Se laver les mains avant chaque repas.
 D] Couper les ongles courts.
 E] Renouveler le traitement après deux à trois semaines.
+
+Correction probable - 2024 Exceptionnel Q44 = A,C,D,E
 
 # 2024 Exceptionnel Q45 - anguillules
 
@@ -2889,6 +2977,8 @@ C] Est transmis par la consommation des aliments souillés.
 D] Donne une parasitose vectorielle.
 E] Admet un cycle évolutif dixène.
 
+Correction probable - 2024 Exceptionnel Q45 = A,B
+
 # 2024 Exceptionnel Q46 - Taeniasis et cysticercose
 
 46. Le taeniasis à Taenia saginata se contracte :
@@ -2898,6 +2988,8 @@ B] Par ingestion de viande de mouton.
 C] Par ingestion de viande de bœuf.
 D] Par contact avec les anneaux d'un sujet parasité.
 E] Par ingestion de légumes souillés par les embryophores.
+
+Correction probable - 2024 Exceptionnel Q46 = C
 
 # 2024 Exceptionnel Q47 - Echinococcoses humaines (Hydatidoses)
 
@@ -2909,6 +3001,8 @@ C] Éviter le contact avec le mouton.
 D] Nettoyer correctement les vêtements et la laiterie.
 E] Traiter les chiens de compagnie par des vermifuges.
 
+Correction probable - 2024 Exceptionnel Q47 = C,E
+
 # 2024 Exceptionnel Q48 - champignons filamenteux
 
 48. Une épidémie de teigne à petite plaque se déclare dans une école. Quel(s) champignon(s) est (sont) responsable(s):
@@ -2918,6 +3012,8 @@ B] Trichophyton rubrum.
 C] Trichophyton mentagrophytes.
 D] Epidermophyton floccosum.
 E] Trichophyton violaceum.
+
+Correction probable - 2024 Exceptionnel Q48 = E
 
 # 2024 Exceptionnel Q49 - champignons filamenteux
 
@@ -2929,6 +3025,8 @@ C] Peuvent être transmis par le chat.
 D] Il existe une transmission interhumaine.
 E] Ce sont des champignons comestibles.
 
+Correction probable - 2024 Exceptionnel Q49 = A,C,D
+
 # 2024 Exceptionnel Q50 - champignons filamenteux
 
 50. Quels tableaux cliniques peuvent être dus à des dermatophytes?
@@ -2938,6 +3036,8 @@ B] Muguet.
 C] Onychomycose.
 D] Sepsis.
 E] Teigne.
+
+Correction probable - 2024 Exceptionnel Q50 = C,E
 
 ---
 

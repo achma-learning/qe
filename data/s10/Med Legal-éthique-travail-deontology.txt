@@ -2446,6 +2446,8 @@ C] Se base sur les conséquences pour justifier une décision médicale
 D] Se base sur les droits et la morale pour justifier une décision médicale
 E] Se base sur le paternalisme pour justifier une décision médicale
 
+Correction probable - Novembre 2024 Q1 = A,C
+
 # Novembre 2024 Q2 - Code de déontologie
 
 2. Les devoirs du médecin selon le code de déontologie médicale sont:
@@ -2455,6 +2457,8 @@ B] Certifier les renseignements vérifiés par un confrère
 C] Considérer les soins d'urgence comme un devoir
 D] Fournir des patients à un collègue en contrepartie d'honoraires
 E] Présenter des soins de qualité
+
+Correction probable - Novembre 2024 Q2 = A,C,E
 
 # Novembre 2024 Q3 - Code de déontologie
 
@@ -2466,6 +2470,8 @@ C] La promotion de la santé
 D] Utiliser un Alias
 E] Utiliser les réseaux sociaux pour attirer les patients
 
+Correction probable - Novembre 2024 Q3 = D,E
+
 # Novembre 2024 Q4 - Introduction et principe de l’éthique
 
 4. Les principes de l'éthique médicale ne se conçoivent que dans le respect de la dignité humaine. Ceci est d'autant plus important dans les situations suivantes:
@@ -2475,6 +2481,8 @@ B] Les patients de bas niveau socio-économique
 C] Le prélèvement d'organe d'un donneur en mort cérébrale
 D] Le prélèvement d'organe d'un donneur vivant
 E] Les soins de fin de vie
+
+Correction probable - Novembre 2024 Q4 = A,C,D,E
 
 # Novembre 2024 Q5 - Éthique et fin de vie
 
@@ -2486,6 +2494,8 @@ C] Entreprendre des soins palliatifs
 D] Entreprendre des soins d'accompagnement de fin de vie
 E] Réduisant la souffrance du patient le plus possible
 
+Correction probable - Novembre 2024 Q5 = C,D,E
+
 # Novembre 2024 Q6 - Éthique et dons d’organe
 
 6. Le prélèvement d'organe d'un donneur vivant soulève les problématiques éthiques suivantes:
@@ -2495,6 +2505,8 @@ B] Le don est fait par sentiment d'obligation familiale
 C] Le don émane d'un sentiment d'altruisme
 D] Le donneur peut être la personne qui soutient financièrement la famille
 E] Exposition d'une personne saine aux risques de la chirurgie
+
+Correction probable - Novembre 2024 Q6 = B,C,D,E
 
 # Novembre 2024 Q7 - Introduction et principe de l’éthique
 
@@ -2506,6 +2518,8 @@ C] L'implication du patient dans la prise de décision médicale
 D] L'obtention de l'accord du patient avant toute action médicale
 E] Le paternalisme du médecin envers son patient
 
+Correction probable - Novembre 2024 Q7 = B,C,D
+
 # Novembre 2024 Q8 - Introduction et principe de l’éthique
 
 8. Un patient capable d'exercer son autonomie :
@@ -2515,6 +2529,8 @@ B] Est capable de donner un consentement éclairé
 C] Doit suivre toute les décisions de son médecin sans hésitation
 D] Peut refuser les soins proposés par son médecin
 E] Requiert une attitude paternaliste de la part de son médecin
+
+Correction probable - Novembre 2024 Q8 = A,B,D
 
 # Novembre 2024 Q9 - Introduction et principe de l’éthique
 
@@ -2526,6 +2542,8 @@ C] Justice
 D] Non-malfaisance
 E] Respect de la personne
 
+Correction probable - Novembre 2024 Q9 = A
+
 # Novembre 2024 Q10 - Introduction et principe de l’éthique
 
 10. Le principe éthique de non-malfaisance peut s'appliquer aux situations suivantes :
@@ -2535,6 +2553,8 @@ B] Entreprendre un traitement qui n'apporte pas de bénéfice pour le patient
 C] N'entreprendre un traitement que lorsqu'il ne comporte aucun effet nocif
 D] Un traitement doit avoir plus d'effet bénéfique que d'effet nocifs
 E] Respecter la volonté d'un patient VIH positif de ne pas informer ses partenaires sexuels de sa séropositivité.
+
+Correction probable - Novembre 2024 Q10 = A,D
 
 # Novembre 2024 Q11 - Introduction et principe de l’éthique
 
@@ -2546,6 +2566,8 @@ C] Maximiser les bénéfices
 D] Respecter l'autonomie
 E] Aucune réponse n'est juste
 
+Correction probable - Novembre 2024 Q11 = B
+
 # Novembre 2024 Q12 - Éthique et recherche
 
 12. Le caractère du volontariat lors du processus du consentement éclairé d'un sujet pour participer à la recherche permet de concrétiser le principe de:
@@ -2555,6 +2577,8 @@ B] Bienfaisance
 C] Non-malfaisance
 D] Respect des personnes
 E] Aucune réponse n'est juste
+
+Correction probable - Novembre 2024 Q12 = D
 
 # Novembre 2024 Q13 - Éthique et recherche
 
@@ -2566,6 +2590,8 @@ C] Utiliser une méthodologie rigoureuse
 D] Respecter les personnes participant à la recherche
 E] Permettre un bénéfice pour la société
 
+Correction probable - Novembre 2024 Q13 = E
+
 # Novembre 2024 Q14 - Éthique et recherche
 
 14. La validité scientifique de la recherche réside dans :
@@ -2575,6 +2601,8 @@ B] L'amélioration de la santé de la population
 C] La production de nouvelles connaissances scientifiques
 D] La sélection équitable des sujets de la recherche
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q14 = A,C
 
 # Novembre 2024 Q15 - Éthique et recherche
 
@@ -2586,6 +2614,8 @@ C] Menée dans les pays développés, financée par les pays développés
 D] Menée dans les pays en développement, financée par les pays en développement
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q15 = A
+
 # Novembre 2024 Q16 - Éthique et recherche
 
 16. Dans le cadre de la recherche internationale, le concept de standard universel:
@@ -2595,6 +2625,8 @@ B] Concerne le traitement de référence utilisé chez le groupe contrôle dans 
 C] Correspond à l'utilisation du meilleur traitement disponible pour la communauté ? concernée, chez le groupe contrôle dans un essai
 D] Concerne le choix de la population à inclure pour le groupe contrôle dans un essai
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q16 = C
 
 # Novembre 2024 Q17 - Éthique et santé publique
 
@@ -2606,6 +2638,8 @@ C] Utilité
 D] Bienfaisance
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q17 = B
+
 # Novembre 2024 Q18 - Éthique et santé publique
 
 18. L'éthique de santé publique s'intéresse à :
@@ -2615,6 +2649,8 @@ B] Le processus décisionnel individuel
 C] La confidentialité
 D] Les déterminants sociaux
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q18 = A,D
 
 # Novembre 2024 Q19 - Éthique et santé publique
 
@@ -2626,6 +2662,8 @@ C] Individuelle
 D] Libéraliste
 E] Aucune réponse n'est juste
 
+Correction probable - Novembre 2024 Q19 = B
+
 # Novembre 2024 Q20 - Justice et équité
 
 20. Un système de soins équitable insiste sur :
@@ -2635,6 +2673,8 @@ B] Une contribution égale des bénéficiaires
 C] La mutualisation des risques liés à la maladie
 D] La couverture proportionnelle aux besoins de santé
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q20 = A,C,D
 
 # Novembre 2024 Q21 - pneumo medtravail
 
@@ -2646,6 +2686,8 @@ C] Il s'agit d'une exacerbation d'un asthme préexistant liée au travail
 D] L'évolution est favorable en cas de poursuite de l'exposition
 E] La connaissance du poste de travail n'est pas nécessaire au diagnostic
 
+Correction probable - Novembre 2024 Q21 = B
+
 # Novembre 2024 Q22 - Troubles MSC
 
 22. Cochez la bonne réponse concernant « les troubles musculo-squelettiques >>:
@@ -2655,6 +2697,8 @@ B] Ils sont rares en milieu de travail
 C] Ils ne concernent que les membres supérieurs
 D] Ils peuvent être évitables
 E] Ils ne réduisent pas l'aptitude au travail
+
+Correction probable - Novembre 2024 Q22 = D
 
 # Novembre 2024 Q23 - Rôles et mission médecin travail
 
@@ -2666,6 +2710,8 @@ C] Elle s'intéresse uniquement à la santé physique des travailleurs
 D] Elle vise à préserver la santé physique et mentale des travailleurs
 E] Elle s'intéresse uniquement aux accidents liés au travail
 
+Correction probable - Novembre 2024 Q23 = D
+
 # Novembre 2024 Q24 - Rôles et mission médecin travail
 
 24. Le médecin du travail peut intervenir dans le lieu de travail pour :
@@ -2675,6 +2721,8 @@ B] Analyser les risques professionnels
 C] Vérifier la présence des travailleurs
 D] Surveiller les risques de contamination
 E] Surveiller l'état de santé des travailleurs
+
+Correction probable - Novembre 2024 Q24 = A,B,D,E
 
 # Novembre 2024 Q25 - Rôles et mission médecin travail
 
@@ -2686,6 +2734,8 @@ C] Surveillance médicale systématique
 D] Visite médicale de reprise
 E] Visite médicale à la demande du travailleur
 
+Correction probable - Novembre 2024 Q25 = A,B,D,E
+
 # Novembre 2024 Q26 - Dermatoses professionnelle
 
 26. Quel est l'élément le plus important pour le diagnostic d'une dermatose professionnelle ?
@@ -2695,6 +2745,8 @@ B] Une biopsie cutanée
 C] Les tests cutanés
 D] Le dosage d'IgE spécifiques
 E] Les prélèvements bactériens ou mycologiques
+
+Correction probable - Novembre 2024 Q26 = A
 
 # Novembre 2024 Q27 - Dermatoses professionnelle
 
@@ -2706,6 +2758,8 @@ C] L'aptitude au travail en cas de DP est déterminée par le médecin du travai
 D] L'inaptitude au travail en cas de DP est déterminée par le médecin traitant
 E] La DP ne peut pas être à l'origine d'une perte d'emploi
 
+Correction probable - Novembre 2024 Q27 = C
+
 # Novembre 2024 Q28 - Risque professionnelle en milieu de soins
 
 28. Cochez la bonne réponse concernant les facteurs de risque des RPS :
@@ -2715,6 +2769,8 @@ B] Exigences émotionnelles élevées
 C] Démotivation du travailleur
 D] Dépression
 E] Absentéisme
+
+Correction probable - Novembre 2024 Q28 = B
 
 # Novembre 2024 Q29 - Risque professionnelle en milieu de soins
 
@@ -2726,6 +2782,8 @@ C] Augmentation de la créativité
 D] Manque d'autonomie
 E] Augmentation de la motivation
 
+Correction probable - Novembre 2024 Q29 = B,D
+
 # Novembre 2024 Q30 - pneumo medtravail
 
 30. Quel est l'examen paraclinique le plus préconisé pour le dépistage de la silicose pulmonaire professionnelle?
@@ -2735,6 +2793,8 @@ B] La tomodensitométrie thoracique
 C] La radiographie thoracique
 D] La spirométrie
 E] L'IRM pulmonaire
+
+Correction probable - Novembre 2024 Q30 = C
 
 # Novembre 2024 Q31 - Risque professionnelle en milieu de soins
 
@@ -2746,6 +2806,8 @@ C] Le risque biologique
 D] Le travail répétitif
 E] La chaleur
 
+Correction probable - Novembre 2024 Q31 = D
+
 # Novembre 2024 Q32 - Aes
 
 32. La conduite à tenir immédiate devant un accident d'exposition au sang repose sur :
@@ -2755,6 +2817,8 @@ B] La mise en sécurité de la victime
 C] Ne pas faire saigner la plaie
 D] Le nettoyage de la lésion avec un désinfectant
 E] La déclaration de l'accident du travail
+
+Correction probable - Novembre 2024 Q32 = B,D,E
 
 # Novembre 2024 Q33 - Réparation maladies prof + accid de travail
 
@@ -2766,6 +2830,8 @@ C] Absence de plus de deux semaines
 D] Absence pour raison de santé de plus de deux semaines
 E] Absence pour raison de santé de plus de quatre semaines
 
+Correction probable - Novembre 2024 Q33 = E
+
 # Novembre 2024 Q34 - Surdité professionnelle
 
 34. La surdité professionnelle est une :
@@ -2775,6 +2841,8 @@ B] Perte de 25 décibels sur la meilleure oreille
 C] Atteinte bilatérale des deux oreilles
 D] Atteinte symétrique des deux oreilles
 E] Aucune réponse juste
+
+Correction probable - Novembre 2024 Q34 = E
 
 # Novembre 2024 Q35 - Risque psychosociaux
 
@@ -2786,6 +2854,8 @@ C] Éloigner le collaborateur
 D] Isoler collaborateur
 E] Le changement du poste du travail
 
+Correction probable - Novembre 2024 Q35 = A
+
 # Novembre 2024 Q36 - Forme médico-légale de la mort : Certificat de décès
 
 36. - La mort est déclarée par le médecin : (Une seule proposition est juste)
@@ -2795,6 +2865,8 @@ B] Si la mort encéphalique est constatée
 C] Seulement en cas de mort de toutes les cellules
 D] Parfois en présence même d'une respiration-spontanée
 E] En cas de personne portée disparue sans découverte de son corps.
+
+Correction probable - Novembre 2024 Q36 = B
 
 # Novembre 2024 Q37 - Prélèvement et transplantation d’organe
 
@@ -2806,6 +2878,8 @@ C] Peut avoir le réflexe achilléen présent
 D] Est systématiquement prélevé de ses organes
 E] Est Prélevé Des Organes Après Arrêt Cardiaque
 
+Correction probable - Novembre 2024 Q37 = A
+
 # Novembre 2024 Q38 - Levee du Corps et autopsie
 
 38. Une autopsie.scientifique :
@@ -2815,6 +2889,8 @@ B] Peut être refusée par la famille
 C] A pour objectif de donner la forme médico-légale du décès
 D] Peut être réduite à un simple prélèvement
 E] Est stipulé dans la loi marocaine
+
+Correction probable - Novembre 2024 Q38 = A,B,D
 
 # Novembre 2024 Q39 - Asphyxie
 
@@ -2826,6 +2902,8 @@ C] Peut se voir dans les décès par noyade
 D] Peut se voir dans les décès suite à une plongée
 E] Peut se voir dans les décès par corps étranger
 
+Correction probable - Novembre 2024 Q39 = A,B,C,E
+
 # Novembre 2024 Q40 - Certificat médicaux
 
 40. Le certificat médico-légal :
@@ -2835,6 +2913,8 @@ B] Doit être rédigé sur papier en-tête
 C] Doit mentionner l'âge de la victime
 D] Doit mentionner l'arme utilisée en cas d'agression
 E] Peut être rédigé par un médecin interne
+
+Correction probable - Novembre 2024 Q40 = A,B,C,E
 
 # Novembre 2024 Q41 - Consentement du patient
 
@@ -2846,6 +2926,8 @@ C] Doit concerner seulement le diagnostic
 D] Doit concerner seulement les traitements
 E] Son défaut peut engager la responsabilité civile du patient
 
+Correction probable - Novembre 2024 Q41 = A,B
+
 # Novembre 2024 Q42 - Levee du Corps et autopsie
 
 42. La levée du corps
@@ -2855,6 +2937,8 @@ B] Est une opération stipulée dans le code de procédure pénale
 C] Nécessite un matériel préalable
 D] Nécessite une connaissance préalable
 E] Se fait sur instruction du parquet
+
+Correction probable - Novembre 2024 Q42 = B,C,D,E
 
 # Novembre 2024 Q43 - Forme médico-légale de la mort : Certificat de décès
 
@@ -2866,6 +2950,8 @@ C] Suspecte
 D] De cause évidente
 E] Médico-légale
 
+Correction probable - Novembre 2024 Q43 = C,E
+
 # Novembre 2024 Q44 - Forme médico-légale de la mort : Certificat de décès
 
 44. A propos de la partie supérieure du bulletin de décès, quelle (s) proposition (s) juste (s)?
@@ -2875,6 +2961,8 @@ B] Elle doit comporter la profession du défunt
 C] Elle doit comporter l'adresse du défunt
 D] La mention mort obstacle médico-légal doit être entourée par oui
 E] Elle sera remise à la famille
+
+Correction probable - Novembre 2024 Q44 = A,B,C
 
 # Novembre 2024 Q45 - Levee du Corps et autopsie
 
@@ -2886,6 +2974,8 @@ C] Recherche d'une complication-liée à l'acte opératoire
 D] Recherche d'un engagement cérébral par reconstitution de l'hématome sous dural
 E] Recherche de la cause du décès à des fins scientifiques
 
+Correction probable - Novembre 2024 Q45 = E
+
 # Novembre 2024 Q46 - Forme médico-légale de la mort : Certificat de décès
 
 46. L'autopsie a retrouvé une embolie pulmonaire massive. Quel est l'effet juridique d'une telle constatation ?
@@ -2895,6 +2985,8 @@ B] Les ayants droit n'ont pas droit à indemnisation car la chute de leur défun
 C] La responsabilité du neurochirurgien est systématique
 D] Le lien de causalité entre le décès et la chute dans le hammam est probable vu l'enchaînement des événements
 E] Il n'y aura pas d'indemnisation pour les ayants droit vu la survenue différée du décès
+
+Correction probable - Novembre 2024 Q46 = D
 
 # Novembre 2024 Q47 - Sévices à enfant + infanticide
 
@@ -2906,6 +2998,8 @@ C] Demander une réquisition pour examiner l'enfant et le protéger
 D] Faire le bilan complet et statuer en fonction des résultats
 E] Refuser de faire les soins à cet enfant en absence de ses parents
 
+Correction probable - Novembre 2024 Q47 = C
+
 # Novembre 2024 Q48 - Sévices à enfant + infanticide
 
 48. Au cours de son hospitalisation, vous avez découvert des séquelles de traumatismes anciens (cal vicieux, cicatrices de plaies ), des antécédents de violence par son père et la dame qui l'accompagne n'est qu'une voisine. Vous allez signaler cette maltraitance et:
@@ -2915,6 +3009,8 @@ B] Rédigez un certificat médico-légal avec détermination d'ITT
 C] Rédigez un certificat médico-légal avec détermination d'IPP
 D] Ne rédigez aucun certificat médico-légal
 E] Rédigez seulement un rapport sur l'état de l'enfant
+
+Correction probable - Novembre 2024 Q48 = B
 
 # Novembre 2024 Q49 - Forme médico-légale de la mort : Certificat de décès
 
@@ -2926,6 +3022,8 @@ C] Mort avec obstacle médico-légal
 D] Mort suspecte
 E] Mort subite
 
+Correction probable - Novembre 2024 Q49 = B
+
 # Novembre 2024 Q50 - Forme médico-légale de la mort : Certificat de décès
 
 50. Sur la partie anonyme du bulletin de décès, on doit mettre la notion suivante :
@@ -2935,6 +3033,8 @@ B] Rupture d'anévrisme spontanée
 C] Hémorragie méningée suite à une rupture d'anévrisme et chercher une grossesse dans l'année précédente
 D] Rupture d'anévrisme avec obstacle médico-légal
 E] Hémorragie méningée avec obstacle médico-légal
+
+Correction probable - Novembre 2024 Q50 = C
 
 ---
 

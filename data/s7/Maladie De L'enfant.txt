@@ -2447,6 +2447,8 @@ C] Est obtenu en plaçant l'enfant environ 20-30 cm en dessous de l'introitus va
 D] Est obtenu en clampant le cordon 30 secondes après la naissance.
 E] Est obtenu en clampant le cordon 60 secondes après la naissance.
 
+Correction probable - Octobre 2024 Q1 = A,B,E
+
 # Octobre 2024 Q2 - Pathologies infectieuses et métaboliques du nouveau-né
 
 2. Les germes de l'infection néonatale précoce en 2023 sont :
@@ -2456,6 +2458,8 @@ B] Le staphylocoque multi résistant
 C] Le Klebsiella pneumoniae
 D] Le streptocoque B
 E] L'Escherichia Coli
+
+Correction probable - Octobre 2024 Q2 = D,E
 
 # Octobre 2024 Q3 - Réanimation et soins immédiats du nouveau-né
 
@@ -2467,6 +2471,8 @@ C] L'EEG d'amplitude
 D] L'EEG standard.
 E] La gazométrie sanguine.
 
+Correction probable - Octobre 2024 Q3 = B,E
+
 # Octobre 2024 Q4 - Réanimation et soins immédiats du nouveau-né
 
 4. Les signes cliniques d'une détresse respiratoire néonatale orientant vers une hernie de la coupole diaphragmatique gauche sont:
@@ -2476,6 +2482,8 @@ B] Déviation des bruits cardiaques à gauche
 C] Des bruits hydro-aériques à gauche
 D] Un souffle amphorique à droite.
 E] Diminution des murmures vésiculaires à droite.
+
+Correction probable - Octobre 2024 Q4 = A,C,E
 
 # Octobre 2024 Q5 - Pathologies infectieuses et métaboliques du nouveau-né
 
@@ -2487,6 +2495,8 @@ C] L'hypothyroïdie.
 D] Déficit en G6PD.
 E] Déficit en alpha 1 antitrypsine.
 
+Correction probable - Octobre 2024 Q5 = A,B,D
+
 # Octobre 2024 Q6 - Les convulsions néonatales
 
 6. Quelles sont les propositions vraies concernant les convulsions du nouveau-né :
@@ -2496,6 +2506,8 @@ B] La myélinisation du cerveau est complète
 C] Les systèmes excitateurs prédominent sur les systèmes inhibiteurs
 D] Les convulsions tonico-cloniques généralisées sont les plus fréquentes
 E] La synaptogenèse du cerveau est incomplète
+
+Correction probable - Octobre 2024 Q6 = A,C,E
 
 # Octobre 2024 Q7 - Cardiologie néonatale et du nourrisson
 
@@ -2507,6 +2519,8 @@ C] Est Une administration d'oxygène à 50% de FiO2 pendant 5 minutes
 D] Est Une administration d'oxygène pendant 5 minutes
 E] Permet de différencier les causes cardiaques des causes pulmonaires
 
+Correction probable - Octobre 2024 Q7 = A,E
+
 # Octobre 2024 Q8 - Développement et croissance néonatale
 
 8. Cochez les propositions correctes sur le score de Farr:
@@ -2516,6 +2530,8 @@ B] La forme de l'oreille fait partie de ses critères
 C] Le diamètre du tissu mammaire fait partie de ses critères
 D] Le lanugo fait partie de ses critères
 E] L'aspect des mains fait partie de ses critères
+
+Correction probable - Octobre 2024 Q8 = B,C,D
 
 # Octobre 2024 Q9 - Cardiologie néonatale et du nourrisson
 
@@ -2527,6 +2543,8 @@ C] Un bilan biologique
 D] Une échographie cardiaque
 E] Une échographie transfontanellaire
 
+Correction probable - Octobre 2024 Q9 = D
+
 # Octobre 2024 Q10 - Cardiologie néonatale et du nourrisson
 
 10. Chez ce nouveau-né, la cyanose est probablement d'origine cardiaque, quels sont les diagnostics possibles?
@@ -2536,6 +2554,8 @@ B] Une communication interventriculaire
 C] Une transposition des gros vaisseaux
 D] Une atrésie pulmonaire
 E] Une persistance du canal artériel
+
+Correction probable - Octobre 2024 Q10 = C,D
 
 # Octobre 2024 Q11 - Cardiologie néonatale et du nourrisson
 
@@ -2547,6 +2567,8 @@ C] Une atrésie pulmonaire
 D] Une hypoplasie du ventricule gauche
 E] Une tétralogie de Fallot
 
+Correction probable - Octobre 2024 Q11 = B
+
 # Octobre 2024 Q12 - Néphrologie pédiatrique
 
 12. Une fille de 8 ans consulte pour une bouffissure du visage depuis 8 jours. En faveur de la néphrose lipoïdique :
@@ -2556,6 +2578,8 @@ B] Une hématurie macroscopique retrouvée à l'interrogatoire
 C] Une hypertension artérielle
 D] L'âge 8 ans
 E] La présence d'arthralgies récidivantes
+
+Correction probable - Octobre 2024 Q12 = A,D
 
 # Octobre 2024 Q13 - Néphrologie pédiatrique
 
@@ -2567,6 +2591,8 @@ C] Gentamycine à la dose de 10 mg/kg/jour pendant 4 à 5 jours
 D] Amoxicilline à la dose de 100 mg/kg/jour pendant 8 à 10 jours
 E] Aucune réponse n'est juste
 
+Correction probable - Octobre 2024 Q13 = B
+
 # Octobre 2024 Q14 - Rhumatologie pédiatrique
 
 14. Le purpura rhumatoïde chez l'enfant peut se compliquer de :
@@ -2576,6 +2602,8 @@ B] Nécrose et perforation intestinale
 C] Syndrome néphrotique
 D] Hématurie
 E] Déformation articulaire
+
+Correction probable - Octobre 2024 Q14 = A,B,C,D
 
 # Octobre 2024 Q15 - Néphrologie pédiatrique
 
@@ -2587,6 +2615,8 @@ C] Un lupus systémique
 D] Une uropathie malformative
 E] Une insuffisance rénale
 
+Correction probable - Octobre 2024 Q15 = A,B,C,E
+
 # Octobre 2024 Q16 - Méningites
 
 16. Dans la méningite, la raideur peut manquer s'il s'agit de:
@@ -2596,6 +2626,8 @@ B] Nourrisson moins de 2 ans
 C] Grand enfant
 D] Méningite virale
 E] Méningite compliquée d'abcès cérébral
+
+Correction probable - Octobre 2024 Q16 = A,B,D
 
 # Octobre 2024 Q17 - Méningites
 
@@ -2607,6 +2639,8 @@ C] La ceftriaxone 4 g par jour
 D] La ceftriaxone en deux prises par jour
 E] La ceftriaxone en une prise par jour.
 
+Correction probable - Octobre 2024 Q17 = C,E
+
 # Octobre 2024 Q18 - Déficit immunitaire
 
 18. vous demandez un bilan VIH si:
@@ -2616,6 +2650,8 @@ B] Il y a 2 otites sur un an
 C] Il y a 3 pneumonies sur un an
 D] Il y a une tuberculose chez l'enfant
 E] Lymphome de Burkitt
+
+Correction probable - Octobre 2024 Q18 = A,C,D
 
 # Octobre 2024 Q19 - Développement psychomoteur
 
@@ -2627,6 +2663,8 @@ C] Prématurité
 D] Méningite néonatale
 E] Asphyxie périnatale
 
+Correction probable - Octobre 2024 Q19 = A,B,C,D,E
+
 # Octobre 2024 Q20 - pneumologie pédiatrique
 
 20. Dans la bronchiolite virale aiguë du nourrisson :
@@ -2636,6 +2674,8 @@ B] Le virus respiratoire syncytial est responsable d'un rétrécissement endolum
 C] Le tableau clinique débute par une rhinopharyngite:
 D] Le tableau clinique comporte une distension thoracique avec freinage expiratoire.
 E] La radiographie thoracique est faite devant toute suspicion de bronchiolite virale aiguë.
+
+Correction probable - Octobre 2024 Q20 = A,B,C,D
 
 # Octobre 2024 Q21 - pneumologie pédiatrique
 
@@ -2647,6 +2687,8 @@ C] Le fractionnement des repas.
 D] La prescription des antitussifs.
 E] La nébulisation de bronchodilatateurs
 
+Correction probable - Octobre 2024 Q21 = A,B,C
+
 # Octobre 2024 Q22 - pneumologie pédiatrique
 
 22. Un enfant de 4 ans consulte aux urgences pour un troisième épisode de dyspnée sifflante, vous retenez le diagnostic d'asthme préscolaire sur les éléments suivants :
@@ -2656,6 +2698,8 @@ B] La présence d'intervalle libre normal entre les épisodes de dyspnée.
 C] Une croissance staturo-pondérale normale.
 D] Une diarrhée chronique associée.
 E] La réversibilité des symptômes sous béta 2 mimétiques à courte durée d'action.
+
+Correction probable - Octobre 2024 Q22 = B,C,E
 
 # Octobre 2024 Q23 - pneumologie pédiatrique
 
@@ -2667,6 +2711,8 @@ C] Le tableau clinique peut se compliquer d'une pleurésie.
 D] Le traitement repose sur l'amoxicilline-acide clavulanique à la dose de 50 mg/kg/j.
 E] La radiographie thoracique de contrôle est obligatoire à la fin du traitement.
 
+Correction probable - Octobre 2024 Q23 = A,B,C
+
 # Octobre 2024 Q24 - Le retard statural
 
 24. Un garçon de 9 ans consulte pour un retard staturo-pondéral à -4DS évoluant depuis le bas âge sans autres signes associés. Le diagnostic le plus probable est :
@@ -2676,6 +2722,8 @@ B] Une hyperthyroïdie
 C] Une maladie inflammatoire chronique de l'intestin
 D] Un retard simple de puberté
 E] Un déficit en hormone de croissance
+
+Correction probable - Octobre 2024 Q24 = E
 
 # Octobre 2024 Q25 - nutrition pédiatrique
 
@@ -2687,6 +2735,8 @@ C] La vitamine D
 D] Les immunosuppresseurs
 E] Les hormones thyroïdiennes
 
+Correction probable - Octobre 2024 Q25 = C
+
 # Octobre 2024 Q26 - Gastroentérologie pédiatrique
 
 26. Dans Les vomissements de l'enfant
@@ -2696,6 +2746,8 @@ B] Les examens para cliniques sont systématiques
 C] L'association à une hémorragie digestive impose la réalisation d'une TDM abdominale
 D] Une urgence médicale doit être éliminée en cas de vomissements verdâtres.
 E] Le traitement repose sur les antipyrétiques
+
+Correction probable - Octobre 2024 Q26 = A,D
 
 # Octobre 2024 Q27 - nutrition pédiatrique
 
@@ -2707,6 +2759,8 @@ C] Ne Contient pas des oligosaccharides
 D] Est riche en vitamine K
 E] Est riche en vitamine D
 
+Correction probable - Octobre 2024 Q27 = B
+
 # Octobre 2024 Q28 - Gastroentérologie pédiatrique
 
 28. Enfant de 7 ans, suivi pour un syndrome néphrotique corticosensible; présente depuis deux jours des douleurs abdominales avec fièvre à 39° sans autres signes associés. Quel est votre premier diagnostic à évoquer ?
@@ -2716,6 +2770,8 @@ B] Une péritonite médicale
 C] Une occlusion intestinale
 D] Une infection urinaire
 E] Une pancréatite
+
+Correction probable - Octobre 2024 Q28 = B
 
 # Octobre 2024 Q29 - Gastroentérologie pédiatrique
 
@@ -2727,6 +2783,8 @@ C] Une antibiothérapie
 D] la réalisation d'une laparotomie
 E] la réalisation d'une radiographie du thorax
 
+Correction probable - Octobre 2024 Q29 = C,E
+
 # Octobre 2024 Q30 - nutrition pédiatrique
 
 30. L'acidocétose diabétique :
@@ -2736,6 +2794,8 @@ B] Nécessite une réhydratation par sérum salé pendant 2 heures à raison de 
 C] Nécessite un apport d'insuline rapide par voie intraveineuse IV.
 D] Sa prise en charge peut se compliquer d'une hypoglycémie
 E] Nécessite une recherche systématique d'une cause déclenchante
+
+Correction probable - Octobre 2024 Q30 = A,C,D,E
 
 # Octobre 2024 Q31 - Hématologie et oncologie pédiatrique
 
@@ -2747,6 +2807,8 @@ C] Purpura
 D] Eczéma
 E] Macrocéphalie
 
+Correction probable - Octobre 2024 Q31 = A,B,C
+
 # Octobre 2024 Q32 - Hématologie et oncologie pédiatrique
 
 32. Parmi les anomalies suivantes, laquelle ou lesquelles est ou sont en faveur d'une anémie par carence en fer?
@@ -2756,6 +2818,8 @@ B] Présence d'hématies falciformes sur frottis
 C] Test de coombs positif
 D] Diminution des réserves en fer
 E] Présence de globules rouges ronds sur frottis
+
+Correction probable - Octobre 2024 Q32 = A,D
 
 # Octobre 2024 Q33 - La fièvre
 
@@ -2767,6 +2831,8 @@ C] Il faut faire une bandelette urinaire
 D] Il faut faire un ECBU
 E] Il faut faire des hémocultures
 
+Correction probable - Octobre 2024 Q33 = C,D,E
+
 # Octobre 2024 Q34 - Gastroentérologie pédiatrique
 
 34. Les douleurs abdominales aigues de l'enfant :
@@ -2776,6 +2842,8 @@ B] Peuvent engager le pronostic vital chez l'enfant
 C] Le toucher rectal est toujours recommandé
 D] Une occlusion sur bride est à évoquer si présence de cicatrice de laparotomie
 E] L'échographie abdominale est l'examen clinique de première intention à demander
+
+Correction probable - Octobre 2024 Q34 = A,B,D,E
 
 # Octobre 2024 Q35 - Gastroentérologie pédiatrique
 
@@ -2787,6 +2855,8 @@ C] Enfant âgé de moins de 5 ans
 D] Fièvre élevée avec altération de la conscience
 E] Vomissements bilieux
 
+Correction probable - Octobre 2024 Q35 = A,B,D,E
+
 # Octobre 2024 Q36 - Orthopédie pédiatrique
 
 36. L'examen de la hanche gauche d'un nouveau-né de sexe féminin à la naissance, avec notion de primiparité présente une abduction de 70° et une manoeuvre d'Ortolani négative avec un torticolis, La présentation était siège lors de l'accouchement. Que retenez-vous parmi ces propositions en faveur d'une luxation de hanche:
@@ -2796,6 +2866,8 @@ B] Le sexe féminin
 C] Une abduction de la hanche gauche à 70°
 D] Une présentation siège
 E] Le torticolis
+
+Correction probable - Octobre 2024 Q36 = D,E
 
 # Octobre 2024 Q37 - Orthopédie pédiatrique
 
@@ -2807,6 +2879,8 @@ C] Des séquelles d'une arthrite de hanche
 D] Une spondylodiscite lombaire
 E] Une myopathie
 
+Correction probable - Octobre 2024 Q37 = B,C
+
 # Octobre 2024 Q38 - Orthopédie pédiatrique
 
 38. Un enfant de 2 ans présente une Spondylodiscite bactérienne de la 2ème vertèbre lombaire évoluant depuis 6 heures. Quels sont les signes radio cliniques en faveur du diagnostic pour cet enfant ?
@@ -2816,6 +2890,8 @@ B] Un psoïtis
 C] Un flessum extra articulaire de la hanche
 D] Une radiographie du rachis lombaire standard souvent normale
 E] Une hypofixation à la scintigraphie osseuse
+
+Correction probable - Octobre 2024 Q38 = A,B,D
 
 # Octobre 2024 Q39 - Orthopédie pédiatrique
 
@@ -2827,6 +2903,8 @@ C] Une déviation rachidienne qui se corrige après égalisation des membres inf
 D] Une inégalité de longueur des membres inférieurs?
 E] Une asymétrie distance bras-tronc
 
+Correction probable - Octobre 2024 Q39 = A,B,E
+
 # Octobre 2024 Q40 - Orthopédie pédiatrique
 
 40. Dans le pied bot varus équin
@@ -2836,6 +2914,8 @@ B] Le talus est vertical?
 C] Une radiographie du pied est nécessaire à la naissance
 D] Plus le pied est déformé plus le pronostic est mauvais
 E] Plus le pied est irréductible plus le pronostic est mauvais
+
+Correction probable - Octobre 2024 Q40 = D,E
 
 # Octobre 2024 Q41 - Orthopédie pédiatrique
 
@@ -2847,6 +2927,8 @@ C] D'un décollement épiphysaire type 2 de salter et harris
 D] D'un décollement épiphysaire type 3 de salter et harris
 E] D'un décollement épiphysaire t type 4 de salter et harris
 
+Correction probable - Octobre 2024 Q41 = E
+
 # Octobre 2024 Q42 - Chirurgie digestive et abdominale pédiatrique
 
 42. Un garçon de 3 ans présente une masse du flanc gauche, constatée par la maman il y'a 1 mois. A l'examen la masse est ferme, mesure 10 cm de grand axe et fixe au plan profond avec une varicocèle gauche associée. Vous suspectez :
@@ -2856,6 +2938,8 @@ B] Un neuroblastome gauche
 C] Un néphroblastome gauche.
 D] Une splénomégalie.
 E] Un kyste hydatique splénique.
+
+Correction probable - Octobre 2024 Q42 = B
 
 # Octobre 2024 Q43 - Chirurgie digestive et abdominale pédiatrique
 
@@ -2867,6 +2951,8 @@ C] Une maladie d'Hirschsprung
 D] Un volvulus sur mésentère commun. intervalle libre.
 E] Une atrésie duodénale.
 
+Correction probable - Octobre 2024 Q43 = D
+
 # Octobre 2024 Q44 - Chirurgie digestive et abdominale pédiatrique
 
 44. Un nourrisson de 2 mois est admis aux urgences pour fièvre à 40°c évoluant pendant 24 heures. L'interrogatoire révèle l'installation d'une diarrhée pendant 24 h et une miction goutte à goutte depuis la naissance. L'examen clinique a révélé une distension abdominale avec des marbrures. Vous suspectez:
@@ -2876,6 +2962,8 @@ B] Une infection néonatale.
 C] Une infection urinaire.
 D] Un volvulus sur mésentère commun.
 E] Une maladie d'Hirschsprung.
+
+Correction probable - Octobre 2024 Q44 = E
 
 # Octobre 2024 Q45 - Chirurgie digestive et abdominale pédiatrique
 
@@ -2887,6 +2975,8 @@ C] Une épreuve à la sonde.
 D] Un examen cytobactériologique des urines.
 E] Une biopsie rectale.
 
+Correction probable - Octobre 2024 Q45 = C,E
+
 # Octobre 2024 Q46 - Chirurgie digestive et abdominale pédiatrique
 
 46. Un nourrisson de 6 mois est admis aux urgences pour des vomissements bilieux pendant 24 h. L'anamnèse a révélé des pleurs paroxystiques. Vous suspectez:
@@ -2896,6 +2986,8 @@ B] Une entérocolite.
 C] Une gastroentérite.
 D] Une invagination intestinale aigüe.
 E] Une atrésie du grêle.
+
+Correction probable - Octobre 2024 Q46 = D
 
 # Octobre 2024 Q47 - Chirurgie digestive et abdominale pédiatrique
 
@@ -2907,6 +2999,8 @@ C] Une coproculture.
 D] Une échographie abdominale.
 E] Un transit du grêle.
 
+Correction probable - Octobre 2024 Q47 = D
+
 # Octobre 2024 Q48 - Chirurgie digestive et abdominale pédiatrique
 
 48. Un nourrisson de 6 semaines est admis aux urgences pour des vomissements lactés pendant 48 heures. L'examen trouve une déshydratation. Vous suspectez :
@@ -2916,6 +3010,8 @@ B] Une atrésie de l'œsophage.
 C] Une sténose hypertrophique du pylore.
 D] Un volvulus sur mésentère commun.
 E] Une sténose ulcéreuse bulbaire.
+
+Correction probable - Octobre 2024 Q48 = C
 
 # Octobre 2024 Q49 - Hormonothérapie
 
@@ -2927,6 +3023,8 @@ C] Est un traitement efficace pour tous les cancers du sein
 D] Peut consister en l'administration de certaines hormones (effet additif)  
 E] Ne présente aucun risque sur les patients  
 
+Correction probable - Octobre 2024 Q49 = A,D
+
 # Octobre 2024 Q50 - Malformations congénitales
 
 50. Vous êtes amenés à examiner un nouveau-né dans la salle d'accouchement qui présente une issue du grêle et l'estomac à travers la paroi abdominale. L'ombilic est en place. Il s'agit de :
@@ -2936,6 +3034,8 @@ B] Omphalocele rompue.
 C] Exomphalos.
 D] Éviscération.
 E] Eventration.
+
+Correction probable - Octobre 2024 Q50 = A
 
 ---
 
@@ -5971,6 +6071,8 @@ C] Troubles de conscience
 D] Signes de choc
 E] Fièvre supérieure à 39°c
 
+Correction probable - Juin 2019 Q1 = E
+
 # Juin 2019 Q2 - pneumologie pédiatrique
 
 2. Les laryngites virales du nourrisson: une seule réponse juste
@@ -5980,6 +6082,8 @@ B] Se manifestent par une dyspnée de type inspiratoire
 C] L'antibiothérapie est systématique.
 D] La radiographie du thorax s'impose toujours
 E] Surviennent habituellement au cours de la journée
+
+Correction probable - Juin 2019 Q2 = B
 
 # Juin 2019 Q3 - La fièvre
 
@@ -5991,6 +6095,8 @@ C] Hospitaliser systématiquement l'enfant
 D] Déshabiller complètement l'enfant
 E] Rechercher la cause par un examen clinique complet
 
+Correction probable - Juin 2019 Q3 = A,B,D,E
+
 # Juin 2019 Q4 - pneumologie pédiatrique
 
 4. Quelles sont les indications de la radiographie thoracique dans les infections respiratoires aiguës basses (IRAB):
@@ -6000,6 +6106,8 @@ B] Une pneumopathie récidivante.
 C] Toute suspicion de bronchiolite virale aiguë.
 D] Une asymétrie à l'auscultation pulmonaire.
 E] En cas de doute diagnostique.
+
+Correction probable - Juin 2019 Q4 = A,B,D,E
 
 # Juin 2019 Q5 - pneumologie pédiatrique
 
@@ -6011,6 +6119,8 @@ C] La transmission est maximale durant la phase catarrhale.
 D] La NFS montre une hyperleucocytose à prédominance polynucléaires neutrophiles.
 E] Le traitement préventif repose sur la vaccination.
 
+Correction probable - Juin 2019 Q5 = B,C,E
+
 # Juin 2019 Q6 - pneumologie pédiatrique
 
 6. Quels sont les propositions exactes concernant la tuberculose de l'enfant :
@@ -6020,6 +6130,8 @@ B] Le quantiféron permet d'explorer l'immunité à médiation cellulaire.
 C] L'éthambutol est administré en cas de tuberculose neuroméningée.
 D] L'éthambutol est administré en cas de tuberculose associée au VIH.
 E] L'enquête familiale est systématique.
+
+Correction probable - Juin 2019 Q6 = A,B,D,E
 
 # Juin 2019 Q7 - pneumologie pédiatrique
 
@@ -6031,6 +6143,8 @@ C] Le drainage thoracique est indiqué en cas de sepsis non contrôlé.
 D] La kinésithérapie est systématique dans la prise en charge thérapeutique.
 E] Toutes les propositions sont justes.
 
+Correction probable - Juin 2019 Q7 = B,C
+
 # Juin 2019 Q8 - Méningites
 
 8. Lesquelles parmi ces propositions sur la méningite sont justes:
@@ -6040,6 +6154,8 @@ B] La déclaration est obligatoire
 C] Peut s'accompagner de troubles de comportement
 D] Peut s'accompagner de purpura
 E] Toutes les propositions sont fausses.
+
+Correction probable - Juin 2019 Q8 = B,C,D
 
 # Juin 2019 Q9 - Méningites
 
@@ -6051,6 +6167,8 @@ C] Le pronostic dépend de la précocité de l'antibiothérapie
 D] Le traitement se base seulement sur l'antibiothérapie
 E] risque de se compliquer d'hydrocéphalie.
 
+Correction probable - Juin 2019 Q9 = B,C,E
+
 # Juin 2019 Q10 - Méningites
 
 10. Les particularités de la méningite tuberculeuse sont:
@@ -6060,6 +6178,8 @@ B] L'installation insidieuse
 C] Les signes psychiatriques
 D] Le contage tuberculeux dans l'entourage
 E] L'existence de parotidomégalie.
+
+Correction probable - Juin 2019 Q10 = B,C,D
 
 # Juin 2019 Q11 - Pathologies infectieuses et métaboliques du nouveau-né
 
@@ -6071,6 +6191,8 @@ C] Asphyxie périnatale
 D] Hypoalbuminémie (<40g/l)
 E] La macrosomie.
 
+Correction probable - Juin 2019 Q11 = A,C,D
+
 # Juin 2019 Q12 - Réanimation et soins immédiats du nouveau-né
 
 12. Les signes en faveur d'une encéphalopathie anoxo-ischémique sont :
@@ -6080,6 +6202,8 @@ B] Une bradycardie fœtale
 C] Une décélération précoce.
 D] Un liquide amniotique méconial.
 E] Des convulsions néonatales précoces.
+
+Correction probable - Juin 2019 Q12 = A,B,E
 
 # Juin 2019 Q13 - Réanimation et soins immédiats du nouveau-né
 
@@ -6091,6 +6215,8 @@ C] Si le nouveau-né est vigoureux il faut aspirer avec une sonde naso-trachéal
 D] Si le nouveau-né n'a pas crié, il faut l'intuber et aspirer le méconium puis le ventiler.
 E] Aucune proposition n'est juste.
 
+Correction probable - Juin 2019 Q13 = C,D
+
 # Juin 2019 Q14 - Pathologies infectieuses et métaboliques du nouveau-né
 
 14. Dans l'infection néonatale précoce les éléments de gravité sont :
@@ -6100,6 +6226,8 @@ B] La détresse respiratoire avant la 4ème heure de vie.
 C] L'infection suspectée ou confirmée chez son frère jumeau en cas de grossesse multiple.
 D] L'ictère néonatal.
 E] Aucune proposition n'est juste....
+
+Correction probable - Juin 2019 Q14 = A,B,C
 
 # Juin 2019 Q15 - Développement et croissance néonatale
 
@@ -6111,6 +6239,8 @@ C] Le score de Dubowitz
 D] Le score de Sarnat
 E] Le score de Thomson
 
+Correction probable - Juin 2019 Q15 = A,C
+
 # Juin 2019 Q16 - Développement et croissance néonatale
 
 16. Pour Estimer l'âge gestationnel du nouveau-né prématuré, on se base sur certains éléments morphologiques, entourez ceux qui sont corrects:
@@ -6120,6 +6250,8 @@ B] aspect des oreilles.
 C] L'aspect des cheveux.
 D] L'aspect des organes génitaux externes
 E] L'aspect des mains.
+
+Correction probable - Juin 2019 Q16 = A,B,D
 
 # Juin 2019 Q17 - Développement et croissance néonatale
 
@@ -6131,6 +6263,8 @@ C] Hypocalcémie
 D] Hypokaliémie
 E] Hypomagnésémie
 
+Correction probable - Juin 2019 Q17 = C,E
+
 # Juin 2019 Q18 - Développement et croissance néonatale
 
 18. Entourez les bonnes réponses concernant le nouveau-né ayant un retard de croissance intra-utérin (RCIU) dysharmonieux :
@@ -6140,6 +6274,8 @@ B] Il est agité
 C] Il est affamé
 D] Il a la peau lisse et fine
 E] Il a un pannicule adipeux développé
+
+Correction probable - Juin 2019 Q18 = A,B,C
 
 # Juin 2019 Q19 - Développement et croissance néonatale
 
@@ -6151,6 +6287,8 @@ C] Le diabète
 D] L'insuffisance rénale
 E] L'insuffisance cardiaque
 
+Correction probable - Juin 2019 Q19 = A,B,C
+
 # Juin 2019 Q20 - Les convulsions néonatales
 
 20. Les convulsions subtiles chez le nouveau-né se manifestent cliniquement par :
@@ -6160,6 +6298,8 @@ B] Des mouvements myocloniques
 C] Des mouvements oculaires
 D] Des mouvements de pédalage
 E] Des mouvements oro-buccaux
+
+Correction probable - Juin 2019 Q20 = C,E
 
 # Juin 2019 Q21 - Hématologie et oncologie pédiatrique
 
@@ -6171,6 +6311,8 @@ C] Des plaquettes en nombre normal
 D] Arthralgies diffuses
 E] Régression après corticothérapie
 
+Correction probable - Juin 2019 Q21 = A,E
+
 # Juin 2019 Q22 - Hématologie et oncologie pédiatrique
 
 22. L'hémophilie de l'enfant se caractérise par:
@@ -6180,6 +6322,8 @@ B] L'hémarthrose est la seule manifestation de la maladie
 C] L'hémostase secondaire est normale
 D] Le traitement repose sur la supplémentation en fer
 E] Les réserves en fer sont augmentées
+
+Correction probable - Juin 2019 Q22 = A,C
 
 # Juin 2019 Q23 - Gastroentérologie pédiatrique
 
@@ -6191,6 +6335,8 @@ C] L'association à une hémorragie digestive impose la réalisation d'une fibro
 D] Une urgence chirurgicale doit être éliminée en cas de vomissements verdâtres
 E] Le traitement doit être symptomatique et étiologique
 
+Correction probable - Juin 2019 Q23 = C,D,E
+
 # Juin 2019 Q24 - Gastroentérologie pédiatrique
 
 24. La maladie cœliaque du nourrisson
@@ -6200,6 +6346,8 @@ B] Entraine une hypocholestérolémie et une ostéopénie
 C] Est responsable d'une dénutrition sévère
 D] Son traitement repose sur un régime sans gluten
 E] L'épreuve de rechute doit se faire quel que soit l'âge de l'enfant
+
+Correction probable - Juin 2019 Q24 = C,D
 
 # Juin 2019 Q25 - endocrinologie pédiatrique
 
@@ -6211,6 +6359,8 @@ C] Les doses sont réparties en 2/3 le matin et 1/3 le soir
 D] Son inconvénient est l'hyperglycémie en fin de journée
 E] Utilise 2/3 d'insuline semi lente et 1/3 d'insuline rapide
 
+Correction probable - Juin 2019 Q25 = A,B,C
+
 # Juin 2019 Q26 - endocrinologie pédiatrique
 
 26. Dans l'hypothyroïdie congénitale
@@ -6220,6 +6370,8 @@ B] L'âge osseux est inférieur à l'âge chronologique
 C] La TSH est basse
 D] La T4 est basse
 E] Le traitement substitutif est indispensable pour une durée de 4 semaines:
+
+Correction probable - Juin 2019 Q26 = B,D
 
 # Juin 2019 Q27 - nutrition pédiatrique
 
@@ -6231,6 +6383,8 @@ C] Une diarrhée chronique peut être le seul symptôme
 D] Son diagnostic nécessite impérativement des examens para cliniques
 E] Son traitement repose sur un régime pauvre en protéines
 
+Correction probable - Juin 2019 Q27 = A,B,C
+
 # Juin 2019 Q28 - nutrition pédiatrique
 
 28. L'allaitement maternel
@@ -6240,6 +6394,8 @@ B] Est riche en immunoglobuline IgA
 C] Contient des oligosaccharides
 D] Ne contient pas de vitamine K
 E] Apporte du fer avec une biodisponibilité élevée
+
+Correction probable - Juin 2019 Q28 = A,B,C,E
 
 # Juin 2019 Q29 - Néphrologie pédiatrique
 
@@ -6251,6 +6407,8 @@ C] La possibilité d'un syndrome néphrétique aigu
 D] Les rechutes
 E] Une prolifération extra capillaire à la PBR
 
+Correction probable - Juin 2019 Q29 = B,D
+
 # Juin 2019 Q30 - Néphrologie pédiatrique
 
 30. L'hématurie récidivante peut être secondaire à:
@@ -6260,6 +6418,8 @@ B] Infections urinaires
 C] Lithiases urinaires
 D] GNA post infectieuse streptococcique
 E] Néphrose lipoïdique
+
+Correction probable - Juin 2019 Q30 = A,B,C
 
 # Juin 2019 Q31 - Urologie pédiatrique
 
@@ -6271,6 +6431,8 @@ C] Cefixime per os pendant 10 jours
 D] C3G par voie injectable pendant 2 à 4 jours puis relais per os par céfixime
 E] C3Gpar voie injectable pendant 48 h avec aminoside pendant 5 jours
 
+Correction probable - Juin 2019 Q31 = D
+
 # Juin 2019 Q32 - Urologie pédiatrique
 
 32. Les germes fréquemment responsables de l'infection urinaire sont:
@@ -6280,6 +6442,8 @@ B] Salmonelles
 C] ECOLI
 D] Proteus
 E] Klebsiella SP
+
+Correction probable - Juin 2019 Q32 = C,D,E
 
 # Juin 2019 Q33 - Chirurgie digestive et abdominale pédiatrique
 
@@ -6291,6 +6455,8 @@ C] Une hématurie.
 D] Des vomissements.
 E] Une dysphagie.
 
+Correction probable - Juin 2019 Q33 = A,D
+
 # Juin 2019 Q34 - Chirurgie digestive et abdominale pédiatrique
 
 34. Vous êtes appelés à la maternité pour un nouveau né de 6 heures qui présente une dyspnée avec hypersalivation et distension abdominale. Le diagnostic le plus probable:
@@ -6300,6 +6466,8 @@ B] Une atrésie duodénale.
 C] Une hernie congénitale de coupole gauche.
 D] Une atrésie de l'œsophage.
 E] Une hernie congénitale de coupole droite.
+
+Correction probable - Juin 2019 Q34 = D
 
 # Juin 2019 Q35 - Malformations congénitales
 
@@ -6311,6 +6479,8 @@ C] Il s'agit d'une omphalocèle type II.
 D] Il s'agit d'un gastroschisis.
 E] Il s'agit d'un état normal.
 
+Correction probable - Juin 2019 Q35 = E
+
 # Juin 2019 Q36 - Chirurgie digestive et abdominale pédiatrique
 
 36. Vous êtes appelés à la salle d'accouchement pour examiner une masse de la paroi abdominale couverte par une membrane translucide de contenu intestinale chez un nouveau né de 3 heures.
@@ -6320,6 +6490,8 @@ B] Le defect doit être para ombilicale droit.
 C] Le defect doit être à travers l'anneau ombilical.
 D] Il s'agit d'une omphalocèle.
 E] Il s'agit d'un laparoschisis.
+
+Correction probable - Juin 2019 Q36 = C,D
 
 # Juin 2019 Q37 - Chirurgie digestive et abdominale pédiatrique
 
@@ -6331,6 +6503,8 @@ C] Drainer le thorax.
 D] Faire une exsufflation thoracique.
 E] Assister par une ventilation au masque.
 
+Correction probable - Juin 2019 Q37 = D
+
 # Juin 2019 Q38 - Chirurgie digestive et abdominale pédiatrique
 
 38. Un nouveau-né de 03 jours admis aux urgences pour distension abdominale et vomissement bilieux. Vous devez chercher :
@@ -6340,6 +6514,8 @@ B] Une atrésie de grêle.
 C] Une malformation anorectale.
 D] Faire une ponction d'ascite.
 E] Une atrésie duodénale.
+
+Correction probable - Juin 2019 Q38 = A,B,C,E
 
 # Juin 2019 Q39 - Chirurgie digestive et abdominale pédiatrique
 
@@ -6351,6 +6527,8 @@ C] Une masse rénale.
 D] Une invagination intestinale aigue.
 E] Une hernie diaphragmatique gauche compliquée.
 
+Correction probable - Juin 2019 Q39 = C
+
 # Juin 2019 Q40 - Urologie pédiatrique
 
 40. Un nourrisson de 4 mois est amené en consultation pour une grosse bourse gauche, évoluant depuis la naissance. Après examen, le diagnostic retenu est une hydrocèle gauche non communicante.Quels éléments ont permis de retenir ce diagnostic et d'éliminer les autres pathologies du canal péritonéo-vaginal ?
@@ -6360,6 +6538,8 @@ B] Le siège scrotal de la tuméfaction.
 C] Le caractère non réductible.
 D] L'épreuve de la transillumination négative.
 E] Le caractère douloureux à la palpation.
+
+Correction probable - Juin 2019 Q40 = A,B,D
 
 # Juin 2019 Q41 - Urologie pédiatrique
 
@@ -6371,6 +6551,8 @@ C] Une ponction évacuatrice pour éviter la compression testiculaire.
 D] Demander une échographie scrotale pour confirmer le diagnostic.
 E] Proposer une exploration chirurgicale en urgence.
 
+Correction probable - Juin 2019 Q41 = B
+
 # Juin 2019 Q42 - Chirurgie digestive et abdominale pédiatrique
 
 42. Un nourrisson de 40 jours normal depuis la naissance, est amené aux urgences pour vomissements apparus il y a une semaine. La maman rapporte que le nourrisson est tout le temps affamé, se jette sur le biberon mais après 15-20 minutes il vomit tout son biberon. Le nourrisson aurait perdu du poids. L'examen note des signes de déshydratation et d'amaigrissement sans autre anomalie: Le diagnostic le plus probable est:
@@ -6380,6 +6562,8 @@ B] Atrésie du grêle
 C] Reflux gastro-oesophagien
 D] Sténose hypertrophique du Pylore
 E] Plicature gastrique
+
+Correction probable - Juin 2019 Q42 = D
 
 # Juin 2019 Q43 - Chirurgie digestive et abdominale pédiatrique
 
@@ -6391,6 +6575,8 @@ C] Atrésie du duodénum
 D] Atrésie du grêle
 E] Maladie de Hirschsprung
 
+Correction probable - Juin 2019 Q43 = B
+
 # Juin 2019 Q44 - Orthopédie pédiatrique
 
 44. Un enfant de 2 ans présente une spondylodiscite bactérienne de la 2 éme vertèbre lombaire évoluant depuis 24 heures Quelles sont les signes en faveur de diagnostic
@@ -6400,6 +6586,8 @@ B] Enfant refuse de s'assoir
 C] Un psoïtis
 D] Un syndrome méningé
 E] Une perte de lordose lombaire.
+
+Correction probable - Juin 2019 Q44 = A,B,C,E
 
 # Juin 2019 Q45 - Orthopédie pédiatrique
 
@@ -6411,6 +6599,8 @@ C] Des séquelles d'une arthrite de hanche
 D] Une spondylodiscite
 E] Tumeur osseuse
 
+Correction probable - Juin 2019 Q45 = B,C,D,E
+
 # Juin 2019 Q46 - Orthopédie pédiatrique
 
 46. Que retenez-vous en faveur d'une scoliose chez un enfant
@@ -6420,6 +6610,8 @@ B] La présence de rotation vertébrale
 C] La présence d'un psoitis avec douleur de la fosse iliaque
 D] Une asymétrie d'écart entre les deux bras et le tronc
 E] Une inégalité de longueur des membres inférieurs
+
+Correction probable - Juin 2019 Q46 = B,D
 
 # Juin 2019 Q47 - Orthopédie pédiatrique
 
@@ -6431,6 +6623,8 @@ C] D'un décollement épiphysaire type 3 de salter et harris
 D] D'un décollement épiphysaire type 4 de salter et harris
 E] D'un décollement épiphysaire type 5 de salter et harris
 
+Correction probable - Juin 2019 Q47 = B
+
 # Juin 2019 Q48 - Orthopédie pédiatrique
 
 48. Un Garçon de 6 ans, hospitalisé pour ostéomyélite aiguë de l'extrémité inférieure du fémur droit avec signes de sepsis. Quel traitement antibiotique probabiliste vous démarrez en urgence?
@@ -6440,6 +6634,8 @@ B] L'association amoxicilline-acide clavulanique + Gentamicine
 C] Le céfotaxime + vancomycine
 D] La gentamicine scule
 E] La vancomycine seule
+
+Correction probable - Juin 2019 Q48 = C
 
 # Juin 2019 Q49 - Orthopédie pédiatrique
 
@@ -6451,6 +6647,8 @@ C] Le tableau clinique est toujours typique d'une arthrite septique
 D] Le traitement est basé sur une antibiothérapie seule
 E] Parmi les germes en cause, le Kingella Kingae est le germe le plus incriminé
 
+Correction probable - Juin 2019 Q49 = A,B
+
 # Juin 2019 Q50 - Orthopédie pédiatrique
 
 50. Le pied bot varus équin chez un nouveau-né se définit par :
@@ -6460,6 +6658,8 @@ B] Un avant pied en supination
 C] Une articulation talo tibiale en équin
 D] Un adductus de l'avant pied
 E] Une verticalisation du talus
+
+Correction probable - Juin 2019 Q50 = B,C,D
 
 ---
 
@@ -7079,6 +7279,8 @@ C] Une allergie alimentaire sévère associée.
 D] Des problèmes psychologiques associés
 E] Un enfant actuellement sous corticothérapie orale
 
+Correction probable - Ratt 2018 Q1 = A,C,D,E
+
 # Ratt 2018 Q2 - pneumologie pédiatrique
 
 2. Parmi les pneumonies de l’enfant, quels sont les critères orientant vers une cause bactérienne :
@@ -7088,6 +7290,8 @@ B] Un épanchement pleural associé
 C] Un taux de PNN supérieur à 20.000 / mm3
 D] Une CRP .supérieure à 80 mg/L
 E] Un foyer alvéolaire systématisé et unilatéral sur la radiographie thoracique
+
+Correction probable - Ratt 2018 Q2 = A,B,C,D,E
 
 # Ratt 2018 Q3 - pneumologie pédiatrique
 
@@ -7099,6 +7303,8 @@ C] La radiographie thoracique est faite devant toute suspicion de bronchiolite v
 D] La radiographie thoracique est faite en cas d'asymétrie à l'auscultation pulmonaire.
 E] La radiographie thoracique est faite devant la persistance de la fièvre
 
+Correction probable - Ratt 2018 Q3 = A,B,D,E
+
 # Ratt 2018 Q4 - pneumologie pédiatrique
 
 4. Quel les sont les propositions correctes concernant la pneumonie à mycoplasme pneumoniae :
@@ -7108,6 +7314,8 @@ B] Touche surtout l'enfant de moins de 3 ans.
 C] Peut se compliquer d'une péricardite.
 D] Peut se compliquer d'un syndrome de Stevens Johnson .
 E] Le traitement repose sur des macrolides .
+
+Correction probable - Ratt 2018 Q4 = C,D,E
 
 # Ratt 2018 Q5 - pneumologie pédiatrique
 
@@ -7119,6 +7327,8 @@ C] Bronchiolite virale
 D] Corps étranger bronchique
 E] Cardiopathie congénitale
 
+Correction probable - Ratt 2018 Q5 = B
+
 # Ratt 2018 Q6 - Gastroentérologie pédiatrique
 
 6. La prise en charge d'une diarrhée aigüe du nourrisson repose sur les éléments suivants sauf un lequel :
@@ -7128,6 +7338,8 @@ B] Réhydratation par voie orale à volonté
 C] Recherche de signes de déshydratation aigüe
 D] Prescription systématique d'un lait de régime
 E] Le maintien d'une alimentation adaptée
+
+Correction probable - Ratt 2018 Q6 = D
 
 # Ratt 2018 Q7 - pneumologie pédiatrique
 
@@ -7139,6 +7351,8 @@ C] Une simple surveillance
 D] Une bronchoscopie
 E] Une prescription d'une corticothérapie orale
 
+Correction probable - Ratt 2018 Q7 = D
+
 # Ratt 2018 Q8 - La fièvre
 
 8. Une crise convulsive fébrile est dite complexe si : (une seule réponse juste)
@@ -7148,6 +7362,8 @@ B] La fièvre est supérieure à 40°c
 C] La durée de la crise est supérieure à 15 minutes
 D] L'âge de l'enfant est inférieur à 2 ans
 E] L'examen neurologique est normal
+
+Correction probable - Ratt 2018 Q8 = C
 
 # Ratt 2018 Q9 - Réanimation et soins immédiats du nouveau-né
 
@@ -7159,6 +7375,8 @@ C] Alimenter le nouveau-né par une sonde gastrique.
 D] Prendre une voie veineuse périphérique ou ombilicale.
 E] Intuber systématiquement le nouveau-né.
 
+Correction probable - Ratt 2018 Q9 = A,B,D
+
 # Ratt 2018 Q10 - Pathologies infectieuses et métaboliques du nouveau-né
 
 10. Dans l'incompatibilité système rhésus :
@@ -7168,6 +7386,8 @@ B] En cas d'anémie fœtale, la transfusion in utero (en anténatal) est possibl
 C] Prise en charge néonatale doit être programmée.
 D] La prévèntion doit se faire par injection d'lmmunoglobuline anti-O à toute femme Rhésus négatif après le premier accouchement.
 E] Chez le nouveau-né, la bilirubine conjuguée est très augmentée.
+
+Correction probable - Ratt 2018 Q10 = B,C
 
 # Ratt 2018 Q11 - Développement et croissance néonatale
 
@@ -7179,6 +7399,8 @@ C] Peut survenir chez le nouveau-né de mère diabétique.
 D] Est une étiologie de l'ictère néonatal.
 E] Peut se manifester par une cataracte congénitale.
 
+Correction probable - Ratt 2018 Q11 = B,C
+
 # Ratt 2018 Q12 - Pathologies infectieuses et métaboliques du nouveau-né
 
 12. Quelles sont les indications de la ponction lombaire en cas d'infection néonatale ?
@@ -7188,6 +7410,8 @@ B] Si l'examen cytobactériologique des urines est positif.
 C] En cas de choc septique.
 D] Si le nouveau-né présente des convulsions fébriles.
 E] Aucune réponse n'est juste.
+
+Correction probable - Ratt 2018 Q12 = A,C,D
 
 # Ratt 2018 Q13 - Pathologies infectieuses et métaboliques du nouveau-né
 
@@ -7199,6 +7423,8 @@ C] La céfotaxime
 D] L'amoxicilline
 E] La gentamycine
 
+Correction probable - Ratt 2018 Q13 = C,D,E
+
 # Ratt 2018 Q14 - Cardiologie néonatale et du nourrisson
 
 14. Vous recevez un nouveau-né qui a 6 heures de vie, vous trouvez qu'il est cyanosé, quel est le premier réflexe pour confirmer la cyanose :
@@ -7208,6 +7434,8 @@ B] Prendre la saturation en oxygène
 C] Demander une échographie cardiaque
 D] Demander un bilan infectieux
 E] Demander une gazométrie
+
+Correction probable - Ratt 2018 Q14 = B
 
 # Ratt 2018 Q15 - Cardiologie néonatale et du nourrisson
 
@@ -7219,6 +7447,8 @@ C] Il a une pathologie neurologique
 D] Il a une pathologie hématologique
 E] il est difficile d’avoir une orientation
 
+Correction probable - Ratt 2018 Q15 = B
+
 # Ratt 2018 Q16 - Cardiologie néonatale et du nourrisson
 
 16. Vous faites une radiographie du thorax, elle objective un cœur en coquille d’œuf, à quel diagnostic vous pensez ?
@@ -7228,6 +7458,8 @@ B] Une inhalation méconiale
 C] Une tétralogie de fallot
 D] Une Transposition ,des gros vaisseaux
 E] Une atrésie tricuspide
+
+Correction probable - Ratt 2018 Q16 = D
 
 # Ratt 2018 Q17 - Cardiologie néonatale et du nourrisson
 
@@ -7239,6 +7471,8 @@ C] Intuber et ventiler
 D] Administrer les prostaglandines (prostine)
 E] Faire une échographie cardiaque
 
+Correction probable - Ratt 2018 Q17 = A,D,E
+
 # Ratt 2018 Q18 - Développement et croissance néonatale
 
 18. Parmi les complications de la prématurité :
@@ -7248,6 +7482,8 @@ B] L'hypocalcémie
 C] La polyglobulie
 D] L'hypothermie
 E] L'hypomagnésémie
+
+Correction probable - Ratt 2018 Q18 = A,B,D,E
 
 # Ratt 2018 Q19 - Hématologie et oncologie pédiatrique
 
@@ -7259,6 +7495,8 @@ C] Positivité du test de Coombs
 D] Diminution des réserves en fer
 E] Présence de globules rouges ronds sur le frottis
 
+Correction probable - Ratt 2018 Q19 = D
+
 # Ratt 2018 Q20 - Hématologie et oncologie pédiatrique
 
 20. L'hémophilie de l'enfant se caractérise par :
@@ -7268,6 +7506,8 @@ B] L'hémarthrose est la seule manifestation de la maladie
 C] L'hémostase secondaire est normale
 D] Le test de Coombs est positif
 E] Les réserves en fer sont augmentées
+
+Correction probable - Ratt 2018 Q20 = A,C
 
 # Ratt 2018 Q21 - Gastroentérologie pédiatrique
 
@@ -7279,6 +7519,8 @@ C] Les Ac anti transglutaminases type lg A sont positifs
 D] La biopsie jéjunale est indispensable au diagnostic
 E] Le régime sans gluten est prescrit à vie.
 
+Correction probable - Ratt 2018 Q21 = A,C,D,E
+
 # Ratt 2018 Q22 - nutrition pédiatrique
 
 22. Les Nutriments énergétiques sont :
@@ -7288,6 +7530,8 @@ B] Les glucides.
 C] Les lipides.
 D] Les vitamines,
 E] Les oligoéléments
+
+Correction probable - Ratt 2018 Q22 = A,B,C
 
 # Ratt 2018 Q23 - nutrition pédiatrique
 
@@ -7299,6 +7543,8 @@ C] Doit tenir compte de l'âge,
 D] Doit tenir compte du poids
 E] Doit être adapté à la maturité digestive et rénale
 
+Correction probable - Ratt 2018 Q23 = A,B,C,D,E
+
 # Ratt 2018 Q24 - Gastroentérologie pédiatrique
 
 24. Le RGO atypique est évoqué entre autres diagnostics possible devant :
@@ -7308,6 +7554,8 @@ B] L'Asthme
 C] L'hémorragie digestive.
 D] Les accès de bradycardie et de malaises chez le petit nourrisson.
 E] Le diagnostic confirmé par la pH-métrie œsophagienne.
+
+Correction probable - Ratt 2018 Q24 = A,B,C,D,E
 
 # Ratt 2018 Q25 - Le retard statural
 
@@ -7319,6 +7567,8 @@ C] La vitesse de croissance régulière peut être génétique ou constitutionne
 D] L'âge osseux proche de l'âge chronologique évoque une hypothyroïdie
 E] Le taux bas d'IGF 1 confirme le déficit en hormone de croissance (GH).
 
+Correction probable - Ratt 2018 Q25 = C,E
+
 # Ratt 2018 Q26 - Néphrologie pédiatrique
 
 26. Dans la néphrose lipoïdique (entourez la ou les réponses justes)
@@ -7328,6 +7578,8 @@ B] Les rechutes se voient dans 20% des cas
 C] On retrouve un syndrome néphritique
 D] L' OAP est fréquent
 E] Les douleurs abdominales avec fièvre font évoquer une péritonite
+
+Correction probable - Ratt 2018 Q26 = A,E
 
 # Ratt 2018 Q27 - Néphrologie pédiatrique
 
@@ -7339,6 +7591,8 @@ C] L'urée , créatinine
 D] Le compte d'Addis
 E] La NFS+Pq
 
+Correction probable - Ratt 2018 Q27 = A
+
 # Ratt 2018 Q28 - Néphrologie pédiatrique
 
 28. La prise en charge initiale d'un nourrisson masculin de 2 mois suspect d'une pyélonéphrite aiguë :
@@ -7348,6 +7602,8 @@ B] C3G en IV pendant 2-4j puis relais per os, durée totale 10-14j
 C] C3G par voie orale pendant 10-14-j
 D] l'Echographie rénale et urologique
 E] La cystographie rétrograde
+
+Correction probable - Ratt 2018 Q28 = A,D
 
 # Ratt 2018 Q29 - Rhumatologie pédiatrique
 
@@ -7359,6 +7615,8 @@ C] Le syndrome inflammatoire est inconstant
 D] L'éruption cutanée est faite de plaques nécrotiques
 E] Il n'y a pas d'atteinte des séreuses
 
+Correction probable - Ratt 2018 Q29 = A
+
 # Ratt 2018 Q30 - Rhumatologie pédiatrique
 
 30. Le (ou le éléments} en faveur d'un purpura rhumatoïde est (ou sont):
@@ -7368,6 +7626,8 @@ B] L'hémorragie digestive
 C] L'hématurie
 D] Le syndrome inflammatoire majeur
 E] L’orchite
+
+Correction probable - Ratt 2018 Q30 = A,B,C,E
 
 # Ratt 2018 Q31 - nutrition pédiatrique
 
@@ -7379,6 +7639,8 @@ C] l'ictère néonatal prolongé
 D] Les traits grossiers
 E] La tachycardie
 
+Correction probable - Ratt 2018 Q31 = A,C,D
+
 # Ratt 2018 Q32 - Méningites
 
 32. La méningite bactérienne du nourrisson peut être révélée par :
@@ -7388,6 +7650,8 @@ B] un trouble de conscience
 C] Une convulsion
 D] Une raideur constante
 E] Un gémissement
+
+Correction probable - Ratt 2018 Q32 = A,B,C,E
 
 # Ratt 2018 Q33 - Méningites
 
@@ -7399,6 +7663,8 @@ C] La vancomycine
 D] Le thiamphénicol
 E] Aucune réponse juste.
 
+Correction probable - Ratt 2018 Q33 = A
+
 # Ratt 2018 Q34 - Méningites
 
 34. Les éléments en faveur d'une méningite tuberculeuse sont :
@@ -7408,6 +7674,8 @@ B] Un ptosis
 C] Un contage tuberculeux
 D] Un trouble de comportement
 E] Un LCR lymphocytaire
+
+Correction probable - Ratt 2018 Q34 = B,C,D,E
 
 # Ratt 2018 Q35 - Questions inclassifiables
 
@@ -7419,6 +7687,8 @@ C] Les troubles de déglutition sont possibles
 D] Les réflexes sont vifs
 E] La déclaration est obligatoire
 
+Correction probable - Ratt 2018 Q35 = A,C,E
+
 # Ratt 2018 Q36 - Chirurgie digestive et abdominale pédiatrique
 
 36. Un nourrisson de six semaines est admis aux urgences pour des vomissements lactés depuis deux semaines. L'examen clinique trouve une déshydratation tableau B, un abdomen plat avec un pli de dénutrition. Vous suspectez :
@@ -7428,6 +7698,8 @@ B] Un volvulus sur mésentère commun.
 C] Une atrésie du grêle.
 D] Une sténose hypertrophique du pylore.
 E] Une sténose duodénale.
+
+Correction probable - Ratt 2018 Q36 = D
 
 # Ratt 2018 Q37 - Chirurgie digestive et abdominale pédiatrique
 
@@ -7439,6 +7711,8 @@ C] Un ionogramme sanguin.
 D] Une échographie abdominale.
 E] Une écho doppler des vaisseaux mésentériques.
 
+Correction probable - Ratt 2018 Q37 = A,C
+
 # Ratt 2018 Q38 - Chirurgie digestive et abdominale pédiatrique
 
 38. Votre conduite :
@@ -7448,6 +7722,8 @@ B] Une réanimation.
 C] Une détorsion avec mise en mésentère non compliqué.
 D] Une pylorotomie extra muqueuse.
 E] Une anastomose duodéno-duodénale.
+
+Correction probable - Ratt 2018 Q38 = D
 
 # Ratt 2018 Q39 - Chirurgie digestive et abdominale pédiatrique
 
@@ -7459,6 +7735,8 @@ C] Un hémopéritoine.
 D] Un neuroblastome surrénalien.
 E] Un neuroblastome médian.
 
+Correction probable - Ratt 2018 Q39 = D
+
 # Ratt 2018 Q40 - Chirurgie digestive et abdominale pédiatrique
 
 40. Un nouveau-né de huit jours est admis aux urgences pour des vomissements lactés, une distension abdominale avec diarrhée et hypothermie à 36,5 °c. L'examen clinique trouve un météorisme et un jet urinaire goutte à goutte. Vous suspectez :
@@ -7468,6 +7746,8 @@ B] Une gastroentérite.
 C] Une entérocolite.
 D] Une infection urinaire.
 E] Une occlusion à ventre distendu,
+
+Correction probable - Ratt 2018 Q40 = A,E
 
 # Ratt 2018 Q41 - Chirurgie digestive et abdominale pédiatrique
 
@@ -7479,6 +7759,8 @@ C] Un abdomen sans préparation debout.
 D] Une échographie abdominale.
 E] Une épreuve à la sonde.
 
+Correction probable - Ratt 2018 Q41 = B,C,E
+
 # Ratt 2018 Q42 - Urologie pédiatrique
 
 42. Un garçon de trois ans est amené en consultation pour une bourse gauche vide. L'examen clinique minutieux n'a pas pu retrouvé de gonade concluant à un testicule non palpable. Vous préconisez :
@@ -7488,6 +7770,8 @@ B] Une cystographie rétrograde.
 C] Une cystographie antérograde.
 D] Une radiographie d'abdomen sans préparation.
 E] Une laparoscopie.
+
+Correction probable - Ratt 2018 Q42 = E
 
 # Ratt 2018 Q43 - Urologie pédiatrique
 
@@ -7499,6 +7783,8 @@ C] D'une hydrocèle non communicante.
 D] D'une hydrocèle communicante.
 E] D'une torsion du tésticule.
 
+Correction probable - Ratt 2018 Q43 = C
+
 # Ratt 2018 Q44 - Urologie pédiatrique
 
 44. L'attitude thérapeutique consistera en :
@@ -7508,6 +7794,8 @@ B] Un bandage herniaire.
 C] Une cure chirurgicale.
 D] Une ponction évacuatrice.
 E] Une abstention thérapeutique.
+
+Correction probable - Ratt 2018 Q44 = C
 
 # Ratt 2018 Q45 - Orthopédie pédiatrique
 
@@ -7519,6 +7807,8 @@ C] D'un décollement épiphysaire type 3 de salter et harris
 D] D'un décollement épiphysaire type 4 de salter et harris
 E] D'une fracture de Mac Farland
 
+Correction probable - Ratt 2018 Q45 = B
+
 # Ratt 2018 Q46 - Orthopédie pédiatrique
 
 46. La fracture en motte de beurre est définie par :
@@ -7528,6 +7818,8 @@ B] Une fracture dont une corticale est pliée, alors que l'autre corticale est r
 C] Une courbure plastique sur toute la longueur de l'os
 D] Une fracture dont le trait passe dans le cartilage de croissance
 E] Une fracture dont le trait est fin, spiroïde alors que le périoste est intact
+
+Correction probable - Ratt 2018 Q46 = A
 
 # Ratt 2018 Q47 - Orthopédie pédiatrique
 
@@ -7539,6 +7831,8 @@ C] La palpation de la métaphyse fémorale inférieure entraîne une douleur viv
 D] Le traitement antibiotique est basé sur l'association amoxicilline-acide clavulanique
 E] Le traitement antibiotique est basé sur l'association amoxicilline-acide clavulanique Gentamycine
 
+Correction probable - Ratt 2018 Q47 = B,C,E
+
 # Ratt 2018 Q48 - Orthopédie pédiatrique
 
 48. L'examen de la hanche gauche d'un nouveau-né perçoit un signe de ressaut d'entrée à la manœuvre d'Ortolani. Que retenez-vous parmi ces propositions :
@@ -7548,6 +7842,8 @@ B] Il s'agit d'une hanche luxable
 C] Traiter la luxation par un harnais de Pavlik sans aucun bilan paraclinique
 D] Refaire l'examen clinique dans une semaine puis décider
 E] Réaliser la manœuvre de Barlow pour décider de la prise en charge thérapeutique
+
+Correction probable - Ratt 2018 Q48 = A,B,E
 
 # Ratt 2018 Q49 - Orthopédie pédiatrique
 
@@ -7559,6 +7855,8 @@ C] La présence d'un psoitis avec douleur de la fosse iliaque
 D] Une asymétrie d'écart entre les deux bras et le tronc
 E] Une inégalité de longueur des membres inférieurs
 
+Correction probable - Ratt 2018 Q49 = B,D
+
 # Ratt 2018 Q50 - Orthopédie pédiatrique
 
 50. Une boiterie douloureuse évoluant depuis 4 semaines chez un garçon de 5 ans peut être due à :
@@ -7568,6 +7866,8 @@ B] Des séquelles de traumatisme de cartilage de croissance d'un fémur survenu 
 C] Une tumeur osseuse d'une vertèbre lombaire
 D] La maladie de Leg Perthes Calvé
 E] Une myopathie
+
+Correction probable - Ratt 2018 Q50 = D
 
 ---
 

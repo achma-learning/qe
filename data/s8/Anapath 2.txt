@@ -1239,6 +1239,8 @@ C] Sont essentiellement malignes
 D] Sont classées en fonction du type cellulaire et du degré de malignité
 E] Incluent les tératomes immatures
 
+Correction probable - ratt 2024 Q1 = D
+
 # ratt 2024 Q2 - Tumeur de l’ovaire
 
 2. Concernant les tumeurs germinales de l'ovaire :
@@ -1248,6 +1250,8 @@ B] Proviennent du revêtement cœlomique de l'ovaire
 C] Dérivent des cellules germinales ovariennes
 D] Le tératome mature peut cancériser
 E] Sont retrouvés le plus souvent chez la femme âgée de 80 ans
+
+Correction probable - ratt 2024 Q2 = A,C,D
 
 # ratt 2024 Q3 - tumeurs mammaires
 
@@ -1259,6 +1263,8 @@ C] Précise dans les cas de chirurgie conservatrice l'étendue et les limites d'
 D] Fournit les éléments histopronostiques nécessaires à la prise en charge thérapeutique
 E] Évalue le statut Her2
 
+Correction probable - ratt 2024 Q3 = A,B,C,D,E
+
 # ratt 2024 Q4 - tumeurs mammaires
 
 4. Le carcinome mammaire infiltrant de type non spécifique NST :
@@ -1268,6 +1274,8 @@ B] Est anciennement appelé carcinome canalaire infiltrant
 C] Peut donner une métastase ganglionnaire axillaire
 D] Peut être de découverte fortuite mammographique
 E] Peut donner des métastases pulmonaires
+
+Correction probable - ratt 2024 Q4 = A,B,C,D,E
 
 # ratt 2024 Q5 - tumeurs mammaires
 
@@ -1279,6 +1287,8 @@ C] Le pourcentage du Ki67
 D] Le nombre de mitoses
 E] Le degré des atypies cyto-nucléaires
 
+Correction probable - ratt 2024 Q5 = A,D,E
+
 # ratt 2024 Q6 - tumeurs mammaires
 
 6. Entourer les cancers du sein HER2 positifs (2 propositions sont justes) :
@@ -1288,6 +1298,8 @@ B] Her 2 (1+)
 C] Her 2 (2+) non amplifié en hybridation in situ
 D] Her 2 (3+)
 E] Her 2 (2+) amplifié en hybridation in situ
+
+Correction probable - ratt 2024 Q6 = D,E
 
 # ratt 2024 Q7 - tumeurs mammaires
 
@@ -1299,6 +1311,8 @@ C] Formol tamponné neutre à 4%
 D] Bouin
 E] Glutaraldéhyde
 
+Correction probable - ratt 2024 Q7 = C
+
 # ratt 2024 Q8 - tumeurs mammaires
 
 8. À propos du cancer du sein :
@@ -1308,6 +1322,8 @@ B] La mutation du gène BRCA1 peut être impliquée dans sa genèse
 C] Il peut entrer dans le cadre d'un cancer familial
 D] Il peut être associé à des lésions de mastopathie fibro-kystique
 E] Il peut comporter des lésions de carcinome in situ
+
+Correction probable - ratt 2024 Q8 = B,C,D,E
 
 # ratt 2024 Q9 - tumeurs mammaires
 
@@ -1319,6 +1335,8 @@ C] L'extension aux ganglions locorégionaux (N+)
 D] Le grading de SBR
 E] La présence d'emboles vasculaires
 
+Correction probable - ratt 2024 Q9 = A,C,D,E
+
 # ratt 2024 Q10 - tumeurs mammaires
 
 10. Le rôle du pathologiste devant une mastopathie :
@@ -1328,6 +1346,8 @@ B] D'éliminer une lésion maligne
 C] D'identifier les lésions à risque de cancérisation
 D] De préciser tous les éléments permettant d'évaluer le risque relatif de survenue ultérieure d'un cancer
 E] De poser le diagnostic de carcinome infiltrant sur cytologie mammaire
+
+Correction probable - ratt 2024 Q10 = A,B,C,D
 
 # ratt 2024 Q11 - Lymphome de hodgkin
 
@@ -1339,6 +1359,8 @@ C] Nécessite un bilan d'extension complet
 D] Le stade d'Ann Arbor détermine le pronostic et les indications thérapeutiques
 E] Nécessite une étude immunohistochimique
 
+Correction probable - ratt 2024 Q11 = A,B,C,D,E
+
 # ratt 2024 Q12 - Lymphome de hodgkin
 
 12. Les quatre sous-types du lymphome hodgkinien classique sont :
@@ -1348,6 +1370,8 @@ B] Sous-type en déplétion lymphocytaire
 C] Nodulaire à prédominance lymphocytaire
 D] Sous-type à cellularité mixte
 E] Sous-type riche en lymphocytes
+
+Correction probable - ratt 2024 Q12 = A,B,D,E
 
 # ratt 2024 Q13 - Lymphome de hodgkin
 
@@ -1359,6 +1383,8 @@ C] Anticorps anti PAX5
 D] Anticorps anti CD30
 E] Anticorps anti CK20
 
+Correction probable - ratt 2024 Q13 = A,C,D
+
 # ratt 2024 Q14 - tumeurs pulmonaires
 
 14. Le cancer primitif du poumon :
@@ -1368,6 +1394,8 @@ B] Est de bon pronostic lorsqu'il est diagnostiqué à un stade précoce localis
 C] Peut poser le problème de diagnostic différentiel avec une métastase
 D] Est dû principalement au tabac
 E] Peut survenir sur un lit de dysplasie
+
+Correction probable - ratt 2024 Q14 = A,B,C,D,E
 
 # ratt 2024 Q15 - tumeurs pulmonaires
 
@@ -1379,6 +1407,8 @@ C] Réalise histologiquement des lobules malpighiens avec des globes cornés
 D] Est souvent de développement périphérique
 E] Peut exprimer l'anticorps anti-napsine
 
+Correction probable - ratt 2024 Q15 = A,B,D,E
+
 # ratt 2024 Q16 - tumeurs pulmonaires
 
 16. Le carcinome épidermoïde du poumon exprime l'anticorps suivant (QCU) :
@@ -1388,6 +1418,8 @@ B] CD3
 C] Napsine
 D] P63
 E] CD20
+
+Correction probable - ratt 2024 Q16 = D
 
 # ratt 2024 Q17 - tumeurs pulmonaires
 
@@ -1399,6 +1431,8 @@ C] La présence ou non d'emboles vasculaires
 D] L'état de la recoupe bronchique
 E] Le curage ganglionnaire médiastino-hilaire
 
+Correction probable - ratt 2024 Q17 = A,B,C,D,E
+
 # ratt 2024 Q18 - tumeur colo-rectale
 
 18. Le cancer colorectal :
@@ -1408,6 +1442,8 @@ B] Peut survenir avant l'âge de 40 ans
 C] Peut survenir chez les patients atteints de MICI
 D] Peut être héréditaire
 E] Nécessite une prise en charge thérapeutique multidisciplinaire
+
+Correction probable - ratt 2024 Q18 = A,B,C,D,E
 
 # ratt 2024 Q19 - tumeur colo-rectale
 
@@ -1419,6 +1455,8 @@ C] Peut être multiple
 D] Le type tubuleux ne cancérise jamais
 E] Peut être en dysplasie de haut ou de bas grade
 
+Correction probable - ratt 2024 Q19 = A,B,C,E
+
 # ratt 2024 Q20 - tumeur colo-rectale
 
 20. Les critères de risque de malignité devant un adénome colorectal englobent :
@@ -1428,6 +1466,8 @@ B] Le sexe masculin
 C] Le siège colique
 D] La composante villeuse
 E] La taille > 1 cm
+
+Correction probable - ratt 2024 Q20 = D,E
 
 # ratt 2024 Q21 - tumeur colo-rectale
 
@@ -1439,6 +1479,8 @@ C] La perte de mucosécrétion
 D] Les atypies cellulaires marquées
 E] L'infiltration du chorion sous-jacent
 
+Correction probable - ratt 2024 Q21 = C,D
+
 # ratt 2024 Q22 - Tumeurs hépatiques
 
 22. Parmi les facteurs de risque du carcinome hépatocellulaire hépatique, on retrouve :
@@ -1448,6 +1490,8 @@ B] La cirrhose récente
 C] Un patient infecté au virus de l'hépatite B
 D] La cirrhose macronodulaire
 E] Le sexe masculin
+
+Correction probable - ratt 2024 Q22 = C,E
 
 # ratt 2024 Q23 - Tumeurs hépatiques
 
@@ -1459,6 +1503,8 @@ C] Survient sur un foie sain
 D] L'imagerie est suffisante pour porter le diagnostic
 E] Se révèle par une hépatomégalie tumorale
 
+Correction probable - ratt 2024 Q23 = A,B,C,E
+
 # ratt 2024 Q24 - Tumeurs hépatiques
 
 24. Concernant l'origine tissulaire des tumeurs primitives hépatiques :
@@ -1468,6 +1514,8 @@ B] Le cholangiocarcinome provient des structures biliaires
 C] Les structures vasculaires ne donnent pas de tumeurs primitives hépatiques
 D] Il peut exister des tumeurs mixtes
 E] Il peut exister des tumeurs d'origine embryonnaire
+
+Correction probable - ratt 2024 Q24 = A,B,D,E
 
 # ratt 2024 Q25 - Tumeurs hépatiques
 
@@ -1479,6 +1527,8 @@ C] L'immunohistochimie à elle seule peut toujours déterminer le primitif avec 
 D] Peut être révélatrice d'un cancer
 E] Est le plus souvent multinodulaire
 
+Correction probable - ratt 2024 Q25 = A,B,D,E
+
 # ratt 2024 Q26 - Pathologie de l’oesophage
 
 26. L'endobrachyœsophage (EBO) :
@@ -1488,6 +1538,8 @@ B] Est une complication de l'œsophagite peptique
 C] Touche surtout le 1/3 inférieur œsophagien
 D] Son diagnostic nécessite la réalisation d'une fibroscopie œsophagienne avec biopsie
 E] Est une métaplasie malpighienne de la muqueuse glandulaire
+
+Correction probable - ratt 2024 Q26 = A,B,C,D
 
 # ratt 2024 Q27 - Pathologie de l’oesophage
 
@@ -1499,6 +1551,8 @@ C] Un carcinome épidermoïde
 D] Un mélanome
 E] Un sarcome
 
+Correction probable - ratt 2024 Q27 = C
+
 # ratt 2024 Q28 - Tumeurs de l’estomac
 
 28. Dans le cancer de l'estomac, l'Helicobacter pylori est incriminé dans :
@@ -1508,6 +1562,8 @@ B] Le carcinome épidermoïde
 C] Le lymphome de MALT
 D] L'adénocarcinome
 E] La tumeur stromale gastro-intestinale
+
+Correction probable - ratt 2024 Q28 = C,D
 
 # ratt 2024 Q29 - Tumeurs de l’estomac
 
@@ -1519,6 +1575,8 @@ C] L'envahissement ou non du curage ganglionnaire
 D] Le degré d'infiltration de la paroi gastrique
 E] La présence ou non d'emboles vasculaires
 
+Correction probable - ratt 2024 Q29 = A,B,C,D,E
+
 # ratt 2024 Q30 - Tumeurs de l’estomac
 
 30. Le carcinome à cellules indépendantes de l'estomac :
@@ -1528,6 +1586,8 @@ B] Touche les sujets plus jeunes
 C] Les cellules sont jointives formant des massifs et des nids
 D] Le noyau des cellules est refoulé en périphérie
 E] Est un cancer de mauvais pronostic
+
+Correction probable - ratt 2024 Q30 = B,D,E
 
 # ratt 2024 Q31 - Tumeurs de la vessie
 
@@ -1539,6 +1599,8 @@ C] Adénocarcinome
 D] Tumeur urothéliale
 E] Tumeur neuroendocrine
 
+Correction probable - ratt 2024 Q31 = D
+
 # ratt 2024 Q32 - Tumeurs de la vessie
 
 32. Concernant les tumeurs urothéliales :
@@ -1548,6 +1610,8 @@ B] Prédominent au niveau de la vessie
 C] Peuvent être multifocales au niveau de l'arbre urinaire
 D] Peuvent être papillaires ou non papillaires
 E] Elles sont toujours invasives
+
+Correction probable - ratt 2024 Q32 = A,B,C,D
 
 # ratt 2024 Q33 - Tumeurs de la vessie
 
@@ -1559,6 +1623,8 @@ C] Un carcinome urothélial de bas grade infiltrant de stade pT2
 D] Un carcinome urothélial infiltrant de haut grade de stade pT1
 E] Un carcinome urothélial papillaire non invasif de haut grade, stade pTa
 
+Correction probable - ratt 2024 Q33 = B
+
 # ratt 2024 Q34 - Les tumeurs de la prostate
 
 34. Concernant le cancer de la prostate, le type histologique le plus fréquent est le :
@@ -1568,6 +1634,8 @@ B] Carcinome urothélial
 C] Carcinome épidermoïde
 D] Carcinome à cellules claires
 E] Sarcome
+
+Correction probable - ratt 2024 Q34 = A
 
 # ratt 2024 Q35 - Les tumeurs de la prostate
 
@@ -1579,6 +1647,8 @@ C] La zone de prédilection est la zone périphérique de la prostate
 D] Le diagnostic de certitude repose sur l'étude anatomopathologique
 E] Les glandes tumorales montrent une disparition de la couche basale
 
+Correction probable - ratt 2024 Q35 = C,D,E
+
 # ratt 2024 Q36 - Les tumeurs de la prostate
 
 36. L'examen histologique d'une biopsie prostatique d'un patient de 65 ans objective un adénocarcinome prostatique acinaire avec 2 grades de différenciation : Grade 5 estimé à 75% et Grade 3 estimé à 25%. Le score de Gleason est de :
@@ -1588,6 +1658,8 @@ B] 7
 C] 8
 D] 9
 E] 10
+
+Correction probable - ratt 2024 Q36 = C
 
 # ratt 2024 Q37 - Les tumeurs de la prostate
 
@@ -1599,6 +1671,8 @@ C] Groupe grade 3
 D] Groupe grade 4
 E] Groupe grade 5
 
+Correction probable - ratt 2024 Q37 = E
+
 # ratt 2024 Q38 - Tumeur rénale
 
 38. Concernant les tumeurs rénales malignes de l'adulte, quelle est la tumeur la plus fréquente ?
@@ -1608,6 +1682,8 @@ B] Le carcinome rénal à cellules claires
 C] Le carcinome tubulo-papillaire
 D] L'oncocytome
 E] Le sarcome
+
+Correction probable - ratt 2024 Q38 = B
 
 # ratt 2024 Q39 - Tumeur rénale
 
@@ -1619,6 +1695,8 @@ C] Le carcinome à cellules chromophobes
 D] Le carcinome tubulo-papillaire
 E] Le carcinome rénal à cellules claires
 
+Correction probable - ratt 2024 Q39 = D,E
+
 # ratt 2024 Q40 - Tumeur rénale
 
 40. Le compte rendu anatomopathologique d'une pièce de néphrectomie pour un carcinome à cellules rénales, doit préciser :
@@ -1628,6 +1706,8 @@ B] L'état des limites d'exérèse chirurgicale
 C] Le grade de Furhman (ou Grade d'ISUP)
 D] Le type histologique
 E] La présence ou non d'emboles vasculaires
+
+Correction probable - ratt 2024 Q40 = A,B,C,D,E
 
 # ratt 2024 Q41 - Tumeur rénale
 
@@ -1639,6 +1719,8 @@ C] La tumeur rhabdoïde
 D] Le néphroblastome
 E] Le rhabdomyosarcome
 
+Correction probable - ratt 2024 Q41 = D
+
 # ratt 2024 Q42 - Tumeur du testicule
 
 42. Concernant les tumeurs germinales testiculaires :
@@ -1648,6 +1730,8 @@ B] La cryptorchidie est un facteur favorisant
 C] Le diagnostic positif est porté sur biopsie testiculaire
 D] Naissent à partir des cellules des tubes séminifères
 E] Peuvent être séminomateuses ou non séminomateuses
+
+Correction probable - ratt 2024 Q42 = B,E
 
 # ratt 2024 Q43 - Tumeur du testicule
 
@@ -1659,6 +1743,8 @@ C] Le choriocarcinome
 D] Le carcinome embryonnaire
 E] Carcinome épidermoïde
 
+Correction probable - ratt 2024 Q43 = B,C,D
+
 # ratt 2024 Q44 - Tumeur du testicule
 
 44. Devant une suspicion de tumeur testiculaire, le diagnostic se fait sur : (QCU)
@@ -1668,6 +1754,8 @@ B] Une orchidectomie
 C] Une cytoponction testiculaire
 D] Une exérèse partielle
 E] Une biopsie testiculaire
+
+Correction probable - ratt 2024 Q44 = B
 
 # ratt 2024 Q45 - Tumeur du testicule
 
@@ -1679,6 +1767,8 @@ C] Elles peuvent se développer sur des néoplasies in-situ des cellules germina
 D] Comporte de grandes cellules germinales immatures
 E] De bon pronostic par rapport aux tumeurs germinales non séminomateuses
 
+Correction probable - ratt 2024 Q45 = A,C,E
+
 # ratt 2024 Q46 - Lymphomes non hodgkiniens
 
 46. Concernant les lymphomes non hodgkiniens :
@@ -1688,6 +1778,8 @@ B] Ce sont des hémopathies malignes ayant comme origine le lymphocyte
 C] Peuvent être ganglionnaires ou extra-ganglionnaires
 D] Ils peuvent être de type B ou T, rarement NK
 E] L'immunophénotypage par immunohistochimie est indispensable pour le diagnostic
+
+Correction probable - ratt 2024 Q46 = A,B,C,D,E
 
 # ratt 2024 Q47 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
@@ -1699,6 +1791,8 @@ C] Exige une fixation du prélèvement au formol tamponné
 D] Se base sur l'étude de l'architecture et la cytologie
 E] Peut s'aider de l'immunohistochimie en cas de difficulté
 
+Correction probable - ratt 2024 Q47 = A,B,C,D,E
+
 # ratt 2024 Q48 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
 48. Une prolifération tumorale lymphomateuse maligne exprimant le CD20 est :
@@ -1709,6 +1803,8 @@ C] Un lymphome T
 D] Un lymphome B
 E] Un myélome multiple
 
+Correction probable - ratt 2024 Q48 = D
+
 # ratt 2024 Q49 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
 49. Une prolifération tumorale lymphomateuse maligne exprimant le CD3 est :
@@ -1718,6 +1814,8 @@ B] Un carcinome
 C] Un lymphome T
 D] Un lymphome B
 E] Un myélome multiple
+
+Correction probable - ratt 2024 Q49 = C
 
 # ratt 2024 Q50 - Lymphomes non hodgkiniens
 
@@ -1733,6 +1831,8 @@ E] Comporte une forme endémique et sporadique
 
 // Exceptionnelle 2024 (Correction collective) : https://www.e-qe.online/exam/314779ea-2ec4-4be4-acdb-fe63a8a71869
 
+Correction probable - ratt 2024 Q50 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q1 - Tumeurs hépatiques
 
 1. Concernant l’origine tissulaire des tumeurs primitives hépatiques
@@ -1742,6 +1842,8 @@ B] Le cholangiocarcinome provient des structures biliaires
 C] Les structures vasculaires ne donnent pas de tumeurs primitives hépatiques
 D] Il peut exister des tumeurs mixtes
 E] Il peut exister des tumeurs d’origine embryonnaire
+
+Correction probable - Exceptionnelle 2024 Q1 = A,B,D,E
 
 # Exceptionnelle 2024 Q2 - Tumeurs hépatiques
 
@@ -1753,6 +1855,8 @@ C] Est le plus souvent multimodulaire
 D] Est rare
 E] Peut-être révélatrice d’un cancer
 
+Correction probable - Exceptionnelle 2024 Q2 = A,B,C,E
+
 # Exceptionnelle 2024 Q3 - tumeurs mammaires
 
 3. Les facteurs pronostiques du carcinome infiltrant du sein sont :
@@ -1762,6 +1866,8 @@ B] Les récepteurs gastro-progestatifs
 C] Le contingent carcinome canalaire in situ de haut grade
 D] L’envahissement ganglionnaire
 E] Le statut HER2
+
+Correction probable - Exceptionnelle 2024 Q3 = A,C,D,E
 
 # Exceptionnelle 2024 Q4 - tumeurs mammaires
 
@@ -1773,6 +1879,8 @@ C] Carcinome mammaire de type non spécifique infiltrant
 D] Leibomyosarcoma
 E] Angiosarcoma
 
+Correction probable - Exceptionnelle 2024 Q4 = C
+
 # Exceptionnelle 2024 Q5 - tumeurs mammaires
 
 5. À propos du cancer du sein :
@@ -1782,6 +1890,8 @@ B] La mutation du gène BRCA peut être impliquée dans sa genèse
 C] Il peut entrer dans le cadre d’un cancer familial
 D] Il peut être associé à des lésions de mastopathie fibro-kystique
 E] Il peut comporter des lésions de carcinome in situ
+
+Correction probable - Exceptionnelle 2024 Q5 = A,B,C,D,E
 
 # Exceptionnelle 2024 Q6 - tumeurs mammaires
 
@@ -1793,6 +1903,8 @@ C] Il faut faire une cytologie mammaire
 D] Il faut faire une mastectomie
 E] Il faut préconiser une pyramidectomie
 
+Correction probable - Exceptionnelle 2024 Q6 = A
+
 # Exceptionnelle 2024 Q7 - tumeurs mammaires
 
 7. L’examen extemporané en pathologie carcinomateuse mammaire :
@@ -1802,6 +1914,8 @@ B] Permet l’examen des marges d’exérèse
 C] Permet la réalisation du ganglion sentinelle
 D] Se fait sur des lésions infra centimétriques
 E] Est réalisé sur un prélèvement tumoral fixé au formol
+
+Correction probable - Exceptionnelle 2024 Q7 = B,C
 
 # Exceptionnelle 2024 Q8 - tumeurs mammaires
 
@@ -1813,6 +1927,8 @@ C] Les atypies nucléaires des cellules tumorales
 D] La présence d’emboles vasculaires
 E] L’index mitotique
 
+Correction probable - Exceptionnelle 2024 Q8 = A,C,E
+
 # Exceptionnelle 2024 Q9 - tumeurs mammaires
 
 9. Entourer les cancers du sein HER2 positif
@@ -1822,6 +1938,8 @@ B] Her 2 (1+)
 C] Her 2 (2+) non amplifié en hybridation in situ
 D] Her 2 (3+)
 E] Her 2 (2+) amplifié en hybridation in situ
+
+Correction probable - Exceptionnelle 2024 Q9 = D,E
 
 # Exceptionnelle 2024 Q10 - tumeurs mammaires
 
@@ -1833,6 +1951,8 @@ C] Précise dans les cas de chirurgie conservatrice l’étendu et les limites d
 D] Fournit les éléments histopronostiques nécessaires à la prise en charge thérapeutique
 E] Évalue le statut Hef2
 
+Correction probable - Exceptionnelle 2024 Q10 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q11 - tumeurs mammaires
 
 11. Quel fixateur utilise-t-on pour un prélèvement d’une lésion mammaire infraclinique? (QCU)
@@ -1842,6 +1962,8 @@ B] Bouin
 C] Glutaraldéhyde
 D] Cytospray
 E] Formol tamponné neutre à 4%
+
+Correction probable - Exceptionnelle 2024 Q11 = E
 
 # Exceptionnelle 2024 Q12 - tumeurs mammaires
 
@@ -1853,6 +1975,8 @@ C] Double composante épithéliale et conjonctive
 D] Squirrhe
 E] Est une tumeur maligne du sein
 
+Correction probable - Exceptionnelle 2024 Q12 = C
+
 # Exceptionnelle 2024 Q13 - Tumeur de l’ovaire
 
 13. Concernant des tumeurs de l’ovaire (QCU)
@@ -1862,6 +1986,8 @@ B] La classification est fondée sur la corrélation morphologique entre l’asp
 C] La tumeur de l’ovaire la plus fréquente est la métastase
 D] Les tumeurs épithéliales se développent à partir des cellules germinales
 E] Les tumeurs des cordons sexuels et du stroma est la plus fréquente
+
+Correction probable - Exceptionnelle 2024 Q13 = A
 
 # Exceptionnelle 2024 Q14 - Tumeur de l’ovaire
 
@@ -1873,6 +1999,8 @@ C] Nuliparité
 D] Hormonothérapie substitutive
 E] Syndrome de Lynch
 
+Correction probable - Exceptionnelle 2024 Q14 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q15 - Tumeur de l’ovaire
 
 15. Les tumeurs mucineuses de l’ovaire :
@@ -1882,6 +2010,8 @@ B] Elles sont souvent bénignes
 C] Elles peuvent se compliquer de pseudo-myxome péritonéal
 D] Le diagnostic positif repose sur la biopsie de la tumeur
 E] le diagnostic de cystadénocarcinome mucineux ovarien ne peut être considéré qu’après avoir éliminé une origine secondaire digestive
+
+Correction probable - Exceptionnelle 2024 Q15 = B,C,E
 
 # Exceptionnelle 2024 Q16 - Tumeur de l’ovaire
 
@@ -1893,6 +2023,8 @@ C] Représentent moins de 40% des tumeurs malignes de l’ovaire
 D] Subdivisées en plusieurs catégories selon le type de cellules qui les constituent
 E] Comporte pour le type sérieux deux sous catégorie selon le degré de malignité
 
+Correction probable - Exceptionnelle 2024 Q16 = B,D,E
+
 # Exceptionnelle 2024 Q17 - Tumeur de l’ovaire
 
 17. Parmi les tumeurs épithéliales de l’ovaire on note :
@@ -1902,6 +2034,8 @@ B] Le dysgerminome
 C] La tumeur à cellules claires
 D] La tumeur de Brenner
 E] Le choriocarcinome
+
+Correction probable - Exceptionnelle 2024 Q17 = A,C,D
 
 # Exceptionnelle 2024 Q18 - Lymphome de hodgkin
 
@@ -1913,6 +2047,8 @@ C] Se caractérise par les cellules lacunaires
 D] Se caractérise par les cellules dites en « pop-corn »
 E] Est toujours associée à l’EBV
 
+Correction probable - Exceptionnelle 2024 Q18 = B,D
+
 # Exceptionnelle 2024 Q19 - Lymphome de hodgkin
 
 19. Les quatre sous-types du lymphome hodgkinien classique sont :
@@ -1922,6 +2058,8 @@ B] Sous-type à cellularité mixte
 C] Sous-type riche en lymphocytes
 D] Sous-type en déplétion lymphocytaire
 E] Nodulaire à prédominance lymphocytaire
+
+Correction probable - Exceptionnelle 2024 Q19 = A,B,C,D
 
 # Exceptionnelle 2024 Q20 - Lymphome de hodgkin
 
@@ -1933,6 +2071,8 @@ C] anticorps anti CD117
 D] anticorps anti CD30
 E] anticorps anti CD20
 
+Correction probable - Exceptionnelle 2024 Q20 = A,D
+
 # Exceptionnelle 2024 Q21 - tumeur colo-rectale
 
 21. Le compte rendu anatomopathologique en matière de cancer rectal doit préciser :
@@ -1942,6 +2082,8 @@ B] Le degré de différentiation des adénocarcinomes
 C] La présence ou non d’emboles vasculaires
 D] Le type histopathologique
 E] L’état des limites d’exérèse chirurgicales
+
+Correction probable - Exceptionnelle 2024 Q21 = A,B,C,D,E
 
 # Exceptionnelle 2024 Q22 - tumeur colo-rectale
 
@@ -1953,6 +2095,8 @@ C] L’intoxication alcoolo-tabagique
 D] La carence en folates
 E] La prise régulière d’aspirine
 
+Correction probable - Exceptionnelle 2024 Q22 = A,C,D
+
 # Exceptionnelle 2024 Q23 - tumeur colo-rectale
 
 23. Cochez les nouveaux facteurs pronostiques d’un adénocarcinome colorectal
@@ -1962,6 +2106,8 @@ B] L’emboles lymphatique
 C] La taille tumorale
 D] Le budding
 E] L’envahissement ganglionnaire
+
+Correction probable - Exceptionnelle 2024 Q23 = D
 
 # Exceptionnelle 2024 Q24 - tumeurs pulmonaires
 
@@ -1973,6 +2119,8 @@ C] De réaliser des biopsies transpariétales scanno guidée
 D] De préciser le type histologique
 E] De fournir les éléments pronostiques
 
+Correction probable - Exceptionnelle 2024 Q24 = A,B,D,E
+
 # Exceptionnelle 2024 Q25 - tumeurs pulmonaires
 
 25. Les carcinomes bronchiques non à petites cellules comprennent :
@@ -1982,6 +2130,8 @@ B] Les adénocarcinomes
 C] Le carcinome épidermoïde
 D] Le carcinome à grandes cellules
 E] Les tumeurs carcinoïdes
+
+Correction probable - Exceptionnelle 2024 Q25 = B,C,D
 
 # Exceptionnelle 2024 Q26 - tumeurs pulmonaires
 
@@ -1993,6 +2143,8 @@ C] Donne des métastases cérébrales et osseuses précoces
 D] Est généralement non associée au tabac
 E] Pose des problèmes de diagnostic différentiel avec le lymphoma
 
+Correction probable - Exceptionnelle 2024 Q26 = A,C,E
+
 # Exceptionnelle 2024 Q27 - Pathologie de l’oesophage
 
 27. L’Endobrachyœsophage (EBO) :
@@ -2002,6 +2154,8 @@ B] Est une complication de l’œsophagite peptique
 C] Touche surtout le 1 /3 supérieur œsophagien
 D] Son diagnostic nécessite la réalisation d’une endoscopie œsophagienne avec biopsie
 E] Est une métaphasie glandulaire de la muqueuse malpighienne
+
+Correction probable - Exceptionnelle 2024 Q27 = A,B,D,E
 
 # Exceptionnelle 2024 Q28 - Pathologie de l’oesophage
 
@@ -2013,6 +2167,8 @@ C] Un sarcome
 D] Un mélanome
 E] Un carcinome épidermoïde
 
+Correction probable - Exceptionnelle 2024 Q28 = E
+
 # Exceptionnelle 2024 Q29 - Pathologie de l’oesophage
 
 29. L’examen histologique de ce cancer œsophagien retrouve des boyaux cohésifs de cellules polygonales jointives avec des globes cornés de kératine. Quel est votre diagnostic ?
@@ -2022,6 +2178,8 @@ B] Un mélanome
 C] Un lymphome
 D] Un carcinome épidermoïde
 E] Une tumeur neuroendocrine
+
+Correction probable - Exceptionnelle 2024 Q29 = D
 
 # Exceptionnelle 2024 Q30 - Tumeurs de l’estomac
 
@@ -2033,6 +2191,8 @@ C] Le score de Gleason
 D] La présence ou non d’emboles vasculaires
 E] L’état des limites d’exérèse chirurgicale
 
+Correction probable - Exceptionnelle 2024 Q30 = A,B,D,E
+
 # Exceptionnelle 2024 Q31 - Tumeurs de la vessie
 
 31. Concernant les tumeurs de la vessie et des voies excrétrices, quelle est la tumeur la plus fréquente ?
@@ -2042,6 +2202,8 @@ B] Lymphome
 C] Adénocarcinome
 D] Carcinome à cellules claires
 E] Tumeur urothéliale
+
+Correction probable - Exceptionnelle 2024 Q31 = E
 
 # Exceptionnelle 2024 Q32 - Tumeurs de la vessie
 
@@ -2053,6 +2215,8 @@ C] Un carcinome urothélial papillaire de haut grade infiltrant de stade pT2
 D] Un carcinome urothélial papillaire infiltrant de haut grade de stade pT1
 E] Un papillome urothélial
 
+Correction probable - Exceptionnelle 2024 Q32 = D
+
 # Exceptionnelle 2024 Q33 - Tumeur rénale
 
 33. Parmi les tumeurs à cellules rénales de l’adulte, on trouve :
@@ -2062,6 +2226,8 @@ B] Le Carcinome urothélial
 C] Le lymphome
 D] Le Carcinome à cellules claires
 E] Le Carcinome papillaire
+
+Correction probable - Exceptionnelle 2024 Q33 = A,D,E
 
 # Exceptionnelle 2024 Q34 - Tumeur rénale
 
@@ -2073,6 +2239,8 @@ C] Un carcinome des tubes collecteurs
 D] Un carcinome rénal à cellules claires
 E] Un carcinome médullaire
 
+Correction probable - Exceptionnelle 2024 Q34 = D
+
 # Exceptionnelle 2024 Q35 - Tumeur rénale
 
 35. Dans ce cas, vous trouverez à l’examen histologique au microscope optique : (1 réponse juste)
@@ -2082,6 +2250,8 @@ B] Des boyaux de cellules jointives avec des globes cornées
 C] Une prolifération tumorale maligne à cellules claires
 D] Une prolifération riche en cellules en bague à chatons
 E] Une prolifération tumorale fusocellulaire
+
+Correction probable - Exceptionnelle 2024 Q35 = C
 
 # Exceptionnelle 2024 Q36 - Tumeur rénale
 
@@ -2093,6 +2263,8 @@ C] Le grade de Furhman (ou Grade d’ISUP)
 D] Le grade de Gleason
 E] La présence ou non d’emboles vasculaires
 
+Correction probable - Exceptionnelle 2024 Q36 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q37 - Tumeur rénale
 
 37. Le Néphroblastome
@@ -2102,6 +2274,8 @@ B] Est une tumeur bénigne
 C] Tumeur embryonnaire dérivée du blastème néphrogénique
 D] Peut-être mono, bi ou triphasique sur le plan histologique
 E] Tumeur embryonnaire dérivée du blastème néphrogénique
+
+Correction probable - Exceptionnelle 2024 Q37 = A,C,D
 
 # Exceptionnelle 2024 Q38 - Les tumeurs de la prostate
 
@@ -2113,6 +2287,8 @@ C] Une résection trans-urétrale prostatique (RTUP)
 D] Des biopsies prostatiques
 E] Une cytologie urinaire
 
+Correction probable - Exceptionnelle 2024 Q38 = D
+
 # Exceptionnelle 2024 Q39 - Les tumeurs de la prostate
 
 39. Concernant le cancer de la prostate, le type histologique le plus fréquent est le :
@@ -2122,6 +2298,8 @@ B] Carcinome urothélial
 C] Carcinome neuroendocrine
 D] Carcinome à cellules claires
 E] Adénocarcinome acinaire
+
+Correction probable - Exceptionnelle 2024 Q39 = E
 
 # Exceptionnelle 2024 Q40 - Les tumeurs de la prostate
 
@@ -2133,6 +2311,8 @@ C] La zone de prédilection est la zone centrale de la prostate
 D] Le diagnostic de certitude repose sur l’étude anatomopathologique
 E] Les glandes tumorales montrent une disparition de la couche basale
 
+Correction probable - Exceptionnelle 2024 Q40 = A,D,E
+
 # Exceptionnelle 2024 Q41 - Les tumeurs de la prostate
 
 41. L’examen histologique d’une biopsie prostatique d’un patient de 67 ans objective un adénocarcinome prostatique acinaire avec 2 grades de différenciation : Grade 5 estimé à 75% et Grade 3 estimé à 25 %. Le score de Gleason est de ?
@@ -2142,6 +2322,8 @@ B] 7
 C] 8
 D] 9
 E] 10
+
+Correction probable - Exceptionnelle 2024 Q41 = C
 
 # Exceptionnelle 2024 Q42 - Les tumeurs de la prostate
 
@@ -2153,6 +2335,8 @@ C] Groupe grade 3
 D] Groupe grade 4
 E] Groupe grade 5
 
+Correction probable - Exceptionnelle 2024 Q42 = E
+
 # Exceptionnelle 2024 Q43 - Tumeur du testicule
 
 43. Quel est la tumeur testiculaire la plus fréquente ?
@@ -2162,6 +2346,8 @@ B] Le séminome
 C] Le choriocarcinome
 D] Le tératome
 E] Tumeur du sac vitellin
+
+Correction probable - Exceptionnelle 2024 Q43 = B
 
 # Exceptionnelle 2024 Q44 - Tumeur du testicule
 
@@ -2173,6 +2359,8 @@ C] Le choriocarcinome
 D] Le carcinome embryonnaire
 E] Tumeur du sac vitellin
 
+Correction probable - Exceptionnelle 2024 Q44 = A
+
 # Exceptionnelle 2024 Q45 - Tumeur du testicule
 
 45. Devant une suspicion de tumeur testiculaire, le diagnostic se fait sur : (1 réponse attendue)
@@ -2182,6 +2370,8 @@ B] Une biopsie testiculaire
 C] Une cytoponction testiculaire
 D] Une exérèse partielle
 E] Une orchidectomie par voie vaginale
+
+Correction probable - Exceptionnelle 2024 Q45 = E
 
 # Exceptionnelle 2024 Q46 - Lymphomes non hodgkiniens
 
@@ -2193,6 +2383,8 @@ C] Ils peuvent être ganglionnaires et extra-ganglionnaires
 D] Ils peuvent être de type B ou T, rarement NK
 E] L’immunophénotypage par immunohistochimie est indispensable pour le diagnostique
 
+Correction probable - Exceptionnelle 2024 Q46 = A,C,D,E
+
 # Exceptionnelle 2024 Q47 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
 47. L'interprétation anatomopathologique d'un prélèvement ganglionnaire :
@@ -2202,6 +2394,8 @@ B] Privilège une cytoponction ganglionnaire
 C] Exige une fixation du prélèvement au formol tamponné
 D] Se base sur l'étude de l'architecture et la cytologie
 E] Peut s'aider de l’immunohistochimie en cas de difficulté
+
+Correction probable - Exceptionnelle 2024 Q47 = A,C,D,E
 
 # Exceptionnelle 2024 Q48 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
@@ -2213,6 +2407,8 @@ C] Un lymphoma T
 D] Un lymphoma B
 E] Un myélome multiple
 
+Correction probable - Exceptionnelle 2024 Q48 = D
+
 # Exceptionnelle 2024 Q49 - Méthodes d’étude et de prélèvement des organes lymphoïdes
 
 49. Une prolifération tumorale lymphomateuse maligne exprimant le CD3 est :
@@ -2223,6 +2419,8 @@ C] Un lymphoma T
 D] Un lymphoma B
 E] Un myélome multiple
 
+Correction probable - Exceptionnelle 2024 Q49 = C
+
 # Exceptionnelle 2024 Q50 - Lymphomes non hodgkiniens
 
 50. Le lymphome de Burkitt :
@@ -2232,6 +2430,8 @@ B] L'EBV joue un rôle dans l’étiopathogénie
 C] Est le plus fréquent des LNH de l’enfant moins de 16 ans
 D] A une manifestation essentiellement extra-ganglionnaire
 E] Comporte une forme endémique et sporadique
+
+Correction probable - Exceptionnelle 2024 Q50 = A,B,C,D,E
 
 ---
 

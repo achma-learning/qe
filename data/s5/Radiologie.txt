@@ -2447,6 +2447,8 @@ C] Du tronc basilaire
 D] Du flux du liquide céphalo-rachidien dans les ventricules.
 E] De l'artère carotide intracrânienne et ses branches.
 
+Correction probable - 2024 Exceptionnelle Q1 = C,E
+
 # 2024 Exceptionnelle Q2 - Moyens d’exploration en neuroradiologie
 
 2. Quelles sont les contre-indications à la réalisation de l'IRM cérébrale?
@@ -2456,6 +2458,8 @@ B] Le port d'un dispositif intra utérin
 C] Le troisième trimestre de la grossesse
 D] Le port d'un appareil dentaire
 E] Le corps étranger métallique intra oculaire
+
+Correction probable - 2024 Exceptionnelle Q2 = A,E
 
 # 2024 Exceptionnelle Q3 - Moyens d’exploration en neuroradiologie
 
@@ -2467,6 +2471,8 @@ C] L'angioscanner.
 D] L'IRM.
 E] L'angiographie cérébrale.
 
+Correction probable - 2024 Exceptionnelle Q3 = B,C,E
+
 # 2024 Exceptionnelle Q4 - Traumatismes crânio-encéphaliques
 
 4. Patient de 28 ans, victime d'un AVP avec point d'impact au niveau du crâne. A l'admission le patient a un score de Glasgow à 13, avec une lourdeur de l'hémicorps gauche. Quels examens d'imagerie sont demandés en première intention?
@@ -2476,6 +2482,8 @@ B] Une IRM cérébrale
 C] Une échographie transfontanellaire
 D] Une radiographie du rachis cervical
 E] L'angio-IRM artérielle
+
+Correction probable - 2024 Exceptionnelle Q4 = A,D
 
 # 2024 Exceptionnelle Q5 - Traumatismes crânio-encéphaliques
 
@@ -2487,6 +2495,8 @@ C] Un hématome extradural
 D] Une contusion corticale
 E] Une hémorragie sous arachnoïdienne
 
+Correction probable - 2024 Exceptionnelle Q5 = C
+
 # 2024 Exceptionnelle Q6 - Imagerie des AVC
 
 6. Les signes scannographiques d'un AVC ischémique au stade intermédiaire sont:
@@ -2496,6 +2506,8 @@ B] L'hypodensité systématisée
 C] L'hypodensité hydrique
 D] L'hyperdensité spontanée des méninges
 E] La prise de contraste intense et diffuse
+
+Correction probable - 2024 Exceptionnelle Q6 = B
 
 # 2024 Exceptionnelle Q7 - Approche diagnostic d’une lésion osseuse
 
@@ -2507,6 +2519,8 @@ C] Le nombre des lésions
 D] La vitesse d'accroissement
 E] L'aspect radiologique de la lésion
 
+Correction probable - 2024 Exceptionnelle Q7 = A,B,C,D,E
+
 # 2024 Exceptionnelle Q8 - Approche diagnostic d’une lésion osseuse
 
 8. Citez les caractéristiques d'une ostéolyse type IC de Lodwick:
@@ -2516,6 +2530,8 @@ B] Une ostéolyse géographique sans sclérose marginale de contours flous
 C] Une ostéolyse mitée
 D] Une ostéolyse perméative
 E] Une ostéolyse géographique avec sclérose marginale
+
+Correction probable - 2024 Exceptionnelle Q8 = B
 
 # 2024 Exceptionnelle Q9 - Approche diagnostic d’une lésion osseuse
 
@@ -2527,6 +2543,8 @@ C] Une ostéolyse mitée
 D] Une ostéolyse perméative
 E] Une lésion maligne
 
+Correction probable - 2024 Exceptionnelle Q9 = B
+
 # 2024 Exceptionnelle Q10 - Les tumeurs osseuses bénignes
 
 10. Décrire les caractéristiques de l'ostéome ostéoïde:
@@ -2536,6 +2554,8 @@ B] Elle n'est jamais douloureuse
 C] Peut rentrer dans le cadre d'une maladie d'ollier
 D] Se présente sous forme d'ostéolyse mitée
 E] S'accompagne d'une réaction périostée plurilamellaire
+
+Correction probable - 2024 Exceptionnelle Q10 = A
 
 # 2024 Exceptionnelle Q11 - Les tumeurs osseuses bénignes
 
@@ -2547,6 +2567,8 @@ C] Est une tumeur bénigne
 D] Se traduit par une ostéolyse perméative
 E] S'accompagne d'un éperon de Codman
 
+Correction probable - 2024 Exceptionnelle Q11 = B,C
+
 # 2024 Exceptionnelle Q12 - Les tumeurs osseuses malignes
 
 12. Énumérez les caractéristiques du chondrosarcome:
@@ -2556,6 +2578,8 @@ B] Contient une matrice cartilagineuse
 C] Se traduit par une ostéolyse de type IA
 D] Peut infiltrer les parties molles
 E] Peut contenir des calcifications
+
+Correction probable - 2024 Exceptionnelle Q12 = B,D,E
 
 # 2024 Exceptionnelle Q13 - Exploration radiologique du rachis
 
@@ -2567,6 +2591,8 @@ C] Le massif articulaire postérieur
 D] L'isthme
 E] Le pédicule
 
+Correction probable - 2024 Exceptionnelle Q13 = A
+
 # 2024 Exceptionnelle Q14 - Exploration radiologique du rachis
 
 14. Enumérer les signes radiologiques du mal de pott à la phase d'état :
@@ -2576,6 +2602,8 @@ B] Géodes en miroir
 C] Séquestres osseux
 D] Tassement cunéiforme
 E] Vertèbre ivoire
+
+Correction probable - 2024 Exceptionnelle Q14 = A,B,C,D
 
 # 2024 Exceptionnelle Q15 - imagerie pediatrique
 
@@ -2587,6 +2615,8 @@ C] L'échographie est un examen fait en 2eme intention
 D] L'échographie permet de préciser l'origine rénale en cherchant le signe de l'éperon
 E] En imagerie, c'est une tumeur qui refoule les vaisseaux et thrombose les veines
 
+Correction probable - 2024 Exceptionnelle Q15 = A,B,D
+
 # 2024 Exceptionnelle Q16 - imagerie pediatrique
 
 16. Le Syndrome de jonction pyélo-urétéral:
@@ -2596,6 +2626,8 @@ B] Obstruction urétéro-vésicale, responsable d'un défaut d'écoulement des u
 C] Peut-être révélé chez le nourrisson par une infection urinaire
 D] L'échographie montre une dilatation pyélo-calicielle marquée, avec uretère de calibre normal
 E] L'UIV est demandée en lere intention
+
+Correction probable - 2024 Exceptionnelle Q16 = A,C
 
 # 2024 Exceptionnelle Q17 - imagerie pediatrique
 
@@ -2607,6 +2639,8 @@ C] Est une masse tissulaire bien limitée
 D] Il s'associe souvent à un taux sanguin élevé de catécholamines.
 E] En écho-Doppler: la Thrombose portale est d'une grande valeur Diagnostique.
 
+Correction probable - 2024 Exceptionnelle Q17 = A,B,C
+
 # 2024 Exceptionnelle Q18 - imagerie pediatrique
 
 18. Le lymphome de Burkitt :
@@ -2616,6 +2650,8 @@ B] Le plus fréquent des Lymphomes Malin Non Hodgkiniens de l'enfance.
 C] Apparaît en imagerie sous forme d'une masse abdominale centrée par la lumière digestive
 D] La dernière anse iléale est le site le plus fréquent.
 E] En imagerie, il peut s'agir d'un épaississement intestinal transmural, circonférentiel.
+
+Correction probable - 2024 Exceptionnelle Q18 = A,B,D,E
 
 # 2024 Exceptionnelle Q19 - Imagerie du pancréas
 
@@ -2627,6 +2663,8 @@ C] Un aspect normal du scanner abdominal élimine une pancréatite
 D] En scanner, une densification de la graisse péri pancréatique est classée en stade C de Balthazar.
 E] Un faux kyste du pancréas est une complication tardive de la pancréatite aiguë
 
+Correction probable - 2024 Exceptionnelle Q19 = A,E
+
 # 2024 Exceptionnelle Q20 - Imagerie du tube digestif
 
 20. Un patient âgé de 60 ans, présente des rectorragies, le toucher rectal retrouve un processus bourgeonnant du bas rectum, quel est le premier examen à réaliser :
@@ -2636,6 +2674,8 @@ B] Une endoscopie digestive
 C] Un ASP
 D] Un scanner abdomino-pelvien
 E] Un lavement baryté
+
+Correction probable - 2024 Exceptionnelle Q20 = B
 
 # 2024 Exceptionnelle Q21 - Imagerie du tube digestif
 
@@ -2647,6 +2687,8 @@ C] Une ampoule rectale vide
 D] Le signe du tourbillon en scanner
 E] Un arrêt en bec d'oiseau en lavement baryté
 
+Correction probable - 2024 Exceptionnelle Q21 = B,C,D,E
+
 # 2024 Exceptionnelle Q22 - Imagerie des voies biliaires
 
 22. Concernant l'aspect en imagerie de la cholécystite aiguë lithiasique, quelles sont les propositions exactes?
@@ -2656,6 +2698,8 @@ B] Une vésicule biliaire à paroi épaissie supérieure à 4mm
 C] Un calcul hyperéchogène avec un cône d'ombre postérieur
 D] Une infiltration de la graisse adjacente
 E] Un épanchement péri vésiculaire
+
+Correction probable - 2024 Exceptionnelle Q22 = B,C,D,E
 
 # 2024 Exceptionnelle Q23 - Imagerie du foie
 
@@ -2667,6 +2711,8 @@ C] L'hyperplasie nodulaire focale présente une cicatrice centrale fibreuse qui 
 D] Les contraceptifs oraux représentent un des facteurs de risque de l'adénome hépatique
 E] L'adénome hépatique ne dégénère jamais
 
+Correction probable - 2024 Exceptionnelle Q23 = C,D
+
 # 2024 Exceptionnelle Q24 - Imagerie du foie
 
 24. Un homme de 40 ans, sans antécédents médicaux particuliers, consulte pour des douleurs abdominales diffuses. Une échographie abdominale révèle une lésion anéchogène hépatique de 3 cm de diamètre,(bien limitée avec des parois fines et sans signal au Doppler couleur. Le reste du parenchyme hépatique est homogène. Quel est le diagnostic le plus probable?
@@ -2676,6 +2722,8 @@ B] Abcès hépatique
 C] Angiome hépatique
 D] Hyperplasie nodulaire focale
 E] Kyste biliaire simple
+
+Correction probable - 2024 Exceptionnelle Q24 = E
 
 # 2024 Exceptionnelle Q25 - Imagerie du foie
 
@@ -2687,6 +2735,8 @@ C] L'IRM hépatique est l'examen de première intention
 D] Une hypertension portale est une des complications de la cirrhose.
 E] L'hépatite virale < C > est une des étiologies de la cirrhose hépatique
 
+Correction probable - 2024 Exceptionnelle Q25 = B,D,E
+
 # 2024 Exceptionnelle Q26 - Imagerie du foie
 
 26. Concernant le carcinome hépatocellulaire (CHC), quelles sont les propositions exactes ?
@@ -2696,6 +2746,8 @@ B] Représente la tumeur hépatique maligne primitive la plus fréquente
 C] Peut avoir une forme nodulaire ou diffuse
 D] Un CHCtypique est un nodule hypervascularisé au temps artériel (wash in) avec un lavage (wash out) au temps portal
 E] Une capsule périphérique est un des signes évocateurs de CHC
+
+Correction probable - 2024 Exceptionnelle Q26 = B,C,D,E
 
 # 2024 Exceptionnelle Q27 - L'exploration radiologique du thorax
 
@@ -2707,6 +2759,8 @@ C] De pneumothorax de grande abondance
 D] D'étude de la mobilité des coupoles diaphragmatiques
 E] De syndrome interstitiel
 
+Correction probable - 2024 Exceptionnelle Q27 = B,C
+
 # 2024 Exceptionnelle Q28 - Syndrome alvéolaire et interstitiel
 
 28. Une opacité de type alvéolaire:
@@ -2716,6 +2770,8 @@ B] Siège de bronchogramme aérien
 C] Est non systématisée
 D] Est à limites floues
 E] Exclue un cancer pulmonaire
+
+Correction probable - 2024 Exceptionnelle Q28 = A,B,C,D
 
 # 2024 Exceptionnelle Q29 - Syndrome alvéolaire et interstitiel
 
@@ -2727,6 +2783,8 @@ C] En cas d'évolution défavorable après traitement à base d'antibiothérapie
 D] En cas d'association avec un syndrome interstitiel.
 E] Pour guider une biopsie pulmonaire.
 
+Correction probable - 2024 Exceptionnelle Q29 = B,C,E
+
 # 2024 Exceptionnelle Q30 - Syndrome alvéolaire et interstitiel
 
 30. La meilleure technique d'imagerie pour la mise en évidence d'un syndrome interstitiel est:
@@ -2736,6 +2794,8 @@ B] L'imagerie par résonance magnétique
 C] L'échographie
 D] La tomodensitométrie
 E] L'artériographie
+
+Correction probable - 2024 Exceptionnelle Q30 = D
 
 # 2024 Exceptionnelle Q31 - Syndrome alvéolaire et interstitiel
 
@@ -2747,6 +2807,8 @@ C] Peut être en verre dépoli
 D] Peut être ronde à limite nette
 E] Peut être linéaire
 
+Correction probable - 2024 Exceptionnelle Q31 = C,E
+
 # 2024 Exceptionnelle Q32 - Le médiastin normal et pathologique
 
 32. Une opacité médiastinale se traduit par :
@@ -2756,6 +2818,8 @@ B] Des limites externes spiculées
 C] Une opacité de tonalité hydrique
 D] Une opacité périphérique
 E] Une opacité systématisée
+
+Correction probable - 2024 Exceptionnelle Q32 = A,C,E
 
 # 2024 Exceptionnelle Q33 - Syndrome bronchique et troubles de la ventilation
 
@@ -2767,6 +2831,8 @@ C] Un refoulement du médiastin vers le coté controlatéral
 D] L'élargissement des espaces intercostaux
 E] Une hyper-aération du poumon restant
 
+Correction probable - 2024 Exceptionnelle Q33 = A
+
 # 2024 Exceptionnelle Q34 - L'exploration radiologique du thorax
 
 34. L'échographie thoracique est indiquée dans les situations suivantes :
@@ -2776,6 +2842,8 @@ B] Guidage d'une biopsie d'une masse médiastinale antérieure et supérieure
 C] Repérage en vue de ponction d'une pleurésie cloisonnée
 D] Diagnostic d'une pleurésie de faible abondance chez un patient de réanimation
 E] Diagnostic étiologique d'une opacité alvéolaire
+
+Correction probable - 2024 Exceptionnelle Q34 = C,D
 
 # 2024 Exceptionnelle Q35 - Le médiastin normal et pathologique
 
@@ -2787,6 +2855,8 @@ C] Est défini comme deux structures de densité égale (hydrique) qui voient le
 D] Permet d'orienter vers la nature liquidienne ou tissulaire d'une opacité pulmonaire.
 E] Permet de différencier une masse médiastinale d'une grosse artère pulmonaire.
 
+Correction probable - 2024 Exceptionnelle Q35 = B,C
+
 # 2024 Exceptionnelle Q36 - L'exploration radiologique du thorax
 
 36. En sémiologie radiologique des lésions pulmonaires, on parle de masse lorsque le diamètre est :
@@ -2796,6 +2866,8 @@ B] Entre 6 et 10mm
 C] Supérieur à 30mm
 D] Inférieur à 15mm
 E] Supérieur à 15mm
+
+Correction probable - 2024 Exceptionnelle Q36 = C
 
 # 2024 Exceptionnelle Q37 - Radiologie interventionnelle
 
@@ -2807,6 +2879,8 @@ C] Examen cytobactériologique des crachats
 D] TEP-scanner
 E] Une bronchoscopie souple.
 
+Correction probable - 2024 Exceptionnelle Q37 = A,C,E
+
 # 2024 Exceptionnelle Q38 - Imageries des infections pulmonaires
 
 38. La pneumopathie lié à la COVID 19, est caractérisée par :
@@ -2816,6 +2890,8 @@ B] Des opacités en verre dépoli excavées.
 C] La classification scannographique CO-RADS est appliquée.
 D] Facteur de risque d'embolie pulmonaire associée.
 E] Une condensation alvéolaire évoque une surinfection bactérienne.
+
+Correction probable - 2024 Exceptionnelle Q38 = A,C,D,E
 
 # 2024 Exceptionnelle Q39 - Radiologie interventionnelle
 
@@ -2827,6 +2903,8 @@ C] S'applique dans le traitement des hémoptysies.
 D] Nécessite des cathéters vasculaires.
 E] est sans risque pour le malade.
 
+Correction probable - 2024 Exceptionnelle Q39 = A,B,C,D
+
 # 2024 Exceptionnelle Q40 - Imagerie des cancers broncho-pulmonaires
 
 40. Le signe S de golden:
@@ -2836,6 +2914,8 @@ B] Traduit un envahissement scissural.
 C] Se voit dans les micronodules sous pleuraux.
 D] Traduit un bombement paradoxal de la scissure.
 E] Est un signe pathognomonique du rétrécissement mitral.
+
+Correction probable - 2024 Exceptionnelle Q40 = D
 
 # 2024 Exceptionnelle Q41 - Imagerie des cancers broncho-pulmonaires
 
@@ -2847,6 +2927,8 @@ C] Le pneumothorax.
 D] L'hémorragie intra alvéolaire.
 E] L'hémomédiastin.
 
+Correction probable - 2024 Exceptionnelle Q41 = B,C,D,E
+
 # 2024 Exceptionnelle Q42 - Exploration radiologique de l'appareil urinaire
 
 42. Un homme âgé de 30 ans ayant comme ATCDs des urèthrite à répétition. Il présente depuis 1 mois une dysurie, pollakiurie et une hématurie initiale. Le premier diagnostic à évoquer devant ce tableau clinique est :
@@ -2856,6 +2938,8 @@ B] Un syndrome de jonction pyélo urétéral
 C] Une tumeur de vessie
 D] Une sténose de l'urèthre
 E] Un adénome de la prostate
+
+Correction probable - 2024 Exceptionnelle Q42 = D
 
 # 2024 Exceptionnelle Q43 - Exploration radiologique de l'appareil urinaire
 
@@ -2867,6 +2951,8 @@ C] Une UIV
 D] Une uro-IRM
 E] Une échographie de l'appareil urinaire
 
+Correction probable - 2024 Exceptionnelle Q43 = A
+
 # 2024 Exceptionnelle Q44 - Exploration radiobiologique d’une masse pelvienne
 
 44. Une femme de 25 ans présente des douleurs pelviennes sans métrorragies. L'échographie pelvienne montre une masse kystique de l'ovaire gauche, de 20mm de diamètre, à contenu liquidien pure, à paroi fine, sans végétation endo kystique et sans ascite :
@@ -2876,6 +2962,8 @@ B] Il s'agit d'une masse suspecte
 C] Un complément d'exploration par IRM est indiqué
 D] Un dosage des marqueurs tumoraux s'avère nécessaire
 E] Un contrôle de la masse en échographie au prochain cycle menstruel est préconisé
+
+Correction probable - 2024 Exceptionnelle Q44 = A,E
 
 # 2024 Exceptionnelle Q45 - Exploration radiologique du pelvis féminin
 
@@ -2887,6 +2975,8 @@ C] Une obstruction tubaire
 D] Une perméabilité tubaire
 E] Une malformation utérine
 
+Correction probable - 2024 Exceptionnelle Q45 = D
+
 # 2024 Exceptionnelle Q46 - Exploration radiologique du nodule du sein
 
 46. Une femme de 40 ans qui souffre d'un diabète de type 1 mal équilibré, présente des douleurs mammaires droites avec fièvre et des signes inflammatoires. L'examen clinique objective un sein droit tuméfié et douloureux à la palpation: Le premier diagnostic à évoquer devant ce tableau clinique est :
@@ -2896,6 +2986,8 @@ B] Une tumeur bénigne du sein
 C] Une dystrophie mammaire kystique
 D] Un hématome du sein
 E] Une mastite compliquée ou non d'abcès mammaire
+
+Correction probable - 2024 Exceptionnelle Q46 = E
 
 # 2024 Exceptionnelle Q47 - Exploration radiologique du nodule du sein
 
@@ -2907,6 +2999,8 @@ C] La galactographie
 D] La mammographic
 E] La biopsie mammaire
 
+Correction probable - 2024 Exceptionnelle Q47 = A
+
 # 2024 Exceptionnelle Q48 - Exploration radiologique du sein
 
 48. Les limites de la mammographic sont:
@@ -2916,6 +3010,8 @@ B] La femme allaitante
 C] Les seins inflammatoires
 D] Les seins graisseux
 E] Les seins traités
+
+Correction probable - 2024 Exceptionnelle Q48 = A,C
 
 # 2024 Exceptionnelle Q49 - Exploration radiobiologique d’une masse pelvienne
 
@@ -2927,6 +3023,8 @@ C] L'IRM pelvienne
 D] L'UIV
 E] La scintigraphie
 
+Correction probable - 2024 Exceptionnelle Q49 = C
+
 # 2024 Exceptionnelle Q50 - Syndrome de masse rénale
 
 50. Une femme de 38 ans enceinte de 12SA, suivie pour insuffisance rénale chronique, présente des douleurs lombaires gauches avec un examen clinique normal. L'échographie rénale réalisée objective une formation kystique rénale gauche à contenu liquidien multi cloisonnée avec une paroi épaissie et irrégulière, siège de végétation endokystique. Cette formation:
@@ -2936,6 +3034,8 @@ B] Peut être surveillée et recontrôlée en imagerie
 C] Est un kyste atypique
 D] Nécessite une exploration par un scanner sans contraste
 E] Nécessite une exploration par une IRM sans contraste
+
+Correction probable - 2024 Exceptionnelle Q50 = C,E
 
 ---
 
