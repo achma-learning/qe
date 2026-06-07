@@ -32,6 +32,8 @@ C] Une amputation abdominopelvienne
 D] Une radio chimiothérapie suivie d'une résection antérieure
 E] Comporte une colostomie première suivie de radiothérapie
 
+Correction probable - Ratt 2025 Q1 = D
+
 Ratt 2025 Q2 - cancer du colon
 
 L'adénocarcinome du côlon, un des cancers digestifs les plus fréquents
@@ -41,6 +43,8 @@ B] L'hérédité n'est pas un facteur favorisant
 C] Ne Peut compliquer un polype négligé
 D] Est rare au Maroc
 E] Le traitement est surtout basé sur la radiothérapie
+
+Correction probable - Ratt 2025 Q2 = A
 
 Ratt 2025 Q3 - kyste hydatique du foie
 
@@ -52,6 +56,8 @@ C] Se complique toujours d'une fistule biliaire
 D] Intéresse surtout les segments 7 et 8
 E] Se prête au traitement coelioscopique par excellence
 
+Correction probable - Ratt 2025 Q3 = D
+
 Ratt 2025 Q4 - lithiase de la vesicule biliaire
 
 La pratique de la cœlioscopie en chirurgie abdominale est indiquée dans les pathologies suivantes sauf une :
@@ -61,6 +67,8 @@ B] Cholécystite alithiasique
 C] Lithiase vésiculaire avec dégénérescence maligne
 D] hydro cholécyste lithiasique
 E] Pyo cholécyste
+
+Correction probable - Ratt 2025 Q4 = C
 
 Ratt 2025 Q5 - occlusion intestinale aigu
 
@@ -72,6 +80,8 @@ C] Une occlusion intestinale aigüe sur bride
 D] Une appendicite méso coeliaque
 E] Une diverticulose sigmoïdienne
 
+Correction probable - Ratt 2025 Q5 = C
+
 Ratt 2025 Q6 - occlusion intestinale aigu
 
 Pour confirmer votre diagnostic vous demander :
@@ -81,6 +91,8 @@ B] Un transit oeso-gastro duodénal
 C] Une coloscopie
 D] Une échographie abdominale
 E] Une fibroscopie digestive haute
+
+Correction probable - Ratt 2025 Q6 = A
 
 Ratt 2025 Q7 - cancer du pancreas
 
@@ -92,6 +104,8 @@ C] Le diabète
 D] Le tabac
 E] Le cystadénome séreux
 
+Correction probable - Ratt 2025 Q7 = A,C,D
+
 Ratt 2025 Q8 - appendicites aigues
 
 Un patient âgé de 56 ans se présente pour des douleurs de la fosse iliaque droite évoluant depuis 17 jours. L'examen montre une température à 37,4°C et une masse de la fosse iliaque droite indolore. Les diagnostics à évoquer sont :
@@ -101,6 +115,8 @@ B] Une ischémie intestinale aiguë
 C] Une tumeur caecale
 D] Une péritonite aiguë
 E] Un plastron appendiculaire
+
+Correction probable - Ratt 2025 Q8 = A,C,E
 
 Ratt 2025 Q9 - appendicites aigues
 
@@ -112,6 +128,8 @@ C] Une échographie abdominale
 D] Une artériographie mésentérique supérieure
 E] Une numération formule sanguine
 
+Correction probable - Ratt 2025 Q9 = B,C,E
+
 Ratt 2025 Q10 - appendicites aigues
 
 La conduite thérapeutique devant un abcès appendiculaire est :
@@ -121,6 +139,8 @@ B] Une résection iléo-caecale emportant l'appendice
 C] Une antibiothérapie
 D] Une abstention thérapeutique
 E] Une appendicectomie
+
+Correction probable - Ratt 2025 Q10 = A,C
 
 Ratt 2025 Q11 - ischemie intestinale aigu
 
@@ -132,6 +152,8 @@ C] Une diarrhée motrice
 D] Une défense abdominale
 E] Un syndrome occlusif
 
+Correction probable - Ratt 2025 Q11 = D,E
+
 Ratt 2025 Q12 - appendicites aigues
 
 Les signes en faveur d'une appendicite rétro-caecale sont :
@@ -141,6 +163,8 @@ B] Des signes urinaires
 C] Une occlusion fébrile
 D] Un psoïtis
 E] Un ténesme rectal
+
+Correction probable - Ratt 2025 Q12 = B,D
 
 Ratt 2025 Q13 - pancreatites aigues
 
@@ -152,6 +176,8 @@ C] Le score d'Apache
 D] Le SIRS
 E] Le monitorage de la lipasémie
 
+Correction probable - Ratt 2025 Q13 = C
+
 Ratt 2025 Q14 - pathologies herniaires
 
 Le seul traitement curatif d'une hernie inguinale est:
@@ -161,6 +187,8 @@ B] La chirurgie
 C] Les myorelaxants
 D] La kinésithérapie
 E] Les injections sclérosantes
+
+Correction probable - Ratt 2025 Q14 = B
 
 Ratt 2025 Q15 - tumeur du foie
 
@@ -172,6 +200,8 @@ C] Le fibrosarcome
 D] Le cholangiocarcinome
 E] L'angiodysplasie
 
+Correction probable - Ratt 2025 Q15 = A
+
 Ratt 2025 Q16 - tumeur du foie
 
 Le cancer primitif le plus fréquent du foie est:
@@ -181,6 +211,8 @@ B] Le carcinome hépatocellulaire
 C] Le fibrosarcome
 D] Le cholangiocarcinome
 E] L'angiodysplasie
+
+Correction probable - Ratt 2025 Q16 = B
 
 Ratt 2025 Q17 - pathologies herniaires
 
@@ -192,6 +224,8 @@ C] Indolore
 D] Impulsive à la toux
 E] Réductible
 
+Correction probable - Ratt 2025 Q17 = C,D,E
+
 Ratt 2025 Q18 - pancreatites aigues
 
 Quelle est la cause la plus fréquente de la mortalité d'une pancréatite aiguë:
@@ -201,6 +235,8 @@ B] L'angiocholite
 C] Le faux kyste du pancréas
 D] La surinfection des coulées de nécrose
 E] La compression de la veine porte
+
+Correction probable - Ratt 2025 Q18 = D
 
 Ratt 2025 Q19 - ingestion caustique
 
@@ -212,6 +248,8 @@ C] Le lavage gastrique et le premier geste à faire sur le lieu de l'accident.
 D] La mise en place d'une sonde gastrique est proscrite.
 E] L'absorption de liquide neutralisant est recommandée
 
+Correction probable - Ratt 2025 Q19 = A,B,D
+
 Ratt 2025 Q20 - cancer de l'estomac
 
 Cochez les propositions juste sur le cancer de l'estomac?
@@ -221,6 +259,8 @@ B] Le polype adénomateux et parmi les facteurs de risques de survenue de ce can
 C] Son Incidence est élevée en Europe.
 D] Prédomine chez la femme
 E] La linite gastrique est la forme macroscopique la plus fréquentes.
+
+Correction probable - Ratt 2025 Q20 = A,B
 
 Ratt 2025 Q21 - cancer de l'oesophage
 
@@ -232,6 +272,8 @@ C] Il est plus fréquent chez la femme.
 D] L'intoxication alcoolo tabagique est un facteur favorisant.
 E] Il peut être découvert par des douleurs thoraciques postérieures
 
+Correction probable - Ratt 2025 Q21 = A,D,E
+
 Ratt 2025 Q22 - Traumatisme de l'abdomen
 
 Les Critères autorisant une prise en charge non opératoire des plaies et contusions de l'abdomen sont:
@@ -241,6 +283,8 @@ B] Absence de signes en faveur d'une plaie du tube digestif
 C] Choc hypovolémique non contrôlable (saignement actif)
 D] Syndrome péritonéal évident
 E] Absence de lésions extra-abdominales pouvant nécessiter un traitement chirurgical
+
+Correction probable - Ratt 2025 Q22 = A,B,E
 
 Ratt 2025 Q23 - cancer de l'estomac
 
@@ -252,6 +296,8 @@ C] Les tumeurs superficielles peuvent êtres traités par résection endoscopiqu
 D] Le curage ganglionnaire est indispensable au traitement chirurgical.
 E] Le traitement néo adjuvant doit être proposé à tous les malades de stade lI ou plus
 
+Correction probable - Ratt 2025 Q23 = B,C,D,E
+
 Ratt 2025 Q24 - tumeur du foie
 
 Les facteurs de risques des abcès du foie :
@@ -261,6 +307,8 @@ B] L'hypertension artérielle
 C] L'alcoolisme chronique
 D] Kyste biliaire du foie
 E] L'existence d'une immunodépression
+
+Correction probable - Ratt 2025 Q24 = A,C,E
 
 Ratt 2025 Q25 - cirrhose
 
@@ -272,6 +320,8 @@ C] Une cirrhose
 D] Un syndrome néphrotique
 E] Une hépatite chronique
 
+Correction probable - Ratt 2025 Q25 = A,B,C,D,E
+
 Ratt 2025 Q26 - cirrhose
 
 Le bilan initial doit comporter
@@ -281,6 +331,8 @@ B] Un scanner abdominal
 C] Une ponction d'ascite exploratrice
 D] Une protéinurie de 24 heures
 E] Dosage des transaminases
+
+Correction probable - Ratt 2025 Q26 = B,C,E
 
 Ratt 2025 Q27 - cirrhose
 
@@ -292,6 +344,8 @@ C] Une cirrhose
 D] Un syndrome néphrotique
 E] Une hépatite chronique
 
+Correction probable - Ratt 2025 Q27 = C
+
 Ratt 2025 Q28 - Hépatites
 
 Parmi ces hépatites virales aiguës, quelles sont celles qui n'évoluent jamais vers la chronicité ?
@@ -301,6 +355,8 @@ B] Hépatite virale aiguë B
 C] Hépatite virale aiguë C
 D] Hépatite virale aiguë D
 E] Hépatite virale aiguë E
+
+Correction probable - Ratt 2025 Q28 = A,E
 
 Ratt 2025 Q29 - mici
 
@@ -312,6 +368,8 @@ C] Une malabsorption de la vitamine B12
 D] Un saignement chronique
 E] Une sténose colique
 
+Correction probable - Ratt 2025 Q29 = A,C,D
+
 Ratt 2025 Q30 - mici
 
 La rectocolite hémorragique se distingue de la maladie de crohn
@@ -321,6 +379,8 @@ B] L'atteinte constante du rectum
 C] La présence d'un pyoderma gangrenosum
 D] L'atteinte diffuse sans intervalle de muqueuse saine de la muqueuse
 E] La présence d'une fistule anale
+
+Correction probable - Ratt 2025 Q30 = B,D
 
 Ratt 2025 Q31 - ulcéres gastro duodenales
 
@@ -332,6 +392,8 @@ C] L'arrêt des AINS est recommandé
 D] La recherche de H. pylori est inutile dans ce contexte
 E] Un contrôle endoscopique est recommandé après traitement
 
+Correction probable - Ratt 2025 Q31 = A,B,C,E
+
 Ratt 2025 Q32 - ulcéres gastro duodenales
 
 Chez un patient atteint d'un ulcère duodénal hémorragique, la conduite à tenir comporte :
@@ -341,6 +403,8 @@ B] Injection d'adrénaline en cas de saignement actif
 C] Mise sous IPP IV en urgence
 D] Biopsies systématiques de l'ulcère
 E] Surveillance de la fréquence cardiaque et de l'Hb
+
+Correction probable - Ratt 2025 Q32 = A,B,C,E
 
 Ratt 2025 Q33 - helicobacter pylori
 
@@ -352,6 +416,8 @@ C] L'éradication permet la cicatrisation des ulcères duodénaux
 D] La sérologie est utilisée pour vérifier l'éradication
 E] Le test respiratoire est faussé si IPP pris récemment
 
+Correction probable - Ratt 2025 Q33 = A,B,C,E
+
 Ratt 2025 Q34 - tbk digestive
 
 Un homme de 30 ans se présente avec douleurs abdominales et ascite riche en lymphocytes.
@@ -361,6 +427,8 @@ B] L'ADA (adénosine désaminase) ascitique peut aider au diagnostic
 C] La recherche de BAAR est toujours positive dans l'ascite
 D] Une biopsie péritonéale cœlioscopique peut confirmer le diagnostic
 E] La culture sur milieu de Löwenstein-Jensen est inutile
+
+Correction probable - Ratt 2025 Q34 = A,B,D
 
 Ratt 2025 Q35 - tbk digestive
 
@@ -372,6 +440,8 @@ C] Se diagnostique uniquement sur la PCR
 D] Peut donner des granulomes caséeux à l'anatomopathologie
 E] Est traitée par une phase initiale intensive suivie d’une phase d'entretient
 
+Correction probable - Ratt 2025 Q35 = A,B,D,E
+
 Ratt 2025 Q36 - troubles fonctionnels intestinaux
 
 Un patient de 25 souffre de diarrhée chronique, amaigrissement, ballonnement; la sérologie IgA anti-transglutaminase est fortement positive
@@ -381,6 +451,8 @@ B] Une biopsie duodénale est nécessaire pour confirmer
 C] Le traitement repose sur un régime sans lactose
 D] L'anémie ferriprive est une complication fréquente
 E] Une normalisation de la sérologie permet d'évaluer l'efficacité du régime
+
+Correction probable - Ratt 2025 Q36 = A,B,D,E
 
 Ratt 2025 Q37 - sd de malabsorption
 
@@ -392,6 +464,8 @@ C] Un diabète de type 1
 D] Une hypercholestérolémie
 E] Une élévation des transaminases
 
+Correction probable - Ratt 2025 Q37 = A,B,C,E
+
 Ratt 2025 Q38 - sd de malabsorption
 
 Le syndrome de malabsorption :
@@ -401,6 +475,8 @@ B] Peut être lié à une insuffisance pancréatique exocrine
 C] Donne souvent une diarrhée avec stéatorrhée
 D] Se diagnostique toujours par endoscopie digestive haute
 E] Peut entraîner une dénutrition et un amaigrissement
+
+Correction probable - Ratt 2025 Q38 = A,B,C,E
 
 Ratt 2025 Q39 - gastrite
 
@@ -412,6 +488,8 @@ C] La gastropathie radique
 D] La maladie de biermer
 E] La gastrite à helicobacter pylori
 
+Correction probable - Ratt 2025 Q39 = A,B,C,D,E
+
 Ratt 2025 Q40 - cirrhose
 
 Les étiologies de la cirrhose peuvent être :
@@ -421,6 +499,8 @@ B] Une hépatite auto-immune
 C] Une hépatite virale C
 D] Une hépatopathie alcoolique
 E] Une maladie métabolique
+
+Correction probable - Ratt 2025 Q40 = B,C,D,E
 
 Ratt 2025 Q41 - gastrite
 
@@ -432,6 +512,8 @@ C] Une hémorragie digestive
 D] Une douleur épigastrique
 E] Une brûlure épigastrique
 
+Correction probable - Ratt 2025 Q41 = A,B,D,E
+
 Ratt 2025 Q42 - gastrite
 
 La gastrite à Helicobacter pylori :
@@ -441,6 +523,8 @@ B] Est secondaire à une contamination plus fréquente au cours de l'enfance
 C] Peut-être asymptomatique
 D] Est toujours chronique
 E] Peut se compliquer d'ulcère
+
+Correction probable - Ratt 2025 Q42 = A,B,C,D,E
 
 Ratt 2025 Q43 - gastrite
 
@@ -452,6 +536,8 @@ C] N'est jamais associée à un déficit en vitamine B12 .
 D] Peut évoluer vers un cancer
 E] Est souvent associée à des pathologies auto-immunes
 
+Correction probable - Ratt 2025 Q43 = D,E
+
 Ratt 2025 Q44 - gastrite
 
 La gastrite aiguë phlegmoneuse est :
@@ -461,6 +547,8 @@ B] D'origine auto-immune
 C] Très souvent asymptomatique
 D] Plus fréquent chez un sujet sain
 E] Responsable d'un épaississement gastrique au scanner
+
+Correction probable - Ratt 2025 Q44 = A,E
 
 Ratt 2025 Q45 - fistules anales et suppuration
 
@@ -472,6 +560,8 @@ C] Un prurit
 D] Une dysurie
 E] Une douleur abdominale
 
+Correction probable - Ratt 2025 Q45 = A,B,C
+
 Ratt 2025 Q46 - rgo
 
 Le reflux gastro-œsophagien :
@@ -481,6 +571,8 @@ B] Peut avoir des signes extradigestifs
 C] Peut-être asymptomatique
 D] Nécessite toujours d'exploration paraclinique
 E] Peut se compliquer de cancer de l'œsophage
+
+Correction probable - Ratt 2025 Q46 = B,C,E
 
 Ratt 2025 Q47 - rgo
 
@@ -492,6 +584,8 @@ C] L'agressivité du liquide qui reflue
 D] La défaillance de la résistance muqueuse de l'œsophage
 E] Le ralentissement de la vidange gastrique
 
+Correction probable - Ratt 2025 Q47 = B,C,D,E
+
 Ratt 2025 Q48 - troubles fonctionnels intestinaux
 
 La physiopathologie des troubles fonctionnelles intestinaux associe :
@@ -502,6 +596,8 @@ C] Un état inflammatoire systémique
 D] Une augmentation de la perméabilité intestinale.
 E] Des anomalies du microbiote intestinal
 
+Correction probable - Ratt 2025 Q48 = B,D,E
+
 Ratt 2025 Q49 - troubles fonctionnels intestinaux
 
 Le syndrome de l'intestin irritable (SIl) :
@@ -511,6 +607,8 @@ B] Est secondaire à des lésions inflammatoire du tractus digestif haut
 C] La qualité de vie est souvent altérée
 D] Est représenté par un groupe uniforme de patient
 E] La fibroscopie haute est obligatoire pour retenir le diagnostic
+
+Correction probable - Ratt 2025 Q49 = C
 
 ---
 

@@ -487,6 +487,7 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .feedback.bad { background: rgba(239,68,68,.10); color: var(--bad); border: 1px solid var(--bad); }
 .feedback.partial { background: rgba(245,158,11,.10); color: var(--warn); border: 1px solid var(--warn); }
 .feedback small { display: block; margin-top: 4px; font-weight: 400; color: var(--text-dim); }
+.prob-tag { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: 11px; font-weight: 700; letter-spacing: .02em; vertical-align: middle; background: rgba(245,158,11,.16); color: var(--warn); border: 1px solid var(--warn); }
 
 /* ============== DYNAMIC ISLAND TIMER ============== */
 #qe-island {

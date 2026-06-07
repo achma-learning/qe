@@ -2931,6 +2931,8 @@ C] L'effet du médicament chez l'homme
 D] L'effet cancérigène du médicament chez l'animal
 E] L'effet principal du médicament chez l'animal
 
+Correction probable - 2024 Exceptionnel Q1 = A,B,D,E
+
 # 2024 Exceptionnel Q2 - La vie du médicament
 
 2. Quelles sont les bonnes propositions concernant les études de cancérogenèse ?
@@ -2940,6 +2942,8 @@ B] Etudient les effets pharmacocinétiques chez l'animal
 C] Se font en cas d'images histologiques suspectes en toxicologie réitérée
 D] Utilisent une voie d'administration identique à celle utilisée en thérapeutique
 E] Sont des études de longue durée
+
+Correction probable - 2024 Exceptionnel Q2 = C,D,E
 
 # 2024 Exceptionnel Q3 - La vie du médicament
 
@@ -2951,6 +2955,8 @@ C] La toxicité en administration réitérée
 D] L'efficacité du médicament
 E] Le devenir du médicament au niveau de l'organisme
 
+Correction probable - 2024 Exceptionnel Q3 = A,B
+
 # 2024 Exceptionnel Q4 - Les essais cliniques
 
 4. Les essais cliniques :
@@ -2960,6 +2966,8 @@ B] Etudient la pharmacocinétique du médicament chez l'homme
 C] Sont des études effectuées chez l'animal
 D] Sont toujours précédés par des études chez l'animal
 E] Etudient l'effet du médicament chez l'homme
+
+Correction probable - 2024 Exceptionnel Q4 = A,B,D,E
 
 # 2024 Exceptionnel Q5 - Les essais cliniques
 
@@ -2971,6 +2979,8 @@ C] Sont des essais faits in vitro
 D] Sont fait après obtention de l'autorisation de mise sur le marché du médicament.
 E] Etudient l'efficacité du médicament chez l'homme
 
+Correction probable - 2024 Exceptionnel Q5 = A,B,E
+
 # 2024 Exceptionnel Q6 - Les interactions médicamenteuses
 
 6. Concernant les interactions médicamenteuses, quelles sont les bonnes propositions?
@@ -2980,6 +2990,8 @@ B] Peuvent s'effectuer au niveau des récepteurs tissulaires
 C] Peuvent diminuer l'effet thérapeutique de l'un des médicaments associés
 D] Peuvent survenir après une modification du PH gastrique
 E] Peuvent se voir lors d'une induction enzymatique
+
+Correction probable - 2024 Exceptionnel Q6 = B,C,D,E
 
 # 2024 Exceptionnel Q7 - Les interactions médicamenteuses
 
@@ -2991,6 +3003,8 @@ C] Peut exagérer l'effet de l'un des deux médicaments
 D] Ne se fait pas au niveau de l'albumine
 E] Peut majorer la diffusion tissulaire de l'un des deux médicaments
 
+Correction probable - 2024 Exceptionnel Q7 = B,C,E
+
 # 2024 Exceptionnel Q8 - Pharmacocinétique
 
 8. L'absorption d'un médicament peut être influencée par :
@@ -3000,6 +3014,8 @@ B] La lipophilie du médicament
 C] Les caractéristiques physico-chimiques du médicament
 D] La physiologie gastro-intestinale
 E] La liaison aux protéines plasmatiques
+
+Correction probable - 2024 Exceptionnel Q8 = A,B,C,D
 
 # 2024 Exceptionnel Q9 - Pharmacocinétique
 
@@ -3011,6 +3027,8 @@ C] La diffusion active se fait sans transporteurs
 D] La diffusion active est un phénomène qui nécessite de l'énergie.
 E] On peut avoir une interaction médicamenteuse lors de la diffusion active
 
+Correction probable - 2024 Exceptionnel Q9 = D,E
+
 # 2024 Exceptionnel Q10 - Pharmacocinétique
 
 10. Parmi les propositions suivantes lesquelles sont bonnes ?
@@ -3020,6 +3038,8 @@ B] La filtration glomérulaire concerne les molécules de petite taille
 C] La réabsorption tubulaire ne dépend pas du PH urinaire.
 D] La voie sudorale est une des voies d'élimination du médicament
 E] Le médicament peut être éliminé sous forme active.
+
+Correction probable - 2024 Exceptionnel Q10 = A,B,D,E
 
 # 2024 Exceptionnel Q11 - Pharmacocinétique
 
@@ -3031,6 +3051,8 @@ C] Se fait par les enzymes du cytochrome P450
 D] Généralement aboutit à une inactivation du principe actif
 E] N'est pas influencé par le facteur génétique
 
+Correction probable - 2024 Exceptionnel Q11 = C,D
+
 # 2024 Exceptionnel Q12 - Effets indésirables des médicaments et Pharmacovigilance
 
 12. Un effet indésirable médicamenteux :
@@ -3040,6 +3062,8 @@ B] Peut être une cause d'arrêt du médicament
 C] Est prévisible
 D] Se voit seulement à des posologies élevées du médicament
 E] Peut être de type idiosyncrasique
+
+Correction probable - 2024 Exceptionnel Q12 = B,E
 
 # 2024 Exceptionnel Q13 - Effets indésirables des médicaments et Pharmacovigilance
 
@@ -3051,6 +3075,8 @@ C] A une organisation différente selon les pays
 D] Contribue à la sécurité d'utilisation des médicaments
 E] Peut être remplacée par l'étude des effets indésirables lors des essais cliniques
 
+Correction probable - 2024 Exceptionnel Q13 = A,B,C,D
+
 # 2024 Exceptionnel Q14 - Effets indésirables des médicaments et Pharmacovigilance
 
 14. La prévention d'un effet indésirable médicamenteux :
@@ -3060,6 +3086,8 @@ B] Peut ne pas être possible
 C] Est possible
 D] Nécessite la prise en compte du terrain du patient lors de la prescription
 E] Ne nécessite pas de tenir en compte le risque d'interactions médicamenteuses
+
+Correction probable - 2024 Exceptionnel Q14 = A,B,C,D
 
 # 2024 Exceptionnel Q15 - Médicament et pathologie du foie
 
@@ -3071,6 +3099,8 @@ C] Sont la principale cause de retrait d'un médicament du marché
 D] Leur diagnostic repose sur la chronologie de l'apparition de l'atteinte
 E] Leur diagnostic est facile à faire
 
+Correction probable - 2024 Exceptionnel Q15 = B,C,D
+
 # 2024 Exceptionnel Q16 - Médicament et pathologie du foie
 
 16. Une atteinte hépatique médicamenteuse :
@@ -3080,6 +3110,8 @@ B] Peut être de type immunoallergique
 C] Peut être cytolytique
 D] Peut être cholestatique
 E] Peut être de type idiosynchrasique
+
+Correction probable - 2024 Exceptionnel Q16 = B,C,D,E
 
 # 2024 Exceptionnel Q17 - Les règles générales de la prescription médicamenteuse
 
@@ -3091,6 +3123,8 @@ C] Peuvent être livrés en pharmacie sans ordonnance
 D] Entraînent une toxicomanie
 E] Sont prescrits sur des ordonnances sécurisées
 
+Correction probable - 2024 Exceptionnel Q17 = C
+
 # 2024 Exceptionnel Q18 - Les règles générales de la prescription médicamenteuse
 
 18. Les ordonnances simples
@@ -3100,6 +3134,8 @@ B] Sont destinés à la prescription des médicaments particulièrement coûteux
 C] Sont en papier filigrané
 D] Doivent comporter le nom du médecin
 E] Doivent comporter la signature du médecin
+
+Correction probable - 2024 Exceptionnel Q18 = A,D,E
 
 # 2024 Exceptionnel Q19 - Les règles générales de la prescription médicamenteuse
 
@@ -3111,6 +3147,8 @@ C] Est toujours facultative
 D] Peut être obligatoire
 E] Peut être faite par une sage femme
 
+Correction probable - 2024 Exceptionnel Q19 = A,B,D,E
+
 # 2024 Exceptionnel Q20 - La prescription chez femme enceinte et allaitant
 
 20. Le passage d'un médicament dans le lait maternel
@@ -3120,6 +3158,8 @@ B] Dépend de la voie d'administration du médicament
 C] Est important pour les molécules peu liées aux protéines plasmatiques
 D] Est important pour les molécules hydrosolubles
 E] Est important pour les molécules liposolubles
+
+Correction probable - 2024 Exceptionnel Q20 = A,B,C,E
 
 # 2024 Exceptionnel Q21 - La prescription chez femme enceinte et allaitant
 
@@ -3131,6 +3171,8 @@ C] Isotrétinoïne
 D] Carbamazepine
 E] Thalidomide
 
+Correction probable - 2024 Exceptionnel Q21 = B,C,D,E
+
 # 2024 Exceptionnel Q22 - La prescription médicamenteuse chez l'enfant et le sujet âgé
 
 22. Parmi les médicaments suivants, quels sont ceux considérés comme potentiellement inappropriés chez le sujet âgé ?
@@ -3140,6 +3182,8 @@ B] Les laxatifs stimulants
 C] Les antidépresseurs imipraminiques
 D] Les antihistaminiques H1
 E] Les bêta-lactamines
+
+Correction probable - 2024 Exceptionnel Q22 = A,B,C,D
 
 # 2024 Exceptionnel Q23 - La prescription médicamenteuse chez l'enfant et le sujet âgé
 
@@ -3151,6 +3195,8 @@ C] Il faut choisir des formes galéniques adaptées au sujet âgé
 D] Il faut réduire le nombre de prises médicamenteuses dans la journée
 E] les médicaments à demi-vie longue sont privilégiés
 
+Correction probable - 2024 Exceptionnel Q23 = A,B,C,D
+
 # 2024 Exceptionnel Q24 - Le suivi thérapeutique pharmacologique
 
 24. Parmi les indications du suivi thérapeutique pharmacologique on trouve:
@@ -3160,6 +3206,8 @@ B] Les patients présentant des signes de sous dosage
 C] Les médicaments à marge thérapeutique large
 D] Les médicaments qui ont une méthode de dosage validée de la forme active du médicament
 E] Le contrôle de l'observance thérapeutique
+
+Correction probable - 2024 Exceptionnel Q24 = A,B,D,E
 
 # 2024 Exceptionnel Q25 - Le suivi thérapeutique pharmacologique
 
@@ -3171,6 +3219,8 @@ C] Est la mesure des concentrations plasmatiques de ce médicament pour adapter 
 D] Est la surveillance clinique d'une prescription
 E] Permet d'augmenter la sécurité d'utilisation du médicament
 
+Correction probable - 2024 Exceptionnel Q25 = A,C,E
+
 # 2024 Exceptionnel Q26 - Les diurétiques
 
 26. Les indications des diurétiques de l'anse sont :
@@ -3180,6 +3230,8 @@ B] L'œdème cérébral
 C] L'insuffisance cardiaque
 D] L'hypocalcémie
 E] L'œdème aigu du poumon
+
+Correction probable - 2024 Exceptionnel Q26 = B,C,E
 
 # 2024 Exceptionnel Q27 - rein et médicaments
 
@@ -3191,6 +3243,8 @@ C] Les médicaments temps-dépendants
 D] Les médicaments dont l'efficacité est liée à un pic de concentration
 E] les médicaments à index thérapeutique étroit
 
+Correction probable - 2024 Exceptionnel Q27 = B,D
+
 # 2024 Exceptionnel Q28 - Bêta-lactamines
 
 28. Les céphalosporines:
@@ -3200,6 +3254,8 @@ B] Sont classées en générations
 C] Traversent tous la barrière hémato-méningée
 D] Sont inactives sur l'entérocoque
 E] Sont efficace sur le staphylocoque résistant à la méticilline
+
+Correction probable - 2024 Exceptionnel Q28 = A,B,D
 
 # 2024 Exceptionnel Q29 - Glycopeptides
 
@@ -3211,6 +3267,8 @@ C] Sont bactériostatiques
 D] Sont bien absorbés par voie digestive
 E] Ont une toxicité rénale
 
+Correction probable - 2024 Exceptionnel Q29 = B,E
+
 # 2024 Exceptionnel Q30 - Aminosides
 
 30. La toxicité des aminosides est :
@@ -3220,6 +3278,8 @@ B] Cochléaire
 C] Vestibulaire
 D] Digestive
 E] Majorée si traitement prolongée
+
+Correction probable - 2024 Exceptionnel Q30 = A,B,C,E
 
 # 2024 Exceptionnel Q31 - Macrolides
 
@@ -3231,6 +3291,8 @@ C] N'est pas actif sur l'Haemophilus influenzae
 D] Peut-être prescrit dans l'angine aiguë streptococcique
 E] Ne diffuse pas en intracellulaire
 
+Correction probable - 2024 Exceptionnel Q31 = A,B,D
+
 # 2024 Exceptionnel Q32 - Antifongiques
 
 32. Les propositions justes pour les antifongiques sont :
@@ -3240,6 +3302,8 @@ B] Peuvent être fongicides
 C] Peuvent être fongistatiques
 D] L'Amphotéricine B liposomale a une bonne absorption digestive
 E] Le fluconazole a une élimination essentiellement biliaire
+
+Correction probable - 2024 Exceptionnel Q32 = B,C
 
 # 2024 Exceptionnel Q33 - Antiviraux
 
@@ -3251,6 +3315,8 @@ C] Agissent sur différentes étapes de la multiplication du VIH
 D] Agissent aussi sur le Cytomégalovirus
 E] Préviennent la transmission materno-foetale du VIH
 
+Correction probable - 2024 Exceptionnel Q33 = A,B,C,E
+
 # 2024 Exceptionnel Q34 - Anti-bacillaires
 
 34. Quel médicament a une efficacité diminuée avec la rifampicine? (choix unique)
@@ -3260,6 +3326,8 @@ B] Les contraceptifs oraux.
 C] Les anti-inflammatoires non stéroïdiens
 D] La pénicilline.
 E] L'oméprazole.
+
+Correction probable - 2024 Exceptionnel Q34 = B
 
 # 2024 Exceptionnel Q35 - Anti-bacillaires
 
@@ -3271,6 +3339,8 @@ C] La pyrazinamide.
 D] La rifampicine
 E] La streptomycine.
 
+Correction probable - 2024 Exceptionnel Q35 = B,C,D
+
 # 2024 Exceptionnel Q36 - Antitussifs
 
 36. Un patient de 17 ans se présente aux urgences pour une crise d'asthme modérée avec toux productive, sifflements et dyspnée. Quel médicament est contre-indiqué? (choix unique)
@@ -3280,6 +3350,8 @@ B] Les corticoïdes inhalés.
 C] Les corticoïdes oraux.
 D] L'ipratropium.
 E] Le salbutamol.
+
+Correction probable - 2024 Exceptionnel Q36 = A
 
 # 2024 Exceptionnel Q37 - cas clinique en cardio
 
@@ -3291,6 +3363,8 @@ C] béta bloquant
 D] vérapamil
 E] trimétazidine
 
+Correction probable - 2024 Exceptionnel Q37 = A,C,D
+
 # 2024 Exceptionnel Q38 - cas clinique en cardio
 
 38. Quel autre traitement proposer chez cette patiente?
@@ -3300,6 +3374,8 @@ B] clopidogrel
 C] acide acétylsalicylique
 D] ticagrelor
 E] acenocoumarol
+
+Correction probable - 2024 Exceptionnel Q38 = A,E
 
 # 2024 Exceptionnel Q39 - cas clinique en cardio
 
@@ -3311,6 +3387,8 @@ C] Sauter une prise du traitement
 D] Augmenter la dose du traitement
 E] INR est inutile
 
+Correction probable - 2024 Exceptionnel Q39 = D
+
 # 2024 Exceptionnel Q40 - cas clinique en cardio
 
 40. Patiente âgée de 60 ans connue diabétique est admise pour infarctus du myocarde à la phase aiguë. L'ordonnance comporte:
@@ -3320,6 +3398,8 @@ B] statine
 C] héparine de bas poids moléculaire
 D] acide acétyl salicylique
 E] bêtabloquant
+
+Correction probable - 2024 Exceptionnel Q40 = A,B,C,D,E
 
 # 2024 Exceptionnel Q41 - cas clinique en cardio
 
@@ -3331,6 +3411,8 @@ C] dabigatran
 D] diltiazem
 E] clopidogrel
 
+Correction probable - 2024 Exceptionnel Q41 = E
+
 # 2024 Exceptionnel Q42 - cas clinique en cardio
 
 42. Patient âgé de 48 ans est connu diabétique et hypertendu. L'examen note une TA à 160/ 80 mmhg sous antagoniste des récepteurs de l'angiotensine 2. Par rapport à ce traitement, lesquelles des propositions sont juste :
@@ -3340,6 +3422,8 @@ B] L'association avec inhibiteur calcique est nécessaire
 C] La surveillance de la calcémie est essentielle
 D] La surveillance de la kaliémie est nécessaire
 E] Le traitement prévient la néphropathie diabétique
+
+Correction probable - 2024 Exceptionnel Q42 = B,D,E
 
 # 2024 Exceptionnel Q43 - Les antalgiques
 
@@ -3351,6 +3435,8 @@ C] Tramadol
 D] Codéine
 E] Anti-inflammatoires non stéroïdiens à dose faible
 
+Correction probable - 2024 Exceptionnel Q43 = A,B,E
+
 # 2024 Exceptionnel Q44 - Les antalgiques
 
 44. Concernant la codéine
@@ -3360,6 +3446,8 @@ B] Entraîne un risque de dépendance chez les toxicomanes
 C] Sa durée d'action est de 4h
 D] Contre-indiquée en cas d'asthme
 E] Est un opioïde fort
+
+Correction probable - 2024 Exceptionnel Q44 = A,B,C,D
 
 # 2024 Exceptionnel Q45 - laxatifs
 
@@ -3371,6 +3459,8 @@ C] peuvent entraîner un état de dépendance
 D] peuvent entraîner des ballonnements
 E] n'entraînent jamais de ballonnements
 
+Correction probable - 2024 Exceptionnel Q45 = C,D
+
 # 2024 Exceptionnel Q46 - Les anti-inflammatoires
 
 46. Pour pallier aux effets indésirables prévisibles des glucocorticoïdes, leur prescription doit être associée à :
@@ -3380,6 +3470,8 @@ B] Un régime riche en protéines
 C] Une supplémentation en potassium
 D] Une supplémentation en calcium
 E] Un traitement antiviral en cas d'hépatite B
+
+Correction probable - 2024 Exceptionnel Q46 = A,B,D
 
 # 2024 Exceptionnel Q47 - Les anti-inflammatoires
 
@@ -3391,6 +3483,8 @@ C] L'infection évolutive
 D] L'insuffisance hépatique sévère
 E] Le syndrome de Widal
 
+Correction probable - 2024 Exceptionnel Q47 = D,E
+
 # 2024 Exceptionnel Q48 - Antiépileptiques
 
 48. L'association des médicaments antiépileptiques est contre-indiquée avec:
@@ -3400,6 +3494,8 @@ B] Les antibiotiques
 C] Les antidépresseurs
 D] Les antirétroviraux
 E] Les antalgiques
+
+Correction probable - 2024 Exceptionnel Q48 = A
 
 # 2024 Exceptionnel Q49 - Anxiolytiques
 
@@ -3411,6 +3507,8 @@ C] Ont des propriétés pharmacologiques communes
 D] Ont une bonne efficacité
 E] Doivent être prescrits pendant une durée limitée
 
+Correction probable - 2024 Exceptionnel Q49 = B,C,E
+
 # 2024 Exceptionnel Q50 - Antidépresseurs
 
 50. Parmi les indications des antidépresseurs on trouve :
@@ -3420,6 +3518,8 @@ B] Le traitement de certaines formes d'épilepsie
 C] Les dépressions modérées
 D] Les dépressions sévères
 E] Les attaques de paniques
+
+Correction probable - 2024 Exceptionnel Q50 = A,C,D,E
 
 ---
 

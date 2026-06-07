@@ -2437,6 +2437,8 @@ C] PAS
 D] Fontana
 E] Rouge Congo
 
+Correction probable - Exceptionnelle 2024 Q1 = E
+
 # Exceptionnelle 2024 Q2 - Les amyloses
 
 2. Quelles sont les propositions exactes concernant l'amylose?
@@ -2446,6 +2448,8 @@ B] Il s'agit d'une maladie de surcharge lipidique
 C] Elle est biréfringente en lumière polarisée après coloration par le Rouge Congo
 D] Il s'agit de dépôts glucidiques intra-hépatiques
 E] En microscope optique, elle prend l'aspect d'une substance éosinophile, amorphe
+
+Correction probable - Exceptionnelle 2024 Q2 = A,C,E
 
 # Exceptionnelle 2024 Q3 - Techniques en anatomie pathologique
 
@@ -2457,6 +2461,8 @@ C] Permet de réaliser les prélèvements selon des protocoles standardisés
 D] Permet de réaliser des prélèvements repérés et orientés destinés à l'étude histopathologique
 E] Peut apporter des critères orientant vers la malignité d'un néoplasie mammaire
 
+Correction probable - Exceptionnelle 2024 Q3 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q4 - Introduction à l'anatomie pathologique
 
 4. L'Anatomie Pathologique permet d'assurer la prise en charge des cancers en:
@@ -2466,6 +2472,8 @@ B] Évaluant les facteurs pronostiques
 C] Recherchant l'origine d'une métastase d'un carcinome primitif encore inconnu
 D] Étudiant la réponse thérapeutique à travers des protocoles de recherche
 E] Dépistant les cancers
+
+Correction probable - Exceptionnelle 2024 Q4 = A,B,C,D
 
 # Exceptionnelle 2024 Q5 - Techniques en anatomie pathologique
 
@@ -2477,6 +2485,8 @@ C] Est l'étude des cellules isolées
 D] Son but principal est de poser le diagnostic d'un carcinome infiltrant
 E] Peut être obtenu par ponction d'une tumeur à l'aiguille sous contrôle radiologique
 
+Correction probable - Exceptionnelle 2024 Q5 = A,B,C,E
+
 # Exceptionnelle 2024 Q6 - Techniques en anatomie pathologique
 
 6. Une bonne fixation nécessite :
@@ -2486,6 +2496,8 @@ B] L'utilisation de formol 4%
 C] La fixation immédiate
 D] L'utilisation de récipients larges
 E] Le volume du fixateur est 10 fois le volume du prélèvement
+
+Correction probable - Exceptionnelle 2024 Q6 = B,C,D,E
 
 # Exceptionnelle 2024 Q7 - Techniques en anatomie pathologique
 
@@ -2497,6 +2509,8 @@ C] Inhibe l'autolyse et la putréfaction
 D] N'est pas nécessaire dans la préparation des échantillons anatomo-pathologique
 E] Permet de conserver la structure cellulaire et tissulaire, aussi proche de l'état vivant
 
+Correction probable - Exceptionnelle 2024 Q7 = A,C,E
+
 # Exceptionnelle 2024 Q8 - Techniques en anatomie pathologique
 
 8. Au cours d'un acte chirurgical, l'examen anatomopathologique extemporané:
@@ -2506,6 +2520,8 @@ B] Est une consultation anatomopathologique en peropératoire susceptible de mod
 C] Peut-être indiqué pour vérifier, au cours de l'acte chirurgical, que les limites d'exérèse d'une lésion tumorale sont saines
 D] Est réalisé sur un prélèvement tissulaire fixé au formol
 E] Nécessite l'inclusion en paraffine du prélèvement
+
+Correction probable - Exceptionnelle 2024 Q8 = B,C
 
 # Exceptionnelle 2024 Q9 - Métastases
 
@@ -2517,6 +2533,8 @@ C] Montre une croissance autonome et indépendante de la tumeur primitive
 D] Leurs voies de dissémination sont différentes de la tumeur primitive
 E] Peuvent être révélatrice de la tumeur primitive
 
+Correction probable - Exceptionnelle 2024 Q9 = B,C,E
+
 # Exceptionnelle 2024 Q10 - Métastases
 
 10. Les métastases des mélanomes :
@@ -2526,6 +2544,8 @@ B] Sont exclusivement lymphatiques
 C] Peuvent être révélatrices d'un mélanome cutané
 D] Peuvent survenir au cours de la phase de dissémination locorégionale d'un mélanome cutané
 E] Sont à la fois lymphatiques et hématogènes
+
+Correction probable - Exceptionnelle 2024 Q10 = C,D,E
 
 # Exceptionnelle 2024 Q11 - Métastases
 
@@ -2537,6 +2557,8 @@ C] Peuvent survenir au cours de la phase de dissémination locorégionale
 D] Sont fréquentes dans les ganglions lymphatiques
 E] Peuvent être révélatrices d'un cancer
 
+Correction probable - Exceptionnelle 2024 Q11 = B,C,D,E
+
 # Exceptionnelle 2024 Q12 - Métastases
 
 12. Les métastases par voie hématogène :
@@ -2546,6 +2568,8 @@ B] Peuvent faire suite à un envahissement lymphatique
 C] Indiquent que le cancer est en voie de guérison
 D] Représentent une des voies de dissémination du cancer
 E] Leur répartition dépend du mode de drainage veineux de l'organe atteint
+
+Correction probable - Exceptionnelle 2024 Q12 = A,B,D,E
 
 # Exceptionnelle 2024 Q13 - Cellule cancéreuse
 
@@ -2557,6 +2581,8 @@ C] Ignorent les signaux qui leur indiquent de cesser de se diviser ou de mourir 
 D] Peuvent être bien différenciées
 E] Envahissent les tissus et les organes adjacents et à distance
 
+Correction probable - Exceptionnelle 2024 Q13 = A,B,C,D,E
+
 # Exceptionnelle 2024 Q14 - Introduction à la pathologie tumorale
 
 14. Parmi les tumeurs suivantes, laquelle (lesquelles) ne donne(nt) pas de métastase ?
@@ -2566,6 +2592,8 @@ B] Le carcinome in situ du col utérin
 C] L'ostéome
 D] Le chondrome
 E] Le mélanome
+
+Correction probable - Exceptionnelle 2024 Q14 = B,C,D
 
 # Exceptionnelle 2024 Q15 - Stroma tumorale
 
@@ -2577,6 +2605,8 @@ C] Peuvent se rompre et donner des hémorragies intratumorales.
 D] Facilite l'effet de la chimiothérapie locale
 E] Sont composés de vaisseaux sanguins hiérarchisés de calibre décroissant et de structure variée
 
+Correction probable - Exceptionnelle 2024 Q15 = B,C,E
+
 # Exceptionnelle 2024 Q16 - Stroma tumorale
 
 16. Parmi les éléments qui composent une stroma réaction d'un cancer, on note:
@@ -2586,6 +2616,8 @@ B] Les vaisseaux lymphatiques et les nerfs
 C] Les cellules de la réponse immunitaire et inflammatoire de l'hôte
 D] Les cellules carcinomateuses infiltrantes
 E] Les vaisseaux sanguins
+
+Correction probable - Exceptionnelle 2024 Q16 = A,B,C,E
 
 # Exceptionnelle 2024 Q17 - Généralités sur les tumeurs bénignes
 
@@ -2597,6 +2629,8 @@ C] Rhabdomyomes
 D] Liposarcomes
 E] Adénomes
 
+Correction probable - Exceptionnelle 2024 Q17 = B
+
 # Exceptionnelle 2024 Q18 - Généralités sur les tumeurs bénignes
 
 18. Quelles sont les caractéristiques évolutives qui s'appliquent aux tumeurs bénignes:
@@ -2606,6 +2640,8 @@ B] Développement local, loco-régional et à distance
 C] Pas de Récidive
 D] Pronostic sombre
 E] Croissance rapide et destructrice
+
+Correction probable - Exceptionnelle 2024 Q18 = A,C
 
 # Exceptionnelle 2024 Q19 - Cellule cancéreuse
 
@@ -2617,6 +2653,8 @@ C] Toujours kystique
 D] Échappent aux règles biologiques de la croissance cellulaire
 E] Régresse et disparaît à l'arrêt du stimulus
 
+Correction probable - Exceptionnelle 2024 Q19 = D
+
 # Exceptionnelle 2024 Q20 - Introduction à la pathologie tumorale
 
 20. Les cellules musculaires striées bénignes sont appelées (QCU):
@@ -2626,6 +2664,8 @@ B] Léiomyosarcome
 C] Rhabdomyome
 D] Léiomyome
 E] Lipome
+
+Correction probable - Exceptionnelle 2024 Q20 = C
 
 # Exceptionnelle 2024 Q21 - Introduction à la pathologie tumorale
 
@@ -2637,6 +2677,8 @@ C] La guérison spontanée
 D] L'envahissement des organes de voisinage
 E] L'évolution spontanée vers l'auto-destruction
 
+Correction probable - Exceptionnelle 2024 Q21 = A,B,D
+
 # Exceptionnelle 2024 Q22 - Cellule cancéreuse
 
 22. Les anomalies biologiques des cellules cancéreuses sont:
@@ -2646,6 +2688,8 @@ B] Caractère immortel
 C] Perte de la propriété d'inhibition de contact
 D] Perte de la sensibilité aux signaux cellulaires
 E] Agressivité vis-à-vis des cellules de voisinage
+
+Correction probable - Exceptionnelle 2024 Q22 = A,B,C,D,E
 
 # Exceptionnelle 2024 Q23 - Généralités sur les tumeurs bénignes
 
@@ -2657,6 +2701,8 @@ C] Le saignement occulte
 D] Infiltration des tissus de voisinage
 E] La compression
 
+Correction probable - Exceptionnelle 2024 Q23 = A,B,C,E
+
 # Exceptionnelle 2024 Q24 - Stroma tumorale
 
 24. La stroma réaction :
@@ -2666,6 +2712,8 @@ B] Se compose de glycoprotéines, de fibres de collagène et élastiques
 C] Contient des vaisseaux sanguins, des lymphocytes et des nerfs
 D] Est sous la dépendance du tissu tumoral
 E] Présente les caractères génétiques de la cellule tumorale en cas de cancer héréditaire
+
+Correction probable - Exceptionnelle 2024 Q24 = B,C,D
 
 # Exceptionnelle 2024 Q25 - Introduction à la pathologie tumorale
 
@@ -2677,6 +2725,8 @@ C] Adénomes
 D] Léiomyosarcomes
 E] Lipomes
 
+Correction probable - Exceptionnelle 2024 Q25 = D
+
 # Exceptionnelle 2024 Q26 - L'inflammation
 
 26. Le processus inflammatoire:
@@ -2686,6 +2736,8 @@ B] Est synonyme d'une infection
 C] Représente une réponse à une agression
 D] Se déroule de façon préférentielle dans un tissu vascularisé
 E] Se déroule de façon préférentielle dans un tissu non vascularisé
+
+Correction probable - Exceptionnelle 2024 Q26 = C,D
 
 # Exceptionnelle 2024 Q27 - L'inflammation
 
@@ -2697,6 +2749,8 @@ C] La barrière cutanée
 D] Les médiateurs chimiques
 E] La muqueuse paramalpighienne
 
+Correction probable - Exceptionnelle 2024 Q27 = B,C,E
+
 # Exceptionnelle 2024 Q28 - L'inflammation
 
 28. On regroupe sous le terme << phagocytes >> :
@@ -2706,6 +2760,8 @@ B] Les macrophages
 C] Les polynucléaires éosinophiles
 D] Les polynucléaires neutrophiles
 E] Les plaquettes
+
+Correction probable - Exceptionnelle 2024 Q28 = B,C,D
 
 # Exceptionnelle 2024 Q29 - L'inflammation
 
@@ -2717,6 +2773,8 @@ C] La bactéricidie
 D] La phagocytose
 E] La diapédèse
 
+Correction probable - Exceptionnelle 2024 Q29 = D
+
 # Exceptionnelle 2024 Q30 - L'inflammation
 
 30. La cellule géante multinucléé est issue de la fusion de plusieurs :
@@ -2726,6 +2784,8 @@ B] Polynucléaires neutrophiles
 C] Polynucléaires éosinophiles
 D] Fibroblastes
 E] Lymphocytes
+
+Correction probable - Exceptionnelle 2024 Q30 = A
 
 # Exceptionnelle 2024 Q31 - L'inflammation
 
@@ -2737,6 +2797,8 @@ C] La réaction vasculo-sanguine
 D] La cicatrisation
 E] La réparation tissulaire
 
+Correction probable - Exceptionnelle 2024 Q31 = C
+
 # Exceptionnelle 2024 Q32 - L'inflammation
 
 32. La phase vasculo-sanguine de l'inflammation regroupe :
@@ -2746,6 +2808,8 @@ B] La détersion
 C] La congestion active
 D] La phagocytose
 E] L'œdème inflammatoire
+
+Correction probable - Exceptionnelle 2024 Q32 = A,C,E
 
 # Exceptionnelle 2024 Q33 - L'inflammation
 
@@ -2757,6 +2821,8 @@ C] La Thromboxane A2
 D] Le facteur XII d'Hageman
 E] La Bradykinine
 
+Correction probable - Exceptionnelle 2024 Q33 = D
+
 # Exceptionnelle 2024 Q34 - L'inflammation
 
 34. Parmi les cellules inflammatoires suivantes, citer celle qui est la plus caractéristique de l'inflammation aiguë :
@@ -2766,6 +2832,8 @@ B] Le polynucléaire neutrophile
 C] Le macrophage
 D] Le mastocyte
 E] Le plasmocyte
+
+Correction probable - Exceptionnelle 2024 Q34 = B
 
 # Exceptionnelle 2024 Q35 - L'inflammation
 
@@ -2777,6 +2845,8 @@ C] La bactéricidie
 D] La phagocytose
 E] La diapédèse
 
+Correction probable - Exceptionnelle 2024 Q35 = E
+
 # Exceptionnelle 2024 Q36 - L'inflammation
 
 36. Cette capacité est caractéristique:
@@ -2786,6 +2856,8 @@ B] Des fibroblastes
 C] Des mastocytes
 D] Des polynucléaires
 E] Des plaquettes
+
+Correction probable - Exceptionnelle 2024 Q36 = D
 
 # Exceptionnelle 2024 Q37 - L’inflammation granulomateuse
 
@@ -2797,6 +2869,8 @@ C] L'exsudation
 D] La suppuration
 E] La putréfaction
 
+Correction probable - Exceptionnelle 2024 Q37 = A
+
 # Exceptionnelle 2024 Q38 - L’inflammation granulomateuse
 
 38. Concernant l'évolution des lésions tuberculeuses, le follicule simple peut évoluer en:
@@ -2806,6 +2880,8 @@ B] Une caverne caséo-folliculaire
 C] Un follicule fibreux
 D] Une lésion caséo-folliculaire
 E] Une caverne à paroi exsudative
+
+Correction probable - Exceptionnelle 2024 Q38 = C,D
 
 # Exceptionnelle 2024 Q39 - L’inflammation granulomateuse
 
@@ -2817,6 +2893,8 @@ C] Une lésion caséo-folliculaire
 D] Une caverne fibreuse
 E] Une caverne à paroi exsudative
 
+Correction probable - Exceptionnelle 2024 Q39 = D,E
+
 # Exceptionnelle 2024 Q40 - La cicatrisation
 
 40. Quel est l'élément permettant à une cellule stable d'aboutir à une régénération sans cicatrice :
@@ -2826,6 +2904,8 @@ B] L'action de l'histamine
 C] La présence d'un granulome à corps étranger
 D] La présence d'une nécrose de coagulation
 E] Le caractère intact de la trame conjonctive de soutien
+
+Correction probable - Exceptionnelle 2024 Q40 = E
 
 # Exceptionnelle 2024 Q41 - La cicatrisation
 
@@ -2837,6 +2917,8 @@ C] Comporte des berges rapprochées
 D] Se présente avec un décalage minime
 E] Survient sur une peau atone de mauvaise qualité
 
+Correction probable - Exceptionnelle 2024 Q41 = A,C,D
+
 # Exceptionnelle 2024 Q42 - L’inflammation spécifique
 
 42. La présence de koïlocytes est évocatrice d'une infection:
@@ -2846,6 +2928,8 @@ B] A l'hépatite virale B
 C] A l'hépatite virale C
 D] A Actinomycose
 E] A l'Human Papillomavirus - HPV
+
+Correction probable - Exceptionnelle 2024 Q42 = E
 
 # Exceptionnelle 2024 Q43 - L’inflammation spécifique
 
@@ -2857,6 +2941,8 @@ C] La cellule de Langhans
 D] La cellule épithélioïde
 E] La cellule de Touton
 
+Correction probable - Exceptionnelle 2024 Q43 = B
+
 # Exceptionnelle 2024 Q44 - La pathologie circulatoire
 
 44. Sur le plan macroscopique, quel est l'aspect caractéristique de la strie lipidique :
@@ -2866,6 +2952,8 @@ B] Une traînée jaunâtre à peine saillante allongée dans le sens du courant 
 C] Une Plaque grisâtre et translucide sur l'intima
 D] Une lésion lenticulaire jaunâtre de 0,5 à 3 cm de diamètre
 E] Une tumeur bourgeonnante ulcérée
+
+Correction probable - Exceptionnelle 2024 Q44 = B
 
 # Exceptionnelle 2024 Q45 - La pathologie circulatoire
 
@@ -2877,6 +2965,8 @@ C] L'Apparition d'un centre lipidique, avec cristaux de cholestérol
 D] La plaque athéromateuse ulcérée
 E] La strie lipidique
 
+Correction probable - Exceptionnelle 2024 Q45 = A,E
+
 # Exceptionnelle 2024 Q46 - La pathologie circulatoire
 
 46. Une plaque d'athérosclérose compliquée peut :
@@ -2886,6 +2976,8 @@ B] Se thromboser
 C] Se cancériser
 D] Donner une embolie à distance
 E] Causer un anévrysme vasculaire
+
+Correction probable - Exceptionnelle 2024 Q46 = A,B,D,E
 
 # Exceptionnelle 2024 Q47 - Les maladies de surcharges
 
@@ -2897,6 +2989,8 @@ C] Une Thésaurismose
 D] Une Stéatose
 E] Une Maladie de Wilson
 
+Correction probable - Exceptionnelle 2024 Q47 = A
+
 # Exceptionnelle 2024 Q48 - Les maladies de surcharges
 
 48. Cet état lésionnel est dû à la surcharge de :
@@ -2906,6 +3000,8 @@ B] Fer
 C] Lysosomes anormaux
 D] Lipides
 E] Cuivre
+
+Correction probable - Exceptionnelle 2024 Q48 = A
 
 # Exceptionnelle 2024 Q49 - Les maladies de surcharges
 
@@ -2917,6 +3013,8 @@ C] Dépôts Bleuâtres à la coloration de Van Kossa
 D] Aspect vacuolaire optiquement vide des hépatocytes
 E] Amas de bile à la coloration standard
 
+Correction probable - Exceptionnelle 2024 Q49 = E
+
 # Exceptionnelle 2024 Q50 - Les maladies de surcharges
 
 50. Quelle est la coloration spéciale d'intérêt dans le diagnostic d'une surcharge en cuivre ?
@@ -2926,6 +3024,8 @@ B] Le Noir soudan
 C] Rouge à l'huile
 D] Perls
 E] Rhodamine
+
+Correction probable - Exceptionnelle 2024 Q50 = E
 
 ---
 

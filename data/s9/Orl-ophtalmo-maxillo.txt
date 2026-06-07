@@ -8489,6 +8489,8 @@ C] La rétinopathie pigmentaire
 D] La rétinopathie des soudeurs
 E] Aucune réponse
 
+Correction probable - Qe ophthalmologie regrouper 1 Q1 = B
+
 # Qe ophthalmologie regrouper 1 Q2 - Ophtalmo revision
 
 2. Le traitement de l'endophtalmie repose sur
@@ -8498,6 +8500,8 @@ B] Les antiseptiques par voie générale
 C] Les antimycosiques d'emblée
 D] Les antiviraux par voie générale
 E] Aucune des réponses
+
+Correction probable - Qe ophthalmologie regrouper 1 Q2 = A
 
 # Qe ophthalmologie regrouper 1 Q3 - Ophtalmo revision
 
@@ -8509,6 +8513,8 @@ C] La cefuroxime
 D] Les quinolone
 E] L'antisepsie rigoureuse
 
+Correction probable - Qe ophthalmologie regrouper 1 Q3 = A,C,E
+
 # Qe ophthalmologie regrouper 1 Q4 - Ophtalmo revision
 
 4. Le traitement de l'endophtalmie repose sur
@@ -8518,6 +8524,8 @@ B] Les antiseptiques par voie générale
 C] Les antimycosiques d'emblée
 D] Les antiviraux par voie générale
 E] Aucune des réponses
+
+Correction probable - Qe ophthalmologie regrouper 1 Q4 = A
 
 # Qe ophthalmologie regrouper 1 Q5 - Ophtalmo revision
 
@@ -8529,6 +8537,8 @@ C] La cefuroxime
 D] Les quinolones
 E] Les antimitotiques
 
+Correction probable - Qe ophthalmologie regrouper 1 Q5 = C
+
 # Qe ophthalmologie regrouper 1 Q6 - Ophtalmo revision
 
 6. Les infections TORCH comprennent
@@ -8538,6 +8548,8 @@ B] L'herpes
 C] La toxoplasmose
 D] La rubéole
 E] Le cytomegalovirus
+
+Correction probable - Qe ophthalmologie regrouper 1 Q6 = B,C,D,E
 
 # Qe ophthalmologie regrouper 1 Q7 - Ophtalmo revision
 
@@ -8549,6 +8561,8 @@ C] survient chez les porteurs de lentilles
 D] Est une infection sévère de la cornée
 E] Peut simuler un herpès cornéen
 
+Correction probable - Qe ophthalmologie regrouper 1 Q7 = C,D,E
+
 # Qe ophthalmologie regrouper 1 Q8 - Ophtalmo revision
 
 8. le kératocone est caractérisé par:
@@ -8558,6 +8572,8 @@ B] la survenue chez le sujet âgé
 C] Nécessite la greffe de cornée toujours
 D] Est une dystrophie de la cornée
 E] Est une maladie évolutive.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q8 = D,E
 
 # Qe ophthalmologie regrouper 1 Q9 - Ophtalmo revision
 
@@ -8569,6 +8585,8 @@ C] La cataracte corticale
 D] La cataracte nucléaire
 E] La cataracte sous capsulaire postérieure
 
+Correction probable - Qe ophthalmologie regrouper 1 Q9 = C
+
 # Qe ophthalmologie regrouper 1 Q10 - Ophtalmo revision
 
 10. L'indication la plus fréquente des kératoplasties est :
@@ -8578,6 +8596,8 @@ B] les traumatismes cornéens
 C] l'herpes
 D] la décompensation endothéliale
 E] les dystrophies de cornées
+
+Correction probable - Qe ophthalmologie regrouper 1 Q10 = A
 
 # Qe ophthalmologie regrouper 1 Q11 - Ophtalmo revision
 
@@ -8589,6 +8609,8 @@ C] 18,7 Dpt
 D] 27 Dpt
 E] 15 Dpt
 
+Correction probable - Qe ophthalmologie regrouper 1 Q11 = A
+
 # Qe ophthalmologie regrouper 1 Q12 - Ophtalmo revision
 
 12. Une cataracte pathologique peut se voir dans
@@ -8598,6 +8620,8 @@ B] La prise de corticoïdes
 C] La trisomie
 D] La variole
 E] Le glaucome
+
+Correction probable - Qe ophthalmologie regrouper 1 Q12 = A,B,C,D,E
 
 # Qe ophthalmologie regrouper 1 Q13 - Ophtalmo revision
 
@@ -8609,6 +8633,8 @@ C] La cataracte corticale
 D] La cataracte sous capsulaire postérieure
 E] La cataracte polaire antérieure
 
+Correction probable - Qe ophthalmologie regrouper 1 Q13 = B
+
 # Qe ophthalmologie regrouper 1 Q14 - Ophtalmo revision
 
 14. La cataracte secondaire peut compliquer
@@ -8618,6 +8644,8 @@ B] Une rétinopathie diabétique
 C] Une cataracte opérée
 D] Un décollement de rétine
 E] Une hémorragie intra vitréenne
+
+Correction probable - Qe ophthalmologie regrouper 1 Q14 = C
 
 # Qe ophthalmologie regrouper 1 Q15 - Ophtalmo revision
 
@@ -8629,6 +8657,8 @@ C] Peut se manifester par un retinoblastome.
 D] n'est pas héréditaire.
 E] peut être associer a un glaucome congénital.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q15 = A,E
+
 # Qe ophthalmologie regrouper 1 Q16 - Ophtalmo revision
 
 16. La cataracte congénitale :
@@ -8638,6 +8668,8 @@ B] N'est jamais associée à la trisomie 21.
 C] Peut-être dans le cadre d'un syndrome polymalformatif.
 D] La rubéole peut être la cause.
 E] Son trainement est seulement chirurgical.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q16 = C,D
 
 # Qe ophthalmologie regrouper 1 Q17 - Ophtalmo revision
 
@@ -8649,6 +8681,8 @@ C] ne peut être associée à un strabisme
 D] peut être associée à une amblyopie
 E] peut se manifester par une leucocorie
 
+Correction probable - Qe ophthalmologie regrouper 1 Q17 = B,D,E
+
 # Qe ophthalmologie regrouper 1 Q18 - Ophtalmo revision
 
 18. La cataracte sous capsulaire postérieure s'observer :
@@ -8658,6 +8692,8 @@ B] Les cataractes cortisoniques.
 C] Les cataractes post traumatiques contusifs.
 D] Les cataractes séniles.
 E] Les cataractes rompues.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q18 = A,B,C
 
 # Qe ophthalmologie regrouper 1 Q19 - Ophtalmo revision
 
@@ -8669,6 +8705,8 @@ C] N'est jamais associée à la trisomie 21.
 D] La rubéole peut être la cause.
 E] Son trainement est seulement chirurgical.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q19 = B,D
+
 # Qe ophthalmologie regrouper 1 Q20 - Ophtalmo revision
 
 20. La cataracte congénitale :
@@ -8678,6 +8716,8 @@ B] peut être due à une embryofoetopathie
 C] son traitement est médical
 D] peut être héréditaire
 E] peut se manifester par une leucocorie
+
+Correction probable - Qe ophthalmologie regrouper 1 Q20 = B,D,E
 
 # Qe ophthalmologie regrouper 1 Q21 - Ophtalmo revision
 
@@ -8689,6 +8729,8 @@ C] ne peut survenir en cas de traumatisme fermé du globe
 D] doit faire rechercher une lésion du pole postérieur
 E] est fréquente chez I'enfant
 
+Correction probable - Qe ophthalmologie regrouper 1 Q21 = A,B,D
+
 # Qe ophthalmologie regrouper 1 Q22 - Ophtalmo revision
 
 22. La cataracte congénitale peut être:
@@ -8698,6 +8740,8 @@ B] secondaire à une embryofoetopathie
 C] peut survenir dans le cadre d'un syndrome polymalformatif
 D] son traitement est essentiellement chirurgical
 E] La toxoplasmose et la rubeole peuvent etre des complications de la chirurgie
+
+Correction probable - Qe ophthalmologie regrouper 1 Q22 = A,B,C,D
 
 # Qe ophthalmologie regrouper 1 Q23 - Ophtalmo revision
 
@@ -8709,6 +8753,8 @@ C] Survient avec l'âge
 D] Doit faire rechercher une cause générale
 E] Doit faire rechercher un corps étranger intraoculaire
 
+Correction probable - Qe ophthalmologie regrouper 1 Q23 = B,E
+
 # Qe ophthalmologie regrouper 1 Q24 - Ophtalmo revision
 
 24. Les diagnostics à évoquer devant une cataractee sous capsulaire:
@@ -8718,6 +8764,8 @@ B] Cataracte post contusif
 C] cataracte cortisonique
 D] cataracte congénitale
 E] cataracte sénile
+
+Correction probable - Qe ophthalmologie regrouper 1 Q24 = A,B,C
 
 # Qe ophthalmologie regrouper 1 Q25 - Ophtalmo revision
 
@@ -8729,6 +8777,8 @@ C] Est souvent symétrique
 D] Facile a observer en cas de myopie
 E] Temporal supérieur nasal inferieur
 
+Correction probable - Qe ophthalmologie regrouper 1 Q25 = A
+
 # Qe ophthalmologie regrouper 1 Q26 - Ophtalmo revision
 
 26. Une excavation papillaire glaucomateuse répond souvent à la règle
@@ -8738,6 +8788,8 @@ B] Supérieur inferieur temporal nasal
 C] Nasal temporal supérieur inferieur
 D] Temporal nasal supérieur inferieur
 E] Temporal supérieur nasal inferieur
+
+Correction probable - Qe ophthalmologie regrouper 1 Q26 = A
 
 # Qe ophthalmologie regrouper 1 Q27 - Ophtalmo revision
 
@@ -8749,6 +8801,8 @@ C] Ne donne jamais d'amblyopie
 D] Son traitement est chirurgical d'emblée
 E] Nécessite une exploration approfondie
 
+Correction probable - Qe ophthalmologie regrouper 1 Q27 = A,B,E
+
 # Qe ophthalmologie regrouper 1 Q28 - Ophtalmo revision
 
 28. La cataracte congénitale unilatérale
@@ -8758,6 +8812,8 @@ B] Peut être associe a une anomalie intraoculaire
 C] Ne donne jamais d'amblyopie
 D] Son traitement est orthoptique uniquement
 E] La rubéole peut en être la cause
+
+Correction probable - Qe ophthalmologie regrouper 1 Q28 = A,B,E
 
 # Qe ophthalmologie regrouper 1 Q29 - Ophtalmo revision
 
@@ -8769,6 +8825,8 @@ C] Son traitement est toujours chirurgical
 D] son dépistage ne présente aucun intérêt.
 E] Représente une cause de cécité dans le monde.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q29 = B,E
+
 # Qe ophthalmologie regrouper 1 Q30 - Ophtalmo revision
 
 30. La crise de GFA se caractérise par :
@@ -8778,6 +8836,8 @@ B] Une ouverture de l'angle irido-cornéen.
 C] Un myosis serré.
 D] Une hypertonie modérée.
 E] Un blocage pupillaire.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q30 = E
 
 # Qe ophthalmologie regrouper 1 Q31 - Ophtalmo revision
 
@@ -8789,6 +8849,8 @@ C] les inhibiteurs de la pompe a potassium
 D] Les inhibiteurs calciques
 E] Les analogues de prostaglandines.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q31 = E
+
 # Qe ophthalmologie regrouper 1 Q32 - Ophtalmo revision
 
 32. Le glaucome congénital
@@ -8798,6 +8860,8 @@ B] se manifester par un larmoiement
 C] son traitement est médical
 D] peut survenir au delà de 4 ans
 E] la prise du tonus se fait sous anesthésie générale
+
+Correction probable - Qe ophthalmologie regrouper 1 Q32 = B,E
 
 # Qe ophthalmologie regrouper 1 Q33 - Ophtalmo revision
 
@@ -8809,6 +8873,8 @@ C] se manifeste par une baisse aigue non douloureuse de la vue
 D] son traitement est d'abord médical
 E] le traitement de l'œil Adelphe n 'est pat nécessaire
 
+Correction probable - Qe ophthalmologie regrouper 1 Q33 = A,B,D
+
 # Qe ophthalmologie regrouper 1 Q34 - Ophtalmo revision
 
 34. Le glaucome chronique à angle ouvert
@@ -8818,6 +8884,8 @@ B] Peut être héréditaire
 C] son traitement est uniquement médical
 D] peut conduire à la cécité
 E] sa surveillance repose uniquement sur l'examen clinique
+
+Correction probable - Qe ophthalmologie regrouper 1 Q34 = A,B,D
 
 # Qe ophthalmologie regrouper 1 Q35 - Ophtalmo revision
 
@@ -8829,6 +8897,8 @@ C] Son traitement est toujours médical.
 D] Représente une cause de cécité dans le monde.
 E] Le traitement médical repose pour les bêtamimétique.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q35 = B,D
+
 # Qe ophthalmologie regrouper 1 Q36 - Ophtalmo revision
 
 36. La crise de GFA se caractérise par :
@@ -8838,6 +8908,8 @@ B] Une fermeture de l'angle irido-cornéen.
 C] Un myosis serré.
 D] Une hypertonie modérée.
 E] Un blocage pupillaire.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q36 = B,E
 
 # Qe ophthalmologie regrouper 1 Q37 - Ophtalmo revision
 
@@ -8849,6 +8921,8 @@ C] L'administration de collyres myotiques.
 D] La réalisation d'une iridectomie périphérique.
 E] L'administration d'atropine.
 
+Correction probable - Qe ophthalmologie regrouper 1 Q37 = A,B,C,D
+
 # Qe ophthalmologie regrouper 1 Q38 - Ophtalmo revision
 
 38. Les thérapeutiques du glaucome sont :
@@ -8858,6 +8932,8 @@ B] Les a bloquants.
 C] Les a adrénergiques.
 D] Les inhibiteurs de l'anhydrase carbonique.
 E] Les analogues de prostaglandines.
+
+Correction probable - Qe ophthalmologie regrouper 1 Q38 = A,C,D,E
 
 # Qe ophthalmologie regrouper 1 Q39 - Ophtalmo revision
 
@@ -8869,6 +8945,8 @@ C] son traitement est médical
 D] peut survenir au delà de 4 ans
 E] la prise du tonus se fait sous anesthésie générale
 
+Correction probable - Qe ophthalmologie regrouper 1 Q39 = A,B,E
+
 # Qe ophthalmologie regrouper 1 Q40 - Ophtalmo revision
 
 40. Le glaucome chronique
@@ -8878,6 +8956,8 @@ B] est une affection de longue durée
 C] son traitement est essentiellement médical
 D] peut conduire a la cécité
 E] nécessite parfois le laser comme traitement
+
+Correction probable - Qe ophthalmologie regrouper 1 Q40 = B,C,D,E
 
 # Qe ophthalmologie regrouper 1 Q41 - Ophtalmo revision
 
@@ -8889,6 +8969,8 @@ C] est héréditaire
 D] peut se manifester par une leucocorie
 E] son diagnostic se fait sous anesthésie générale
 
+Correction probable - Qe ophthalmologie regrouper 1 Q41 = A,C,E
+
 # Qe ophthalmologie regrouper 1 Q42 - Ophtalmo revision
 
 44. Le glaucome par fermeture de l'angle
@@ -8898,6 +8980,8 @@ B] son traitement nécessite une hospitalisation
 C] peut causer une cécité
 D] nécessite une iridectomie périphérique
 E] survient sur un oeil prédisposé
+
+Correction probable - Qe ophthalmologie regrouper 1 Q42 = A,B,C,D,E
 
 # Qe ophthalmologie regrouper 1 Q43 - Ophtalmo revision
 
@@ -8909,6 +8993,8 @@ C] Les alterations du champs visuel sont caractéristiques
 D] L'hypertonie oculaire est un signe important
 E] Est secondaire a un blocage pupillaire
 
+Correction probable - Qe ophthalmologie regrouper 1 Q43 = A,B,D,E
+
 # Qe ophthalmologie regrouper 1 Q44 - Ophtalmo revision
 
 44. Le glaucome chronique a angle ouvert est câractérisé par :
@@ -8918,6 +9004,8 @@ B] Une baisse de l'acuité visuelle
 C] Des altérations du champ visuel
 D] Une paleur papillaire
 E] Une excavation papillaire
+
+Correction probable - Qe ophthalmologie regrouper 1 Q44 = A,C,E
 
 # Qe ophthalmologie regrouper 1 Q45 - Ophtalmo revision
 
@@ -8929,6 +9017,8 @@ C] un strabisme
 D] une diminution du diamètre cornéen
 E] son traitement est chirurgical
 
+Correction probable - Qe ophthalmologie regrouper 1 Q45 = B,C,E
+
 # Qe ophthalmologie regrouper 1 Q46 - Ophtalmo revision
 
 46. Dans la rétinopathie diabétique:
@@ -8938,6 +9028,8 @@ B] La lésionanatomopathologique initiale est la raréfaction des cellules de Mu
 C] Le premier signe ophtalmoscopique observé est l'hémorragie rétinienne.
 D] Le laser est le meilleur traitement préventif.
 E] La classification se base sur l'existence ou non d'une neovascularisation
+
+Correction probable - Qe ophthalmologie regrouper 1 Q46 = A,D,E
 
 # Qe ophthalmologie regrouper 1 Q47 - Ophtalmo revision
 
@@ -8949,6 +9041,8 @@ C] doit faire rechercher une néphropathie diabétique
 D] Le laser est le meilleur traitement préventif.
 E] La classification se base sur l'existence ou non d'une neo-vascularisation
 
+Correction probable - Qe ophthalmologie regrouper 1 Q47 = B,C,E
+
 # Qe ophthalmologie regrouper 1 Q48 - Ophtalmo revision
 
 48. la retinopathie diabetique est caractérisée par
@@ -8959,6 +9053,8 @@ C] peut être ischémique ou oedemateuse.
 D] peut être traitée par injection d'antivegf
 E] Le laser est un traitement préventif
 
+Correction probable - Qe ophthalmologie regrouper 1 Q48 = B,C,D,E
+
 # Qe ophthalmologie regrouper 1 Q49 - Ophtalmo revision
 
 49. La rétinopathie diabétique :
@@ -8968,6 +9064,8 @@ B] est une complication fréquente du diabète juvénile
 C] se définit comme étant un épaississement de la région maculaire
 D] l'angiographie rétinienne à la fluoresceine aide à la stadifier
 E] le laser représente un traitement préventif des complications
+
+Correction probable - Qe ophthalmologie regrouper 1 Q49 = A,B,D,E
 
 # Qe ophthalmologie regrouper 1 Q50 - Ophtalmo revision
 
@@ -8983,6 +9081,8 @@ E] La classification se base sur l'existence ou non d'une neovascularisation
 
 // Qe ophtalmologie regrouper 2 (Correction collective) : https://www.e-qe.online/exam/5a7fb904-f93f-4f3f-8aa0-b6f5e1cf045d
 
+Correction probable - Qe ophthalmologie regrouper 1 Q50 = A,D,E
+
 # Qe ophtalmologie regrouper 2 Q1 - Ophtalmo revision
 
 1. La rétinopathie diabétique
@@ -8992,6 +9092,8 @@ B] est une complication précoce du diabète
 C] doit faire rechercher une néphropathie diabétique
 D] son traitement repose sur l'équilibre diabétique
 E] le laser représente un traitement préventif des complications
+
+Correction probable - Qe ophtalmologie regrouper 2 Q1 = C,D,E
 
 # Qe ophtalmologie regrouper 2 Q2 - Ophtalmo revision
 
@@ -9003,6 +9105,8 @@ C] peut se compliquer d'une hémorragie intra vilréenne
 D] les néovaisseaux rétiniens sont absents .
 E] le microanévrysme est la première manifestation ophtalmoscopique
 
+Correction probable - Qe ophtalmologie regrouper 2 Q2 = A,B,C,E
+
 # Qe ophtalmologie regrouper 2 Q3 - Ophtalmo revision
 
 3. Devant un œil rouge avec baisse d'acuité visuelle il faut évoquer en premier :
@@ -9012,6 +9116,8 @@ B] Le décollement de rétine
 C] La cataracte corticale
 D] L'uvéite antérieure
 E] La kératite herpétique
+
+Correction probable - Qe ophtalmologie regrouper 2 Q3 = A
 
 # Qe ophtalmologie regrouper 2 Q4 - Ophtalmo revision
 
@@ -9023,6 +9129,8 @@ C] Un trachome
 D] Une conionctivite virale
 E] Une uvéite
 
+Correction probable - Qe ophtalmologie regrouper 2 Q4 = A
+
 # Qe ophtalmologie regrouper 2 Q5 - Ophtalmo revision
 
 5. L'allergie oculaire:
@@ -9032,6 +9140,8 @@ B] L'œdème conjonctival et le prurit.
 C] L'existence toujours d'un allergène.
 D] Le traitement toujours par corticoïdes locaux.
 E] Le traitement par les antihistaminiques.
+
+Correction probable - Qe ophtalmologie regrouper 2 Q5 = A,B,E
 
 # Qe ophtalmologie regrouper 2 Q6 - Ophtalmo revision
 
@@ -9043,6 +9153,8 @@ C] L'existence toujours d'un allergène.
 D] Le traitement toujours par corticoïdes locaux.
 E] Le traitement par les antihistaminiques.
 
+Correction probable - Qe ophtalmologie regrouper 2 Q6 = A,B,E
+
 # Qe ophtalmologie regrouper 2 Q7 - Ophtalmo revision
 
 7. La conjonctivite virale
@@ -9052,6 +9164,8 @@ B] est contagieuse
 C] se définit comme étant la présence de secrétions purulentes abondantes
 D] son traitement repose sur les corticoïdes
 E] peut être associée à une adénopathie prétragienne
+
+Correction probable - Qe ophtalmologie regrouper 2 Q7 = B,E
 
 # Qe ophtalmologie regrouper 2 Q8 - Ophtalmo revision
 
@@ -9063,6 +9177,8 @@ C] peut se compliquer de néo vascularisation cornéenne
 D] la récidive fréquente
 E] son traitement fait appel aux antibiotiques
 
+Correction probable - Qe ophtalmologie regrouper 2 Q8 = A,C,D
+
 # Qe ophtalmologie regrouper 2 Q9 - Ophtalmo revision
 
 9. Les papilles géantes au cours de l'allergie s'observent :
@@ -9073,6 +9189,8 @@ C] La conjonctivite allergique per annuelle.
 D] La conjonctivite virale.
 E] La conjonctivite bactérienne.
 
+Correction probable - Qe ophtalmologie regrouper 2 Q9 = A,B
+
 # Qe ophtalmologie regrouper 2 Q10 - Ophtalmo revision
 
 10. Une sclérite
@@ -9081,6 +9199,8 @@ B] son traitement est simple
 C] il n°ya pas de douleur
 D] peut se compliquer
 E] nécessite un bilan étiologique
+
+Correction probable - Qe ophtalmologie regrouper 2 Q10 = A,D,E
 
 # Qe ophtalmologie regrouper 2 Q11 - Ophtalmo revision
 
@@ -9091,6 +9211,8 @@ C] son traitement repose sur les corticoïdes
 D] son traitement repose sur les antihistaminiques
 E] la printanière est une forme grave
 
+Correction probable - Qe ophtalmologie regrouper 2 Q11 = A,B,D,E
+
 # Qe ophtalmologie regrouper 2 Q12 - Ophtalmo revision
 
 12. Le port de lentille de contact
@@ -9099,6 +9221,8 @@ B] peut exposer à une infection cornéenne par amibiase
 C] peut exposer a une infection grave de la cornée
 D] il faut préférer les lentilles souples
 E] nécessitent une hygiène rigoureuse
+
+Correction probable - Qe ophtalmologie regrouper 2 Q12 = A,B,C,E
 
 # Qe ophtalmologie regrouper 2 Q13 - Ophtalmo revision
 
@@ -9110,6 +9234,8 @@ C] des adénopathies prétragiennes
 D] la récidive fréquente
 E] son traitement fait appel aux antibiotiques
 
+Correction probable - Qe ophtalmologie regrouper 2 Q13 = A,D
+
 # Qe ophtalmologie regrouper 2 Q14 - Ophtalmo revision
 
 14. Le port de lentille de contact
@@ -9119,6 +9245,8 @@ B] il faut préféré les lentilles souples
 C] peut exposer à une amibiase coméenne
 D] nécessite une hygiène rigoureuse
 E] le lavage des lentilles peut se faire a I'eau de robinet
+
+Correction probable - Qe ophtalmologie regrouper 2 Q14 = A,C,D
 
 # Qe ophtalmologie regrouper 2 Q15 - Ophtalmo revision
 
@@ -9130,6 +9258,8 @@ C] son traitement fait appel aux antiviraux
 D] la récidive est fréquente
 E] peut se compliquer de perforation cornéenne
 
+Correction probable - Qe ophtalmologie regrouper 2 Q15 = A,B,C,D,E
+
 # Qe ophtalmologie regrouper 2 Q16 - Ophtalmo revision
 
 16. Une sclérite est caractérisée par
@@ -9139,6 +9269,8 @@ B] Une rougeur localisée
 C] Une hémorragie sous conjonctivale
 D] Le traitement repose les antibiotiques
 E] Une recherche étiologique est indispensable
+
+Correction probable - Qe ophtalmologie regrouper 2 Q16 = A,E
 
 # Qe ophtalmologie regrouper 2 Q17 - Ophtalmo revision
 
@@ -9150,6 +9282,8 @@ C] Une kératite herpétique
 D] une cataracte blanche
 E] une rétinopathie diabétique
 
+Correction probable - Qe ophtalmologie regrouper 2 Q17 = A,B,C
+
 # Qe ophtalmologie regrouper 2 Q18 - Ophtalmo revision
 
 18. Quel examen à réaliser en premier devant une ulcère de cornée :
@@ -9159,6 +9293,8 @@ B] une angiographie rétinienne
 C] une TDM cérébrale
 D] une prise du tonus oculaire
 E] un test a la fluorésceine
+
+Correction probable - Qe ophtalmologie regrouper 2 Q18 = E
 
 # Qe ophtalmologie regrouper 2 Q19 - Ophtalmo revision
 
@@ -9170,6 +9306,8 @@ C] Est associée à une longueur axiale normale
 D] Est associée à une longueur axiale allongée
 E] Est associée à un cristallin normal
 
+Correction probable - Qe ophtalmologie regrouper 2 Q19 = A
+
 # Qe ophtalmologie regrouper 2 Q20 - Ophtalmo revision
 
 20. L'étiologie la plus fréquente de la baisse d'acuité visuelle de près est :
@@ -9179,6 +9317,9 @@ B] L'astigmatisme
 C] Le strabisme
 D] La cataracte sous capsulaire postérieure
 E] La presbytie
+
+Correction probable - Qe ophtalmologie regrouper 2 Q20 = E
+
 # Qe ophtalmologie regrouper 2 Q21 - Ophtalmo revision
 
 21. Une myopie d'indice se voit dans
@@ -9189,6 +9330,8 @@ C] Est associée a une longueur axiale normale
 D] Est associée à une longueur axiale allongée
 E] Est associée à une longueur axiale petite
 
+Correction probable - Qe ophtalmologie regrouper 2 Q21 = B
+
 # Qe ophtalmologie regrouper 2 Q22 - Ophtalmo revision
 
 22. L'amblyopie :
@@ -9197,6 +9340,8 @@ B] Peut compliquer une cataracte congénitale
 C] Peut compliquer un strabisme.
 D] doit être traiter avant l'âge de 8 ans
 E] Peut être traiter à l'âge adulte.
+
+Correction probable - Qe ophtalmologie regrouper 2 Q22 = A,B,C,D
 
 # Qe ophtalmologie regrouper 2 Q23 - Ophtalmo revision
 
@@ -9208,6 +9353,8 @@ C] Doit faire éliminer une amblyopie associée
 D] N'est pas une urgence
 E] Peut régresser spontanément après l'âge de 5 ans
 
+Correction probable - Qe ophtalmologie regrouper 2 Q23 = A,B,C,D
+
 # Qe ophtalmologie regrouper 2 Q24 - Ophtalmo revision
 
 24. L'amblyopie :
@@ -9218,6 +9365,8 @@ C] Est une complication de la cataracte congénitale
 D] Peut donner un strabisme.
 E] Peut être d'origine strabique.
 
+Correction probable - Qe ophtalmologie regrouper 2 Q24 = C,E
+
 # Qe ophtalmologie regrouper 2 Q25 - Ophtalmo revision
 
 25. Le don d'organes et tissus au maroc
@@ -9226,6 +9375,8 @@ B] nécessite obligatoirement l'accord de la famille
 C] est très suffisant et satisfaisant
 D] nécessite une promotion
 E] le registre de dons est situé au sein de la wilaya
+
+Correction probable - Qe ophtalmologie regrouper 2 Q25 = A,D
 
 # Qe ophtalmologie regrouper 2 Q26 - Ophtalmo revision
 
@@ -9237,6 +9388,8 @@ C] peut sauver la vue
 D] doit être promotionner dans notre pays
 E] la banque des yeux représente le lieux de greffe des cornées
 
+Correction probable - Qe ophtalmologie regrouper 2 Q26 = B,C,D
+
 # Qe ophtalmologie regrouper 2 Q27 - Ophtalmo revision
 
 27. L'étiologie la plus fréquente des greffes de la cornée est :
@@ -9246,6 +9399,8 @@ B] Les complications de chirurgie de cataracte.
 C] Les infections herpétiques cornéennes.
 D] Les dystrophies de la cornée
 E] Le kératocône.
+
+Correction probable - Qe ophtalmologie regrouper 2 Q27 = E
 
 # Qe ophtalmologie regrouper 2 Q28 - Ophtalmo revision
 
@@ -9257,6 +9412,8 @@ C] peut sauver la vue
 D] doit être promotionner dans notre pays
 E] la banque des yeux représente le lieux de stockage des cornées
 
+Correction probable - Qe ophtalmologie regrouper 2 Q28 = A,B,C,D,E
+
 # Qe ophtalmologie regrouper 2 Q29 - Ophtalmo revision
 
 29. Le rétinoblastome
@@ -9266,6 +9423,8 @@ B] Peut envahir le nerf optique
 C] Peut avoir une triple localisation
 D] Son traitement est seulement chirurgical
 E] Est une tumeur génétique
+
+Correction probable - Qe ophtalmologie regrouper 2 Q29 = B,C,E
 
 # Qe ophtalmologie regrouper 2 Q30 - Ophtalmo revision
 
@@ -9277,6 +9436,8 @@ C] son extension se fait au nerf optique et à la choroide
 D] le strabisme et la leucocorie doivent représenter les signes d'alarme
 E] son traitement est médical
 
+Correction probable - Qe ophtalmologie regrouper 2 Q30 = B,C,D
+
 # Qe ophtalmologie regrouper 2 Q31 - Ophtalmo revision
 
 31. Le rétinoblastome
@@ -9286,6 +9447,8 @@ B] est une tumeur rétinienne mésenchymateuse
 C] son extension peut se faire au nerf optique
 D] le strabisme et la leucocorie doivent représenter les signes d'alarme
 E] son traitement est seulement chirurgical
+
+Correction probable - Qe ophtalmologie regrouper 2 Q31 = C,D
 
 # Qe ophtalmologie regrouper 2 Q32 - Ophtalmo revision
 
@@ -9297,6 +9460,8 @@ C] son traitement associe chirurgie et parfois la chimiothérapie
 D] se manifeste par un larmoiement
 E] doit être diagnostiqué très précocement
 
+Correction probable - Qe ophtalmologie regrouper 2 Q32 = C,E
+
 # Qe ophtalmologie regrouper 2 Q33 - Ophtalmo revision
 
 33. Le rétinoblastome
@@ -9306,6 +9471,8 @@ B] peut se manifester par un ptosis
 C] la forme bilatérale est héréditaire
 D] son traitement peut inclure la chimiothérapie
 E] Ia forme bilatérale est souvent précoce
+
+Correction probable - Qe ophtalmologie regrouper 2 Q33 = A,C,D
 
 # Qe ophtalmologie regrouper 2 Q34 - Ophtalmo revision
 
@@ -9317,6 +9484,8 @@ C] des papilles conjonctivales
 D] Un hyphéma
 E] Un tyndall
 
+Correction probable - Qe ophtalmologie regrouper 2 Q34 = A
+
 # Qe ophtalmologie regrouper 2 Q35 - Ophtalmo revision
 
 35. l'examen clinique retrouve une acuité à voir bouger la main et une hypotonie au palper bidigital, la conduite sera
@@ -9326,6 +9495,8 @@ B] La recherche de plaie de sclère
 C] Un traitement médical uniquement
 D] Abstention thérapeutique et surveillance
 E] Aucune proposition n'est juste
+
+Correction probable - Qe ophtalmologie regrouper 2 Q35 = B
 
 # Qe ophtalmologie regrouper 2 Q36 - Ophtalmo revision
 
@@ -9337,6 +9508,8 @@ C] La suture doit être faite en urgence
 D] Le bilan initial doit comporter une radio de l'orbite
 E] l'échographie oculaire n'est pas recommandée après suture
 
+Correction probable - Qe ophtalmologie regrouper 2 Q36 = A,C
+
 # Qe ophtalmologie regrouper 2 Q37 - Ophtalmo revision
 
 37. les complications d'une plaie de cornée
@@ -9346,6 +9519,8 @@ B] l'astigmatisme
 C] La phtyse
 D] La cataracte
 E] La taie de cornée
+
+Correction probable - Qe ophtalmologie regrouper 2 Q37 = A,B,C,D,E
 
 # Qe ophtalmologie regrouper 2 Q38 - Ophtalmo revision
 
@@ -9357,6 +9532,8 @@ C] Le glaucome
 D] La cataracte
 E] Aucune proposition n'est juste
 
+Correction probable - Qe ophtalmologie regrouper 2 Q38 = B
+
 # Qe ophtalmologie regrouper 2 Q39 - Ophtalmo revision
 
 39. Un jeune de 20 ans victime d'un traumatisme par jet de Pierre sur son œil droit occasionnant une douleur importante avec baisse de l'acuité visuelle, l'examen clinique retrouve une acuité visuelle limitée à voir bouger la main, un hyphema remplissant les 3/4 de la profondeur de la chambre antérieure et le tonus oculaire a 42 mm Hg votre conduite à tenir est :
@@ -9366,6 +9543,8 @@ B] prescription d'un traitement hypotonisant
 C] lavage chirurgical de l'hyphema
 D] surveillance à titre externe
 E] surveillance en hospitalier
+
+Correction probable - Qe ophtalmologie regrouper 2 Q39 = A,B,C,E
 
 # Qe ophtalmologie regrouper 2 Q40 - Ophtalmo revision
 
@@ -9377,6 +9556,8 @@ C] phtyse du globe
 D] éclatement spontané du globe
 E] le glaucome néo vasculaire
 
+Correction probable - Qe ophtalmologie regrouper 2 Q40 = A,B
+
 # Qe ophtalmologie regrouper 2 Q41 - Ophtalmo revision
 
 41. après éclaircissement des milieux endoculaires, l'examen a permis de mettre en évidence une rupture du sphincter irien, un irido donesis. L'examen du FO retrouve un pôle postérieur pâle et une macula rouge rouge cerise . comment appelle-t-on cette complication du pôle postérieur
@@ -9385,6 +9566,8 @@ B] occlusion de l'artère centrale de la rétine
 C] l'œdème de Berlin
 D] glaucome traumatique
 E] glaucome par fermeture de l'angle passé à la chronicité
+
+Correction probable - Qe ophtalmologie regrouper 2 Q41 = C
 
 # Qe ophtalmologie regrouper 2 Q42 - Ophtalmo revision
 
@@ -9396,6 +9579,8 @@ C] l'irido donesis
 D] l'aspect du pôle postérieur
 E] aucune réponse n'est juste
 
+Correction probable - Qe ophtalmologie regrouper 2 Q42 = A,D
+
 # Qe ophtalmologie regrouper 2 Q43 - Ophtalmo revision
 
 43. l'irido donesis témoigne
@@ -9405,6 +9590,9 @@ B] subluxation cristallinienne
 C] fait partie des signes cliniques du glaucome
 D] doit faire rechercher un phaco donesis
 E] est un signe à prendre en considération pour éventuelle chirurgie ultérieure
+
+Correction probable - Qe ophtalmologie regrouper 2 Q43 = B,D,E
+
 # Qe ophtalmologie regrouper 2 Q44 - Ophtalmo revision
 
 44. Un jeune ouvrier de 23 ans Consulte en urgence suite à un traumatisme de l ceil droit depuis La veille. L'examen retrouve une plaie cornéo sclérale associée à une cataracte traumatique rompue . quelle sera votre conduite à tenir?
@@ -9414,6 +9602,8 @@ B] parage et suture de La plaie
 C] traitement chirurgicale de La cataracte avec implantation
 D] La radiographie de l orbite n est pas obligatoire
 E] Antibio-prophylaxie n est pas recommandée
+
+Correction probable - Qe ophtalmologie regrouper 2 Q44 = A,B,D
 
 # Qe ophtalmologie regrouper 2 Q45 - Ophtalmo revision
 
@@ -9425,6 +9615,8 @@ C] une exophtalmie
 D] une intolérance à l implant
 E] une aggravation d une tare pré existante
 
+Correction probable - Qe ophtalmologie regrouper 2 Q45 = B
+
 # Qe ophtalmologie regrouper 2 Q46 - Ophtalmo revision
 
 46. quels sont les facteurs de risque d une endophtalmie:
@@ -9433,6 +9625,8 @@ B] La présence d un corps étranger intra oculaire
 C] La présence d une cataracte contusive
 D] La présence de masses cristallinienne dans la chambre antérieure
 E] La présence d un iridodialyse
+
+Correction probable - Qe ophtalmologie regrouper 2 Q46 = A,B,D
 
 # Qe ophtalmologie regrouper 2 Q47 - Ophtalmo revision
 
@@ -9444,6 +9638,8 @@ C] La perfusion d antibiotiques est suffisante
 D] les collyres antibiotiques sont contre indiqués
 E] les antibiotiques per os peuvent être administrés
 
+Correction probable - Qe ophtalmologie regrouper 2 Q47 = A,B,E
+
 # Qe ophtalmologie regrouper 2 Q48 - Ophtalmo revision
 
 48. Parmi les complications des plaies cornéosclérales citons :
@@ -9453,6 +9649,8 @@ B] un astigmatisme cornéen
 C] une exophtalmie
 D] une ophtalmie sympathique
 E] une phtyse du globe
+
+Correction probable - Qe ophtalmologie regrouper 2 Q48 = A,B,D,E
 
 # Qe ophtalmologie regrouper 2 Q49 - Ophtalmo revision
 
@@ -9464,6 +9662,8 @@ C] faire une echographie vu que le patient ne peut ouvrir son oeil
 D] essayer d'ouvrir et d'examiner le globe
 E] hospitalisation et surveillance du patient
 
+Correction probable - Qe ophtalmologie regrouper 2 Q49 = D
+
 # Qe ophtalmologie regrouper 2 Q50 - Ophtalmo revision
 
 50. L'examen montre un hypopion remplissant la moitié de la chambre antérieure avec une infiltration blanchâtre de la cornée de 5mm de diamètre sans perforation cornéenne. Quel est le diagnostic le plus probable (plusieurs réponses possibles)
@@ -9473,6 +9673,8 @@ B] un abcès de cornée
 C] une endophtalmie
 D] une phtyse
 E] un complément d'exploration est nécessaire pour avoir un diagnostic
+
+Correction probable - Qe ophtalmologie regrouper 2 Q50 = B
 
 # Qe ophtalmologie regrouper 2 Q51 - Ophtalmo revision
 
@@ -9484,6 +9686,8 @@ C] une hospitalisation est nécessaire
 D] mettre le patient sous corticothérapie afin de calmer la douleur et surveillance
 E] une greffe de cornée en urgence
 
+Correction probable - Qe ophtalmologie regrouper 2 Q51 = B,C
+
 # Qe ophtalmologie regrouper 2 Q52 - Ophtalmo revision
 
 52. quelles complications risque le patient
@@ -9493,6 +9697,8 @@ B] une perte anatomique de l'œil
 C] une perte fonctionnelle de l'œil
 D] un décollement de rétine rhégmatogène
 E] une exophtalmie
+
+Correction probable - Qe ophtalmologie regrouper 2 Q52 = A,B,C
 
 # Qe ophtalmologie regrouper 2 Q53 - Ophtalmo revision
 
@@ -9504,6 +9710,8 @@ C] l'examen du segment antérieur évalue l'état de la cornée
 D] Ia prise d tonus oculaire doit se faire quelque soit l'état de la comée
 E] l'examen du fond d'æil esl toujours différé
 
+Correction probable - Qe ophtalmologie regrouper 2 Q53 = B,C
+
 # Qe ophtalmologie regrouper 2 Q54 - Ophtalmo revision
 
 54. L'examen retrouve une hémorragie sous conjonctivale dense, des écorchures cornéennes, le tonus oculaire à 7 mmhg.
@@ -9513,6 +9721,8 @@ B] exploration chirurgicale urgente
 C] exploration après cicatrisation coméenne
 D] exploration chirurgicale après résorption de I'hémorragie
 E] exploration chirurgicale après normalisation du tonus oculaire
+
+Correction probable - Qe ophtalmologie regrouper 2 Q54 = A
 
 # Qe ophtalmologie regrouper 2 Q55 - Ophtalmo revision
 
@@ -9524,6 +9734,8 @@ C] un trou maculaire
 D] exsudats maculaires
 E] aspect normal de la macula
 
+Correction probable - Qe ophtalmologie regrouper 2 Q55 = A
+
 # Qe ophtalmologie regrouper 2 Q56 - Ophtalmo revision
 
 56. Le pronostic:
@@ -9534,6 +9746,8 @@ C] est mauvais vu l'état de la macula
 D] est bon vu l'état de la macula
 E] est bon vu que l'examen de la rétine est sans particularités
 
+Correction probable - Qe ophtalmologie regrouper 2 Q56 = D,E
+
 # Qe ophtalmologie regrouper 2 Q57 - Ophtalmo revision
 
 57. Quel traitement vous allez préconisez?
@@ -9543,6 +9757,8 @@ C] immunosuppresseurs
 D] anti-inflammatoires
 E] une simple surveillance
 
+Correction probable - Qe ophtalmologie regrouper 2 Q57 = E
+
 # Qe ophtalmologie regrouper 2 Q58 - Ophtalmo revision
 
 58. Devant une suspicion d'un corps étrânger intrâoculaire
@@ -9551,6 +9767,8 @@ B] la radio standard s'impose en urgence
 C] I'extraction est faite toujours en urgence
 D] la complication redoutable est la sidérose
 E] il faut toujours chercher une plaie de globe oculaire
+
+Correction probable - Qe ophtalmologie regrouper 2 Q58 = D,E
 
 # Qe ophtalmologie regrouper 2 Q59 - Ophtalmo revision
 
@@ -9562,6 +9780,8 @@ C] la suture est urgente
 D] le traitement d'une cataracte associée peul se faire secondairement
 E] la complication majeure est I'endophtalmie
 
+Correction probable - Qe ophtalmologie regrouper 2 Q59 = A,B,C,E
+
 # Qe ophtalmologie regrouper 2 Q60 - Ophtalmo revision
 
 60. Le traitement du trachome repose sur:
@@ -9571,6 +9791,8 @@ B] le nettoyage du visage
 C] I'amoxicilline
 D] la chirurgie du trichiasis
 E] les antiseptiques oculaires
+
+Correction probable - Qe ophtalmologie regrouper 2 Q60 = B,D
 
 # Qe ophtalmologie regrouper 2 Q61 - Ophtalmo revision
 
@@ -9582,6 +9804,8 @@ C] en cuivre peut se compliquer de sidérose
 D] le verre et le plastique est les moins tolérés
 E] le plomb est toxique pour Ia rétine.
 
+Correction probable - Qe ophtalmologie regrouper 2 Q61 = A,B,E
+
 # Qe ophtalmologie regrouper 2 Q62 - Ophtalmo revision
 
 62. les brulures oculaires
@@ -9591,6 +9815,8 @@ B] Leurs gestion demarre aux lieu de l'accident
 C] Le lavage oculaire est le reflexe le plus important
 D] La neutralisation est le reflexe le plus important
 E] L'opacité de cornée néovascularisée est la complication la plus fréquente
+
+Correction probable - Qe ophtalmologie regrouper 2 Q62 = A,B,C
 
 # Qe ophtalmologie regrouper 2 Q63 - Ophtalmo revision
 
@@ -9602,6 +9828,8 @@ C] l'hospitalisation est toujours indiquée
 D] une neutralisation
 E] ablation des corps étrangers
 
+Correction probable - Qe ophtalmologie regrouper 2 Q63 = B,D,E
+
 # Qe ophtalmologie regrouper 2 Q64 - Ophtalmo revision
 
 64. un ouvrier de 22 ans travaille dans une usine manipulant des produits chimiques. Il a été ce matin victime de la projection d'un liquide dans son ceil droit, Il est très photophobe et accuse une baisse importante de la vueQuel est le geste le plus important à effectuer en urgence (une seule réponse) :
@@ -9611,6 +9839,8 @@ B] repos strict
 C] lavage oculaire le plus abondant possible
 D] instillation d'un antiseptique et pansement
 E] surveillance
+
+Correction probable - Qe ophtalmologie regrouper 2 Q64 = C
 
 # Qe ophtalmologie regrouper 2 Q65 - Ophtalmo revision
 
@@ -9622,6 +9852,8 @@ C] le lavage oculaire abondant
 D] faire un lavage des voies lacrymales
 E] prescrire des antalgiques majeures et convoquer le patient le lendemain pour examen
 
+Correction probable - Qe ophtalmologie regrouper 2 Q65 = C
+
 # Qe ophtalmologie regrouper 2 Q66 - Ophtalmo revision
 
 66. En discutant avec le patient, il devient plus coopérant ; l'examen consiste à
@@ -9631,6 +9863,8 @@ B] instiller une goutte de la fluorescéine et projection d'une lumière bleue
 C] étude du limbe
 D] l'étude la conjonctive doit être différée
 E] rechercher d'éventuels corps étrangers
+
+Correction probable - Qe ophtalmologie regrouper 2 Q66 = B,C,E
 
 # Qe ophtalmologie regrouper 2 Q67 - Ophtalmo revision
 
@@ -9642,6 +9876,8 @@ C] un glaucome
 D] une neuropathie optique
 E] une aniridie
 
+Correction probable - Qe ophtalmologie regrouper 2 Q67 = A,B,C,D
+
 # Qe ophtalmologie regrouper 2 Q68 - Ophtalmo revision
 
 68. Un jeune patient de 30 ans consulte en urgence suite à la projection d'un liquide sur son visage Quelle sera votre conduite en urgence ? :
@@ -9651,6 +9887,8 @@ B] identifier la nature chimique du liquide
 C] faire un lavage oculaire abondant
 D] essayer de faire un bilan lésionnel
 E] ablation d'éventuels corps étrangers
+
+Correction probable - Qe ophtalmologie regrouper 2 Q68 = B,C,D
 
 # Qe ophtalmologie regrouper 2 Q69 - Ophtalmo revision
 
@@ -9662,6 +9900,8 @@ C] le lavage n'était pas nécessaire
 D] l'examen ophtalmologique s'impose
 E] les lésions engendrées par la brulure sont évolutives avec le temps
 
+Correction probable - Qe ophtalmologie regrouper 2 Q69 = D,E
+
 # Qe ophtalmologie regrouper 2 Q70 - Ophtalmo revision
 
 70. Au cours de l'examen ophtalmologique:
@@ -9672,6 +9912,8 @@ C] l'examen de la conjonctive peut être différé
 D] la dilatation permet un meilleur examen de la cornée
 E] il faut stadifier le degré de la brulure
 
+Correction probable - Qe ophtalmologie regrouper 2 Q70 = A,B,E
+
 # Qe ophtalmologie regrouper 2 Q71 - Ophtalmo revision
 
 71. L'examen de la cornée retrouve une prise de fluo limitée centrale, l'examen du limbe est sans particularité, le traitement repose sur :
@@ -9680,6 +9922,8 @@ B] le pansement oculaire est conseillé
 C] une lentille pansement peut être utile
 D] la greffe de membrane amniotique est conseillée en urgence
 E] les soins locaux permettent d'éviter la surinfection
+
+Correction probable - Qe ophtalmologie regrouper 2 Q71 = A,C,E
 
 # Qe ophtalmologie regrouper 2 Q72 - Ophtalmo revision
 
@@ -9690,3 +9934,5 @@ B] le pronostic visuel ne dépend pas du PH de l'agent causal
 C] la prise en charge est urgente
 D] le lavage doit être réalisé sur les lieux de I'accident
 E] Ie Iavage des voies lacrymales n'est pas obligatoire
+
+Correction probable - Qe ophtalmologie regrouper 2 Q72 = A,C,D

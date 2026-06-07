@@ -1241,6 +1241,8 @@ C] La neutropénie
 D] Une Hyperleucocytose
 E] Une thrombocytose
 
+Correction probable - Septembre 2024 Q1 = A,C
+
 # Septembre 2024 Q2 - Lupus érythémateux systémique
 
 2. Chez cette patiente; Quels examens complémentaires vous semblent indispensables pour assoir le diagnostic?
@@ -1250,6 +1252,8 @@ B] La recherche d'anticorps antinucléaires
 C] Les anti CCP
 D] Les anti DNA
 E] Les anti Sm
+
+Correction probable - Septembre 2024 Q2 = B,D,E
 
 # Septembre 2024 Q3 - Lupus érythémateux systémique
 
@@ -1261,6 +1265,8 @@ C] La recherche d'anomalies du sédiment urinaire
 D] L'exploration fonctionnelle respiratoire
 E] Capillaroscopie
 
+Correction probable - Septembre 2024 Q3 = A,B,C,D
+
 # Septembre 2024 Q4 - Lupus érythémateux systémique
 
 4. La protéinurie des 24h est à 3g/24h, la ponction biopsie rénale peut typiquement objectiver
@@ -1270,6 +1276,8 @@ B] Une néphroangiosclérose
 C] Un hyalinose segmentaire et focale
 D] Une nécrose tubulaire aiguë
 E] Des glomérules optiquement normaux
+
+Correction probable - Septembre 2024 Q4 = A
 
 # Septembre 2024 Q5 - Sclérodermie
 
@@ -1281,6 +1289,8 @@ C] Les anti-scl 70 sont corrélés à la crise rénale
 D] Les anti-ARN polymérase sont corrélés à la fibrose pulmonaire
 E] Se complique d'une atteinte rénale glomérulaire
 
+Correction probable - Septembre 2024 Q5 = A,B,C,D
+
 # Septembre 2024 Q6 - Sclérodermie
 
 6. Le traitement de la fibrose pulmonaire au cours de cette affection comprend :
@@ -1290,6 +1300,8 @@ B] De l'iloprost
 C] De la colchicine
 D] Du Mycophénolate Mofétil
 E] De l'Imurel
+
+Correction probable - Septembre 2024 Q6 = A,D
 
 # Septembre 2024 Q7 - Sclérodermie
 
@@ -1301,6 +1313,8 @@ C] De la prostacycline
 D] Du cyclophosphamide
 E] Des inhibiteurs des récepteurs de l'endothéline
 
+Correction probable - Septembre 2024 Q7 = A,C,E
+
 # Septembre 2024 Q8 - Syndrome de gougerot-sjogren
 
 8. Dans le cadre des diagnostics différentiels d'un syndrome sec buccal, vous réalisez :
@@ -1310,6 +1324,8 @@ B] Une sérologie VIH
 C] Le dosage de l'enzyme de conversion de l'angiotensine
 D] Un bilan phosphocalcique
 E] Un dosage des CPK
+
+Correction probable - Septembre 2024 Q8 = A,B,C,D
 
 # Septembre 2024 Q9 - Syndrome de gougerot-sjogren
 
@@ -1321,6 +1337,8 @@ C] Des Anti-DNA
 D] Des Anti-Sm
 E] Des Anti-topoisomérase 1
 
+Correction probable - Septembre 2024 Q9 = A
+
 # Septembre 2024 Q10 - Phénomène de Raynaud
 
 10. Mlle B. âgée de 24 ans sans antécédents pathologiques particuliers, présente une sensibilité des doigts au froid qui deviennent blancs puis bleus, l'examen clinique ne trouve aucune anomalie trophique ou vasculaire. Quel est votre diagnostic?
@@ -1330,6 +1348,8 @@ B] erythermalgie
 C] maladie de Raynaud
 D] phénomène de Raynaud secondaire
 E] Artérite a cellule géante
+
+Correction probable - Septembre 2024 Q10 = C
 
 # Septembre 2024 Q11 - Phénomène de Raynaud
 
@@ -1341,6 +1361,8 @@ C] écho doppler artériel des membres supérieurs
 D] électrocardiogramme
 E] radiographie des mains
 
+Correction probable - Septembre 2024 Q11 = A,B
+
 # Septembre 2024 Q12 - SAPL
 
 12. Mme âgée de 36 ans se présente aux urgence pour une jambe gauche augmentée de volume douloureuse et dont l'échodoppler veineux montre une phlébite surale elle a comme antécédents médicaux 3 avortements à répétitions, et une thrombophlèbite du membre inférieure droit il y a 2 ans, sa tension artérielle est à 120/70 mmhg. Quel est votre diagnostic?
@@ -1350,6 +1372,8 @@ B] une polyangéite microscopique
 C] un syndrome des antiphospholipides
 D] éclampsie
 E] une maladie de TAKAYASU
+
+Correction probable - Septembre 2024 Q12 = C
 
 # Septembre 2024 Q13 - SAPL
 
@@ -1361,6 +1385,8 @@ C] Anticorps anticardiolipine
 D] Anticorps anti B2GPI
 E] Anticorps anti CCP
 
+Correction probable - Septembre 2024 Q13 = B,C,D
+
 # Septembre 2024 Q14 - Myopathie Inflammatoire
 
 14. Mr A âgé de 50 ans présente depuis une semaine une asthénie, une douleur des cuisses et des épaules, une difficulté à monter les escaliers et à se peigner, Érythème et œdèmes des paupières en lunettes, des lésions érythémato-squameuses en regard des MCP, IPP et IPD.Quel est votre diagnostic?
@@ -1370,6 +1396,8 @@ B] Une myosite à inclusion
 C] Une dermatomyosite
 D] Un syndrome des anti synthétases
 E] Sclérodermie systémique
+
+Correction probable - Septembre 2024 Q14 = C
 
 # Septembre 2024 Q15 - Myopathie Inflammatoire
 
@@ -1381,6 +1409,8 @@ C] l'électromyogramme
 D] les radiographies des épaules
 E] l'échographie des cuisses et épaules
 
+Correction probable - Septembre 2024 Q15 = A,B,C
+
 # Septembre 2024 Q16 - Introduction aux vascularites systémiques et horton
 
 16. Mme HB âgée de 67 ans sans antécédents pathologiques particulier se plaint de céphalées depuis 2 semaines de siège temporale avec une hyperesthésie du cuire chevelu à l'examen clinique une sensibilité de l'artère temporale avec au plan biologique une CRP a 50 mg/l. quel est votre diagnostic?
@@ -1390,6 +1420,8 @@ B] maladie de Takayasu
 C] granulomatose avec polyangéite
 D] polyangéite microscopique
 E] vascularite cryoglobulinémique
+
+Correction probable - Septembre 2024 Q16 = A
 
 # Septembre 2024 Q17 - Introduction aux vascularites systémiques et horton
 
@@ -1401,6 +1433,8 @@ C] cyclophosphamides
 D] methotrexate
 E] tocilizumab
 
+Correction probable - Septembre 2024 Q17 = B
+
 # Septembre 2024 Q18 - LES DÉFICITS IMMUNITAIRES
 
 18. Le diagnostic d'un déficit immunitaire primitif se base sur trois des éléments suivants, lesquels?
@@ -1410,6 +1444,8 @@ B] Dosage des immunoglobulines
 C] Recherche d'un déficit en molécules HLA
 D] Test d'explosion oxydative des PNN (Burst test)
 E] Immunophénotypage des sous populations lymphocytaires
+
+Correction probable - Septembre 2024 Q18 = B,D,E
 
 # Septembre 2024 Q19 - LES DÉFICITS IMMUNITAIRES
 
@@ -1421,6 +1457,8 @@ C] Des manifestations d'allergie atypiques
 D] Une lymphopénie profonde
 E] Une neutropénie profonde
 
+Correction probable - Septembre 2024 Q19 = A,D
+
 # Septembre 2024 Q20 - Les hypersensibilités
 
 20. Une des cytokines suivantes est anti-allergique :
@@ -1430,6 +1468,8 @@ B] IL5
 C] IL9
 D] IL13
 E] INF-y
+
+Correction probable - Septembre 2024 Q20 = E
 
 # Septembre 2024 Q21 - Les hypersensibilités
 
@@ -1441,6 +1481,8 @@ C] Dosage des IgE totales
 D] Dosage des IgE spécifiques
 E] Test d'activation des basophiles
 
+Correction probable - Septembre 2024 Q21 = A,B,D
+
 # Septembre 2024 Q22 - Les hypersensibilités
 
 22. Deux des pathologies suivantes sont liées à une hypersensibilité à immun-complexes:
@@ -1450,6 +1492,8 @@ B] Maladie de Basedow
 C] Cryoglobulinémie
 D] Cytopénie auto-immune
 E] Néphrite lupique
+
+Correction probable - Septembre 2024 Q22 = C,E
 
 # Septembre 2024 Q23 - Les hypersensibilités
 
@@ -1461,6 +1505,8 @@ C] Syndrome de Lyell
 D] Syndrome de Stevens-Johnson
 E] Nécrolyse épidermique toxique
 
+Correction probable - Septembre 2024 Q23 = B,C,D,E
+
 # Septembre 2024 Q24 - Auto-immunité et maladie auto-immune
 
 24. L'effet pathogène des anticorps anti-récepteurs TSH est responsable de l'une des pathologies suivantes :
@@ -1470,6 +1516,8 @@ B] Pemphigus
 C] Pemphigoïde
 D] Maladie de Basedow
 E] Syndrome de Goodpasture
+
+Correction probable - Septembre 2024 Q24 = D
 
 # Septembre 2024 Q26 - Auto-immunité et maladie auto-immune
 
@@ -1481,6 +1529,8 @@ C] T4 et T3 élevées
 D] Anticorps anti-TPO positifs
 E] Anticorps anti-RTSH positifs
 
+Correction probable - Septembre 2024 Q26 = A,C,E
+
 # Septembre 2024 Q27 - Auto-immunité et maladie auto-immune
 
 27. Deux des auto-anticorps suivants sont compatibles avec une sclérodermie systémique diffuse:
@@ -1490,6 +1540,8 @@ B] Anti-DNA natifs IgG positifs
 C] Anti-Sm positifs
 D] Anti-CCP positifs
 E] Anti-Scl70 positifs
+
+Correction probable - Septembre 2024 Q27 = A,E
 
 # Septembre 2024 Q28 - SAPL
 
@@ -1501,6 +1553,8 @@ C] Anticorps anti-B2GP1
 D] Anticorps anti-Cardiolipines
 E] Anticorps anti-cytoplasme des polynucléaires neutrophiles (ANCA)
 
+Correction probable - Septembre 2024 Q28 = B,C,D
+
 # Septembre 2024 Q29 - IMMUNITE ANTI-INFECTIEUSE
 
 29. Deux des paramètres suivants permettent de dater une infection:
@@ -1510,6 +1564,8 @@ B] Cinétique des anticorps IgM et IgG spécifiques
 C] Avidité des anticorps IgM ou IgG spécifiques
 D] Dosage des immunoglobulines IgM, IgG et IgA
 E] Etude du statut immunitaire (Taux de CD4)
+
+Correction probable - Septembre 2024 Q29 = B,C
 
 # Septembre 2024 Q30 - IMMUNITE ANTI-TUMORALE
 
@@ -1521,6 +1577,8 @@ C] Activation des CTL par un vaccin à base d'antigènes tumoraux
 D] Réinjection (transfert) de lymphocytes T autologues génétiquement modifiés
 E] Désinhibition des lymphocytes T cytotoxiques par blocage de PD1 et PDL1
 
+Correction probable - Septembre 2024 Q30 = E
+
 # Septembre 2024 Q31 - Immuno-intervention
 
 31. Le vaccin ROR (Rougeole-Oreillons-Rubéole) est de type:
@@ -1530,6 +1588,8 @@ B] Vivant atténué
 C] Recombinant
 D] Polysaccharidique
 E] Sous-unitaire ou fractionné
+
+Correction probable - Septembre 2024 Q31 = B
 
 # Septembre 2024 Q32 - Immuno-intervention
 
@@ -1541,6 +1601,8 @@ C] Un vaccin plutôt vivant atténué
 D] Un vaccin plutôt vectoriel
 E] Un vaccin plutôt inactivé
 
+Correction probable - Septembre 2024 Q32 = A,B
+
 # Septembre 2024 Q33 - Immuno-intervention
 
 33. Deux des molécules suivantes possèdent une action anti-métabolites:
@@ -1550,6 +1612,8 @@ B] Ciclosporine
 C] Endoxan
 D] Méthotrexate
 E] Mycophenolate
+
+Correction probable - Septembre 2024 Q33 = A,D,E
 
 # Septembre 2024 Q34 - Immuno-intervention
 
@@ -1561,6 +1625,8 @@ C] Natalizumab
 D] Cetuximab
 E] Certolizumab
 
+Correction probable - Septembre 2024 Q34 = A,D
+
 # Septembre 2024 Q35 - Généralités en génétique
 
 35. L'état hemizygote composite:
@@ -1570,6 +1636,8 @@ B] Les allèles à l'état hétérozygote portés par des autosomes.
 C] Les allèles à l'état hétérozygote composite portés par des autosomes
 D] Les gènes portés par le chromosome X chez le sexe féminin.
 E] Les gènes portés par le chromosome X chez le sexe masculin.
+
+Correction probable - Septembre 2024 Q35 = B,E
 
 # Septembre 2024 Q36 - Modes de transmission des maladies héréditaires
 
@@ -1581,6 +1649,8 @@ C] Mitochondrial
 D] Multifactoriel
 E] Récessif lié à l'X
 
+Correction probable - Septembre 2024 Q36 = A
+
 # Septembre 2024 Q37 - Modes de transmission des maladies héréditaires
 
 37. A quel mode de transmission héréditaire correspond l'arbre généalogique ci-dessous ?
@@ -1590,6 +1660,8 @@ B] Dominant lié à l'X
 C] Mitochondrial
 D] Multifactoriel
 E] Récessif lié à l'X
+
+Correction probable - Septembre 2024 Q37 = E
 
 # Septembre 2024 Q38 - Modes de transmission des maladies héréditaires
 
@@ -1601,6 +1673,8 @@ C] maladies chromosomiques
 D] maladies mitochondriales
 E] maladies multifactorielles
 
+Correction probable - Septembre 2024 Q38 = A
+
 # Septembre 2024 Q39 - Modes de transmission des maladies héréditaires
 
 39. Dans la descendance d'un homme atteint d'hémophilie A (marié à une femme non conductrice pour la même maladie):
@@ -1610,6 +1684,8 @@ B] La moitié des filles est malade
 C] Toutes les filles sont conductrices
 D] Tous les garçons sont atteints.
 E] Tous les garçons sont sains.
+
+Correction probable - Septembre 2024 Q39 = C
 
 # Septembre 2024 Q40 - Modes de transmission des maladies héréditaires
 
@@ -1621,6 +1697,8 @@ C] 50%
 D] 25%
 E] 0%
 
+Correction probable - Septembre 2024 Q40 = D
+
 # Septembre 2024 Q41 - Pathologie chromosomique
 
 41. Vous recevez en consultation un nourrisson présentant une hypotrophie, une dysmorphie cranio-faciale, des oreilles faunesques, un chevauchement des doigts, un pied en piolet et un syndrome malformatif. Quel diagnostic vous suspectez?
@@ -1630,6 +1708,8 @@ B] Syndrome de Down
 C] Syndrome d'Edwards
 D] Syndrome de Patau
 E] Syndrome de Wolf-Hirschhorn
+
+Correction probable - Septembre 2024 Q41 = C
 
 # Septembre 2024 Q42 - Pathologie chromosomique
 
@@ -1641,6 +1721,8 @@ C] Un excès de la peau au niveau de la nuque.
 D] Une fente labio-palatine.
 E] Un pli palmaire transverse unique.
 
+Correction probable - Septembre 2024 Q42 = B,C,E
+
 # Septembre 2024 Q43 - Pathologie chromosomique
 
 43. Le syndrome de cri de chat chez un garçon correspond à la formule chromosomique suivante :
@@ -1650,6 +1732,8 @@ B] 46,XX,del(4)(p16)
 C] 46,XY,del(4)(p16)
 D] 46,XY,del(5)(p15)
 E] 46,XX,del(5)(p15)
+
+Correction probable - Septembre 2024 Q43 = D
 
 # Septembre 2024 Q44 - Pathologie chromosomique
 
@@ -1661,6 +1745,8 @@ C] mos45,X/46,XX
 D] 46,X,r(X)
 E] 47,XXX
 
+Correction probable - Septembre 2024 Q44 = C,D
+
 # Septembre 2024 Q45 - Pathologie chromosomique
 
 45. Parmi les propriétés ci-dessous caractérisant le syndrome de Klinefelter, quelles sont les 4 affirmations justes?
@@ -1670,6 +1756,8 @@ B] La stérilité.
 C] L'hypogonadisme.
 D] Le risque accru du cancer du sein (x50).
 E] L'X supplémentaire est d'origine paternelle.
+
+Correction probable - Septembre 2024 Q45 = A,B,C,D
 
 # Septembre 2024 Q46 - Pathologie chromosomique
 
@@ -1681,6 +1769,8 @@ C] 46,XX,del(7)(q31.1q32)
 D] 46,XX
 E] 45,X
 
+Correction probable - Septembre 2024 Q46 = B,E
+
 # Septembre 2024 Q47 - Diagnostic anténatal et Caryotype
 
 47. Le caryotype constitutionnel est indiqué chez l'adulte dans les 4 situations suivantes :
@@ -1690,6 +1780,8 @@ B] Azoospermie ou oligospermie sévère.
 C] Hypogonadisme d'origine haute.
 D] Ménopause précoce.
 E] Parents et familles d'enfants porteurs d'une anomalie chromosomique.
+
+Correction probable - Septembre 2024 Q47 = A,B,D,E
 
 # Septembre 2024 Q48 - Diagnostic anténatal et Caryotype
 
@@ -1701,6 +1793,8 @@ C] 15
 D] 13
 E] 11
 
+Correction probable - Septembre 2024 Q48 = C,D
+
 # Septembre 2024 Q49 - Diagnostic anténatal et Caryotype
 
 49. A propos du caryotype anténatal, quelles sont les 4 propositions exactes?
@@ -1710,6 +1804,8 @@ B] Il est indiqué en cas d'antécédent d'enfant porteur d'une maladie autosomi
 C] Il est indiqué en cas de remaniement chromosomique équilibré chez l'un des parents.
 D] Il est indiqué en cas de signes d'appel échographique.
 E] Il peut être obtenu à partir d'une culture d'amniocytes ou de trophoblastes.
+
+Correction probable - Septembre 2024 Q49 = A,C,D,E
 
 # Septembre 2024 Q50 - Modes de transmission des maladies héréditaires
 
@@ -1725,6 +1821,8 @@ E] Tous les enfants d'un père atteint sont malades.
 
 // Novembre 2024 (Correction collective) : https://www.e-qe.online/exam/641aad56-eac6-42e1-ac5c-845b68d5fca9
 
+Correction probable - Septembre 2024 Q50 = A,C,D
+
 # Novembre 2024 Q1 - Lupus érythémateux systémique
 
 1. Quelles données de ces examens complémentaires sont en faveur d'un lupus systémique chez une jeune femme de 24 ans qui consulte pour poly arthralgies inflammatoires?
@@ -1734,6 +1832,8 @@ B] Une CRP à 200mg/l
 C] La neutropénie
 D] Une hyperleucocytose
 E] Une thrombocytose
+
+Correction probable - Novembre 2024 Q1 = A,C
 
 # Novembre 2024 Q2 - Lupus érythémateux systémique
 
@@ -1745,6 +1845,8 @@ C] Les anti CCP
 D] Les anti DNA
 E] Les anti Sm
 
+Correction probable - Novembre 2024 Q2 = B,D,E
+
 # Novembre 2024 Q3 - Lupus érythémateux systémique
 
 3. Le bilan d'extension dans ce cas repose sur
@@ -1754,6 +1856,8 @@ B] La recherche d'une protéinurie
 C] La recherche d'anomalies du sédiment urinaire
 D] L'exploration fonctionnelle respiratoire
 E] Capillaroscopie
+
+Correction probable - Novembre 2024 Q3 = A,B,C,D
 
 # Novembre 2024 Q4 - Lupus érythémateux systémique
 
@@ -1765,6 +1869,8 @@ C] Un hyalinose segmentaire et focale
 D] Une nécrose tubulaire aiguë
 E] Des glomérules optiquement normaux
 
+Correction probable - Novembre 2024 Q4 = A
+
 # Novembre 2024 Q5 - Sclérodermie
 
 5. La sclérodermie systémique est :
@@ -1774,6 +1880,8 @@ B] Son pronostic dépend de l'extension de l'atteinte cutanée
 C] Les anti-scl 70 sont corrélés à la crise rénale
 D] Les anti-ARN polymérase sont corrélés à la fibrose pulmonaire
 E] Se complique d'une atteinte rénale glomérulaire
+
+Correction probable - Novembre 2024 Q5 = A,B,C,D
 
 # Novembre 2024 Q6 - Sclérodermie
 
@@ -1785,6 +1893,8 @@ C] De la colchicine
 D] Du Mycophénolate Mofétil
 E] De l'Imurel
 
+Correction probable - Novembre 2024 Q6 = A,D
+
 # Novembre 2024 Q7 - Sclérodermie
 
 7. Le traitement de l'hypertension artérielle pulmonaire au cours de cette affection comprend :
@@ -1794,6 +1904,8 @@ B] Du Trolovol
 C] De la prostacycline
 D] Du cyclophosphamide
 E] Des inhibiteurs des récepteurs de l'endothéline
+
+Correction probable - Novembre 2024 Q7 = A,C,E
 
 # Novembre 2024 Q8 - Syndrome de gougerot-sjogren
 
@@ -1805,6 +1917,8 @@ C] Le dosage de l'enzyme de conversion de l'angiotensine
 D] Un bilan phosphocalcique
 E] Un dosage des CPK
 
+Correction probable - Novembre 2024 Q8 = A,B,C,D
+
 # Novembre 2024 Q9 - Syndrome de gougerot-sjogren
 
 9. Quels examens immunologiques vous paraissent indispensables pour le diagnostic d'un syndrome de Gougerot-Sjogren
@@ -1814,6 +1928,8 @@ B] Des Anti-CCP
 C] Des Anti-DNA
 D] Des Anti-Sm
 E] Des Anti-topoisomérase 1
+
+Correction probable - Novembre 2024 Q9 = A
 
 # Novembre 2024 Q10 - Phénomène de Raynaud
 
@@ -1825,6 +1941,8 @@ C] maladie de Raynaud
 D] phénomène de Raynaud secondaire
 E] Artérite a cellule géante
 
+Correction probable - Novembre 2024 Q10 = C
+
 # Novembre 2024 Q11 - Phénomène de Raynaud
 
 11. Quels examens parmi les suivants sont utiles à la recherche d'une étiologie sous-jacente?
@@ -1834,6 +1952,8 @@ B] capillaroscopie périunguéale
 C] écho doppler artériel des membres supérieurs
 D] électrocardiogramme
 E] radiographie des mains
+
+Correction probable - Novembre 2024 Q11 = A,B
 
 # Novembre 2024 Q12 - SAPL
 
@@ -1845,6 +1965,8 @@ C] un syndrome des antiphospholipides
 D] éclampsie
 E] une maladie de TAKAYASU
 
+Correction probable - Novembre 2024 Q12 = C
+
 # Novembre 2024 Q13 - SAPL
 
 13. Quels anticorps pouvez-vous retrouvez à un taux significatif dans ce cas?
@@ -1854,6 +1976,8 @@ B] Anticoagulant circulant de type lupique
 C] Anticorps anticardiolipine
 D] Anticorps anti B2GPI
 E] Anticorps anti CCP
+
+Correction probable - Novembre 2024 Q13 = B,C,D
 
 # Novembre 2024 Q14 - dermatomyosite
 
@@ -1865,6 +1989,8 @@ C] Une dermatomyosite
 D] Un syndrome des anti synthétases
 E] Sclérodermie systémique
 
+Correction probable - Novembre 2024 Q14 = C
+
 # Novembre 2024 Q15 - dermatomyosite
 
 15. Quels sont les examens complémentaires utiles au diagnostic?
@@ -1874,6 +2000,8 @@ B] la biopsie musculaire
 C] l'électromyogramme
 D] les radiographies des épaules
 E] l'échographie des cuisses et épaules
+
+Correction probable - Novembre 2024 Q15 = A,B,C
 
 # Novembre 2024 Q16 - Introduction aux vascularites systémiques et horton
 
@@ -1885,6 +2013,8 @@ C] granulomatose avec polyangéite
 D] polyangéite microscopique
 E] vascularite cryoglobulinémique
 
+Correction probable - Novembre 2024 Q16 = A
+
 # Novembre 2024 Q17 - Introduction aux vascularites systémiques et horton
 
 17. quel est le traitement de première intention dans ce cas ?
@@ -1894,6 +2024,8 @@ B] corticoïdes
 C] cyclophosphamides
 D] methotrexate
 E] tocilizumab
+
+Correction probable - Novembre 2024 Q17 = B
 
 # Novembre 2024 Q18 - LES DÉFICITS IMMUNITAIRES
 
@@ -1905,6 +2037,8 @@ C] Recherche d'un déficit en molécules HLA
 D] Test d'explosion oxydative des PNN (Burst test)
 E] Immunophénotypage des sous populations lymphocytaires
 
+Correction probable - Novembre 2024 Q18 = B,D,E
+
 # Novembre 2024 Q19 - LES DÉFICITS IMMUNITAIRES
 
 19. Deux des éléments suivants doivent faire éliminer un déficit immunitaire cellulaire sévère
@@ -1914,6 +2048,8 @@ B] Des manifestations d'auto-immunité atypiques.
 C] Des manifestations d'allergie atypiques
 D] Une lymphopénie profonde
 E] Une neutropénie profonde
+
+Correction probable - Novembre 2024 Q19 = A,D
 
 # Novembre 2024 Q20 - Les hypersensibilités
 
@@ -1925,6 +2061,8 @@ C] IL9
 D] IL13
 E] INF-y
 
+Correction probable - Novembre 2024 Q20 = E
+
 # Novembre 2024 Q21 - Les hypersensibilités
 
 21. L'exploration d'une allergie respiratoire IgE-dépendante se base sur trois des paramètres suivants
@@ -1934,6 +2072,8 @@ B] Prick-tests
 C] Dosage des IgE totales
 D] Dosage des IgE spécifiques
 E] Test d'activation des basophiles
+
+Correction probable - Novembre 2024 Q21 = A,B,D
 
 # Novembre 2024 Q22 - Les hypersensibilités
 
@@ -1945,6 +2085,8 @@ C] Cryoglobulinémie
 D] Cytopénie auto-immune
 E] Néphrite lupique
 
+Correction probable - Novembre 2024 Q22 = C,E
+
 # Novembre 2024 Q23 - Les hypersensibilités
 
 23. Les états pathologiques suivants sont liés à une hypersensibilité médicamenteuse :
@@ -1954,6 +2096,8 @@ B] DRESS Syndrome
 C] Syndrome de Lyell
 D] Syndrome de Stevens-Johnson
 E] Nécrolyse épidermique toxique
+
+Correction probable - Novembre 2024 Q23 = B,C,D,E
 
 # Novembre 2024 Q24 - Auto-immunité et maladie auto-immune
 
@@ -1965,6 +2109,8 @@ C] Pemphigoïde
 D] Maladie de Basedow
 E] Syndrome de Goodpasture
 
+Correction probable - Novembre 2024 Q24 = D
+
 # Novembre 2024 Q26 - Auto-immunité et maladie auto-immune
 
 26. Trois des anomalies biologiques suivantes sont en faveur d'une maladie de Basedow:
@@ -1974,6 +2120,8 @@ B] TSH élevée
 C] T4 et T3 élevées
 D] Anticorps anti-TPO positifs
 E] Anticorps anti-RTSH positifs
+
+Correction probable - Novembre 2024 Q26 = A,C,E
 
 # Novembre 2024 Q27 - Auto-immunité et maladie auto-immune
 
@@ -1985,6 +2133,8 @@ C] Anti-Sm positifs
 D] Anti-CCP positifs
 E] Anti-Scl70 positifs
 
+Correction probable - Novembre 2024 Q27 = A,E
+
 # Novembre 2024 Q28 - Auto-immunité et maladie auto-immune
 
 28. Trois des paramètres suivants caractérisent le syndrome des antiphospholipides:
@@ -1994,6 +2144,8 @@ B] Anticorps anti-phospholipides (APL)
 C] Anticorps anti-B2GP1
 D] Anticorps anti-Cardiolipines
 E] Anticorps anti-cytoplasme des polynucléaires neutrophiles (ANCA)
+
+Correction probable - Novembre 2024 Q28 = B,C,D
 
 # Novembre 2024 Q29 - IMMUNITE ANTI-INFECTIEUSE
 
@@ -2005,6 +2157,8 @@ C] Avidité des anticorps IgM ou IgG spécifiques
 D] Dosage des immunoglobulines IgM, IgG et IgA
 E] Etude du statut immunitaire (Taux de CD4)
 
+Correction probable - Novembre 2024 Q29 = B,C
+
 # Novembre 2024 Q30 - IMMUNITE ANTI-TUMORALE
 
 30. L'action antitumorale des anticorps monoclonaux anti-checkpoints se base sur l'un des mécanismes suivants :
@@ -2014,6 +2168,8 @@ B] Activation des cellules NK à l'aide des cytokines
 C] Activation des CTL par un vaccin à base d'antigènes tumoraux
 D] Réinjection (transfert) de lymphocytes T autologues génétiquement modifiés
 E] Désinhibition des lymphocytes T cytotoxiques par blocage de PD1 et PDL1
+
+Correction probable - Novembre 2024 Q30 = E
 
 # Novembre 2024 Q31 - Immuno-intervention
 
@@ -2025,6 +2181,8 @@ C] Recombinant
 D] Polysaccharidique
 E] Sous-unitaire ou fractionné
 
+Correction probable - Novembre 2024 Q31 = B
+
 # Novembre 2024 Q32 - Immuno-intervention
 
 32. Chez un patient ayant une insuffisance respiratoire chronique, votre stratégie vaccinale reposera sur deux des éléments suivants :
@@ -2034,6 +2192,8 @@ B] Une vaccination précoce contre le virus de la grippe, le pneumocoque et autr
 C] Un vaccin plutôt vivant atténué
 D] Un vaccin plutôt vectoriel
 E] Un vaccin plutôt inactivé
+
+Correction probable - Novembre 2024 Q32 = B,E
 
 # Novembre 2024 Q33 - Immuno-intervention
 
@@ -2045,6 +2205,8 @@ C] Endoxan
 D] Méthotrexate
 E] Mycophenolate
 
+Correction probable - Novembre 2024 Q33 = A,D
+
 # Novembre 2024 Q34 - Immuno-intervention
 
 34. Deux des anticorps monoclonaux suivants sont utilisés pour leur effet anti-tumoral:
@@ -2054,6 +2216,8 @@ B] Adalimumab
 C] Natalizumab
 D] Cetuximab
 E] Certolizumab
+
+Correction probable - Novembre 2024 Q34 = A,D
 
 # Novembre 2024 Q35 - Généralités en génétique
 
@@ -2065,6 +2229,8 @@ C] Les allèles à l'état hétérozygote composite portés par des autosomes
 D] Les gènes portés par le chromosome X chez le sexe féminin.
 E] Les gènes portés par le chromosome X chez le sexe masculin.
 
+Correction probable - Novembre 2024 Q35 = E
+
 # Novembre 2024 Q36 - Modes de transmission des maladies héréditaires
 
 36. A quel mode de transmission héréditaire, correspond l'arbre généalogique ci-dessous ?
@@ -2074,6 +2240,8 @@ B] Dominant lié à l'X
 C] Mitochondrial
 D] Multifactoriel
 E] Récessif lié à l'X
+
+Correction probable - Novembre 2024 Q36 = A
 
 # Novembre 2024 Q37 - Modes de transmission des maladies héréditaires
 
@@ -2085,6 +2253,8 @@ C] Mitochondrial
 D] Multifactoriel
 E] Récessif lié à l'X
 
+Correction probable - Novembre 2024 Q37 = E
+
 # Novembre 2024 Q38 - Modes de transmission des maladies héréditaires
 
 38. L'âge paternel avancé augmente le risque de survenue de :
@@ -2094,6 +2264,8 @@ B] maladies à transmission récessive liée à l'X
 C] maladies chromosomiques
 D] maladies mitochondriales
 E] maladies multifactorielles
+
+Correction probable - Novembre 2024 Q38 = A
 
 # Novembre 2024 Q39 - Modes de transmission des maladies héréditaires
 
@@ -2105,6 +2277,8 @@ C] Toutes les filles sont conductrices
 D] Tous les garçons sont atteints.
 E] Tous les garçons sont sains.
 
+Correction probable - Novembre 2024 Q39 = C
+
 # Novembre 2024 Q40 - Modes de transmission des maladies héréditaires
 
 40. Un couple a deux enfants atteints d'hyperplasie congénitale des surrénales (maladie autosomique récessive). Quelle est la probabilité d'avoir un 3ème enfant atteint de la même maladie?
@@ -2114,6 +2288,8 @@ B] 75%
 C] 50%
 D] 25%
 E] 0%
+
+Correction probable - Novembre 2024 Q40 = D
 
 # Novembre 2024 Q41 - Pathologie chromosomique
 
@@ -2125,6 +2301,8 @@ C] Syndrome d'Edwards
 D] Syndrome de Patau
 E] Syndrome de Wolf-Hirschhorn
 
+Correction probable - Novembre 2024 Q41 = C
+
 # Novembre 2024 Q42 - Pathologie chromosomique
 
 42. Parmi les propositions ci-dessous, quels sont les 4 signes cliniques en faveur d'une trisomie 21?
@@ -2134,6 +2312,8 @@ B] Un épicanthus
 C] Un excès de la peau au niveau de la nuque.
 D] Une fente labio-palatine.
 E] Un pli palmaire transverse unique.
+
+Correction probable - Novembre 2024 Q42 = B,C,E
 
 # Novembre 2024 Q43 - Pathologie chromosomique
 
@@ -2145,6 +2325,8 @@ C] 46,XY,del(4)(p16)
 D] 46,XY,del(5)(p15)
 E] 46,XX,del(5)(p15)
 
+Correction probable - Novembre 2024 Q43 = D
+
 # Novembre 2024 Q44 - Pathologie chromosomique
 
 44. Parmi les propositions ci-dessous, quelles sont les 2 formules chromosomiques correspondant à un syndrome de Turner:
@@ -2154,6 +2336,8 @@ B] mos47,XXY/46,XY
 C] mos45,X/46,XX
 D] 46,X,r(X)
 E] 47,XXX
+
+Correction probable - Novembre 2024 Q44 = C,D
 
 # Novembre 2024 Q45 - Pathologie chromosomique
 
@@ -2165,6 +2349,8 @@ C] L'hypogonadisme.
 D] Le risque accru du cancer du sein (x50).
 E] L'X supplémentaire est d'origine paternelle.
 
+Correction probable - Novembre 2024 Q45 = A,B,C,D
+
 # Novembre 2024 Q46 - Pathologie chromosomique
 
 46. Parmi les formules chromosomiques ci-dessous, quelle sont les 2 formules correspondant à une aneuploïdie?
@@ -2174,6 +2360,8 @@ B] 47,XY,+18
 C] 46,XX,del(7)(q31.1q32)
 D] 46,XX
 E] 45,X
+
+Correction probable - Novembre 2024 Q46 = B,E
 
 # Novembre 2024 Q47 - Diagnostic anténatal et Caryotype
 
@@ -2185,6 +2373,8 @@ C] Hypogonadisme d'origine haute.
 D] Ménopause précoce.
 E] Parents et familles d'enfants porteurs d'une anomalie chromosomique.
 
+Correction probable - Novembre 2024 Q47 = A,B,C,D
+
 # Novembre 2024 Q48 - Diagnostic anténatal et Caryotype
 
 48. Parmi les chromosomes ci-dessous, lesquels peuvent être impliqués dans une translocation robertsonienne?
@@ -2195,6 +2385,8 @@ C] 15
 D] 13
 E] 11
 
+Correction probable - Novembre 2024 Q48 = A,C,D
+
 # Novembre 2024 Q49 - Diagnostic anténatal et Caryotype
 
 49. A propos du caryotype anténatal, quelles sont les 4 propositions exactes?
@@ -2204,6 +2396,8 @@ B] Il est indiqué en cas d'antécédent d'enfant porteur d'une maladie autosomi
 C] Il est indiqué en cas de remaniement chromosomique équilibré chez l'un des parents.
 D] Il est indiqué en cas de signes d'appel échographique.
 E] Il peut être obtenu à partir d'une culture d'amniocytes ou de trophoblastes.
+
+Correction probable - Novembre 2024 Q49 = A,C,D,E
 
 # Novembre 2024 Q50 - Diagnostic anténatal et Caryotype
 
@@ -2219,6 +2413,8 @@ E] Tous les enfants d'un père atteint sont malades.
 
 // Décembre 2024 (Correction collective) : https://www.e-qe.online/exam/19d8ba11-dae7-4ee0-aa7b-5e247349b585
 
+Correction probable - Novembre 2024 Q50 = A,C,D
+
 # Décembre 2024 Q1 - Lupus érythémateux systémique
 
 1. Quel mécanisme immunologique est principalement impliqué dans les lésions tissulaires observées dans le lupus systémique?
@@ -2228,6 +2424,8 @@ B] Activation des lymphocytes T auxiliaires par les interleukines
 C] Production excessive d'anticorps IgE contre les antigènes environnementaux
 D] Déplétion des cellules B régulatrice
 E] Inhibition de la fonction des macrophages par les cytokines anti-inflammatoires
+
+Correction probable - Décembre 2024 Q1 = A
 
 # Décembre 2024 Q2 - Lupus érythémateux systémique
 
@@ -2239,6 +2437,8 @@ C] Anticorps anti-Sm
 D] Anti-RNP
 E] Anti scl70
 
+Correction probable - Décembre 2024 Q2 = C
+
 # Décembre 2024 Q3 - Lupus érythémateux systémique
 
 3. Parmi les complications cardiaques du lupus systémique, laquelle est la plus fréquente?
@@ -2248,6 +2448,8 @@ B] Péricardite
 C] Thrombose intracardiaque
 D] Endocardite
 E] Valvulopathie
+
+Correction probable - Décembre 2024 Q3 = B
 
 # Décembre 2024 Q4 - Sclérodermie
 
@@ -2259,6 +2461,8 @@ C] Anticorps anti-RNA polymérase III
 D] Anticorps anti-fibrilline
 E] Anticorps anti-PM-Scl
 
+Correction probable - Décembre 2024 Q4 = A
+
 # Décembre 2024 Q5 - Sclérodermie
 
 5. La sclérodermie systémique peut entraîner une hypertension artérielle pulmonaire. Quel est le mécanisme principal responsable de cette altération vasculaire dans la sclérodermie ?
@@ -2268,6 +2472,8 @@ B] Hypersensibilité à l'angiotensine II
 C] Dysfonction endothéliale et vasoconstriction
 D] Formation de complexes immuns circulants
 E] Infiltration des parois vasculaires par des cellules T cytotoxiques
+
+Correction probable - Décembre 2024 Q5 = C
 
 # Décembre 2024 Q6 - Sclérodermie
 
@@ -2279,6 +2485,8 @@ C] Embolie pulmonaire
 D] Pneumonie infectieuse récurrente
 E] Bronchite chronique obstructive
 
+Correction probable - Décembre 2024 Q6 = A
+
 # Décembre 2024 Q7 - dermatomyosite
 
 7. Quelle est la principale caractéristique clinique de la dermatomyosite?
@@ -2288,6 +2496,8 @@ B] Fièvre et douleur articulaire
 C] Anémie et éruptions cutanées
 D] Hypotension et troubles neurologiques
 E] Parotidomégalie
+
+Correction probable - Décembre 2024 Q7 = A
 
 # Décembre 2024 Q8 - dermatomyosite
 
@@ -2299,6 +2509,8 @@ C] Lésions de Gottron
 D] Hyperpigmentation
 E] Purpura vasculaire
 
+Correction probable - Décembre 2024 Q8 = C
+
 # Décembre 2024 Q9 - dermatomyosite
 
 9. Quel test biologique est souvent utilisé pour confirmer le diagnostic de dermatomyosite?
@@ -2308,6 +2520,8 @@ B] Dosage des anticorps antinucléaires
 C] Dosage de la créatinine kinase (CPK)
 D] TSH
 E] Cortisol à 8h
+
+Correction probable - Décembre 2024 Q9 = C
 
 # Décembre 2024 Q10 - dermatomyosite
 
@@ -2319,6 +2533,8 @@ C] IGIV
 D] Anti TNF
 E] Rituximab
 
+Correction probable - Décembre 2024 Q10 = A
+
 # Décembre 2024 Q11 - Granulomatose de WEGENER
 
 11. Les 3 sites de prédilection de la granulomatose avec polyangéite sont :
@@ -2328,6 +2544,8 @@ B] Les articulations
 C] L'appareil ORL
 D] Le rein
 E] Le foie
+
+Correction probable - Décembre 2024 Q11 = A,C,D
 
 # Décembre 2024 Q12 - Granulomatose de WEGENER
 
@@ -2339,6 +2557,8 @@ C] Le P-ANCA de type MPO
 D] Le facteur rhumatoïde
 E] L'anticardiolipine
 
+Correction probable - Décembre 2024 Q12 = B
+
 # Décembre 2024 Q13 - Granulomatose de WEGENER
 
 13. L'atteinte rénale au cours de cette affection
@@ -2348,6 +2568,8 @@ B] Est de mauvais pronostic
 C] Est pauci immune
 D] Est responsable d'une glomérulonéphrite rapidement progressive
 E] Est de type vasculaire
+
+Correction probable - Décembre 2024 Q13 = B,C,D
 
 # Décembre 2024 Q14 - Granulomatose de WEGENER
 
@@ -2359,6 +2581,8 @@ C] Est à type de pachyméningite
 D] Est liée à la présence des antiphospholipides
 E] Est liée à une vascularite
 
+Correction probable - Décembre 2024 Q14 = B,C
+
 # Décembre 2024 Q15 - Granulomatose de WEGENER
 
 15. L'atteinte ophtalmologique de cette affection est une :
@@ -2368,6 +2592,8 @@ B] Vascularite rétinienne
 C] Sclérite
 D] Névrite optique
 E] Conjonctivite
+
+Correction probable - Décembre 2024 Q15 = C
 
 # Décembre 2024 Q16 - Granulomatose de WEGENER
 
@@ -2379,6 +2605,8 @@ C] La corticothérapie
 D] L’Endoxan
 E] L'aspirine
 
+Correction probable - Décembre 2024 Q16 = C,D
+
 # Décembre 2024 Q17 - Syndrome de gougerot-sjogren
 
 17. Quels examens immunologiques sont caractéristiques du syndrome de Gougerot-Sjogren?
@@ -2388,6 +2616,8 @@ B] Anti-CCP
 C] Anti-DNA
 D] Anti-Sm
 E] Anti-topoisomérase 1
+
+Correction probable - Décembre 2024 Q17 = A
 
 # Décembre 2024 Q18 - LES DÉFICITS IMMUNITAIRES
 
@@ -2399,6 +2629,8 @@ C] Recherche d'un déficit en molécules HLA
 D] Test d'explosion oxydative des PNN (Burst test)
 E] Immunophénotypage des sous populations lymphocytaires
 
+Correction probable - Décembre 2024 Q18 = B
+
 # Décembre 2024 Q19 - LES DÉFICITS IMMUNITAIRES
 
 19. Deux des éléments suivants doivent faire éliminer un déficit immunitaire cellulaire sévère chez un enfant, lequel?
@@ -2408,6 +2640,8 @@ B] Des manifestations d'auto-immunité atypiques
 C] Des manifestations d'allergie atypiques
 D] Une lymphopénie profonde
 E] Une neutropénie profonde
+
+Correction probable - Décembre 2024 Q19 = A,D
 
 # Décembre 2024 Q20 - Les hypersensibilités
 
@@ -2419,6 +2653,8 @@ C] IL9
 D] IL13
 E] INF-y
 
+Correction probable - Décembre 2024 Q20 = A,C,D
+
 # Décembre 2024 Q21 - Les hypersensibilités
 
 21. L'exploration d'une allergie respiratoire se base principalement sur les paramètres suivants :
@@ -2428,6 +2664,8 @@ B] Tests cutanés
 C] Dosage des IgE totales
 D] Dosage des IgE spécifiques
 E] Test d'activation des basophiles
+
+Correction probable - Décembre 2024 Q21 = A,B,D
 
 # Décembre 2024 Q22 - Les hypersensibilités
 
@@ -2439,6 +2677,8 @@ C] Cryoglobulinémie
 D] Maladie sérique
 E] Néphrite lupique
 
+Correction probable - Décembre 2024 Q22 = C,D,E
+
 # Décembre 2024 Q23 - Les hypersensibilités
 
 23. Les états pathologiques suivants sont liés à une hypersensibilité médicamenteuse :
@@ -2448,6 +2688,8 @@ B] DRESS Syndrome
 C] Syndrome de Lyell
 D] Syndrome de Stevens-Johnson
 E] Nécrolyse épidermique toxique
+
+Correction probable - Décembre 2024 Q23 = B,C,D,E
 
 # Décembre 2024 Q24 - Les hypersensibilités
 
@@ -2459,6 +2701,8 @@ C] Traitement par anti-TNF-α
 D] Suspicion de déficit immunitaire
 E] Suspicion d'infection mycobactérienne non tuberculeuse
 
+Correction probable - Décembre 2024 Q24 = A,C
+
 # Décembre 2024 Q25 - Auto-immunité et maladie auto-immune
 
 25. L'effet pathogène des anticorps anti-récepteurs à l'acétylcholine est responsable de l'un pathologies suivantes :
@@ -2468,6 +2712,8 @@ B] Pemphigus
 C] Pemphigoïde
 D] Maladie de Basedow
 E] Syndrome de Goodpasture
+
+Correction probable - Décembre 2024 Q25 = A
 
 # Décembre 2024 Q26 - Auto-immunité et maladie auto-immune
 
@@ -2479,6 +2725,8 @@ C] T4 et T3 élevées
 D] Anticorps anti-TPO positifs
 E] Anticorps anti-RTSH positifs
 
+Correction probable - Décembre 2024 Q26 = A,C,E
+
 # Décembre 2024 Q27 - Auto-immunité et maladie auto-immune
 
 27. Deux des auto-anticorps suivants sont compatibles avec une myosite inflammatoire:
@@ -2488,6 +2736,8 @@ B] Anti-Jo1
 C] Anti-SRP
 D] Anti-CCP
 E] Anti-Scl70
+
+Correction probable - Décembre 2024 Q27 = B,C
 
 # Décembre 2024 Q28 - Auto-immunité et maladie auto-immune
 
@@ -2499,6 +2749,8 @@ C] Les anticorps anti-ẞ2GP1
 D] Les anticorps anti-cardiolipines
 E] Les anticorps anti-cytoplasme des polynucléaires neutrophiles (ANCA)
 
+Correction probable - Décembre 2024 Q28 = E
+
 # Décembre 2024 Q29 - IMMUNITE ANTI-INFECTIEUSE
 
 29. Deux des paramètres suivants permettent de dater une infection:
@@ -2508,6 +2760,8 @@ B] Avidité des anticorps IgM ou IgG spécifiques
 C] Dosage des immunoglobulines IgM, IgG et IgA
 D] Etude du statut immunitaire (Taux de CD4)
 E] Recherche des marqueurs de l'inflammation
+
+Correction probable - Décembre 2024 Q29 = A,B
 
 # Décembre 2024 Q30 - Immuno-intervention
 
@@ -2519,6 +2773,8 @@ C] Activation des CTL par un vaccin à base d'antigènes tumoraux
 D] Réinjection (transfert) de lymphocytes T autologues génétiquement modifiés
 E] Désinhibition des CTL à l'aide d'anticorps monoclonaux anti-checkpoints
 
+Correction probable - Décembre 2024 Q30 = D
+
 # Décembre 2024 Q31 - Immuno-intervention
 
 31. Le vaccin de BCG est de type :
@@ -2528,6 +2784,8 @@ B] Vivant atténué
 C] Recombinant
 D] Polysaccharidique
 E] Sous-unitaire ou fractionné
+
+Correction probable - Décembre 2024 Q31 = B
 
 # Décembre 2024 Q32 - Immuno-intervention
 
@@ -2539,6 +2797,8 @@ C] Sont nécessaires aux vaccins vivants atténués
 D] Sont souvent associés aux vaccins inactivés
 E] Permettent de booster l'immunogénicité d'un vaccin
 
+Correction probable - Décembre 2024 Q32 = D,E
+
 # Décembre 2024 Q33 - Immuno-intervention
 
 33. Deux des molécules suivantes possèdent une action anti-calcineurine:
@@ -2548,6 +2808,8 @@ B] Ciclosporine
 C] Tacrolimus
 D] Azathioprine
 E] Mycophenolate
+
+Correction probable - Décembre 2024 Q33 = B,C
 
 # Décembre 2024 Q34 - Immuno-intervention
 
@@ -2559,6 +2821,8 @@ C] Natalizumab
 D] Cetuximab
 E] Certolizumab
 
+Correction probable - Décembre 2024 Q34 = A,D
+
 # Décembre 2024 Q35 - Généralités en génétique
 
 35. La manifestation apparente de la constitution du génome sous la forme d'une maladie est appelée :
@@ -2568,6 +2832,8 @@ B] Gène.
 C] Génotype.
 D] Locus.
 E] Phénotype.
+
+Correction probable - Décembre 2024 Q35 = E
 
 # Décembre 2024 Q36 - Pathologie chromosomique
 
@@ -2579,6 +2845,8 @@ C] Une atrophie testiculaire.
 D] Un hypogonadisme
 E] Une stérilité.
 
+Correction probable - Décembre 2024 Q36 = B,C,D,E
+
 # Décembre 2024 Q37 - Pathologie chromosomique
 
 37. Parmi les pathologies ci-dessous, lesquelles sont à transmission dominante liée à l'X? (3 propositions justes):
@@ -2588,6 +2856,8 @@ B] Le syndrome de Marfan
 C] Le syndrome de Rett
 D] Le syndrome d'X fragile
 E] Xeroderma pigmentosum
+
+Correction probable - Décembre 2024 Q37 = C,D
 
 # Décembre 2024 Q38 - Modes de transmission des maladies héréditaires
 
@@ -2599,6 +2869,8 @@ C] 1/4
 D] 1/2
 E] 100%
 
+Correction probable - Décembre 2024 Q38 = C
+
 # Décembre 2024 Q39 - Modes de transmission des maladies héréditaires
 
 39. Un homme atteint d'achondroplasie (pathologie autosomique dominante) se marie avec une femme saine. Quel est le risque de récurrence de cette pathologie dans la descendance de ce couple?
@@ -2608,6 +2880,8 @@ B] 1/8
 C] 1/4
 D] 1/2
 E] 100%
+
+Correction probable - Décembre 2024 Q39 = D
 
 # Décembre 2024 Q40 - Modes de transmission des maladies héréditaires
 
@@ -2619,6 +2893,8 @@ C] 1/4
 D] 1/8
 E] 0%
 
+Correction probable - Décembre 2024 Q40 = C
+
 # Décembre 2024 Q41 - Pathologie chromosomique
 
 41. Vous recevez en consultation un nourrisson présentant une hypotrophie, une dysmorphie crânio-faciale, des oreilles faunesques, un chevauchement des doigts, des pieds en piolets et un syndrome malformatif. Quel diagnostic vous suspectez ?
@@ -2628,6 +2904,8 @@ B] Syndrome de Down
 C] Syndrome d'Edwards
 D] Syndrome de Patau
 E] Syndrome de Wolf-Hirschhorn
+
+Correction probable - Décembre 2024 Q41 = C
 
 # Décembre 2024 Q42 - Diagnostic anténatal et Caryotype
 
@@ -2639,6 +2917,8 @@ C] II permet de mettre en évidence les anomalies chromosomiques de structure.
 D] Il permet de mettre en évidence les variations de séquence (mutations géniques).
 E] La classification des chromosomes s'effectue en fonction de la taille, l'indice centromérique et les bandes chromosomiques.
 
+Correction probable - Décembre 2024 Q42 = B,C,E
+
 # Décembre 2024 Q43 - Pathologie chromosomique
 
 43. Le syndrome de Wolf-Hirschhorn chez une fille correspond à la formule chromosomique suivante :
@@ -2648,6 +2928,8 @@ B] 46,XX,del(4)(p16)
 C] 46,XY,del(4)(p16)
 D] 46,XY,del(5)(p15)
 E] 46,XX,del(5)(p15)
+
+Correction probable - Décembre 2024 Q43 = B
 
 # Décembre 2024 Q44 - Pathologie chromosomique
 
@@ -2659,6 +2941,8 @@ C] mos 45,X/46,XX
 D] 46,X,r(X)
 E] 47,XXY
 
+Correction probable - Décembre 2024 Q44 = B,E
+
 # Décembre 2024 Q45 - Pathologie chromosomique
 
 45. Parmi les propositions ci-dessous, quels sont les 3 signes cliniques qui doivent faire suspecter une trisomie 21?
@@ -2668,6 +2952,8 @@ B] Des yeux mongoloïdes
 C] Un impubérisme
 D] Une macroglossie
 E] Un pli palmaire transverse unique
+
+Correction probable - Décembre 2024 Q45 = B,D,E
 
 # Décembre 2024 Q46 - Diagnostic anténatal et Caryotype
 
@@ -2679,6 +2965,8 @@ C] 46,XY,der(14;21)(q10;q10),+21
 D] 47,XYY
 E] mos 47,XX,+13/46,XX
 
+Correction probable - Décembre 2024 Q46 = C
+
 # Décembre 2024 Q47 - Le conseil génétique
 
 47. Le risque génétique est facile à calculer en cas de : (2 propositions justes)
@@ -2688,6 +2976,8 @@ B] Anomalies chromosomiques.
 C] Maladie à transmission récessive liée à l'X.
 D] Maladie mitochondriale
 E] Maladie par expansion de triplets
+
+Correction probable - Décembre 2024 Q47 = B,C
 
 # Décembre 2024 Q48 - Le conseil génétique
 
@@ -2699,6 +2989,8 @@ C] Maladies Chromosomiques
 D] Maladies à transmission autosomique dominante
 E] Maladies Multifactorielles
 
+Correction probable - Décembre 2024 Q48 = A
+
 # Décembre 2024 Q49 - Le conseil génétique
 
 49. l’âge paternel avancer augmente le risque de survenue de :
@@ -2709,6 +3001,8 @@ C] Maladies à transmission dominante liée à l'X
 D] Maladies à transmission récessif  liée à l'X
 E] Maladies Chromosomiques de nombres
 
+Correction probable - Décembre 2024 Q49 = A
+
 # Décembre 2024 Q50 - Pathologie chromosomique
 
 50. A propos des mécanismes de survenue d’une triploïdies, qu’elles sont les 3 propositions justes ?
@@ -2718,6 +3012,8 @@ B] La digynie
 C] La non disjonction méiotique 1
 D] La dispermie
 E] La diplospermie
+
+Correction probable - Décembre 2024 Q50 = B,C,D
 
 ---
 
@@ -6202,6 +6498,8 @@ C] Un syndrome de Goodpasture
 D] Un syndrome hémolytique et urémique
 E] Une vascularite à ANCA
 
+Correction probable - Ratt 2020 Q1 = E
+
 # Ratt 2020 Q2 - Granulomatose de WEGENER
 
 2. Quel bilan demander pour confirmer le diagnostic?
@@ -6211,6 +6509,8 @@ B] Une échographie abdominale
 C] Un myélogramme
 D] Des anticorps anti-cardiolipines
 E] Des CPK
+
+Correction probable - Ratt 2020 Q2 = A
 
 # Ratt 2020 Q3 - Granulomatose de WEGENER
 
@@ -6222,6 +6522,8 @@ C] ORL
 D] Rénal
 E] Hépatique
 
+Correction probable - Ratt 2020 Q3 = A,C,D
+
 # Ratt 2020 Q4 - Granulomatose de WEGENER
 
 4. Les c-ANCA étaient positifs de type anti-PR3. La biopsie cutanée objectivait une vascularite leucocytoclasique. La biopsie rénale a mis en évidence une glomérulonéphrite extracapillaire à croissants avec IF négative. Le traitement de cette patiente repose sur :
@@ -6231,6 +6533,8 @@ B] Les antipaludéens de synthèse
 C] La corticothérapie
 D] L’Endoxan
 E] L'aspirine
+
+Correction probable - Ratt 2020 Q4 = C,D
 
 # Ratt 2020 Q5 - Phénomène de Raynaud
 
@@ -6242,6 +6546,8 @@ C] Les anti-scl 70 sont corrélés à la crise rénale
 D] Les anti-ARN polymérase sont corrélés à la fibrose pulmonaire
 E] Peut induire des ischémies digitales
 
+Correction probable - Ratt 2020 Q5 = A,B,C,D
+
 # Ratt 2020 Q6 - Phénomène de Raynaud
 
 6. L'hypertension artérielle pulmonaire (HTAP) au cours de cette affection :
@@ -6251,6 +6557,8 @@ B] Peut être secondaire à une fibrose pulmonaire
 C] Se manifeste par des signes caractéristiques à l'examen clinique
 D] Est dépistée par l'échographie cardiaque
 E] Le cathétérisme cardiaque droit est nécessaire pour confirmer l'HTAP
+
+Correction probable - Ratt 2020 Q6 = B,D,E
 
 # Ratt 2020 Q7 - Phénomène de Raynaud
 
@@ -6262,6 +6570,8 @@ C] De la prostacycline
 D] Du cyclophosphamide
 E] Des inhibiteurs des récepteurs de l'endothéline
 
+Correction probable - Ratt 2020 Q7 = C,E
+
 # Ratt 2020 Q8 - Phénomène de Raynaud
 
 8. La D-pénicillamine prescrite lors de cette affection
@@ -6271,6 +6581,8 @@ B] Est administrée à la dose de 250mg/jour
 C] Peut être responsable d'une cytopénie
 D] Peut induire un lupus
 E] Peut être responsable d'une cécité
+
+Correction probable - Ratt 2020 Q8 = C,D
 
 # Ratt 2020 Q9 - Phénomène de Raynaud
 
@@ -6282,6 +6594,8 @@ C] Tubulo Interstitielle
 D] Peut entraîner une insuffisance rénale terminale
 E] Le captopril améliore la survie
 
+Correction probable - Ratt 2020 Q9 = A,D,E
+
 # Ratt 2020 Q10 - Phénomène de Raynaud
 
 10. Cas clinique 3: Une Patiente de 38 ans consulte pour une décoloration paroxystique des doigts, de façon bilatérale. Cette décoloration est déclenchée par le froid. L'examen clinique objective une décoloration déclenchée par le froid des doigts qui deviennent blancs, froids et hyposensibles. Parmi les syndromes suivants, on peut évoquer :
@@ -6291,6 +6605,8 @@ B] Une érythermalgie
 C] Des engelures
 D] Une acrorhigose
 E] Un phénomène de Raynaud
+
+Correction probable - Ratt 2020 Q10 = E
 
 # Ratt 2020 Q11 - Phénomène de Raynaud
 
@@ -6302,6 +6618,8 @@ C] Une Sclérodermie systémique
 D] Une dermatomyosite
 E] Une cryoglobulinémie
 
+Correction probable - Ratt 2020 Q11 = A,B,C,E
+
 # Ratt 2020 Q12 - Phénomène de Raynaud
 
 12. Quel bilan étiologique demanderiez-vous:
@@ -6311,6 +6629,8 @@ B] Anticorps antinucléaires
 C] TSHus
 D] Une cryoglobulinémie
 E] Une vitesse de sédimentation globulaire
+
+Correction probable - Ratt 2020 Q12 = A,B,C,D,E
 
 # Ratt 2020 Q13 - Phénomène de Raynaud
 
@@ -6322,6 +6642,8 @@ C] Une gangrène digitale
 D] Des surinfections d'ulcères
 E] Une hyperhidrose
 
+Correction probable - Ratt 2020 Q13 = B,C,D
+
 # Ratt 2020 Q14 - Phénomène de Raynaud
 
 14. Le traitement de ce syndrome repose sur :
@@ -6331,6 +6653,8 @@ B] L'éviction de la cigarette
 C] La prescription des inhibiteurs calciques
 D] La prescription des bêtabloquants
 E] La corticothérapie
+
+Correction probable - Ratt 2020 Q14 = B,C
 
 # Ratt 2020 Q15 - Myopathie Inflammatoire
 
@@ -6342,6 +6666,8 @@ C] Une atteinte du muscle cardiaque responsable de trouble de la conduction
 D] Un tracé neurogène à l'électromyogramme
 E] Un œdème lilacé des paupières
 
+Correction probable - Ratt 2020 Q15 = A,B,C,D
+
 # Ratt 2020 Q16 - SAPL
 
 16. La prévention des pertes fœtales lors d'un syndrome des antiphospholipides repose sur :
@@ -6351,6 +6677,8 @@ B] L'association aspirine et héparine
 C] La corticothérapie à forte dose
 D] Les immunosuppresseurs
 E] La surveillance échographique mensuelle
+
+Correction probable - Ratt 2020 Q16 = B
 
 # Ratt 2020 Q17 - SAPL
 
@@ -6362,6 +6690,8 @@ C] La confirmation histologique de la microangiopathie
 D] La présence d'un anticoagulant circulant de type lupique
 E] La présence d'anticorps d'anti-cytoplasme des polynucléaires neutrophiles (ANCA)
 
+Correction probable - Ratt 2020 Q17 = A,B,C
+
 # Ratt 2020 Q18 - Auto-immunité et maladie auto-immune
 
 18. L'un des phénomènes suivants contribue à la Tolérance B centrale au soi:
@@ -6371,6 +6701,8 @@ B] BCR editing
 C] Ignorance immunologique
 D] Suppression par des lymphocytes T reg
 E] Apoptose par AICD (Activation Induced Cell Death)
+
+Correction probable - Ratt 2020 Q18 = B,E
 
 # Ratt 2020 Q19 - Auto-immunité et maladie auto-immune
 
@@ -6382,6 +6714,8 @@ C] L'anémie hémolytique auto-immune
 D] La thrombopénie auto-immune
 E] Le Syndrome de Goodpasture
 
+Correction probable - Ratt 2020 Q19 = C,D
+
 # Ratt 2020 Q20 - Lupus érythémateux systémique
 
 20. Devant la suspicion du lupus, le bilan immunologique se base sur l'ensemble des éléments suivants, sauf un, lequel?
@@ -6391,6 +6725,8 @@ B] Recherche d'anticorps anti-DNA natifs
 C] Dosage des fractions C3 et C4 du complément
 D] Test de Coombs indirect
 E] Confrontation clinico-biologique
+
+Correction probable - Ratt 2020 Q20 = D
 
 # Ratt 2020 Q21 - LES DÉFICITS IMMUNITAIRES
 
@@ -6402,6 +6738,8 @@ C] Un déficit immunitaire cellulaire fonctionnel
 D] Un déficit du système du complément
 E] Un déficit des phagocytes
 
+Correction probable - Ratt 2020 Q21 = A
+
 # Ratt 2020 Q22 - LES DÉFICITS IMMUNITAIRES
 
 22. Les anomalies biologiques suivantes doivent évoquer un déficit immunitaire primitif :
@@ -6411,6 +6749,8 @@ B] Une hypogammaglobulinémie
 C] Une neutropénie profonde
 D] Une thrombopénie avec microplaquettes
 E] Une hypocomplémentémie
+
+Correction probable - Ratt 2020 Q22 = A,B,C,E
 
 # Ratt 2020 Q23 - Les hypersensibilités
 
@@ -6422,6 +6762,8 @@ C] Le type de manifestations cliniques.
 D] La nature de l'effecteur (s)
 E] L'âge du patient
 
+Correction probable - Ratt 2020 Q23 = A,B,C,D
+
 # Ratt 2020 Q24 - Les hypersensibilités
 
 24. Le dosage des IgE totales est indiqué dans les situations cliniques suivantes:
@@ -6431,6 +6773,8 @@ B] Les parasitoses
 C] La dermatite atopique
 D] Le Syndrome Hyper IgE
 E] La polysensibilisation allergique
+
+Correction probable - Ratt 2020 Q24 = A,B,C,D,E
 
 # Ratt 2020 Q25 - Les hypersensibilités
 
@@ -6442,6 +6786,8 @@ C] Alvéolite allergique extrinsèque
 D] Eczéma de contact
 E] Maladie sérique
 
+Correction probable - Ratt 2020 Q25 = D
+
 # Ratt 2020 Q26 - Les hypersensibilités
 
 26. Deux des situations cliniques suivantes justifient la recherche d'une cryoglobulinémie:
@@ -6451,6 +6797,8 @@ B] Anémie hémolytique auto-immune
 C] Thrombopénie auto-immune
 D] Syndrome de Goodpasture
 E] Maladies à complexes immuns
+
+Correction probable - Ratt 2020 Q26 = A,E
 
 # Ratt 2020 Q27 - Les hypersensibilités
 
@@ -6462,6 +6810,8 @@ C] Permet d'éliminer une tuberculose latente
 D] Est systématique avant la mise sous anti-TNFα
 E] Peut être négatif en cas de déficit immunitaire
 
+Correction probable - Ratt 2020 Q27 = A,D,E
+
 # Ratt 2020 Q28 - IMMUNITE ANTI-INFECTIEUSE
 
 28. Parmi les mécanismes suivants, lesquels sont utilisés par les parasites pour échapper au système immunitaire ?
@@ -6471,6 +6821,8 @@ B] Séquestration antigénique
 C] Camouflage
 D] Leurres antigéniques
 E] Inhibition du système du complément
+
+Correction probable - Ratt 2020 Q28 = B,C,D,E
 
 # Ratt 2020 Q29 - IMMUNITE ANTI-INFECTIEUSE
 
@@ -6482,6 +6834,8 @@ C] IL-5
 D] IL-10
 E] TNF-α
 
+Correction probable - Ratt 2020 Q29 = B
+
 # Ratt 2020 Q30 - IMMUNITE ANTI-INFECTIEUSE
 
 30. La stratégie d'exploration de l'immunité anti-infectieuse se base sur :
@@ -6491,6 +6845,8 @@ B] L'étude de l'écosystème microbien
 C] La recherche et le titrage d'anticorps spécifiques de l'agent pathogène
 D] L'étude des réactions immunitaires de l'hôte
 E] L'étude de la résistance microbienne aux antibiotiques
+
+Correction probable - Ratt 2020 Q30 = C,D
 
 # Ratt 2020 Q31 - IMMUNITE ANTI-TUMORALE
 
@@ -6502,6 +6858,8 @@ C] Les cellules NK
 D] Les lymphocytes T régulateurs
 E] Les lymphocytes T Cytotoxiques
 
+Correction probable - Ratt 2020 Q31 = C,E
+
 # Ratt 2020 Q32 - Immuno-intervention
 
 32. L'immunothérapie visant les programmes de mort cellulaire (PD-1 et PDL-1):
@@ -6511,6 +6869,8 @@ B] Consiste à inhiber les cellules tumorales
 C] Consiste à activer les cellules NK
 D] Consiste à lever l'inhibition des lymphocytes T cytotoxiques
 E] Est dite anti-Checkpoints
+
+Correction probable - Ratt 2020 Q32 = A,D,E
 
 # Ratt 2020 Q33 - Immuno-intervention
 
@@ -6522,6 +6882,8 @@ C] Exercent une action immunosuppressive exclusive
 D] Sont utilisés en cancérologie et en auto-immunité
 E] Sont contre-indiqués dans les maladies inflammatoires
 
+Correction probable - Ratt 2020 Q33 = D
+
 # Ratt 2020 Q34 - Généralités en génétique
 
 34. La manifestation apparente de la constitution du génome sous la forme d'une maladie est appelée :
@@ -6531,6 +6893,8 @@ B] Génotype.
 C] Génome.
 D] Allèle.
 E] Locus.
+
+Correction probable - Ratt 2020 Q34 = A
 
 # Ratt 2020 Q35 - Pathologie chromosomique
 
@@ -6542,6 +6906,8 @@ C] 69,XXY
 D] 92,XXYY
 E] 23,X
 
+Correction probable - Ratt 2020 Q35 = D
+
 # Ratt 2020 Q36 - Pathologie chromosomique
 
 36. L'âge paternel avancé augmente le risque de survenue de :
@@ -6551,6 +6917,8 @@ B] maladies à transmission récessive liée à l'x
 C] maladies chromosomiques
 D] maladies à transmission autosomique récessive
 E] maladies mitochondriales
+
+Correction probable - Ratt 2020 Q36 = A
 
 # Ratt 2020 Q37 - Modes de transmission des maladies héréditaires
 
@@ -6562,6 +6930,8 @@ C] 1/2
 D] 1/8
 E] 0%
 
+Correction probable - Ratt 2020 Q37 = C
+
 # Ratt 2020 Q38 - Modes de transmission des maladies héréditaires
 
 38. A propos de l'hérédité mitochondriale, quelles sont les propositions justes ?
@@ -6571,6 +6941,8 @@ B] Tous les enfants d'un père atteint sont malades.
 C] La maladie apparaît en fonction de la quantité des mitochondries mutées.
 D] Elle est caractérisée par une transmission père fils.
 E] On parle d'homoplasmie quand il y'a un mélange d'ADN mitochondrial muté et sain dans la même mitochondrie.
+
+Correction probable - Ratt 2020 Q38 = A,C
 
 # Ratt 2020 Q39 - Pathologie chromosomique
 
@@ -6582,6 +6954,8 @@ C] mos45,X/46,XX
 D] 46,X,r(X)
 E] mos47,XXX/46,XX
 
+Correction probable - Ratt 2020 Q39 = B,C,D
+
 # Ratt 2020 Q40 - Pathologie chromosomique
 
 40. Vous recevez en consultation un nouveau né présentant un syndrome malformatif, une fente labiopalatine bilatérale, une microphtalmie et une hexadactylie. Quel diagnostic vous suspectez?
@@ -6591,6 +6965,8 @@ B] Le syndrome d'Edwards
 C] Le syndrome de Patau
 D] Le syndrome de Wolf-Hirschhorn
 E] Le syndrome de cri de chat
+
+Correction probable - Ratt 2020 Q40 = C
 
 # Ratt 2020 Q41 - Modes de transmission des maladies héréditaires
 
@@ -6602,6 +6978,8 @@ C] 1/4
 D] 1/100 x1/100 x1/2
 E] 1/100 x1/100 x1/4
 
+Correction probable - Ratt 2020 Q41 = E
+
 # Ratt 2020 Q42 - Pathologie chromosomique
 
 42. Tous les syndromes suivants sont liés à des anomalies du nombre des chromosomes sauf un. Lequel?
@@ -6611,6 +6989,8 @@ B] Syndrome de l'homme double Y
 C] Syndrome de Wolf-Hirschhorn
 D] Syndrome d'Edwards
 E] Syndrome de Klinefelter
+
+Correction probable - Ratt 2020 Q42 = C
 
 # Ratt 2020 Q43 - Pathologie chromosomique
 
@@ -6622,6 +7002,8 @@ C] Le tableau clinique inclut un retard mental, une dysmorphie faciale et une ma
 D] Le site fragile (Xq27) n'est pas toujours visible sur le caryotype
 E] C'est une maladie due à une expansion du triplet CGG au niveau du gène FMR1
 
+Correction probable - Ratt 2020 Q43 = C,D,E
+
 # Ratt 2020 Q44 - Le conseil génétique
 
 44. A propos du conseil génétique, quelles sont les propositions justes?
@@ -6631,6 +7013,8 @@ B] Le conseil génétique peut être effectué en situation d'urgence.
 C] La prise de décision dépend du risque estimé et de la gravité de la maladie.
 D] Le conseil génétique a pour but de préciser le diagnostic.
 E] Le conseil génétique a pour but de préciser le mode de transmission et le pronostic.
+
+Correction probable - Ratt 2020 Q44 = A,C,D,E
 
 # Ratt 2020 Q45 - Diagnostic anténatal et Caryotype
 
@@ -6642,6 +7026,8 @@ C] Un impubérisme
 D] Un syndrome dysmorphique
 E] Une aménorrhée primaire
 
+Correction probable - Ratt 2020 Q45 = A,D
+
 # Ratt 2020 Q46 - Modes de transmission des maladies héréditaires
 
 46. Quelles sont les possibilités offertes à un couple dont l'un des conjoints est porteur d'une translocation robertsonienne équilibrée rob(13;13)(q10;q10)?
@@ -6651,6 +7037,8 @@ B] Ne pas avoir d'enfant
 C] Ne pas tenir compte du conseil génétique
 D] Adopter un enfant
 E] Avoir un enfant avec un autre conjoint
+
+Correction probable - Ratt 2020 Q46 = B,D,E
 
 # Ratt 2020 Q47 - Modes de transmission des maladies héréditaires
 
@@ -6662,6 +7050,8 @@ C] 50%
 D] 75%
 E] 100%
 
+Correction probable - Ratt 2020 Q47 = B
+
 # Ratt 2020 Q48 - Pathologie chromosomique
 
 48. Parmi les anomalies de structure ci-dessous, laquelle ou lesquelles portent sur un seul chromosome ?
@@ -6672,6 +7062,8 @@ C] Isochromosome
 D] Chromosome en anneau
 E] inversion péricentrique
 
+Correction probable - Ratt 2020 Q48 = A,C,D,E
+
 # Ratt 2020 Q49 - Pathologie chromosomique
 
 49. Le syndrome de turner chez une adolescente peut inclure:
@@ -6681,6 +7073,8 @@ B] Une coarctation de l'aorte
 C] Une aménorrhée primaire ou secondaire
 D] Une malformation rénale
 E] Des organes génitaux de type infantile
+
+Correction probable - Ratt 2020 Q49 = A,B,C,D,E
 
 # Ratt 2020 Q50 - Modes de transmission des maladies héréditaires
 
@@ -6696,6 +7090,8 @@ E] Autosomique dominant
 
 // Normal 2019 (Correction collective) : https://www.e-qe.online/exam/a7389ab1-275e-41e3-9221-d3e10687d435
 
+Correction probable - Ratt 2020 Q50 = C
+
 # Normal 2019 Q1 - Maladie de BEHÇET
 
 1. Cas clinique: Patient de 27 ans, aux antécédents d'aphtose buccale à répétition depuis 2 ans, d'un épisode d'œil rouge il y a un an non exploré, est admis pour thrombose veineuse profonde du membre inférieur gauche étendue jusqu'à l'artère iliaque primitive. L'examen clinique trouve en outre des lésions d'érythème noueux des 2 jambes. 1- La maladie que vous évoquez est:
@@ -6705,6 +7101,8 @@ B] Touche exclusivement le système veineux.
 C] Peut se compliquer d'une cécité
 D] Se caractérise par une prédisposition génétique: HLAB51
 E] Est très fréquente en Turquie
+
+Correction probable - Normal 2019 Q1 = A,C,D,E
 
 # Normal 2019 Q2 - Maladie de BEHÇET
 
@@ -6716,6 +7114,8 @@ C] Une vascularite rétinienne
 D] Est de mauvais pronostic
 E] Est de survenue tardive
 
+Correction probable - Normal 2019 Q2 = B,C,D
+
 # Normal 2019 Q3 - Maladie de BEHÇET
 
 3. L'atteinte neurologique au cours de cette affection se manifeste par:
@@ -6725,6 +7125,8 @@ B] Une Paraparésie,
 C] Des Troubles sensitifs et sphinctériens.
 D] Une Thrombophlébite cérébrale
 E] Un Myélite transverse
+
+Correction probable - Normal 2019 Q3 = A,B,C,D,E
 
 # Normal 2019 Q4 - Maladie de BEHÇET
 
@@ -6736,6 +7138,8 @@ C] Les anomalies de la coagulation sont fréquentes
 D] Une hypogammaglobulinémie
 E] Un syndrome néphrotique
 
+Correction probable - Normal 2019 Q4 = A,B,C
+
 # Normal 2019 Q5 - Maladie de BEHÇET
 
 5. Le Traitement chez ce patient comprend
@@ -6745,6 +7149,8 @@ B] Des antivitamines K
 C] Des antipaludéens de synthèse
 D] De la colchicine
 E] Des échanges plasmatiques
+
+Correction probable - Normal 2019 Q5 = A,B,D
 
 # Normal 2019 Q6 - Granulomatose de WEGENER
 
@@ -6756,6 +7162,8 @@ C] Un Purpura vasculaire
 D] Un ulcère digital
 E] Une Arthrite
 
+Correction probable - Normal 2019 Q6 = A,B,C,D,E
+
 # Normal 2019 Q7 - Granulomatose de WEGENER
 
 7. Parmi les diagnostics différentiels suivants lesquelles, on peut discuter devant une vascularite a ANCA
@@ -6765,6 +7173,8 @@ B] Une endocardite
 C] Un Myxome de l'OG
 D] Un Syndrome de Goodpasture
 E] Une hémopathie
+
+Correction probable - Normal 2019 Q7 = A,B,C,D,E
 
 # Normal 2019 Q8 - Granulomatose de WEGENER
 
@@ -6776,6 +7186,8 @@ C] L'Endoxan
 D] Le Plaquenil
 E] Rituximab
 
+Correction probable - Normal 2019 Q8 = A,C,E
+
 # Normal 2019 Q9 - Phénomène de Raynaud
 
 9. Cas clinique:2 Mile B. âgée de 24 ans sans antécédents pathologiques particulier présente une sensibilité des doigts au froid qui deviennent blancs puis bleus, l'examen clinique ne trouve aucune anomalie trophique ou vasculaire.Quel est votre diagnostic?
@@ -6785,6 +7197,8 @@ B] erythemalgie
 C] maladie de Raynaud
 D] phénomène de Raynaud secondaire
 E] aucune réponse juste
+
+Correction probable - Normal 2019 Q9 = C
 
 # Normal 2019 Q10 - Phénomène de Raynaud
 
@@ -6796,6 +7210,8 @@ C] échodoppler artériel des membres supérieurs
 D] électrocardiogramme
 E] radiographie des mains
 
+Correction probable - Normal 2019 Q10 = A,B
+
 # Normal 2019 Q11 - SAPL
 
 11. Cas clinique: 3. Mme âgée de 36 ans souffre depuis hier d'une jambe gauche augmentée de volume douloureuse et dont l'échodoppler veineux montre une phlébite surale I 'anamnèse nous apprend qu' elle a des antécédents de 3 avortements à répétitions, et une thrombophlebite du membre inférieure droit il ya 2 ans, sa tension artérielle est à 120/70 mmhg. Quel est votre diagnostic?
@@ -6805,6 +7221,8 @@ B] une polyangéite microscopique
 C] un syndrome des antiphospholipides
 D] éclampsie
 E] aucune réponse juste
+
+Correction probable - Normal 2019 Q11 = C
 
 # Normal 2019 Q12 - SAPL
 
@@ -6816,6 +7234,8 @@ C] Anticorps anticardiolipine
 D] Anticorps anti B2GPI
 E] Anticorps anti CCP
 
+Correction probable - Normal 2019 Q12 = B,C,D
+
 # Normal 2019 Q13 - Myopathie Inflammatoire
 
 13. Cas clinique : 4. Mr A âgé de 50 ans présente depuis une semaine une asthénie, une douleur des cuisses et des épaules, une difficulté à monter les escaliers et à se peigner, Érythème et oedème des paupières en lunettes, des lésions érythémato- squameuses en regard des MCP, IPP et IPD 13- Quel est votre diagnostic?
@@ -6825,6 +7245,8 @@ B] Une dermatomyosite sine dermatitis
 C] Une dermatomyosite
 D] Une polymyosite
 E] Aucune réponse juste
+
+Correction probable - Normal 2019 Q13 = C
 
 # Normal 2019 Q14 - Myopathie Inflammatoire
 
@@ -6836,6 +7258,8 @@ C] l'électromyogramme
 D] les radiographies des épaules
 E] l'échographie des cuisses et épaules
 
+Correction probable - Normal 2019 Q14 = A,B,C
+
 # Normal 2019 Q15 - Introduction aux vascularites systémiques et horton
 
 15. Cas clinique: 5. Mme B âgée de 70 ans sans antécédents pathologiques particulier se plaint de céphalées depuis 20 jour de siège temporale avec une hyperesthésie du cuir chevelu à l'examen clinique une sensibilité de l'artère temporale avec plan biologique une vitesse de sédimentation (VS) à 100 mm 1 ère heure. Quel est votre diagnostic?
@@ -6845,6 +7269,8 @@ B] maladie de Takayasu
 C] granulomatose avec plyangéite
 D] polyangéite microscopique
 E] vascularite cryoglobulinémique
+
+Correction probable - Normal 2019 Q15 = A
 
 # Normal 2019 Q16 - Introduction aux vascularites systémiques et horton
 
@@ -6856,6 +7282,8 @@ C] Le cyclophosphamide
 D] Le méthotrexate
 E] Le tocilizumab
 
+Correction probable - Normal 2019 Q16 = B
+
 # Normal 2019 Q17 - Auto-immunité et maladie auto-immune
 
 17. La Tolérance T périphérique comporte l'ensemble des phénomènes suivants sauf un, lequel?
@@ -6865,6 +7293,8 @@ B] Ignorance immunologique
 C] Suppression par des lymphocytes T reg
 D] Apoptose par AICD (Activation Induced Cell Death)
 E] Receptor B editing
+
+Correction probable - Normal 2019 Q17 = E
 
 # Normal 2019 Q18 - Auto-immunité et maladie auto-immune
 
@@ -6876,6 +7306,8 @@ C] Une cytotoxicité cellulaire T (CTL)
 D] Une cytotoxicité anticorps dépendante (ADCC)
 E] Une cytotoxicité complément dépendante (CDCC)
 
+Correction probable - Normal 2019 Q18 = D,E
+
 # Normal 2019 Q19 - Auto-immunité et maladie auto-immune
 
 19. Le développement de maladies auto-immunes est favorisé par les facteurs suivants :
@@ -6885,6 +7317,8 @@ B] Immunologiques
 C] Hormonaux
 D] Environnementaux
 E] Aucun de ces facteurs
+
+Correction probable - Normal 2019 Q19 = A,B,C,D
 
 # Normal 2019 Q20 - Lupus érythémateux systémique
 
@@ -6896,6 +7330,8 @@ C] La recherche des spécificités anti-scl 70 et anti-centromère
 D] La confrontation clinico-immunologique
 E] Le dosage des immunoglobulines
 
+Correction probable - Normal 2019 Q20 = A,B,D
+
 # Normal 2019 Q21 - LES DÉFICITS IMMUNITAIRES
 
 21. Devant la suspicion clinique d'un déficit immunitaire primitif, vous devez en premier :
@@ -6905,6 +7341,8 @@ B] Rechercher un déficit cellulaire par immunophenotypage
 C] Recherche un déficit des phagocytes
 D] Doser les composants du complément
 E] Éliminer une Infection par le VIH par un test sérologique
+
+Correction probable - Normal 2019 Q21 = E
 
 # Normal 2019 Q22 - LES DÉFICITS IMMUNITAIRES
 
@@ -6916,6 +7354,8 @@ C] Un déficit inanunitaire cellulaire fonctionnel
 D] Un déficit du système du complément
 E] Un déficit des phagocytes
 
+Correction probable - Normal 2019 Q22 = B
+
 # Normal 2019 Q23 - LES DÉFICITS IMMUNITAIRES
 
 23. Deux des propositions suivantes correspondent à un SCID (déficit immunitaire combiné sévère):
@@ -6925,6 +7365,8 @@ B] Déficit immunitaire commun variable
 C] Maladie de Bruton
 D] Déficit en RAGI/RAG2
 E] Déficit en tyrosine Jak3 (Janus Kinase 3)
+
+Correction probable - Normal 2019 Q23 = D,E
 
 # Normal 2019 Q24 - LES DÉFICITS IMMUNITAIRES
 
@@ -6936,6 +7378,8 @@ C] Est souvent révélé par des infections respiratoires et ORI.
 D] Peut être sélectif (déficit en IgA ou en sous classes d'IgG)
 E] Nécessite une greffe de moelle osseuse
 
+Correction probable - Normal 2019 Q24 = C,D
+
 # Normal 2019 Q25 - Les hypersensibilités
 
 25. L'allergie IgE dépendante est caractérisée par :
@@ -6945,6 +7389,8 @@ B] L'apparition des symptômes cliniques 24 à 4814 après le contact avec l'all
 C] La synthèse et la fixation des IgE sur les mastocytes-basophiles lors de la phase de latence
 D] La dégranulation des mastocytes-basophiles lors de la phase de latence
 E] La synthèse de cytokines de type Th2 (IL-4, IL-5, 11-9, IL-13)
+
+Correction probable - Normal 2019 Q25 = C,E
 
 # Normal 2019 Q26 - Les hypersensibilités
 
@@ -6956,6 +7402,8 @@ C] Est induit par des anaphylatoxines
 D] Est lié à une activation non spécifique du mastocyte-basophile
 E] Mime le tableau clinique du choc anaphylactique
 
+Correction probable - Normal 2019 Q26 = C,D,E
+
 # Normal 2019 Q27 - Les hypersensibilités
 
 27. Parmi les situations pathologiques suivantes, lesquelles sont liées à une hypersensibilité de type II ?
@@ -6965,6 +7413,8 @@ B] Incompatibilité fato-maternelle Rhésus
 C] Accidents immuno-allergiques médicamenteux
 D] Rejet d'une greffe rénale HLA incompatible
 E] Alvéolite allergique extrinsèque
+
+Correction probable - Normal 2019 Q27 = A,B,C
 
 # Normal 2019 Q28 - Les hypersensibilités
 
@@ -6976,6 +7426,8 @@ C] Recherche des Cryoglobulinémies
 D] Dosage de complexes immuns circulants
 E] Recherche d'anticorps anti-nucléaires
 
+Correction probable - Normal 2019 Q28 = A
+
 # Normal 2019 Q29 - Les hypersensibilités
 
 29. Les pathologies suivantes sont dues à la formation in situ de complexes immuns:
@@ -6985,6 +7437,8 @@ B] Maladie du poumon du fermier
 C] Maladie sérique
 D] Périatérite noueuse
 E] Pneumopathie des éleveurs d'oiseaux
+
+Correction probable - Normal 2019 Q29 = A,B,D,E
 
 # Normal 2019 Q30 - Les hypersensibilités
 
@@ -6996,6 +7450,8 @@ C] Aide au diagnostic des formes de tuberculose extra-pulmonaire
 D] Avant la mise en route d'un traitement anti-TNFa
 E] Visite d'embauche de professionnels de santé
 
+Correction probable - Normal 2019 Q30 = A,C,D,E
+
 # Normal 2019 Q31 - IMMUNITE ANTI-INFECTIEUSE
 
 31. Les acteurs suivants exercent une action antibactérienne prépondérante :
@@ -7005,6 +7461,8 @@ B] Les IFN a et ẞ
 C] Le système du complément
 D] Les cellules NK
 E] Les lymphocytes T cytotoxiques
+
+Correction probable - Normal 2019 Q31 = A,C
 
 # Normal 2019 Q32 - IMMUNITE ANTI-INFECTIEUSE
 
@@ -7016,6 +7474,8 @@ C] Leurres antigéniques
 D] Séquestration antigénique
 E] Substitution antigénique (Shift)
 
+Correction probable - Normal 2019 Q32 = A,E
+
 # Normal 2019 Q33 - IMMUNITE ANTI-TUMORALE
 
 33. L'immunité anti-tumorale fait appel à deux principaux mécanismes parmi les suivants :
@@ -7025,6 +7485,8 @@ B] Cytotoxicité médiée par le complément
 C] Immunosurveillance exercée par les cellules NK
 D] Immunosuppression par les lymphocytes T reg
 E] Cytotoxicité cellulaire T CD8
+
+Correction probable - Normal 2019 Q33 = C,E
 
 # Normal 2019 Q34 - Généralités en génétique
 
@@ -7036,6 +7498,8 @@ C] Génome.
 D] Allèle.
 E] Locus.
 
+Correction probable - Normal 2019 Q34 = D
+
 # Normal 2019 Q35 - Modes de transmission des maladies héréditaires
 
 35. La galactosémie congénitale est une maladie autosomique récessive dont la fréquence de la maladie est 1/40000. Quelle est la fréquence des hétérozygotes pour cette maladie?
@@ -7045,6 +7509,8 @@ B] 1/25
 C] 1/40
 D] 1/100
 E] 1/200
+
+Correction probable - Normal 2019 Q35 = D
 
 # Normal 2019 Q36 - Modes de transmission des maladies héréditaires
 
@@ -7056,6 +7522,8 @@ C] 1/16
 D] 1/32
 E] 1
 
+Correction probable - Normal 2019 Q36 = D
+
 # Normal 2019 Q37 - Modes de transmission des maladies héréditaires
 
 37. Un bomme âgé de 54 ans est atteint d'hémophilic A. Sa fille est enceinte d'un fœtus de sexe masculin. Quelle est la probabilité pour que ce fatus soit hémophile?
@@ -7065,6 +7533,8 @@ B] 25%
 C] 50%
 D] 75%
 E] 100%
+
+Correction probable - Normal 2019 Q37 = A
 
 # Normal 2019 Q38 - Pathologie chromosomique
 
@@ -7076,6 +7546,8 @@ C] La non disjonction méiotique 1
 D] La dispermie
 E] la non disjonction mitotique
 
+Correction probable - Normal 2019 Q38 = A,B,D
+
 # Normal 2019 Q39 - Diagnostic anténatal et Caryotype
 
 39. Le caryotype sanguin constitutionnel à la recherche d'anomalies chromosomiques est obtenu au stade de :
@@ -7085,6 +7557,8 @@ B] Interphase
 C] Anaphase
 D] Prophase
 E] Métaphase ou prométaphase
+
+Correction probable - Normal 2019 Q39 = E
 
 # Normal 2019 Q40 - Généralités en génétique
 
@@ -7096,6 +7570,8 @@ C] Elle concerne les maladies génétiques dues à la même mutation d'un même 
 D] Elle concerne les maladies génétiques due à des mutations alléliques d'un même gène.
 E] C'est une hétérogénéité intralocus.
 
+Correction probable - Normal 2019 Q40 = D,E
+
 # Normal 2019 Q41 - Modes de transmission des maladies héréditaires
 
 41. A quel mode de transmission héréditaire correspond l'arbre généalogique ci-dessous ?
@@ -7105,6 +7581,8 @@ B] Mitochondrial
 C] Récessif lié à l'x
 D] Dominant lié à l'x
 E] Autosomique récessif
+
+Correction probable - Normal 2019 Q41 = E
 
 # Normal 2019 Q42 - Pathologie chromosomique
 
@@ -7116,6 +7594,8 @@ C] L'individu porteur de cette anomalie a un risque de 10% d'avoir un enfant tri
 D] Ce caryotype correspond à une translocation robertsonienne équilibrée entre les deux chromosomes 21.
 E] L'individu porteur de cette anomalie a une chance de 50% d'avoir un enfant normal
 
+Correction probable - Normal 2019 Q42 = A,E
+
 # Normal 2019 Q43 - Pathologie chromosomique
 
 43. Parmi les pathologies ci-dessous, lesquelles sont à transmission récessive liée à l'X?
@@ -7125,6 +7605,8 @@ B] Déficit en G6PD
 C] Daltonisme
 D] Syndrome de Marfan
 E] Myopathie de Duchenne
+
+Correction probable - Normal 2019 Q43 = B,C,E
 
 # Normal 2019 Q44 - Pathologie chromosomique
 
@@ -7136,6 +7618,8 @@ C] 45,X/46,XY
 D] 46,X,r(X) « Petit anneau ne contenant pas le gène XIST
 E] 46,X,del(Xp)
 
+Correction probable - Normal 2019 Q44 = D
+
 # Normal 2019 Q45 - Pathologie chromosomique
 
 45. Vous recevez en consultation un nourrisson présentant un retard de croissance intra-utérin, un syndrome malformatif et une dysmorphie faciale incluant un nez en casque de guerrier grec. Quel diagnostic vous suspectez ?
@@ -7145,6 +7629,8 @@ B] Le syndrome de cri de chat
 C] Le syndrome de Patau
 D] Le syndrome de Down
 E] Le syndrome d'Edwards
+
+Correction probable - Normal 2019 Q45 = A
 
 # Normal 2019 Q46 - Pathologie chromosomique
 
@@ -7156,6 +7642,8 @@ C] 46,XY,(9;17)
 D] 46,XY,del(7)(p13p13)
 E] 46,X,r(X)(p22.2q26)
 
+Correction probable - Normal 2019 Q46 = B,E
+
 # Normal 2019 Q47 - Pathologie chromosomique
 
 47. A propos de la trisomie 18, quelle est ou quelles sont les propositions justes?
@@ -7165,6 +7653,8 @@ B] Le tableau clinique inclut un syndrome dysmorphique et malformatif.
 C] Le caryotype des parents doit être réalisé quel que soit la formule chromosomique de l'enfant trisomique 18.
 D] Dans 80% des cas la trisomie 18 est libre et homogène
 E] Le signe clinique pathognomonique est la fente labiopalatine bilatérale.
+
+Correction probable - Normal 2019 Q47 = A,B,D
 
 # Normal 2019 Q48 - Le conseil génétique
 
@@ -7176,6 +7666,8 @@ C] Trisomie 13 libre et homogéne
 D] Cas isolés
 E] Affections mongéniques
 
+Correction probable - Normal 2019 Q48 = C,E
+
 # Normal 2019 Q49 - Diagnostic anténatal et Caryotype
 
 49. A propos des indications du caryotype constitutionnel chez l'adulte, quelles sont les propositions justes?
@@ -7186,6 +7678,8 @@ C] Les anomalies du spermogramme
 D] Les antécédents personnels et familiaux de morts foetales ou de malformations récurrentes
 E] L'hypogonadisme d'origine haute
 
+Correction probable - Normal 2019 Q49 = A,B,C,D,E
+
 # Normal 2019 Q50 - Pathologie chromosomique
 
 50. A propos du syndrome d'X Fragile, quels sont les signes cliniques constituant la triade de Martin et Bell?
@@ -7195,6 +7689,8 @@ B] Le retard mental
 C] La macro-orchidie
 D] Le trouble de langage
 E] La dysmorphie faciale
+
+Correction probable - Normal 2019 Q50 = B,C,E
 
 ---
 

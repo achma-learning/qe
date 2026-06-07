@@ -1601,6 +1601,10 @@
     const headerRe  = /^(?:#\s+)?(.+?)\s+Q\s*(\d+)(?:\s*-\s*(.+))?\s*$/;
     const optRe     = /^([A-E])[\]\.\)]\s*(.+)$/;
     const corrRe    = /^Correction\s+officielle\s*-\s*(.+?)\s+Q\s*(\d+)(?:\s*-\s*.+?)?\s*=\s*(.+)$/i;
+    // Best-estimate answer for questions with no official key. Same shape as the
+    // official line but labelled "Correction probable"; flagged isProbable so the
+    // UI can present it as an estimate rather than the official correction.
+    const corrProbRe = /^Correction\s+probable\s*-\s*(.+?)\s+Q\s*(\d+)(?:\s*-\s*.+?)?\s*=\s*(.+)$/i;
     const numRe     = /^(\d+)[\.\)]\s+(.*)$/;
 
     let cur = null;
@@ -1667,6 +1671,26 @@
         continue;
       }
 
+      // Probable correction line (best estimate, no official key)
+      const pm = trimmed.match(corrProbRe);
+      if (pm) {
+        const examName = pm[1].trim();
+        const qn = parseInt(pm[2], 10);
+        const letters = (pm[3].toUpperCase().match(/[A-E]/g) || []);
+        let target = null;
+        if (cur && cur.exam === examName && cur.qn === qn) target = cur;
+        else for (let j = questions.length - 1; j >= 0; j--) {
+          if (questions[j].exam === examName && questions[j].qn === qn) { target = questions[j]; break; }
+        }
+        if (target && !target.hasCorrection) {
+          target.correct = Array.from(new Set(letters));
+          target.hasCorrection = true;
+          target.isProbable = true;
+        }
+        prevType = 'correction';
+        continue;
+      }
+
       // Option line
       const om = trimmed.match(optRe);
       if (om && cur) {
@@ -1687,6 +1711,7 @@
           options: [],
           correct: [],
           hasCorrection: false,
+          isProbable: false,
         };
         prevType = 'header';
         continue;
@@ -2418,17 +2443,19 @@
       const pct = total ? (answeredCount / total) * 100 : 0;
 
       const correctLetters = (q.correct && q.correct.length) ? q.correct.join(', ') : '—';
+      // Estimate badge for questions with no official key (Correction probable).
+      const probTag = q.isProbable ? ` <span class="prob-tag" title="Réponse estimée — pas de correction officielle">≈ probable</span>` : '';
       let feedback = '';
       if (checked) {
         const ev = evaluate();
         if (ev.unknown) {
           feedback = `<div class="feedback show">No official correction recorded for this question.<small>Choices revealed only · select an answer and try the next one.</small></div>`;
         } else if (ev.correct) {
-          feedback = `<div class="feedback show ok">✓ Correct! (${correctLetters})<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show ok">✓ Correct! (${correctLetters})${probTag}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         } else if (ev.partial) {
-          feedback = `<div class="feedback show partial">~ Partial. Right answer(s): ${correctLetters}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show partial">~ Partial. Right answer(s): ${correctLetters}${probTag}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         } else {
-          feedback = `<div class="feedback show bad">✗ Incorrect. Right answer(s): ${correctLetters}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
+          feedback = `<div class="feedback show bad">✗ Incorrect. Right answer(s): ${correctLetters}${probTag}<small>${escapeHtml(q.exam)} — Q${q.qn}</small></div>`;
         }
       }
 

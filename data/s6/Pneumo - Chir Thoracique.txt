@@ -1843,6 +1843,8 @@ C] Elle peut être d'origine tumorale
 D] La biopsie pleurale n'est pas indiquée dans le bilan étiologique
 E] D'origine mécanique
 
+Correction probable - SEPTEMBRE 2024 Q1 = A,B,C
+
 SEPTEMBRE 2024 Q2 - pleurésies
 
 Parmi les étiologies des pleurésies transsudatives on retient:
@@ -1852,6 +1854,8 @@ B] Le syndrome néphrotique
 C] La cirrhose du foie
 D] L'insuffisance cardiaque gauche
 E] La tuberculose pleurale
+
+Correction probable - SEPTEMBRE 2024 Q2 = B,C,D
 
 SEPTEMBRE 2024 Q3 - pleurésies
 
@@ -1863,6 +1867,8 @@ C] Elle peut être un geste thérapeutique
 D] Une radio thorax après ponction n'est pas systématique
 E] Est un geste pouvant être compliquer de pneumothorax
 
+Correction probable - SEPTEMBRE 2024 Q3 = A,B,C,E
+
 SEPTEMBRE 2024 Q4 - pleurésies
 
 La pleurésie purulente:
@@ -1872,6 +1878,8 @@ B] Elle survient souvent chez les sujets immunodéprimés
 C] La mesure du PH est très importante dans la prise en charge.
 D] Est une urgence thérapeutique
 E] Son traitement se fait en ambulatoire
+
+Correction probable - SEPTEMBRE 2024 Q4 = C,D
 
 SEPTEMBRE 2024 Q5 - Abcès pulmonaires
 
@@ -1883,6 +1891,8 @@ C] La fibroscopie bronchique est indiquée dans le bilan
 D] La durée du traitement antibiotique est courte 7-10 jours
 E] La chirurgie est la base du traitement.
 
+Correction probable - SEPTEMBRE 2024 Q5 = A,B,C
+
 SEPTEMBRE 2024 Q6 - Abcès pulmonaires
 
 L'abcès du poumon d'origine amibienne :
@@ -1892,6 +1902,8 @@ B] Est un abcès d'origine parasitaire
 C] La coloration de la vomique est brun chocolat
 D] On recherche dans les antécédents la notion d'amibiase intestinale
 E] Il répond bien à l'amoxicilline
+
+Correction probable - SEPTEMBRE 2024 Q6 = A,B,C,D
 
 SEPTEMBRE 2024 Q7 - DDB
 
@@ -1903,6 +1915,8 @@ C] Le RGO [reflux gastro oesophagien]
 D] La mucoviscidose
 E] Les infections respiratoires de l'enfance
 
+Correction probable - SEPTEMBRE 2024 Q7 = B,D
+
 SEPTEMBRE 2024 Q8 - DDB
 
 Les complications aiguës des DDB on retient :
@@ -1912,6 +1926,8 @@ B] Les surinfections aiguës bronchiques
 C] L'insuffisance cardiaque droite
 D] L'amylose rénale
 E] Le retard staturo-pondéral chez l'enfant
+
+Correction probable - SEPTEMBRE 2024 Q8 = A,B
 
 SEPTEMBRE 2024 Q9 - DDB
 
@@ -1923,6 +1939,8 @@ C] Dans les formes diffuses
 D] Chez les patients asymptomatiques
 E] Dans les formes localisées compliquées de suppurations bronchiques à répétitions
 
+Correction probable - SEPTEMBRE 2024 Q9 = A,E
+
 SEPTEMBRE 2024 Q10 - Kyste hydatique pulmonaire
 
 Le kyste hydatique pulmonaire:
@@ -1932,6 +1950,8 @@ B] L'homme est un hôte accidentel
 C] Le poumon est la première localisation chez l'adulte
 D] La sérologie hydatique est toujours positive
 E] Son traitement est surtout chirurgical
+
+Correction probable - SEPTEMBRE 2024 Q10 = A,B,C,E
 
 SEPTEMBRE 2024 Q11 - Kyste hydatique pulmonaire
 
@@ -1943,6 +1963,8 @@ C] On recherche dans l'interrogatoire la notion de vomique hydatique
 D] L'aspect radiologique de boulet de canon est caractéristique
 E] La sérologie hydatique est souvent positive
 
+Correction probable - SEPTEMBRE 2024 Q11 = B,C,E
+
 SEPTEMBRE 2024 Q12 - primo infection TBK
 
 La primo-infection tuberculeuse :
@@ -1952,6 +1974,8 @@ B] Au Maroc elle touche surtout les adultes
 C] La kérato-conjonctivite phlycténulaire est évocateur du diagnostic
 D] Son diagnostic est bactériologique
 E] Elle peut évoluer vers une tuberculose maladie
+
+Correction probable - SEPTEMBRE 2024 Q12 = A,C,E
 
 SEPTEMBRE 2024 Q13 - primo infection TBK
 
@@ -1963,6 +1987,8 @@ C] En cas de coinfection VIH et tuberculose
 D] En cas de traitement par les anti TNF alpha
 E] Primo-infection tuberculeuse
 
+Correction probable - SEPTEMBRE 2024 Q13 = C,D
+
 SEPTEMBRE 2024 Q14 - TBK commune
 
 La tuberculose pulmonaire commune:
@@ -1972,6 +1998,8 @@ B] Les BK sont souvent présents dans les secrétions bronchiques
 C] Son diagnostic est surtout bactériologique
 D] Doit être évoquée devant toute pneumopathie non améliorée par les antibiotiques
 E] Le complexe primaire est l'aspect radiologique évocateur
+
+Correction probable - SEPTEMBRE 2024 Q14 = A,B,C,D
 
 SEPTEMBRE 2024 Q15 - TBK aigue
 
@@ -1983,6 +2011,8 @@ C] La primo-infection tuberculeuse
 D] La phtisie galopante
 E] La pneumonie caséeuse
 
+Correction probable - SEPTEMBRE 2024 Q15 = B,D,E
+
 SEPTEMBRE 2024 Q16 - TBK aigue
 
 La tuberculose pulmonaire aigue:
@@ -1992,6 +2022,8 @@ B] Elle survient sur un terrain fragile
 C] Elle réalise un tableau d'insuffisance respiratoire aigue
 D] Son diagnostic est basé sur des tests immunologiques
 E] Est une urgence thérapeutique
+
+Correction probable - SEPTEMBRE 2024 Q16 = A,B,C,E
 
 SEPTEMBRE 2024 Q17 - Tumeurs mediastinales
 
@@ -2003,6 +2035,8 @@ C] Un kyste bronchogénique
 D] Un thymome
 E] Un neurofibrome
 
+Correction probable - SEPTEMBRE 2024 Q17 = D
+
 SEPTEMBRE 2024 Q18 - Tumeurs mediastinales
 
 Une tumeur du médiastin postérieur associée à des taches café au lait, vous évoquez [une seule réponse]
@@ -2012,6 +2046,8 @@ B] Kyste pleuro-péricardique
 C] Un tératome
 D] Un thymome
 E] Neurofibrome
+
+Correction probable - SEPTEMBRE 2024 Q18 = E
 
 SEPTEMBRE 2024 Q19 - insuffisance respiratoire aigue
 
@@ -2023,6 +2059,8 @@ C] Asterixis [mouvements anormaux des mains]
 D] Cyanose des lèvres
 E] Somnolence
 
+Correction probable - SEPTEMBRE 2024 Q19 = B,C,E
+
 SEPTEMBRE 2024 Q20 - insuffisance respiratoire aigue
 
 Les étiologies de l'insuffisance respiratoire aigue avec une radiographie thoracique anormale:
@@ -2032,6 +2070,8 @@ B] Polyradiculonévrite
 C] Edème aigu du poumon
 D] L'intoxication par le monoxyde de carbone
 E] Pneumothorax droit
+
+Correction probable - SEPTEMBRE 2024 Q20 = A,C,E
 
 SEPTEMBRE 2024 Q21 - insuffisance respiratoire aigue
 
@@ -2043,6 +2083,8 @@ C] Exacerbation aiguë de BPCO
 D] Asthme aigu grave
 E] Infection au Covid 19
 
+Correction probable - SEPTEMBRE 2024 Q21 = B
+
 SEPTEMBRE 2024 Q22 - pneumopathies interstitielles diffuses
 
 Patient vivant avec le VIH présente une dyspnée aiguë, sa radiographie thoracique objective un syndrome interstitiel. Le diagnostic à évoquer en premier est:
@@ -2052,6 +2094,8 @@ B] Une pneumonie bactérienne
 C] Un pneumothorax
 D] Un abcès pulmonaire
 E] Une tuberculose pulmonaire commune
+
+Correction probable - SEPTEMBRE 2024 Q22 = A
 
 SEPTEMBRE 2024 Q23 - mycoses et aspergillose
 
@@ -2063,6 +2107,8 @@ C] Est une infection bactérienne
 D] Se manifeste par des hémoptysies
 E] Touche les patients sévèrement immunodéprimés
 
+Correction probable - SEPTEMBRE 2024 Q23 = A,B,D,E
+
 SEPTEMBRE 2024 Q24 - mycoses et aspergillose
 
 L'aspergillome pulmonaire localisé :
@@ -2072,6 +2118,8 @@ B] Peut être révélé par une vomique
 C] L'image en grelot est objectivée sur la radiographie thoracique
 D] La chirurgie est le traitement de référence
 E] La corticothérapie inhalée est le traitement de référence
+
+Correction probable - SEPTEMBRE 2024 Q24 = A,B,C,D
 
 SEPTEMBRE 2024 Q25 - pneumopathies interstitielles diffuses
 
@@ -2083,6 +2131,8 @@ C] Un kyste hydatique
 D] Une pneumopathie d'hypersensibilité
 E] Une fibrose pulmonaire idiopathique
 
+Correction probable - SEPTEMBRE 2024 Q25 = A,B,D,E
+
 SEPTEMBRE 2024 Q26 - pneumopathies interstitielles diffuses
 
 Le Bilan au cours des PID comporte:
@@ -2092,6 +2142,8 @@ B] Une fibroscopie bronchique
 C] Un bilan immunologique
 D] Une plethysmographie
 E] Test de marche de 6 min
+
+Correction probable - SEPTEMBRE 2024 Q26 = A,B,C,D,E
 
 SEPTEMBRE 2024 Q27 - pneumopathies interstitielles diffuses
 
@@ -2103,6 +2155,8 @@ C] Un trouble ventilatoire obstructif non réversible
 D] Un trouble ventilatoire mixte
 E] Aucune des propositions n'est juste
 
+Correction probable - SEPTEMBRE 2024 Q27 = A
+
 SEPTEMBRE 2024 Q28 - pneumopathies interstitielles diffuses
 
 La fibrose pulmonaire idiopathique:
@@ -2112,6 +2166,8 @@ B] Le tabagisme et le reflux sont des facteurs de risque
 C] L'existence des cas familiaux est possible
 D] Les lésions radiologiques prédominent en basal et en sous pleural (aspect en rayon de miel)
 E] Se caractérise par une lymphocytose au LBA
+
+Correction probable - SEPTEMBRE 2024 Q28 = A,B,C,D
 
 SEPTEMBRE 2024 Q29 - pneumopathies interstitielles diffuses
 
@@ -2123,6 +2179,8 @@ C] Une Pneumopathie d'hypersensibilité
 D] Une connectivite (stade précoce)
 E] Une pneumopathie médicamenteuse
 
+Correction probable - SEPTEMBRE 2024 Q29 = A,C,D,E
+
 SEPTEMBRE 2024 Q30 - BPCO
 
 Les facteurs de risque de la BPCO sont:
@@ -2132,6 +2190,8 @@ B] La pollution atmosphérique
 C] L'exposition aux biomasses
 D] L'exposition allergénique
 E] Le déficit en alpha 1antitrypsine
+
+Correction probable - SEPTEMBRE 2024 Q30 = A,B,C,E
 
 SEPTEMBRE 2024 Q31 - BPCO
 
@@ -2143,6 +2203,8 @@ C] Des tests cutanés
 D] Une évaluation cardio-vasculaire
 E] Une spirométrie
 
+Correction probable - SEPTEMBRE 2024 Q31 = A,D,E
+
 SEPTEMBRE 2024 Q32 - BPCO
 
 Le traitement de fond de la BPCO des patients du groupe E est basé sur :
@@ -2152,6 +2214,8 @@ B] LABA seul
 C] SABA
 D] Corticothérapie inhalé
 E] Association SABA et corticothérapie inhalée
+
+Correction probable - SEPTEMBRE 2024 Q32 = A
 
 SEPTEMBRE 2024 Q33 - BPCO
 
@@ -2163,6 +2227,8 @@ C] L'oxygénothérapie est indiquée en cas d'hypoxémie
 D] La VNI est indiquée en cas d'hypercapnie
 E] en rapport avec un pneumothorax
 
+Correction probable - SEPTEMBRE 2024 Q33 = A,B,C,D
+
 SEPTEMBRE 2024 Q34 - pneumopathies interstitielles diffuses
 
 Les PID en rapport avec le tabac sont :
@@ -2172,6 +2238,8 @@ B] La pneumopathie desquamative
 C] L'histiocytose X
 D] La tuberculose pulmonaire commune
 E] La pneumopathie d'hypersensibilité
+
+Correction probable - SEPTEMBRE 2024 Q34 = B,C
 
 SEPTEMBRE 2024 Q35 - asthme
 
@@ -2183,6 +2251,8 @@ C] Le débit expiratoire de pointe est augmenté
 D] La spirométrie met en évidence un trouble ventilatoire obstructif réversible
 E] La spirométrie met en évidence un trouble ventilatoire restrictif
 
+Correction probable - SEPTEMBRE 2024 Q35 = A,B,D
+
 SEPTEMBRE 2024 Q36 - asthme
 
 Le contrôle de l'asthme est basé sur :
@@ -2192,6 +2262,8 @@ B] Les symptômes nocturnes
 C] La limitation d'activité
 D] La survenue des exacerbations
 E] La fonction respiratoires (VEMS/DEP)
+
+Correction probable - SEPTEMBRE 2024 Q36 = A,B,C,D,E
 
 SEPTEMBRE 2024 Q37 - cancer bronchiques
 
@@ -2203,6 +2275,8 @@ C] La fibroscopie bronchique
 D] La biopsie ganglionnaire
 E] La biopsie pleurale
 
+Correction probable - SEPTEMBRE 2024 Q37 = C
+
 SEPTEMBRE 2024 Q38 - pathologie du tabac
 
 Dans la cigarette la substance responsable de dépendance est:
@@ -2212,6 +2286,8 @@ B] La nicotine
 C] les goudrons
 D] Les irritants
 E] Les allergènes
+
+Correction probable - SEPTEMBRE 2024 Q38 = B
 
 SEPTEMBRE 2024 Q39 - BPCO
 
@@ -2223,6 +2299,8 @@ C] Evalue la sévérité de la BPCO
 D] Apprécie le pronostic
 E] Guide le choix thérapeutique
 
+Correction probable - SEPTEMBRE 2024 Q39 = A,B,C,D,E
+
 SEPTEMBRE 2024 Q40 - asthme
 
 Le bilan étiologique de certitude au cours de l'asthme est basé sur :
@@ -2232,6 +2310,8 @@ B] Les tests cutanés
 C] Le dosage des IgE spécifique
 D] NFS
 E] Les tests de provocation bronchique non spécifique
+
+Correction probable - SEPTEMBRE 2024 Q40 = B,C
 
 SEPTEMBRE 2024 Q41 - AAE et pneumopathie d'hypersensibilité
 
@@ -2243,6 +2323,8 @@ C] Fibrose pulmonaire idiopathique
 D] Pneumopathie d'hypersensibilité
 E] BPCO
 
+Correction probable - SEPTEMBRE 2024 Q41 = D
+
 SEPTEMBRE 2024 Q42 - sarcoidose
 
 La sarcoïdose est :
@@ -2252,6 +2334,8 @@ B] L'atteinte médiastino-pulmonaire est fréquente
 C] L'atteinte extra-pulmonaire est absente
 D] L'atteinte ganglionnaire médiastinale est unilatérale
 E] L'atteinte interstitielle prédomine aux bases et en sous pleurale
+
+Correction probable - SEPTEMBRE 2024 Q42 = A,B
 
 SEPTEMBRE 2024 Q43 - pneumoconioses
 
@@ -2263,6 +2347,8 @@ C] Asbestose
 D] Silicose
 E] Kyste hydatique
 
+Correction probable - SEPTEMBRE 2024 Q43 = A,B,C
+
 SEPTEMBRE 2024 Q44 - les traumatismes thoraciques
 
 Les plaies thoracique est dites pénétrante lorsqu'il y a ouverture de :
@@ -2272,6 +2358,8 @@ B] Tissu cutanée
 C] Le muscle intercostal
 D] La plèvre
 E] Muscle grand pectoral
+
+Correction probable - SEPTEMBRE 2024 Q44 = D
 
 SEPTEMBRE 2024 Q45 - pneumothorax
 
@@ -2283,6 +2371,8 @@ C] L'existence d'un bullage
 D] La surveillance des signes cliniques du malade
 E] La radiographie thoracique quotidiennement
 
+Correction probable - SEPTEMBRE 2024 Q45 = A,B,C,D,E
+
 SEPTEMBRE 2024 Q46 - les traumatismes thoraciques
 
 Lors d'un traumatisme du thorax, la survenue d'un pneumomédiastin:
@@ -2292,6 +2382,8 @@ B] Peut nécessiter la réalisation d'une bronchoscopie
 C] Peut s'accompagner d'un pneumothorax
 D] Nécessite une intervention chirurgicale d'emblée
 E] Evoque une lésion de l'isthme aortique
+
+Correction probable - SEPTEMBRE 2024 Q46 = A,B,C
 
 SEPTEMBRE 2024 Q47 - les traumatismes thoraciques
 
@@ -2303,6 +2395,8 @@ C] Sont plus fréquemment causées par les armes à feu
 D] Peuvent être responsable d'un épanchement liquidien
 E] Peuvent être responsable de lésions abdominales associées
 
+Correction probable - SEPTEMBRE 2024 Q47 = A,B,D,E
+
 SEPTEMBRE 2024 Q48 - pneumothorax
 
 Le Pneumothorax spontané secondaire :
@@ -2312,6 +2406,8 @@ B] Peut-être dû à une tuberculose pulmonaire.
 C] Se traduit sur la radiographie thoracique par une hyperclarté avasculaire
 D] Le traitement chirurgical est indispensable
 E] Présente un taux de récidive élevé
+
+Correction probable - SEPTEMBRE 2024 Q48 = B,C,E
 
 SEPTEMBRE 2024 Q49 - les traumatismes thoraciques
 
@@ -2323,6 +2419,8 @@ C] Atteints surtout le sujet âgé
 D] Les plais par balles sont les plus souvent en cause.
 E] Rentrent dans le cadre d'un polytraumatisme dans la plupart des cas.
 
+Correction probable - SEPTEMBRE 2024 Q49 = A,E
+
 SEPTEMBRE 2024 Q50 - les traumatismes thoraciques
 
 La fracture costale isolée :
@@ -2332,6 +2430,8 @@ B] Est responsable d'une respiration paradoxale
 C] Se définit par un fragment qui se désolidarise de la paroi thoracique.
 D] le traitement se base sur les antalgiques et le repos.
 E] Se traduit par une douleur exquise à la palpation.
+
+Correction probable - SEPTEMBRE 2024 Q50 = D,E
 
 ---
 

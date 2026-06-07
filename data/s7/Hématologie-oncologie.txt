@@ -1841,6 +1841,8 @@ C] 50%
 D] 70%
 E] 90%
 
+Correction probable - Octobre 2024 Q1 = E
+
 # Octobre 2024 Q2 - L'aplasie médullaire
 
 2. Devant une pancytopénie isolée sur le plan clinique, quel examen permet d'affirmer l'existence d'une aplasie médullaire ?
@@ -1850,6 +1852,8 @@ B] biopsie médullaire
 C] scintigraphie médullaire à l'iridium
 D] ferritinémie
 E] dosage de l'érythropoïétine sérique
+
+Correction probable - Octobre 2024 Q2 = B
 
 # Octobre 2024 Q3 - L'aplasie médullaire
 
@@ -1861,6 +1865,8 @@ C] une neutropénie
 D] une myélémie
 E] une lymphocytose
 
+Correction probable - Octobre 2024 Q3 = C
+
 # Octobre 2024 Q4 - L'aplasie médullaire
 
 4. Dans quelle pathologie on n'observe jamais d'adénopathies ?
@@ -1870,6 +1876,8 @@ B] l'aplasie médullaire
 C] la leucémie lymphoïde chronique
 D] la maladie d’Hodgkin
 E] le lymphome malin non Hodgkinien
+
+Correction probable - Octobre 2024 Q4 = B
 
 # Octobre 2024 Q5 - L'hémophilie
 
@@ -1881,6 +1889,8 @@ C] le TP est allongé
 D] un plâtre circulaire est indiqué si présence d'une hémarthrose
 E] les corticoïdes ont un effet antalgique
 
+Correction probable - Octobre 2024 Q5 = A
+
 # Octobre 2024 Q6 - Les leucémies
 
 6. L'observation de cellules blastiques vacuolisées est indispensable au diagnostic de :
@@ -1890,6 +1900,8 @@ B] lymphome de Burkitt
 C] leucémie aiguë myéloblastique
 D] lymphome anaplasique
 E] maladie d'Hodgkin
+
+Correction probable - Octobre 2024 Q6 = B
 
 # Octobre 2024 Q7 - Les leucémies
 
@@ -1901,6 +1913,8 @@ C] De la thyroïde
 D] Du myocarde
 E] Des surrénales
 
+Correction probable - Octobre 2024 Q7 = A,B
+
 # Octobre 2024 Q8 - Les leucémies
 
 8. De quelle hémopathie, parmi les suivantes, la présence de bâtonnets d'Auer dans le cytoplasme de cellules qui envahissent la moelle est-elle caractéristique ?
@@ -1910,6 +1924,8 @@ B] leucémie aiguë lymphoblastique
 C] leucémie à plasmocytes
 D] leucémie lymphoïde chronique
 E] leucémie myéloïde aiguë
+
+Correction probable - Octobre 2024 Q8 = E
 
 # Octobre 2024 Q9 - Les leucémies
 
@@ -1921,6 +1937,8 @@ C] imatinib mesylate
 D] hydroxyurée
 E] inhibiteur de la tyrosine kinase
 
+Correction probable - Octobre 2024 Q9 = C,E
+
 # Octobre 2024 Q10 - Les lymphome
 
 10. Les lymphomes les plus fréquents chez l'enfant sont :
@@ -1930,6 +1948,8 @@ B] Le mycosis fongoïde
 C] Le lymphome lymphoblastique
 D] Le lymphome de Burkitt
 E] les lymphomes indolents
+
+Correction probable - Octobre 2024 Q10 = C,D
 
 # Octobre 2024 Q11 - Les lymphome
 
@@ -1941,6 +1961,8 @@ C] 0,15
 D] 0,22
 E] 0,30
 
+Correction probable - Octobre 2024 Q11 = B
+
 # Octobre 2024 Q12 - Myélomes multiples
 
 12. Le signe radiologique spécifique d'une atteinte myélomateuse :
@@ -1950,6 +1972,8 @@ B] lacunes à l'emporte pièce
 C] ostéocondensation osseuse
 D] tassement vertébral
 E] aucune réponse n'est juste
+
+Correction probable - Octobre 2024 Q12 = B
 
 # Octobre 2024 Q13 - Myélomes multiples
 
@@ -1961,6 +1985,8 @@ C] Les cellules de Reed Sternberg
 D] Les mégaloblastes
 E] les cellules de Burkitt
 
+Correction probable - Octobre 2024 Q13 = B
+
 # Octobre 2024 Q14 - PTI
 
 14. Quel type d'hémorragie est inhabituel au cours d'un purpura thrombopénique idiopathique ?
@@ -1970,6 +1996,8 @@ B] ecchymoses
 C] hémorragies au fond d'œil
 D] bulles hémorragiques buccales
 E] hémarthroses
+
+Correction probable - Octobre 2024 Q14 = E
 
 # Octobre 2024 Q15 - PTI
 
@@ -1981,6 +2009,8 @@ C] Rituximab
 D] Agonistes des récepteurs à la thrombopoïétine
 E] immunosuppresseurs
 
+Correction probable - Octobre 2024 Q15 = A
+
 # Octobre 2024 Q16 - Les anémies
 
 16. Quels sont les étiologies d'une anémie hypochrome microcytaire ?
@@ -1990,6 +2020,8 @@ B] L'anémie inflammatoire
 C] La B-thalassémie hétérozygote
 D] L'anémie hémolytique
 E] L'anémie par carence martiale
+
+Correction probable - Octobre 2024 Q16 = B,C,E
 
 # Octobre 2024 Q17 - Les anémies
 
@@ -2001,6 +2033,8 @@ C] L'hypersplénisme
 D] La lithiase biliaire
 E] Le retard staturo-pondéral
 
+Correction probable - Octobre 2024 Q17 = A
+
 # Octobre 2024 Q18 - Les leucémies
 
 18. Citer les deux examens indispensables au diagnostic d'une leucémie lymphoïde chronique :
@@ -2010,6 +2044,8 @@ B] myélogramme
 C] Biopsie ostéomédullaire
 D] immunomarquage des lymphocytes
 E] électrophorèse des protides
+
+Correction probable - Octobre 2024 Q18 = A,D
 
 # Octobre 2024 Q19 - Les anémies
 
@@ -2021,6 +2057,8 @@ C] La diarrhée
 D] Les vomissements
 E] Les selles noirâtres
 
+Correction probable - Octobre 2024 Q19 = A,B,C,D,E
+
 # Octobre 2024 Q20 - Les anémies
 
 20. La durée du traitement d'une anémie par carence en vitamine B12 est :
@@ -2030,6 +2068,8 @@ B] de 4 mois
 C] un traitement à vie
 D] un traitement jusqu'à disparition des signes cliniques.
 E] un traitement jusqu'à normalisation de l'hémogramme
+
+Correction probable - Octobre 2024 Q20 = C
 
 # Octobre 2024 Q21 - Les leucémies
 
@@ -2041,6 +2081,8 @@ C] la leucémie myéloïde chronique
 D] la leucémie lymphoïde chronique
 E] le lymphome non Hodgkinien
 
+Correction probable - Octobre 2024 Q21 = D
+
 # Octobre 2024 Q22 - Les lymphome
 
 22. Quel est le profil immunohistochimique des cellules de Reed Sternberg dans la maladie d’Hodgkin ?
@@ -2050,6 +2092,8 @@ B] CD15 positif
 C] CD55 positif
 D] CD15 négatif
 E] CD59 positif
+
+Correction probable - Octobre 2024 Q22 = A,B
 
 # Octobre 2024 Q23 - Polyglobulie de vaquez
 
@@ -2061,6 +2105,8 @@ C] Prurit à l'eau
 D] Polynucléose neutrophile
 E] Splénomégalie
 
+Correction probable - Octobre 2024 Q23 = B
+
 # Octobre 2024 Q24 - Les anémies
 
 24. Quel est l'examen indispensable au diagnostic de drépanocytose?
@@ -2070,6 +2116,8 @@ B] le myélogramme
 C] la biopsie ostéomédullaire
 D] L'électrophorèse de l'hémoglobine
 E] Le bilan d'hémostase
+
+Correction probable - Octobre 2024 Q24 = D
 
 # Octobre 2024 Q25 - Myélomes multiples
 
@@ -2081,6 +2129,8 @@ C] anti-inflammatoire
 D] antibiotique
 E] anti-tumoral
 
+Correction probable - Octobre 2024 Q25 = A
+
 # Octobre 2024 Q26 - Transfusion sanguine
 
 26. Les qualifications du plasma frais congelé sont:
@@ -2090,6 +2140,8 @@ B] sécurisé
 C] phénotypé
 D] irradié
 E] d'aphérèse
+
+Correction probable - Octobre 2024 Q26 = A,B,E
 
 # Octobre 2024 Q27 - CIVD
 
@@ -2101,6 +2153,8 @@ C] un myélome multiple
 D] une leucémie aiguë à promyélocytes
 E] une maladie d'Hodgkin
 
+Correction probable - Octobre 2024 Q27 = D
+
 # Octobre 2024 Q28 - Les anémies
 
 28. Une réticulocytose élevée s'observe habituellement dans :
@@ -2110,6 +2164,8 @@ B] Sphérocytose héréditaire
 C] leucémie aiguë
 D] maladie de Biermer
 E] drépanocytose
+
+Correction probable - Octobre 2024 Q28 = B,E
 
 # Octobre 2024 Q29 - Les anémies
 
@@ -2121,6 +2177,8 @@ C] une carence en acide folique
 D] un éthylisme chronique
 E] une carence en vitamine B6
 
+Correction probable - Octobre 2024 Q29 = B
+
 # Octobre 2024 Q30 - Les anémies
 
 30. L'anémie de Biermer, avant tout traitement est :
@@ -2130,6 +2188,8 @@ B] normocytaire
 C] macrocytaire
 D] régénérative
 E] arégénérative
+
+Correction probable - Octobre 2024 Q30 = C,E
 
 # Octobre 2024 Q31 - radiothérapie
 
@@ -2141,6 +2201,8 @@ C] Est un accélérateur linéaire
 D] Est un appareil de radiologie simulant ce qu'on va irradier
 E] Est un appareil qui utilise des radiations ionisantes à visée thérapeutique
 
+Correction probable - Octobre 2024 Q31 = D
+
 # Octobre 2024 Q32 - radiothérapie
 
 32. Un accélérateur linéaire est: QCU
@@ -2150,6 +2212,8 @@ B] Un projecteur de sources radioactives comme l'Iridium
 C] Un appareil qui utilise des radiations ionisantes à yisée thérapeutiquev
 D] Un appareil de radiologie simulant ce qu'on va irradier
 E] Un appareil qui utilise une source de Cobalt 60
+
+Correction probable - Octobre 2024 Q32 = C
 
 # Octobre 2024 Q33 - radiothérapie
 
@@ -2161,6 +2225,8 @@ C] Sont dus à un phénomène de fibrose
 D] Surviennent au-delà de 6 mois après la fin du traitement
 E] Surviennent au-delà de 5 ans après la fin du traitement
 
+Correction probable - Octobre 2024 Q33 = A
+
 # Octobre 2024 Q34 - Bilan d'extension et classification des cancers
 
 34. La Tomographie par émission de positons (TEP): QCU
@@ -2170,6 +2236,8 @@ B] Présente une sensibilité faible dans la détection de l'atteinte ganglionna
 C] A comme indication le bilan d'extension du cancer basocellulaire
 D] Présente une sensibilité faible dans la détection des métastases à distance
 E] N'a pas comme indication le bilan d'extension des cancers bronchiques
+
+Correction probable - Octobre 2024 Q34 = A
 
 # Octobre 2024 Q35 - radiothérapie
 
@@ -2181,6 +2249,8 @@ C] Est une curiethérapie endoluminale
 D] Est une curiethérapie interstitielle
 E] N'est pas indiquée après la chirurgie
 
+Correction probable - Octobre 2024 Q35 = D
+
 # Octobre 2024 Q36 - radiothérapie
 
 36. Parmi les complications aiguës de la curiethérapie, on note: QCM
@@ -2190,6 +2260,8 @@ B] La thrombophlébite
 C] La nécrose cartilagineuse du nez
 D] La déchirure vaginalev
 E] La perforation utérine
+
+Correction probable - Octobre 2024 Q36 = D,E
 
 # Octobre 2024 Q37 - chimiothérapie
 
@@ -2201,6 +2273,8 @@ C] Les inhibiteurs du cycle cellulaire
 D] Les inhibiteurs des topo-isomérases
 E] Les anti-angiogéniques
 
+Correction probable - Octobre 2024 Q37 = A,B,D,E
+
 # Octobre 2024 Q38 - chimiothérapie
 
 38. La chimiothérapie fait partie du traitement systémique des cancers. Quelles sont les affirmations justes concernant le processus d'administration de la chimiothérapie?
@@ -2210,6 +2284,8 @@ B] Elle nécessite un bilan pré thérapeutique
 C] Elle doit se faire principalement par voie veineuse centrale
 D] Elle peut se faire en hôpital du jour ou en hospitalisation
 E] Elle nécessite une préparation au lit du malade
+
+Correction probable - Octobre 2024 Q38 = A,B,D,E
 
 # Octobre 2024 Q39 - chimiothérapie
 
@@ -2221,6 +2297,8 @@ C] Taxanes
 D] Inhibiteurs topoisomerase 1
 E] Anti-angiogéniques
 
+Correction probable - Octobre 2024 Q39 = A
+
 # Octobre 2024 Q40 - chimiothérapie
 
 40. Quelles sont les affirmations justes qui concernent la toxicité de la chimiothérapie?
@@ -2230,6 +2308,8 @@ B] Elle peut aussi être commune à toutes les molécules de chimiothérapie
 C] La toxicité liée à la chimiothérapie est uniquement une toxicité aiguë
 D] Elle peut survenir aussi quelques années après la fin de la chimiothérapie
 E] La toxicité neurologique est une complication commune à toutes les molécules de chimiothérapie
+
+Correction probable - Octobre 2024 Q40 = A,B,D
 
 # Octobre 2024 Q41 - thérapie ciblée
 
@@ -2241,6 +2321,8 @@ C] Ce sont des traitements spécifiques de la cellule tumorale
 D] Ce sont des traitements moins toxiques que la chimiothérapie
 E] Les thérapies ciblées se caractérisent par un spectre de toxicité particulier
 
+Correction probable - Octobre 2024 Q41 = A,B,C,D,E
+
 # Octobre 2024 Q42 - thérapie ciblée
 
 42. Le Bevacizumab est un anticorps monoclonal anti VEGF. Quelles sont les affirmations justes ?
@@ -2250,6 +2332,8 @@ B] C'est une protéine de haut poids moléculaire
 C] Il peut être administré par voie IVY
 D] Il a une demi vie courte
 E] Il est indiqué essentiellement pour le traitement du mélanome
+
+Correction probable - Octobre 2024 Q42 = A,B,C
 
 # Octobre 2024 Q43 - thérapie ciblée
 
@@ -2261,6 +2345,8 @@ C] Il administré par voie orale
 D] Sa toxicité principale est une toxicité cutanée
 E] Il est indiqué essentiellement pour le traitement du cancer colorectal RAS sauvage.
 
+Correction probable - Octobre 2024 Q43 = A,B,D,E
+
 # Octobre 2024 Q44 - Épidémiologie des cancers
 
 44. L'épidémiologie descriptive:
@@ -2270,6 +2356,8 @@ B] Permet d'étudier les facteurs de risques
 C] Permet à elle seule d'orienter les actions de santé publique
 D] Le recueil des données se fait à partir des registres des cancers
 E] Permet d'identifier les syndromes de prédispositions aux cancers
+
+Correction probable - Octobre 2024 Q44 = A,D
 
 # Octobre 2024 Q45 - Épidémiologie des cancers
 
@@ -2281,6 +2369,8 @@ C] Les sujets y sont inclus au moment de l'exposition
 D] Permettent l'étude simultanée de plusieurs hypothèses
 E] Leur principal avantage c'est l'absence de << Biais >>
 
+Correction probable - Octobre 2024 Q45 = B,D
+
 # Octobre 2024 Q46 - Douleur et Cancer
 
 46. La douleur cancéreuse :
@@ -2290,6 +2380,8 @@ B] Requiert une prise en charge unidimensionnelle
 C] Implique une évaluation subjective
 D] Est exclusivement de type nociceptive
 E] Implique une prise en charge par des moyens exclusivement médicamenteux
+
+Correction probable - Octobre 2024 Q46 = A,C
 
 # Octobre 2024 Q47 - Douleur et Cancer
 
@@ -2301,6 +2393,8 @@ C] Peut être d'origine iatrogène
 D] Est diagnostiquée après usage du questionnaire DN4
 E] Est traitée souvent par des antalgiques de palier 3
 
+Correction probable - Octobre 2024 Q47 = A,C,D,E
+
 # Octobre 2024 Q48 - Douleur et Cancer
 
 48. Le traitement de la douleur cancéreuse :
@@ -2310,6 +2404,8 @@ B] Impose toujours une évaluation par un tiers
 C] Nécessite l'implication du patient et de son entourage
 D] Est une approche dynamique qui impose une évaluation régulière
 E] Peut faire appel à une association de molécules de palier 2 & 3
+
+Correction probable - Octobre 2024 Q48 = C,D,E
 
 # Octobre 2024 Q49 - Hormonothérapie
 
@@ -2321,6 +2417,8 @@ C] Est un traitement efficace pour tous les cancers du sein
 D] Peut consister en l'administration de certaines hormones (effet additif)
 E] Ne présente aucun risque sur les patients
 
+Correction probable - Octobre 2024 Q49 = A,D
+
 # Octobre 2024 Q50 - Hormonothérapie
 
 50. L'hormonothérapie suppressive :
@@ -2330,6 +2428,8 @@ B] La castration en représente le seul moyen
 C] Génère des effets secondaires qui peuvent altérer la qualité de vie des patients
 D] S'adresse à tous les patients avec un cancer de la prostate au stade métastatique
 E] Ne peut jamais être confrontée à des résistances
+
+Correction probable - Octobre 2024 Q50 = C,D
 
 ---
 

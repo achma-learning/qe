@@ -1845,6 +1845,8 @@ C] une asthénospermie au spermogramme signifie un taux anormalement élevé de 
 D] une étude génétique est systématiquement demandée
 E] toute cause curable d'infertilité doit être traitée
 
+Correction probable - Juin 2024 Q1 = A,E
+
 # Juin 2024 Q2 - Vessie neurologique
 
 2. Le bilan urodynamique en présence d'une vessie neurologique :
@@ -1854,6 +1856,8 @@ B] permet l'étude des pressions vésicales lors du remplissage et du vidange
 C] permet le diagnostic d'une hypotonie sphinctérienne
 D] permet le diagnostic d'une dyssynergie vésico-sphinctérienne
 E] est rarement utile
+
+Correction probable - Juin 2024 Q2 = A,B,C,D
 
 # Juin 2024 Q3 - Infertilité masculine
 
@@ -1865,6 +1869,8 @@ C] doit être prescrit d'emblée en cas d'anomalies importantes du spermogramme
 D] comprend la FSH et la testostéronémie en première intention
 E] comprend systématiquement la prolactinémie et l'inhibine B
 
+Correction probable - Juin 2024 Q3 = A,B,C,D
+
 # Juin 2024 Q4 - Infection urinaire
 
 4. Le tableau clinique d'une pyélonéphrite aiguë simple comprend :
@@ -1874,6 +1880,8 @@ B] des signes digestifs parfois associées (vomissements, diarrhées).
 C] rarement une fièvre.
 D] un syndrome infectieux.
 E] un risque de complications locales ou généralisées en l'absence de traitement.
+
+Correction probable - Juin 2024 Q4 = A,B,D,E
 
 # Juin 2024 Q5 - Vessie neurologique
 
@@ -1885,6 +1893,8 @@ C] la neuromodulation S3
 D] L’autosondage
 E] les alphabloquants
 
+Correction probable - Juin 2024 Q5 = A,B,C,D
+
 # Juin 2024 Q6 - Vessie neurologique
 
 6. Parmi les éléments de surveillance d'une vessie neurologique on trouve:
@@ -1894,6 +1904,8 @@ B] la recherche d'un retentissement sur le haut appareil urinaire à l'échograp
 C] la créatininémie
 D] le bilan urodynamique
 E] l'examen cytobactériologique des urines
+
+Correction probable - Juin 2024 Q6 = A,B,C,D,E
 
 # Juin 2024 Q7 - Cancérologies
 
@@ -1905,6 +1917,8 @@ C] peut-être révélée par des lombalgies
 D] son diagnostic repose sur l'URO-TDM
 E] a pour traitement la néphro-urétérectomie.
 
+Correction probable - Juin 2024 Q7 = A,B,C,D,E
+
 # Juin 2024 Q8 - Anurie obstructive
 
 8. Devant une anurie obstructive et durant les premières heures se produisent plusieurs phénomènes inflammatoires au niveau des néphrons: lesquelles sont justes ?
@@ -1914,6 +1928,8 @@ B] Une augmentation de la vascularisation du parenchyme rénal
 C] Une dilatation des tubules avec aplatissement des cellules épithéliales
 D] Une diminution de la filtration glomérulaire
 E] Une expression de cytokines pro-inflammatoires
+
+Correction probable - Juin 2024 Q8 = A,C,D,E
 
 # Juin 2024 Q9 - RVR
 
@@ -1925,6 +1941,8 @@ C] Une douleur lombaire ascendante au moment de la miction
 D] une fièvre isolée chez l'enfant
 E] Une pyélonéphrite récidivante.
 
+Correction probable - Juin 2024 Q9 = B,C,D,E
+
 # Juin 2024 Q10 - IRA
 
 10. Afin d'étudier la fonction rénale, vous utilisez La formule de Cockcroft pour estimer la clairance de la créatinine. Quels sont les paramètres à prendre en considération ?
@@ -1934,6 +1952,8 @@ B] La diurèse de 24 h
 C] La taille de votre patient
 D] Le genre
 E] Le taux de créatinine sanguine
+
+Correction probable - Juin 2024 Q10 = A,D,E
 
 # Juin 2024 Q11 - Infection urinaire
 
@@ -1945,6 +1965,8 @@ C] une anomalie fonctionnelle de l'arbre urinaire
 D] un sujet diabétique
 E] une anomalie organique de l'arbre urinaire.
 
+Correction probable - Juin 2024 Q11 = A,C,D,E
+
 # Juin 2024 Q12 - Anurie obstructive
 
 12. Un patient âgé de 57 ans est hospitalisé pour une anurie obstructive sur des calculs de l'uretère lombaire bilatérale. Un drainage par deux sondes doubles J a été réalisé. Le patient relance une diurèse. Quelles sont les deux complications majeures à guetter chez ce patient ?
@@ -1954,6 +1976,8 @@ B] Une déshydratation
 C] Une hypernatrémie
 D] Une hypochlorémie
 E] Une hypokaliémie
+
+Correction probable - Juin 2024 Q12 = B,E
 
 # Juin 2024 Q13 - Torsion du cordon
 
@@ -1965,6 +1989,8 @@ C] L'orchidopexie bilatérale
 D] Le traitement antalgique (paracetamol)
 E] Les anti-inflammatoires
 
+Correction probable - Juin 2024 Q13 = A,C
+
 # Juin 2024 Q14 - HBP
 
 14. l’hypertrophie bénigne de la prostate
@@ -1974,6 +2000,8 @@ B] augmente les résistances périphériques à l'écoulement d'urine.
 C] peut se compliquer d'insuffisance rénale.
 D] ne présente pas de corrélation entre les symptômes et le volume de la prostate.
 E] dégénère vers un cancer de la prostate.
+
+Correction probable - Juin 2024 Q14 = A,B,C,D
 
 # Juin 2024 Q15 - RVR
 
@@ -1985,6 +2013,8 @@ C] De 60 à 70%
 D] De 80 à 90%
 E] Inférieur à 20%
 
+Correction probable - Juin 2024 Q15 = C
+
 # Juin 2024 Q16 - Lithiase urinaire
 
 16. L'évolution d'un calcul urinaire :
@@ -1994,6 +2024,8 @@ B] peut rester asymptomatique.
 C] peut être marquée par des infections urinaires récidivantes.
 D] peut être marquée par une dissolution spontanée sans traitement.
 E] peut se faire vers une insuffisance rénale chronique.
+
+Correction probable - Juin 2024 Q16 = A,B,C,E
 
 # Juin 2024 Q17 - Torsion du cordon
 
@@ -2005,6 +2037,8 @@ C] Il existe une fièvre à 38°c
 D] L'irradiation inguinale de la douleur
 E] Son traitement peut être médical.
 
+Correction probable - Juin 2024 Q17 = A,D
+
 # Juin 2024 Q18 - Lithiase urinaire
 
 18. Le bilan métabolique de la maladie lithiasique :
@@ -2014,6 +2048,8 @@ B] doit être de réalisation systématique chez le patient lithiasique.
 C] doit chercher d'éventuelles étiologies de la maladie lithiasique.
 D] comprends des examens biologiques sanguins et urinaires.
 E] joue un rôle essentiel dans la prise en charge du patient lithiasique.
+
+Correction probable - Juin 2024 Q18 = C,D,E
 
 # Juin 2024 Q19 - Incontinence urinaire
 
@@ -2025,6 +2061,8 @@ C] par urgenturie est précédée ou accompagnée d'urgence mictionnelle.
 D] peut survenir chez l'homme en rétention chronique d'urine.
 E] est diagnostiquée cliniquement
 
+Correction probable - Juin 2024 Q19 = A,B,C,D,E
+
 # Juin 2024 Q20 - Cancérologies
 
 20. La tumeur de la voie excrétrice supérieure (cocher la ou les prépositions juste:
@@ -2034,6 +2072,8 @@ B] est souvent un carcinome urothélial
 C] se développe aux dépens du parenchyme rénal.
 D] peut être associée à une tumeur vésicale.
 E] est traitée par néphrectomie élargie.
+
+Correction probable - Juin 2024 Q20 = A,B,D
 
 # Juin 2024 Q21 - HBP
 
@@ -2045,6 +2085,8 @@ C] permet de classer les patients en très symptomatiques entre 20 et 35.
 D] permet de classer les patients en peu symptomatiques entre 8 et 19.
 E] ne permet pas de suggérer une corrélation entre le degré des symptômes et le volume de la prostate.
 
+Correction probable - Juin 2024 Q21 = C,D,E
+
 # Juin 2024 Q22 - Incontinence urinaire
 
 22. L'incontinence urinaire par urgenturie se définit par (une seule réponse est juste):
@@ -2054,6 +2096,8 @@ B] une fuite d'urine au cours du sommeil.
 C] une fuite d'urine précédée ou accompagnée d'urgence mictionnelle.
 D] une fuite d'urine à vessie pleine.
 E] fuite d'urine involontaire associée à une urgence mictionnelle et également lors des activités physiques.
+
+Correction probable - Juin 2024 Q22 = C
 
 # Juin 2024 Q23 - Fistule uro génitale
 
@@ -2065,6 +2109,8 @@ C] La fistule urétéro-vaginale est la plus fréquente.
 D] Peuvent être traitées par voie vaginale ou voie haute, voire les deux.
 E] L'interposition de tissus bien vascularisés entre les deux plans est plus que souhaitable.
 
+Correction probable - Juin 2024 Q23 = D,E
+
 # Juin 2024 Q24 - Cancérologies
 
 24. Dans le cancer de la verge:
@@ -2074,6 +2120,8 @@ B] Le délai de diagnostic est très court.
 C] L'extension tumorale est très rapide.
 D] Le traitement peut être conservateur dans une grande majorité des cas.
 E] Des marges chirurgicales négatives lors de la biopsie sont d'une nécessité absolue.
+
+Correction probable - Juin 2024 Q24 = A,D
 
 # Juin 2024 Q25 - Cancérologies
 
@@ -2085,6 +2133,8 @@ C] Ont une croissance tumorale rapide par rapport aux séminomes.
 D] Peuvent donner des métastases exclusivement par voie lymphatique.
 E] Sont toutes sensibles à la radiothérapie et à la chimiothérapie.
 
+Correction probable - Juin 2024 Q25 = A,B,C
+
 # Juin 2024 Q26 - Tbk urogénital
 
 26. La tuberculose urinaire:
@@ -2094,6 +2144,8 @@ B] Atteint la voie excrétrice urinaire par vale canalaire à travers la papille
 C] Donne un tableau clinique de pyélonéphrite aigue récidivante aseptique très évocateur du diagnostic.
 D] Est toujours diagnostiquée par la mise en évidence du bacille tuberculeux dans les urines.
 E] Nécessite un bilan lésionnel par une uro-tomodensitométrie.
+
+Correction probable - Juin 2024 Q26 = A,B,C,E
 
 # Juin 2024 Q27 - GNA
 
@@ -2105,6 +2157,8 @@ C] un âge supérieur à 14 ans
 D] une hématurie macroscopique
 E] une anurie pendant plus de 3 jours
 
+Correction probable - Juin 2024 Q27 = A,E
+
 # Juin 2024 Q28 - GNA
 
 28. le traitement de la GNA post-infectieuse comporte:
@@ -2114,6 +2168,8 @@ B] les inhibiteurs calciques
 C] le repos au lit
 D] un régime normo salé
 E] la restriction hydrique
+
+Correction probable - Juin 2024 Q28 = A,C,E
 
 # Juin 2024 Q29 - Glomerulonephrite membrano proliferatif
 
@@ -2125,6 +2181,8 @@ C] les anomalies de la voie alterne du complément
 D] les dépôts de complexes immuns monoclonaux
 E] une IgA 1 circulante anormale
 
+Correction probable - Juin 2024 Q29 = A,B,C,D
+
 # Juin 2024 Q30 - Glomerulonephrite extra membraneuse
 
 30. la glomérulonephrite extramembraneuse est :
@@ -2134,6 +2192,8 @@ B] classiquement décrite entre 30 et 50 ans
 C] plus fréquente chez la femme
 D] associée aux anticorps anti-PLA2R dans sa forme primitive
 E] d'évolution imprévisible
+
+Correction probable - Juin 2024 Q30 = B,D,E
 
 # Juin 2024 Q31 - HSF
 
@@ -2145,6 +2205,8 @@ C] les anticalcineurines
 D] le rituximab
 E] les bolus de méthylprednisolone
 
+Correction probable - Juin 2024 Q31 = A,E
+
 # Juin 2024 Q32 - Nephro a igA
 
 32. la néphropathie à IgA est définie par la présence:
@@ -2154,6 +2216,8 @@ B] de dépôts mésangiaux d'IgA
 C] de humps
 D] d'une prolifération extracapillaire
 E] de dépôts de C1q
+
+Correction probable - Juin 2024 Q32 = B
 
 # Juin 2024 Q33 - Nephro a igA
 
@@ -2165,6 +2229,8 @@ C] le virus de l'immunodéfiscience humaine
 D] les hépatites virales
 E] la cirrhose alcoolique
 
+Correction probable - Juin 2024 Q33 = B,D
+
 # Juin 2024 Q34 - HSF
 
 34. les causes de la hyalinose segmentaire et focale secondaire sont:
@@ -2174,6 +2240,8 @@ B] l'héroïne
 C] le parvovirus B19
 D] l'obésité
 E] les anomalies génétiques des protéines podocytaires
+
+Correction probable - Juin 2024 Q34 = A,B,D,E
 
 # Juin 2024 Q35 - HSF
 
@@ -2185,6 +2253,8 @@ C] la race blanche
 D] la hyalinose segmentaire et focale collapsante
 E] le sexe féminin
 
+Correction probable - Juin 2024 Q35 = A,B,D
+
 # Juin 2024 Q36 - IRA
 
 36. les critères de définition de l’Insuffisance rénale aiguë sont:
@@ -2194,6 +2264,8 @@ B] une diurèse inférieure à 0.5ml/kg/h pendant plus de 6 heures
 C] augmentation de la créatinine sérique de plus de 3 mg/l en 48 heures
 D] L’augmentation de la créatinine sérique de plus de 50% en 7 jours
 E] une polyurie pendant plus de 6 heures
+
+Correction probable - Juin 2024 Q36 = A,B,C
 
 # Juin 2024 Q37 - Néphropathie tubulo interstitiel
 
@@ -2205,6 +2277,8 @@ C] Les pyélonéphrites chroniques secondaires aux infections bactériennes
 D] Les écrasements musculaires importants
 E] La goutte
 
+Correction probable - Juin 2024 Q37 = B,C,E
+
 # Juin 2024 Q38 - MRC
 
 38. Les insuffisances rénales chroniques avec hypocalcémie sont secondaire à:
@@ -2214,6 +2288,8 @@ B] Myélome
 C] Amylose
 D] Hémolyse
 E] Métastases osseuses
+
+Correction probable - Juin 2024 Q38 = A
 
 # Juin 2024 Q39 - Néphropathie tubulo interstitiel
 
@@ -2225,6 +2301,8 @@ C] Les cedèmes sont fréquents
 D] La protéinurie est très abondante et sélective
 E] La pression artérielle est très élevée
 
+Correction probable - Juin 2024 Q39 = A,B
+
 # Juin 2024 Q40 - MRC
 
 40. Les insuffisances rénales chroniques avec diminution de la taille rénale sont secondaire à:
@@ -2234,6 +2312,8 @@ B] Amylose.
 C] Hydronéphrose bilatérale
 D] La goutte
 E] Diabète
+
+Correction probable - Juin 2024 Q40 = A,E
 
 # Juin 2024 Q41 - Nephro lupique
 
@@ -2245,6 +2325,8 @@ C] Une surdité de perception
 D] Une leucocyturie sans germe
 E] Des anévrismes cérébraux
 
+Correction probable - Juin 2024 Q41 = A,B,D
+
 # Juin 2024 Q42 - Nephro lupique
 
 42. Les classes histologiques de la néphropathie lupique sont:
@@ -2254,6 +2336,8 @@ B] La néphropathie lupique extra-membraneuse qui est la classe 5
 C] La néphropathie lupique proliférative diffuse qui est la classe 3
 D] La néphropathie lupique proliférative focale qui est la classe 4
 E] La néphropathie lupique mésangiale minimale qui est la classe 1
+
+Correction probable - Juin 2024 Q42 = B,D,E
 
 # Juin 2024 Q43 - Nephro diabétique
 
@@ -2265,6 +2349,8 @@ C] Peut évoluer vers L'insuffisance rénale terminale
 D] Se manifeste initialement par une microalbuminurie
 E] Se manifeste initialement par une hématurie microscopique
 
+Correction probable - Juin 2024 Q43 = C,D
+
 # Juin 2024 Q44 - Nephro diabétique
 
 44. Au cours du diabète, la prévention de l'atteinte rénale :
@@ -2274,6 +2360,8 @@ B] Nécessite un bon contrôle tensionnel
 C] Nécessite de freiner le système rénine-angiotensine
 D] Nécessite l'arrêt du sport
 E] Ne nécessite aucune mesure thérapeutique
+
+Correction probable - Juin 2024 Q44 = A,B,C
 
 # Juin 2024 Q45 - Nephro héréditaire
 
@@ -2285,6 +2373,8 @@ C] Se traduit par une hématurie macroscopique récidivante
 D] Peut s'accompagner de chute de cheveux
 E] Peut se traduire par un syndrome néphrotique
 
+Correction probable - Juin 2024 Q45 = A,B,C,E
+
 # Juin 2024 Q46 - Glomerunephrite extra capillaire
 
 46. La maladie de Good Pasture:
@@ -2294,6 +2384,8 @@ B] Se traduit par un syndrome pneumo-rénal!
 C] Se traduit par une chute des cheveux
 D] Se traduit par des dépôts granuleux d'Immunoglobuline en immunofluorescence
 E] Nécessite un traitement par des échanges plasmatiques
+
+Correction probable - Juin 2024 Q46 = A,B,E
 
 # Juin 2024 Q47 - Amylose
 
@@ -2305,6 +2397,8 @@ C] Peut se traduire par un syndrome néphrotique
 D] Se traduit par une insuffisance rénale avec hematurie macroscopique
 E] Se traduit par une hypertension artérielle résistante au traitement
 
+Correction probable - Juin 2024 Q47 = A,C,E
+
 # Juin 2024 Q48 - Nephro héréditaire
 
 48. Les hématuries macroscopiques récidivantes peuvent être secondaire à :
@@ -2315,6 +2409,8 @@ C] Une néphropathie à IgA
 D] Une amylose rénale
 E] Une polykystose rénale
 
+Correction probable - Juin 2024 Q48 = A,C,E
+
 # Juin 2024 Q49 - Glomerunephrite extra capillaire
 
 49. La glomérulonephrite extra-capillaire (GNEC):
@@ -2324,6 +2420,8 @@ B] Ne justifie pas la réalisation d'une biopsie rénale pour faire le diagnosti
 C] Est représentée par les angéites nécrosantes dans 10% des cas
 D] Nécessite un traitement immunosuppresseur associé à une corticothérapie
 E] Nécessite un traitement par corticothérapie seule
+
+Correction probable - Juin 2024 Q49 = A,C,D
 
 # Juin 2024 Q50 - Glomerunephrite extra capillaire
 
@@ -2339,6 +2437,8 @@ E] Une lésion glomérulaire minime (LGM)
 
 // Novembre 2024 (Correction collective) : https://www.e-qe.online/exam/2b4dc1e8-e003-4a0e-92da-77b1f843f778
 
+Correction probable - Juin 2024 Q50 = B,C
+
 # Novembre 2024 Q1 - Tbk urogénital
 
 1. La tuberculose urinaire :
@@ -2348,6 +2448,8 @@ B] Atteint la voie excrétrice urinaire par voie canalaire à travers la papille
 C] Donne un tableau clinique de pyélonéphrite aiguë récidivante aseptique très évocateur du diagnostic.
 D] Est toujours diagnostiquée par la mise en évidence du bacille tuberculeux dans les urines.
 E] Nécessite un bilan lésionnel par une uro-tomodensitométrie.
+
+Correction probable - Novembre 2024 Q1 = A,B,C,E
 
 # Novembre 2024 Q2 - Cancérologies
 
@@ -2359,6 +2461,8 @@ C] peut-être révélée par des lombalgies.
 D] son diagnostic repose sur l'URO-TDM.
 E] a pour traitement la néphro-urétérectomie.
 
+Correction probable - Novembre 2024 Q2 = A,B,C,D,E
+
 # Novembre 2024 Q3 - RVR
 
 3. Pour quelles circonstances de découvertes on diagnostique le reflux vésico-rénal?
@@ -2368,6 +2472,8 @@ B] une insuffisance rénale chronique
 C] Une douleur lombaire ascendante au moment de la miction
 D] une fièvre isolée chez l'enfant
 E] Une pyélonéphrite récidivante.
+
+Correction probable - Novembre 2024 Q3 = B,C,D,E
 
 # Novembre 2024 Q4 - Cancérologies
 
@@ -2379,6 +2485,8 @@ C] L'extension tumorale est très rapide.
 D] Le traitement peut être conservateur dans une grande majorité des cas.
 E] Des marges chirurgicales négatives lors de la biopsie sont d'une nécessité absolue.
 
+Correction probable - Novembre 2024 Q4 = A,D
+
 # Novembre 2024 Q5 - Infection urinaire
 
 5. Les infections urinaires à risque de complications surviennent dans les situations suivantes :
@@ -2388,6 +2496,8 @@ B] un âge jeune.
 C] une anomalie fonctionnelle de l'arbre urinaire.
 D] un sujet diabétique.
 E] une anomalie organique de l'arbre urinaire.
+
+Correction probable - Novembre 2024 Q5 = A,C,D,E
 
 # Novembre 2024 Q6 - Anurie obstructive
 
@@ -2399,6 +2509,8 @@ C] Une hypernatrémie
 D] Une hypochlorémie
 E] Une hypokaliémie
 
+Correction probable - Novembre 2024 Q6 = B,E
+
 # Novembre 2024 Q7 - Infertilité masculine
 
 7. Chez un homme infertile
@@ -2408,6 +2520,8 @@ B] l'échographie urogénitale est rarement utile en première intention
 C] une asthénospermie au spermogramme signifie un taux anormalement élevé de spermatozoides anormaux
 D] une étude génétique est systémiquement demandée
 E] toute cause curable d'infertilité doit être traitée
+
+Correction probable - Novembre 2024 Q7 = A,E
 
 # Novembre 2024 Q8 - Anurie obstructive
 
@@ -2419,6 +2533,8 @@ C] Une dilatation des tubules avec aplatissement des cellules épithéliales
 D] Une diminution de la filtration glomérulaire
 E] Une expression de cytokines pro-inflammatoires
 
+Correction probable - Novembre 2024 Q8 = A,C,D,E
+
 # Novembre 2024 Q9 - Vessie neurologique
 
 9. Le bilan urodynamique en présence d'une vessie neurologique
@@ -2428,6 +2544,8 @@ B] permet l'étude des pressions vésicales lors du remplissage et du vidange
 C] permet le diagnostic d'une hypotonie sphinctérienne
 D] permet le diagnostic d'une dyssynergie vésico-sphinctérienne
 E] est rarement utile
+
+Correction probable - Novembre 2024 Q9 = A,B,C,D
 
 # Novembre 2024 Q10 - IRA
 
@@ -2439,6 +2557,8 @@ C] La taille de votre patient
 D] Le genre
 E] Le taux de créatinine sanguine
 
+Correction probable - Novembre 2024 Q10 = A,D,E
+
 # Novembre 2024 Q11 - Infertilité masculine
 
 11. Le bilan hormonal chez un homme infertile
@@ -2448,6 +2568,8 @@ B] doit être prescrit d'emblée en présence de signes d'hypogonadisme
 C] doit être prescrit d'emblée en cas d'anomalies importantes du spermogramme.
 D] comprend la FSH et la testostéronémie en première intention
 E] comprend systématiquement la prolactinémie et l'inhibine B
+
+Correction probable - Novembre 2024 Q11 = A,B,C,D
 
 # Novembre 2024 Q12 - Vessie neurologique
 
@@ -2459,6 +2581,8 @@ C] la neuromodulation S3
 D] l'autosondage
 E] les alphabloquants
 
+Correction probable - Novembre 2024 Q12 = A,B,C,D
+
 # Novembre 2024 Q13 - Torsion du cordon
 
 13. la prise en charge d'une torsion unilatérale du cordon spermatique survenue depuis 4 heures chez un adolescent de 14 ans est basé sur :
@@ -2468,6 +2592,8 @@ B] L'orchidectomie
 C] L'orchidopexie bilatérale
 D] Le traitement antalgique (paracétamol)
 E] Les anti-inflammatoires
+
+Correction probable - Novembre 2024 Q13 = A,C
 
 # Novembre 2024 Q14 - Infection urinaire
 
@@ -2479,6 +2605,8 @@ C] rarement une fièvre.
 D] un syndrome infectieux.
 E] un risque de complications locales ou généralisées en l'absence de traitement.
 
+Correction probable - Novembre 2024 Q14 = A,B,D,E
+
 # Novembre 2024 Q15 - HBP
 
 15. Le score de l'IPSS dans l'hypertrophie bénigne de la prostate (cocher les prépositions justes)
@@ -2488,6 +2616,8 @@ B] permet ce classement en reposant seulement sur les signes irritatifs.
 C] permet de classer les patients en très symptomatiques entre 20 et 35.
 D] permet de classer les patients en peu symptomatiques entre 8 et 19.
 E] ne permet pas de suggérer une corrélation entre le degré des symptômes et le volume de la prostate.
+
+Correction probable - Novembre 2024 Q15 = C,D,E
 
 # Novembre 2024 Q16 - Incontinence urinaire
 
@@ -2499,6 +2629,8 @@ C] une fuite d'urine précédée ou accompagnée d'urgence mictionnelle.
 D] une fuite d'urine à vessie pleine.
 E] fuite d'urine involontaire associée à une urgence mictionnelle et également lors des activités physiques.
 
+Correction probable - Novembre 2024 Q16 = C
+
 # Novembre 2024 Q17 - Vessie neurologique
 
 17. Parmi les éléments de surveillance d'une vessie neurologique on trouve
@@ -2508,6 +2640,8 @@ B] la recherche d'un retentissement sur le haut appareil urinaire à l'échograp
 C] la créatininémie
 D] le bilan urodynamique
 E] l'examen cytobactériologique des urines
+
+Correction probable - Novembre 2024 Q17 = A,B,C,D,E
 
 # Novembre 2024 Q18 - Fistule uro génitale
 
@@ -2519,6 +2653,8 @@ C] La fistule urétéro-vaginale est la plus fréquente.
 D] Peuvent être traitées par voie vaginale ou voie haute, voire les deux.
 E] L'interposition de tissus bien vascularisés entre les deux plans est plus que souhaitable
 
+Correction probable - Novembre 2024 Q18 = D,E
+
 # Novembre 2024 Q19 - Cancérologies
 
 19. Les tumeurs germinales non séminomateuses (TGNS) du testicule :
@@ -2528,6 +2664,8 @@ B] Peuvent contenir une composante tumorale séminomateuse.
 C] Ont une croissance tumorale rapide par rapport aux séminomes.
 D] Peuvent donner des métastases exclusivement par voie lymphatique.
 E] Sont toutes sensibles à la radiothérapie et à la chimiothérapie.
+
+Correction probable - Novembre 2024 Q19 = A,B,C
 
 # Novembre 2024 Q20 - HBP
 
@@ -2539,6 +2677,8 @@ C] peut se compliquer d'insuffisance rénale.
 D] ne présente pas de corrélation entre les symptômes et le volume de la prostate.
 E] dégénère vers un cancer de la prostate.
 
+Correction probable - Novembre 2024 Q20 = A,B,C,D
+
 # Novembre 2024 Q21 - RVR
 
 21. Le taux de disparition spontané du reflux primitif vésico-rénal grade III à l'âge de 5 ans est:
@@ -2548,6 +2688,8 @@ B] De 40 à 50%
 C] De 60 à 70%
 D] De 80 à 90%
 E] Inférieur à 20%
+
+Correction probable - Novembre 2024 Q21 = C
 
 # Novembre 2024 Q22 - Lithiase urinaire
 
@@ -2559,6 +2701,8 @@ C] peut être marquée par des infections urinaires récidivantes.
 D] peut être marquée par une dissolution spontanée sans traitement.
 E] peut se faire vers une insuffisance rénale chronique.
 
+Correction probable - Novembre 2024 Q22 = A,B,C,E
+
 # Novembre 2024 Q23 - Torsion du cordon
 
 23. Quelles sont les justes propositions de la torsion du cordon spermatique ?
@@ -2568,6 +2712,8 @@ B] Le signe de Prehn est positif
 C] Il existe une fièvre à 38°c
 D] L'irradiation inguinale de la douleur
 E] Son traitement peut être médical.
+
+Correction probable - Novembre 2024 Q23 = D,E
 
 # Novembre 2024 Q24 - Lithiase urinaire
 
@@ -2579,6 +2725,8 @@ C] doit chercher d'éventuelles étiologies de la maladie lithiasique.
 D] comprend des examens biologiques sanguins et urinaires.
 E] joue un rôle essentiel dans la prise en charge du patient lithiasique.
 
+Correction probable - Novembre 2024 Q24 = C,D,E
+
 # Novembre 2024 Q25 - Incontinence urinaire
 
 25. L'incontinence urinaire
@@ -2588,6 +2736,8 @@ B] est une affection fréquente, en particulier chez la femme.
 C] par urgenturie est précédée ou accompagnée d'urgence mictionnelle.
 D] peut survenir chez l'homme en rétention chronique d'urine.
 E] est diagnostiquée cliniquement.
+
+Correction probable - Novembre 2024 Q25 = A,B,C,D,E
 
 # Novembre 2024 Q26 - Cancérologies
 
@@ -2599,6 +2749,8 @@ C] se développe aux dépens du parenchyme rénal.
 D] peut être associée à une tumeur vésicale.
 E] est traitée par néphrectomie élargie.
 
+Correction probable - Novembre 2024 Q26 = A,B,D
+
 # Novembre 2024 Q27 - HSF
 
 27. les causes de la hyalinose segmentaire et focale secondaire sont :
@@ -2608,6 +2760,8 @@ B] l'héroïne
 C] le parvovirus B19
 D] l'obésité
 E] les anomalies génétiques des protéines podocytaires
+
+Correction probable - Novembre 2024 Q27 = A,B,D,E
 
 # Novembre 2024 Q28 - Glomerunephrite extra capillaire
 
@@ -2619,6 +2773,8 @@ C] Est représentée par les angéites nécrosantes dans 10% des cas
 D] Nécessite un traitement immunosuppresseur associé à une corticothérapie
 E] Nécessite un traitement par corticothérapie seule
 
+Correction probable - Novembre 2024 Q28 = A,D
+
 # Novembre 2024 Q29 - MRC
 
 29. Les insuffisances rénales chroniques avec hypocalcémie sont secondaire à :
@@ -2628,6 +2784,8 @@ B] Myélome
 C] Amylose.
 D] Hémolyse.
 E] Métastases osseuses.
+
+Correction probable - Novembre 2024 Q29 = A
 
 # Novembre 2024 Q30 - MRC
 
@@ -2639,6 +2797,8 @@ C] Hydronéphrose bilatérale.
 D] La goutte.
 E] Diabète.
 
+Correction probable - Novembre 2024 Q30 = A,E
+
 # Novembre 2024 Q31 - GNA
 
 31. les indications de la ponction biopsie rénale au cours de la GNA post-infectieuse au cours de la phase aigüe sont :
@@ -2648,6 +2808,8 @@ B] une hypocomplémentémie C3
 C] un âge supérieur à 14 ans
 D] une hématurie macroscopique
 E] une anurie pendant plus de 3 jours
+
+Correction probable - Novembre 2024 Q31 = A,E
 
 # Novembre 2024 Q32 - Amylose
 
@@ -2659,6 +2821,8 @@ C] Peut se traduire par un syndrome néphrotique
 D] Se traduit par une insuffisance rénale avec hématurie macroscopique
 E] Se traduit par une hypertension artérielle résistante au traitement
 
+Correction probable - Novembre 2024 Q32 = A,C,E
+
 # Novembre 2024 Q33 - HSF
 
 33. les facteurs de mauvais pronostic de la hyalinose segmentaire et focale sont :
@@ -2668,6 +2832,8 @@ B] l'insuffisance rénale
 C] la race blanche
 D] la hyalinose segmentaire et focale collapsante
 E] le sexe féminin
+
+Correction probable - Novembre 2024 Q33 = A,B,D
 
 # Novembre 2024 Q34 - Glomerulonephrite membrano proliferatif
 
@@ -2679,6 +2845,8 @@ C] les anomalies de la voie alterne du complément
 D] les dépôts de complexes immuns monoclonaux
 E] une IgA 1 circulante anormale
 
+Correction probable - Novembre 2024 Q34 = A,B,C,D
+
 # Novembre 2024 Q35 - Néphropathie tubulo interstitiel
 
 35. Parmi les étiologies des néphrites tubulo-interstitielles chroniques on retient :
@@ -2688,6 +2856,8 @@ B] Les uropathies malformatives.
 C] Les pyélonéphrites chroniques secondaires aux infections bactériennes.
 D] Les écrasements musculaires importants.
 E] La goutte.
+
+Correction probable - Novembre 2024 Q35 = B,C,E
 
 # Novembre 2024 Q36 - Glomerulonephrite extra membraneuse
 
@@ -2699,6 +2869,8 @@ C] plus fréquente chez la femme
 D] associée aux anticorps anti-PLA2R dans sa forme primitive
 E] d'évolution imprévisible
 
+Correction probable - Novembre 2024 Q36 = B,D,E
+
 # Novembre 2024 Q37 - Nephro a igA
 
 37. la néphropathie à IgA est définie par la présence:
@@ -2708,6 +2880,8 @@ B] de dépôts mésangiaux d'IgA
 C] de humps
 D] d'une prolifération extracapillaire
 E] de dépôts de C1q
+
+Correction probable - Novembre 2024 Q37 = B
 
 # Novembre 2024 Q38 - Nephro lupique
 
@@ -2719,6 +2893,8 @@ C] Une surdité de perception
 D] Une leucocyturie sans germe
 E] Des anévrysmes cérébraux
 
+Correction probable - Novembre 2024 Q38 = A,B,D
+
 # Novembre 2024 Q39 - Nephro a igA
 
 39. les deux principales formes secondaires de la néphropathie à IgA sont :
@@ -2728,6 +2904,8 @@ B] la vascularite à IgA
 C] le virus de l'immunodéficience humaine
 D] les hépatites virales
 E] la cirrhose alcoolique
+
+Correction probable - Novembre 2024 Q39 = B,D
 
 # Novembre 2024 Q40 - Nephro lupique
 
@@ -2739,6 +2917,8 @@ C] La néphropathie lupique proliférative diffuse qui est la classe 3
 D] La néphropathie lupique proliférative focale qui est la classe 4
 E] La néphropathie lupique mésangiale minimale qui est la classe 1
 
+Correction probable - Novembre 2024 Q40 = B,D,E
+
 # Novembre 2024 Q41 - HSF
 
 41. le traitement de la première poussée du syndrome néphrotique de la hyalinose segmentaire et focale:
@@ -2748,6 +2928,8 @@ B] le cyclophosphamide
 C] les anticalcineurines
 D] le rituximab
 E] les bolus de méthylprednisolone
+
+Correction probable - Novembre 2024 Q41 = A,E
 
 # Novembre 2024 Q42 - Nephro diabétique
 
@@ -2759,6 +2941,8 @@ C] Peut évoluer vers l'insuffisance rénale terminale
 D] Se manifeste initialement par une microalbuminurie
 E] Se manifeste initialement par une hématurie microscopique
 
+Correction probable - Novembre 2024 Q42 = C,D
+
 # Novembre 2024 Q43 - GNA
 
 43. le traitement de la GNA post-infectieuse comporte:
@@ -2768,6 +2952,8 @@ B] les inhibiteurs calciques
 C] le repos au lit
 D] un régime normo salé
 E] la restriction hydrique
+
+Correction probable - Novembre 2024 Q43 = A,C,E
 
 # Novembre 2024 Q44 - Nephro diabétique
 
@@ -2779,6 +2965,8 @@ C] Nécessite de freiner le système rénine-angiotensine
 D] Nécessite l'arrêt du sport
 E] Ne nécessite aucune mesure thérapeutique
 
+Correction probable - Novembre 2024 Q44 = A,B,C
+
 # Novembre 2024 Q45 - Glomerunephrite extra capillaire
 
 45. La maladie de Good pasture:
@@ -2788,6 +2976,8 @@ B] Se traduit par un syndrome pneumo-rénal
 C] Se traduit par une chute des cheveux
 D] Se traduit par des dépôts granuleux d'Immunoglobuline en immunofluorescence
 E] Nécessite un traitement par des échanges plasmatiques
+
+Correction probable - Novembre 2024 Q45 = A,B,E
 
 # Novembre 2024 Q46 - Nephro héréditaire
 
@@ -2799,6 +2989,8 @@ C] Une néphropathie à IgA
 D] Une amylose rénale
 E] Une polykystose rénale
 
+Correction probable - Novembre 2024 Q46 = A,C,E
+
 # Novembre 2024 Q47 - Glomerunephrite extra capillaire
 
 47. Les glomérulonéphrite extra-capillaire (GNEC) peuvent secondaire à:
@@ -2808,6 +3000,8 @@ B] Une glomérulonéphrite post-infectieuse
 C] Un purpura rhumatoïde
 D] Une glomérulonéphrite extra-membraneuse
 E] Une lésion glomérulaire minime (LGM)
+
+Correction probable - Novembre 2024 Q47 = B,C
 
 # Novembre 2024 Q48 - Néphropathie tubulo interstitiel
 
@@ -2819,6 +3013,8 @@ C] Les œdèmes sont fréquents.
 D] La protéinurie est très abondante et sélective.
 E] La pression artérielle est très élevée.
 
+Correction probable - Novembre 2024 Q48 = A,B
+
 # Novembre 2024 Q49 - IRA
 
 49. les critères de définition de l'insuffisance rénale aigue sont :
@@ -2829,6 +3025,8 @@ C] l'augmentation de la créatinine sérique de plus de 3 mg/l en 48 heures
 D] l'augmentation de la créatinine sérique de plus de 50% en 7 jours
 E] une polyurie pendant plus de 6 heures
 
+Correction probable - Novembre 2024 Q49 = A,B,C
+
 # Novembre 2024 Q50 - Nephro héréditaire
 
 50. La polykystose rénale :
@@ -2838,6 +3036,8 @@ B] Se traduit par une hypertension artérielle
 C] Se traduit par une hématurie macroscopique récidivante
 D] Peut s'accompagner de chute de cheveux
 E] Peut se traduire par un syndrome néphrotique
+
+Correction probable - Novembre 2024 Q50 = A,B,C
 
 ---
 
@@ -8277,6 +8477,8 @@ C] Poussées abdominales
 D] Gouttes retardataires
 E] Besoins impérieux
 
+Correction probable - Mai 2019 Q1 = B,E
+
 # Mai 2019 Q2 - HBP
 
 2. Le score de l'IPSS dans l'hypertrophie bénigne de la prostate:
@@ -8286,6 +8488,8 @@ B] Permet ce classement en reposant seulement sur les signes obstructifs
 C] Permet de classer les patients en très symptomatiques entre 20 et 35
 D] Permet de classer les patients en peu symptomatiques entre 8 et 19
 E] Ne Permet pas de suggérer une corrélation entre le degré des symptômes et le volume de la prostate
+
+Correction probable - Mai 2019 Q2 = A,C,D,E
 
 # Mai 2019 Q3 - HBP
 
@@ -8297,6 +8501,8 @@ C] Est indiquée en cas de PSA > à 4 ng/ml chez un homme de <70 ans
 D] Est Indiquée systématiquement après l'age de 60 ans
 E] Est réalisée par voie endorectale
 
+Correction probable - Mai 2019 Q3 = A,B,C,E
+
 # Mai 2019 Q4 - Cancérologies
 
 4. Chez un homme <de 70 ans bien portant atteint d'un cancer de la prostate stade T2M0, gleason 7 cocher ses options thérapeutiques:
@@ -8306,6 +8512,8 @@ B] La simple surveillance
 C] Hormonothérapie
 D] La radiothérapie prostatique
 E] La résection endoscopique de la prostate
+
+Correction probable - Mai 2019 Q4 = A,D
 
 # Mai 2019 Q5 - Cancérologies
 
@@ -8317,6 +8525,8 @@ C] Hypertrophie bénigne de la prostate
 D] Cancer de la prostate
 E] Tumeur de la voie excrétrice supérieure
 
+Correction probable - Mai 2019 Q5 = B,E
+
 # Mai 2019 Q6 - Cancérologies
 
 6. Tous les examens complémentaires suivants permettent une orientation diagnostique sauf un, cocher la proposition fausse :
@@ -8326,6 +8536,8 @@ B] L'échographie vésicale
 C] La biopsie de la prostate
 D] L'échographie rénale
 E] L'urographie intraveineuse (UV)
+
+Correction probable - Mai 2019 Q6 = C
 
 # Mai 2019 Q7 - Cancérologies
 
@@ -8337,6 +8549,8 @@ C] La néphro-urétérectomie droite
 D] La néphrectomie partielle droite
 E] La simple tumorectomie
 
+Correction probable - Mai 2019 Q7 = B
+
 # Mai 2019 Q8 - HBP
 
 8. L'hypertrophie bénigne de la prostate
@@ -8346,6 +8560,8 @@ B] Augmente les résistances périphériques à l'écoulement d'urine.
 C] Peut se compliquer d'insuffisance rénale.
 D] Présente de corrélation entre les symptômes et lo volume de la prostate.
 E] Dégénère vers un cancer de la prostate.
+
+Correction probable - Mai 2019 Q8 = B,C
 
 # Mai 2019 Q9 - Cancérologies
 
@@ -8357,6 +8573,8 @@ C] Est fréquemment un adénocarcinome á cellules Claires.
 D] Sa forme sarcomatoïde est la plus agressive.
 E] La triade (hématurie, douleur et masse Lombaire) est rare.
 
+Correction probable - Mai 2019 Q9 = B,C,D
+
 # Mai 2019 Q10 - Cancérologies
 
 10. La tumeur de la voie excrétrice supérieure (cocher la ou les prépositions justes).
@@ -8366,6 +8584,8 @@ B] Est souvent un carcinome urothélial.
 C] Se développe au dépens de parenchyme rénal
 D] Peut être associée à une tumeur vésicale
 E] Traitée par néphro-urétérectomie.
+
+Correction probable - Mai 2019 Q10 = A,B,D,E
 
 # Mai 2019 Q11 - Infection urinaire
 
@@ -8377,6 +8597,8 @@ C] E.Coli est le germe le plus fréquent
 D] Les secrétions de la prostate chez l'homme peuvent favoriser la prostatite
 E] La pyélonéphrite doit être traité au maximum par 21 jours d'antibiotiques
 
+Correction probable - Mai 2019 Q11 = B,C,D
+
 # Mai 2019 Q12 - Infection urinaire
 
 12. L'examen physique au cours de la pyélonéphrite aiguë peut montrer:
@@ -8386,6 +8608,8 @@ B] Une contracture abdominale
 C] Une défense de la fosse lombaire
 D] Des marbrures cutanées
 E] Une hématurie avec caillots de sang
+
+Correction probable - Mai 2019 Q12 = A,C,D
 
 # Mai 2019 Q13 - Incontinence urinaire
 
@@ -8397,6 +8621,8 @@ C] L'obésité
 D] La toux chronique
 E] L'anémie
 
+Correction probable - Mai 2019 Q13 = C,D
+
 # Mai 2019 Q14 - Incontinence urinaire
 
 14. L'incontinence urinaire se produit parce que :
@@ -8406,6 +8632,8 @@ B] La vessie se contracte et se vide sans pouvoir la contrôler
 C] Il y a une fistule vésico-utérine
 D] Il y a une dyssynergie vésico sphinctérienne
 E] Il y a une fistule vésico vaginale
+
+Correction probable - Mai 2019 Q14 = A,B,E
 
 # Mai 2019 Q15 - Fistule uro génitale
 
@@ -8417,6 +8645,8 @@ C] Extractions instrumentales traumatiques (forceps)
 D] Plaie vésicale au cours d'une césarienne
 E] Radiothérapie du cancer du col utérin
 
+Correction probable - Mai 2019 Q15 = A,B,C,D
+
 # Mai 2019 Q16 - Traumatisme
 
 16. La prise en charge du traumatisme rénal Grade 3 et 4 Dépend:
@@ -8426,6 +8656,8 @@ B] L'existence de lésions associées
 C] La gravité des lésions observées sur les examens complémentaires
 D] De la sévérité de l'hématurie
 E] Des résultats de L'ECBU
+
+Correction probable - Mai 2019 Q16 = A,B,C
 
 # Mai 2019 Q17 - Traumatisme
 
@@ -8437,6 +8669,8 @@ C] La réparation peut faire appel à Suture termino-terminale
 D] La réparation peut faire appel à Réimplantation urótéro-vésicale
 E] La réparation peut faire appel à Plastie urétérale par l'intestin
 
+Correction probable - Mai 2019 Q17 = A,B,C,D,E
+
 # Mai 2019 Q18 - Lithiase urinaire
 
 18. Au cours de la lithiase urinaire, quelles sont les propositions JUSTES ?
@@ -8446,6 +8680,8 @@ B] L'hypercalciurie rénale peut être due résorption osseuse
 C] Le bilan biologique de première intention comporte dans le sang le dosage de la calcémie, de la créatinine et de l'uricémie
 D] Un calcul radio-opaque peut être un calcul d'acide urique
 E] Le traitement de la colique néphrétique fait appel aux céphalosporines en première intention
+
+Correction probable - Mai 2019 Q18 = C,D
 
 # Mai 2019 Q19 - Kyste hydatique
 
@@ -8457,6 +8693,8 @@ C] Son développement au niveau de la médullaire
 D] Une sérologie hydatique positive dans 60% des cas
 E] Une hématurie
 
+Correction probable - Mai 2019 Q19 = A,E
+
 # Mai 2019 Q20 - Kyste hydatique
 
 20. Parmi les complications du kyste hydatique du rein, on note:
@@ -8466,6 +8704,8 @@ B] La rupture dans les voies excrétrices
 C] La surinfection du kyste
 D] La colique néphrétique
 E] L'insuffisance rénale chronique
+
+Correction probable - Mai 2019 Q20 = A,B,C,D
 
 # Mai 2019 Q21 - Tbk urogénital
 
@@ -8477,6 +8717,8 @@ C] La recherche de BK urinaire à la fin du traitement anti-bacillaire
 D] Une sérologie HIV
 E] Un suivie biologique par le dosage de la PCR
 
+Correction probable - Mai 2019 Q21 = A,B,C,D
+
 # Mai 2019 Q22 - retricissement sclero-inflammatoire de l'uretre
 
 22. Devant une sténose scléro-inflammatoire de l'urètre:
@@ -8486,6 +8728,8 @@ B] le diagnostic repose sur l'uréthro-cystographie rétrograde mictionnelle
 C] le traitement est médicale si la lésion ne dépasse pas 1 cm
 D] I'uréthrotomie interne est indiquée pour des lésions de plus de 25 mm
 E] I'uréthroscopie est systématique au diagnostic
+
+Correction probable - Mai 2019 Q22 = A,B
 
 # Mai 2019 Q23 - Lithiase urinaire
 
@@ -8497,6 +8741,8 @@ C] des anti-inflammatoires non stéroïdiens
 D] des antibiotiques
 E] des corticoïdes
 
+Correction probable - Mai 2019 Q23 = B,C
+
 # Mai 2019 Q24 - JPU
 
 24. -Parmi les circonstances de découvertes du syndrome de jonction pyélo-urétérale, on retrouve:
@@ -8506,6 +8752,8 @@ B] une crise de colique néphrétique
 C] une hématurie
 D] une échographie rénale faites dans le cadre de troubles digestifs
 E] une tumeur rénale
+
+Correction probable - Mai 2019 Q24 = A,B,C,D
 
 # Mai 2019 Q25 - Lithiase urinaire
 
@@ -8517,6 +8765,8 @@ C] un examen cyto-bactériologique des urines
 D] une hospitalisation
 E] un scanner spiralé sans Injection puis avec injection
 
+Correction probable - Mai 2019 Q25 = B,C,D,E
+
 # Mai 2019 Q26 - Infection urinaire
 
 26. Un homme consulte pour des brûlures mictionnelles avec fièvre à 39°C, on doit évoquer :
@@ -8526,6 +8776,8 @@ B] Une cystite aiguë
 C] Une orchi-épididymite
 D] Une urétrite à gonocoque
 E] Une prostatite aiguë
+
+Correction probable - Mai 2019 Q26 = A,C,E
 
 # Mai 2019 Q27 - Infertilité masculine
 
@@ -8537,6 +8789,8 @@ C] Est primaire: lorsque le couple n'a jamais pu obtenir de grossesse.
 D] Est secondaire: lorsque le couple a déjà obtenu une ou des grossesses.
 E] Est d'origine masculine dans environ un tiers des cas
 
+Correction probable - Mai 2019 Q27 = A,C,D,E
+
 # Mai 2019 Q28 - Infertilité masculine
 
 28. Les causes d'infertilité masculine peuvent être :
@@ -8546,6 +8800,8 @@ B] Sécrétoires
 C] Excrétoires
 D] Secondaires à des troubles éjaculatoires
 E] Secondaires à une dysfonction érectile
+
+Correction probable - Mai 2019 Q28 = A,B,D
 
 # Mai 2019 Q29 - Infertilité masculine
 
@@ -8557,6 +8813,8 @@ C] Une cause endocrinienne
 D] Une cause testiculaire
 E] Une altération extrinsèque des spermatozoides
 
+Correction probable - Mai 2019 Q29 = A,C,D
+
 # Mai 2019 Q30 - Infertilité masculine
 
 30. Les examens complémentaires de première Intention devant une infertilité masculine sont
@@ -8566,6 +8824,8 @@ B] Le lest de Migration-Survie
 C] Le bilan hormonal
 D] L'étude génétique
 E] Écho testiculaire.
+
+Correction probable - Mai 2019 Q30 = A,C,E
 
 # Mai 2019 Q31 - MRC
 
@@ -8577,6 +8837,8 @@ C] L'insuffisance rénale est fréquente
 D] La rétention hydro sodée est fréquente
 E] Il faudra chercher un reflux vésico-urétéral
 
+Correction probable - Mai 2019 Q31 = A,C,D
+
 # Mai 2019 Q32 - Nephro diabétique
 
 32. Au cours du diabète, l'activation du système rénine angiotensine est responsable:
@@ -8586,6 +8848,8 @@ B] D'une protéinuRIe
 C] D'un bon control tensionnel
 D] Des dysfonctions tubulaires
 E] D'une expansion mésangiale
+
+Correction probable - Mai 2019 Q32 = A,B,D,E
 
 # Mai 2019 Q33 - Amylose
 
@@ -8597,6 +8861,8 @@ C] S'accompagne d'une hypotension artérielle
 D] Est une protéine à configuration en feuillets bêta plissée
 E] Relève d'un traitement immunosuppresseur
 
+Correction probable - Mai 2019 Q33 = B,D
+
 # Mai 2019 Q34 - Nephro diabétique
 
 34. Au cours de la néphropathie diabétique:
@@ -8606,6 +8872,8 @@ B] Le stade de « Néphropathie avérée »> correspond à une protéinurie de 2
 C] Les reins sont de taille normale à l'échographie
 D] Les patients sont souvent hypertendus
 E] Le control glycémique n'a aucun bénéfice à ce stade
+
+Correction probable - Mai 2019 Q34 = A,B,C,D
 
 # Mai 2019 Q35 - Nephro lupique
 
@@ -8617,6 +8885,8 @@ C] Peut être Segmentaire ou globale
 D] Peut être isolée ou associée à une autre classe histologique
 E] Est de très mauvais pronostic rénal
 
+Correction probable - Mai 2019 Q35 = A,C,D
+
 # Mai 2019 Q36 - Nephro diabétique
 
 36. La microalbuminurie:
@@ -8626,6 +8896,8 @@ B] Est détectée par les dosages colorimétriques
 C] Doit être recherchée, quand la bandelette urinaire est positive chez le diabétique
 D] Est un marqueur de dysfonction endothéliale
 E] Doit être contrôlée tous les 3 mois
+
+Correction probable - Mai 2019 Q36 = A,D,E
 
 # Mai 2019 Q37 - Nephro héréditaire
 
@@ -8637,6 +8909,8 @@ C] Peut s'accompagner d'anévrismes cérébraux
 D] Peut s'accompagner des diverticuloses coliques
 E] Peut s'accompagner de lithiases rénales
 
+Correction probable - Mai 2019 Q37 = C,D,E
+
 # Mai 2019 Q38 - Nephro lupique
 
 38. La biopsie rénale au cours du lupus:
@@ -8646,6 +8920,8 @@ B] Est optionnelle pour le pronostic et le traitement
 C] Peut dire répétitive pour un suivi des patients
 D] Doit être faite systématiquement à la fin du traitement
 E] Permet une classification en 6 classes histologiques
+
+Correction probable - Mai 2019 Q38 = A,C,E
 
 # Mai 2019 Q39 - MRC
 
@@ -8657,6 +8933,8 @@ C] Nécessite un dépistage à la recherche d'un sédiment urinaire actif
 D] Nécessite un dépistage régulier chez les diabétiques
 E] Nécessite un dépistage régulier en cas de néphropathie familiale
 
+Correction probable - Mai 2019 Q39 = D,E
+
 # Mai 2019 Q40 - Nephro héréditaire
 
 40. La maladie d'alport
@@ -8666,6 +8944,8 @@ B] Est une maladie héréditaire de transmission dominante liée à l'X
 C] Se traduit par une maculopathie pigmentaire
 D] Se traduit par une hématurie macroscopique récidivante
 E] Est une excellente indication à la transplantation rénale à partir de donneur vivant.
+
+Correction probable - Mai 2019 Q40 = B,C,E
 
 # Mai 2019 Q41 - GNA
 
@@ -8677,6 +8957,8 @@ C] un syndrome néphritique aigu
 D] un syndrome néphrotique impur
 E] un syndrome néphrotique pur
 
+Correction probable - Mai 2019 Q41 = C
+
 # Mai 2019 Q42 - GNA
 
 42. Les examens complémentaires à demander sont:
@@ -8686,6 +8968,8 @@ B] créatinine plasmatique
 C] anticorps antinucléaires et anticorps anti DNA
 D] complément sérique C3 et C4
 E] examen cytobactériologique des urines
+
+Correction probable - Mai 2019 Q42 = A,B,C,D,E
 
 # Mai 2019 Q43 - GNA
 
@@ -8697,6 +8981,8 @@ C] le sexe masculin
 D] l'âge
 E] les urines bouillon sale
 
+Correction probable - Mai 2019 Q43 = B,D
+
 # Mai 2019 Q44 - GNA
 
 44. Les signes histologiques objectivés à la ponction-biopsie rénale chez ce patient sont :
@@ -8706,6 +8992,8 @@ B] une inflammation glomérulaire non suppurative diffuse
 C] des spicules sur le versant externe de la paroi capillaire
 D] une prolifération endocapillaire avec parfois une prolifération extracapillaire
 E] des dépôts glomérulaires du complément C3
+
+Correction probable - Mai 2019 Q44 = B,D,E
 
 # Mai 2019 Q45 - GNA
 
@@ -8717,6 +9005,8 @@ C] les inhibiteurs calciques
 D] Les diurétiques anti-aldostérone
 E] le repos au lit
 
+Correction probable - Mai 2019 Q45 = A,B,E
+
 # Mai 2019 Q46 - Lgm
 
 46. Patiente âgée de 5 ans ayant dans ses antécédents une rhinite allergique et qui présente pour la première fois des œdèmes des membres inférieurs sans autres signes associés (tension artérielle normale et absence d'hématurie macroscopique). Le bilan biologique montre un syndrome néphrotique pur à 100 mg/kg/jour.le premier diagnostic à évoquer chez cette patiente est
@@ -8726,6 +9016,8 @@ B] la hyalinose segmentaire et focale
 C] la néphropathie à IgA
 D] la lésion glomérulaire minime
 E] Amylose rénale
+
+Correction probable - Mai 2019 Q46 = D
 
 # Mai 2019 Q47 - Lgm
 
@@ -8737,6 +9029,8 @@ C] la corticothérapie associée aux immunosuppresseurs
 D] les bolus de méthylprednisolone
 E] les immunosuppresseurs seuls
 
+Correction probable - Mai 2019 Q47 = B
+
 # Mai 2019 Q48 - Lgm
 
 48. le traitement symptomatique du syndrome néphrotique est :
@@ -8746,6 +9040,8 @@ B] le régime sans sel
 C] les diurétiques de l'anse
 D] la vitamine D
 E] la corticothérapie
+
+Correction probable - Mai 2019 Q48 = B,C,D
 
 # Mai 2019 Q49 - Lgm
 
@@ -8757,6 +9053,8 @@ C] trois bolus de méthylprednisolone avec corticothérapie orale
 D] la corticothérapie orale
 E] aucun traitement
 
+Correction probable - Mai 2019 Q49 = D
+
 # Mai 2019 Q50 - Lgm
 
 50. les complications du syndrome néphrotique chez cette patiente sont :
@@ -8766,6 +9064,8 @@ B] péritonite
 C] dyslipidémie
 D] insuffisance rénale aiguë
 E] malnutrition
+
+Correction probable - Mai 2019 Q50 = A,B,C,D,E
 
 ---
 

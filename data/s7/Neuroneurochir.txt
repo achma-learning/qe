@@ -1844,6 +1844,8 @@ C] Le BK est un bacille acido alcoolo résistant
 D] Le diagnostic de confirmation est la mise en évidence de nécrose caséeuse
 E] Le traitement est uniquement médical
 
+Correction probable - Octobre 2024 Q1 = B,C
+
 # Octobre 2024 Q2 - Pathologies infectieuses du système nerveux central
 
 2. Le traitement chirurgical de la tuberculose cérébral est indiqué si :
@@ -1853,6 +1855,8 @@ B] Échec du traitement médical
 C] Doute diagnostic
 D] Présence d'une hydrocéphalie.
 E] Ne doit pas être associé à un traitement anti bacillaire
+
+Correction probable - Octobre 2024 Q2 = A,B,C,D
 
 # Octobre 2024 Q3 - Pathologies infectieuses du système nerveux central
 
@@ -1864,6 +1868,8 @@ C] L'absence de vaccination par le BCG
 D] Le contage tuberculeux
 E] L'antécédent personnel ou familial de tuberculose
 
+Correction probable - Octobre 2024 Q3 = C,D,E
+
 # Octobre 2024 Q4 - Pathologies infectieuses du système nerveux central
 
 4. Les empyèmes cérébraux
@@ -1873,6 +1879,8 @@ B] Peuvent être secondaire à une otite infectieuse
 C] Le traitement associe une antibiothérapie, un traitement symptomatique et le traitement de la porte d'entrée
 D] Une porte d'entrée doit être systématiquement recherché
 E] Touche uniquement les sujets immunocompétents
+
+Correction probable - Octobre 2024 Q4 = B,C,D
 
 # Octobre 2024 Q5 - Pathologies traumatiques
 
@@ -1884,6 +1892,8 @@ C] Inférieur à 10
 D] Inférieur à 11
 E] Inférieur à 3
 
+Correction probable - Octobre 2024 Q5 = A
+
 # Octobre 2024 Q6 - Pathologies traumatiques
 
 6. Parmi les lésions suivantes, lesquelles relèvent d'un traitement chirurgical?
@@ -1893,6 +1903,8 @@ B] Une contusion cérébrale ne
 C] Une plaie cranio cérébrale
 D] Un hématome intra parenchymateux profond sans effet de masse
 E] Un hématome sous dural chronique
+
+Correction probable - Octobre 2024 Q6 = A,C,E
 
 # Octobre 2024 Q7 - Pathologies traumatiques
 
@@ -1904,6 +1916,8 @@ C] Une fracture cervicale tear drop
 D] Une fracture pathologique C3
 E] Une fracture de plusieurs apophyses transverses New
 
+Correction probable - Octobre 2024 Q7 = B,C
+
 # Octobre 2024 Q8 - Les craniosténoses
 
 8. Un syndrome de Crouzon:
@@ -1913,6 +1927,8 @@ B] Est une craniosténose sporadique
 C] Est une maladie fréquente
 D] Est une microcéphalie
 E] Ne nécessite pas de chirurgie
+
+Correction probable - Octobre 2024 Q8 = A
 
 # Octobre 2024 Q9 - Pathologies tumorales du système nerveux central
 
@@ -1924,6 +1940,8 @@ C] Est souvent une tumeur vermienne
 D] Nécessite une radiothérapie
 E] E-est de bon pronostic
 
+Correction probable - Octobre 2024 Q9 = C,E
+
 # Octobre 2024 Q10 - Pathologies tumorales du système nerveux central
 
 10. Parmi les tumeurs suivantes, lesquelles se développent dans la fosse cérébrale postérieure ?
@@ -1933,6 +1951,8 @@ B] Le glioblastome
 C] Le méningiome
 D] L'épendymome
 E] Le médulloblastome
+
+Correction probable - Octobre 2024 Q10 = D,E
 
 # Octobre 2024 Q11 - Pathologies tumorales du système nerveux central
 
@@ -1944,6 +1964,8 @@ C] Peut-être diffus et multiple
 D] Nécessite une chirurgie suivie de chimiothérapie
 E] Est souvent de mauvais pronostic
 
+Correction probable - Octobre 2024 Q11 = B,C
+
 # Octobre 2024 Q12 - Pathologies tumorales du système nerveux central
 
 12. Le glioblastome
@@ -1953,6 +1975,8 @@ B] Est une tumeur bien circonscrite
 C] Peut être révélée par une hémorragie
 D] Peut atteindre l'adulte et l'enfant
 E] Nécessite une chirurgie, radiothérapie et chimiothérapie
+
+Correction probable - Octobre 2024 Q12 = A,C,D,E
 
 # Octobre 2024 Q13 - Pathologies traumatiques
 
@@ -1964,6 +1988,8 @@ C] Une méningite
 D] Une hydrocéphalie
 E] Une fistule de LCR
 
+Correction probable - Octobre 2024 Q13 = A,B,C,D,E
+
 # Octobre 2024 Q14 - Pathologies traumatiques
 
 14. Quelles complications peuvent survenir chez un opéré du rachis ?
@@ -1973,6 +1999,8 @@ B] Une spondylodiscite
 C] Une instabilité vertébrale
 D] Une fistule de LCR
 E] Une ischémie médullaire
+
+Correction probable - Octobre 2024 Q14 = A,B,C,D,E
 
 # Octobre 2024 Q15 - Pathologies tumorales du système nerveux central
 
@@ -1984,6 +2012,8 @@ C] Le médulloblastome
 D] La glioblastome
 E] Le craniopharyngiome
 
+Correction probable - Octobre 2024 Q15 = C,E
+
 # Octobre 2024 Q16 - Pathologies tumorales du système nerveux central
 
 16. Parmi ces tumeurs, lesquelles se développent surtout dans l'étage sous-tentoriel?
@@ -1993,6 +2023,8 @@ B] Le méningiome
 C] L'oligodendrogliome
 D] Le médulloblastome
 E] Le kyste épidermoïde
+
+Correction probable - Octobre 2024 Q16 = D
 
 # Octobre 2024 Q17 - Sciatique par hernie discale
 
@@ -2004,6 +2036,8 @@ C] un signe de la sonnette positif
 D] Une image d'une hernie discale à l'imagerie
 E] Une raideur rachidienne lombaire
 
+Correction probable - Octobre 2024 Q17 = A
+
 # Octobre 2024 Q18 - Pathologies vasculaires intracrâniennes
 
 18. La ou les complications majeure (s) à craindre devant une hémorragie méningée par rupture d'anévrisme est (sont):
@@ -2013,6 +2047,8 @@ B] Epilepsie
 C] Ischémie cérébrale
 D] Hydrocéphalie
 E] Démence
+
+Correction probable - Octobre 2024 Q18 = A,C,D
 
 # Octobre 2024 Q19 - Syndrome de queue de cheval
 
@@ -2024,6 +2060,8 @@ C] Des mictions impérieuses
 D] Une anesthésie en selle
 E] Une abolition des réflexes achilléens
 
+Correction probable - Octobre 2024 Q19 = C,D,E
+
 # Octobre 2024 Q20 - Pathologies vasculaires intracrâniennes
 
 20. La ou les causes d'un hématome intracérébral spontané est (sont):
@@ -2033,6 +2071,8 @@ B] Un athérome carotidien
 C] Une syphilis
 D] Un traitement médical par la vitamine K
 E] Une tumeur cérébrale
+
+Correction probable - Octobre 2024 Q20 = A,E
 
 # Octobre 2024 Q21 - Syndrome de compression médullaire
 
@@ -2044,6 +2084,8 @@ C] La ponction lombaire s'impose en urgence
 D] Les troubles sphinctériens sont précoces .
 E] L'atteinte neurologique peut être réversible
 
+Correction probable - Octobre 2024 Q21 = A,E
+
 # Octobre 2024 Q22 - Spina bifida
 
 22. Concernant les spina bifida aperta:
@@ -2053,6 +2095,8 @@ B] Le risque de retard psychomoteur est mineur.
 C] Les Méningocèles sont de bon pronostic neurologique.
 D] Le diagnostic positif peut être effectué par une échographie ou une IRM anténatale
 E] Le traitement préventif repose sur la vitamine
+
+Correction probable - Octobre 2024 Q22 = C,D,E
 
 # Octobre 2024 Q23 - Les hydrocéphalies
 
@@ -2064,6 +2108,8 @@ C] Le regard en coucher de soleil est un signe précoce
 D] L'échographie transfontanellaire permet de poser le diagnostic
 E] La dérivation ventriculo-péritonéale et la ventriculocisternostomie sont les moyens thérapeutiques les plus utilisés
 
+Correction probable - Octobre 2024 Q23 = A,C,D,E
+
 # Octobre 2024 Q24 - Les hydrocéphalies
 
 24. Le tableau clinique de l'hydrocéphalie active de l'enfant est dominé par :
@@ -2073,6 +2119,8 @@ B] Une triade d'Adams Hakim
 C] Des céphalées
 D] Des vomissements
 E] Un oedème papillaire au fond d'oeil
+
+Correction probable - Octobre 2024 Q24 = A,C,D,E
 
 # Octobre 2024 Q25 - Malformations congénitales du système nerveux central
 
@@ -2084,6 +2132,8 @@ C] La myélopathie cervicarthrosique nerveuse.
 D] La syringomyélie et la syringobulbie
 E] La platybasie
 
+Correction probable - Octobre 2024 Q25 = A,E
+
 # Octobre 2024 Q26 - Pathologies neuromusculaires
 
 26. Un garçon de 12 ans, présente depuis l'âge de 3 ans, une fatigabilité à monter les escaliers, à courir. Parmi les signes cliniques suivants, lequel ou lesquels est ou sont en faveur d'un syndrome myogène ?
@@ -2093,6 +2143,8 @@ B] Une marche dandinante
 C] Des réflexes ostéo-tendineux vifs
 D] La présence d'un signe de Gowers
 E] La présence d'un signe de Tabouret
+
+Correction probable - Octobre 2024 Q26 = A,B,D,E
 
 # Octobre 2024 Q27 - Pathologies neuromusculaires
 
@@ -2104,6 +2156,8 @@ C] Un Dosage des anticorps antirécepteurs à l'acétylcholine
 D] Une Étude génétique
 E] Une Biopsie musculaire
 
+Correction probable - Octobre 2024 Q27 = A,B,D,E
+
 # Octobre 2024 Q28 - Pathologies neuromusculaires
 
 28. Ce patient est confiné au fauteuil roulant, et le dosage de la créatine kinase est à 10000 UI (Normal 200 UI), Quel diagnostic évoqueriez-vous ?
@@ -2113,6 +2167,8 @@ B] Myopathie inflammatoire
 C] Myopathie de Becker
 D] Myopathie fascio scapulo humérale
 E] Aucune proposition
+
+Correction probable - Octobre 2024 Q28 = A
 
 # Octobre 2024 Q29 - Pathologies neuromusculaires
 
@@ -2124,6 +2180,8 @@ C] Une kinésithérapie pour prévenir les rétractions
 D] Un bilan cardiaque
 E] Un bilan respiratoire
 
+Correction probable - Octobre 2024 Q29 = A,C,D,E
+
 # Octobre 2024 Q30 - Pathologies neurologiques périphériques
 
 30. La prise en charge de Polyradiculonévrite aiguë autoimmune (Syndrome de Guillain Barré) nécessite :
@@ -2133,6 +2191,8 @@ B] Un Bolus de Corticoïdes
 C] Cure d'Immunoglobulines ou séances de plasmaphérèse
 D] Une cure de cyclophosphamide (Endoxan)
 E] Rééducation motrice des 4 membres
+
+Correction probable - Octobre 2024 Q30 = A,C,E
 
 # Octobre 2024 Q31 - La SLA
 
@@ -2144,6 +2204,8 @@ C] ROT vifs
 D] Un syndrome de corne antérieur diffus à l'ENMG
 E] Aucune proposition
 
+Correction probable - Octobre 2024 Q31 = A,B,C,D
+
 # Octobre 2024 Q32 - La SLA
 
 32. Quels sont les signes négatifs de la sclérose latérale amyotrophique :
@@ -2153,6 +2215,8 @@ B] Absence de paralysie oculo-motrice
 C] Absence de troubles sphinctériens.
 D] Présence d'amyotrophie
 E] Aucune proposition
+
+Correction probable - Octobre 2024 Q32 = A,B,C
 
 # Octobre 2024 Q33 - La SLA
 
@@ -2164,6 +2228,8 @@ C] Electroneuromyographie
 D] Etude du liquide cérébro spinale LCR,
 E] Biopsie musculaire
 
+Correction probable - Octobre 2024 Q33 = A,B,C
+
 # Octobre 2024 Q34 - Pathologies neurologiques périphériques
 
 34. Patient de 55 ans, sans antécédents particuliers, présentait le mois de janvier 2023 des fourmillements de la main droite, le mois de Mars, une faiblesse du pied gauche et douleur neuropathique. Examen clinique : hypoesthésie au territoire du nerf médian droit et déficit de la flexion dorsale du pied gauche et ROT abolis en achilléen gauche. Quel diagnostic évoqueriez vous chez ce patient?
@@ -2173,6 +2239,8 @@ B] Neuropathie périphérique des petites fibres
 C] Polyneuropathie
 D] Polyradiculoneuropathie
 E] Syndrome du canal tarsien
+
+Correction probable - Octobre 2024 Q34 = A
 
 # Octobre 2024 Q35 - Pathologies neurologiques périphériques
 
@@ -2184,6 +2252,8 @@ C] NFS, VS, CRP
 D] Biopsie nerveuse
 E] TDM thoraco abdominopelvienne
 
+Correction probable - Octobre 2024 Q35 = A,B,C
+
 # Octobre 2024 Q36 - Neuro-behçet
 
 36. Patient de 34 ans, qui présente depuis quelques jours de façon subaiguë, une faiblesse de l'hémicorps gauche. L'interrogatoire note la présence d'épisodes d'aphtoses buccale et génitale à raison de 7/an. A l'examen vous retrouvez un syndrome hémi pyramidal gauche avec atteinte du III droit. Quelle topographie peut expliquer les symptômes du patient:
@@ -2193,6 +2263,8 @@ B] Hémi Bulbe gauche
 C] Mésencéphale droit
 D] Capsule interne droite
 E] Mésencéphale gauche
+
+Correction probable - Octobre 2024 Q36 = C
 
 # Octobre 2024 Q37 - Neuro-behçet
 
@@ -2204,6 +2276,8 @@ C] Neurobehçet
 D] SEP
 E] Processus infectieux
 
+Correction probable - Octobre 2024 Q37 = A,C,D,E
+
 # Octobre 2024 Q38 - Neuro-behçet
 
 38. Selon les critères internationaux du Behçet, le patient présente un score de :
@@ -2213,6 +2287,8 @@ B] 3
 C] 5
 D] 4
 E] 6
+
+Correction probable - Octobre 2024 Q38 = C
 
 # Octobre 2024 Q39 - Le syndrom Parkinsonien
 
@@ -2224,6 +2300,8 @@ C] L'asymétrie du degré d'atteinte
 D] Le tremblement de repos
 E] La réponse à la L-dopa
 
+Correction probable - Octobre 2024 Q39 = C,D,E
+
 # Octobre 2024 Q40 - Le syndrom Parkinsonien
 
 40. Le bilan à faire chez ce patient comprendra
@@ -2233,6 +2311,8 @@ B] TPHA/VDRL
 C] Dosage des métaux lourds
 D] Le bilan cuprique
 E] Aucun bilan n'est nécessaire
+
+Correction probable - Octobre 2024 Q40 = A,B,D
 
 # Octobre 2024 Q41 - Le syndrom Parkinsonien
 
@@ -2244,6 +2324,8 @@ C] L'amantadine
 D] Les anticholinergiques
 E] La chirurgie
 
+Correction probable - Octobre 2024 Q41 = A,B,C,E
+
 # Octobre 2024 Q42 - La SEP
 
 42. La ou les atteintes suivantes sont suggestives de la sclérose en plaques: SEP
@@ -2253,6 +2335,8 @@ B] Un syndrome pyramidal sans déficit moteur
 C] Des troubles sensitifs syringomyéliques
 D] Paralysie faciale périphérique
 E] Un syndrome de sclérose combinée de la moelle
+
+Correction probable - Octobre 2024 Q42 = A,B,E
 
 # Octobre 2024 Q43 - Les épilepsies
 
@@ -2264,6 +2348,8 @@ C] Les absences infantiles avec à l'EEG des bouffées généralisées à 3 cycl
 D] Toutes les épilepsies partielles de l'enfant
 E] Les épilepsies à paroxysmes rolandiques
 
+Correction probable - Octobre 2024 Q43 = B,C,E
+
 # Octobre 2024 Q44 - Les AVCs
 
 44. Le traitement d'un AVC ischémique massif sur artérite syphilitique, chez un sujet âgé de 55 ans, avec IMC à 35 et hyperlipidémie doit comporter:
@@ -2273,6 +2359,8 @@ B] Une statine
 C] 100 mg d'Aspirine
 D] De l'extencilline pendant 2 mois
 E] Un traitement anticoagulant à visée hypocoagulante
+
+Correction probable - Octobre 2024 Q44 = A,B,C,D
 
 # Octobre 2024 Q45 - Les AVCs
 
@@ -2284,6 +2372,8 @@ C] Une thrombolyse
 D] Un anti hypertenseur
 E] Un traitement anticoagulant à visée hypocoagulante, si absence de troubles de conscience
 
+Correction probable - Octobre 2024 Q45 = A,D
+
 # Octobre 2024 Q46 - Les démences
 
 46. La ou les démences suivantes est (sont) incurables
@@ -2293,6 +2383,8 @@ B] La démence par déficit en vitamine B12
 C] La démence d'Alzheimer
 D] La démence due à une hydrocéphalie chronique de l'adulte
 E] La démence de Huntington
+
+Correction probable - Octobre 2024 Q46 = C,E
 
 # Octobre 2024 Q47 - Les épilepsies
 
@@ -2304,6 +2396,8 @@ C] Un état intellectuel inférieur à la normale
 D] Une sensibilité uniquement aux nouveaux produits antiépileptiques
 E] Réponse positive au traitement dans 50%
 
+Correction probable - Octobre 2024 Q47 = A,E
+
 # Octobre 2024 Q48 - Les démences
 
 48. Parmi les critères cliniques suivants, lequel ou lesquels sont évocateurs d'une démence :
@@ -2313,6 +2407,8 @@ B] Troubles praxiques isolés depuis 13 mois
 C] Troubles mnésiques minimes ne gênant pas l'activité de patient depuis 1 an
 D] Troubles confusionnels gênant le patient
 E] Isolement du patient, refus de répondre aux questions et idées noires depuis 7 mois
+
+Correction probable - Octobre 2024 Q48 = A,B
 
 # Octobre 2024 Q49 - Les épilepsies
 
@@ -2324,6 +2420,8 @@ C] Valproate de sodium
 D] Diazépam (Valium*)
 E] Lévétiracétam (Keppra*)
 
+Correction probable - Octobre 2024 Q49 = C,D,E
+
 # Octobre 2024 Q50 - Les troubles de sommeil
 
 50. Le ou les diagnostics à évoquer chez un enfant de 15 ans, se met en grincer les dents pendant la nuit de façon stéréotypée, tout en étant endormi:
@@ -2333,6 +2431,8 @@ B] Un trouble du sommeil paradoxal
 C] Un bruxisme
 D] Une épilepsie frontale
 E] Une simulation
+
+Correction probable - Octobre 2024 Q50 = C
 
 ---
 
@@ -7180,6 +7280,8 @@ C] Une myélopathie cervico-arthrosique.
 D] Urie SLA (sclérose latérale amyotrophique )
 E] Un astrocytome.
 
+Correction probable - Ratt 2018 Q1 = A,B
+
 # Ratt 2018 Q2 - Pathologies vasculaires intracrâniennes
 
 2. Cas clinique : Une patiente âgée de 45 ans, est admise pour une suspicion d'hémorragie méningée spontanée. Quel (s) examen (s) demanderiez-vous pour confirmer ce diagnostic ?
@@ -7189,6 +7291,8 @@ B] Un EEG
 C] Une artériographie cérébrale.
 D] Un bilan d'hémostase.
 E] Des potentiels évoqués du tronc cérébral.
+
+Correction probable - Ratt 2018 Q2 = A
 
 # Ratt 2018 Q3 - Pathologies vasculaires intracrâniennes
 
@@ -7200,6 +7304,8 @@ C] Une artériographie cérébrale.
 D] Une ponction lombaire.
 E] Des potentiels évoqués du tronc cérébral.
 
+Correction probable - Ratt 2018 Q3 = C
+
 # Ratt 2018 Q4 - Pathologies vasculaires intracrâniennes
 
 4. Au cours de son hospitalisation, cette patiente s'est aggravée cliniquement. Que faut-il craindre ?
@@ -7209,6 +7315,8 @@ B] Un resaignement.
 C] Une ischémie cérébrale.
 D] Une Cécité.
 E] Une hydrocéphalie.
+
+Correction probable - Ratt 2018 Q4 = B,C,E
 
 # Ratt 2018 Q5 - Syndrome de queue de cheval
 
@@ -7220,6 +7328,8 @@ C] Une anesthésie anale et des organes  génitaux externes.
 D] Des fasciculations linguales.
 E] Un clonus rotulien
 
+Correction probable - Ratt 2018 Q5 = C
+
 # Ratt 2018 Q6 - Pathologies infectieuses du système nerveux central
 
 6. La ou les principales causes d'un abcès cérébral est (sont) :
@@ -7229,6 +7339,8 @@ B] Une endocardite.
 C] une otite.
 D] Un athérome carotidien
 E] Une plaie crânio- cérébrale
+
+Correction probable - Ratt 2018 Q6 = B,C,E
 
 # Ratt 2018 Q7 - Syndrome de compression médullaire
 
@@ -7240,6 +7352,8 @@ C] La ponction lombaire s' impose en urgence
 D] Les troubles sphinctériens sont précoces
 E] L'atteinte neurologique peut être réversible
 
+Correction probable - Ratt 2018 Q7 = B,E
+
 # Ratt 2018 Q8 - Pathologies traumatiques
 
 8. Un patient est admis en urgence pour un traumatisme crânien. II ne parle pas, n'ouvre pas les yeux et réagit en décérébration. Son score de glasgow est de :
@@ -7249,6 +7363,8 @@ B] 4/15
 C] 5/15
 D] 6/15
 E] 7/15
+
+Correction probable - Ratt 2018 Q8 = B
 
 # Ratt 2018 Q9 - Pathologies traumatiques
 
@@ -7260,6 +7376,8 @@ C] Un Œdème cérébral
 D] Une brèche ostéoméningée avec rhinorrhée
 E] Une plaie crânio-cérébrale par balle
 
+Correction probable - Ratt 2018 Q9 = A,D,E
+
 # Ratt 2018 Q10 - Pathologies traumatiques
 
 10. Parmi les lésions traumatiques suivantes, la ou lesquelles nécessite (ent) un traitement chirurgical ?
@@ -7269,6 +7387,8 @@ B] Une fracture de l'arc postérieure de C1 sans déficit neurologique
 C] Une plaie vertébro-médullaire par arme blanche
 D] Une luxation C4C5
 E] Une contusion médullaire avec hernie discale cervicale
+
+Correction probable - Ratt 2018 Q10 = A,B,C,D,E
 
 # Ratt 2018 Q11 - Pathologies traumatiques
 
@@ -7280,6 +7400,8 @@ C] Une luxation L2L3
 D] Une hernie discale T5 T6 avec atteinte ligamentaire
 E] Une fracture arthro-pédiculaire de T12
 
+Correction probable - Ratt 2018 Q11 = B,C,D,E
+
 # Ratt 2018 Q12 - Les craniosténoses
 
 12. Une brachycéphalie est due à une soudure prématurée :
@@ -7289,6 +7411,8 @@ B] Des deux sutures coronales
 C] D'une suture pariéto-temporale
 D] D'une suture métopique
 E] Des sutures coronales et sagittale
+
+Correction probable - Ratt 2018 Q12 = B
 
 # Ratt 2018 Q13 - Les hydrocéphalies
 
@@ -7300,6 +7424,8 @@ C] D'une hydrocéphalie sur tumeur du tronc cérébral comblant l'espace périm�
 D] D'une hydrocéphalie sur spina bifida
 E] D'une hydrocéphalie post hémorragie méningée
 
+Correction probable - Ratt 2018 Q13 = A,B,D,E
+
 # Ratt 2018 Q14 - Les hydrocéphalies
 
 14. Une hydrocéphalie chronique de l'adulte :
@@ -7309,6 +7435,8 @@ B] Peut être due à une hémorragie méningée
 C] Peut être révélée par des troubles de la marche et de mémoire
 D] Nécessite un drainage ventriculaire externe
 E] Nécessite une dérivation interne du LCR
+
+Correction probable - Ratt 2018 Q14 = A,B,C,E
 
 # Ratt 2018 Q15 - Spina bifida
 
@@ -7320,6 +7448,8 @@ C] N'est diagnostiquée qu'à la salle d'accouchement
 D] Nécessite un traitement chirurgical à J1 de vie
 E] Pourrait être prévenue par un régime riche en acide folique en période périconceptionnelle
 
+Correction probable - Ratt 2018 Q15 = B,E
+
 # Ratt 2018 Q16 - Spina bifida
 
 16. L'examen paraclinique permettant un meilleur bilan lésionnel en cas de myéloméningocèle est :
@@ -7329,6 +7459,8 @@ B] L' IRM médullaire
 C] L'IRM cérébro-médullaire
 D] Le dosage de l'alpha foetoprotéine
 E] L'échographie transfontanellaire
+
+Correction probable - Ratt 2018 Q16 = C
 
 # Ratt 2018 Q17 - Malformations congénitales du système nerveux central
 
@@ -7340,6 +7472,8 @@ C] Une paralysie oculomotrice
 D] Un syndrome syringomyélique
 E] Un torticolis
 
+Correction probable - Ratt 2018 Q17 = B,C,D,E
+
 # Ratt 2018 Q18 - Pathologies infectieuses du système nerveux central
 
 18. Le Kyste hydatique cérébral
@@ -7349,6 +7483,8 @@ B] Est une affection touchant surtout l'enfant
 C] Peut-être secondaire à un kyste hydatique cardiaque
 D] Est souvent de topographie cérébelleuse
 E] Est de mauvais pronostic
+
+Correction probable - Ratt 2018 Q18 = C,D
 
 # Ratt 2018 Q19 - Pathologies infectieuses du système nerveux central
 
@@ -7360,6 +7496,8 @@ C] Est une parasitose fréquente au Maroc
 D] Nécessite toujours une biopsie. pour confirmation diagnostique
 E] Nécessite un traitement anti bacillaire pendant au moins 9 mois
 
+Correction probable - Ratt 2018 Q19 = A,E
+
 # Ratt 2018 Q20 - Pathologies tumorales du système nerveux central
 
 20. Parmi les tumeurs suivantes, le(s)quelle(s )se développe (ent) surtout chez l'adulte ?
@@ -7369,6 +7507,8 @@ B] Le glioblastome
 C] L'oligodendrogliome
 D] La métastase
 E] Le médulloblastome
+
+Correction probable - Ratt 2018 Q20 = A,B,C,D
 
 # Ratt 2018 Q21 - Pathologies tumorales du système nerveux central
 
@@ -7380,6 +7520,8 @@ C] Le schwannome vestibulaire
 D] Le méningiome
 E] Le gliome
 
+Correction probable - Ratt 2018 Q21 = A,B
+
 # Ratt 2018 Q22 - Pathologies tumorales du système nerveux central
 
 22. Un méningiome intracrânien :
@@ -7389,6 +7531,8 @@ B] Est plus fréquent à l 'étage sus tentoriel
 C] Peut envahir les sinus duraux et la voûte crânienne
 D] Peut-être révélé par une cécité
 E] Nécessite un traitement chirurgical
+
+Correction probable - Ratt 2018 Q22 = B,C,D,E
 
 # Ratt 2018 Q23 - Pathologies tumorales du système nerveux central
 
@@ -7400,6 +7544,8 @@ C] Des antiépileptiques
 D] Une radiothérapie ou chimiothérapie en fonction de l'étude anatomopathologique
 E] Une antibiothérapie
 
+Correction probable - Ratt 2018 Q23 = A,B,D
+
 # Ratt 2018 Q24 - Pathologies tumorales du système nerveux central
 
 24. Un gliome encéphalique peut-être révélé par :
@@ -7409,6 +7555,8 @@ B] Des troubles du comportement
 C] Une crise convulsive
 D] Une cécité
 E] Une hémiplégie
+
+Correction probable - Ratt 2018 Q24 = A,B,C,D,E
 
 # Ratt 2018 Q25 - Pathologies tumorales du système nerveux central
 
@@ -7420,6 +7568,8 @@ C] Est une tumeur de la région sellaire
 D] Son traitement Nécessite une association chirurgie, radiothérapie et chimiothérapie
 E] Est une tumeur de mauvais pronostic
 
+Correction probable - Ratt 2018 Q25 = B,D,E
+
 # Ratt 2018 Q26 - La SEP
 
 26. Parmi les signes sensitifs suivants, lequel ou lesquels doit (vent) faire évoquer une Sclérose en Plaques (SEP) :
@@ -7429,6 +7579,8 @@ B] Un Signe de Lhermitte
 C] La dissociation syringomyélique
 D] Une anesthésie type radiculaire
 E] Un syndrome de sclérose combinée de la moelle
+
+Correction probable - Ratt 2018 Q26 = B
 
 # Ratt 2018 Q27 - La SEP
 
@@ -7440,6 +7592,8 @@ C] Peut donner un vertige rotatoire sévère
 D] Devra indiquer une ponction lombaire d'emblée
 E] Associée à une atteinte pyramidale, une névrite optique et cordonale postérieure pourra confirmer le diagnostic de SEP.
 
+Correction probable - Ratt 2018 Q27 = A,C,E
+
 # Ratt 2018 Q28 - Les AVCs
 
 28. Parmi les étiologies suivantes, laquelle ou lesquelles sont à évoquer en cas d'AVC ischémique chez une jeune de 32 ans?
@@ -7449,6 +7603,8 @@ B] Une artérite syphilitique
 C] Une dépression majeure
 D] Une maladie de parkinson juvénile
 E] Une dissection d'un gros vaisseau
+
+Correction probable - Ratt 2018 Q28 = A,B,E
 
 # Ratt 2018 Q29 - Les AVCs
 
@@ -7460,6 +7616,8 @@ C] Un anticoagulant
 D] Du Piracetam (Nootropyl*)
 E] Une position à 30° par rapport à l'horizontale avec tête droite
 
+Correction probable - Ratt 2018 Q29 = B,E
+
 # Ratt 2018 Q30 - Le syndrom Parkinsonien
 
 30. Chez un patient de 43 ans, qui a présenté un syndrome parkinsonien, quel est ou quels sont les médicaments à lui prescrire ?
@@ -7469,6 +7627,8 @@ B] Neuroleptique à la moindre excitation
 C] L-Dopa
 D] Artane 5 mg en absence de contre indication
 E] Une abstention thrétapeutique
+
+Correction probable - Ratt 2018 Q30 = A,C
 
 # Ratt 2018 Q31 - Le syndrom Parkinsonien
 
@@ -7480,6 +7640,8 @@ C] Une maladie de Wilson
 D] Dans une intoxication par le Magnésium
 E] une tumeur touchant le noyau lenticulaire d'un côté
 
+Correction probable - Ratt 2018 Q31 = A,C,E
+
 # Ratt 2018 Q32 - Neuro-behçet
 
 32. Parmi les signes IRM suivants, lequel ou lesquels est (sont) évocateur(s) de Neurobehçet?
@@ -7489,6 +7651,8 @@ B] Atteinte diencéphalique et mésencéphalique
 C] Atteinte des noyaux gris centraux
 D] Atteinte vasculaire veineuse associée
 E] Atteinte uniquement corticale
+
+Correction probable - Ratt 2018 Q32 = A,B,D
 
 # Ratt 2018 Q33 - Les démences
 
@@ -7500,6 +7664,8 @@ C] La démence d'Alzheimer
 D] La démence due à une hydrocéphalie chronique de l'adulte
 E] La démence post Parkinson
 
+Correction probable - Ratt 2018 Q33 = A,D
+
 # Ratt 2018 Q34 - Les démences
 
 34. Parmi les critères suivants le ou lesquels évoque (ent) une démence ?
@@ -7509,6 +7675,8 @@ B] Une atteinte de la vigilance
 C] Une absence d' apraxie ou d'agnosie
 D] Une perturbation significative des activités professionnelles et sociales
 E] Un syndrome confusionnel
+
+Correction probable - Ratt 2018 Q34 = A,D
 
 # Ratt 2018 Q35 - Pathologies infectieuses
 
@@ -7520,6 +7688,8 @@ C] Les tuberculomes peuvent prêter à confusion avec un processus tumoral
 D] Les anti bacillaires sont prescrits pendant 9 à 12 mois
 E] L'atteinte méningée basilaire est la plus fréquente
 
+Correction probable - Ratt 2018 Q35 = B,C,D,E
+
 # Ratt 2018 Q36 - Pathologies neurologiques périphériques
 
 36. Parmi les étiologies des neuropathies périphériques on trouve :
@@ -7529,6 +7699,8 @@ B] La sclérose en Plaques
 C] L'alcoolisme
 D] L' insuffisance rénale chronique
 E] L'exposition prolongée aux solvants organiques
+
+Correction probable - Ratt 2018 Q36 = A,C,D,E
 
 # Ratt 2018 Q37 - Pathologies neuromusculaires
 
@@ -7540,6 +7712,8 @@ C] Une Sclérose en Plaques
 D] Une myopathie de Duchenne
 E] Une myasthénie
 
+Correction probable - Ratt 2018 Q37 = B,D
+
 # Ratt 2018 Q38 - Pathologies neuromusculaires
 
 38. Le traitement de la myasthénie généralisée avec troubles de déglutition et taux élevé d'anticorps anti récepteurs d'Acétylcholine, sans thymome ; doit comporter :
@@ -7549,6 +7723,8 @@ B] Un anticholinestérasique
 C] Une thymectomie
 D] Des séances de plasmaphérèse
 E] Une corticothérapie si la réponse aux anticholinestérasique est faible
+
+Correction probable - Ratt 2018 Q38 = B,C,D,E
 
 # Ratt 2018 Q39 - Pathologies neuromusculaires
 
@@ -7560,6 +7736,8 @@ C] Une infection
 D] L'exposition prolongée à la Télévision
 E] Une opération chirurgicale.
 
+Correction probable - Ratt 2018 Q39 = B,C,E
+
 # Ratt 2018 Q40 - Les épilepsies
 
 40. Le ou les traitements suivants peuvent être prescrits chez un enfant de 12 ans, admis pour épilepsie myoclonique avec absences
@@ -7569,6 +7747,8 @@ B] Phénytoïne (Dihydan*)
 C] Carbamazépine (Tegretol* ou un générique*)
 D] Valproate de sodium (Dépakine* ou un générique*)
 E] Phénobarbital (Gardenal*)
+
+Correction probable - Ratt 2018 Q40 = A,D
 
 # Ratt 2018 Q41 - Les épilepsies
 
@@ -7580,6 +7760,8 @@ C] Peuvent être provoquées en consultation par des épreuves faciles
 D] Sont très sensibles à la Carbamazépine
 E] Comportent un rythme de fond parfois ralenti à l'EEG
 
+Correction probable - Ratt 2018 Q41 = C
+
 # Ratt 2018 Q42 - Les épilepsies
 
 42. Parmi les traitements antiépileptiques suivants, lequel ou lesquels comportent un risque faible de malformations fœtales ?
@@ -7589,6 +7771,8 @@ B] Carbamazépine (Tegretol* ou générique)
 C] Valproate de sodium (Dépakine* ou générique)
 D] Lamotrigine (lamictal* ou Synnax*)
 E] Levetiracetam (Keppra*)
+
+Correction probable - Ratt 2018 Q42 = D,E
 
 # Ratt 2018 Q43 - Les épilepsies
 
@@ -7600,6 +7784,8 @@ C] Un accident vasculaire cérébral
 D] Une encéphalite herpétique
 E] Une hypoglycémie
 
+Correction probable - Ratt 2018 Q43 = A,C,E
+
 # Ratt 2018 Q44 - Les céphalées et algies de face
 
 44. Une céphalée de tension, se caractérise par :
@@ -7609,6 +7795,8 @@ B] Un siège au vertex, en casque ou diffuse
 C] La durée de la céphalée peut aller de 4 à 72 heures
 D] Une absence d'aggravation par la menstruation
 E] Une intensité des céphalées faible à moyenne.
+
+Correction probable - Ratt 2018 Q44 = B,D,E
 
 # Ratt 2018 Q45 - Les céphalées et algies de face
 
@@ -7620,6 +7808,8 @@ C] La présence de troubles sensitifs objectifs
 D] L'intensité des douleurs faible à moyenne
 E] Une bonne réponse à la Carbamazépine.
 
+Correction probable - Ratt 2018 Q45 = C
+
 # Ratt 2018 Q46 - Les troubles de sommeil
 
 46. Un enfant de 15 ans, se met en train de grincer les dents la nuit en plein sommeil, ce trouble :
@@ -7629,6 +7819,8 @@ B] Concerne le sommeil paradoxal
 C] Devrait bénéficier d'un traitement à base de valium si le trouble devient fréquent
 D] Nécessite une hospitalisation
 E] Pourra altérer la dentition
+
+Correction probable - Ratt 2018 Q46 = E
 
 # Ratt 2018 Q47 - Les troubles de sommeil
 
@@ -7640,6 +7832,8 @@ C] Ne justifie pas de Polysomnographie
 D] Nécessite une hospitalisation en neurologie
 E] Devra bénéficier d'un somnifère
 
+Correction probable - Ratt 2018 Q47 = C
+
 # Ratt 2018 Q48 - Pathologies infectieuses
 
 48. Le ou (les) signes psychiatriques les plus évocateurs de neurosyphilis est (sont) :
@@ -7649,6 +7843,8 @@ B] Une ambivalence
 C] Des troubles du comportement
 D] Une négligence corporo-vestimentaire
 E] Un confusion mentale
+
+Correction probable - Ratt 2018 Q48 = A,D
 
 # Ratt 2018 Q49 - Pathologies infectieuses
 
@@ -7660,6 +7856,8 @@ C] la paralysie générale survient 2 à 3 ans après la contamination
 D] L'atteinte polyradiculaire est souvent chronique
 E] Le syndrome de sclérose latérale amyotrophique est un tableau clinique classique
 
+Correction probable - Ratt 2018 Q49 = B
+
 # Ratt 2018 Q50 - Ataxies cérébelleuses
 
 50. Parmi les affections cérébelleuses suivantes, laquelle ou lesquelles sont de mauvais pronostic ?
@@ -7669,6 +7867,8 @@ B] Une cérébellite syphi litique diagnostiquée 3 mois après le début des tr
 C] Une atrophie post alcoolique
 D] Un accident vasculaire transitoire du cervelet
 E] Une cérébellite paranéoplasique
+
+Correction probable - Ratt 2018 Q50 = A,E
 
 ---
 

@@ -3055,6 +3055,8 @@ C] dépression brève récurrente
 D] Schizophrenic
 E] Trouble bipolaire type I
 
+Correction probable - Octobre 2024 Q1 = B
+
 # Octobre 2024 Q2 - Depression
 
 2. Quel est votre conduite à tenir ?
@@ -3064,6 +3066,8 @@ B] Demander un bilan
 C] Mettre sous thymorégulateur
 D] Mettre sous neuroleptique
 E] Mettre sous antidépresseur
+
+Correction probable - Octobre 2024 Q2 = A,B,E
 
 # Octobre 2024 Q3 - Depression
 
@@ -3075,6 +3079,8 @@ C] Le risque d'un acte médicolégale
 D] Le risque de fugue
 E] Aucun risque
 
+Correction probable - Octobre 2024 Q3 = A,C
+
 # Octobre 2024 Q4 - Bipolarité
 
 4. une semaine après traitement le patient est devenu excité, joviale, logorrhéique, hyperactif, délirant avec délire mégalomaniaque et délire de persécution, quel est votre diagnostic?
@@ -3084,6 +3090,8 @@ B] Syndrome malin des neuroleptiques
 C] trouble bipolaire type I
 D] Dépression délirante
 E] Virage maniaque sous antidépresseur
+
+Correction probable - Octobre 2024 Q4 = E
 
 # Octobre 2024 Q5 - Bipolarité
 
@@ -3095,6 +3103,8 @@ C] Arrêter les antidépresseurs
 D] Mettre sous antidépresseur
 E] Sismothérapie
 
+Correction probable - Octobre 2024 Q5 = C
+
 # Octobre 2024 Q6 - Depression
 
 6. La mélancolie:
@@ -3104,6 +3114,8 @@ B] A une durée d'évolution de 2 ans
 C] Est caractérisé par une culpabilité excessive
 D] Est caractérisé par une anhédonie généralisée
 E] Est caractérisé par une aréactivité aux stimuli agréable
+
+Correction probable - Octobre 2024 Q6 = A,C,D,E
 
 # Octobre 2024 Q7 - Depression
 
@@ -3115,6 +3127,8 @@ C] Quand c'est mieux pour le patient
 D] En cas de dépression saisonière
 E] En cas de dysthymie
 
+Correction probable - Octobre 2024 Q7 = A,B,C
+
 # Octobre 2024 Q8 - Bipolarité
 
 8. Concernant les troubles bipolaires :
@@ -3124,6 +3138,8 @@ B] Le traitement préventif est capital
 C] Le délai moyen avant le premier traitement est de 5 à 10 ans
 D] Le pic de fréquence est entre 15 et 30 ans
 E] L'abus de substance associé est fréquente (60,7%)
+
+Correction probable - Octobre 2024 Q8 = A,B,C,D,E
 
 # Octobre 2024 Q9 - Bipolarité
 
@@ -3135,6 +3151,8 @@ C] Une humeur triste
 D] Des dépenses exagérées
 E] Une hypersyntonie
 
+Correction probable - Octobre 2024 Q9 = A,B,D,E
+
 # Octobre 2024 Q10 - Bipolarité
 
 10. Sous traitement thymorégulateur un trouble bipolaire peut évoluer vers:
@@ -3144,6 +3162,8 @@ B] La diminution de l'intensité des accès
 C] La diminution de la durée des accès
 D] Un trouble schizoaffectif
 E] La disparition total des accès
+
+Correction probable - Octobre 2024 Q10 = A,B,C
 
 # Octobre 2024 Q11 - Bipolarité
 
@@ -3155,6 +3175,8 @@ C] Le suicide
 D] L'errances
 E] Rapports sexuels non protégés
 
+Correction probable - Octobre 2024 Q11 = A,B,C,D,E
+
 # Octobre 2024 Q12 - Bipolarité
 
 12. l'hypomanie se caractérise par :
@@ -3164,6 +3186,8 @@ B] Présence de signe psychotique
 C] Moins d'heure de sommeil
 D] plus d'activité sociales
 E] Plus de projets et d'idées créatives
+
+Correction probable - Octobre 2024 Q12 = A,C,D,E
 
 # Octobre 2024 Q13 - Bipolarité
 
@@ -3175,6 +3199,8 @@ C] Perçus comme socialement avantageux
 D] Non associés à une souffrance psychique
 E] Il oriente vers le diagnostic de trouble bipolaire
 
+Correction probable - Octobre 2024 Q13 = A,B,C,D,E
+
 # Octobre 2024 Q14 - Thérapeutique
 
 14. La thérapie cognitivo-comportementales:
@@ -3184,6 +3210,8 @@ B] Agit sur la personnalité
 C] A pour but le déconditionnement du malade
 D] Est une thérapie à court terme (sur 3 à 4 mois)
 E] Est une thérapie directive
+
+Correction probable - Octobre 2024 Q14 = A,C,D,E
 
 # Octobre 2024 Q15 - Addictions
 
@@ -3195,6 +3223,8 @@ C] L'accès psychotique aigue
 D] L'attaque de panique
 E] Le syndrome de dépersonnalisation
 
+Correction probable - Octobre 2024 Q15 = A,B,C,D,E
+
 # Octobre 2024 Q16 - Addictions
 
 16. Le delirium tremens :
@@ -3204,6 +3234,8 @@ B] Est un état confusionnel et délirant
 C] Est une urgence médico-psychiatrique
 D] Est due à un sevrage complet d'alcool
 E] Est due à une alcoolisation massive
+
+Correction probable - Octobre 2024 Q16 = A,B,C,D
 
 # Octobre 2024 Q17 - trouble du spectre de l'autisme
 
@@ -3215,6 +3247,8 @@ C] Un syndrome délirant
 D] Un trouble de communication verbale et non verbale
 E] Un comportement répétitif et stéréotypé
 
+Correction probable - Octobre 2024 Q17 = A,D,E
+
 # Octobre 2024 Q18 - trouble du spectre de l'autisme
 
 18. L'enfant autiste :
@@ -3224,6 +3258,8 @@ B] Comprend les expressions des autres
 C] Utilise le langage de façon echolalique
 D] Arrive à exprimer ses émotions
 E] N'apprécie pas les changements
+
+Correction probable - Octobre 2024 Q18 = A,C,E
 
 # Octobre 2024 Q19 - tdah
 
@@ -3235,6 +3271,8 @@ C] Hyperactivité motrice
 D] Impulsivité
 E] Trouble du langage
 
+Correction probable - Octobre 2024 Q19 = A,C,D
+
 # Octobre 2024 Q20 - Trouble de la femme enceinte
 
 20. Vous recevez une parturiente de 24 ans, qui a présenté à J3 du post partum, de façon brutale : une insomnie, agitation, agressivité envers son bébé ; elle dit qu'il est le diable et qu'elle doit se débarrasser de lui. Elle voit des monstres voulant la tuer, elle verbalise des propos incohérents. Quel est le premier diagnostic auquel vous devez penser?
@@ -3244,6 +3282,8 @@ B] Une psychose du post partum
 C] Une schizophrénie
 D] Une mélancolie du post partum
 E] Une manie du post partum
+
+Correction probable - Octobre 2024 Q20 = B
 
 # Octobre 2024 Q21 - Trouble de la femme enceinte
 
@@ -3255,6 +3295,8 @@ C] Une schizophrénie
 D] Une mélancolie du post partum
 E] Une manie du post partum
 
+Correction probable - Octobre 2024 Q21 = B
+
 # Octobre 2024 Q22 - Trouble de la femme enceinte
 
 22. Quelle est votre conduite à tenir ?
@@ -3264,6 +3306,8 @@ B] Prescrire des neuroleptiques antiproductifs
 C] Prescrire un antidépresseur
 D] Prescrire un thymorégulateur
 E] Prescrire l'ECT si résistance au traitement
+
+Correction probable - Octobre 2024 Q22 = A,B,D,E
 
 # Octobre 2024 Q23 - Patient qui délire
 
@@ -3275,6 +3319,8 @@ C] Hallucinations visuelles et illusions présentes.
 D] Bonne réponse aux neuroleptiques.
 E] Présence de troubles cognitifs sévères
 
+Correction probable - Octobre 2024 Q23 = A,C,E
+
 # Octobre 2024 Q24 - Patient qui délire
 
 24. L'Accès psychotique aigu:
@@ -3284,6 +3330,8 @@ B] Comprend une dépersonnalisation /déréalisation
 C] Comprend un délire de mécanismes polymorphes
 D] Comprend un délire systématisé
 E] Se manifeste par un mode de début chronique
+
+Correction probable - Octobre 2024 Q24 = A,B,C
 
 # Octobre 2024 Q25 - Patient qui délire
 
@@ -3295,6 +3343,8 @@ C] Comprennent des troubles cognitifs
 D] Comprennent un manque de motivation
 E] Comprennent un syndrome délirant manifeste
 
+Correction probable - Octobre 2024 Q25 = B,C,D
+
 # Octobre 2024 Q26 - Patient qui délire
 
 26. Les défis dans la prise en charge de la schizophrénie:
@@ -3304,6 +3354,8 @@ B] La mauvaise observance du traitement
 C] L'abus de substance
 D] L'aggravation de la maladie par la fréquence des rechutes
 E] Aucune proposition n'est juste
+
+Correction probable - Octobre 2024 Q26 = A,B,C,D
 
 # Octobre 2024 Q27 - Trouble des conduites
 
@@ -3315,6 +3367,8 @@ C] Les vomissements provoqués qui la suivent.
 D] Une fin associée à un sentiment de malaise physique
 E] Sa survenue uniquement chez les obèses.
 
+Correction probable - Octobre 2024 Q27 = A,B,C,D
+
 # Octobre 2024 Q28 - Trouble des conduites
 
 28. Les formes cliniques de l'anorexie mentale sont :
@@ -3324,6 +3378,8 @@ B] L'anorexie de l'adulte
 C] L'anorexie prépubère
 D] L'anorexie avec boulimie
 E] Aucune proposition n'est juste
+
+Correction probable - Octobre 2024 Q28 = A,B,C,D
 
 # Octobre 2024 Q29 - Trouble des conduites
 
@@ -3335,6 +3391,8 @@ C] En période de ménopause
 D] Si facteurs de risque cardiovasculaires
 E] En période de grossesse et post-partum
 
+Correction probable - Octobre 2024 Q29 = A,B,C,D,E
+
 # Octobre 2024 Q30 - Trouble des conduites
 
 30. En consultation, évoquer les problèmes de la sexualité :
@@ -3344,6 +3402,8 @@ B] Se fait de façon aisée par le médecin
 C] Est entravé par le manque de formation du médecin
 D] Entraîne la crainte d'être jugé pour le patient
 E] Impose l'utilisation de termes simples et précis
+
+Correction probable - Octobre 2024 Q30 = C,D,E
 
 # Octobre 2024 Q31 - Patient qui délire
 
@@ -3355,6 +3415,8 @@ C] Est convaincue de l'infidélité du conjoint
 D] Est convaincue qu'une personne inaccessible l'aime
 E] Présente un syndrome dissociatif
 
+Correction probable - Octobre 2024 Q31 = A,B,D
+
 # Octobre 2024 Q32 - Patient qui délire
 
 32. Dans l'hystérie, le trouble de conversion comprend :
@@ -3364,6 +3426,8 @@ B] Des symptômes sensitivo-sensoriels
 C] Des symptômes neurovégétatifs
 D] Une dépersonnalisation
 E] Une déréalisation
+
+Correction probable - Octobre 2024 Q32 = A,B,C
 
 # Octobre 2024 Q33 - toc
 
@@ -3375,6 +3439,8 @@ C] Les pensées intrusives sont appelées des compulsions.
 D] Les pensées intrusives sont à l'origine d'une lutte anxieuse.
 E] Sa prise en charge peut faire appel aux médicaments, à la psychothérapie voire à la chirurgie.
 
+Correction probable - Octobre 2024 Q33 = A,B,D,E
+
 # Octobre 2024 Q34 - Trouble anxieux
 
 34. La clinique du trouble anxiété généralisée TAG se caractérise par:
@@ -3384,6 +3450,8 @@ B] Une irritabilité.
 C] Une tension anxieuse permanente.
 D] Un état d'hypervigilance.
 E] Des idées intrusives.
+
+Correction probable - Octobre 2024 Q34 = A,B,C,D
 
 # Octobre 2024 Q35 - Trouble panique
 
@@ -3395,6 +3463,8 @@ C] Des idées absurdes, intrusives et parasites.
 D] Une crainte dépassant un mois d'avoir une nouvelle attaque de panique.
 E] Des crises d'angoisse dans les transports publics et les espaces vides.
 
+Correction probable - Octobre 2024 Q35 = A,D
+
 # Octobre 2024 Q36 - tspt
 
 36. Parmi les complications du trouble stress post-traumatique on cite :
@@ -3404,6 +3474,8 @@ B] L'abus de consommation de substances psychoactives.
 C] L'évolution vers une schizophrénie.
 D] L'isolement social.
 E] Une conduite suicidaire.
+
+Correction probable - Octobre 2024 Q36 = A,B,D,E
 
 # Octobre 2024 Q37 - Trouble panique
 
@@ -3415,6 +3487,8 @@ C] Les anxiolytiques sont le traitement de fond.
 D] La psychothérapie n'a pas de place dans le traitement.
 E] Les antidépresseurs sont prescrits même en dehors d'une dépression associée.
 
+Correction probable - Octobre 2024 Q37 = A,E
+
 # Octobre 2024 Q38 - Trouble phobique
 
 38. Dans les troubles phobiques :
@@ -3424,6 +3498,8 @@ B] Le sujet est inconscient du caractère excessif de sa peur.
 C] La peur entraine des comportements d'évitement.
 D] La peur est présente mêmes en l'absence de l'objet ou la situation redoutés.
 E] La réaction du sujet face à l'objet ou la situation peut correspondre à une véritable attaque de panique.
+
+Correction probable - Octobre 2024 Q38 = C,D,E
 
 # Octobre 2024 Q39 - Trouble phobique
 
@@ -3435,6 +3511,8 @@ C] Un anxiolytique ponctuel associé à un antidépresseur.
 D] Un antidépresseur associé à une thérapie cognitivo comportementale TCC.
 E] Une technique d'exposition en thérapie cognitivo comportementale seule.
 
+Correction probable - Octobre 2024 Q39 = E
+
 # Octobre 2024 Q40 - Trouble panique
 
 40. L'attaque de panique :
@@ -3444,6 +3522,8 @@ B] Peut se manifester au cours de plusieurs troubles anxieux.
 C] Atteint son acmé après plusieurs heures.
 D] Se manifeste toujours sur le plan comportemental par une agitation motrice.
 E] Peut régresser spontanément.
+
+Correction probable - Octobre 2024 Q40 = A,B,E
 
 # Octobre 2024 Q41 - Trouble anxieux
 
@@ -3455,6 +3535,8 @@ C] La comorbidité dépressive est fréquente.
 D] Un traitement antidépresseur est justifié uniquement en cas de dépression associée.
 E] Les TCC sont aussi efficaces que les médicaments.
 
+Correction probable - Octobre 2024 Q41 = A,C,E
+
 # Octobre 2024 Q42 - tspt
 
 42. Dans le trouble stress post traumatique :
@@ -3464,6 +3546,8 @@ B] La dissociation péritraumatique fait partie du syndrome de répétition taum
 C] La phase de latence dure entre 2 jours et 4 semaines
 D] Les cauchemars traumatiques sont obligatoires pour le diagnostic
 E] La phase de latence est toujours libre de tout symptôme
+
+Correction probable - Octobre 2024 Q42 = A,C
 
 # Octobre 2024 Q43 - Thérapeutique
 
@@ -3475,6 +3559,8 @@ C] Olanzapine (Zyprexa°)
 D] Risperidone (Risperdal°)
 E] Sertraline (Zoloft°)
 
+Correction probable - Octobre 2024 Q43 = E
+
 # Octobre 2024 Q44 - Thérapeutique
 
 44. Quelle est la posologie journalière (mg/jour) que vous allez préconiser pour Mr B.D? (Une réponse)
@@ -3484,6 +3570,8 @@ B] 20-40mg/jour
 C] 30-60mg/jour
 D] 40-80mg/jour
 E] 50-200mg/jour
+
+Correction probable - Octobre 2024 Q44 = E
 
 # Octobre 2024 Q45 - Thérapeutique
 
@@ -3495,6 +3583,8 @@ C] 18 mois
 D] 24 mois
 E] > 24 mois
 
+Correction probable - Octobre 2024 Q45 = A
+
 # Octobre 2024 Q46 - Thérapeutique
 
 46. Quelle est la molécule adjuvante qui pourrait être indiquée dans le cas de Mr B. D pour gérer son anxiété ? (Une réponse)
@@ -3504,6 +3594,8 @@ B] Amitriptyline (Laroxyl°)
 C] Olanzapine (Médizapin°)
 D] Risperidone (Risperdal°)
 E] Venlafaxine (Effexor°)
+
+Correction probable - Octobre 2024 Q46 = A
 
 # Octobre 2024 Q47 - Thérapeutique
 
@@ -3515,6 +3607,8 @@ C] Fluoxétine (Fluoxet°)
 D] Paroxétine (Deroxat°)
 E] Olanzapine (Zyprexa°)
 
+Correction probable - Octobre 2024 Q47 = E
+
 # Octobre 2024 Q48 - Thérapeutique
 
 48. Quelle est la contre-indication absolue à éliminer avant de prescrire cette molécule ? (Une réponse)
@@ -3524,6 +3618,8 @@ B] Une insuffisance rénale sévère
 C] Une insuffisance cardiaque sévère
 D] Une maladie hématologique
 E] Une maladie métabolique
+
+Correction probable - Octobre 2024 Q48 = D
 
 # Octobre 2024 Q49 - Thérapeutique
 
@@ -3535,6 +3631,8 @@ C] Olanzapine (Médizapin°)
 D] Rispéridone (Risperdal°)
 E] Sertraline (Zoloft°)
 
+Correction probable - Octobre 2024 Q49 = B
+
 # Octobre 2024 Q50 - Thérapeutique
 
 50. Quel est l'effet anticholinergique indésirable que vous redoutez chez Mr B. D? (Une réponse)
@@ -3544,6 +3642,8 @@ B] Constipation
 C] Dyskinésie aigue
 D] Goutte
 E] Surpoids
+
+Correction probable - Octobre 2024 Q50 = B
 
 ---
 
@@ -3990,6 +4090,8 @@ B] La constitution d'un échantillon non probabiliste
 C] La constitution de deux groupes identiques
 D] La répartition aléatoire des sujets en 2 groupes
 E] Toutes les réponses sont justes
+
+Correction probable - Novembre 2024 Q37 = D
 
 # Novembre 2024 Q38 - toc
 

@@ -1171,6 +1171,8 @@ C] Les avantages de la réussite du changement sont plus nombreux que les désav
 D] Les pressions sociales face à l'accomplissement du changement
 E] La constance entre le comportement et l'image de soi chez la personne
 
+Correction probable - Novembre 2024 Q1 = A,B,C,E
+
 # Novembre 2024 Q2 - Prévention et promotion de santé
 
 2. Quelles sont les caractéristiques de la promotion de la santé ?
@@ -1180,6 +1182,8 @@ B] Concentration sur les forces et faiblesses
 C] Concentration sur les facteurs de risque
 D] Approche non participative avec la population
 E] Usage de multiples stratégies complémentaires
+
+Correction probable - Novembre 2024 Q2 = A,E
 
 # Novembre 2024 Q3 - Sécurité de soins
 
@@ -1191,6 +1195,8 @@ C] Le diagramme d'Ishikawa
 D] Le récit de vie
 E] Le patient traceur
 
+Correction probable - Novembre 2024 Q3 = B,C
+
 # Novembre 2024 Q4 - Sécurité de soins
 
 4. L'analyse des effets indésirables permet d'assurer la qualité des soins. Choisissez la ou les bonnes réponses:
@@ -1200,6 +1206,8 @@ B] Elle consiste à identifier les responsables et les blâmer
 C] Elle consiste à identifier les responsables et les former
 D] Elle consiste à identifier les mécanismes de gestion de risques
 E] Aucune des réponses précédentes n'est juste
+
+Correction probable - Novembre 2024 Q4 = A,C,D
 
 # Novembre 2024 Q5 - Intervention de santé
 
@@ -1211,6 +1219,8 @@ C] Développer les aptitudes malsaines des personnes
 D] Renforcer l'action communautaire
 E] Réorienter les services de santé.
 
+Correction probable - Novembre 2024 Q5 = B,D,E
+
 # Novembre 2024 Q6 - Intervention de santé
 
 6. Par rapport aux phases de l'intervention en santé publique, à quelle phase se situe le projet dans l'exemple?
@@ -1221,6 +1231,8 @@ C] Mise en œuvre
 D] Evaluation
 E] Ajustement
 
+Correction probable - Novembre 2024 Q6 = C
+
 # Novembre 2024 Q7 - Intervention de santé
 
 7. Selon le modèle relationnel de la prévention primaire (1), secondaire (II), tertiaire (III) et quaternaire (IV)
@@ -1229,6 +1241,8 @@ A] Le point de vue du médecin est le plus important
 B] Le but de la prévention tertiaire est de prescrire
 C] Le médecin protège celui qui se vit malade par la prévention IV
 D] Quand le patient se sent bien on instaure la prévention I et II
+
+Correction probable - Novembre 2024 Q7 = C
 
 # Novembre 2024 Q8 - Intervention de santé
 
@@ -1240,6 +1254,8 @@ C] La maladie soit d'une prévalence modérée
 D] L'histoire de la maladie soit connue
 E] Le test de dépistage soit acceptable
 
+Correction probable - Novembre 2024 Q8 = B,D,E
+
 # Novembre 2024 Q9 - Sécurité de soins
 
 9. L'évaluation des pratiques professionnelles permet la sécurité des soins. Notamment la conformité aux nouveautés scientifiques, et la surveillance de l'incidence des effets indésirables associés aux soins. D'après l'énoncé, cochez les méthodes d'amélioration de la qualité correspondantes.
@@ -1249,6 +1265,8 @@ B] La recommandation de bonnes pratiques
 C] L'audit clinique
 D] L'enquête de satisfaction
 E] La revue de mortalité morbidité
+
+Correction probable - Novembre 2024 Q9 = C,E
 
 # Novembre 2024 Q10 - Sécurité de soins
 
@@ -1260,6 +1278,8 @@ C] Une complication de la maladie
 D] Une erreur évitable médicale
 E] Une bonne coordination de soins
 
+Correction probable - Novembre 2024 Q10 = D
+
 # Novembre 2024 Q11 - Qualité de soins
 
 11. Concernant les dimensions de la qualité, cochez les réponses fausses :
@@ -1269,6 +1289,8 @@ B] L'efficience est d'assurer l'accessibilité aux soins
 C] L'efficience est la capacité à atteindre le résultat
 D] L'efficacité est la capacité à atteindre des résultats
 E] L'efficience est synonyme de l'efficacité des soins
+
+Correction probable - Novembre 2024 Q11 = B,C,E
 
 # Novembre 2024 Q12 - Sécurité de soins
 
@@ -1280,6 +1302,8 @@ C] La désignation de la personne responsable
 D] L'identification de l'incident
 E] La recherche des causes cachées du système
 
+Correction probable - Novembre 2024 Q12 = B,C
+
 # Novembre 2024 Q13 - Concept de base en santé publique
 
 13. Dans le cadre du processus de développement de la maladie, l'incapacité correspond à :
@@ -1289,6 +1313,8 @@ B] Un résultat du développement de la maladie
 C] Un déterminant social de la santé
 D] Un facteur étiologique de la maladie
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q13 = B
 
 # Novembre 2024 Q14 - Concept de base en santé publique
 
@@ -1300,6 +1326,8 @@ C] La prévention est favorisée par rapport au traitement
 D] L'adoption d'une conception positive de la santé
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q14 = A
+
 # Novembre 2024 Q15 - Concept de base en santé publique
 
 15. Le modèle holistique de la définition de la santé est :
@@ -1309,6 +1337,8 @@ B] Dynamique
 C] Statique
 D] Facile à mesurer
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q15 = B
 
 # Novembre 2024 Q16 - Concept de base en santé publique
 
@@ -1320,6 +1350,8 @@ C] Protéger les groupes vulnérables
 D] Promouvoir la santé de la population
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q16 = B
+
 # Novembre 2024 Q17 - Concept de base en santé publique
 
 17. La perspective de santé publique insiste sur :
@@ -1329,6 +1361,8 @@ B] Le rôle majeur du traitement médicamenteux
 C] Les soins prodigués aux patients
 D] L'action ciblant l'individu
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q17 = A
 
 # Novembre 2024 Q18 - Concept de base en santé publique
 
@@ -1340,6 +1374,8 @@ C] Une réduction de la possibilité de réaliser une activité
 D] Un désavantage qui limite l'accomplissement d'un rôle
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q18 = D
+
 # Novembre 2024 Q19 - Concept de base en santé publique
 
 19. Le modèle de « bien-être » de la définition de la santé:
@@ -1349,6 +1385,8 @@ B] Est un modèle dynamique
 C] Adopte une définition simple
 D] Est facile à mesurer
 E] Aucune réponse n'est juste
+
+Correction probable - Novembre 2024 Q19 = B
 
 # Novembre 2024 Q20 - Déterminant de santé publique
 
@@ -1360,12 +1398,16 @@ C] Étiologique
 D] Post-clinique
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q20 = C
+
 # Novembre 2024 Q21 - Déterminant de santé publique
 
 21. La sédentarité est un facteur :
 
 A] Individuel
 B] Structurel
+
+Correction probable - Novembre 2024 Q21 = A
 
 # Novembre 2024 Q22 - Déterminant de santé publique
 
@@ -1377,6 +1419,8 @@ C] Biologie humaine
 D] Style de vie
 E] Les catégories jouent des rôles égaux
 
+Correction probable - Novembre 2024 Q22 = D
+
 # Novembre 2024 Q23 - Déterminant de santé publique
 
 23. L'intervention 1 correspond à une mesure de prévention :
@@ -1384,6 +1428,8 @@ E] Les catégories jouent des rôles égaux
 A] Primaire
 B] Secondaire
 C] Tertiaire
+
+Correction probable - Novembre 2024 Q23 = A
 
 # Novembre 2024 Q24 - Déterminant de santé publique
 
@@ -1395,6 +1441,8 @@ C] Secondaire
 D] Tertiaire
 E] Aucune réponse n'est juste
 
+Correction probable - Novembre 2024 Q24 = D
+
 # Novembre 2024 Q25 - SANTE environmental
 
 25. L'accident de Chernobyl est un accident très connu dans l'histoire des catastrophes environnementales. Il a été causé par une explosion dans une centrale nucléaire en Ukraine. Les radiations ionisantes se sont répandues sur un large périmètre. Les effets sur la santé étaient de différents types: comme le syndrôme d'irradiation aiguë et le cancer de la thyroïde. Figure 1: Différents modèles d'exposition en santé environnementale De quel type d'agent s'agit-il?
@@ -1405,6 +1453,8 @@ C] Biologique
 D] Vivant
 E] Aucune réponse n'est juste
 
+Correction probable - Novembre 2024 Q25 = B
+
 # Novembre 2024 Q26 - SANTE environmental
 
 26. Dans cet exemple, le vecteur de l'exposition se fait par :
@@ -1412,6 +1462,8 @@ E] Aucune réponse n'est juste
 A] Air
 B] Sol
 C] Eau
+
+Correction probable - Novembre 2024 Q26 = A
 
 # Novembre 2024 Q27 - SANTE environmental
 
@@ -1423,12 +1475,16 @@ C] Continue
 D] Aléatoire (random)
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q27 = A
+
 # Novembre 2024 Q28 - SANTE environmental
 
 28. Le syndrôme d'irradiation aiguë correspond à un effet de santé :
 
 A] Retardé
 B] Aigu
+
+Correction probable - Novembre 2024 Q28 = B
 
 # Novembre 2024 Q29 - SANTE environmental
 
@@ -1440,6 +1496,8 @@ C] La voie d'entrée
 D] L'exposition
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q29 = A
+
 # Novembre 2024 Q30 - SANTE environmental
 
 30. Selon le modèle d'intervention en santé environnementale, l'intervention doit cibler:
@@ -1449,6 +1507,8 @@ B] L'effet de l'activité humaine sur l'environnement
 C] L'effet de l'environnement sur la santé de l'homme
 D] Les conséquences de la maladie comme le décès
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q30 = C
 
 # Novembre 2024 Q31 - Études cas témoins
 
@@ -1460,6 +1520,8 @@ C] Le risque relatif
 D] A+C
 E] Aucune réponse n'est juste
 
+Correction probable - Novembre 2024 Q31 = A
+
 # Novembre 2024 Q32 - Études cas témoins
 
 32. Identifier la limite de l'étude cas-témoins:
@@ -1469,6 +1531,8 @@ B] Nécessite un long suivi
 C] Peu utile pour l'étude des maladies rares
 D] Très coûteuses
 E] Nécessite un grand nombre de sujets au début
+
+Correction probable - Novembre 2024 Q32 = A
 
 # Novembre 2024 Q33 - Études cas témoins
 
@@ -1480,6 +1544,8 @@ C] Essai clinique randomisé
 D] Etude transversale
 E] Série de cas
 
+Correction probable - Novembre 2024 Q33 = C
+
 # Novembre 2024 Q34 - Essai clinique randomisée
 
 34. L'essai clinique est une étude :
@@ -1487,6 +1553,8 @@ E] Série de cas
 A] Descriptive
 B] Interventionnelle
 C] Étiologique
+
+Correction probable - Novembre 2024 Q34 = B
 
 # Novembre 2024 Q35 - Étude cohorte
 
@@ -1498,12 +1566,16 @@ C] Possibilité de calcul de l'incidence
 D] Possibilité de calcul de la prévalence
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q35 = B,C
+
 # Novembre 2024 Q36 - Essai clinique randomisée
 
 36. La randomisation est une technique utilisée dans les études cas-témoins pour constituer deux groupes comparables de malades et de non-malades:
 
 A] Vrai
 B] Faux
+
+Correction probable - Novembre 2024 Q36 = B
 
 # Novembre 2024 Q37 - Essai clinique randomisée
 
@@ -1515,6 +1587,8 @@ C] La constitution de deux groupes identiques
 D] La répartition aléatoire des sujets en 2 groupes
 E] Toutes les réponses sont justes
 
+Correction probable - Novembre 2024 Q37 = D
+
 # Novembre 2024 Q38 - Essai clinique randomisée
 
 38. Lorsqu'on interprète un Odds ratio et son intervalle de confiance, on parle de signification statistique lorsque :
@@ -1524,6 +1598,8 @@ B] L'odds ratio est différent de 1
 C] L'odds ratio est égal à 1
 D] L'intervalle de confiance inclut le 1
 E] Toutes les réponses sont fausses
+
+Correction probable - Novembre 2024 Q38 = A,B
 
 # Novembre 2024 Q39 - Études descriptives
 
@@ -1535,6 +1611,8 @@ C] Etude cas-témoins
 D] Série de cas
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q39 = E
+
 # Novembre 2024 Q40 - Études descriptives
 
 40. Il s'agit d'une étude :
@@ -1542,6 +1620,8 @@ E] Toutes les réponses sont fausses
 A] Descriptive
 B] Interventionnelle
 C] Étiologique
+
+Correction probable - Novembre 2024 Q40 = A
 
 # Novembre 2024 Q41 - Études descriptives
 
@@ -1551,12 +1631,16 @@ A] Prospective
 B] Rétrospective
 C] Transversale
 
+Correction probable - Novembre 2024 Q41 = C
+
 # Novembre 2024 Q42 - Études descriptives
 
 42. La mesure de fréquence dans cette étude correspond à une incidence :
 
 A] Vrai
 B] Faux
+
+Correction probable - Novembre 2024 Q42 = B
 
 # Novembre 2024 Q43 - Études descriptives
 
@@ -1568,6 +1652,8 @@ C] 14%
 D] 20%
 E] Le taux de mortalité
 
+Correction probable - Novembre 2024 Q43 = B
+
 # Novembre 2024 Q44 - Études cas témoins
 
 44. On cherche à évaluer la relation entre le tabagisme et le syndrôme métabolique. Deux groupes ont été constitués : le premier (groupe des cas) est constitué de 100 patients suivis pour syndrôme métabolique, le deuxième est un groupe témoin constitué également de 100 témoins indemnes de syndrôme métabolique. Les deux échantillons sont constitués de volontaires. Nous avons recherché un antécédent de tabagisme d'au moins 10 paquets années. Le nombre de tabagiques ayant fumé 10 paquets années ou plus, était de 45 dans le groupe des cas et de 15 dans le groupe des témoins. De quel type d'étude s'agit-il ?
@@ -1577,6 +1663,8 @@ B] Essai clinique randomisé
 C] Etude cas-témoins
 D] Etude transversale
 E] Série de cas
+
+Correction probable - Novembre 2024 Q44 = C
 
 # Novembre 2024 Q45 - Études cas témoins
 
@@ -1588,6 +1676,8 @@ C] Prospective
 D] Rétrospective
 E] Transversale
 
+Correction probable - Novembre 2024 Q45 = B,D
+
 # Novembre 2024 Q46 - Études cas témoins
 
 46. Les deux groupes constitués dans cette étude correspondent à des échantillons:
@@ -1595,12 +1685,16 @@ E] Transversale
 A] Probabilistes
 B] Non probabilistes
 
+Correction probable - Novembre 2024 Q46 = B
+
 # Novembre 2024 Q47 - Études cas témoins
 
 47. A partir de cette étude, on peut calculer la prévalence du tabagisme :
 
 A] Vrai
 B] Faux
+
+Correction probable - Novembre 2024 Q47 = B
 
 # Novembre 2024 Q48 - Études cas témoins
 
@@ -1612,6 +1706,8 @@ C] Le risque relatif
 D] L'odds ratio
 E] Le taux de mortalité
 
+Correction probable - Novembre 2024 Q48 = D
+
 # Novembre 2024 Q49 - Études cas témoins
 
 49. Quelle est la valeur de cette mesure d'association ?
@@ -1622,6 +1718,8 @@ C] 5,3
 D] 4,6
 E] Toutes les réponses sont fausses
 
+Correction probable - Novembre 2024 Q49 = D
+
 # Novembre 2024 Q50 - Études cas témoins
 
 50. Comment peut-on interpréter cette mesure d'association ?
@@ -1629,6 +1727,8 @@ E] Toutes les réponses sont fausses
 A] Le tabagisme est un facteur favorisant le syndrome métabolique
 B] Le tabagisme n'influence pas le syndrome métabolique
 C] Le tabagisme protège du syndrome métabolique
+
+Correction probable - Novembre 2024 Q50 = A
 
 ---
 

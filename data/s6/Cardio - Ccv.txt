@@ -32,6 +32,8 @@ C] Un critère majeur et deux mineurs
 D] Un critère majeur, deux mineurs et une preuve d'infection à streptococcique
 E] Un critère majeur et un mineur
 
+Correction probable - Ratt 2025 Q1 = C
+
 Ratt 2025 Q2 - RAA
 
 Safouane, âgé de 13 ans, admis pour rhumatisme articulaire aigu. Vous prescrivez chez lui une corticothérapie comme traitement d'attaque à raison de :
@@ -41,6 +43,8 @@ B] 1 mg/Kg par jour
 C] 2 mg/Kg par jour
 D] 20 mg par jour
 E] 80 mg par jour
+
+Correction probable - Ratt 2025 Q2 = C
 
 Ratt 2025 Q3 - endocardite infectieuse
 
@@ -52,6 +56,8 @@ C] Des faux panaris d'Osler
 D] Des nodules de Roth
 E] Des faux panaris de Janway
 
+Correction probable - Ratt 2025 Q3 = C
+
 Ratt 2025 Q4 - endocardite infectieuse
 
 Marouane, âgé de 44 ans, hospitalisé pour endocardite infectieuse à porte d'entrée buccodentaire (streptocoque a hémolytique). Vous mettez le patient sous :
@@ -61,6 +67,8 @@ B] Vancomycine + Gentamycine
 C] Ceftriaxone + Amoxicilline + Vancomycine
 D] Amoxicilline + Gentamicine
 E] Pénicilline G + Amoxicilline
+
+Correction probable - Ratt 2025 Q4 = D
 
 Ratt 2025 Q5 - IM
 
@@ -72,6 +80,8 @@ C] L'ischémie myocardique
 D] L'hypertension pulmonaire
 E] La dissection de l'aorte
 
+Correction probable - Ratt 2025 Q5 = D
+
 Ratt 2025 Q6 - RM
 
 Alia, âgée de 26 ans, suivie pour rétrécissement mitral serré. L'examen clinique trouve au niveau du foyer mitral :
@@ -81,6 +91,8 @@ B] Un roulement systolique doux aspiratif
 C] Un roulement diastolique
 D] Un souffle diastolique rude rápeux
 E] Un souffle systolique rude éjectionnel
+
+Correction probable - Ratt 2025 Q6 = C
 
 Ratt 2025 Q7 - Rao
 
@@ -92,6 +104,8 @@ C] La dilatation ventriculaire gauche
 D] L'hypertension pulmonaire précapillaire
 E] L'hypertension pulmonaire post capillaire
 
+Correction probable - Ratt 2025 Q7 = E
+
 Ratt 2025 Q8 - IA
 
 Ilham, 44 ans, suivie pour insuffisance aortique sévère aigue. Parmi les éléments de retentissement on note :
@@ -101,6 +115,8 @@ B] Une dilatation de l'oreillette gauche
 C] Une dilatation du ventricule gauche
 D] Une dilatation de l'oreillette droite
 E] Une dilatation de l'aorte
+
+Correction probable - Ratt 2025 Q8 = A
 
 Ratt 2025 Q9 - AOMI
 
@@ -112,6 +128,8 @@ C] La palpation du mollet
 D] La palpation du trajet de la veine
 E] La compression de la veine thrombosée
 
+Correction probable - Ratt 2025 Q9 = A
+
 Ratt 2025 Q10 - mvte
 
 Fatima, âgée de 69 ans, admise pour suspicion d'embolie pulmonaire à faible risque de mortalité. Le Dosage des D-dimères est positif à 1300 ng/ml. L'examen que vous demandez pour confirmer le diagnostic :
@@ -121,6 +139,8 @@ B] L'NFS/plaquettes
 C] L'écho-cœur (ETT)
 D] L'échodoppler des membres inferieurs
 E] L'ECG
+
+Correction probable - Ratt 2025 Q10 = A
 
 Ratt 2025 Q11 - mvte
 
@@ -132,6 +152,8 @@ C] Une association Apixaban + HBPM
 D] Apixaban seul
 E] Une association Rivaroxaban + Sintrom
 
+Correction probable - Ratt 2025 Q11 = B
+
 Ratt 2025 Q12 - cardiopathie congenitale
 
 Sanaa, fille de 15 ans, se présente pour communication inter ventriculaire. L'auscultation trouve un souffle :
@@ -141,6 +163,8 @@ B] Systolique au 2ème espace intercostal droit
 C] Systolique au 2ème espace intercostal gauche
 D] Doux en jet de vapeur
 E] systolique au 4ème espace intercostal gauche
+
+Correction probable - Ratt 2025 Q12 = E
 
 Ratt 2025 Q13 - cardiopathie congenitale
 
@@ -152,6 +176,8 @@ C] Un souffle systolique éjectionnel au foyer aortique
 D] Un squating
 E] Une abolition des pouls fémoraux
 
+Correction probable - Ratt 2025 Q13 = D
+
 Ratt 2025 Q14 - cardiopathie congenitale
 
 Un nouveau-né admis pour une transposition des gros vaisseaux isolée. La conduite à proposer en urgence est:
@@ -161,6 +187,8 @@ B] Un Rashkind en urgence
 C] Un cerclage de l'artère pulmonaire
 D] Un Blalock Taussig en fonction de la saturation.
 E] Un Rashkind en fonction de la saturation
+
+Correction probable - Ratt 2025 Q14 = B
 
 Ratt 2025 Q15 - angor chronique stable
 
@@ -172,6 +200,8 @@ C] Limitation marquée de la vie quotidienne
 D] Angor au moindre effort et au repos
 E] Angor pour un effort inhabituel
 
+Correction probable - Ratt 2025 Q15 = C
+
 Ratt 2025 Q16 - angor chronique stable
 
 Parmi les propositions suivantes concernant le coroscanner lesquelles sont exactes ?
@@ -181,6 +211,8 @@ B] Permet de détecter des sténoses coronaires
 C] Est indiqué en cas de SCA ST- à haut risque ischémique
 D] Peu contributif si le rythme cardiaque est trop rapide ou irrégulier
 E] Examen irradiant
+
+Correction probable - Ratt 2025 Q16 = A,B,D,E
 
 Ratt 2025 Q17 - sca st +
 
@@ -192,6 +224,8 @@ C] Thrombolyse immédiate par Tenecteplase
 D] Aspirine, Inhibiteur P2Y12 ADP, Enoxaparine et coronarographie
 E] La réalisation d'une Echocardiographie transthoracique au cours de l'hospitalisation
 
+Correction probable - Ratt 2025 Q17 = A,D,E
+
 Ratt 2025 Q18 - sca st -
 
 En cas de SCA ST- à très haut risque ischémique, la Coronarographie doit être réalisée dans un délai de :
@@ -201,6 +235,8 @@ B] 12 heures
 C] 24 heures
 D] 72 heures
 E] Aucune réponse n'est juste
+
+Correction probable - Ratt 2025 Q18 = A
 
 Ratt 2025 Q19 - sca st +
 
@@ -212,6 +248,8 @@ C] V1-V6
 D] V7-V9
 E] DII -DIII- AVF
 
+Correction probable - Ratt 2025 Q19 = C
+
 Ratt 2025 Q20 - sca st +
 
 RACHID âgé de 43 ans, tabagique admis aux urgences pour une douleur thoracique angineuse de repos, prolongée depuis 2 heures , l'ECG inscrit un sus décalage persistant en inférieur. Vous décidez une thrombolyse par Metalyse : chez lui ! Quelle double anti agrégation plaquettaire sera administrée chez ce patient ?
@@ -221,6 +259,8 @@ B] 250 mg Aspirine + 300 mg Clopidogrel
 C] 250 mg Aspirine + 600 mg Clopidogrel
 D] 1g Aspirine + 75 mg Clopidogrel
 E] 1g Aspirine + 600 mg Clopidogrel
+
+Correction probable - Ratt 2025 Q20 = B
 
 Ratt 2025 Q21 - pericardite
 
@@ -232,6 +272,8 @@ C] antiagrégants plaquettaires + Anticoagulants
 D] AINS + Colchicine
 E] Drainage péricardique chirurgical
 
+Correction probable - Ratt 2025 Q21 = E
+
 Ratt 2025 Q22 - pericardite
 
 Parmi les propositions suivantes concernant le frottement péricardique lesquelles sont exactes ? :
@@ -241,6 +283,8 @@ B] Timbre ressemblant à un craquement de cuir neuf
 C] Systolo-diastolique
 D] variable avec le temps et la position et persiste en apnée
 E] Son absence élimine le diagnostic
+
+Correction probable - Ratt 2025 Q22 = A,B,C,D
 
 Ratt 2025 Q23 - insuffisance cardiaque + cardiomyopathie
 
@@ -252,6 +296,8 @@ C] Une fibrillation atriale
 D] Une tachycardie jonctionnelle par réentrée intra-nodale
 E] Un rythme sinusal
 
+Correction probable - Ratt 2025 Q23 = C
+
 Ratt 2025 Q24 - risques cardiovasculaire
 
 Le score thrombo-embolique (CHA2DS2VA) chez cette patiente est :
@@ -261,6 +307,8 @@ B] à 4
 C] à 3
 D] à 0
 E] ne peut être calculer dans ce genre de fibrillation atriale
+
+Correction probable - Ratt 2025 Q24 = C
 
 Ratt 2025 Q25 - risques cardiovasculaire
 
@@ -272,6 +320,8 @@ C] Est optionnel
 D] Est un Anticoagulant oral direct en première intention
 E] Ne doit pas dépasser 1 mois
 
+Correction probable - Ratt 2025 Q25 = D
+
 Ratt 2025 Q26 - trouble de conduction et de rythme
 
 L'implantation d'un pacemaker chez un patient :
@@ -282,6 +332,8 @@ C] Est un mono-chambre en absence de FA
 D] Est indiquée en cas de BAV premier degré asymptomatique
 E] Est définitive en cas de BAV complet dégénératif
 
+Correction probable - Ratt 2025 Q26 = E
+
 Ratt 2025 Q27 - hta
 
 L'hypertension artérielle du sujet âgé est caractérisée par une :
@@ -290,6 +342,8 @@ A] PA ≥ 120/85 mmHg en consultation
 B] Pression pulsée ≥ 60 mmHg
 C] Pression pulsée ≥ 40 mmHg
 D] PA diastolique élevée en consultation
+
+Correction probable - Ratt 2025 Q27 = B
 
 Ratt 2025 Q28 - hta
 
@@ -300,6 +354,8 @@ B] définit L'HTA résistante
 C] nécessite un traitement par bithérapie le plus souvent
 D] nécessite un traitement intraveineux
 
+Correction probable - Ratt 2025 Q28 = C
+
 Ratt 2025 Q29 - hta
 
 La confirmation d'une hypertension artérielle blouse blanche :
@@ -308,6 +364,8 @@ A] n'est pas nécessaire en cas d'hérédité familiale
 B] nécessite une hospitalisation
 C] n'est pas nécessaire si la PA systolique est de grade 3
 D] peut être faite par le recours à la mesure ambulatoire
+
+Correction probable - Ratt 2025 Q29 = D
 
 Ratt 2025 Q30 - hta
 
@@ -318,6 +376,8 @@ B] à évaluer son risque cardiovasculaire par échelle SCORE 2
 C] à risque cardiovasculaire élevé
 D] à évaluer son risque cardiovasculaire par échelle FRAMINGHAM
 
+Correction probable - Ratt 2025 Q30 = C
+
 Ratt 2025 Q31 - AOMI
 
 Le diagnostic d'une artériopathie des membres inférieurs se fait par :
@@ -326,6 +386,8 @@ A] un IPS > 1,1
 B] plus fréquemment en cas d'atteinte coronaire
 C] la présence d'un Homans positif
 D] plus fréquemment en cas de valvulopathie mitrale
+
+Correction probable - Ratt 2025 Q31 = B
 
 Ratt 2025 Q32 - atherosclerose
 
@@ -336,6 +398,8 @@ B] l'inflammation de la plaque est un facteur favorisant
 C] la thrombose vasculaire est le mécanisme clé
 D] la chape fibreuse de la plaque est intacte
 
+Correction probable - Ratt 2025 Q32 = B,C
+
 Ratt 2025 Q33 - atherosclerose
 
 La plaque d'athérome est vulnérable si :
@@ -344,6 +408,8 @@ A] sa chape est épaisse
 B] elle est calcifiée
 C] sa consistance est molle
 D] toutes les propositions sont justes
+
+Correction probable - Ratt 2025 Q33 = C
 
 Ratt 2025 Q34 - hta
 
@@ -354,6 +420,8 @@ B] la radiographie du thorax
 C] le rapport albumine créatinine urinaire
 D] l'échocardiographie
 
+Correction probable - Ratt 2025 Q34 = C
+
 Ratt 2025 Q35 - insuffisance cardiaque + cardiomyopathie
 
 Une insuffisance cardiaque congestive est dite une insuffisance cardiaque :
@@ -362,6 +430,8 @@ A] terminale
 B] à bas débit
 C] à risque
 D] décompensée
+
+Correction probable - Ratt 2025 Q35 = D
 
 Ratt 2025 Q36 - insuffisance cardiaque + cardiomyopathie
 
@@ -372,6 +442,8 @@ B] les diurétiques de l'anse
 C] les inhibiteurs calciques
 D] le valsartan sacubitril
 
+Correction probable - Ratt 2025 Q36 = D
+
 Ratt 2025 Q37 - risques cardiovasculaire
 
 Le score 2 du risque cardiovasculaire comporte :
@@ -380,6 +452,8 @@ A] la triglycéridémie
 B] le cholestérol non HDL
 C] l'âge moins de 30 ans
 D] le score calcique
+
+Correction probable - Ratt 2025 Q37 = B
 
 Ratt 2025 Q38 - insuffisance cardiaque + cardiomyopathie
 
@@ -390,6 +464,8 @@ B] la digoxine
 C] la spironolactone
 D] l'énalapril
 
+Correction probable - Ratt 2025 Q38 = B
+
 Ratt 2025 Q39 - insuffisance cardiaque + cardiomyopathie
 
 Une insuffisance cardiaque n'est pas décompensée habituellement par :
@@ -399,6 +475,8 @@ B] une anémie
 C] une infection bronchopulmonaire
 D] une fibrillation auriculaire
 
+Correction probable - Ratt 2025 Q39 = A
+
 Ratt 2025 Q40 - risques cardiovasculaire
 
 Le SCORE 2 comporte :
@@ -407,6 +485,8 @@ A] la pression artérielle systolique
 B] la mortalité CV seule à 10 ans
 C] le cholestérol total
 D] le cholestérol HDL
+
+Correction probable - Ratt 2025 Q40 = A
 
 Ratt 2025 Q41 - ischemie aigue des membres inferieurs
 
@@ -418,6 +498,8 @@ C] L'héparine doit être administrée en urgence
 D] La revascularisation par embolectomie à la sonde de Fogarty est la procédure chirurgicale la plus pratiquée
 E] L'amputation peut être la seule issue thérapeutique
 
+Correction probable - Ratt 2025 Q41 = A,C,D,E
+
 Ratt 2025 Q42 - AOMI
 
 L'artériopathie oblitérante des membres inférieurs:
@@ -427,6 +509,8 @@ B] Peut être associée à une cardiopathie ischémique
 C] Le tabagisme est le principal facteur de risque modifiable
 D] L'interrogatoire peut révéler une dysfonction érectile ce
 E] La réalisation d'un angioscanner est indispensable pour le diagnostic positif
+
+Correction probable - Ratt 2025 Q42 = B,C,D
 
 Ratt 2025 Q43 - AOMI
 
@@ -438,6 +522,8 @@ C] Peut avoir une valeur localisatrice de l'atteinte artérielle.
 D] La quantification du périmètre de marche est importante pour la décision thérapeutique est le suivi du malade
 E] Le diagnostic différentiel se fait avec les douleurs d'origine neurologiques
 
+Correction probable - Ratt 2025 Q43 = A,B,C,D,E
+
 Ratt 2025 Q44 - anevrysme de l'aorte abdominale
 
 Dans L'anévrysme de l'aorte abdominale, quelle est la proposition fausse :
@@ -447,6 +533,8 @@ B] Est plus fréquent chez l'homme
 C] Peut se compliquer de rupture
 D] L'athérosclérose est l'étiologie la plus fréquente
 E] Le traitement chirurgical est indiqué lorsque la taille de l'anévrysme atteint 4 cm chez l'homme
+
+Correction probable - Ratt 2025 Q44 = E
 
 Ratt 2025 Q45 - anevrysme de l'aorte abdominale
 
@@ -458,6 +546,8 @@ C] L'échographie abdominale permet de mesurer le diamètre de l'anévrysme
 D] L'échographie abdominale est l'examen de dépistage
 E] L'angioscanner donne les mensurations exacte de l'anévrysme
 
+Correction probable - Ratt 2025 Q45 = A,C,D,E
+
 Ratt 2025 Q46 - anevrysme de l'aorte abdominale
 
 Dans la prise en charge de l'anévrysme de l'aorte abdominale:
@@ -467,6 +557,8 @@ B] Le traitement anticoagulant est indiqué en cas de thrombus pariétal
 C] L'arrêt du tabac est impératif
 D] Une augmentation du diamètre de l'anévrysme de 10 mm par an justifie une prise en charge chirurgicale
 E] Le traitement endovasculaire ne nécessite pas de surveillance
+
+Correction probable - Ratt 2025 Q46 = A,C
 
 Ratt 2025 Q47 - coarctations de l'aorte
 
@@ -478,6 +570,8 @@ C] Peut-être découverte de manière fortuite par une souffle systolique para v
 D] Peut-être responsable d'une circulation collatérale au niveau de la paroi thoracique
 E] Relève d'un traitement médical uniquement
 
+Correction probable - Ratt 2025 Q47 = B,C,D
+
 Ratt 2025 Q48 - syncope
 
 Un patient de 73 ans consulte pour des syncopes, l'examen clinique et le bilan para clinique ont conclu à un rétrécissement aortique serré calcifiée et un remplacement valvulaire aortique a été indiqué . Quel type de valve cardiaque vous proposez à ce patient :
@@ -487,6 +581,8 @@ B] Une valve cardiaque mécanique
 C] Une valve cardiaque biologique bovine
 D] Une homogreffe
 E] Une plastie valvulaire
+
+Correction probable - Ratt 2025 Q48 = C
 
 Ratt 2025 Q49 - syncope
 
@@ -498,6 +594,8 @@ C] D'une échocardiographie tous les 3 mois
 D] D'un suivi cardiologique régulier
 E] D'un traitement anticoagulant à vie
 
+Correction probable - Ratt 2025 Q49 = A,D,E
+
 Ratt 2025 Q50 - dissections de l'aorte
 
 Un patient de 65 ans hypertendu et tabagique a consulté pour une douleur thoracique postérieure, très intense et déchirante, l'examen clinique a montré une TA à 180/90 mmhg au membre supérieur et 95/60 mmhg au membre inferieur. L'ECG et l'échocardiographie sont normaux, l'angioscanner thoracique a montré une dissection type B. Ce patient a :
@@ -507,6 +605,8 @@ B] A une dissection de l'aorte ascendante et de l'aorte descendante
 C] A une dissection de l'aorte thoracique descendante
 D] Une dissection des artères coronaires
 E] Doit être opéré en urgence
+
+Correction probable - Ratt 2025 Q50 = C
 
 ---
 
@@ -2881,6 +2981,8 @@ C] 3 mineurs
 D] 2 majeurs et 1 mineur
 E] 1 majeur, 1 mineur et une preuve d'infection streptococcique
 
+Correction probable - Décembre 2024 Q1 = E
+
 Décembre 2024 Q2 - RAA
 
 Kenza âgée de 10 ans, admise pour rhumatisme articulaire aigu confirmé sur selon les critères de Jones. Le traitement d'attaque proposé à cet enfant est:
@@ -2890,6 +2992,8 @@ B] Une corticothérapie à la dose de 2 mg Kg.
 C] Une corticothérapie à la dose de 0,5 mg Kg
 D] Une bi-antibiothérapie synergique pendant au moins 6 semaines.
 E] Une association Aspirine-corticoïde pendant 6 semaines
+
+Correction probable - Décembre 2024 Q2 = B
 
 Décembre 2024 Q3 - endocardite infectieuse
 
@@ -2901,6 +3005,8 @@ C] Précoce
 D] Tardive
 E] E-D'Osler
 
+Correction probable - Décembre 2024 Q3 = C
+
 Décembre 2024 Q4 - IM
 
 Un jeune de 16 ans admis pour suspicion d'endocardite infectieuse sur insuffisance mitrale. Parmi les signes cliniques de cette endocardite à chercher :
@@ -2910,6 +3016,8 @@ B] Les nodules de Meynet
 C] L'érythème de Besnier
 D] Les taches café au lait
 E] La chorée de Sydenham
+
+Correction probable - Décembre 2024 Q4 = A
 
 Décembre 2024 Q5 - RM
 
@@ -2921,6 +3029,8 @@ C] Eclat de B2 et claquement d'ouverture de la valve mitrale
 D] Abolition de B1 et du bruit d'ouverture de la valve mitrale
 E] Eclat de B1 et abolition de B2
 
+Correction probable - Décembre 2024 Q5 = A
+
 Décembre 2024 Q6 - IA
 
 Mourad, âgé de 36 ans admis en consultation pour dyspnée d'effort stade III de NYHA. L'examen trouve un souffle diastolique au foyer aortique. Pour compléter l'auscultation de ce souffle, on cherche:
@@ -2930,6 +3040,8 @@ B] L'irradiation du souffle en latéro-sternal gauche
 C] L'irradiation du souffle vers l'aisselle
 D] L'irradiation du souffle vers le dos
 E] L'augmentation du souffle à l'effort
+
+Correction probable - Décembre 2024 Q6 = B
 
 Décembre 2024 Q7 - Rao
 
@@ -2941,6 +3053,8 @@ C] La dilatation du ventricule gauche
 D] L'hypertension pulmonaire
 E] L'oedème aigu des poumons
 
+Correction probable - Décembre 2024 Q7 = A
+
 Décembre 2024 Q8 - IM
 
 Nacer, âgée de 26 ans, suivi pour insuffisance mitrale sévère. Parmi les retentissements de cette cardiopathies, on note
@@ -2950,6 +3064,8 @@ B] L'embolie pulmonaire
 C] L'hypertension pulmonaire
 D] L'angor d'effort
 E] L'hypertension artérielle systémique
+
+Correction probable - Décembre 2024 Q8 = C
 
 Décembre 2024 Q9 - mvte
 
@@ -2961,6 +3077,8 @@ C] Le diagnostic de la TVP est confirmé
 D] Qu'il faut faire un 2ème dosage à 15 jour d'intervalle
 E] Qu'il faut compléter par un doppler des membres inférieurs
 
+Correction probable - Décembre 2024 Q9 = A
+
 Décembre 2024 Q10 - mvte
 
 Fatima, 73 ans, admise pour embolie pulmonaire à haut risque car le médecin trouve un signe de gravité qui est :
@@ -2970,6 +3088,8 @@ B] La fibrillation auriculaire
 C] Le choc cardiogénique
 D] La fièvre à 40°
 E] L'insuffisance cardiaque gauche
+
+Correction probable - Décembre 2024 Q10 = C
 
 Décembre 2024 Q11 - cardiopathie congenitale
 
@@ -2981,6 +3101,8 @@ C] HAG
 D] HVG
 E] HAD et HAG
 
+Correction probable - Décembre 2024 Q11 = B
+
 Décembre 2024 Q12 - cardiopathie congenitale
 
 Fadwa, nourrisson de 18 mois, se présente pour communication interventriculaire large. Parmi les complications qu'on craint chez elle, on note:
@@ -2990,6 +3112,8 @@ B] L'hypertension artérielle pulmonaire
 C] L'infarctus du myocarde
 D] L'ischémie myocardique
 E] L'hypoperfusion des coronaires
+
+Correction probable - Décembre 2024 Q12 = B
 
 Décembre 2024 Q13 - cardiopathie congenitale
 
@@ -3001,6 +3125,8 @@ C] Une Sténose aortique, CIV et HVG
 D] Une sténose pulmonaire, CIV et HVD
 E] Une sténose pulmonaire, CIA et CIV
 
+Correction probable - Décembre 2024 Q13 = D
+
 Décembre 2024 Q14 - cardiopathie congenitale
 
 Un nouveau-né admis pour une transposition des gros vaisseaux isolée. La conduite à proposer pour ce nouveau-né en urgence:
@@ -3010,6 +3136,8 @@ B] Un Rashkind en urgence
 C] Un cerclage de l'artère pulmonaire
 D] Un Blalock Taussig en fonction de la saturation.
 E] Un Rashkind en fonction de la saturation
+
+Correction probable - Décembre 2024 Q14 = B
 
 Décembre 2024 Q15 - angor chronique stable
 
@@ -3021,6 +3149,8 @@ C] Une altération de la fonction diastolique par gène à la relaxation
 D] Une altération de la fonction systolique
 E] Des anomalies électriques intéressant le segment PQ
 
+Correction probable - Décembre 2024 Q15 = A,B,C,D
+
 Décembre 2024 Q16 - angor chronique stable
 
 L'angor classe IV de la Classification Canadienne est un :
@@ -3030,6 +3160,8 @@ B] Angor pour une activité physique normale
 C] Angor avec une limitation marquée de la vie quotidienne
 D] Angor au moindre effort et au repos
 E] Angor pour des efforts inhabituels
+
+Correction probable - Décembre 2024 Q16 = D
 
 Décembre 2024 Q17 - sca st -
 
@@ -3041,6 +3173,8 @@ C] GRACE
 D] CHA2DS2-VASC
 E] WELLS
 
+Correction probable - Décembre 2024 Q17 = C
+
 Décembre 2024 Q18 - sca st -
 
 En cas de SCA ST- à haut risque ischémique, la Coronarographie doit être réalisée dans un délai de :
@@ -3050,6 +3184,8 @@ B] 12 heures
 C] 24 heures
 D] 72 heures
 E] Aucune réponse n'est juste
+
+Correction probable - Décembre 2024 Q18 = C
 
 Décembre 2024 Q19 - sca st +
 
@@ -3061,6 +3197,8 @@ C] V1-V6
 D] VS-V6
 E] V7-V9
 
+Correction probable - Décembre 2024 Q19 = B
+
 Décembre 2024 Q20 - sca st +
 
 Khalid, 50 ans, diabétique sous insuline, admis aux urgences pour une douleur thoracique angineuse de repos, prolongée depuis 1 heure. On trouve à l'ECG un sus décalage persistant en antérieur étendu. Vous optez pour une Angioplastie primaire. Quelle dose de la double anti agrégation plaquettaire sera administrée chez ce patient?
@@ -3070,6 +3208,8 @@ B] 250 mg Aspirine + 300 mg Clopidogrel
 C] 1g Aspirine +75 mg Clopidogrel
 D] 1g Aspirine +300 mg Clopidogrel
 E] 250 mg Aspirine + 600 mg Clopidogrel
+
+Correction probable - Décembre 2024 Q20 = B
 
 Décembre 2024 Q21 - sca st +
 
@@ -3081,6 +3221,8 @@ C] C'est le traitement de choix des SCA ST+
 D] Sa réalisation par voie radiale diminue le risque hémorragique
 E] Permet de faire diagnostic précis de l'état coronaire
 
+Correction probable - Décembre 2024 Q21 = A,C,D,E
+
 Décembre 2024 Q22 - pericardite
 
 A l'électrocardiogramme le stade 3 de HOLZMAN correspond à :
@@ -3090,6 +3232,8 @@ B] Sous décalage du segment PQ
 C] Un aplatissement des ondes T
 D] Une négativation des ondes Tqui sont symétriques
 E] Un retour à un tracé normal
+
+Correction probable - Décembre 2024 Q22 = D
 
 Décembre 2024 Q23 - syncope
 
@@ -3101,6 +3245,8 @@ C] La présence de prodromes vagaux
 D] Un examen cardiaque anormal
 E] Un ECG anormal
 
+Correction probable - Décembre 2024 Q23 = C
+
 Décembre 2024 Q24 - trouble de conduction et de rythme
 
 (photos ) Mr Said, 75 ans fait une syncope. A L'examen, il a un état respiratoire et hémodynamique stable avec bradycardie à 34 bpm. On vous demande d'interpréter l'ECG réalisé aux urgences et répondre aux questions: Sur l'ECG vous posez le diagnostic d'un (e):
@@ -3110,6 +3256,8 @@ B] Bloc auriculoventriculaire Mobitz I (Wenkebach)
 C] Bloc auriculo-ventriculaire 1er degré (I)
 D] Bloc auriculoventriculaire complet (III)
 E] Bloc auriculo-ventriculaire 2e degré (II)
+
+Correction probable - Décembre 2024 Q24 = D
 
 Décembre 2024 Q25 - trouble de conduction et de rythme
 
@@ -3121,6 +3269,8 @@ C] Un pacemaker triple chambre
 D] Une Coronarographie
 E] Un défibrillateur cardiaque implantable
 
+Correction probable - Décembre 2024 Q25 = A
+
 Décembre 2024 Q26 - trouble de conduction et de rythme
 
 Mme Saida, 60 ans, admise pour état de choc (PAS 80 mmHg avec hypoperfusion périphérique). L'ECG a montré une fibrillation atriale rapide à 175 bpm. Le traitement initial de cette patiente repose sur :
@@ -3131,6 +3281,8 @@ C] La Digoxine 0,25 mg par jour
 D] Le Bisoprolol 2,5 mg par jour
 E] Aucune proposition n'est correcte
 
+Correction probable - Décembre 2024 Q26 = B
+
 Décembre 2024 Q27 - hta
 
 L'hypertension artérielle grade 1 est définie par des chiffres tensionnels :
@@ -3139,6 +3291,8 @@ A] Entre 120 et 130 mmHg de systolique et/ou entre 70 et 80 mmHg de diastolique.
 B] Entre 140 et 159 mmHg de systolique et/ou entre 90 et 99 mmHg de diastolique
 C] Entre 130 et 140 mmHg de systolique et/ou entre 70 et 80 mmHg de diastolique
 D] Entre 1600 et 180 mmHg de systolique et/ou entre 100 et 110 mmHg de diastolique
+
+Correction probable - Décembre 2024 Q27 = B
 
 Décembre 2024 Q28 - hta
 
@@ -3149,6 +3303,8 @@ B] Une baisse tensionnelle de 20 mmHg après 3 min d'orthostatisme
 C] Une baisse tensionnelle de 5 mmHg en décubitus dorsal
 D] Une baisse tensionnelle de 10 mmHg en position assise
 
+Correction probable - Décembre 2024 Q28 = B
+
 Décembre 2024 Q29 - hta
 
 Parmi les causes médicamenteuses d'une hypertension artérielle on retrouve:
@@ -3157,6 +3313,8 @@ A] La prise chroniques d'anti inflammatoires
 B] La prise d'antibiotiques
 C] Les alpha bloquants
 D] Les IPP
+
+Correction probable - Décembre 2024 Q29 = A
 
 Décembre 2024 Q30 - risques cardiovasculaire
 
@@ -3167,6 +3325,8 @@ B] Une HTA isolée avec Une PA à 150/90 mmHg
 C] Une hypertriglycéridémie isolée à 2,5 g/l
 D] Un IPS à 0,8
 
+Correction probable - Décembre 2024 Q30 = B
+
 Décembre 2024 Q31 - atherosclerose
 
 La découverte d'une sténose carotidienne d'origine athérosclérotique doit faire rechercher:
@@ -3175,6 +3335,8 @@ A] un AVC hémorragique
 B] un anévrisme cérébral
 C] une coronaropathie associée
 D] une thrombose veineuse
+
+Correction probable - Décembre 2024 Q31 = C
 
 Décembre 2024 Q32 - atherosclerose
 
@@ -3185,6 +3347,8 @@ B] un taux de LDL-cholestérol > 1,5 g/l et genre féminin
 C] un taux de LDL-cholestérol> 1 g/l et coronaropathie
 D] un taux de LDL-cholestérol > 1,9 g/l et xanthomes tendineux
 
+Correction probable - Décembre 2024 Q32 = D
+
 Décembre 2024 Q33 - hta
 
 On diagnostique une HVG à l'ECG chez un hypertendu devant :
@@ -3193,6 +3357,8 @@ A] une onde R ample en D3
 B] un indice de Cornell élevé
 C] une onde Q de nécrose
 D] une onde R ample en D1
+
+Correction probable - Décembre 2024 Q33 = B
 
 Décembre 2024 Q34 - insuffisance cardiaque + cardiomyopathie
 
@@ -3203,6 +3369,8 @@ B] Une insuffisance cardiaque stade 2 probable
 C] Une insuffisance cardiaque droite
 D] Un insuffisance  cardiaque diastolique
 
+Correction probable - Décembre 2024 Q34 = B
+
 Décembre 2024 Q35 - insuffisance cardiaque + cardiomyopathie
 
 L'échocoeur de mr Khalid a montré un VG dilaté avec une Fraction d'ejection à 35%, un une insuffisance mitrale modérée. On retient le diagnostic de:
@@ -3211,6 +3379,8 @@ A] Une insuffisance cardiaque diastolique
 B] Insuffisance cardiaque à haut débit
 C] Insuffisance cardiaque systolique
 D] Situation à risque d'insuffisance cardiaque
+
+Correction probable - Décembre 2024 Q35 = C
 
 Décembre 2024 Q36 - insuffisance cardiaque + cardiomyopathie
 
@@ -3221,6 +3391,8 @@ B] IEC
 C] bétabloquants
 D] Antiagrégants plaquettaires
 
+Correction probable - Décembre 2024 Q36 = B,C
+
 Décembre 2024 Q37 - risques cardiovasculaire
 
 Le score 2 du risque cardiovasculaire comporte:
@@ -3229,6 +3401,8 @@ A] La cholestérolémie totale
 B] l'Age moins de 30 ans
 C] la pression artérielle systolique
 D] le diabète
+
+Correction probable - Décembre 2024 Q37 = C
 
 Décembre 2024 Q38 - risques cardiovasculaire
 
@@ -3239,6 +3413,8 @@ B] la morbi mortalité à 10 ans
 C] la mortalité à 10 ans
 D] le risque chirurgical d'une valvulopathie
 
+Correction probable - Décembre 2024 Q38 = B
+
 Décembre 2024 Q39 - risques cardiovasculaire
 
 L'hypertendu avec insuffisance rénale stade 3 est à risque cardiovasculaire :
@@ -3248,6 +3424,8 @@ B] modéré
 C] élevé
 D] non déterminé
 
+Correction probable - Décembre 2024 Q39 = C
+
 Décembre 2024 Q40 - insuffisance cardiaque + cardiomyopathie
 
 Une insuffisance cardiaque systolique avec bloc de branche gauche fait discuter à priori un traitement par :
@@ -3256,6 +3434,8 @@ A] Pacemaker implantable monochambre
 B] Pacemaker implantable double chambre
 C] Un défibrillateur implantable
 D] Un Pacemaker implantable triple chambre avec ou sans défibrillateur
+
+Correction probable - Décembre 2024 Q40 = D
 
 Décembre 2024 Q41 - anevrysme de l'aorte abdominale
 
@@ -3267,6 +3447,8 @@ C] Le traitement médical fait appel aux antiagrégants plaquettaires
 D] Le traitement chirurgical est indiqué pour tout anévrysme dont le diamètre dépasse 30 mm chez la femme
 E] La prise en charge chirurgicale consiste à la résection de la zone anévrysmale
 
+Correction probable - Décembre 2024 Q41 = E
+
 Décembre 2024 Q42 - anevrysme de l'aorte abdominale
 
 Concernant l'anévrysme de l'aorte abdominale AAA quelle est la réponse juste:
@@ -3276,6 +3458,8 @@ B] Survient souvent chez la femme jeune
 C] Est favorisée par l'activité physique
 D] Est symptomatique dans la majorité des cas
 E] Sa localisation la plus fréquente est sus rénale
+
+Correction probable - Décembre 2024 Q42 = A
 
 Décembre 2024 Q43 - AOMI
 
@@ -3287,6 +3471,8 @@ C] Angioscanner
 D] L'angio-IRM
 E] L'artériographie
 
+Correction probable - Décembre 2024 Q43 = A
+
 Décembre 2024 Q44 - AOMI
 
 Dans L'artériopathie oblitérantes des membres inférieurs AOMI, toutes les réponses sont justes sauf une laquelle :
@@ -3296,6 +3482,8 @@ B] Peut être révélée d'emblée par une ischémie critique
 C] La présence d'une douleur de décubitus constitue un signe de gravite
 D] Dans les localisation aorto iliaque une dysfonction érectile peut coexister
 E] Peut-être associé à une cardiopathie ischémique
+
+Correction probable - Décembre 2024 Q44 = A
 
 Décembre 2024 Q45 - dissections de l'aorte
 
@@ -3307,6 +3495,8 @@ C] L'échocardiographie transoesophagienne
 D] L'angioscanner thoraco- abdominale
 E] La radiographie pulmonaire de face
 
+Correction probable - Décembre 2024 Q45 = C,D
+
 Décembre 2024 Q46 - dissections de l'aorte
 
 Le risque de décès est élevé chez ce patient :
@@ -3316,6 +3506,8 @@ B] Il est estimé à 25% pendant le premier mois
 C] Il est estimé à 25% pendant les premières 24 heures
 D] Il est estimé à 45% pendant les premières 24 heures
 E] Il est estimé à 55% pendant la première semaine
+
+Correction probable - Décembre 2024 Q46 = C
 
 Décembre 2024 Q47 - dissections de l'aorte
 
@@ -3327,6 +3519,8 @@ C] Le traitement endovasculaire est le seul traitement possible chez ce patient
 D] L'abstention thérapeutique vu le mauvais pronostic.
 E] Le traitement chirurgical n'est pas indiqué
 
+Correction probable - Décembre 2024 Q47 = A,B
+
 Décembre 2024 Q48 - coarctations de l'aorte
 
 La coarctation de l'aorte:
@@ -3336,6 +3530,8 @@ B] Est souvent associé à une anomalie congénitale de la valve mitrale
 C] La forme du grand enfant est de bon pronostic
 D] L'asymétrie des pouls aux membres supérieurs est en faveur du diagnostic
 E] Le traitement peut être chirurgical ou endovasculaire.
+
+Correction probable - Décembre 2024 Q48 = A,D,E
 
 Décembre 2024 Q49 - protheses valvulaires
 
@@ -3347,6 +3543,8 @@ C] Du désir du patient
 D] Du nombre de valves atteintes
 E] De L'existence d'une psychose
 
+Correction probable - Décembre 2024 Q49 = B,C,D
+
 Décembre 2024 Q50 - protheses valvulaires
 
 50. L'homogreffe valvulaire cardiaque :
@@ -3356,6 +3554,8 @@ B] Est une valve biologique humaine
 C] Est utilisé seulement chez les enfants
 D] Ne nécessite pas d'anticoagulation
 E] Peut dégénérer après plusieurs années
+
+Correction probable - Décembre 2024 Q50 = B,D,E
 
 ---
 
