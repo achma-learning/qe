@@ -4066,6 +4066,44 @@
       </div>`;
     };
 
+    const EXTRA_RESOURCES = [
+      {
+        title: 'RMMG — Noms des Médicaments Génériques',
+        source: { label: 'ammps.gov.ma', href: 'https://www.ammps.gov.ma/repertoire-medicaments-generiques' },
+        files: [
+          { name: 'Anki v4 (2 000 cartes)', icon: '🃏',
+            href: 'https://raw.githubusercontent.com/achma-learning/anki-decks/main/RMMG-AMMPS/v4%20medicaments_generiques_maroc.apkg',
+            dl: 'v4 medicaments_generiques_maroc.apkg' },
+          { name: 'Dictionnaire pharmacologique', icon: '📄',
+            href: 'https://raw.githubusercontent.com/achma-learning/anki-decks/main/RMMG-AMMPS/dictionnaire%20pharmacologique%20-%20medicament.pdf',
+            dl: 'dictionnaire pharmacologique - medicament.pdf' },
+        ]
+      },
+      {
+        title: 'Médicaments essentiels (MSF)',
+        source: { label: 'MSF Medical Guidelines', href: 'https://medicalguidelines.msf.org/fr/viewport/EssDr/francais/medicaments-essentiels-16682579.html' },
+        files: [
+          { name: 'Guide MSF guideline-339-fr', icon: '📄',
+            href: 'https://raw.githubusercontent.com/achma-learning/anki-decks/main/RMMG-AMMPS/M%C3%A9dicaments%20essentiels%20(MSF)%20guideline-339-fr.pdf',
+            dl: 'Médicaments essentiels (MSF) guideline-339-fr.pdf' },
+        ]
+      }
+    ];
+    const extraCard = (res) => {
+      const docs = res.files.map(f => `<div class="hy-doc">
+          <span class="hy-doc-name">${f.icon} ${escapeHtml(f.name)}</span>
+          <span class="hy-doc-act">
+            <a class="mini" href="${escapeHtml(f.href)}" target="_blank" rel="noopener">Ouvrir ↗</a>
+            <a class="mini" href="${escapeHtml(f.href)}" download="${escapeHtml(f.dl)}">Télécharger ↓</a>
+          </span>
+        </div>`).join('');
+      return `<div class="hy-card has">
+        <div class="hy-title">${escapeHtml(res.title)} <span class="hy-badge">${res.files.length}</span></div>
+        <div class="hy-meta">Source : <a href="${escapeHtml(res.source.href)}" target="_blank" rel="noopener">${escapeHtml(res.source.label)} ↗</a></div>
+        <div class="hy-docs">${docs}</div>
+      </div>`;
+    };
+
     root.innerHTML = `
       <div class="container hy-page">
         <div class="hero hy-hero">
@@ -4078,6 +4116,10 @@
               <div class="semester-head"><span class="tag">${sem.toUpperCase()}</span><span class="name">${escapeHtml(sems[sem] || '')}</span></div>
               <div class="hy-cards">${grouped[sem].map(card).join('')}</div>
             </div>`).join('')}
+        </div>
+        <div class="semester" style="margin-top:24px;">
+          <div class="semester-head"><span class="tag">PLUS</span><span class="name">Ressources complémentaires</span></div>
+          <div class="hy-cards">${EXTRA_RESOURCES.map(extraCard).join('')}</div>
         </div>
       </div>
     `;
