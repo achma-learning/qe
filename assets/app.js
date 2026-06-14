@@ -773,9 +773,10 @@
     top.className = 'topbar';
     const navBase = (opts.indexHref || 'index.html').replace('index.html', '');
     const navLinks = [
-      { key: 'report',     href: navBase + 'report.html',     label: 'Report',     title: 'AI report — build a prompt from your mistakes' },
-      { key: 'highyield',  href: navBase + 'high-yield.html', label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
-      { key: 'curriculum', href: navBase + 'curriculum.html', label: 'Curriculum', title: 'Programme officiel FMPM (S1–S10) par semestre' },
+      { key: 'report',     href: navBase + 'report.html',        label: 'Report',     title: 'AI report — build a prompt from your mistakes' },
+      { key: 'highyield',  href: navBase + 'high-yield.html',    label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
+      { key: 'curriculum', href: navBase + 'curriculum.html',    label: 'Curriculum', title: 'Programme officiel FMPM (S1–S10) par semestre' },
+      { key: 'playlist',   href: navBase + 'playlist-fmpm.html', label: 'Playlist',   title: 'Playlist FMPM — Cours par semestre YouTube & Teams' },
     ].filter(n => n.key !== opts.active)
      .map(n => `<a class="topbar-link" href="${n.href}" title="${escapeHtml(n.title)}">${n.label}</a>`).join('');
     top.innerHTML = `
@@ -4341,6 +4342,166 @@
   }
 
   // ===== Utils =====
+  // =====================================================================
+  // ==================  PLAYLIST FMPM PAGE (playlist-fmpm.html)  =======
+  // =====================================================================
+  function bootPlaylistFMPM() {
+    buildTopbar({ search: false, active: 'playlist', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Playlist FMPM</b>` });
+    const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
+
+    // Playlist data extracted from the FMPM PDF.
+    // url: YouTube playlist link — replace '#' with the actual URL from the source PDF.
+    // teams: true — recording hosted on Microsoft Teams instead of YouTube.
+    const SEMS = [
+      { sem: 'S1', groups: [[
+        { name: 'Anatomie 1',                                    url: '#' },
+        { name: 'Santé publique',                                url: '#' },
+        { name: 'Biologie',                                      url: '#' },
+        { name: 'Chimie et Biochimie',                           url: '#' },
+        { name: 'Communication et Langues',                      url: '#' },
+        { name: 'Méthodologie d\'apprentissage et Terminologie', url: '#' },
+      ]] },
+      { sem: 'S2', groups: [[
+        { name: 'Anatomie 2',                  url: '#' },
+        { name: 'Biophysique',                 url: '#' },
+        { name: 'Histologie-Embryologie 1',    url: '#' },
+        { name: 'Histoire de la médecine',     url: '#' },
+        { name: 'Psychosociologie',            url: '#' },
+        { name: 'Techniques de communication', url: '#' },
+      ]] },
+      { sem: 'S3', groups: [[
+        { name: 'Anatomie 3',                        url: '#' },
+        { name: 'Sémiologie 1',                      url: '#' },
+        { name: 'Histologie-Embryologie 2',          url: '#' },
+        { name: 'Bactériologie-Virologie-Immunologie', url: '#' },
+        { name: 'Physiologie 1',                     url: '#' },
+        { name: 'Secourisme — Médecine expérimentale', url: '#' },
+      ]] },
+      { sem: 'S4', groups: [[
+        { name: 'Anatomie 4',                url: '#' },
+        { name: 'Sémiologie 2',              url: '#' },
+        { name: 'Hématologie fondamentale',  url: '#' },
+        { name: 'Biochimie clinique',        url: '#' },
+        { name: 'Physiologie 2',             url: '#' },
+      ]] },
+      { sem: 'S5', groups: [[
+        { name: 'Radiologie et Imagerie',                          url: '#' },
+        { name: 'Pharmacologie',                                   url: '#' },
+        { name: 'Anatomie pathologique générale',                  url: '#' },
+        { name: 'Parasitologie-Mycologie / Maladies infectieuses', url: '#' },
+        { name: 'TD Parasitologie-Mycologie',                      url: '#' },
+      ]] },
+      { sem: 'S6', groups: [[
+        { name: 'Digestif',         url: '#', teams: true },
+        { name: 'Cardio-Vasculaire', url: '#', teams: true },
+        { name: 'Respiratoire',     url: '#', teams: true },
+      ]] },
+      { sem: 'S7', groups: [
+        [
+          { name: 'Pédiatrie',            url: '#' },
+          { name: 'Chirurgie pédiatrique', url: '#' },
+        ],
+        [
+          { name: 'Neurologie',     url: '#' },
+          { name: 'Neurochirurgie', url: '#' },
+        ],
+        [
+          { name: 'Oncologie-Radiothérapie', url: '#' },
+          { name: 'Hématologie clinique',    url: '#' },
+        ],
+        [
+          { name: 'Endocrinologie', url: '#' },
+          { name: 'Dermatologie',   url: '#' },
+        ],
+      ] },
+      { sem: 'S8', groups: [
+        [
+          { name: 'Rhumatologie',          url: '#' },
+          { name: 'Traumatologie-orthopédie', url: '#' },
+        ],
+        [
+          { name: 'Immunopathologie',    url: '#' },
+          { name: 'Maladies systémiques', url: '#' },
+          { name: 'Génétique',           url: '#' },
+        ],
+        [
+          { name: 'Anatomie pathologique spécifique 1 & 2', url: '#' },
+        ],
+      ] },
+      { sem: 'S9', groups: [[
+        { name: 'Gynéco-Obstétrique',                          url: '#', teams: true },
+        { name: 'Urgences-Réanimation',                        url: '#', teams: true },
+        { name: 'Douleur / Soins palliatifs / Chir réparatrice', url: '#', teams: true },
+        { name: 'ORL',                                         url: '#', teams: true },
+        { name: 'Maxillo-faciale',                             url: '#', teams: true },
+        { name: 'Ophtalmologie',                               url: '#', teams: true },
+        { name: 'Santé mentale',                               url: '#', teams: true },
+      ]] },
+      { sem: 'S10', groups: [
+        [
+          { name: 'Médecine légale',    url: '#' },
+          { name: 'Médecine du travail', url: '#' },
+          { name: 'Éthique',            url: '#' },
+        ],
+        [
+          { name: 'Santé publique', url: '#' },
+        ],
+        [
+          { name: 'Urologie',    url: '#' },
+          { name: 'Néphrologie', url: '#' },
+        ],
+        [
+          { name: 'Synthèse Thérapeutique', url: '#' },
+        ],
+      ] },
+    ];
+
+    const renderItem = (m) => {
+      const isReal = m.url && m.url !== '#';
+      const cls = 'pl-link' + (m.teams ? ' pl-teams-link' : '');
+      const attrs = isReal ? ` target="_blank" rel="noopener"` : '';
+      const tag = m.teams
+        ? `<span class="pl-tag tms">Teams</span>`
+        : `<span class="pl-tag yt">▶</span>`;
+      return `<a class="${cls}" href="${escapeHtml(m.url)}"${attrs}>${escapeHtml(m.name)}${tag}</a>`;
+    };
+
+    const renderRow = (s) => {
+      const inner = s.groups
+        .map(grp => grp.map(renderItem).join('<span class="pl-dot"> · </span>'))
+        .join('<span class="pl-bar"> | </span>');
+      return `<div class="pl-row">
+        <span class="pl-sem">${escapeHtml(s.sem)}</span>
+        <div class="pl-modules">${inner}</div>
+      </div>`;
+    };
+
+    root.innerHTML = `
+      <div class="container pl-page">
+        <div class="hero pl-hero">
+          <h1>▶ Playlist FMPM</h1>
+          <p>Cours par semestre — <b>YouTube</b> &amp; <b>Teams</b> · Faculté de Médecine et de Pharmacie de Marrakech.</p>
+          <div class="pl-badge-row">
+            <span class="pl-badge yt">▶ YouTube</span>
+            <span class="pl-badge tms">👥 Teams</span>
+          </div>
+        </div>
+        <div class="pl-table">
+          ${SEMS.map(renderRow).join('')}
+        </div>
+        <div class="pl-foot">FMPM · Marrakech · cliquez sur un module pour ouvrir la playlist</div>
+      </div>
+    `;
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
+      if (handleOverlayKeys(e)) return;
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+      if (handleGlobalKeys(e)) return;
+      if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
+    }, true);
+  }
+
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
@@ -4352,6 +4513,7 @@
     bootReport,
     bootHighYield,
     bootCurriculum,
+    bootPlaylistFMPM,
     showHelp,
     showSettings,
     showModuleSwitcher,
