@@ -4349,121 +4349,127 @@
     buildTopbar({ search: false, active: 'playlist', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Playlist FMPM</b>` });
     const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
 
-    // Playlist data extracted from the FMPM PDF.
-    // url: YouTube playlist link — replace '#' with the actual URL from the source PDF.
-    // teams: true — recording hosted on Microsoft Teams instead of YouTube.
+    // URLs extracted from the PDF hyperlink annotations (PyMuPDF).
+    // url      = YouTube / website link for the module name
+    // teamsUrl = Google Drive Teams folder (S6 only — separate from YouTube)
+    // teams    = true for S9: content recorded on Teams, uploaded to YouTube
+    // url:null = module listed in PDF without a playlist link (S1 non-anatomy)
     const SEMS = [
       { sem: 'S1', groups: [[
-        { name: 'Anatomie 1',                                    url: '#' },
-        { name: 'Santé publique',                                url: '#' },
-        { name: 'Biologie',                                      url: '#' },
-        { name: 'Chimie et Biochimie',                           url: '#' },
-        { name: 'Communication et Langues',                      url: '#' },
-        { name: 'Méthodologie d\'apprentissage et Terminologie', url: '#' },
+        { name: 'Anatomie 1',                                    url: 'https://anatomie-fmpm.uca.ma/espace-etudiants/cours/' },
+        { name: 'Santé publique',                                url: null },
+        { name: 'Biologie',                                      url: null },
+        { name: 'Chimie et Biochimie',                           url: null },
+        { name: 'Communication et Langues',                      url: null },
+        { name: 'Méthodologie d\'apprentissage et Terminologie', url: null },
       ]] },
       { sem: 'S2', groups: [[
-        { name: 'Anatomie 2',                  url: '#' },
-        { name: 'Biophysique',                 url: '#' },
-        { name: 'Histologie-Embryologie 1',    url: '#' },
-        { name: 'Histoire de la médecine',     url: '#' },
-        { name: 'Psychosociologie',            url: '#' },
-        { name: 'Techniques de communication', url: '#' },
+        { name: 'Anatomie 2',                  url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zc_nBUikaFbQ4wIsCL7XWjs' },
+        { name: 'Biophysique',                 url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zeGLldm74nlK_rZ4qv_uD-G' },
+        { name: 'Histologie-Embryologie 1',    url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zfbPMBwVBLF3Ygk1f0wZDQi' },
+        { name: 'Histoire de la médecine',     url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zdNUwyuw82aWhbeXeM4EWm9' },
+        { name: 'Psychosociologie',            url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zeNJDdle0GYbqwlDX_U38QN' },
+        { name: 'Techniques de communication', url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zcQ6jdeKjCzqf2YIqB2BLTe' },
       ]] },
       { sem: 'S3', groups: [[
-        { name: 'Anatomie 3',                        url: '#' },
-        { name: 'Sémiologie 1',                      url: '#' },
-        { name: 'Histologie-Embryologie 2',          url: '#' },
-        { name: 'Bactériologie-Virologie-Immunologie', url: '#' },
-        { name: 'Physiologie 1',                     url: '#' },
-        { name: 'Secourisme — Médecine expérimentale', url: '#' },
+        { name: 'Anatomie 3',                          url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zdsfg8k-DCEMRklYz2-7fPP' },
+        { name: 'Sémiologie 1',                        url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zeaXUrnd6ywnMx4_7vZRMiF' },
+        { name: 'Histologie-Embryologie 2',            url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zcMePjk12A0s2Kf4i-Hspoa' },
+        { name: 'Bactériologie-Virologie-Immunologie', url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zc2qUzO0eF1gsuCTWxNB7GG' },
+        { name: 'Physiologie 1',                       url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zeCYE0YLhkms7uIcTJB07Vp' },
+        { name: 'Secourisme — Médecine expérimentale', url: 'https://www.youtube.com/playlist?list=PLpOpQbt9_0zdhrnejVC1LvrROdawerkku' },
       ]] },
       { sem: 'S4', groups: [[
-        { name: 'Anatomie 4',                url: '#' },
-        { name: 'Sémiologie 2',              url: '#' },
-        { name: 'Hématologie fondamentale',  url: '#' },
-        { name: 'Biochimie clinique',        url: '#' },
-        { name: 'Physiologie 2',             url: '#' },
+        { name: 'Anatomie 4',               url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zdD4VwnikMcTS4gsfFIeL7E&si=_gtLOYXlCGTr_-nG' },
+        { name: 'Sémiologie 2',             url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zcUbBAvdJIsln9AljEoUumg&si=jcxTrx0fvCVQr13L' },
+        { name: 'Hématologie fondamentale', url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zdibAVXaFIbCrOs0zG3uXx8&si=31f_XwX876EpXpwv' },
+        { name: 'Biochimie clinique',       url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zeeFDTuP9RDfxRafx4BsuVY&si=hOPmO5OdGwicbh-H' },
+        { name: 'Physiologie 2',            url: 'https://youtube.com/playlist?list=PLpOpQbt9_0zfQzqsdYRfNlyjyV3Hew9EK&si=7tps8zPBeUuMEAF6' },
       ]] },
       { sem: 'S5', groups: [[
-        { name: 'Radiologie et Imagerie',                          url: '#' },
-        { name: 'Pharmacologie',                                   url: '#' },
-        { name: 'Anatomie pathologique générale',                  url: '#' },
-        { name: 'Parasitologie-Mycologie / Maladies infectieuses', url: '#' },
-        { name: 'TD Parasitologie-Mycologie',                      url: '#' },
+        { name: 'Radiologie et Imagerie',                          url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpIhVY9e4CXn78bY_wmlSnd' },
+        { name: 'Pharmacologie',                                   url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikoW5nDPybhpOssVKFAQzprI' },
+        { name: 'Anatomie pathologique générale',                  url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikoAyrY3yX-03WiDLoJ_3pc1' },
+        { name: 'Parasitologie-Mycologie / Maladies infectieuses', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrcn3y7OCSogIMQNswHCV-z' },
+        { name: 'TD Parasitologie-Mycologie',                      url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrphvrwo9M6BZVHH8mLK1RH' },
       ]] },
       { sem: 'S6', groups: [[
-        { name: 'Digestif',         url: '#', teams: true },
-        { name: 'Cardio-Vasculaire', url: '#', teams: true },
-        { name: 'Respiratoire',     url: '#', teams: true },
+        { name: 'Digestif',          url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikp6T_JmxFhdfyAUKZDucjhn', teamsUrl: 'https://drive.google.com/drive/folders/1N-bU-HAC_50EUgH8ZG0vOsxz-aYHF6IJ' },
+        { name: 'Cardio-Vasculaire', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikotMakzGdRNGnwppIAr0agC', teamsUrl: 'https://drive.google.com/drive/folders/1YrARZrAuUp5aPbqcFa778oo2stOlvtrT' },
+        { name: 'Respiratoire',      url: 'https://youtube.com/playlist?list=PLHp64AVMIikr9T1zPha0vv_GUbbMZM6lh',    teamsUrl: 'https://drive.google.com/drive/folders/1HLNMJHSghp8l5jPwisD8AeJU7VKlybUv' },
       ]] },
       { sem: 'S7', groups: [
         [
-          { name: 'Pédiatrie',            url: '#' },
-          { name: 'Chirurgie pédiatrique', url: '#' },
+          { name: 'Pédiatrie',             url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikq0b3UfddkTZxm2FYV5PmuQ' },
+          { name: 'Chirurgie pédiatrique', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikob0wxSiiuIqHX-mqoA5Fph' },
         ],
         [
-          { name: 'Neurologie',     url: '#' },
-          { name: 'Neurochirurgie', url: '#' },
+          { name: 'Neurologie',     url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrldTf4d3-d1g9uLIy_0Y_B' },
+          { name: 'Neurochirurgie', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikoycNdWVqNoAbKMxDNREhAl' },
         ],
         [
-          { name: 'Oncologie-Radiothérapie', url: '#' },
-          { name: 'Hématologie clinique',    url: '#' },
+          { name: 'Oncologie-Radiothérapie', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikr0dHLW88OMz0oIHmjFnw7X' },
+          { name: 'Hématologie clinique',    url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrW2SzoH8iO9QIJanEH88Xk' },
         ],
         [
-          { name: 'Endocrinologie', url: '#' },
-          { name: 'Dermatologie',   url: '#' },
+          { name: 'Endocrinologie', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqeAmpID9OTmtuT4ju2nEPP' },
+          { name: 'Dermatologie',   url: 'https://www.youtube.com/playlist?list=PLHp64AVMIiko2aTUi-MGlOhGBPip1QCrV' },
         ],
       ] },
       { sem: 'S8', groups: [
         [
-          { name: 'Rhumatologie',          url: '#' },
-          { name: 'Traumatologie-orthopédie', url: '#' },
+          { name: 'Rhumatologie',             url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrRjX-ah2OgFp3rnyPD-qmF' },
+          { name: 'Traumatologie-orthopédie', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqTvhNkZiA1b9MzGf3Or_6b' },
         ],
         [
-          { name: 'Immunopathologie',    url: '#' },
-          { name: 'Maladies systémiques', url: '#' },
-          { name: 'Génétique',           url: '#' },
+          { name: 'Immunopathologie',    url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikq37L5fr8XR3kJY77u3C6v0' },
+          { name: 'Maladies systémiques', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqoX_WHrV6P2OD521tLv0x6' },
+          { name: 'Génétique',           url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrGLKe5luwnHV2GUQ3E6O5N' },
         ],
         [
-          { name: 'Anatomie pathologique spécifique 1 & 2', url: '#' },
+          { name: 'Anatomie pathologique spécifique 1 & 2', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikp8ybv4qqNoLvwuWPMj8o4w' },
         ],
       ] },
       { sem: 'S9', groups: [[
-        { name: 'Gynéco-Obstétrique',                          url: '#', teams: true },
-        { name: 'Urgences-Réanimation',                        url: '#', teams: true },
-        { name: 'Douleur / Soins palliatifs / Chir réparatrice', url: '#', teams: true },
-        { name: 'ORL',                                         url: '#', teams: true },
-        { name: 'Maxillo-faciale',                             url: '#', teams: true },
-        { name: 'Ophtalmologie',                               url: '#', teams: true },
-        { name: 'Santé mentale',                               url: '#', teams: true },
+        { name: 'Gynéco-Obstétrique',                            url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrzMbpA_M1NVshx5i826Uvk', teams: true },
+        { name: 'Urgences-Réanimation',                          url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrPejvkLbLkgewSFW0wmtgH', teams: true },
+        { name: 'Douleur / Soins palliatifs / Chir réparatrice', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrsVjp78lerJ-NcZa0F2SAn', teams: true },
+        { name: 'ORL',                                           url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpMSfTAkXp7bbMDfDVJQgd3', teams: true },
+        { name: 'Maxillo-faciale',                               url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpjw6emfSnCwbEtFkI5Ipzw', teams: true },
+        { name: 'Ophtalmologie',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpavLHhX2VLXT2oXOhqw5iW', teams: true },
+        { name: 'Santé mentale',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqrXMqUhr0NsP-y_A3S6ieH', teams: true },
       ]] },
       { sem: 'S10', groups: [
         [
-          { name: 'Médecine légale',    url: '#' },
-          { name: 'Médecine du travail', url: '#' },
-          { name: 'Éthique',            url: '#' },
+          { name: 'Médecine légale',     url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpXHj1gqiJ7xTIPnrw1ZR8i' },
+          { name: 'Médecine du travail', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqxpsP2kzUzUBGzKmy9KHiC' },
+          { name: 'Éthique',             url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrUetvCXVz_Blo_KKxxjSp0' },
         ],
         [
-          { name: 'Santé publique', url: '#' },
+          { name: 'Santé publique', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikoRqR3jx3NeqC0jHLYX3-c3' },
         ],
         [
-          { name: 'Urologie',    url: '#' },
-          { name: 'Néphrologie', url: '#' },
+          { name: 'Urologie',    url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikoy9b6zKulK2J-KBaFMQzpM' },
+          { name: 'Néphrologie', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpzXJCrDem_r4TSuIQ6IVxH' },
         ],
         [
-          { name: 'Synthèse Thérapeutique', url: '#' },
+          { name: 'Synthèse Thérapeutique', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqVDpZXVkiHKcRCSHe4-R8c' },
         ],
       ] },
     ];
 
+    const EXT = ' target="_blank" rel="noopener"';
     const renderItem = (m) => {
-      const isReal = m.url && m.url !== '#';
-      const cls = 'pl-link' + (m.teams ? ' pl-teams-link' : '');
-      const attrs = isReal ? ` target="_blank" rel="noopener"` : '';
-      const tag = m.teams
-        ? `<span class="pl-tag tms">Teams</span>`
-        : `<span class="pl-tag yt">▶</span>`;
-      return `<a class="${cls}" href="${escapeHtml(m.url)}"${attrs}>${escapeHtml(m.name)}${tag}</a>`;
+      if (!m.url) return `<span class="pl-nolink">${escapeHtml(m.name)}</span>`;
+      if (m.teamsUrl) {
+        // S6: module name → YouTube, separate (Teams) → Google Drive
+        return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)}</a><a class="pl-teams-link" href="${escapeHtml(m.teamsUrl)}"${EXT}> (Teams)</a>`;
+      }
+      if (m.teams) {
+        // S9: Teams recordings uploaded to YouTube — name + (Teams) both open same URL
+        return `<a class="pl-link pl-teams-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)} <span class="pl-teams-paren">(Teams)</span></a>`;
+      }
+      return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)}</a>`;
     };
 
     const renderRow = (s) => {
@@ -4480,10 +4486,12 @@
       <div class="container pl-page">
         <div class="hero pl-hero">
           <h1>▶ Playlist FMPM</h1>
-          <p>Cours par semestre — <b>YouTube</b> &amp; <b>Teams</b> · Faculté de Médecine et de Pharmacie de Marrakech.</p>
+          <p>Cours par semestre — Faculté de Médecine et de Pharmacie de Marrakech.
+             Cliquez sur un module pour ouvrir la playlist.</p>
           <div class="pl-badge-row">
             <span class="pl-badge yt">▶ YouTube</span>
-            <span class="pl-badge tms">👥 Teams</span>
+            <span class="pl-badge tms">(Teams) sur YouTube</span>
+            <span class="pl-badge drive">(Teams) Google Drive</span>
           </div>
         </div>
         <div class="pl-table">
