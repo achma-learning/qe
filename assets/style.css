@@ -1269,7 +1269,7 @@ html.light .pl-row:nth-child(even) { background: rgba(0,0,0,.018); }
 .pl-badge.tms   { color: var(--accent-2); border-color: rgba(140,92,255,.4); background: rgba(140,92,255,.08); }
 .pl-badge.drive { color: #1a73e8; border-color: rgba(26,115,232,.4); background: rgba(26,115,232,.08); }
 .pl-nolink { color: var(--text-dim); font-style: italic; }
-.pl-teams-paren { opacity: .7; font-size: .9em; }
+.pl-teams-paren { color: var(--accent-2); font-size: .9em; }
 .pl-foot {
   margin-top: 20px;
   padding-bottom: 8px;

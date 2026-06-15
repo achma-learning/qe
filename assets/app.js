@@ -4467,7 +4467,7 @@
       }
       if (m.teams) {
         // S9: Teams recordings uploaded to YouTube — name + (Teams) both open same URL
-        return `<a class="pl-link pl-teams-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)} <span class="pl-teams-paren">(Teams)</span></a>`;
+        return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)} <span class="pl-teams-paren">(Teams)</span></a>`;
       }
       return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)}</a>`;
     };
