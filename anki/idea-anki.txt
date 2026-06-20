@@ -1,0 +1,3 @@
+have a anki decks .apkg for each modules,
+
+and in future optimise it for anki medecin gene .apkg , meaning mininum that don't need to be missed by a generalist
