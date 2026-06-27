@@ -20,6 +20,530 @@ Ratt 2017 = 50/50 Questions
 
 ---
 
+// Normal 2026 (Correction officielle) :
+
+# Normal 2026 Q1 - Neurochirurgie
+
+Une lésion de la région sellaire peut être suspecter devant :
+
+A] Des signes d'hypersecrétion hormonale
+B] Un syndrome alterne
+C] Un syndrome cérébelleux
+D] Des signes de compression du chiasma optique
+E] Une aphasie
+
+# Normal 2026 Q2 - Neurochirurgie
+
+Les éléments cliniques orientant vers une suppuration intra crânienne sont :
+
+A] La mise en évidence d'une porte d'entrée infectieuse
+B] La présence de la triade de Bergman
+C] La présence d'un syndrome infectieux
+D] La présence d'un syndrome optochiasmatique
+E] Les surinfections de plaies en post opératoires
+
+# Normal 2026 Q3 - Neurochirurgie
+
+Les localisations possibles de l'hydatidose rachidienne sont :
+
+A] Intra médullaire
+B] Intra durale et extra médullaire
+C] Extra durale intra spinale
+D] Vertébrale
+E] Para vertébrale
+
+# Normal 2026 Q4 - Neurologie
+
+Dans un syndrome de la queue de cheval on peut avoir :
+
+A] Une amyotrophie des membres inférieurs
+B] Un clonus rotulien
+C] Des troubles sphinctériens
+D] Une anesthésie en selle
+E] Un signe de Babinski
+
+# Normal 2026 Q5 - Neurochirurgie
+
+La ou les causes d'un hématome intracérébral spontané est (sont) :
+
+A] Une hypertension artérielle
+B] Un athérome carotidien
+C] Une maladie de système
+D] Une prise d'anticoagulant
+E] Une tumeur cérébrale
+
+# Normal 2026 Q6 - Neurologie
+
+A propos du syndrome de la compression médullaire :
+
+A] Le diagnostic est basé essentiellement sur l'imagerie rachidienne
+B] Le méningiome est une cause intramédullaire
+C] L'IRM s'impose en urgence
+D] Les troubles sphinctériens sont précoces
+E] L'atteinte neurologique peut être réversible
+
+# Normal 2026 Q7 - Neurochirurgie
+
+Un patient âgé de 35 ans, admis au service de neurochirurgie pour une suspicion de rupture de malformation artério-veineuse intracrânienne. Quel(s) examen(s) demanderiez-vous pour confirmer ce diagnostic ?
+
+A] Une tomodensitométrie cérébrale sans injection de contraste
+B] Un EEG
+C] Une artériographie cérébrale
+D] Une ponction lombaire
+E] Des potentiels évoqués du tronc cérébral
+
+# Normal 2026 Q8 - Neurochirurgie
+
+L'aggravation clinique d'un patient admis pour une rupture d'anévrysme intracrânien peut être due à :
+
+A] Une hydrocéphalie
+B] Une démence
+C] Un ressaignement
+D] Une épilepsie
+E] Un vasospasme artériel
+
+# Normal 2026 Q9 - Neurochirurgie
+
+Concernant les Spina Bifida :
+
+A] Les Spina bifida sont toujours symptomatiques
+B] Elles découlent d'une malformation du tube neural au cours du troisième trimestre de la grossesse
+C] Les myéloméningocèles sont de mauvais pronostic neurocognitif
+D] Le diagnostic positif anténatal repose sur l'échographie et l'IRM
+E] Peuvent être accompagnées d'une malformation d'Arnold-Chiari
+
+# Normal 2026 Q10 - Neurochirurgie
+
+La Méningocèle se caractérise par les données suivantes :
+
+A] Les antiépileptiques sont une cause connue de la méningocèle
+B] Une tuméfaction au niveau cervical est la plus fréquente
+C] Le risque élevé de paraplégie et de troubles sphinctériens
+D] Un risque élevé de retard mental
+E] Le traitement préventif repose sur l'acide folique
+
+# Normal 2026 Q11 - Neurochirurgie
+
+Concernant les hydrocéphalies du nourrisson :
+
+A] La sténose de l'acqueduc de Sylvius est une cause fréquente
+B] Un papillome du plexus choroïde est une étiologie par surproduction de LCR
+C] Le regard en coucher de soleil est un signe clinique de gravité
+D] La dérivation ventriculo-péritonéale est le seul traitement efficace
+E] L'échographie transfontanellaire permet de poser le diagnostic
+
+# Normal 2026 Q12 - Neurochirurgie
+
+Le tableau clinique de l'hydrocéphalie active de l'enfant en prépuberté est dominé par :
+
+A] Des céphalées en casque
+B] Des fontanelles tendues
+C] Des vomissements matinaux en jet
+D] Un œdème papillaire au fond d'œil
+E] Un syndrome démentiel
+
+# Normal 2026 Q13 - Neurochirurgie
+
+Le tableau clinique de l'hydrocéphalie active de l'enfant adolescent est dominé par :
+
+A] Une amnésie et des troubles de la marche
+B] Des vomissements
+C] Un syndrome pseudo-bulbaire
+D] Une plagiocéphalie
+E] Un œdème papillaire au fond d'œil
+
+# Normal 2026 Q14 - Neurochirurgie
+
+L'hydrocéphalie chronique de l'adulte âgé est caractérisée par :
+
+A] Des troubles de la mémoire
+B] Des troubles de la marche
+C] Une incontinence urinaire
+D] Des vomissements en jet
+E] Une amélioration clinique suite à une dérivation de LCR
+
+# Normal 2026 Q15 - Neurochirurgie
+
+Quel examen d'imagerie est considéré comme la référence pour confirmer le diagnostic de craniosténose et planifier l'intervention chirurgicale ?
+
+A] L'échographie simple
+B] L'imagerie par résonnance magnétique (IRM)
+C] Le scanner (tomodensitométrie) avec reconstruction en trois dimensions (3D CT)
+D] Une simple radiographie du crâne
+E] Une scintigraphie osseuse
+
+# Normal 2026 Q16 - Neurochirurgie
+
+Un patient est admis en urgence pour un traumatisme crânien. Il émet quelques sons incompréhensibles, n'ouvre pas les yeux et réagit en décortication. Son score de Glasgow est de :
+
+A] 3/15
+B] 4/15
+C] 5/15
+D] 6/15
+E] 7/15
+
+# Normal 2026 Q17 - Neurochirurgie
+
+Parmi les lésions traumatiques suivantes, la ou lesquelles nécessite(ent) un traitement chirurgical ?
+
+A] Un hématome du tronc cérébral
+B] Un hématome de la région pinéale sans hydrocéphalie
+C] Un hématome thalamique
+D] Une fracture en regard du torcular
+E] Une plaie craniocérébrale
+
+# Normal 2026 Q18 - Neurochirurgie
+
+Parmi les lésions traumatiques suivantes, la ou lesquelles nécessite(ent) un traitement chirurgical ?
+
+A] Une fracture ethmoïdale
+B] Une fracture pédiculaire de C2
+C] Un syndrome de Schneider en voie d'amélioration
+D] Une fracture de C1 sans lésion ligamentaire
+E] Une hernie discale cervicale traumatique avec déficit neurologique
+
+# Normal 2026 Q19 - Neurochirurgie
+
+Parmi les tumeurs suivantes, la ou lesquelles se développent surtout chez l'enfant ?
+
+A] Le méningiome
+B] Le craniopharyngiome
+C] Le schwannome vestibulaire
+D] La métastase
+E] Le médulloblastome
+
+# Normal 2026 Q20 - Neurochirurgie
+
+Parmi ces tumeurs, la ou lesquelles peuvent se transformer en tumeur maligne ?
+
+A] Le papillome du plexus choroïde
+B] Le craniopharyngiome
+C] L'astrocytome
+D] L'adénome hypophysaire
+E] L'ostéome frontal
+
+# Normal 2026 Q21 - Neurochirurgie
+
+Un méningiome intracrânien :
+
+A] Est toujours bénin
+B] Est plus fréquent à l'étage sous tentoriel
+C] Peut envahir les sinus duraux
+D] Peut se révéler par une épilepsie
+E] Nécessite souvent un traitement chirurgical
+
+# Normal 2026 Q22 - Neurochirurgie
+
+Un schwannome vestibulaire peut être révélé par :
+
+A] Des acouphènes
+B] Un torticolis
+C] Une diplopie
+D] Une paralysie faciale
+E] Une hypoacousie
+
+# Normal 2026 Q23 - Neurochirurgie
+
+Un glioblastome :
+
+A] Est une tumeur qui peut survenir aussi bien chez l'enfant que chez l'adulte
+B] Peut être multifocal
+C] Peut envahir les commissures interhémisphériques
+D] Nécessite une association chirurgie, radiothérapie et chimiothérapies
+E] Est une tumeur de bon pronostic
+
+# Normal 2026 Q24 - Neurochirurgie
+
+Quelles complications doit-on craindre chez un opéré du crâne ?
+
+A] Une hydrocéphalie aigue
+B] Un hématome postopératoire
+C] Une méningite
+D] Une ischémie cérébrale
+E] Une ostéite du volet
+
+# Normal 2026 Q25 - Neurochirurgie
+
+Quelles complications doit-on craindre chez un opéré du rachis ?
+
+A] Une instabilité vertébrale
+B] Une épidurite
+C] Une ischémie médullaire
+D] Une fistule du LCR avec méningite
+E] Un hématome post opératoire
+
+# Normal 2026 Q26 - Neurologie
+
+Patiente de 22 ans, qui présente depuis quelques jours une faiblesse de l'hémicorps droit avec ataxie. L'interrogatoire note la présence de BAV il y a 6 mois ayant régressé en 3 jours. A l'examen vous retrouvez un syndrome hémipyramidal droit, une dysarthrie cérébelleuse et un syndrome cérébelleux cinétique gauche.
+Quelle topographie peut expliquer l'ensemble des symptômes de la patiente ?
+
+A] Hémimoelle cervicale gauche
+B] Hémibulbe gauche
+C] Mésencéphale gauche
+D] Multifocale
+E] Hémimoelle cervicale droite
+
+# Normal 2026 Q27 - Neurologie
+
+Patiente de 22 ans, qui présente depuis quelques jours une faiblesse de l'hémicorps droit avec ataxie. L'interrogatoire note la présence de BAV il y a 6 mois ayant régressé en 3 jours. A l'examen vous retrouvez un syndrome hémipyramidal droit, une dysarthrie cérébelleuse et un syndrome cérébelleux cinétique gauche.
+Le diagnostic le plus probable est :
+
+A] Neurobehçet
+B] AVC
+C] SEP
+D] Migraine
+E] Problème fonctionnel
+
+# Normal 2026 Q28 - Neurologie
+
+Patiente de 22 ans, qui présente depuis quelques jours une faiblesse de l'hémicorps droit avec ataxie. L'interrogatoire note la présence de BAV il y a 6 mois ayant régressé en 3 jours. A l'examen vous retrouvez un syndrome hémipyramidal droit, une dysarthrie cérébelleuse et un syndrome cérébelleux cinétique gauche.
+Quel examen complémentaire faire en première intention ?
+
+A] TDM cérébrale
+B] IRM encéphalique
+C] PL
+D] NFS/PQ
+E] Potentiels évoqués
+
+# Normal 2026 Q29 - Neurologie
+
+Patiente de 22 ans, qui présente depuis quelques jours une faiblesse de l'hémicorps droit avec ataxie. L'interrogatoire note la présence de BAV il y a 6 mois ayant régressé en 3 jours. A l'examen vous retrouvez un syndrome hémipyramidal droit, une dysarthrie cérébelleuse et un syndrome cérébelleux cinétique gauche.
+Quel traitement offrir pour cette patiente ?
+
+A] Bolus de corticoïdes
+B] Traitement symptomatique
+C] Anti-inflammatoires
+D] Traitement de fond
+E] Se limiter à la surveillance
+
+# Normal 2026 Q30 - Neurologie
+
+Patient âgé de 66 ans, se plaint depuis 2 ans de difficultés mnésiques, de troubles du comportement avec aphasie évoluant en marche d'escalier.
+Le diagnostic le plus probable :
+
+A] Démence fronto-temporale
+B] Maladie d'Alzheimer
+C] Démence à corps de Lewy
+D] Démence vasculaire
+E] Confusion
+
+# Normal 2026 Q31 - Neurologie
+
+Patient âgé de 66 ans, se plaint depuis 2 ans de difficultés mnésiques, de troubles du comportement avec aphasie évoluant en marche d'escalier.
+Quels examens faire chez ce patient ?
+
+A] EEG
+B] IRM encéphalique
+C] PL
+D] TPHA/VDRL, HIV
+E] ECG
+
+# Normal 2026 Q32 - Neurologie
+
+Patient âgé de 66 ans, se plaint depuis 2 ans de difficultés mnésiques, de troubles du comportement avec aphasie évoluant en marche d'escalier.
+Quelle prise en charge proposer au patient ?
+
+A] Donépézil
+B] Dopamine
+C] Contrôle de l'HTA
+D] Aspirine
+E] Aucun traitement, juste des explications sur la maladie
+
+# Normal 2026 Q33 - Neurologie
+
+Patiente de 7 ans, sans ATCDs pathologiques particuliers, présente des suspensions du contact qui durent quelques secondes et se répètent plusieurs fois par jour impactant les résultats scolaires. L'examen et le développement psychomoteur sont normaux. Avec reprise immédiate de la conscience.
+Les éléments en faveur d'une origine très probablement épileptique à ces phénomènes sont :
+
+A] Tableau syndromique connu
+B] La stéréotypie
+C] Le sexe
+D] L'âge
+E] L'absence d'ATCDs
+
+# Normal 2026 Q34 - Neurologie
+
+Patiente de 7 ans, sans ATCDs pathologiques particuliers, présente des suspensions du contact qui durent quelques secondes et se répètent plusieurs fois par jour impactant les résultats scolaires. L'examen et le développement psychomoteur sont normaux. Avec reprise immédiate de la conscience.
+Il s'agit de quel syndrome épileptique ?
+
+A] Absence
+B] Grand mal
+C] Épilepsie centro-rolandique
+D] Syndrome de West
+E] Épilepsie myoclonique juvénile
+
+# Normal 2026 Q35 - Neurologie
+
+Patiente de 7 ans, sans ATCDs pathologiques particuliers, présente des suspensions du contact qui durent quelques secondes et se répètent plusieurs fois par jour impactant les résultats scolaires. L'examen et le développement psychomoteur sont normaux. Avec reprise immédiate de la conscience.
+Que faut-il faire chez cette patiente ?
+
+A] Prendre la glycémie capillaire
+B] Imagerie
+C] EEG
+D] Ionogramme
+E] Démarrer un traitement de fond vu que c'est une épilepsie
+
+# Normal 2026 Q36 - Neurologie
+
+Patient de 70 ans, se présente pour une impotence fonctionnelle de l'hémicorps droite brutale depuis 4 heures. Examen : syndrome hémipyramidal droit à prédominance brachio-facial sans autres signes associés.
+Les diagnostics les plus probables à évoquer ?
+
+A] AVC
+B] Thrombose veineuse profonde
+C] Hypoglycémie
+D] Démence sous corticale
+E] SEP
+
+# Normal 2026 Q37 - Neurologie
+
+Patient de 70 ans, se présente pour une impotence fonctionnelle de l'hémicorps droite brutale depuis 4 heures. Examen : syndrome hémipyramidal droit à prédominance brachio-facial sans autres signes associés.
+La topographie qui explique ce tableau :
+
+A] Capsule interne droite
+B] Capsule interne gauche
+C] Cortex cérébral gauche limitée
+D] Mésencéphale gauche
+E] Cortex cérébral gauche étendue
+
+# Normal 2026 Q38 - Neurologie
+
+Patient de 70 ans, se présente pour une impotence fonctionnelle de l'hémicorps droite brutale depuis 4 heures. Examen : syndrome hémipyramidal droit à prédominance brachio-facial sans autres signes associés.
+La CAT comprend :
+
+A] Envisager la thrombectomie
+B] Imagerie cérébrale
+C] Envisager la thrombolyse
+D] Aspirine si pas de cardiopathie à haut risque emboligène
+E] Kiné
+
+# Normal 2026 Q39 - Neurologie
+
+Patient de 52 ans, présente depuis 6 mois des troubles psychiatriques à type de délire de mégalomanie et des troubles de mémoire. Examen clinique retrouve une atteinte extrapyramidale et syndrome démentiel. L'IRM encéphalique montre une atrophie corticale.
+Quel est le diagnostic à évoquer en premier chez ce patient ?
+
+A] Encéphalite syphilitique
+B] Encéphalite auto-immune
+C] Maladie à prion
+D] Encéphalite sur déficit en Vitamine B1
+E] Aucune proposition
+
+# Normal 2026 Q40 - Neurologie
+
+Patient de 52 ans, présente depuis 6 mois des troubles psychiatriques à type de délire de mégalomanie et des troubles de mémoire. Examen clinique retrouve une atteinte extrapyramidale et syndrome démentiel. L'IRM encéphalique montre une atrophie corticale.
+Chez ce patient, pour confirmer votre diagnostic, vous demanderiez quel examen paraclinique ?
+
+A] Bilan immunologique
+B] Sérologie TPHA-VDRL dans le sang et le LCR
+C] Dosage de la vitamine B1
+D] Electroencéphalogramme
+E] Aucune proposition
+
+# Normal 2026 Q41 - Neurologie
+
+La Sclérose Latérale Amyotrophique :
+
+A] Est la plus fréquente des maladies du motoneurone chez l'adulte
+B] Les fasciculations sont liées à une hyperexcitabilité du motoneurone périphérique
+C] La médiane de survie de la maladie de Charcot est de 3 ans
+D] La forme brachiale débute par une amyotrophie de la main
+E] Aucune proposition
+
+# Normal 2026 Q42 - Neurologie
+
+Quels sont les signes négatifs de la sclérose latérale amyotrophique ?
+
+A] Absence de troubles sensitifs
+B] Absence de paralysie oculo-motrice
+C] Absence de troubles sphinctériens
+D] Présence d'amyotrophie
+E] Aucune proposition
+
+# Normal 2026 Q43 - Neurologie
+
+Patiente de 40 ans, sans antécédents particuliers, présente une chute de la paupière droite, parfois une vision double exacerbée en fin de journée. Examen clinique : ptosis droit, mobilité oculaire conservée, réflexe photomoteur conservé.
+Quel est l'atteinte la plus probable chez cette patiente ?
+
+A] Jonction neuromusculaire
+B] Nerf moteur oculaire commun au niveau de l'orbite
+C] Musculaire
+D] Noyau de nerf moteur oculaire commun
+E] Nerf moteur oculaire commun au niveau du sinus caverneux
+
+# Normal 2026 Q44 - Neurologie
+
+Patiente de 40 ans, sans antécédents particuliers, présente une chute de la paupière droite, parfois une vision double exacerbée en fin de journée. Examen clinique : ptosis droit, mobilité oculaire conservée, réflexe photomoteur conservé.
+Le ou les examens paracliniques à demander chez cette patiente :
+
+A] Electroneuromyographie
+B] IRM encéphalique
+C] TDM thoracique
+D] Dosage de la créatine kinase
+E] Dosage des anticorps antirécepteurs à l'acétylcholine
+
+# Normal 2026 Q45 - Neurologie
+
+Patient âgé de 25 ans, présente suite à un syndrome grippal une impotence fonctionnelle des membres inférieurs puis des membres supérieurs installée sur 3 jours. Examen clinique : tétraplégie, hypotonie des 4 membres, ROT abolis aux 4 membres, réflexe cutanéoplantaire en flexion.
+Quel diagnostic évoqueriez-vous en premier ?
+
+A] Myélite aigue
+B] Encéphalite aigue
+C] Polymyosite
+D] Polyradiculonévrite aigue
+E] Polyneuropathie
+
+# Normal 2026 Q46 - Neurologie
+
+Patient âgé de 25 ans, présente suite à un syndrome grippal une impotence fonctionnelle des membres inférieurs puis des membres supérieurs installée sur 3 jours. Examen clinique : tétraplégie, hypotonie des 4 membres, ROT abolis aux 4 membres, réflexe cutanéoplantaire en flexion.
+Quel bilan demanderiez-vous chez ce patient ?
+
+A] Un scanner cérébral
+B] Une IRM médullaire
+C] Une électroneuromyographie
+D] Une IRM musculaire
+E] Etude du LCR
+
+# Normal 2026 Q47 - Neurologie
+
+Patient âgé de 25 ans, présente suite à un syndrome grippal une impotence fonctionnelle des membres inférieurs puis des membres supérieurs installée sur 3 jours. L'étude du LCR montrait une protéinorachie à 0,9g/L, cellules à 2 éléments.
+Quel(s) traitement(s) proposeriez-vous ?
+
+A] Corticoïdes
+B] Immunoglobulines
+C] Azathioprine
+D] Plasmaphérèse
+E] Interféron
+
+# Normal 2026 Q48 - Neurologie
+
+Dans la neuropathie périphérique, l'électroneuromyographie :
+
+A] Est une extension de l'examen clinique
+B] Précise le type de la neuropathie (sensitive ou motrice)
+C] Précise le mécanisme de la neuropathie (axonale ou démyélinisante)
+D] Précise la sévérité de la neuropathie
+E] Aucune proposition
+
+# Normal 2026 Q49 - Neurologie
+
+La classification des neuropathies périphériques est basée sur :
+
+A] Le mode d'installation et la durée des symptômes
+B] Le type de fibres nerveuses
+C] La topographie du déficit neurologique
+D] Le mécanisme d'atteinte de la neuropathie périphérique
+E] Aucune proposition
+
+# Normal 2026 Q50 - Neurologie
+
+La myopathie de Duchenne :
+
+A] Est la dystrophie musculaire la plus fréquente et la plus sévère chez l'enfant
+B] La créatine kinase est très élevée (plus de 10 fois la normale)
+C] Les difficultés à la marche apparaissent vers 3 ans
+D] Absence totale de dystrophine
+E] Perte de la marche vers l'âge de 12 ans
+
+---
+
 // Normal 2025 (Correction officielle) : https://www.e-qe.online/exam/98f151f6-1296-42cf-bec1-3400abf892a2
 
 # Normal 2025 Q1 - Pathologies infectieuses du système nerveux central
