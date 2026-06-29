@@ -1,7 +1,8 @@
 Neuro/neurochir
 
-total number of question = 750, between Normal 2025 to Ratt 2017
+total number of question = 800, between Normal 2026 to Ratt 2017
 
+Normal 2026 = 50/50
 Normal 2025 = 50/50 Questions
 Normal 2024 = 50/50 Questions
 Ratt 2024 = 50/50 Questions

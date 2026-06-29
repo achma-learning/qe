@@ -1,7 +1,8 @@
 Hématologie-oncologie
 
-total number of question = 600, between Normal 2025 to Ratt 2019
+total number of question = 650, between Normal 2025 to Ratt 2019
 
+Normal 2026 = 50/50 Questions
 Normal 2025 = 50/50 Questions
 normal 2024 = 50/50 Questions
 ratt 2024 = 50/50 Questions
@@ -14,6 +15,560 @@ normal 2021 = 50/50 Questions
 normal 2020 = 50/50 Questions
 normal 2019 = 50/50 Questions
 Ratt 2019 = 50/50 Questions
+
+---
+
+// Normal 2026 (Correction officielle) : 
+
+# Normal 2026 Q1 - Aplasie médullaire
+
+1. Dans une aplasie médullaire on retrouve :
+A] Des angines
+B] Une hypertrophie gingivale
+C] Une adénopathie
+D] Une fièvre
+E] Une anémie
+
+Correction officielle - Normal 2026 Q1 = A,D,E
+
+# Normal 2026 Q2 - Anémie de Fanconi
+
+2. Quelles sont les propositions justes concernant l'anémie de Fanconi :
+A] Aplasie médullaire acquise
+B] Présence d'un syndrome polymalformatif
+C] Est d'installation progressive
+D] Le caryotype objective des cassures chromosomiques
+E] L'allogreffe est le seul traitement curatif
+
+Correction officielle - Normal 2026 Q2 = B,D,E
+
+# Normal 2026 Q3 - Lymphome de Burkitt
+
+3. Un enfant de 5 ans présente un tableau d'invagination intestinale aiguë. La biopsie a objectivé des cellules lymphomateuses ; Quel est le diagnostic le plus probable ?
+A] Un lymphome de Manteau
+B] Une tuberculose intestinale
+C] Un lymphome de Burkitt
+D] Une métastase d'un cancer
+E] Un lymphome de Hodgkin
+
+Correction officielle - Normal 2026 Q3 = C
+
+# Normal 2026 Q4 - Hémophilie A
+
+4. L'hémophilie A :
+A] Est un déficit constitutionnel en facteur VIII
+B] Est transmise selon le mode récessif lié au sexe
+C] Les hématomes sont liés à une thrombopénie
+D] Peut se compliquer d'une arthropathie
+E] Peut se compliquer d'un inhibiteur circulant
+
+Correction officielle - Normal 2026 Q4 = A,B,D,E
+
+# Normal 2026 Q5 - Purpura thrombopénique immunologique
+
+5. Au cours du purpura thrombopénique immunologique :
+A] Les bulles hémorragiques buccales sont un signe de gravité
+B] L'examen au fond d'œil n'a aucun intérêt pronostic
+C] Le pronostic est meilleur chez l'enfant que chez l'adulte
+D] L'étiologie médicamenteuse doit être recherchée
+E] La transfusion en plaquettes sanguines n'a aucun intérêt
+
+Correction officielle - Normal 2026 Q5 = A,C,D,E
+
+# Normal 2026 Q6 - Thalassémie majeure (complications)
+
+6. Quelle est parmi ces complications celle qui ne s'observe pas au cours de la thalassémie majeure ?
+A] La crise vaso-occlusive
+B] Les infections
+C] L'hypersplénisme
+D] La lithiase biliaire
+E] Le retard staturo-pondéral
+
+Correction officielle - Normal 2026 Q6 = C,D,E
+
+# Normal 2026 Q7 - Thalassémie hétérozygote
+
+7. La thalassémie hétérozygote :
+A] Est plus fréquente que la thalassémie homozygote
+B] Est asymptomatique
+C] Est appelée 'trait thalassémique'
+D] Nécessite des transfusions régulières du malade
+E] Se caractérise par une pseudo polyglobulie
+
+Correction officielle - Normal 2026 Q7 = A,B,C,E
+
+# Normal 2026 Q8 - Myélome multiple (bilans diagnostiques)
+
+8. Un patient âgé de 60 ans qui a des douleurs osseuses et syndrome anémique ; un myélome multiple est évoqué quels sont les bilans à demander à visée diagnostique ?
+A] Hémogramme
+B] Électrophorèse des protéines
+C] Myélogramme
+D] Bilan rénal
+E] Caryotype médullaire
+
+Correction officielle - Normal 2026 Q8 = A,B,C,D
+
+# Normal 2026 Q9 - Syndromes cliniques (patiente de 12 ans)
+
+9. Une patiente de 12 ans se présente aux urgences pour une altération de l'état général dans un contexte fébrile, à l'examen clinique elle présente une pâleur, des ecchymoses et une splénomégalie, parmi les propositions suivantes quelles sont les propositions justes :
+A] La patiente présente un syndrome d'insuffisance médullaire
+B] La patiente présente un syndrome tumoral
+C] La patiente présente un syndrome infiltratif
+D] La patiente présente un syndrome cave supérieur
+E] Un hémogramme est indiqué en urgence
+
+Correction officielle - Normal 2026 Q9 = A,B,E
+
+# Normal 2026 Q10 - Diagnostics à évoquer (hyperleucocytose)
+
+10. Le bilan chez cette patiente a objectivé : hb à 6 g/dl, GB : 70000/μl, Pq : 34000/μl; Quels sont les diagnostics à évoquer ?
+A] Leucémie aigüe lymphoblastique
+B] Leucémie aigüe myéloblastique
+C] Aplasie médullaire
+D] Leucémie lymphoïde chronique
+E] Myélodysplasie
+
+Correction officielle - Normal 2026 Q10 = A,B
+
+# Normal 2026 Q11 - Diagnostic du lymphome de Hodgkin
+
+11. Dans le lymphome de Hodgkin, le diagnostic de confirmation est basé sur :
+A] La biopsie ganglionnaire
+B] La cytoponction
+C] Le myélogramme
+D] Le pet scan
+E] La TDM
+
+Correction officielle - Normal 2026 Q11 = A
+
+# Normal 2026 Q12 - Maladie de Vaquez / Polyglobulie
+
+12. Un patient âgé de 75 ans qui se présente pour céphalées et érythrose faciale, a une splénomégalie et son bilan a objectivé une hb à 19g/dl, Hte : 50%, GB : 34000/μl, et des pq : 400 000/μL :
+A] Le patient présente un syndrome d'hyperviscosité sanguine
+B] Le bilan objective une polyglobulie
+C] L'hyperleucocytose est en faveur de l'origine secondaire
+D] La thrombocytose est en faveur de l'origine primitive
+E] La splénomégalie est en faveur de la maladie de Vaquez
+
+Correction officielle - Normal 2026 Q12 = A,B,D,E
+
+# Normal 2026 Q13 - Bilan étiologique (Maladie de Vaquez)
+
+13. Quel est le bilan étiologique à demander chez ce patient ?
+A] Myélogramme
+B] Biopsie ostéomédullaire
+C] Dosage Érythropoïétine
+D] Recherche de la mutation Jak2
+E] Masse sanguine isotopique
+
+Correction officielle - Normal 2026 Q13 = C,D,E
+
+# Normal 2026 Q14 - Anémie macrocytaire
+
+14. Chez une patiente de 45 ans avec syndrome anémique chronique, un bilan a objectivé hb : 5 g/dl, VGM : 115, GB : 9000/μl et des pq : 200 000/μl et une ferritine : 100 ng/ml, quel est le diagnostic le plus probable :
+A] Anémie ferriprive
+B] Anémie mégaloblastique
+C] Anémie inflammatoire
+D] Beta-thalassémie
+E] Déficit en G6PD
+
+Correction officielle - Normal 2026 Q14 = B
+
+# Normal 2026 Q15 - Leucémie lymphoïde chronique
+
+15. Chez un patient âgé de 80 ans, une leucémie lymphoïde chronique a été évoquée devant une polyadénopathie avec hyperlymphocytose, quelles sont les propositions justes ?
+A] Le diagnostic est confirmé par biopsie ganglionnaire
+B] Le frottis sanguin montre des ombres de Gumprecht
+C] L'immunophénotypage sur sang confirme le diagnostic
+D] Le myélogramme est indispensable au diagnostic
+E] La classification pronostique est basée sur le pet scan
+
+Correction officielle - Normal 2026 Q15 = B,C
+
+# Normal 2026 Q16 - Drépanocytose
+
+16. La drépanocytose est :
+A] Une hémoglobinopathie acquise
+B] Se manifeste par une anémie hémolytique chronique
+C] Peut se compliquer de crises vaso-occlusives
+D] L'hypersplénisme est une complication fréquente
+E] Le traitement est basé sur des transfusions régulières avec des seuils transfusionnels à 11g/dl
+
+Correction officielle - Normal 2026 Q16 = B,C
+
+# Normal 2026 Q17 - Traitement de la crise drépanocytaire
+
+17. Le traitement de la crise drépanocytaire est basé sur :
+A] L'oxygénation
+B] L'hyperhydratation alcaline
+C] Le traitement antalgique est à différer
+D] Le traitement antibiotique si signe d'infection
+E] La transfusion est contre-indiquée
+
+Correction officielle - Normal 2026 Q17 = A,B,D
+
+# Normal 2026 Q18 - Déficit en G6PD
+
+18. Dans le déficit en G6PD :
+A] L'hémolyse est surtout intratissulaire
+B] La crise hémolytique est une urgence transfusionnelle
+C] La splénomégalie est un signe caractéristique
+D] La coloration des urines rouge porto est très évocatrice
+E] L'ictère et les douleurs lombaires sont des symptômes fréquents
+
+Correction officielle - Normal 2026 Q18 = B,D,E
+
+# Normal 2026 Q19 - Traitement du déficit en G6PD
+
+19. Le traitement du déficit en G6PD est basé sur :
+A] La splénectomie (coquille dans l'énoncé original : "splénomégalie" était écrit, mais le sens est splénectomie)
+B] L'éviction des antioxydants
+C] Un programme transfusionnel régulier
+D] La supplémentation en fer
+E] La supplémentation en acide folique
+
+Correction officielle - Normal 2026 Q19 = B,E
+
+# Normal 2026 Q20 - Diagnostic (suspicion) de l'anémie ferriprive
+
+20. Le diagnostic d'anémie ferriprive est suspecté devant :
+A] Une anémie microcytaire hypochrome
+B] Une anémie normocytaire normochrome
+C] Une anémie macrocytaire normochrome
+D] Une microcytose sans anémie
+E] Une anémie macrocytaire hyperchrome
+
+Correction officielle - Normal 2026 Q20 = A
+
+# Normal 2026 Q21 - Diagnostic (confirmation) de l'anémie ferriprive
+
+21. Le diagnostic d'anémie ferriprive (carence absolue) est confirmé devant :
+A] Un fer sérique bas, une ferritine élevée et une CRP élevée
+B] Une ferritine basse et une CRP normale
+C] Un dosage de vitamine B12 bas
+D] Un dosage d'acide folique bas
+E] Une élévation de l'hémoglobine A2 à l'électrophorèse
+
+Correction officielle - Normal 2026 Q21 = B
+
+# Normal 2026 Q22 - Traitement de l'anémie ferriprive
+
+22. Le traitement de l'anémie ferriprive repose sur :
+A] La supplémentation en fer jusqu'à normalisation de l'hémoglobine
+B] La supplémentation en fer jusqu'à normalisation du fer sérique
+C] La supplémentation en fer jusqu'à normalisation de la ferritine
+D] La supplémentation en vitamine B12 à vie
+E] La transfusion de globules rouges systématique
+
+Correction officielle - Normal 2026 Q22 = C
+
+# Normal 2026 Q23 - Bilan étiologique de l'anémie ferriprive
+
+23. Concernant le bilan étiologique d'une anémie ferriprive :
+A] Il est facultatif
+B] Il se fait en seconde intention après échec du traitement de l'anémie par le fer
+C] Il doit être systématique chez tous les patients
+D] Il fait appel, chez la femme, à un examen gynécologique complet, et une exploration digestive, si l'examen gynécologique est négatif
+E] Il fait appel chez l'homme, à une exploration digestive (endoscopie digestive haute et basse)
+
+Correction officielle - Normal 2026 Q23 = C,D,E
+
+# Normal 2026 Q24 - Leucémie myéloïde chronique (fausse proposition)
+
+24. Concernant la leucémie myéloïde chronique, toutes les réponses sont justes sauf une. Laquelle ?
+A] C'est une hémopathie clonale de la cellule souche hématopoïétique
+B] Elle est définie par la présence du chromosome de Philadelphie ou son correspondant moléculaire (le gène Bcr-Abl)
+C] L'hémogramme montre souvent une hyperleucocytose avec une myélémie équilibrée au frottis sanguin
+D] Elle évolue en trois phases (chronique, accélérée et blastique)
+E] Le traitement repose sur la chimiothérapie intensive
+
+Correction officielle - Normal 2026 Q24 = E
+
+# Normal 2026 Q25 - Leucémie myéloïde chronique (caractéristiques)
+
+25. La leucémie myéloïde chronique :
+A] Est suspectée devant une hyperleucocytose avec myélémie et des blastes supérieurs à 30% au frottis sanguin
+B] Est suspectée devant une hyperleucocytose avec myélémie sans hiatus de maturation et des blastes inférieurs à 30% au frottis sanguin
+C] Est confirmée par la présence de la translocation (9, 22) ou son correspondant moléculaire le gène Bcr-Abl
+D] Est traitée par les inhibiteurs de tyrosine kinase (ex. imatinib, nilotinib, dasatinib)
+E] Est une maladie bénigne nécessitant une simple surveillance des formes asymptomatiques
+
+Correction officielle - Normal 2026 Q25 = B,C,D
+
+# Normal 2026 Q26 - Épidémiologie des cancers (objectifs)
+
+26. L'épidémiologie des cancers a comme objectifs :
+A] Identifier les facteurs de risque
+B] Définir les populations à risque
+C] Élaborer une stratégie préventive contre le cancer
+D] Étudier la répartition des cancers dans une population
+E] Calculer la fréquence des cancers dans différentes populations
+
+Correction officielle - Normal 2026 Q26 = A,B,C,D,E
+
+# Normal 2026 Q27 - Registre des cancers de Casablanca
+
+27. Selon la nouvelle édition du registre des cancers de la grande région de Casablanca :
+A] Le premier cancer chez l'homme est le cancer de la prostate
+B] Le premier cancer chez la femme est le cancer du sein
+C] Le cancer du col utérin est le 2ème cancer chez la femme
+D] Le cancer bronchopulmonaire est le 2ème cancer
+E] Le cancer colorectal est le 3ème cancer
+
+Correction officielle - Normal 2026 Q27 = B,D,E
+
+# Normal 2026 Q28 - Épidémiologie descriptive
+
+28. L'épidémiologie descriptive s'intéresse à l'étude de:
+A] La prévalence
+B] L'incidence
+C] La mortalité
+D] La mortalité spécifique
+E] Risque relatif
+
+Correction officielle - Normal 2026 Q28 = A,B,C,D
+
+# Normal 2026 Q29 - Étude cas-témoin
+
+29. L'étude cas-témoin :
+A] Est un outil très intéressant de l'épidémiologie descriptive
+B] Est adaptée aux cancers rares
+C] Est coûteuse
+D] Difficile à réaliser dans les cancers fréquents
+E] Ne permet pas de calculer le risque relatif
+
+Correction officielle - Normal 2026 Q29 = B,E
+
+# Normal 2026 Q30 - Tamoxifène
+
+30. Le tamoxifène :
+A] A un effet contraceptif
+B] Permet une castration médicale périphérique réversible
+C] Peut donner un cancer du sein par son action hormonale sur l'endomètre
+D] Nécessite la prescription d'un contraceptif hormonal concomitant
+E] Toutes les réponses sont fausses
+
+Correction officielle - Normal 2026 Q30 = E
+
+# Normal 2026 Q31 - Hormonothérapie dans le cancer de la prostate
+
+31. La prescription d'une hormonothérapie dans le cancer de la prostate :
+A] Nécessite obligatoirement la recherche des récepteurs hormonaux
+B] Peut associer une chimiothérapie
+C] Peut être faite en association à la radiothérapie
+D] Est limitée dans le temps en adjuvant
+E] Nécessite un taux du PSA élevé
+
+Correction officielle - Normal 2026 Q31 = B,C,D
+
+# Normal 2026 Q32 - Rayonnements en radiothérapie externe
+
+32. Les rayonnements utilisés en radiothérapie externe peuvent être :
+A] Corpusculaires chargés
+B] Électromagnétiques
+C] De type gamma
+D] De basse énergie
+E] Des protons
+
+Correction officielle - Normal 2026 Q32 = A,B,C,E
+
+# Normal 2026 Q33 - Action des radiations ionisantes
+
+33. L'action des radiations ionisantes :
+A] Cible exclusivement la cellule cancéreuse
+B] Peut générer des cancers radio-induits
+C] Est potentialisée par l'association à une chimiothérapie
+D] Cible exclusivement l'ADN
+E] Toutes les réponses sont fausses
+
+Correction officielle - Normal 2026 Q33 = B,C
+
+# Normal 2026 Q34 - Antalgie immédiate (patient avec rétention)
+
+34. Mr A M, 71 ans... Quel(s) traitement(s) allez-vous prescrire pour assurer une antalgie immédiate ?
+A] Morphine
+B] Tramadol
+C] Paracétamol
+D] Oxycodone
+E] Tramadol + Morphine
+
+Correction officielle - Normal 2026 Q34 = A,D
+
+# Normal 2026 Q35 - Traitement associé systématique aux antalgiques
+
+35. Après 60 min... Quel traitement à associer systématiquement avec votre traitement antalgique initialement prescrit ?
+A] Oméprazole
+B] Lactulose
+C] Métoclopramide
+D] Kétoprofène
+E] Codéine
+
+Correction officielle - Normal 2026 Q35 = B
+
+# Normal 2026 Q36 - Diagnostic (PSA élevé)
+
+36. ...toucher rectal objective une prostate indurée, PSA = 150 ng/ml. Quel est le diagnostic le plus probable ?
+A] Hypertrophie bénigne de la prostate
+B] Prostatite aiguë
+C] Cancer de la prostate
+D] Cancer du rein
+E] Tumeur de la vessie
+
+Correction officielle - Normal 2026 Q36 = C
+
+# Normal 2026 Q37 - Bilan d'extension à distance (cancer prostate)
+
+37. Votre diagnostic est confirmé, quel(s) bilan(s) à réaliser chez ce patient afin d'apprécier l'extension à distance :
+A] TDM pelvienne
+B] IRM dorso-lombaire
+C] TDM thoraco-abdomino-pelvienne
+D] Pet-scan au FDG
+E] Scintigraphie osseuse
+
+Correction officielle - Normal 2026 Q37 = B,C,E
+
+# Normal 2026 Q38 - Bilan de première intention (neutropénie fébrile)
+
+38. Madame H K, 65 ans, chimiothérapie... Quel est le bilan de première intention à réaliser chez cette patiente :
+A] ECBU
+B] NFS
+C] Ionogramme sanguin
+D] CRP
+E] Mammographie
+
+Correction officielle - Normal 2026 Q38 = B
+
+# Normal 2026 Q39 - Diagnostic (neutropénie fébrile)
+
+39. ...GB : 3300/mm3, PNN : 360/mm3. Quel est le diagnostic le plus probable ?
+A] Cystite infectieuse
+B] Sepsis sévère
+C] Choc septique
+D] Une neutropénie fébrile chimio-induite à point départ urinaire probable
+E] Aucune des propositions suscitées
+
+Correction officielle - Normal 2026 Q39 = D
+
+# Normal 2026 Q40 - Mesures urgentes (neutropénie fébrile)
+
+40. Quel(s) mesure(s) à entretenir en urgence chez cette patiente :
+A] Hospitalisation avec isolement bactériologique
+B] Traitement antipyrétique avec retour à domicile
+C] Antibiothérapie probabiliste en urgence à démarrer après résultats des prélèvements bactériologiques
+D] Antibiothérapie en urgence probabiliste à large spectre à démarrer sans attendre les résultats des prélèvements bactériologiques
+E] Des facteurs de croissance granulocytaires lors des prochaines séances de chimiothérapie
+
+Correction officielle - Normal 2026 Q40 = A,D,E
+
+# Normal 2026 Q41 - Syndrome de lyse tumorale
+
+41. Concernant le syndrome de lyse tumorale, il se caractérise par :
+A] Hyperkaliémie
+B] Hyperphosphorémie
+C] Hypocalcémie
+D] Hypercalcémie
+E] Hypercréatinémie
+
+Correction officielle - Normal 2026 Q41 = A,B,C,E
+
+# Normal 2026 Q42 - Chimiothérapie cytotoxique
+
+42. La chimiothérapie cytotoxique :
+A] Agit pour certaines molécules sur une phase précise du cycle cellulaire
+B] Représente une seule famille de molécules cytotoxiques
+C] Bloque le cycle cellulaire des cellules tumorales seulement
+D] Se caractérise par une action très spécifique
+E] Nécessite une prémédication adaptée en fonction du type de toxicité
+
+Correction officielle - Normal 2026 Q42 = A,E
+
+# Normal 2026 Q43 - Molécules de chimiothérapie cytotoxique
+
+43. Les molécules de chimiothérapie cytotoxique :
+A] Agissent en bloquant les voies de signalisation intracellulaire
+B] Activent les cellules immunitaires pour améliorer la réponse antitumorale
+C] Perforent la membrane cellulaire provoquant une lyse immédiate
+D] Agissent sur l'ADN et les protéines impliquées dans la division cellulaire
+E] Bloquent les récepteurs membranaires
+
+Correction officielle - Normal 2026 Q43 = D
+
+# Normal 2026 Q44 - Objectifs de la chimiothérapie palliative
+
+44. Quel est (sont) l'(les) objectif(s) d'une chimiothérapie palliative ?
+A] Améliorer la qualité de vie
+B] Réduire la masse tumorale avant la chirurgie
+C] Soulager les douleurs liées au cancer
+D] Traiter les micrométastases après un traitement local
+E] Contrôler les micrométastases avant un traitement local
+
+Correction officielle - Normal 2026 Q44 = A,C
+
+# Normal 2026 Q45 - Anémie chimio-induite
+
+45. L'anémie chimio-induite :
+A] Est la complication hématologique la plus fréquente en cancérologie
+B] Nécessite une transfusion systématique
+C] Est une complication qui peut être prévenue
+D] Nécessite un bilan spécifique
+E] Implique la correction des carences le cas échéant
+
+Correction officielle - Normal 2026 Q45 = C,D,E
+
+# Normal 2026 Q46 - Néphrotoxicité médicamenteuse
+
+46. Parmi les molécules suivantes, laquelle est la plus susceptible de provoquer une insuffisance rénale ?
+A] Le 5-FU
+B] Le cisplatine
+C] Le paclitaxel
+D] Le trastuzumab
+E] La doxorubicine
+
+Correction officielle - Normal 2026 Q46 = B
+
+# Normal 2026 Q47 - Thérapies moléculaires ciblées
+
+47. Les thérapies moléculaires ciblées :
+A] Sont dirigées contre une cible moléculaire directement impliquée dans l'oncogenèse
+B] Représentent le seul espoir thérapeutique pour certaines localisations tumorales
+C] Sont de moins en moins utilisées de nos jours
+D] Leur spectre de toxicité est différent de celui de la chimiothérapie
+E] Sont toutes classées dans la même catégorie quel que soit leur mécanisme d'action
+
+Correction officielle - Normal 2026 Q47 = A,B,D
+
+# Normal 2026 Q48 - Mode d'action des inhibiteurs de tyrosine kinase (TKI)
+
+48. Quel est le mode d'action principal des inhibiteurs de tyrosine kinase (TKI) ?
+A] Blocage de la polymérisation des microtubules
+B] Inhibition compétitive des sites de liaison de l'ATP
+C] Action directe sur l'ADN en inter-brin
+D] Activation des récepteurs nucléaires
+E] Action exclusive sur les récepteurs membranaires
+
+Correction officielle - Normal 2026 Q48 = B
+
+# Normal 2026 Q49 - Mécanismes des anticorps monoclonaux
+
+49. Quels sont les mécanismes d'action des thérapies ciblées de type Anticorps monoclonaux ?
+A] Ils empêchent la fixation des ligands sur les récepteurs
+B] Ils déclenchent l'apoptose par toxicité mitochondriale
+C] Ils bloquent l'activité enzymatique intracellulaire des récepteurs
+D] Ils entraînent une modulation du système immunitaire
+E] Ils créent des ponts entre les brins de l'ADN
+
+Correction officielle - Normal 2026 Q49 = A,D
+
+# Normal 2026 Q50 - Immunothérapie des cancers
+
+50. L'immunothérapie des cancers :
+A] Vise à réactiver la réponse immunitaire antitumorale
+B] Agit exclusivement sur les cellules tumorales
+C] Agit sur les cellules immunitaires
+D] Permet de resensibiliser le système immunitaire vis-à-vis des antigènes tumoraux
+E] Se caractérise par une toxicité très fréquente
+
+Correction officielle - Normal 2026 Q50 = A,C,D
 
 ---
 
