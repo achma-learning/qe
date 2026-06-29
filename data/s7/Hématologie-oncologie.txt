@@ -1,6 +1,6 @@
 Hématologie-oncologie
 
-total number of question = 650, between Normal 2025 to Ratt 2019
+total number of question = 650, between Normal 2026 to Ratt 2019
 
 Normal 2026 = 50/50 Questions
 Normal 2025 = 50/50 Questions
@@ -221,7 +221,7 @@ Correction officielle - Normal 2026 Q18 = B,D,E
 # Normal 2026 Q19 - Traitement du déficit en G6PD
 
 19. Le traitement du déficit en G6PD est basé sur :
-A] La splénectomie (coquille dans l'énoncé original : "splénomégalie" était écrit, mais le sens est splénectomie)
+A] La splénectomie
 B] L'éviction des antioxydants
 C] Un programme transfusionnel régulier
 D] La supplémentation en fer
@@ -383,9 +383,10 @@ E] Toutes les réponses sont fausses
 
 Correction officielle - Normal 2026 Q33 = B,C
 
-# Normal 2026 Q34 - Antalgie immédiate (patient avec rétention)
+# Normal 2026 Q34 - Antalgie immédiate (patient avec rétention aiguë d'urines)
 
-34. Mr A M, 71 ans... Quel(s) traitement(s) allez-vous prescrire pour assurer une antalgie immédiate ?
+34. Mr A M, 71 ans diabétique type 2 depuis 16 ans sous (Glucophage 1000 mg, 1 cpx3/j), se présente aux urgences pour une rétention aiguë d'urines, l'examen physique confirme la présence d'un globe vésical, vous décidez de placer une sonde urinaire qui ramène 2 L d'urines d'aspect claires, le malade est enfin soulagé. Il rapporte à l'interrogatoire que depuis plus de 2 mois, il a des mictions fréquentes surtout la nuit l'obligeant à se réveiller plusieurs fois ce qu'il attribue à un probable déséquilibre glycémique (son dernier contrôle avec l'endocrinologue remonte à plus de 6 mois), en plus depuis 15 jours il accuse des lombalgies gauches irradiant le long du MI gauche non soulagées par les AINS. À l'examen sa douleur est chiffrée à 8 selon l'EVA, douleur exquise à la pression des épineuses lombaires.
+Quel(s) traitement(s) allez-vous prescrire pour assurer une antalgie immédiate ?
 A] Morphine
 B] Tramadol
 C] Paracétamol
@@ -396,7 +397,8 @@ Correction officielle - Normal 2026 Q34 = A,D
 
 # Normal 2026 Q35 - Traitement associé systématique aux antalgiques
 
-35. Après 60 min... Quel traitement à associer systématiquement avec votre traitement antalgique initialement prescrit ?
+35. Après 60 min Mr A M retrouve son sourire, il est bien calmé son EVA est chiffrée à 1.
+Quel traitement à associer systématiquement avec votre traitement antalgique initialement prescrit ?
 A] Oméprazole
 B] Lactulose
 C] Métoclopramide
@@ -407,16 +409,16 @@ Correction officielle - Normal 2026 Q35 = B
 
 # Normal 2026 Q36 - Diagnostic (PSA élevé)
 
-36. ...toucher rectal objective une prostate indurée, PSA = 150 ng/ml. Quel est le diagnostic le plus probable ?
-A] Hypertrophie bénigne de la prostate
-B] Prostatite aiguë
-C] Cancer de la prostate
-D] Cancer du rein
-E] Tumeur de la vessie
+36. Votre patient consulte un urologue et le toucher rectal objective une prostate indurée, le dosage du PSA revient à 150 ng/ml. Quel est le diagnostic le plus probable ?
+A] Une hypertrophie bénigne de la prostate
+B] Une prostatite aiguë
+C] Un cancer de la prostate
+D] Un cancer du rein
+E] Une tumeur de la vessie
 
 Correction officielle - Normal 2026 Q36 = C
 
-# Normal 2026 Q37 - Bilan d'extension à distance (cancer prostate)
+# Normal 2026 Q37 - Bilan d'extension à distance (cancer de la prostate)
 
 37. Votre diagnostic est confirmé, quel(s) bilan(s) à réaliser chez ce patient afin d'apprécier l'extension à distance :
 A] TDM pelvienne
@@ -429,7 +431,8 @@ Correction officielle - Normal 2026 Q37 = B,C,E
 
 # Normal 2026 Q38 - Bilan de première intention (neutropénie fébrile)
 
-38. Madame H K, 65 ans, chimiothérapie... Quel est le bilan de première intention à réaliser chez cette patiente :
+38. Madame H K, 65 ans, est suivie au service d'oncologie médicale pour un cancer du sein où elle vient de recevoir sa 2ème séance de chimiothérapie selon le protocole AC60 il y a 13 jours, se présente aux urgences de proximité pour une sensation de fatigue généralisée associée à de la fièvre, elle rapporte à l'interrogatoire une notion de brûlures mictionnelles depuis 02 jours. L'examen retrouve une T 38.5, TA 13/7, pouls 66 bat/min, l'auscultation pulmonaire est normale.
+Quel est le bilan de première intention à réaliser chez cette patiente ?
 A] ECBU
 B] NFS
 C] Ionogramme sanguin
@@ -440,11 +443,12 @@ Correction officielle - Normal 2026 Q38 = B
 
 # Normal 2026 Q39 - Diagnostic (neutropénie fébrile)
 
-39. ...GB : 3300/mm3, PNN : 360/mm3. Quel est le diagnostic le plus probable ?
+39. Les bilans réalisés objectivent une CRP positive à 56, Na : 136, K : 4.5, créatinine : 7 mg/l, Hémoglobine à 11 g/dl, GB : 3300/mm3, PNN : 360/mm3, ECBU : leucocytes à 100 000, culture en cours.
+Quel est le diagnostic le plus probable ?
 A] Cystite infectieuse
 B] Sepsis sévère
 C] Choc septique
-D] Une neutropénie fébrile chimio-induite à point départ urinaire probable
+D] Une neutropénie fébrile chimio-induite à point de départ urinaire probable
 E] Aucune des propositions suscitées
 
 Correction officielle - Normal 2026 Q39 = D
