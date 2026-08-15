@@ -1,2 +1,14 @@
 	1. for exam without correction, copy them and given them to claude with good prompt and add correction - when to do this , after generation the high yiled questions
 use claude code and mention to respect the formating guidelines for questions
+---
+RESOLVED — see `node tools/missing-corrections.js` (+ how-to-add-new-exam.md,
+"Added an exam but don't have the answer key?").
+
+It finds every question with no correction, and with --prompt builds the
+paste-ready AI prompt that spells out the formatting rules, so the reply
+attaches instead of silently vanishing. Answers come back as
+"Correction probable - <Exam> Q<n> = <letters>" (badged "≈ probable" in the
+app) so an AI estimate is never mistaken for the official answer key.
+
+As of this writing the count is 0 — all 15,542 questions have an answer
+(1,470 of them "probable"). Re-run it after adding an exam without a key.

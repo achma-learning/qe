@@ -665,8 +665,18 @@
     const paused = LS.get('pomo.paused', 0);
     if (wasRunning && startedAt > 0) {
       const elapsed = Math.floor((Date.now() - startedAt) / 1000);
-      pomo.remaining = Math.max(0, total - elapsed);
-      if (pomo.remaining > 0) { pomo.running = true; pomo.started = startedAt; pomoTick(); }
+      const left = Math.max(0, total - elapsed);
+      if (left > 0) {
+        pomo.remaining = left; pomo.running = true; pomo.started = startedAt; pomoTick();
+      } else {
+        // The session ran out while the tab was closed. Clear the stale flags and
+        // come back ready for a fresh pomodoro — otherwise the topbar shows a
+        // stuck "0" with an empty ring on every load until P is pressed.
+        pomo.remaining = total;
+        LS.set('pomo.running', false);
+        LS.set('pomo.startedAt', 0);
+        LS.set('pomo.paused', 0);
+      }
     } else if (paused > 0) {
       pomo.remaining = paused;
     } else {
@@ -1023,13 +1033,11 @@
       panel.querySelectorAll('.row[data-idx]').forEach(r => {
         r.addEventListener('click', () => fire(svcs[parseInt(r.dataset.idx, 10)]));
       });
-      const num = (e) => {
-        if (/^[1-9]$/.test(e.key)) {
-          const idx = parseInt(e.key, 10) - 1;
-          if (svcs[idx]) { e.preventDefault(); fire(svcs[idx]); document.removeEventListener('keydown', num, true); }
-        }
-      };
-      document.addEventListener('keydown', num, true);
+      // 1–9 is handled by handleOverlayKeys, which clicks the matching
+      // `.row[data-idx]` above. Do NOT add a document-level key listener here:
+      // it would fire *in addition* to that click (two tabs per keypress) and,
+      // because it's only unbound after a digit, survive Esc/click-away —
+      // hijacking the viewer's 1–5 option keys for the rest of the session.
     });
   }
 
@@ -1246,10 +1254,15 @@
         const d = Math.max(0, Math.floor((Date.now() - r.lastTs) / 86400000));
         return d === 0 ? ' · seen today' : ` · seen ${d}d ago`;
       };
+      // The panel opens from the dashboard *and* from any module viewer (via the
+      // command palette), so every path it emits has to be relative to the page
+      // it was opened from — a viewer page is already inside modules/.
+      const { onViewer, modHref } = paletteContext();
+      const basePath = onViewer ? '../' : '';
       function rowHref(row) {
         // Jump to first wrong question (training mode) if we have one; else module home.
         const q = row.firstWrongQ;
-        return `modules/${row.slug}.html` + (q >= 0 ? `?q=${q}` : '');
+        return modHref(row.slug) + (q >= 0 ? `?q=${q}` : '');
       }
 
       function renderBody() {
@@ -1341,7 +1354,7 @@
           renderBody();
         });
         panel.querySelectorAll('.analysis-row').forEach(a => {
-          a.addEventListener('mouseenter', () => prefetchData(a.dataset.slug, ''), { once: true });
+          a.addEventListener('mouseenter', () => prefetchData(a.dataset.slug, basePath), { once: true });
         });
         // Scroll the focused row into view (after layout)
         const focused = panel.querySelector('.analysis-row.focused');
