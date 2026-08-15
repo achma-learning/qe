@@ -6,7 +6,7 @@ _TODO: add a screenshot or GIF showing the dashboard → answering a question �
 
 ## What it is
 
-`qe` turns years of past medical-school exam papers (saved as plain `.txt` files) into a fast multiple-choice trainer. Pick your answers, get instant correction, and let it track the topics you keep getting wrong. It ships with 22 modules — 15,442 questions across 313 exams, semesters 5 to 10 — but it'll happily run on any questions in the same text format.
+`qe` turns years of past medical-school exam papers (saved as plain `.txt` files) into a fast multiple-choice trainer. Pick your answers, get instant correction, and let it track the topics you keep getting wrong. It ships with 22 modules — 15,542 questions across 315 exams, semesters 5 to 10 — but it'll happily run on any questions in the same text format.
 
 The one weird thing: **zero dependencies, no build step, no server.** No npm, no framework. Download the repo as a ZIP, double-click `index.html`, and it runs offline — questions and all. Your progress lives in your browser and never leaves it.
 

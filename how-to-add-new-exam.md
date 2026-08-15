@@ -121,6 +121,34 @@ It parses your files with the **same parser the website uses** and flags the sil
 
 ---
 
+## Added an exam but don't have the answer key?
+
+A question with no correction line still works — it just never counts toward your accuracy. To fill the gaps with an AI, let the tool build the prompt for you so the reply comes back in a format that actually attaches:
+
+```bash
+node tools/missing-corrections.js              # how many are unanswered, per module
+node tools/missing-corrections.js --prompt     # print the prompt to paste into an AI
+node tools/missing-corrections.js --prompt --out prompt.txt
+node tools/missing-corrections.js --prompt --limit 25    # split a big batch
+```
+
+The prompt hands over each unanswered question with its options and demands one line back per question, in exactly this shape:
+
+```text
+Correction probable - Juin 2025 Q2 = A C
+```
+
+**`Correction probable`, not `Correction officielle`** — an AI's answer is an estimate, not the faculty's key. The parser understands both; questions answered this way get badged **≈ probable** in the app, so an estimate can never be mistaken for an official correction later.
+
+Paste the reply lines back under their questions, then run the usual two commands:
+
+```bash
+node tools/check-data.js     # catches any line whose exam name / Q number didn't match
+node tools/build-data.js
+```
+
+---
+
 ## See your changes — online and offline
 
 **If you edit on github.com (or just push to `main`):** commit your `.txt` change and you're done. A GitHub Action re-bakes the data and commits it back; GitHub Pages then redeploys the site on its own, so the **live website** shows your new questions. No Node needed.

@@ -46,6 +46,7 @@ _Last synced: 2026-06-03 @ 32d1213_
 - `assets/style.css` — all styling (~1,080 lines): dark/light themes, command palette, focus mode, "dynamic island" timer, review cards, accessibility (`:focus-visible`, `prefers-reduced-motion`).
 - `tools/build-data.js` — bakes each `.txt` → `data/<slug>.data.js` and writes `_counts.js` / `_topics.js`.
 - `tools/check-data.js` — validator: parses every `.txt` with the real parser and warns about silent mistakes (orphan corrections, too-few-options, pre-separator questions). Run before baking.
+- `tools/missing-corrections.js` — finds questions with `hasCorrection:false` and builds a paste-ready AI prompt that demands answers back as `Correction probable - <Exam> Q<n> = <letters>` (the estimate line, never `officielle`). `--prompt`, `--out <file>`, `--limit N`. Currently reports 0 — every question has an answer.
 - `tools/parser-bridge.js` — shared loader that lifts `parseQuestionsFile` + the module manifest out of `app.js`/`modules.js` so the build and validator never drift from the app (see §6).
 - `modules/<slug>.html` — one viewer page per module. Carries `<div id="qe-root" data-module="<slug>">`, loads that module's `.data.js`, calls `QE.bootViewer()`. All 22 are near-identical.
 - `data/<sem>/<module>.txt` — **the only hand-edited data.** Source question files (semesters s5–s10).
@@ -57,7 +58,7 @@ _Last synced: 2026-06-03 @ 32d1213_
 - `manifest.webmanifest` + `sw.js` + `icon.svg` — PWA: make the online site installable and offline-capable (service worker: network-first for pages, stale-while-revalidate for assets/data). Registered from `app.js`.
 - `.nojekyll` — disables Jekyll (which hides `_`-prefixed files like `data/_counts.js` / `_topics.js`). Staged into the deploy artifact and kept at the repo root. **Don't delete.**
 
-**Scale:** 22 modules · 15,442 questions · 313 exams (summed from `data/_counts.js`).
+**Scale:** 22 modules · 15,542 questions · 315 exams (summed from `data/_counts.js`).
 
 **Two run modes** (toggled with the `mode` pill, persisted as `qe:mode`): **Training** (instant per-question correction) and **Exam** (answer a full set → correction + /20 grade + a per-card AI correction prompt at the end). The viewer also has cyclable **loadout presets** (`PRESETS`, `app.js:612` — Default / Velocity / Exam / Study / Lightning) that preset the pomodoro work/break minutes; cycle with `T` / `8`.
 

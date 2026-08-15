@@ -19,6 +19,7 @@ const SHELL = [
   './report.html',
   './high-yield.html',
   './curriculum.html',
+  './playlist-fmpm.html',
   './assets/app.js',
   './assets/modules.js',
   './assets/style.css',
