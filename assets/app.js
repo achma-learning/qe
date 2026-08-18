@@ -4365,7 +4365,6 @@
     // URLs extracted from the PDF hyperlink annotations (PyMuPDF).
     // url      = YouTube / website link for the module name
     // teamsUrl = Google Drive Teams folder (S6 only — separate from YouTube)
-    // teams    = true for S9: content recorded on Teams, uploaded to YouTube
     // url:null = module listed in PDF without a playlist link (S1 non-anatomy)
     const SEMS = [
       { sem: 'S1', groups: [[
@@ -4444,13 +4443,13 @@
         ],
       ] },
       { sem: 'S9', groups: [[
-        { name: 'Gynéco-Obstétrique',                            url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrzMbpA_M1NVshx5i826Uvk', teams: true },
-        { name: 'Urgences-Réanimation',                          url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrPejvkLbLkgewSFW0wmtgH', teams: true },
-        { name: 'Douleur / Soins palliatifs / Chir réparatrice', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrsVjp78lerJ-NcZa0F2SAn', teams: true },
-        { name: 'ORL',                                           url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpMSfTAkXp7bbMDfDVJQgd3', teams: true },
-        { name: 'Maxillo-faciale',                               url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpjw6emfSnCwbEtFkI5Ipzw', teams: true },
-        { name: 'Ophtalmologie',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpavLHhX2VLXT2oXOhqw5iW', teams: true },
-        { name: 'Santé mentale',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqrXMqUhr0NsP-y_A3S6ieH', teams: true },
+        { name: 'Gynéco-Obstétrique',                            url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrzMbpA_M1NVshx5i826Uvk' },
+        { name: 'Urgences-Réanimation',                          url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrPejvkLbLkgewSFW0wmtgH' },
+        { name: 'Douleur / Soins palliatifs / Chir réparatrice', url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikrsVjp78lerJ-NcZa0F2SAn' },
+        { name: 'ORL',                                           url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpMSfTAkXp7bbMDfDVJQgd3' },
+        { name: 'Maxillo-faciale',                               url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpjw6emfSnCwbEtFkI5Ipzw' },
+        { name: 'Ophtalmologie',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikpavLHhX2VLXT2oXOhqw5iW' },
+        { name: 'Santé mentale',                                 url: 'https://www.youtube.com/playlist?list=PLHp64AVMIikqrXMqUhr0NsP-y_A3S6ieH' },
       ]] },
       { sem: 'S10', groups: [
         [
@@ -4478,10 +4477,6 @@
         // S6: module name → YouTube, separate (Teams) → Google Drive
         return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)}</a><a class="pl-teams-link" href="${escapeHtml(m.teamsUrl)}"${EXT}> (Teams)</a>`;
       }
-      if (m.teams) {
-        // S9: Teams recordings uploaded to YouTube — name + (Teams) both open same URL
-        return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)} <span class="pl-teams-paren">(Teams)</span></a>`;
-      }
       return `<a class="pl-link" href="${escapeHtml(m.url)}"${EXT}>${escapeHtml(m.name)}</a>`;
     };
 
@@ -4503,7 +4498,6 @@
              Cliquez sur un module pour ouvrir la playlist.</p>
           <div class="pl-badge-row">
             <span class="pl-badge yt">▶ YouTube</span>
-            <span class="pl-badge tms">(Teams) sur YouTube</span>
             <span class="pl-badge drive">(Teams) Google Drive</span>
           </div>
         </div>
