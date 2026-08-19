@@ -1268,6 +1268,68 @@ html.light .pl-row:nth-child(even) { background: rgba(0,0,0,.018); }
 .pl-badge.yt    { color: #ff4040; border-color: rgba(255,64,64,.4); background: rgba(255,64,64,.08); }
 .pl-badge.drive { color: #1a73e8; border-color: rgba(26,115,232,.4); background: rgba(26,115,232,.08); }
 .pl-nolink { color: var(--text-dim); font-style: italic; }
+.pl-backup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+}
+.pl-backup-main { flex: 1 1 320px; min-width: 0; }
+.pl-backup-title {
+  margin: 0 0 6px;
+  font-size: 14.5px;
+  font-weight: 800;
+}
+.pl-backup-desc {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+.pl-backup-desc code {
+  font-family: var(--mono);
+  font-size: .95em;
+}
+.pl-backup-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 6px;
+  flex-shrink: 0;
+}
+.pl-backup-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 8px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1a73e8;
+  border: 1px solid rgba(26,115,232,.4);
+  background: rgba(26,115,232,.08);
+  transition: background .12s, border-color .12s;
+}
+.pl-backup-btn:hover {
+  background: rgba(26,115,232,.16);
+  border-color: rgba(26,115,232,.65);
+}
+.pl-backup-alt {
+  font-size: 11.5px;
+  text-align: center;
+  color: var(--text-faint);
+  text-decoration: none;
+}
+.pl-backup-alt:hover { color: var(--link); text-decoration: underline; }
 .pl-foot {
   margin-top: 20px;
   padding-bottom: 8px;
@@ -1281,4 +1343,6 @@ html.light .pl-row:nth-child(even) { background: rgba(0,0,0,.018); }
   .pl-row { gap: 10px; padding: 10px 12px; flex-wrap: wrap; }
   .pl-sem { font-size: 11px; padding: 2px 7px; min-width: 30px; align-self: auto; margin-top: 0; }
   .pl-modules { font-size: 12.5px; flex-basis: 100%; }
+  .pl-backup { padding: 14px; gap: 14px; }
+  .pl-backup-actions { width: 100%; }
 }
