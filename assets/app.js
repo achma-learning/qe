@@ -4471,6 +4471,9 @@
     ];
 
     const EXT = ' target="_blank" rel="noopener"';
+    // Full S2→S10 video backup: one 126 GB zip mirrored on archive.org
+    const BACKUP_ZIP  = 'https://archive.org/download/fmpm-playlist/fmpm%20playlist.zip';
+    const BACKUP_ITEM = 'https://archive.org/details/fmpm-playlist';
     const renderItem = (m) => {
       if (!m.url) return `<span class="pl-nolink">${escapeHtml(m.name)}</span>`;
       if (m.teamsUrl) {
@@ -4503,6 +4506,20 @@
         </div>
         <div class="pl-table">
           ${SEMS.map(renderRow).join('')}
+        </div>
+        <div class="pl-backup">
+          <div class="pl-backup-main">
+            <h2 class="pl-backup-title">🗄️ Sauvegarde complète — S2 à S10</h2>
+            <p class="pl-backup-desc">
+              Toutes les vidéos des playlists ci-dessus réunies dans une seule archive
+              <code>.zip</code> (126 Go / 117 Gio), hébergée sur archive.org.
+              À garder sous la main si une playlist YouTube devient indisponible.
+            </p>
+          </div>
+          <div class="pl-backup-actions">
+            <a class="pl-backup-btn" href="${BACKUP_ZIP}"${EXT}>⬇ Télécharger le .zip</a>
+            <a class="pl-backup-alt" href="${BACKUP_ITEM}"${EXT}>Page archive.org (torrent, reprise)</a>
+          </div>
         </div>
         <div class="pl-foot">FMPM · Marrakech · cliquez sur un module pour ouvrir la playlist</div>
       </div>
