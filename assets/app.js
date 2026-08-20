@@ -4575,6 +4575,12 @@
             desc: 'Ressources rassemblées par la promotion 2022–2023.',
             tag: 'LINKTREE',
           },
+          {
+            label: 'The Collection 22',
+            href: 'https://linktr.ee/thecollection22',
+            desc: 'Collection de ressources et de cours partagés.',
+            tag: 'LINKTREE',
+          },
         ],
       },
     ];
