@@ -787,6 +787,7 @@
       { key: 'highyield',  href: navBase + 'high-yield.html',    label: 'High-Yield', title: 'Questions à forte rentabilité — analyse par module' },
       { key: 'curriculum', href: navBase + 'curriculum.html',    label: 'Curriculum', title: 'Programme officiel FMPM (S1–S10) par semestre' },
       { key: 'playlist',   href: navBase + 'playlist-fmpm.html', label: 'Playlist',   title: 'Playlist FMPM — Cours par semestre YouTube & Teams' },
+      { key: 'data',       href: navBase + 'data.html',          label: 'Data',       title: 'Liens utiles — archives, drives et linktrees' },
     ].filter(n => n.key !== opts.active)
      .map(n => `<a class="topbar-link" href="${n.href}" title="${escapeHtml(n.title)}">${n.label}</a>`).join('');
     top.innerHTML = `
@@ -1457,6 +1458,7 @@
     items.push({ icon: '📊', title: 'Open analytics & weakness analysis', sub: 'strengths · weak topics · reminders', hint: 'W', run: showAnalysis });
     items.push({ icon: '🧠', title: 'AI report — fix my mistakes', sub: 'build a prompt from your wrong answers', run: go(onViewer ? '../report.html' : 'report.html') });
     items.push({ icon: '📈', title: 'High-yield analysis', sub: 'ranked high-yield docs per module', run: go(onViewer ? '../high-yield.html' : 'high-yield.html') });
+    items.push({ icon: '🗂️', title: 'Data — liens utiles', sub: 'archives, drives, linktrees', run: go(onViewer ? '../data.html' : 'data.html') });
     items.push({ icon: '⚙️', title: 'Settings', hint: 'S', run: showSettings });
     items.push({ icon: '⌨️', title: 'Keyboard shortcuts', hint: '?', run: showHelp });
     items.push({ icon: '🍅', title: (pomo.running ? 'Pause' : 'Start') + ' pomodoro', hint: 'P', run: pomoToggle });
@@ -4534,6 +4536,118 @@
     }, true);
   }
 
+  // ====================  DATA / USEFUL LINKS PAGE (data.html)  =========
+  // A plain, hand-maintained list of external resources (archives, drives,
+  // linktrees). Everything lives in LINK_GROUPS below — to add a link, add an
+  // entry there; nothing else needs to change.
+  function bootData() {
+    buildTopbar({ search: false, active: 'data', crumbHtml: `<a href="index.html">Dashboard</a> · <b>Data</b>` });
+    const root = document.getElementById('qe-root') || document.body.appendChild(Object.assign(document.createElement('div'), { id: 'qe-root' }));
+
+    const LINK_GROUPS = [
+      {
+        title: '🗄️ Archives & téléchargements',
+        note: 'Fichiers hébergés sur archive.org — téléchargement direct, sans compte.',
+        links: [
+          {
+            label: 'CLINIQUES.zip',
+            href: 'https://archive.org/download/cliniques-fmpm/CLINIQUES.zip',
+            desc: 'Archive des cours cliniques FMPM, réunis dans un seul .zip (16 Go / 14,9 Gio).',
+            tag: 'ZIP',
+            download: 'CLINIQUES.zip',
+            alt: { href: 'https://archive.org/details/cliniques-fmpm', label: 'Page archive.org (torrent, reprise)' },
+          },
+        ],
+      },
+      {
+        title: '🔗 Linktree des promos',
+        note: 'Pages de liens maintenues par les promos — drives, cours, ressources partagées.',
+        links: [
+          {
+            label: 'FMPM — Promo 21/22',
+            href: 'https://linktr.ee/fmpmpromo2122',
+            desc: 'Ressources rassemblées par la promotion 2021–2022.',
+            tag: 'LINKTREE',
+          },
+          {
+            label: 'FMPM — Promo 22/23',
+            href: 'https://linktr.ee/fmpmpromo22.23',
+            desc: 'Ressources rassemblées par la promotion 2022–2023.',
+            tag: 'LINKTREE',
+          },
+        ],
+      },
+    ];
+
+    const EXT = ' target="_blank" rel="noopener"';
+    const prettyUrl = (u) => {
+      try {
+        const p = new URL(u);
+        return p.host.replace(/^www\./, '') + decodeURIComponent(p.pathname);
+      } catch { return u; }
+    };
+
+    const renderLink = (l) => `
+      <div class="dl-card">
+        <div class="dl-card-main">
+          <div class="dl-card-head">
+            <a class="dl-title" href="${escapeHtml(l.href)}"${EXT}>${escapeHtml(l.label)}</a>
+            ${l.tag ? `<span class="dl-tag">${escapeHtml(l.tag)}</span>` : ''}
+          </div>
+          ${l.desc ? `<p class="dl-desc">${escapeHtml(l.desc)}</p>` : ''}
+          <div class="dl-url" title="${escapeHtml(l.href)}">${escapeHtml(prettyUrl(l.href))}</div>
+        </div>
+        <div class="dl-card-actions">
+          <a class="dl-btn" href="${escapeHtml(l.href)}"${EXT}>${l.download ? '⬇ Télécharger' : 'Ouvrir ↗'}</a>
+          <button class="dl-copy" type="button" data-url="${escapeHtml(l.href)}">Copier le lien</button>
+          ${l.alt ? `<a class="dl-alt" href="${escapeHtml(l.alt.href)}"${EXT}>${escapeHtml(l.alt.label)}</a>` : ''}
+        </div>
+      </div>`;
+
+    const renderGroup = (g) => `
+      <section class="dl-group">
+        <h2 class="dl-group-title">${escapeHtml(g.title)}</h2>
+        ${g.note ? `<p class="dl-group-note">${escapeHtml(g.note)}</p>` : ''}
+        <div class="dl-cards">${g.links.map(renderLink).join('')}</div>
+      </section>`;
+
+    const total = LINK_GROUPS.reduce((n, g) => n + g.links.length, 0);
+
+    root.innerHTML = `
+      <div class="container dl-page">
+        <div class="hero dl-hero">
+          <h1>🗂️ Data — liens utiles</h1>
+          <p>Ressources externes utiles pour réviser : archives de cours, drives et
+             pages de liens des promos. ${total} lien${total > 1 ? 's' : ''} — tous
+             s'ouvrent dans un nouvel onglet.</p>
+        </div>
+        ${LINK_GROUPS.map(renderGroup).join('')}
+        <div class="dl-foot">Un lien mort ou une ressource à ajouter ? Ouvre une issue sur le dépôt.</div>
+      </div>
+    `;
+
+    root.addEventListener('click', (e) => {
+      const btn = e.target.closest('.dl-copy');
+      if (!btn) return;
+      copyText(btn.dataset.url).then(ok => {
+        toast(ok ? '📋 Lien copié' : '❌ Copie impossible', ok ? 'ok' : 'bad');
+        if (!ok) return;
+        const old = btn.textContent;
+        btn.textContent = '✓ Copié';
+        btn.classList.add('done');
+        setTimeout(() => { btn.textContent = old; btn.classList.remove('done'); }, 1400);
+      });
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if ((e.ctrlKey || e.metaKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); toggleCommandPalette(); return; }
+      if (handleOverlayKeys(e)) return;
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA')) return;
+      if (handleGlobalKeys(e)) return;
+      if (e.key === '0' || (e.key === 'd' && !e.ctrlKey && !e.metaKey)) { e.preventDefault(); window.location.href = 'index.html'; }
+    }, true);
+  }
+
   function escapeHtml(s) {
     return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   }
@@ -4546,6 +4660,7 @@
     bootHighYield,
     bootCurriculum,
     bootPlaylistFMPM,
+    bootData,
     showHelp,
     showSettings,
     showModuleSwitcher,
