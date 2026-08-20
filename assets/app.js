@@ -4560,6 +4560,47 @@
         ],
       },
       {
+        title: '▶ Chaînes & playlists YouTube',
+        note: 'Cours filmés en accès libre — anatomie, réanimation, pharmacologie et hors-programme.',
+        links: [
+          {
+            label: 'Olivier Trost — Anatomie',
+            href: 'https://www.youtube.com/@oliviertrostanatomie-freea4376/courses',
+            desc: 'Cours d\'anatomie au tableau, à la craie, pour les étudiants en santé (chaîne « Free Anatomy Lessons », onglet Cours).',
+            tag: 'ANATOMIE',
+            tagKind: 'yt',
+          },
+          {
+            label: 'Jean-Marie Le Minor — Anatomie',
+            href: 'https://www.youtube.com/@JeanMarieLEMINORAnatomie/courses',
+            desc: 'Cours d\'anatomie de Jean-Marie Le Minor (Strasbourg), onglet Cours de la chaîne.',
+            tag: 'ANATOMIE',
+            tagKind: 'yt',
+          },
+          {
+            label: 'Mouhaoui — Réanimation & médecine d\'urgence',
+            href: 'https://www.youtube.com/@mouhaoui/playlists',
+            desc: 'Formation initiale et continue en réanimation et médecine d\'urgence — toutes les playlists.',
+            tag: 'RÉA-URGENCES',
+            tagKind: 'yt',
+          },
+          {
+            label: 'AM Fouda — Clinical Pharmacology Lectures',
+            href: 'https://www.youtube.com/@AM_Fouda/playlists',
+            desc: 'Chaîne de pharmacologie clinique (en anglais) — toutes les playlists.',
+            tag: 'PHARMACO',
+            tagKind: 'yt',
+          },
+          {
+            label: 'CS50 2022 — Harvard',
+            href: 'https://www.youtube.com/playlist?list=PLeLzIg9tqA3LQW-RiFA8zJUBcTKqUVLMU',
+            desc: 'Introduction à l\'informatique de Harvard — hors programme médical.',
+            tag: 'INFORMATIQUE',
+            tagKind: 'yt',
+          },
+        ],
+      },
+      {
         title: '🔗 Linktree des promos',
         note: 'Pages de liens maintenues par les promos — drives, cours, ressources partagées.',
         links: [
@@ -4589,7 +4630,7 @@
     const prettyUrl = (u) => {
       try {
         const p = new URL(u);
-        return p.host.replace(/^www\./, '') + decodeURIComponent(p.pathname);
+        return p.host.replace(/^www\./, '') + decodeURIComponent(p.pathname) + p.search;
       } catch { return u; }
     };
 
@@ -4598,7 +4639,7 @@
         <div class="dl-card-main">
           <div class="dl-card-head">
             <a class="dl-title" href="${escapeHtml(l.href)}"${EXT}>${escapeHtml(l.label)}</a>
-            ${l.tag ? `<span class="dl-tag">${escapeHtml(l.tag)}</span>` : ''}
+            ${l.tag ? `<span class="dl-tag ${l.tagKind || ''}">${escapeHtml(l.tag)}</span>` : ''}
           </div>
           ${l.desc ? `<p class="dl-desc">${escapeHtml(l.desc)}</p>` : ''}
           <div class="dl-url" title="${escapeHtml(l.href)}">${escapeHtml(prettyUrl(l.href))}</div>
@@ -4623,9 +4664,9 @@
       <div class="container dl-page">
         <div class="hero dl-hero">
           <h1>🗂️ Data — liens utiles</h1>
-          <p>Ressources externes utiles pour réviser : archives de cours, drives et
-             pages de liens des promos. ${total} lien${total > 1 ? 's' : ''} — tous
-             s'ouvrent dans un nouvel onglet.</p>
+          <p>Ressources externes utiles pour réviser : archives de cours, chaînes
+             YouTube et pages de liens des promos. ${total} lien${total > 1 ? 's' : ''}
+             — tous s'ouvrent dans un nouvel onglet.</p>
         </div>
         ${LINK_GROUPS.map(renderGroup).join('')}
         <div class="dl-foot">Un lien mort ou une ressource à ajouter ? Ouvre une issue sur le dépôt.</div>

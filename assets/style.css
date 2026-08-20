@@ -1474,3 +1474,8 @@ html.light .pl-row:nth-child(even) { background: rgba(0,0,0,.018); }
   .dl-btn, .dl-copy { flex: 1 1 auto; }
   .dl-alt { flex-basis: 100%; text-align: left; }
 }
+.dl-tag.yt {
+  color: #ff4040;
+  background: rgba(255,64,64,.12);
+  border-color: rgba(255,64,64,.3);
+}
