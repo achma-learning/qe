@@ -1,0 +1,16 @@
+{
+  "name": "QE — MCQ Question Bank",
+  "short_name": "QE",
+  "description": "Keyboard-driven, offline MCQ trainer for past medical-school exams.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "fr",
+  "background_color": "#0b1020",
+  "theme_color": "#6c8dff",
+  "icons": [
+    { "src": "./icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "./icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "maskable" }
+  ]
+}
