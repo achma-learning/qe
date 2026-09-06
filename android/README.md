@@ -15,6 +15,14 @@ same offline-first site described in `CONTEXT.md`, bundled under
   via the WebView's local storage, scoped to this app — same behavior as the
   browser version, just backed by the app's private data instead of a
   desktop browser profile.
+- **Focus mode by default:** on first launch the app turns on the site's own
+  "focus mode" (topbar/sidebar hidden, question pane widened) for better use
+  of a phone-sized screen. Tap the floating "✕ Focus" button, or press `Z`
+  with a keyboard, to turn it off — that choice is then remembered like any
+  other `qe:*` setting and is never overridden again. This is Android-only:
+  `MainActivity` seeds `qe:focusMode` by prepending one line to `assets/app.js`
+  as it's served (`shouldInterceptRequest`), rather than forking the file, so
+  the "Rebuild from source" `cp` step below stays a plain, unmodified copy.
 
 ## Install the prebuilt APK
 
