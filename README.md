@@ -31,6 +31,10 @@ node tools/build-data.js
 
 No environment variables, no API keys, no accounts. The app never touches the network.
 
+## Android app
+
+Prefer a native app over the browser? **[⬇ Download the APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk)** — a thin offline WebView wrapper around this same site (package `online.qe.mcqbank`, no network permission). Enable "install unknown apps" for whichever app you use to open the download, then open it. Source and build instructions: [`android/README.md`](./android/README.md).
+
 ## Usage
 
 Open `index.html` and you land on the **dashboard** — every module grouped by semester. Type to search, or press a number to jump, then `Enter` to open one. Inside a module:
