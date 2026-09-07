@@ -6,6 +6,10 @@ network calls, no separate native UI to keep in sync — the whole app is the
 same offline-first site described in `CONTEXT.md`, bundled under
 `app/src/main/assets/`.
 
+Everything the site links to is bundled, including the **high-yield analysis
+documents** (every `.pdf` / `.docx` / `.txt` listed in `qe-analysis/_analysis.js`),
+so the High-Yield page works with no connection at all.
+
 - **Package:** `online.qe.mcqbank`
 - **Min SDK:** 23 (Android 6.0) · **Target SDK:** 34
 - **Permissions:** none. The app never touches the network; external links
@@ -45,6 +49,19 @@ cp data/_counts.js data/_topics.js data/*.data.js android/app/src/main/assets/da
 cp "data/liste cours/_curriculum.js" "android/app/src/main/assets/data/liste cours/"
 cp modules/*.html android/app/src/main/assets/modules/
 cp qe-analysis/_analysis.js android/app/src/main/assets/qe-analysis/
+
+# High-yield docs: copy exactly what the manifest lists, so a new analysis
+# doc can't be silently left out of the app (and the 11 MB of source material
+# under "original motivation and how i got them/" stays out of the APK).
+node -e "
+global.window={};require('./qe-analysis/_analysis.js');
+const fs=require('fs'),path=require('path');
+const dst='android/app/src/main/assets/qe-analysis';
+for(const [slug,files] of Object.entries(window.QE_ANALYSIS)){
+  fs.mkdirSync(path.join(dst,slug),{recursive:true});
+  for(const f of files) fs.copyFileSync(path.join('qe-analysis',slug,f), path.join(dst,slug,f));
+}"
+
 cd android
 ./gradlew assembleDebug
 ```
@@ -60,9 +77,10 @@ sdk.dir=/path/to/Android/sdk
 ```
 
 The raw `data/s5..s10/*.txt` exam sources, `curriculum data/` (source PDFs),
-`anki/`, `docs/`, `issues/` and `.github/` are **not** bundled — only the
-baked `.data.js` files and the pages/scripts the site actually loads at
-runtime, same split the GitHub Pages deploy uses.
+`qe-analysis/original motivation and how i got them/`, `anki/`, `docs/`,
+`issues/` and `.github/` are **not** bundled — only the baked `.data.js`
+files, the manifest-listed analysis docs, and the pages/scripts the site
+actually loads at runtime.
 
 ## Notes
 
@@ -71,6 +89,21 @@ runtime, same split the GitHub Pages deploy uses.
   navigated via `<a href>`, so the WebView's own back/forward stack already
   matches what a user expects on the hardware/gesture back button — no
   custom in-page JS hook needed (unlike a single-page app).
+- **High-yield documents open in the device's viewer.** A `WebView` renders
+  HTML/CSS/JS/text but has no PDF or Office viewer, so navigating to a
+  bundled `.pdf`/`.docx` would just fail. `MainActivity` intercepts those
+  taps ("Ouvrir ↗" / "Télécharger ↓"), copies the file out of the APK's
+  assets into `cacheDir/docs/` (assets aren't real files, so no other app
+  can read them in place) and hands that copy to `ACTION_VIEW` as a
+  `content://` URI via `FileProvider` — a `file://` one throws
+  `FileUriExposedException` on API 24+. From the viewer the user can share
+  or save it. If nothing on the device handles the type, a toast says so.
+  The path/MIME logic lives in `AssetDocs.java`, free of Android types so it
+  can be checked without a device.
+- **The inline "Aperçu" is replaced with a note.** That button loads the doc
+  in an `<iframe>`, where a WebView shows a blank pane for a PDF. The app
+  serves a short "use Ouvrir ↗ instead" page in its place rather than
+  looking broken. `.txt`/`.md` previews render normally and are untouched.
 - The launcher icon is a set of PNGs under `res/mipmap-*dpi/`, generated
   from the same rounded-square "QE" mark used for `icon.svg` and the pages'
   favicon, so it matches the web app's branding.
