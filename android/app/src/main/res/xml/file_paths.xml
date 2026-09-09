@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The only thing ever shared out of this app: cached copies of the bundled
+     high-yield documents, written to cacheDir/docs/ by MainActivity. -->
+<paths>
+    <cache-path name="docs" path="docs/" />
+</paths>

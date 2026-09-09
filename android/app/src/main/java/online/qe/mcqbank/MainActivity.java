@@ -1,5 +1,6 @@
 package online.qe.mcqbank;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -8,12 +9,17 @@ import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Toast;
 import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.FileProvider;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.io.SequenceInputStream;
 import java.nio.charset.StandardCharsets;
 
@@ -70,13 +76,25 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(Intent.ACTION_VIEW, uri));
                     return true;
                 }
-                return false; // file:// asset navigation stays in the WebView
+                if (request.isForMainFrame()) {
+                    // High-yield "Ouvrir ↗" / "Télécharger ↓" on a bundled PDF or
+                    // .docx. The WebView has no viewer for those, so navigating
+                    // would just fail — hand the file to an app that can show it.
+                    String assetPath = AssetDocs.assetPathFromUrlPath(uri.getPath());
+                    if (assetPath != null && AssetDocs.opensExternally(assetPath)) {
+                        openAssetInExternalViewer(assetPath);
+                        return true;
+                    }
+                }
+                return false; // ordinary file:// page navigation stays in the WebView
             }
 
             @Override
             public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
                 String path = request.getUrl().getPath(); // e.g. /android_asset/assets/app.js
-                if (path != null && path.endsWith("/assets/app.js")) {
+                if (path == null) return null;
+
+                if (path.endsWith("/assets/app.js")) {
                     try {
                         InputStream original = getAssets().open("assets/app.js");
                         InputStream seeded = new SequenceInputStream(
@@ -85,6 +103,20 @@ public class MainActivity extends AppCompatActivity {
                         return new WebResourceResponse("application/javascript", "UTF-8", seeded);
                     } catch (IOException e) {
                         return null; // fall through to normal asset loading
+                    }
+                }
+
+                // The high-yield page's "Aperçu" opens the doc in an <iframe>.
+                // A WebView renders nothing at all for a PDF there, which reads
+                // as a broken page — say what's going on instead. (.txt/.md
+                // previews render fine and are left alone.)
+                if (!request.isForMainFrame()) {
+                    String assetPath = AssetDocs.assetPathFromUrlPath(path);
+                    if (assetPath != null && AssetDocs.opensExternally(assetPath)) {
+                        byte[] html = AssetDocs
+                                .previewUnavailableHtml(AssetDocs.fileNameOf(assetPath))
+                                .getBytes(StandardCharsets.UTF_8);
+                        return new WebResourceResponse("text/html", "UTF-8", new ByteArrayInputStream(html));
                     }
                 }
                 return null;
@@ -107,5 +139,63 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    /**
+     * Copies a bundled document out of the APK's assets (they aren't real files
+     * on disk, so no other app can read them in place) into our cache dir, then
+     * opens it with whatever the device uses for that type. From there the user
+     * can share or save it themselves.
+     */
+    private void openAssetInExternalViewer(final String assetPath) {
+        // Small files (~200 KB each), but this is still disk I/O — keep it off
+        // the UI thread and only touch the WebView/Activity back on it.
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                File copied = copyAssetToCache(assetPath);
+                final File ready = copied;
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        if (ready == null) {
+                            toast("Fichier introuvable dans l'application");
+                            return;
+                        }
+                        Uri shared = FileProvider.getUriForFile(
+                                MainActivity.this, getPackageName() + ".fileprovider", ready);
+                        Intent open = new Intent(Intent.ACTION_VIEW)
+                                .setDataAndType(shared, AssetDocs.mimeFor(assetPath))
+                                .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION
+                                        | Intent.FLAG_ACTIVITY_NEW_TASK);
+                        try {
+                            startActivity(open);
+                        } catch (ActivityNotFoundException e) {
+                            toast("Aucune application installée pour ouvrir ce type de fichier");
+                        }
+                    }
+                });
+            }
+        }).start();
+    }
+
+    /** Returns the cached copy, or null if the asset is missing/unreadable. */
+    private File copyAssetToCache(String assetPath) {
+        File out = new File(new File(getCacheDir(), "docs"), AssetDocs.fileNameOf(assetPath));
+        File parent = out.getParentFile();
+        if (parent != null && !parent.exists() && !parent.mkdirs()) return null;
+        try (InputStream in = getAssets().open(assetPath);
+             OutputStream os = new FileOutputStream(out)) {
+            byte[] buf = new byte[8192];
+            int n;
+            while ((n = in.read(buf)) > 0) os.write(buf, 0, n);
+            return out;
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+    private void toast(String message) {
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }

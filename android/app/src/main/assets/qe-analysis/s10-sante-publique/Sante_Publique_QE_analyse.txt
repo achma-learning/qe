@@ -1,0 +1,667 @@
+SANTÉ PUBLIQUE — FICHES QE HAUTE FRÉQUENCE
+════════════════════════════════════════════════════════════════════════
+Synthèse par Claude.ai — Version 1
+Cross-match : 541 QEs officielles (2017→2025) × Cours AIO Santé Publique 2025-2026
+Pr Amine, Pr Sebbani, Pr Adermouch — FMPM 2026
+════════════════════════════════════════════════════════════════════════
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTIE 1 — CLASSEMENT DES LEÇONS PAR ORDRE D'IMPORTANCE DÉCROISSANTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Classement basé sur la fréquence réelle dans 541 QEs (11 sessions).
+
+┌─────┬────────────────────────────────────────────────┬──────────┬─────────────────┐
+│ Rang│ Leçon officielle                               │ Total    │ Professeur      │
+├─────┼────────────────────────────────────────────────┼──────────┼─────────────────┤
+│  1  │ Études étiologiques (cas-témoins + cohorte)    │   93 Q   │ Pr. Amine       │
+│  2  │ Études descriptives                            │   60 Q   │ Pr. Amine       │
+│  3  │ Promotion et prévention en Santé Publique      │   57 Q   │ Pr. Sebbani     │
+│  4  │ Concepts en santé publique (partie 1 et 2)     │   57 Q   │ Pr. Adermouch   │
+│  5  │ Déterminants de la santé                       │   51 Q   │ Pr. Adermouch   │
+│  6  │ Sécurité et qualité de soins                   │   46 Q   │ Pr. Sebbani     │
+│  7  │ Santé environnementale                         │   42 Q   │ Pr. Adermouch   │
+│  8  │ Intervention en Santé Publique                 │   32 Q   │ Pr. Sebbani     │
+│  9  │ Essai clinique randomisé                       │   28 Q   │ Pr. Amine       │
+│  10 │ Santé et maladie                               │   23 Q   │ Pr. Adermouch   │
+│  11 │ Mesure de fréquence en épidémiologie           │   5 Q    │ Pr. Amine       │
+│  12 │ Initiation à la méthodologie de recherche clin │ — (pas de QE) │ Pr. Amine       │
+│  13 │ Critères de causalité                          │ — (pas de QE) │ Pr. Amine       │
+│  14 │ Validité d'un test diagnostic                  │ — (pas de QE) │ Pr. Amine       │
+│  15 │ Planification d'une intervention en SP         │ — (pas de QE) │ Pr. Sebbani     │
+│  16 │ Caractériser l'exposition environnementale     │ — (pas de QE) │ Pr. Adermouch   │
+│  17 │ Intervention environnementale                  │ — (pas de QE) │ Pr. Adermouch   │
+└─────┴────────────────────────────────────────────────┴──────────┴─────────────────┘
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTIE 2 — MOYENNE DE QUESTIONS PAR LEÇON PAR EXAMEN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Statistiques calculées sur 11 sessions, chaque examen ~49.2 questions.
+
+┌────────────────────────────────────────────────┬────────┬──────────┬─────────┐
+│ Leçon officielle                               │ Total  │ Moy/exam │ % d'exam│
+├────────────────────────────────────────────────┼────────┼──────────┼─────────┤
+│ Études étiologiques (cas-témoins + cohorte)    │      93│    8.45  │    17.2%│
+│ Études descriptives                            │      60│    5.45  │    11.1%│
+│ Promotion et prévention en SP                  │      57│    5.18  │    10.5%│
+│ Concepts en santé publique (partie 1 et 2)     │      57│    5.18  │    10.5%│
+│ Déterminants de la santé                       │      51│    4.64  │     9.4%│
+│ Sécurité et qualité de soins                   │      46│    4.18  │     8.5%│
+│ Santé environnementale                         │      42│    3.82  │     7.8%│
+│ Intervention en Santé Publique                 │      32│    2.91  │     5.9%│
+│ Essai clinique randomisé                       │      28│    2.55  │     5.2%│
+│ Santé et maladie                               │      23│    2.09  │     4.2%│
+│ Mesure de fréquence en épidémiologie           │       5│    0.45  │     0.9%│
+│ Leçons sans QE historique (6 leçons)           │       0│     0    │        —│
+├────────────────────────────────────────────────┼────────┼──────────┼─────────┤
+│ TOTAL leçons officielles avec QE               │   494 Q│    44.9  │    91.3%│
+└────────────────────────────────────────────────┴────────┴──────────┴─────────┘
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTIE 3 — QUESTIONS LES PLUS FRÉQUENTES (ORDRE STRICT PAR RANG)
+Format : faits (-) / pièges (⚠) / source (📖) / lien (📎) / citations (📋)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+════════════════════════════════════════════════════════════════════════
+[RANG 1] ÉTUDES ÉTIOLOGIQUES (CAS-TÉMOINS + COHORTE)
+Pr. Amine • ~8.45 Q/examen (17.2% de l'examen)
+📖 Méthodologie de recherche clinique — études analytiques observationnelles
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Les études étiologiques incluent :
+-Étude cas-témoins (observationnelle, rétrospective)
+-Étude de cohorte (observationnelle, prospective ou rétrospective)
+-⚠ L'essai clinique randomisé est INTERVENTIONNEL, PAS étiologique observationnel
+-⚠ L'étude transversale est DESCRIPTIVE, pas étiologique
+
+* L'étude cas-témoins — caractéristiques :
+-Compare un groupe « cas » (malades) à un groupe « témoins » (non malades)
+-Recherche rétrospective de l'exposition antérieure
+-Calcule l'ODDS RATIO (OR) — PAS le risque relatif, PAS l'incidence
+-Adaptée aux maladies rares et à longue période de latence
+-Rapide, peu coûteuse
+-⚠ Sujette aux BIAIS D'INFORMATION (biais de mémoire +++)
+-⚠ NE permet PAS de calculer l'incidence ni la prévalence ni le risque relatif
+-⚠ NE prouve PAS la causalité (séquence temporelle ambiguë)
+-⚠ NON randomisée (pas d'essai clinique sur cas-témoins)
+
+* L'étude de cohorte — caractéristiques :
+-Compare un groupe exposé à un groupe non exposé
+-Suivi prospectif de l'apparition de la maladie
+-Calcule l'INCIDENCE + le RISQUE RELATIF (RR)
+-Établit la RELATION TEMPORELLE exposition → maladie (preuve de chronologie)
+-Adaptée aux expositions fréquentes
+-⚠ Long suivi nécessaire → coût élevé, perdus de vue
+-⚠ Inadaptée aux maladies rares (nécessite gros échantillon)
+-⚠ NE permet PAS le calcul de la prévalence (= étude transversale)
+-⚠ Coût ÉLEVÉ (pas « coût faible »)
+
+* Interprétation de l'intervalle de confiance (IC 95%) :
+-Association significative si IC NE CONTIENT PAS 1 (pour OR ou RR)
+-Si IC = [0.4 ; 6.2] et contient 1 → ASSOCIATION NON SIGNIFICATIVE
+-RR > 1 ou OR > 1 → facteur de RISQUE
+-RR < 1 ou OR < 1 → facteur PROTECTEUR (si significatif)
+-⚠ Le seuil de signification est 1 (PAS 0) pour OR/RR
+-⚠ Le seuil 0 s'applique aux différences (différence de moyennes, de pourcentages)
+
+* Cohorte prospective vs rétrospective :
+-Prospective : exposition mesurée AVANT la survenue de la maladie
+-Rétrospective (historique) : exposition recherchée dans des dossiers antérieurs
+-Les deux types sont des études étiologiques observationnelles longitudinales
+-⚠ Une cohorte rétrospective ≠ étude cas-témoins (la cohorte part de l'exposition)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 2] ÉTUDES DESCRIPTIVES
+Pr. Amine • ~5.45 Q/examen (11.1% de l'examen)
+📖 Méthodologie de recherche clinique — études descriptives
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Types d'études descriptives :
+-Étude transversale (= prévalence à un instant donné)
+-Étude de série de cas
+-Étude écologique (population)
+-Étude longitudinale descriptive (sans groupe de comparaison)
+-⚠ L'étude cas-témoins est ANALYTIQUE, pas descriptive
+-⚠ L'essai clinique est INTERVENTIONNEL, pas descriptif
+
+* L'étude transversale — but et résultat principal :
+-Mesure la PRÉVALENCE (cas existants à un instant donné)
+-Estime l'ampleur d'un problème de santé dans une population
+-Génératrice d'hypothèses (PAS de test d'hypothèse causale)
+-Rapide, peu coûteuse
+-⚠ NE permet PAS de mesurer l'incidence (= apparition de nouveaux cas, nécessite suivi)
+-⚠ NE permet PAS d'établir une séquence temporelle exposition-maladie
+-⚠ NE permet PAS de calculer un risque relatif
+
+* Types d'échantillonnage :
+-Échantillon probabiliste (aléatoire simple, systématique, stratifié, en grappes)
+-Sondage systématique : probabilité égale pour chaque unité d'être tirée
+-Échantillon non probabiliste (accidentel, par convenance, en boule de neige)
+-⚠ Un échantillon « accidentel » est NON probabiliste
+-⚠ Inférence statistique impossible avec un échantillon non probabiliste
+
+* Types de variables et de questions :
+-Variables quantitatives (continues / discrètes)
+-Variables qualitatives (nominales / ordinales)
+-Questions FERMÉES : rapides à remplir, simples à coder, limitent la liberté d'expression
+-Questions OUVERTES : laissent libre expression, mais difficiles à coder
+-⚠ Les questions fermées NE SONT PAS difficiles à interpréter (au contraire, simples à coder)
+-⚠ Le poids est une variable QUANTITATIVE CONTINUE (correspond à une question fermée numérique)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 3] PROMOTION ET PRÉVENTION EN SANTÉ PUBLIQUE
+Pr. Sebbani • ~5.18 Q/examen (10.5% de l'examen)
+📖 Charte d'Ottawa OMS 1986 — Promotion de la santé
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Promotion vs Prévention — différences fondamentales :
+-Promotion = modèle BIO-PSYCHO-SOCIAL, agit sur les DÉTERMINANTS de la santé
+-Promotion considère la population comme SUJET (acteur, pas objet)
+-Prévention = action sur les facteurs de risque d'une maladie spécifique
+-Prévention considère plus souvent la population comme OBJET
+-⚠ La promotion N'EST PAS basée sur la responsabilité individuelle (= prévention)
+-⚠ La promotion N'ADOPTE PAS une approche verticale par programmes
+-⚠ Ne pas confondre EPS (éducation pour la santé) avec promotion globale
+
+* Les niveaux de prévention :
+-Prévention PRIMAIRE : empêcher l'apparition de la maladie (vaccination, hygiène, éducation)
+-Prévention SECONDAIRE : dépistage précoce + traitement précoce (frottis, mammographie)
+-Prévention TERTIAIRE : limiter complications et séquelles, réadaptation
+-Certains auteurs : prévention QUATERNAIRE (éviter le surmédicalisation iatrogène)
+-⚠ Le dépistage est de la prévention SECONDAIRE (pas primaire)
+-⚠ La rééducation post-AVC est TERTIAIRE (pas secondaire)
+
+* Les 5 axes de la Charte d'Ottawa (OMS 1986) :
+-Élaborer des politiques publiques saines
+-Créer des milieux favorables à la santé
+-Renforcer l'action communautaire
+-Acquérir des aptitudes individuelles (éducation pour la santé)
+-Réorienter les services de santé
+-⚠ La sensibilisation individuelle SEULE ne couvre que « aptitudes individuelles » (PAS les 4 autres axes)
+
+* Prévention de l'HTA (mesures non médicamenteuses) :
+-Réduction de l'apport sodé (idéal < 5-6 g/j)
+-Activité physique aérobie régulière (≥ 150 min/semaine)
+-Régime DASH (riche en fruits, légumes, faible en graisses saturées)
+-Observance des recommandations thérapeutiques
+-Arrêt du tabac, réduction de l'alcool, perte de poids
+-⚠ Le régime hyperprotidique N'EST PAS recommandé dans l'HTA
+-⚠ Réduction du sodium à 7 g/j est INSUFFISANTE (cible < 5 g/j idéalement)
+
+* Modèle de soins de Wagner pour les maladies chroniques (CCM) :
+-Soins INTÉGRÉS, GLOBAUX et CONTINUS centrés sur le patient
+-Soins PRIMAIRES coordonnés
+-Implique : patient activé + équipe préparée + système organisé
+-Particulièrement adapté aux troubles mentaux et maladies chroniques
+-⚠ Le modèle Wagner N'EST PAS basé sur les soins d'urgence ni les soins tertiaires
+-⚠ Soins continus ≠ soins épisodiques
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 4] CONCEPTS EN SANTÉ PUBLIQUE
+Pr. Adermouch • ~5.18 Q/examen (10.5% de l'examen)
+📖 Classification Internationale du Fonctionnement (CIF) — OMS
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Triade CIF (OMS) : déficience / incapacité / handicap :
+-DÉFICIENCE = anomalie de la structure anatomique ou de la fonction organique
+-INCAPACITÉ = diminution de la possibilité de réaliser une ACTIVITÉ
+-HANDICAP (désavantage social) = désavantage qui limite l'accomplissement d'un RÔLE social
+-⚠ Déficience ≠ incapacité ≠ handicap (PIÈGE CLASSIQUE répété chaque année)
+-⚠ L'incapacité N'EST PAS une anomalie anatomique (= déficience)
+-⚠ L'incapacité N'EST PAS un désavantage social (= handicap)
+-⚠ L'incapacité N'EST PAS une manifestation de la phase pré-clinique
+
+* Modèles de définition de la santé :
+-Modèle BIOMÉDICAL : santé = absence de maladie
+-Modèle ÉCOLOGIQUE / capacité d'adaptation : santé = capacité d'adaptation à l'environnement (OMS révisée)
+-Modèle BIO-PSYCHO-SOCIAL : intègre dimensions physiques, mentales, sociales
+-Modèle HOLISTIQUE : approche globale incluant spirituel
+-⚠ Capacité d'adaptation = modèle ÉCOLOGIQUE (PAS holistique, PAS bio-psycho-social)
+-⚠ Le modèle biomédical EST RÉDUCTEUR (centré sur la maladie)
+
+* Caractéristiques fondamentales de la santé publique :
+-Rôle MAJEUR de la PRÉVENTION (≠ médecine curative)
+-Responsabilité COLLECTIVE face à la santé
+-Action ciblant la POPULATION (PAS l'individu)
+-Action sur les DÉTERMINANTS de la santé
+-⚠ La SP n'est PAS basée sur la médecine curative individuelle
+-⚠ Différence claire avec la médecine clinique (individu vs population)
+
+* Phases du processus de développement de la maladie :
+-Phase d'exposition aux facteurs de risque
+-Phase pré-clinique (subclinique, asymptomatique) — dépistage possible
+-Phase clinique (manifestation des symptômes)
+-Phase de résolution / chronicité / complications
+-⚠ L'incapacité survient APRÈS la phase clinique (résultat de la maladie)
+-⚠ Le dépistage cible la phase PRÉ-CLINIQUE
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 5] DÉTERMINANTS DE LA SANTÉ
+Pr. Adermouch • ~4.64 Q/examen (9.4% de l'examen)
+📖 Modèles de Lalonde, Dahlgren-Whitehead, OMS — déterminants sociaux de la santé
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Les grandes catégories de déterminants de la santé :
+-Déterminants BIOLOGIQUES : âge, sexe, génétique, hérédité
+-Déterminants COMPORTEMENTAUX : tabac, alcool, alimentation, sédentarité, sexualité
+-Déterminants SOCIAUX : niveau d'éducation, revenu, profession, conditions de vie
+-Déterminants ENVIRONNEMENTAUX : qualité air/eau/sol, habitat, milieu de travail
+-Déterminants liés au SYSTÈME DE SANTÉ : accès, qualité, couverture
+-⚠ L'âge est un déterminant BIOLOGIQUE (PAS comportemental ni social)
+-⚠ Le tabagisme est COMPORTEMENTAL (PAS biologique)
+-⚠ La pauvreté est un déterminant SOCIAL (PAS biologique)
+
+* Le système de soins marocain — caractéristiques :
+-Budget annuel alloué à la santé par l'État (mais part FAIBLE dans le budget total)
+-Contribution DIRECTE des ménages importante (out-of-pocket élevé)
+-Assurance maladie ne couvre PAS la totalité de la population (taux en progression)
+-Système mixte : public, privé, traditionnel
+-⚠ L'assurance maladie NE COUVRE PAS la totalité de la population au Maroc
+-⚠ La part du budget santé est FAIBLE (souvent < 6% du budget total)
+-⚠ La contribution directe des ménages est IMPORTANTE (signe de barrière financière)
+
+* Approches d'intervention en santé publique :
+-Approche BIOMÉDICALE : centrée sur la maladie, individuelle (= médecin clinicien)
+-Approche BIO-PSYCHO-SOCIALE : intègre les dimensions sociales et psychologiques
+-Approche GLOBALE / holistique
+-Approche PRÉVENTIVE : agit avant la maladie
+-Approche PROMOTIONNELLE : agit sur les déterminants
+-⚠ L'intervention du médecin traitant est principalement BIOMÉDICALE + PRÉVENTIVE
+-⚠ Une consultation de sevrage tabagique est PRÉVENTIVE (PAS promotionnelle au sens large)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 6] SÉCURITÉ ET QUALITÉ DE SOINS
+Pr. Sebbani • ~4.18 Q/examen (8.5% de l'examen)
+📖 Définitions OMS — Sécurité du patient & dimensions de la qualité des soins
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Définitions clés en sécurité des soins :
+-ÉVÉNEMENT INDÉSIRABLE (EI) = situation DÉFAVORABLE au patient
+-ERREUR MÉDICALE = EI ÉVITABLE (caractère évitable identifié)
+-EI ASSOCIÉ AUX SOINS (EIAS) = EI lié aux activités de soins
+-Presque accident (near miss) = événement évité de justesse
+-⚠ Un retard d'intervention chirurgicale par perte de bilan = EI + erreur médicale + EIAS
+-⚠ Le résultat lié à l'évolution NATURELLE de la maladie n'est PAS un EI
+-⚠ Tout EI n'est PAS forcément une erreur médicale (≠ caractère évitable)
+
+* Les 6-7 dimensions de la qualité des soins (IOM / OMS) :
+-EFFICACITÉ : capacité à atteindre le résultat thérapeutique attendu
+-EFFICIENCE : rapport qualité-prix, optimisation des ressources
+-SÉCURITÉ : minimiser les risques pour le patient
+-ACCEPTABILITÉ / centrage patient
+-ACCESSIBILITÉ : géographique, financière, culturelle
+-ÉQUITÉ : même qualité pour tous
+-CONTINUITÉ : suivi cohérent dans le temps
+-⚠ Efficacité ≠ efficience (efficience inclut le COÛT)
+-⚠ L'efficience inclut le rapport qualité-prix (« délivrer des soins optimaux au moindre coût »)
+-⚠ Efficacité = atteindre le résultat ; efficience = l'atteindre avec un coût optimal
+
+* Méthodes d'amélioration de la qualité et analyse des EI :
+-AUDIT CLINIQUE (interne ou externe) : comparaison à un référentiel
+-REVUE DE MORBIDITÉ-MORTALITÉ (RMM) : analyse rétrospective des EI graves
+-PATIENT TRACEUR : suit le parcours d'un patient pour évaluer les pratiques
+-ENQUÊTE DE SATISFACTION : perception patient
+-MÉTHODE DES 5 POURQUOI : analyse de cause racine
+-RECOMMANDATIONS DE BONNES PRATIQUES + ALARM
+-CERTIFICATION / accréditation des établissements
+-⚠ Pour un EI à incidence élevée (fièvre post-injection) → RMM est l'approche la plus appropriée
+-⚠ Un signalement à l'équipe + analyse + formation = recommandations communes (PAS sanction)
+-⚠ Le simple constat n'est PAS une méthode d'amélioration de la qualité
+
+* Évaluation d'un programme de santé :
+-Évaluation NORMATIVE : conformité aux normes / atteinte des objectifs opérationnels
+-Évaluation PRAGMATIQUE : conformité du processus (souvent en cours de programme)
+-Évaluation de RECHERCHE : études pharmaco-épidémiologiques, RCT
+-Évaluation peut être faite À DIFFÉRENTS MOMENTS (avant, pendant, après)
+-⚠ L'évaluation N'EST PAS uniquement faite en fin de programme
+-⚠ L'efficacité THÉORIQUE intermédiaire n'est pas un standard reconnu (on parle d'efficacité réelle)
+
+* Transmission des agents infectieux :
+-Transmission DIRECTE : contact physique direct (toucher, gouttelettes proches)
+-Transmission INDIRECTE : via vecteur, support contaminé, aérosols, fluides
+-Exemples directs : grippe (gouttelettes), tuberculose (aérosols)
+-Exemples indirects : hépatite A (eau/aliments), tétanos (sol), paludisme (moustique)
+-⚠ Le tétanos est INDIRECT (par contamination tellurique)
+-⚠ Le paludisme est INDIRECT (vecteur = moustique)
+-⚠ L'hépatite A est INDIRECTE (féco-orale via eau/aliments)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 7] SANTÉ ENVIRONNEMENTALE
+Pr. Adermouch • ~3.82 Q/examen (7.8% de l'examen)
+📖 Modèle DPSEEA (OMS) — Driving forces, Pressures, States, Exposures, Effects, Actions
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Types d'agents environnementaux :
+-Agents PHYSIQUES : radiations ionisantes/UV, bruit, chaleur, vibrations
+-Agents CHIMIQUES : polluants atmosphériques, pesticides, métaux lourds, aérosols industriels
+-Agents BIOLOGIQUES : bactéries, virus, champignons, allergènes
+-Agents VIVANTS : vecteurs (moustiques, tiques), faune nuisible
+-⚠ Les radiations (accident nucléaire) sont des agents PHYSIQUES (PAS chimiques)
+-⚠ Les aérosols industriels sont CHIMIQUES (PAS physiques ni biologiques)
+-⚠ Un moustique vecteur est un agent VIVANT (PAS biologique au sens strict)
+
+* Vecteurs / milieux d'exposition :
+-AIR (inhalation de polluants, aérosols, particules fines)
+-EAU (ingestion d'eau contaminée — bactéries, métaux lourds)
+-SOL (contact cutané, ingestion de poussières)
+-ALIMENTS (ingestion d'aliments contaminés ou avec résidus de pesticides)
+-⚠ Un seul agent peut emprunter plusieurs vecteurs (ex. plomb : air + eau + aliments)
+-⚠ L'identification du vecteur conditionne la stratégie de prévention
+
+* Modèles temporels d'exposition :
+-CONTINUE : exposition permanente (ex. tabagisme régulier)
+-INTERMITTENTE : exposition répétée à intervalles (ex. exposition professionnelle)
+-CONCENTRÉE : exposition brève mais à forte dose (ex. accident industriel)
+-ALÉATOIRE (random) : exposition imprévisible
+-⚠ Une exposition CONCENTRÉE = courte durée + forte dose (pas une exposition étalée)
+-⚠ Une exposition continue n'est pas forcément intermittente
+
+* Voies d'exposition (pénétration dans l'organisme) :
+-INHALATION (voie respiratoire) — la plus fréquente pour les polluants atmosphériques
+-INGESTION (voie digestive) — eau/aliments contaminés
+-ABSORPTION CUTANÉE — pesticides, solvants
+-Voie transplacentaire (effet sur le fœtus)
+-⚠ Inhalation = voie respiratoire (PAS digestive)
+-⚠ Pour un polluant dans l'air → la voie principale est l'inhalation (pas l'ingestion)
+
+* Types d'effets sur la santé :
+-Effet AIGU : apparition rapide après l'exposition (ex. syndrome d'irradiation aiguë)
+-Effet CHRONIQUE : apparition après exposition prolongée
+-Effet RETARDÉ : apparition années après l'exposition (ex. cancer de la thyroïde post-irradiation)
+-Effet INFRACLINIQUE : modifications biologiques sans symptômes
+-⚠ L'irradiation aiguë + cancer thyroïdien tardif illustrent les effets AIGU + RETARDÉ (PAS chronique)
+-⚠ Un effet « positif » n'a pas de sens en toxicologie environnementale
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 8] INTERVENTION EN SANTÉ PUBLIQUE
+Pr. Sebbani • ~2.91 Q/examen (5.9% de l'examen)
+📖 Critères SMART + Principes de l'offre de soins au Maroc
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Les 5 composantes d'une intervention en santé publique :
+-Les ACTEURS (qui intervient)
+-Les STRUCTURES (où l'intervention a lieu)
+-Le PROCESSUS (comment elle se déroule)
+-Les MOYENS (ressources mobilisées)
+-Les RÉSULTATS (objectifs atteints)
+-L'ENVIRONNEMENT (contexte de l'intervention)
+-La FINALITÉ (but général visé)
+-⚠ Une intervention sans description du PROCESSUS ou des MOYENS est incomplète
+
+* Type d'intervention (niveau et population cible) :
+-Intervention PRÉCLINIQUE : avant l'apparition de symptômes (vaccination, hygiène)
+-Intervention CLINIQUE : sur patient symptomatique (consultation, prescription)
+-Intervention POST-CLINIQUE : rééducation, réadaptation
+-Intervention INDIVIDUELLE : ciblée sur une personne
+-Intervention POPULATIONNELLE : ciblée sur un groupe
+-⚠ Une consultation avec prescription = intervention CLINIQUE + INDIVIDUELLE
+
+* Critères SMART pour un objectif d'intervention :
+-S = Spécifique (précis)
+-M = Mesurable
+-A = Atteignable
+-R = Réaliste
+-T = Temps défini
+-⚠ Un objectif SMART doit être PRÉCIS + MESURABLE + TEMPS DÉFINI minimum
+-⚠ « Sensible » n'est PAS un critère SMART (piège classique)
+
+* Critères d'inclusion d'une intervention de dépistage (OMS Wilson-Jungner) :
+-Maladie GRAVE = problème de santé publique important
+-Histoire naturelle de la maladie CONNUE
+-Test de dépistage FIABLE, EFFICACE, ACCEPTABLE, peu coûteux
+-Traitement disponible à un stade précoce
+-Coût du programme acceptable
+-Proportion importante de la population concernée
+-⚠ L'ABSENCE de test fiable est un CONTRE-ARGUMENT (pas un argument de dépistage)
+-⚠ Un coût FAIBLE de PEC est un argument (un coût élevé est un frein, pas un argument)
+
+* Principes de l'offre de soins au Maroc :
+-ÉGALITÉ : même droit aux soins pour tous les citoyens
+-ÉQUITÉ : adaptation aux besoins spécifiques
+-SOLIDARITÉ : entraide collective (assurance maladie)
+-GRADATION : organisation par niveaux (primaire → secondaire → tertiaire)
+-COMPLÉMENTARITÉ : entre niveaux et secteurs
+-PARTENARIAT public-privé
+-INTERSECTORIALITÉ : action de plusieurs secteurs (santé, éducation, social)
+-⚠ Quand un patient saute le centre de santé pour aller directement au CHU → défaut de GRADATION
+-⚠ L'action concertée DRS + CHU illustre COMPLÉMENTARITÉ + INTERSECTORIALITÉ
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 9] ESSAI CLINIQUE RANDOMISÉ (ECR)
+Pr. Amine • ~2.55 Q/examen (5.2% de l'examen)
+📖 Méthodologie de recherche clinique — niveau de preuve le plus élevé (étude expérimentale)
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Définition et caractéristiques de l'ECR :
+-Étude INTERVENTIONNELLE (≠ observationnelle)
+-Étude LONGITUDINALE et PROSPECTIVE (suivi des patients)
+-Comparaison entre ≥ 2 groupes (traitement vs placebo, ou nouveau vs standard)
+-Niveau de preuve LE PLUS ÉLEVÉ pour évaluer l'efficacité d'un traitement
+-⚠ L'ECR N'EST PAS une étude observationnelle
+-⚠ L'ECR N'EST PAS rétrospective
+
+* La randomisation :
+-RÉPARTITION ALÉATOIRE (tirage au sort) des sujets en 2 groupes ou plus
+-Basée sur le HASARD (pas sur choix du chercheur ni faisabilité)
+-Permet de constituer des groupes COMPARABLES sur les caractéristiques connues ET INCONNUES
+-Permet de contrôler les facteurs de confusion CONNUS ET INCONNUS
+-Rend possible l'inférence statistique causale
+-⚠ La randomisation NE PEUT PAS être réalisée dans une étude cas-témoins (observationnelle)
+-⚠ La randomisation N'EST PAS basée sur les contraintes du terrain
+-⚠ Elle NE constitue PAS deux groupes IDENTIQUES (mais COMPARABLES)
+
+* Insu (aveugle) :
+-Simple aveugle : le patient ignore son groupe
+-Double aveugle : patient + investigateur ignorent
+-Triple aveugle : + statisticien aussi
+-Réduit le BIAIS DE MESURE et le biais d'évaluation
+-⚠ L'insu réduit les biais d'INFORMATION (PAS de sélection)
+-⚠ L'insu n'est pas toujours possible (chirurgie, thérapies comportementales)
+
+* Sondage systématique :
+-Probabilité égale pour chaque unité statistique d'être tirée au sort
+-Méthode probabiliste d'échantillonnage
+-Tirage d'une unité tous les « k » éléments (k = N/n)
+-⚠ Si on tire « toutes les k unités » à partir d'un point aléatoire → PROBABILITÉ ÉGALE (VRAI)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 10] SANTÉ ET MALADIE
+Pr. Adermouch • ~2.09 Q/examen (4.2% de l'examen)
+📖 Théorie de la transition épidémiologique (Omran 1971)
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* La transition épidémiologique :
+-DIMINUTION des maladies infectieuses + AUGMENTATION des maladies chroniques (non transmissibles)
+-Causée par : urbanisation, allongement espérance de vie, vaccination, antibiotiques
+-Au Maroc : transition en cours, double fardeau (maladies infectieuses encore présentes + maladies chroniques)
+-⚠ Ce n'est PAS « augmentation des deux » (piège fréquent)
+-⚠ Ce n'est PAS « diminution des deux »
+-⚠ C'est diminution infectieuses + AUGMENTATION chroniques
+
+* Les transitions impactant le Maroc (et les systèmes de santé) :
+-Transition DÉMOGRAPHIQUE (vieillissement, baisse fécondité)
+-Transition ÉPIDÉMIOLOGIQUE (changement profil des maladies)
+-Transition NUTRITIONNELLE (sous-nutrition → surnutrition / obésité)
+-Transition SOCIALE / urbaine
+-⚠ Les DEUX transitions qui impactent le PLUS l'utilisation des services de santé = DÉMOGRAPHIQUE + ÉPIDÉMIOLOGIQUE
+
+* Effets sur la santé (rappel transversal avec santé environnementale) :
+-Effet AIGU vs CHRONIQUE
+-Effet RETARDÉ (cancers post-exposition)
+-Effet INFRACLINIQUE (modifications biologiques asymptomatiques)
+-⚠ Un effet peut être à la fois CHRONIQUE et RETARDÉ (ex. cancer, fibrose)
+
+
+════════════════════════════════════════════════════════════════════════
+[RANG 11] MESURE DE FRÉQUENCE EN ÉPIDÉMIOLOGIE
+Pr. Amine • ~0.45 Q/examen (0.9% de l'examen)
+📖 Indicateurs épidémiologiques fondamentaux — Incidence, prévalence, mortalité
+📎 Cours officiel : [URL à compléter par l'utilisateur]
+════════════════════════════════════════════════════════════════════════
+
+* Incidence vs Prévalence :
+-INCIDENCE = nouveaux cas survenant pendant une période donnée
+-Incidence CUMULÉE = nouveaux cas / personnes à risque au début de la période
+-Densité d'INCIDENCE = nouveaux cas / personnes-temps de suivi (= TAUX)
+-PRÉVALENCE = tous les cas (anciens + nouveaux) à un INSTANT donné
+-Prévalence ponctuelle ≠ prévalence de période
+-⚠ La prévalence n'est PAS « le nombre de nouveaux cas » (= incidence)
+-⚠ Incidence est un TAUX (avec dénominateur personnes-temps)
+-⚠ Prévalence est une PROPORTION (sans dimension temporelle au numérateur)
+
+* Taux brut de mortalité (TBM) :
+-TBM = (nombre de décès durant une période) / (effectif moyen de la population durant la même période)
+-Exprimé pour 1 000 ou 100 000 habitants
+-Indicateur GLOBAL de mortalité (toutes causes confondues)
+-⚠ Le TBM N'EST PAS spécifique d'une cause (= taux spécifique par cause)
+-⚠ Le TBM N'EST PAS spécifique d'une tranche d'âge (= taux spécifique par âge)
+-⚠ Le dénominateur est l'effectif MOYEN, pas la population « au milieu » de la période
+
+* Autres indicateurs de fréquence courants :
+-Taux de létalité = décès dus à une maladie / cas de la maladie (gravité)
+-Taux de natalité = naissances vivantes / population moyenne
+-Taux de mortalité infantile (TMI) = décès < 1 an / naissances vivantes
+-Taux de fécondité = naissances vivantes / femmes en âge de procréer
+-⚠ Létalité ≠ mortalité (létalité = parmi les malades ; mortalité = parmi la population générale)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PARTIE 4 — TOPICS HORS LEÇONS OFFICIELLES 2026 (COURS ANNULÉ)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╔══════════════════════════════════════════════════════════════════╗
+║  ⚠ DISCLAIMER — À LIRE AVANT D'UTILISER CETTE SECTION ⚠         ║
+║                                                                  ║
+║  These lessons are NOT in the 2026 exam program.                ║
+║  Cours annulé — NOT officially scheduled.                        ║
+║                                                                  ║
+║  USE AT YOUR OWN RISK — BUT GOOD TO KNOW.                        ║
+║                                                                  ║
+║  Ces topics représentaient historiquement ~8.7 % des questions  ║
+║  des examens passés. S'ils ne sont PAS au programme cette année, ║
+║  ils peuvent malgré tout apparaître en :                         ║
+║   • question résiduelle ou rattrapage                            ║
+║   • recyclage de dernière minute                                 ║
+║   • culture générale médicale                                    ║
+╚══════════════════════════════════════════════════════════════════╝
+
+Topics hors programme 2026 (classés par fréquence décroissante) :
+
+┌────────────────────────────────────────────────┬────────┬──────────┐
+│ Topic                                          │ Total  │ Moy/exam │
+├────────────────────────────────────────────────┼────────┼──────────┤
+│ Questions inclassifiables / transversales (cas │    47 Q│    4.27  │
+└────────────────────────────────────────────────┴────────┴──────────┘
+
+════════════════════════════════════════════════════════════════════════
+[HORS 1] QUESTIONS INCLASSIFIABLES / TRANSVERSALES
+47 questions — 4.27 Q/examen — Questions cross-cutting (cas cliniques, calculs)
+════════════════════════════════════════════════════════════════════════
+
+* Nature des questions inclassifiables dans la banque :
+-La plupart sont des sous-questions de CAS CLINIQUES intégrés (énoncé global avec plusieurs questions enchaînées)
+-Couvrent des notions transversales : séquence temporelle exposition-maladie, calculs de proportions, application aux situations
+-Plusieurs touchent les leçons « Initiation à la méthodologie », « Critères de causalité », « Validité d'un test diagnostic » qui n'ont pas leur tag dédié dans la banque
+-⚠ Ce ne sont PAS des cours annulés — les notions sous-jacentes SONT au programme 2026
+-⚠ Elles font partie des cas cliniques qui peuvent tomber à n'importe quel examen
+
+* Notions classiques apparaissant dans les inclassifiables :
+-Distinction étude prospective / rétrospective / transversale à partir d'un cas
+-Calcul de proportion (ex. % de tabagiques dans l'étude)
+-Caractéristiques générales de la SP : rôle prévention + responsabilité collective + action populationnelle + agir sur déterminants
+-Critères de causalité de Hill (force, cohérence, temporalité, plausibilité biologique, spécificité, gradient dose-réponse, expérimentation, analogie, cohérence)
+-⚠ À RÉVISER : critères de Hill, validité d'un test diagnostic (Se/Sp/VPP/VPN), méthodologie de recherche clinique (Pr Amine — 3 parties)
+
+* Validité d'un test diagnostic (notions clés non couvertes ailleurs) :
+-SENSIBILITÉ (Se) = vrais positifs / (vrais positifs + faux négatifs) = capacité à détecter les malades
+-SPÉCIFICITÉ (Sp) = vrais négatifs / (vrais négatifs + faux positifs) = capacité à éviter les faux positifs chez les non-malades
+-VPP = vrais positifs / (vrais positifs + faux positifs) — dépend de la PRÉVALENCE
+-VPN = vrais négatifs / (vrais négatifs + faux négatifs) — dépend de la PRÉVALENCE
+-⚠ Se et Sp NE DÉPENDENT PAS de la prévalence (= propriétés du test)
+-⚠ VPP et VPN DÉPENDENT de la prévalence
+-⚠ Quand prévalence ↑ → VPP ↑ et VPN ↓
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AIDE-MÉMOIRE FINAL — HIGH-YIELD CONCOURS SANTÉ PUBLIQUE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+** INDICATEURS ÉPIDÉMIOLOGIQUES ET MÉTHODOLOGIQUES **
+Incidence cumulée      →   Nouveaux cas / personnes à risque (sur période)
+Densité d'incidence    →   Nouveaux cas / personnes-temps (TAUX)
+Prévalence             →   Tous cas / population (instant) — PROPORTION
+Taux brut mortalité    →   Décès / effectif moyen (période)
+Odds ratio (OR)        →   Cas-témoins — pas d'incidence
+Risque relatif (RR)    →   Cohorte / ECR — incidence exposés / non-exposés
+IC 95% significatif    →   NE contient PAS 1 (pour OR/RR)
+
+** TYPES D'ÉTUDES ET LEUR USAGE **
+Étude transversale                            → Mesure PRÉVALENCE (un instant)
+Étude cas-témoins                             → Maladies RARES — calcule OR
+Étude de cohorte                              → Calcule INCIDENCE et RR — séquence temporelle
+Essai clinique randomisé                      → Évalue EFFICACITÉ d'une intervention — niveau preuve max
+Étude écologique                              → Compare populations entières — biais écologique
+Méta-analyse / revue                          → Synthèse quantitative de la littérature
+
+** PIÈGES CLASSIQUES DU CONCOURS **
+- Cas-témoins → calcule OR seulement (PAS RR, PAS incidence, PAS prévalence)
+- Étude transversale → calcule PRÉVALENCE seulement (PAS incidence)
+- Cohorte → calcule INCIDENCE + RR (PAS prévalence)
+- Randomisation contrôle facteurs de confusion CONNUS ET INCONNUS
+- IC 95% significatif si EXCLUT 1 (pour OR/RR), pas 0
+- Promotion = bio-psycho-social + action sur déterminants (≠ prévention)
+- Déficience (anatomie) ≠ Incapacité (activité) ≠ Handicap (rôle social)
+- Capacité d'adaptation = modèle ÉCOLOGIQUE de la santé
+- Transition épidémiologique = ↓ infectieuses + ↑ chroniques
+- Critères SMART = Spécifique + Mesurable + Atteignable + Réaliste + Temps défini
+- EI évitable = ERREUR médicale ; EI lié aux soins = EIAS
+- RMM = analyse rétrospective d'EI graves (revue mortalité-morbidité)
+- Tétanos / paludisme / hépatite A = transmission INDIRECTE
+- Au Maroc : assurance maladie ne couvre PAS toute la population
+- Dépistage = prévention SECONDAIRE (pas primaire)
+
+** SCHÉMAS CONCEPTUELS CLÉS **
+Exposition → Maladie : cohorte établit la séquence temporelle (causalité chronologique)
+Charte d'Ottawa (1986) : 5 axes — politiques publiques + milieux favorables + action communautaire + aptitudes individuelles + réorientation services
+CIF (OMS) : Maladie → Déficience → Incapacité → Handicap (désavantage social)
+Pyramide niveaux de preuve : Avis expert < Cas < Transversale < Cas-témoins < Cohorte < ECR < Méta-analyse
+Modèle Wagner CCM : soins intégrés + globaux + continus pour maladies chroniques
+Niveaux prévention : Primaire (avant) → Secondaire (dépistage) → Tertiaire (séquelles)
+Critères causalité de Hill : Force + Cohérence + Temporalité + Plausibilité biologique + Spécificité + Gradient dose-réponse + Expérimentation + Analogie + Cohérence
+
+════════════════════════════════════════════════════════════════════════
+Généré par Claude.ai (claude-opus-4-7) — Version 1
+Cross-match 541 QEs officielles × Cours AIO Santé Publique 2025-2026
+Pr Amine, Pr Sebbani, Pr Adermouch — FMPM 2026
+
+Améliorations Version 1 :
+  ✓ PARTIE 3 strictement par rang (1 → 11) — leçons officielles uniquement
+  ✓ 13 topics QE consolidés en 11 leçons officielles (cas-témoins + cohorte regroupés, sécurité + qualité regroupés)
+  ✓ 6 leçons officielles sans QE historique listées en Partie 1 (mentions « pas de QE »)
+  ✓ Déduplication des questions répétées + FAUX explicites avec ⚠
+  ✓ Aide-mémoire adapté à la Santé Publique (indicateurs épidémio, types d'études, pièges méthodologiques)
+  ✓ PARTIE 4 utilisée pour les questions inclassifiables (cas cliniques transversaux) avec notions Hill + validité test diagnostic
+════════════════════════════════════════════════════════════════════════

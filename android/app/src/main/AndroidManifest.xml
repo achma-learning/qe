@@ -25,5 +25,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--
+          The high-yield PDFs/.docx live inside the APK, where no other app can
+          read them. Tapping one copies it to our cache dir and hands that copy
+          to a viewer as a content:// URI — a file:// one would throw
+          FileUriExposedException on API 24+. Not exported: access is granted
+          per-intent via FLAG_GRANT_READ_URI_PERMISSION.
+        -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 </manifest>
