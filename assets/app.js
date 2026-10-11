@@ -4586,6 +4586,22 @@
             download: 'CLINIQUES.zip',
             alt: { href: 'https://archive.org/details/cliniques-fmpm', label: 'Page archive.org (torrent, reprise)' },
           },
+          {
+            label: 'S-ECN 1.0.7 — PC (.zip)',
+            href: 'https://archive.org/download/s-ecn-pc-1.0.7/S-ECN-PC-1.0.7.zip',
+            desc: 'Fiches médicales S-ECN, version site HTML à ouvrir sur ordinateur (627 Mo / 598 Mio).',
+            tag: 'ZIP',
+            download: 'S-ECN-PC-1.0.7.zip',
+            alt: { href: 'https://archive.org/details/s-ecn-pc-1.0.7', label: 'Page archive.org (torrent, reprise)' },
+          },
+          {
+            label: 'S-ECN 1.0.7 — Android (.apk)',
+            href: 'https://archive.org/download/s-ecn-pc-1.0.7/S-ECN-1.0.7.apk',
+            desc: 'Les mêmes fiches S-ECN en application Android, à installer directement (625 Mo / 596 Mio).',
+            tag: 'APK',
+            download: 'S-ECN-1.0.7.apk',
+            alt: { href: 'https://archive.org/details/s-ecn-pc-1.0.7', label: 'Page archive.org (torrent, reprise)' },
+          },
         ],
       },
       {
