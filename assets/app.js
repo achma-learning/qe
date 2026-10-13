@@ -4587,6 +4587,46 @@
             alt: { href: 'https://archive.org/details/cliniques-fmpm', label: 'Page archive.org (torrent, reprise)' },
           },
           {
+            label: 'FMPM playlist.zip',
+            href: 'https://archive.org/download/fmpm-playlist/fmpm%20playlist.zip',
+            desc: 'Playlists de cours FMPM de S2 à S10, enregistrées pendant la période Covid, réunies dans un seul .zip (126 Go / 117,6 Gio).',
+            tag: 'ZIP',
+            download: 'fmpm playlist.zip',
+            alt: { href: 'https://archive.org/details/fmpm-playlist', label: 'Page archive.org (torrent, reprise)' },
+          },
+        ],
+      },
+      {
+        title: '📚 S-ECN — fiches Codex',
+        note: 'Fiches de révision S-ECN par item : en ligne, en PDF ou en application hors ligne.',
+        links: [
+          {
+            label: 'S-ECN — Fiches Codex (site officiel)',
+            href: 'https://www.s-ecn.com/fiches-codex',
+            desc: 'Les fiches Codex S-ECN consultables en ligne, classées par spécialité et par item.',
+            tag: 'SITE',
+          },
+          {
+            label: 'S-Éditions — CODEX (version gratuite)',
+            href: 'https://s-editions.fr/CODEX/',
+            desc: 'Version gratuite du Codex, accessible directement dans le navigateur.',
+            tag: 'GRATUIT',
+          },
+          {
+            label: 'S-ECN Collection — PDF à l\'unité',
+            href: 'https://archive.org/details/s-ecn-collection-pdfs',
+            desc: 'Les 1 316 fiches S-ECN en PDF séparés (une fiche par item) — parcourir et télécharger seulement celles qu\'il faut.',
+            tag: 'PDF',
+          },
+          {
+            label: 'S-ECN Collection.zip',
+            href: 'https://archive.org/download/s-ecn-collection/S-ECN%20Collection.zip',
+            desc: 'Toute la collection de fiches S-ECN en un seul .zip (565 Mo / 539 Mio).',
+            tag: 'ZIP',
+            download: 'S-ECN Collection.zip',
+            alt: { href: 'https://archive.org/details/s-ecn-collection', label: 'Page archive.org (torrent, reprise)' },
+          },
+          {
             label: 'S-ECN 1.0.7 — PC (.zip)',
             href: 'https://archive.org/download/s-ecn-pc-1.0.7/S-ECN-PC-1.0.7.zip',
             desc: 'Fiches médicales S-ECN, version site HTML à ouvrir sur ordinateur (627 Mo / 598 Mio).',
@@ -4709,8 +4749,8 @@
       <div class="container dl-page">
         <div class="hero dl-hero">
           <h1>🗂️ Data — liens utiles</h1>
-          <p>Ressources externes utiles pour réviser : archives de cours, chaînes
-             YouTube et pages de liens des promos. ${total} lien${total > 1 ? 's' : ''}
+          <p>Ressources externes utiles pour réviser : archives de cours, fiches
+             S-ECN, chaînes YouTube et pages de liens des promos. ${total} lien${total > 1 ? 's' : ''}
              — tous s'ouvrent dans un nouvel onglet.</p>
         </div>
         ${LINK_GROUPS.map(renderGroup).join('')}
