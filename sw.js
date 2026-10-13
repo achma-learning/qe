@@ -3,13 +3,17 @@
  * Strategy (chosen for "stable & reliable", i.e. never serve a stuck old build):
  *   • Page navigations  -> network-first: always try the live version, fall back
  *     to cache only when offline. So a deploy shows up immediately when online.
- *   • Everything else (JS/CSS/data) -> stale-while-revalidate: instant from cache,
- *     refreshed in the background, so the next load is up to date.
+ *   • Everything else (JS/CSS/data) -> network-first too, with a short timeout:
+ *     a deploy's new app.js/data shows up on the very next load (stale-while-
+ *     revalidate showed the old build once, so a freshly added link "wasn't
+ *     there"). If the network is slow or offline, the cached copy is served
+ *     after NETWORK_TIMEOUT_MS and the fetch still refreshes the cache.
  *
  * Bump CACHE to force a clean slate on a breaking change.
  * Note: service workers only run over http(s); the file:// copy is already offline.
  */
-const CACHE = 'qe-v7';
+const CACHE = 'qe-v8';
+const NETWORK_TIMEOUT_MS = 3000;
 
 // Small app shell so the dashboard opens offline on a cold start. Paths are
 // relative to the SW's scope, so this works at a project subpath (/<repo>/).
@@ -79,7 +83,7 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Assets & data: stale-while-revalidate.
+  // Assets & data: network-first, falling back to cache when offline or slow.
   event.respondWith(
     caches.match(req).then((cached) => {
       const network = fetch(req)
@@ -89,9 +93,12 @@ self.addEventListener('fetch', (event) => {
             caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
           }
           return res;
-        })
-        .catch(() => cached);
-      return cached || network;
+        });
+      if (!cached) return network;
+      const timeout = new Promise((resolve) => setTimeout(() => resolve(cached), NETWORK_TIMEOUT_MS));
+      // A server error (or a 404 mid-deploy) must not beat a good cached copy.
+      const fresh = network.then((res) => (res && res.ok ? res : cached), () => cached);
+      return Promise.race([fresh, timeout]);
     })
   );
 });
