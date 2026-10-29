@@ -1,0 +1,3586 @@
+{
+ "module": "Pathologie respiratoire",
+ "q": {
+  "Juin 2025#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "Juin 2025#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "Juin 2025#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "Juin 2025#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "Juin 2025#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "Juin 2025#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "Juin 2025#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "Juin 2025#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "Juin 2025#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "Juin 2025#10": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "Juin 2025#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "Juin 2025#12": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "Juin 2025#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "Juin 2025#14": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "Juin 2025#15": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "Juin 2025#16": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "Juin 2025#17": {
+   "c": [
+    "Tuberculoses aiguës",
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Pneumonie caséeuse (tuberculose aiguë) vs pneumonie bactérienne"
+  },
+  "Juin 2025#18": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "Juin 2025#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "Juin 2025#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "Juin 2025#21": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "Juin 2025#22": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "Juin 2025#23": {
+   "c": [
+    "Tuberculose pulmonaire commune",
+    "Mycoses respiratoires (aspergillose)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hémoptysie sur séquelles de TB: rechute, DDB, aspergillome, cancer"
+  },
+  "Juin 2025#24": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "Juin 2025#25": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "Juin 2025#26": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "Juin 2025#27": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "Juin 2025#28": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diagnostic différentiel d'alvéolite lymphocytaire au LBA, cours PID"
+  },
+  "Juin 2025#29": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "Juin 2025#30": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "Juin 2025#31": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "Juin 2025#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "Juin 2025#33": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "Juin 2025#34": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "Juin 2025#35": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "Juin 2025#36": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "Juin 2025#37": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "Juin 2025#38": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "Juin 2025#39": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "Juin 2025#40": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "Juin 2025#41": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "Juin 2025#42": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "Juin 2025#43": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "Juin 2025#44": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "Juin 2025#45": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "Juin 2025#46": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "Juin 2025#47": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "Juin 2025#48": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "Juin 2025#49": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "Juin 2025#50": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2024#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2024#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2024#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2024#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2024#5": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2024#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2024#7": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2024#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2024#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2024#10": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2024#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2024#12": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2024#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2024#14": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2024#15": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2024#16": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2024#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2024#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2024#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2024#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2024#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2024#22": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2024#23": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2024#24": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2024#25": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2024#26": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2024#27": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2024#28": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2024#29": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2024#30": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2024#31": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2024#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2024#33": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2024#34": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2024#35": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2024#36": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2024#37": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2024#38": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2024#39": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2024#40": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2024#41": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2024#42": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2024#43": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2024#44": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "MAI 2024#45": {
+   "c": [
+    "Tuberculose pulmonaire commune",
+    "Mycoses respiratoires (aspergillose)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hémoptysie sur séquelles de TB: rechute, DDB, aspergillome, cancer"
+  },
+  "MAI 2024#46": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2024#47": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "MAI 2024#48": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2024#49": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2024#50": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUILLET 2024#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUILLET 2024#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUILLET 2024#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUILLET 2024#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUILLET 2024#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUILLET 2024#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUILLET 2024#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUILLET 2024#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUILLET 2024#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUILLET 2024#10": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUILLET 2024#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUILLET 2024#12": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUILLET 2024#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUILLET 2024#14": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "JUILLET 2024#15": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUILLET 2024#16": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUILLET 2024#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUILLET 2024#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUILLET 2024#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUILLET 2024#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUILLET 2024#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUILLET 2024#22": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUILLET 2024#23": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUILLET 2024#24": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUILLET 2024#25": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUILLET 2024#26": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUILLET 2024#27": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUILLET 2024#28": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUILLET 2024#29": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "JUILLET 2024#30": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#31": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#33": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#34": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#35": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUILLET 2024#36": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUILLET 2024#37": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUILLET 2024#38": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUILLET 2024#39": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUILLET 2024#40": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUILLET 2024#41": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "JUILLET 2024#42": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUILLET 2024#43": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUILLET 2024#44": {
+   "c": [
+    "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+   ]
+  },
+  "JUILLET 2024#45": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUILLET 2024#46": {
+   "c": [
+    "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+   ]
+  },
+  "JUILLET 2024#47": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUILLET 2024#48": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUILLET 2024#49": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "JUILLET 2024#50": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "SEPTEMBRE 2024#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "SEPTEMBRE 2024#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "SEPTEMBRE 2024#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "SEPTEMBRE 2024#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "SEPTEMBRE 2024#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "SEPTEMBRE 2024#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "SEPTEMBRE 2024#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "SEPTEMBRE 2024#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "SEPTEMBRE 2024#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "SEPTEMBRE 2024#10": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "SEPTEMBRE 2024#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "SEPTEMBRE 2024#12": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "SEPTEMBRE 2024#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "SEPTEMBRE 2024#14": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "SEPTEMBRE 2024#15": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "SEPTEMBRE 2024#16": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "SEPTEMBRE 2024#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "SEPTEMBRE 2024#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "SEPTEMBRE 2024#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "SEPTEMBRE 2024#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "SEPTEMBRE 2024#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "SEPTEMBRE 2024#22": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "VIH + syndrome interstitiel aigu = pneumocystose, not PID chronique"
+  },
+  "SEPTEMBRE 2024#23": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "SEPTEMBRE 2024#24": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "SEPTEMBRE 2024#25": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "SEPTEMBRE 2024#26": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "SEPTEMBRE 2024#27": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "SEPTEMBRE 2024#28": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "SEPTEMBRE 2024#29": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "SEPTEMBRE 2024#30": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "SEPTEMBRE 2024#31": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "SEPTEMBRE 2024#32": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "SEPTEMBRE 2024#33": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "SEPTEMBRE 2024#34": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "SEPTEMBRE 2024#35": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "SEPTEMBRE 2024#36": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "SEPTEMBRE 2024#37": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "SEPTEMBRE 2024#38": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "SEPTEMBRE 2024#39": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "SEPTEMBRE 2024#40": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "SEPTEMBRE 2024#41": {
+   "c": [
+    "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+   ]
+  },
+  "SEPTEMBRE 2024#42": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "SEPTEMBRE 2024#43": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "SEPTEMBRE 2024#44": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "SEPTEMBRE 2024#45": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "SEPTEMBRE 2024#46": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "SEPTEMBRE 2024#47": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "SEPTEMBRE 2024#48": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "SEPTEMBRE 2024#49": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "SEPTEMBRE 2024#50": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2023#1": {
+   "c": [
+    "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+   ]
+  },
+  "MAI 2023#2": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2023#3": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2023#4": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2023#5": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2023#6": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2023#7": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2023#8": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2023#9": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2023#10": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2023#11": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2023#12": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2023#13": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "MAI 2023#14": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2023#15": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "MAI 2023#16": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2023#17": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "MAI 2023#18": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2023#19": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2023#20": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2023#21": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2023#22": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "MAI 2023#23": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2023#24": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2023#25": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2023#26": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2023#27": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2023#28": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2023#29": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2023#30": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2023#31": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2023#32": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2023#33": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2023#34": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2023#35": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2023#36": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2023#37": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2023#38": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2023#39": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2023#40": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2023#41": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2023#42": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2023#43": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2023#44": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2023#45": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2023#46": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2023#47": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2023#48": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2023#49": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2023#50": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2023#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2023#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2023#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2023#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2023#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2023#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2023#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2023#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2023#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2023#10": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2023#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2023#12": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2023#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2023#14": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "JUIN 2023#15": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUIN 2023#16": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2023#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2023#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2023#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2023#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2023#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2023#22": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2023#23": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2023#24": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2023#25": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2023#26": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2023#27": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2023#28": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2023#29": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2023#30": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2023#31": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2023#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2023#34": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2023#35": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2023#36": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2023#37": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2023#38": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2023#39": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "JUIN 2023#40": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2023#41": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2023#42": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2023#43": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "JUIN 2023#44": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2023#45": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "JUIN 2023#46": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "JUIN 2023#47": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUIN 2023#48": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2023#49": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2023#50": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "MAI 2022#1": {
+   "c": [
+    "Tuberculose pulmonaire commune",
+    "Mycoses respiratoires (aspergillose)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hémoptysie sur séquelles de TB: rechute, DDB, aspergillome, cancer"
+  },
+  "MAI 2022#2": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2022#3": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2022#4": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2022#5": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2022#6": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2022#7": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2022#8": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2022#9": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2022#10": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2022#11": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)",
+    "Pathologie du tabac"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "PID liées au tabac"
+  },
+  "MAI 2022#12": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2022#13": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2022#14": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2022#15": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2022#16": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2022#17": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "MAI 2022#18": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2022#19": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2022#20": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2022#21": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "MAI 2022#22": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2022#23": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2022#24": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2022#25": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2022#26": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2022#27": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2022#28": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2022#29": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2022#30": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2022#31": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2022#32": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2022#33": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2022#34": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2022#35": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2022#36": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2022#37": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2022#38": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2022#39": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2022#40": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2022#41": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2022#42": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2022#43": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2022#44": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2022#45": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2022#46": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2022#47": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2022#48": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2022#49": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2022#50": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2021#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2021#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2021#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2021#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2021#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2021#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2021#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2021#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2021#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2021#10": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2021#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2021#12": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2021#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2021#14": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2021#15": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2021#16": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2021#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2021#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2021#19": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2021#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2021#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2021#22": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2021#23": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2021#24": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2021#25": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2021#26": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2021#27": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2021#28": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2021#29": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2021#30": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2021#31": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2021#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2021#33": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2021#34": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2021#35": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2021#36": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2021#37": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2021#38": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2021#39": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2021#40": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2021#41": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2021#42": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2021#43": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "MAI 2021#44": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2021#45": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2021#46": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2021#47": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2021#48": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2021#49": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2021#50": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2021#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2021#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2021#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2021#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2021#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2021#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2021#7": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUIN 2021#8": {
+   "c": [
+    "Tuberculoses aiguës"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pneumonie caséeuse est une tuberculose aiguë, pas commune"
+  },
+  "JUIN 2021#9": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2021#10": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2021#11": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "JUIN 2021#12": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2021#13": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2021#14": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2021#15": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2021#16": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2021#17": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2021#18": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2021#19": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2021#20": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2021#21": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2021#22": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2021#23": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2021#24": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2021#25": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2021#26": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2021#27": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2021#28": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2021#29": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2021#30": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2021#31": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2021#32": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUIN 2021#33": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2021#34": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "JUIN 2021#35": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "JUIN 2021#36": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2021#37": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2021#38": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2021#39": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "JUIN 2021#40": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "JUIN 2021#41": {
+   "c": [
+    "Hypertension pulmonaire (HTP)"
+   ]
+  },
+  "JUIN 2021#42": {
+   "c": [
+    "Hypertension pulmonaire (HTP)"
+   ]
+  },
+  "JUIN 2021#43": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2021#44": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2021#45": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2021#46": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2021#47": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2021#48": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2021#49": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2021#50": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2020#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2020#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2020#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2020#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2020#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2020#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2020#7": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2020#8": {
+   "c": [
+    "Tuberculoses aiguës"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pneumonie caséeuse = tuberculose aiguë, not commune"
+  },
+  "MAI 2020#9": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2020#10": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2020#11": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2020#12": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2020#13": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2020#14": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2020#15": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2020#16": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2020#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2020#18": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2020#19": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2020#20": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2020#21": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2020#22": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2020#23": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2020#24": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2020#25": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2020#26": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2020#27": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2020#28": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2020#29": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2020#30": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2020#31": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2020#32": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2020#33": {
+   "c": [
+    "Asthme"
+   ],
+   "case": "MAI 2020#33-37"
+  },
+  "MAI 2020#34": {
+   "c": [
+    "Asthme"
+   ],
+   "case": "MAI 2020#33-37"
+  },
+  "MAI 2020#35": {
+   "c": [
+    "Asthme"
+   ],
+   "case": "MAI 2020#33-37"
+  },
+  "MAI 2020#36": {
+   "c": [
+    "Asthme"
+   ],
+   "case": "MAI 2020#33-37"
+  },
+  "MAI 2020#37": {
+   "c": [
+    "Asthme"
+   ],
+   "case": "MAI 2020#33-37"
+  },
+  "MAI 2020#38": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2020#39": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2020#40": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2020#41": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2020#42": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2020#43": {
+   "c": [
+    "Tuberculose pulmonaire commune",
+    "Mycoses respiratoires (aspergillose)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hémoptysie sur séquelles de TB: rechute, DDB, aspergillome, cancer"
+  },
+  "MAI 2020#44": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2020#45": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2020#46": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2020#47": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2020#48": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2020#49": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2020#50": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2020#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2020#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2020#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2020#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2020#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2020#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2020#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2020#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2020#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2020#10": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2020#11": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2020#12": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2020#13": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2020#14": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "JUIN 2020#15": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUIN 2020#16": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2020#17": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2020#18": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2020#19": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2020#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2020#21": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2020#22": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2020#23": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2020#24": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2020#25": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2020#26": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2020#27": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2020#28": {
+   "c": [
+    "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+   ]
+  },
+  "JUIN 2020#29": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2020#30": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2020#31": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2020#32": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2020#33": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2020#34": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2020#35": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2020#36": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2020#37": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2020#38": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUIN 2020#39": {
+   "c": [
+    "Pneumoconioses"
+   ]
+  },
+  "JUIN 2020#40": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2020#41": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2020#42": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2020#43": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2020#44": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "JUIN 2020#45": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "JUIN 2020#46": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "JUIN 2020#47": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2020#48": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2020#49": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "JUIN 2020#50": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2019#1": {
+   "c": [
+    "Tuberculose pulmonaire commune",
+    "Mycoses respiratoires (aspergillose)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hémoptysie sur séquelles de TB: rechute, DDB, aspergillome, cancer"
+  },
+  "MAI 2019#2": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#3": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#4": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#5": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#6": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#7": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2019#8": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2019#9": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2019#10": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2019#11": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2019#12": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2019#13": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2019#14": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2019#15": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2019#16": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2019#17": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2019#18": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2019#19": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2019#20": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "MAI 2019#21": {
+   "c": [
+    "Pathologie du tabac"
+   ]
+  },
+  "MAI 2019#22": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2019#23": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2019#24": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2019#25": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2019#26": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2019#27": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2019#28": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2019#29": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2019#30": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2019#31": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2019#32": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2019#33": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2019#34": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2019#35": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2019#36": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2019#37": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2019#38": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2019#39": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2019#40": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2019#41": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2019#42": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2019#43": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2019#44": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2019#45": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2019#46": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2019#47": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2019#48": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2019#49": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2019#50": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2019#1": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2019#2": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2019#3": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2019#4": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "JUIN 2019#5": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2019#6": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "JUIN 2019#7": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2019#8": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2019#9": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "JUIN 2019#10": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2019#11": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "JUIN 2019#12": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2019#13": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "JUIN 2019#14": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2019#15": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2019#16": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "JUIN 2019#17": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "JUIN 2019#18": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2019#19": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "JUIN 2019#20": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "JUIN 2019#21": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2019#22": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2019#23": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "JUIN 2019#24": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2019#25": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2019#26": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2019#27": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "JUIN 2019#28": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2019#29": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2019#30": {
+   "c": [
+    "BPCO"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Définition de la bronchite chronique relève de la BPCO, pas des IRABC"
+  },
+  "JUIN 2019#31": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "JUIN 2019#32": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2019#33": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2019#34": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2019#35": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "JUIN 2019#36": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2019#37": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2019#38": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2019#39": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "JUIN 2019#40": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2019#41": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2019#42": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "JUIN 2019#43": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "JUIN 2019#44": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2019#45": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "JUIN 2019#46": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "JUIN 2019#47": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "JUIN 2019#48": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUIN 2019#49": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "JUIN 2019#50": {
+   "c": [
+    "La sarcoïdose"
+   ]
+  },
+  "MAI 2018#1": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2018#2": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2018#3": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2018#4": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2018#5": {
+   "c": [
+    "Pneumopathies interstitielles diffuses (PID)"
+   ]
+  },
+  "MAI 2018#6": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2018#7": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2018#8": {
+   "c": [
+    "Asthme"
+   ]
+  },
+  "MAI 2018#9": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2018#10": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2018#11": {
+   "c": [
+    "BPCO"
+   ]
+  },
+  "MAI 2018#12": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2018#13": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2018#14": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2018#15": {
+   "c": [
+    "Cancer bronchique"
+   ]
+  },
+  "MAI 2018#16": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2018#17": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2018#18": {
+   "c": [
+    "Infections respiratoires au cours du VIH"
+   ]
+  },
+  "MAI 2018#19": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2018#20": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2018#21": {
+   "c": [
+    "Les infections respiratoires basses communautaires (IRABC)"
+   ]
+  },
+  "MAI 2018#22": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2018#23": {
+   "c": [
+    "Syndrome d'apnée obstructive du sommeil"
+   ]
+  },
+  "MAI 2018#24": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "MAI 2018#25": {
+   "c": [
+    "Mycoses respiratoires (aspergillose)"
+   ]
+  },
+  "MAI 2018#26": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2018#27": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2018#28": {
+   "c": [
+    "Abcès pulmonaire"
+   ]
+  },
+  "MAI 2018#29": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2018#30": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2018#31": {
+   "c": [
+    "Dilatation des bronches (DDB)"
+   ]
+  },
+  "MAI 2018#32": {
+   "c": [
+    "Tuberculose pulmonaire commune"
+   ]
+  },
+  "MAI 2018#33": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2018#34": {
+   "c": [
+    "Primo-infection tuberculeuse"
+   ]
+  },
+  "MAI 2018#35": {
+   "c": [
+    "Tuberculoses aiguës"
+   ]
+  },
+  "MAI 2018#36": {
+   "c": [
+    "Tumeurs médiastinales"
+   ]
+  },
+  "MAI 2018#37": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2018#38": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2018#39": {
+   "c": [
+    "Kyste hydatique pulmonaire (KHP)"
+   ]
+  },
+  "MAI 2018#40": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2018#41": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2018#42": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2018#43": {
+   "c": [
+    "Les pleurésies"
+   ]
+  },
+  "MAI 2018#44": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2018#45": {
+   "c": [
+    "Insuffisance respiratoire aiguë"
+   ]
+  },
+  "MAI 2018#46": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2018#47": {
+   "c": [
+    "Les traumatismes thoraciques"
+   ]
+  },
+  "MAI 2018#48": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2018#49": {
+   "c": [
+    "Pneumothorax"
+   ]
+  },
+  "MAI 2018#50": {
+   "c": [
+    "Pneumothorax"
+   ]
+  }
+ }
+}
