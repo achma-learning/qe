@@ -12,7 +12,7 @@
  * Bump CACHE to force a clean slate on a breaking change.
  * Note: service workers only run over http(s); the file:// copy is already offline.
  */
-const CACHE = 'qe-v8';
+const CACHE = 'qe-v9';
 const NETWORK_TIMEOUT_MS = 3000;
 
 // Small app shell so the dashboard opens offline on a cold start. Paths are
@@ -31,6 +31,7 @@ const SHELL = [
   './assets/style.css',
   './data/_counts.js',
   './data/_topics.js',
+  './data/_lessons.js',
   './data/liste%20cours/_curriculum.js',
   './qe-analysis/_analysis.js',
   './manifest.webmanifest',

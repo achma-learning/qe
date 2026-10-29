@@ -36,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
 
     // On a phone screen the topbar/sidebar chrome eats a lot of the viewport,
     // so the app defaults to the site's own "focus mode" (Z / toggleFocus())
-    // here — hides the topbar/sidebar, widens the question pane. This is
+    // there — hides the topbar/sidebar, widens the question pane. Tablets
+    // (smallest width >= 600dp) have room for the sidebar and keep the normal
+    // layout (see seedJs() below). This is
     // Android-only: seeded by prepending one line to assets/app.js as it's
     // served (see shouldInterceptRequest below), not by forking app.js, so
     // `android/README.md`'s plain `cp assets/app.js ...` sync step still
@@ -47,13 +49,27 @@ public class MainActivity extends AppCompatActivity {
             "try{if(localStorage.getItem('qe:focusMode')===null){"
             + "localStorage.setItem('qe:focusMode','true');}}catch(e){}\n";
 
+    // Back button: close an open overlay (lesson filter, settings, palette…)
+    // before navigating back a page. Returns 'true' if it closed one.
+    private static final String CLOSE_OVERLAY_JS =
+            "(function(){var o=document.querySelectorAll('.overlay');"
+            + "if(!o.length)return false;o.forEach(function(x){x.remove();});return true;})()";
+
     private WebView webView;
+
+    /** Phones get focus mode by default; tablets keep the sidebar layout. */
+    private String seedJs() {
+        boolean tablet = getResources().getConfiguration().smallestScreenWidthDp >= 600;
+        return tablet ? "" : SEED_DEFAULT_FOCUS_MODE_JS;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         webView = new WebView(this);
+        // Same as the site's dark --bg, so no white flash before the first paint.
+        webView.setBackgroundColor(0xFF0B1020);
         setContentView(webView);
 
         WebSettings settings = webView.getSettings();
@@ -95,10 +111,12 @@ public class MainActivity extends AppCompatActivity {
                 if (path == null) return null;
 
                 if (path.endsWith("/assets/app.js")) {
+                    String seed = seedJs();
+                    if (seed.isEmpty()) return null; // tablet: serve app.js untouched
                     try {
                         InputStream original = getAssets().open("assets/app.js");
                         InputStream seeded = new SequenceInputStream(
-                                new ByteArrayInputStream(SEED_DEFAULT_FOCUS_MODE_JS.getBytes(StandardCharsets.UTF_8)),
+                                new ByteArrayInputStream(seed.getBytes(StandardCharsets.UTF_8)),
                                 original);
                         return new WebResourceResponse("application/javascript", "UTF-8", seeded);
                     } catch (IOException e) {
@@ -132,11 +150,16 @@ public class MainActivity extends AppCompatActivity {
         getOnBackPressedDispatcher().addCallback(this, new OnBackPressedCallback(true) {
             @Override
             public void handleOnBackPressed() {
-                if (webView.canGoBack()) {
-                    webView.goBack();
-                } else {
-                    moveTaskToBack(true);
-                }
+                // An open panel (filter, settings, palette, help…) closes first,
+                // like a dialog; only then does Back leave the page.
+                webView.evaluateJavascript(CLOSE_OVERLAY_JS, closed -> {
+                    if ("true".equals(closed)) return;
+                    if (webView.canGoBack()) {
+                        webView.goBack();
+                    } else {
+                        moveTaskToBack(true);
+                    }
+                });
             }
         });
     }

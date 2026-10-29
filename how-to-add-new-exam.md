@@ -175,7 +175,24 @@ Refreshing is required: the site loads the pre-baked `data/<module>.data.js` (so
 Adding an exam to an existing subject is the common case (above). To add a *new subject* (a new `.txt`), there are three extra wiring steps:
 
 1. Create `data/sX/Your Subject.txt` with your exams (same format).
-2. Add one line to `assets/modules.js` — `{ sem, slug, name, file }` — matching the pattern of the entries already there.
+2. Add one line to `assets/modules.js` — `{ sem, slug, name, file, cur }` — matching the pattern of the entries already there. `cur` is the module's name exactly as it appears in the curriculum (`data/liste cours/curriculum_FMPM_S1-S10.txt`); it powers the "filter by lesson" (🏷 / `C`) inside the module.
 3. Create `modules/<slug>.html` by copying an existing one and changing the title, the `data-module="<slug>"`, and the `data/<slug>.data.js` path.
 
-Then run `node tools/check-data.js` and `node tools/build-data.js` as usual. (More detail in [`CONTEXT.md`](./CONTEXT.md).)
+Then run `node tools/check-data.js`, `node tools/build-data.js` and `node tools/build-lessons.js` as usual. (More detail in [`CONTEXT.md`](./CONTEXT.md).)
+
+## Lesson filter: when a topic lands in "Autres thèmes"
+
+Inside a module, `C` (or the 🏷 button) filters questions by **curriculum lesson**. `tools/build-lessons.js` maps each question's topic (the text after `Q<n> - `) onto the lessons of that module in the curriculum — by fuzzy name match, plus abbreviations ("RAA", "mvte"). A topic it can't place still shows up, under "Autres thèmes".
+
+To fix one, add it to `data/liste cours/lesson-aliases.json` under the module's slug:
+
+```json
+"s6-cardio-ccv": {
+  "Rao": "Rétrécissement aortique",
+  "Pathologies traumatiques": ["Traumatismes du rachis cervical", "Traumatismes crânio-encéphaliques"],
+  "Neurochirurgie": "Neurochirurgie",
+  "toxico": null
+}
+```
+
+A target is a lesson name, a sub-module name (= the whole group), a list, or `null` (keep it in "Autres thèmes"). Then `node tools/build-lessons.js --report` shows every topic and where it went. CI runs the build on push to `main`.

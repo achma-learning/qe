@@ -31,9 +31,18 @@ S1
 - A line starting with `#` is treated as professor/metadata and is **never
   shown** — keep professors/authors/volumes out of the displayed content.
 
+## Lesson filter (`lesson-aliases.json` → `data/_lessons.js`)
+The module viewer's "Filtrer par cours" (🏷 button / `C` key) uses these same
+files: `tools/build-lessons.js` maps every question topic onto a lesson of the
+module named by `cur` in `assets/modules.js`, and writes `data/_lessons.js`.
+`lesson-aliases.json` holds the hand-made fixes (abbreviations, catch-all
+topics). Run `node tools/build-lessons.js --report` to see every topic and
+where it was mapped.
+
 ## Rebuild after editing
 ```sh
 node tools/build-curriculum.js   # bakes *.txt → _curriculum.js
+node tools/build-lessons.js      # re-maps question topics → lessons (data/_lessons.js)
 ```
 Commit the regenerated `_curriculum.js` (offline mode reads it). CI also runs
 this on push to `main`, so editing a `.txt` on github.com publishes itself.

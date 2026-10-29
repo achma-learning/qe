@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The site's dark background (assets/style.css, var bg), so the window, status bar and
+         nav bar blend with the page instead of flashing white at launch. -->
+    <color name="qe_bg">#0B1020</color>
+</resources>
