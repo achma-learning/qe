@@ -33,6 +33,11 @@ No environment variables, no API keys, no accounts. The app never touches the ne
 
 Prefer a real app? **[⬇ Download the APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk)** — the same site wrapped in an offline WebView (package `online.qe.mcqbank`, no internet permission). Works on phones (opens in focus mode) and tablets (keeps the question sidebar). Allow "install unknown apps" for whatever opens the download, then open it.
 
+In the app:
+- **Volume buttons turn questions**, like pages in a reader: tap your answers, press **▼** to see the correction, **▼** again for the next question, **▲** to go back. No need to touch Check/Next at all. (Settings → "Volume buttons" to switch it off.)
+- **⬇ Mettre à jour l'app** on the dashboard (and in Settings) downloads the newest version in your browser; open the file and it updates in place, progress kept.
+- Buttons are laid out against mis-taps: Prev / Check / Next on their own big row, everything else further down, and Reset needs two taps.
+
 > Coming from version 1.2 or older? Uninstall it first — older builds were signed with a different key, and Android refuses the update. Uninstalling clears your saved progress. From 1.3 on, updates install over the old version.
 
 Source and build steps: [`android/README.md`](./android/README.md).
@@ -44,7 +49,7 @@ Open `index.html` → the **dashboard** lists every module by semester. Type to 
 - `1`–`5` — toggle answer options · `Space` / `Enter` — check, press again for the next one
 - `←` `→` — previous / next question
 - `C` — **filter by lesson**: tick one or more lessons of the curriculum (or a whole sub-module) and drill only those. Each lesson shows how many questions it has and your accuracy, so weak lessons jump out. `Shift`+`C` clears it. On a phone, tap 🏷.
-- `Z` — focus mode (everything but the question vanishes) · `A` — auto-advance. Both also have buttons under the question.
+- `Z` — focus mode (everything but the question vanishes) · `A` — auto-advance. Both also have buttons under the question (on phones and tablets, Focus lives in ⚙️ Settings instead, so it can't be hit by mistake).
 - `W` (dashboard) — weakness analysis: accuracy per topic, weakest first
 
 The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that jumps to any module or runs any command. `?` shows the full key map.
@@ -67,7 +72,7 @@ Push to `main` (even an edit straight on github.com) and a GitHub Action rebuild
 
 ## What's new
 
-**2026-10-29** — filter questions by curriculum lesson inside a module (`C` / 🏷), Focus + Auto buttons, tablet/phone layout fixes, and Android app 1.3. [Full changelog →](./CHANGELOG.md)
+**Android app 1.4** — volume buttons move between questions, an in-app update button, and a touch layout that keeps your thumb off the wrong button. (Earlier the same day: filter questions by curriculum lesson with `C` / 🏷.) [Full changelog →](./CHANGELOG.md)
 
 ## Why I built this
 
@@ -81,5 +86,6 @@ No `LICENSE` file — this is a personal study project, so treat it as all-right
 
 - [`how-to-add-new-exam.md`](./how-to-add-new-exam.md) — the `.txt` format and its gotchas
 - [`CHANGELOG.md`](./CHANGELOG.md) — what shipped when
+- [`RELEASE.md`](./RELEASE.md) — every APK you can download, and how to roll back
 - [`CONTEXT.md`](./CONTEXT.md) — for AI assistants joining the project
 - [`docs/UX-AUDIT.md`](./docs/UX-AUDIT.md) — design notes and the roadmap

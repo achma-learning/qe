@@ -9,18 +9,58 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - `(a3f291)` is a short SHA — `git show a3f291` to see the diff.
 - Entries explain symptom + cause, not just "fixed."
 - Last known-good commit: search for `✅`. The first hit from the top is the newest version or change that was checked and worked.
+- Android versions and website dates are interleaved newest first. _Correction 2026-10-29: the first rebuild grouped all Android versions on top; reordered by date._
 - Noise skipped: the CI bot's `Rebuild baked data + analysis manifest [skip ci]` commits, `Stamp CONTEXT.md last-synced SHA` commits, merge commits, and the `Create a` / `Delete data/sX/a` placeholder commits used to make folders on github.com.
 
 ---
 
 ## [Unreleased]
 
-### Added
-- `CHANGELOG.md` (this file, full rebuild from the first commit), a rewritten `CONTEXT.md`, a refreshed `README.md` with a real screenshot, and `RELEASE.md`. `(5cfb37a, 62786d7, b9142bc)`
+_Nothing yet._
 
 ---
 
-## [android v1.3] — 2026-10-29
+## [android v1.4] — 2026-10-29
+
+### Added
+- **Volume buttons turn questions** like pages in a reader (ReadEra-style): ▼ first reveals the correction of an answered question, then goes to the next; ▲ goes back. Question pages only, key repeats ignored, switch in Settings. `(bd3f737)`
+- **⬇ Mettre à jour l'app** (dashboard, Settings, command palette): opens the newest release APK in the browser; opening it updates in place and keeps progress. Still no INTERNET permission. `(bd3f737)`
+- Settings: 🎯 Focus mode and 📱 Volume buttons switches, installed version shown. `(bd3f737)`
+- Bundles the website as of `bd3f737` (touch layout, exam timer fix — see the website section below). `(bd3f737)`
+
+### Changed
+- Touch layout: Prev / Check / Next on their own big row; Reset, Auto, 🏷… in a smaller row well below, out of a thumb's way. `(bd3f737)`
+- Reset / Clear need a second tap within 1.5 s on touch screens — one mis-tap next to Next used to wipe the answer. `(bd3f737)`
+
+### Removed
+- 🎯 Focus button in the question controls on touch screens (added in 1.3) — it got hit by mistake while going to the next question. Leave focus mode with the floating ✕ Focus; turn it on in Settings. `(bd3f737)`
+
+### Fixed
+- Tapping a web link with no browser installed could crash the app — `ActivityNotFoundException` not caught; now a toast. `(bd3f737)`
+
+---
+
+## 2026-10-29 — website: touch layout + exam timer
+
+### Changed
+- `html.touch-ui` (phones, tablets, the app): big Prev / Check / Next row apart from secondary actions, no 🎯 Focus button, two-tap Reset/Clear. Mouse/desktop layout unchanged. `(bd3f737)`
+- Settings: 🎯 Focus mode switch (also `Z`). `(bd3f737)`
+
+### Fixed
+- Exam banner showed `29887968:00` (minutes since 1970) after reopening an exam from its link (reload, Back) — `examStartT` never set on the `?exam=N` path. Grading was unaffected (uses `startedAt`). `(bd3f737)`
+- Floating ✕ Focus covered the topic tag / dashboard intro on phones — no room reserved for it. `(bd3f737)`
+
+---
+
+## 2026-10-29 — docs: CONTEXT, CHANGELOG, README, RELEASE
+
+### Added
+- `CHANGELOG.md` (this file, full rebuild from the first commit), a rewritten `CONTEXT.md`, a refreshed `README.md` with a real screenshot, and `RELEASE.md`. `(5cfb37a, 62786d7, b9142bc)`
+- _Correction 2026-10-29: this entry sat under `[Unreleased]`; docs ship outside every version, so it moved here._
+
+---
+
+## [android v1.3] — 2026-10-29 — tag android-v1.3.0 (c98b689) ✅ known good
 
 ### Added
 - 🎯 Focus and ▶ Auto buttons in the question controls; both stay visible in focus mode, so a phone needs no keyboard. `(132ab9a)`
@@ -35,31 +75,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 - App's Data page was missing links added since 1.2 — the bundled `data.html` copy was never re-synced. `(132ab9a)`
-
----
-
-## [android v1.2] — 2026-09-07 — tag android-v20260909-100947 (c9591ee) ✅ known good
-
-### Added
-- High-yield PDFs/`.docx` bundled in the APK and opened in the device's viewer via `FileProvider` (a WebView can't render them). `(16572ce)`
-
-### Fixed
-- High-yield "Ouvrir ↗" dead-ended with `net::ERR_FILE_NOT_FOUND` and "Aperçu" showed a blank pane in the app — WebView has no PDF/Office viewer. "Aperçu" now shows an explanation page. `(16572ce)`
-
----
-
-## [android v1.1] — 2026-09-06 — tag android-v20260906-195533 (26c25a5) ✅ known good
-
-### Changed
-- Focus mode on by default at first launch to use the phone screen; seeded by injecting one line into `app.js` as it's served, so the bundled copy stays an unmodified `cp`. `(769f3d4)`
-
----
-
-## [android v1.0] — 2026-09-06 — tag android-v20260906-171508 (62fcfdf) ✅ known good
-
-### Added
-- Android app (`online.qe.mcqbank`): offline WebView wrapper around a bundled copy of the site, no network permission, external links open in the browser. `(bcb8124)`
-- Manual GitHub workflow publishing `android/dist/qe-bank-debug.apk` as a Release (`release-apk.yml`); README download link via `releases/latest/download/qe-bank-debug.apk`. `(798c748, da0e995)`
 
 ---
 
@@ -91,6 +106,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ### Fixed
 - New links only appeared on the second reload after a deploy — stale-while-revalidate served the previous `app.js` once. `(9838f83)`
+
+---
+
+## [android v1.2] — 2026-09-07 — tag android-v20260909-100947 (c9591ee) ✅ known good
+
+### Added
+- High-yield PDFs/`.docx` bundled in the APK and opened in the device's viewer via `FileProvider` (a WebView can't render them). `(16572ce)`
+
+### Fixed
+- High-yield "Ouvrir ↗" dead-ended with `net::ERR_FILE_NOT_FOUND` and "Aperçu" showed a blank pane in the app — WebView has no PDF/Office viewer. "Aperçu" now shows an explanation page. `(16572ce)`
+
+---
+
+## [android v1.1] — 2026-09-06 — tag android-v20260906-195533 (26c25a5) ✅ known good
+
+### Changed
+- Focus mode on by default at first launch to use the phone screen; seeded by injecting one line into `app.js` as it's served, so the bundled copy stays an unmodified `cp`. `(769f3d4)`
+
+---
+
+## [android v1.0] — 2026-09-06 — tag android-v20260906-171508 (62fcfdf) ✅ known good
+
+### Added
+- Android app (`online.qe.mcqbank`): offline WebView wrapper around a bundled copy of the site, no network permission, external links open in the browser. `(bcb8124)`
+- Manual GitHub workflow publishing `android/dist/qe-bank-debug.apk` as a Release (`release-apk.yml`); README download link via `releases/latest/download/qe-bank-debug.apk`. `(798c748, da0e995)`
 
 ---
 
@@ -207,7 +247,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-[Unreleased]: https://github.com/achma-learning/qe/compare/android-v20260909-100947...HEAD
+[Unreleased]: https://github.com/achma-learning/qe/compare/android-v1.3.0...HEAD
+[android v1.3]: https://github.com/achma-learning/qe/compare/android-v20260909-100947...android-v1.3.0
 [android v1.2]: https://github.com/achma-learning/qe/compare/android-v20260906-195533...android-v20260909-100947
 [android v1.1]: https://github.com/achma-learning/qe/compare/android-v20260906-171508...android-v20260906-195533
 [android v1.0]: https://github.com/achma-learning/qe/releases/tag/android-v20260906-171508
