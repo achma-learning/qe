@@ -196,3 +196,5 @@ To fix one, add it to `data/liste cours/lesson-aliases.json` under the module's 
 ```
 
 A target is a lesson name, a sub-module name (= the whole group), a list, or `null` (keep it in "Autres thèmes"). Then `node tools/build-lessons.js --report` shows every topic and where it went. CI runs the build on push to `main`.
+
+If the module is classified question by question (`data/liste cours/classification/<slug>.json`), the new exam's questions fall back to the topic mapping until they're classified too. `node tools/classify-check.js <slug>` lists the missing ones. `node tools/classify-prep.js <slug> --only-missing` makes worksheets for just those questions. See `data/liste cours/README.md`.

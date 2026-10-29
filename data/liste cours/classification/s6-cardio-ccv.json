@@ -1,0 +1,4065 @@
+{
+ "module": "Pathologie cardiovasculaire",
+ "q": {
+  "Ratt 2025#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Ratt 2025#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Ratt 2025#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Ratt 2025#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Ratt 2025#5": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Ratt 2025#6": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Ratt 2025#7": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Ratt 2025#8": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Ratt 2025#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signe de Homans = TVP, not AOMI"
+  },
+  "Ratt 2025#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Ratt 2025#11": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Ratt 2025#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Ratt 2025#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Ratt 2025#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Ratt 2025#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Ratt 2025#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Ratt 2025#17": {
+   "c": [
+    "SCA ST-"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Stem is SCA sans sus-décalage ST à haut risque"
+  },
+  "Ratt 2025#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Ratt 2025#19": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Ratt 2025#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Ratt 2025#21": {
+   "c": [
+    "La tamponnade"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Treatment of tamponnade en état de choc"
+  },
+  "Ratt 2025#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Ratt 2025#23": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Ratt 2025#23-25",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ECG diagnosis of FA, not heart failure"
+  },
+  "Ratt 2025#24": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Ratt 2025#23-25",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "CHA2DS2-VA score in FA"
+  },
+  "Ratt 2025#25": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Ratt 2025#23-25",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anticoagulation of FA"
+  },
+  "Ratt 2025#26": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Ratt 2025#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Ratt 2025#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Ratt 2025#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Ratt 2025#30": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Answer hinges on CV risk level of diabetic hypertensive"
+  },
+  "Ratt 2025#31": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Ratt 2025#32": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Ratt 2025#33": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Ratt 2025#34": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Ratt 2025#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Ratt 2025#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Ratt 2025#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Ratt 2025#38": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Ratt 2025#39": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Ratt 2025#40": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Ratt 2025#41": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Ratt 2025#42": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Ratt 2025#43": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Ratt 2025#44": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Ratt 2025#45": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Ratt 2025#46": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Ratt 2025#47": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Ratt 2025#48": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Ratt 2025#48-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Choice of valve prosthesis, not syncope"
+  },
+  "Ratt 2025#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Ratt 2025#48-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Post-op follow-up of valve prosthesis"
+  },
+  "Ratt 2025#50": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Juin 2025#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2025#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2025#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2025#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Likely EI risk class (rheumatic valve = intermediate risk)"
+  },
+  "Juin 2025#5": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2025#6": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Juin 2025#7": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 2025#8": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Juin 2025#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2025#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2025#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2025#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2025#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2025#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2025#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Juin 2025#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Juin 2025#17": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2025#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2025#19": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2025#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2025#21": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Juin 2025#22": {
+   "c": [
+    "La péricardite chronique constrictive"
+   ]
+  },
+  "Juin 2025#23": {
+   "c": [
+    "Syncope"
+   ]
+  },
+  "Juin 2025#24": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Juin 2025#24-25"
+  },
+  "Juin 2025#25": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Juin 2025#24-25"
+  },
+  "Juin 2025#26": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2025#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2025#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2025#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2025#30": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2025#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2025#32": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2025#33": {
+   "c": [
+    "HTA"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ECG LVH (Sokolow) in hypertensive patient"
+  },
+  "Juin 2025#34": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2025#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2025#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2025#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2025#38": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2025#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2025#40": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2025#41": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2025#42": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2025#43": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Juin 2025#44": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Juin 2025#45": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2025#46": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2025#47": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2025#48": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 2025#49": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Juin 2025#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2024#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2024#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2024#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2024#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2024#8": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2024#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2024#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Mai 2024#17": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Mai 2024#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Mai 2024#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Mai 2024#21": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Syncope"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Mai 2024#24-25"
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Mai 2024#24-25"
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2024#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Polyvascular screening (AOMI) in coronary patient"
+  },
+  "Mai 2024#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "HTA as quantitative CV risk factor"
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#42": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#44": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2024#45": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2024#47": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2024#48": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2024#49": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2024#50": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Syncope"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Juin 2024#24-25"
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Juin 2024#24-25"
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anticoagulation AVK dans la FA: cours FA plus spécifique"
+  },
+  "Juin 2024#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2024#44": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2024#45": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 2024#47": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Syncope"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Novembre 2024#24-25"
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Novembre 2024#24-25"
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "FA rapide mal tolérée: cours FA plus spécifique"
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Novembre 2024#45-47"
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Novembre 2024#45-47"
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Novembre 2024#45-47"
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques d'endocardite (nodules de Roth), pas IM"
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Décembre 2024#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Décembre 2024#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Décembre 2024#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Décembre 2024#15": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Syncope"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Décembre 2024#24-25"
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ],
+   "case": "Décembre 2024#24-25"
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "FA rapide mal tolérée: cours FA plus spécifique"
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "HTA"
+   ],
+   "conf": "low",
+   "why": "Hypotension orthostatique: HTA ou Syncope"
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Insuffisance cardiaque"
+   ],
+   "case": "Décembre 2024#34-36"
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ],
+   "case": "Décembre 2024#34-36"
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ],
+   "case": "Décembre 2024#34-36"
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Décembre 2024#45-47"
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Décembre 2024#45-47"
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "Dissections de l'aorte"
+   ],
+   "case": "Décembre 2024#45-47"
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2023#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2023#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Rétrécissement mitral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Triade de Durozier = rétrécissement mitral (answer D), not IA"
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Mai 2023#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2023#11": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2023#20-22"
+  },
+  "Mai 2023#21": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2023#20-22"
+  },
+  "Mai 2023#22": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2023#20-22"
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2023#23-24"
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2023#23-24"
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Stratification du risque CV (coronarien = très élevé)"
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Nature des facteurs de risque CV, not HTA itself"
+  },
+  "Mai 2023#33": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2023#38": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2023#40": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2023#43": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Mai 2023#44": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2023#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Mai 2023#49-50"
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Mai 2023#49-50"
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "La tamponnade"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques de tamponnade, not péricardite aiguë"
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 2023#17-18"
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 2023#17-18"
+  },
+  "Juin 2023#19": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "SCA ST-"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "HTA"
+   ],
+   "case": "Juin 2023#27-28"
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "case": "Juin 2023#27-28",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Follow-up tests risk stratification (diabète + protéinurie)"
+  },
+  "Juin 2023#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Nature des facteurs de risque CV"
+  },
+  "Juin 2023#33": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2023#40": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2023#46": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Juin 2023#49-50"
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Juin 2023#49-50"
+  },
+  "Mai 2022#1": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2022#2": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2022#3": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2022#4": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Mai 2022#10": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2022#11": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2022#12": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2022#13": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2022#16": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Malaise anoxique de la tétralogie de Fallot, not syncope"
+  },
+  "Mai 2022#17": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#18": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#19": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#20": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 2022#20-21"
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 2022#20-21"
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2022#22-24"
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2022#22-24"
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2022#22-24"
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2022#25-26"
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2022#25-26"
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Mai 2022#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2022#30": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2022#31": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Stratification du risque CV chez le coronarien"
+  },
+  "Mai 2022#33": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Nature des facteurs de risque CV"
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2022#36": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2022#38": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2022#39": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2022#41": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "conf": "low",
+   "why": "Sténoses carotidiennes: no dedicated cours, athérosclérose closest"
+  },
+  "Mai 2022#42": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2022#45": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Mai 2022#46": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Mai 2022#47": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2022#48": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2022#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2022#50": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#3": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#4": {
+   "c": [
+    "La péricardite chronique constrictive"
+   ]
+  },
+  "Mai 2021#5": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Plaque instability factors = athérosclérose physiopathology, not SCA ST- itself"
+  },
+  "Mai 2021#6": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Mai 2021#7": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2021#7-8"
+  },
+  "Mai 2021#8": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2021#7-8"
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Mai 2021#11": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 2021#11-12"
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 2021#11-12"
+  },
+  "Mai 2021#13": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2021#13-14"
+  },
+  "Mai 2021#14": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2021#13-14"
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2021#18": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2021#19": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2021#20": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 2021#24": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2021#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2021#30": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2021#31": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2021#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "CV risk stratification (coronarien = très élevé), not athérosclérose"
+  },
+  "Mai 2021#33": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Classification of risk factors (modifiable), CV risk course"
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2021#36": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2021#39": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Mai 2021#40": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Mai 2021#41": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2021#45": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2021#46": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ischémie critique (douleur >15 j) = chronic AOMI stage, not acute"
+  },
+  "Mai 2021#47": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Mai 2021#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Juin 2021#1-2"
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Juin 2021#1-2"
+  },
+  "Juin 2021#3": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Juin 2021#3-5"
+  },
+  "Juin 2021#4": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Juin 2021#3-5"
+  },
+  "Juin 2021#5": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Juin 2021#3-5"
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Screening subclinical athérosclérose (score calcique), not angor"
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Plaque rupture factors = athérosclérose physiopathology"
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 2021#13-14"
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 2021#13-14"
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2021#18": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2021#19": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2021#29": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2021#30": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Classification of risk factors (majeur), CV risk course"
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 2021#36": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2021#39": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2021#40": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Juin 2021#46": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Juin 2021#47": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2020#1": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2020#2": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2020#3": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 2020#4": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Mai 2020#5": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2020#6": {
+   "c": [
+    "HTA"
+   ],
+   "case": "Mai 2020#6-7"
+  },
+  "Mai 2020#7": {
+   "c": [
+    "HTA"
+   ],
+   "case": "Mai 2020#6-7"
+  },
+  "Mai 2020#8": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2020#9": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Mai 2020#10": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2020#11": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Mai 2020#12": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2020#13": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Mai 2020#14": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 2020#15": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2020#15-16"
+  },
+  "Mai 2020#16": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Mai 2020#15-16"
+  },
+  "Mai 2020#17": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 2020#17-18",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Treatment of péricardite aiguë (aspirine), tagged SCA ST+"
+  },
+  "Mai 2020#18": {
+   "c": [
+    "La tamponnade"
+   ],
+   "case": "Mai 2020#17-18",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Tamponnade complicating the péricardite: drainage péricardique"
+  },
+  "Mai 2020#19": {
+   "c": [
+    "La péricardite chronique constrictive"
+   ]
+  },
+  "Mai 2020#20": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Mai 2020#21": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Mai 2020#22": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Mai 2020#23": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2020#23-24"
+  },
+  "Mai 2020#24": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Mai 2020#23-24"
+  },
+  "Mai 2020#25": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2020#26": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 2020#27": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2020#28": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 2020#29": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2020#30": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 2020#31": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 2020#32": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Mai 2020#33": {
+   "c": [
+    "Rétrécissement mitral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "OG dilatation in RM → thrombus and FA; RM complications, not MVTE"
+  },
+  "Mai 2020#34": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2020#35": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 2020#36": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2020#37": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2020#38": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2020#39": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2020#40": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 2020#41": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Mai 2020#42": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2020#43": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 2020#44": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2020#45": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 2020#46": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 2020#47": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Mai 2020#48": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2020#49": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 2020#50": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 2020#1": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "case": "Juin 2020#1-4"
+  },
+  "Juin 2020#2": {
+   "c": [
+    "Risque cardiovasculaire",
+    "HTA"
+   ],
+   "case": "Juin 2020#1-4",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Indication of antihypertensive treatment driven by CV risk level"
+  },
+  "Juin 2020#3": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ],
+   "case": "Juin 2020#1-4",
+   "flags": [
+    "case_override"
+   ],
+   "why": "IPS interpretation = AOMI"
+  },
+  "Juin 2020#4": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "case": "Juin 2020#1-4"
+  },
+  "Juin 2020#5": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2020#6": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2020#7": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2020#8": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2020#9": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2020#10": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2020#11": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2020#12": {
+   "c": [
+    "HTAP"
+   ]
+  },
+  "Juin 2020#13": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 2020#14": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 2020#15": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Juin 2020#15-16"
+  },
+  "Juin 2020#16": {
+   "c": [
+    "SCA ST+"
+   ],
+   "case": "Juin 2020#15-16"
+  },
+  "Juin 2020#17": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ]
+  },
+  "Juin 2020#18": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 2020#19": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 2020#20": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Juin 2020#20-21"
+  },
+  "Juin 2020#21": {
+   "c": [
+    "Fibrillation atriale"
+   ],
+   "case": "Juin 2020#20-21"
+  },
+  "Juin 2020#22": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 2020#23": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Unstable atheroma plaque features = athérosclérose, not SCA ST-"
+  },
+  "Juin 2020#24": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ]
+  },
+  "Juin 2020#25": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2020#26": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 2020#27": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2020#28": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 2020#29": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2020#30": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 2020#31": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Juin 2020#32": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Juin 2020#33": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 2020#34": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2020#35": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2020#36": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 2020#37": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2020#38": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2020#39": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2020#40": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 2020#41": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 2020#41-42"
+  },
+  "Juin 2020#42": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 2020#41-42"
+  },
+  "Juin 2020#43": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2020#44": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 2020#45": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 2020#46": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Juin 2020#47": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 2020#48": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2020#49": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 2020#50": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 19#1": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 19#1-2"
+  },
+  "Mai 19#2": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Mai 19#1-2"
+  },
+  "Mai 19#3": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Unstable atheroma plaque features = athérosclérose, not SCA ST+"
+  },
+  "Mai 19#4": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "General question on athérosclérose, not angor stable"
+  },
+  "Mai 19#5": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Mai 19#6": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Mai 19#7": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 19#8": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 19#9": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Mai 19#10": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 19#10-11"
+  },
+  "Mai 19#11": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Mai 19#10-11"
+  },
+  "Mai 19#12": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Mai 19#13": {
+   "c": [
+    "La péricardite chronique constrictive"
+   ]
+  },
+  "Mai 19#14": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#15": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#16": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "CV risk stratification of a diabetic, not athérosclérose"
+  },
+  "Mai 19#17": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#18": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#19": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#20": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#21": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#22": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 19#23": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 19#24": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 19#25": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 19#26": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Mai 19#27": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Mai 19#28": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 19#29": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Mai 19#30": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 19#31": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Mai 19#32": {
+   "c": [
+    "Rétrécissement mitral"
+   ]
+  },
+  "Mai 19#33": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 19#34": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Mai 19#35": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Mai 19#36": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Mai 19#37": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 19#38": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Mai 19#39": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 19#40": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Mai 19#41": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Mai 19#41-42"
+  },
+  "Mai 19#42": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ],
+   "case": "Mai 19#41-42"
+  },
+  "Mai 19#43": {
+   "c": [
+    "Dissections de l'aorte"
+   ]
+  },
+  "Mai 19#44": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Mai 19#45": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Mai 19#46": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ]
+  },
+  "Mai 19#47": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Ischémie critique is an AOMI stage, not acute ischemia"
+  },
+  "Mai 19#48": {
+   "c": [
+    "Varices des membres inférieurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Venous anatomy of lower limbs, not acute arterial ischemia"
+  },
+  "Mai 19#49": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Mai 19#50": {
+   "c": [
+    "Les prothèses valvulaires cardiaques"
+   ]
+  },
+  "Juin 19#1": {
+   "c": [
+    "Athérosclérose"
+   ]
+  },
+  "Juin 19#2": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 19#3": {
+   "c": [
+    "Risque cardiovasculaire"
+   ]
+  },
+  "Juin 19#4": {
+   "c": [
+    "Risque cardiovasculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Dyslipidemia definition as CV risk factor"
+  },
+  "Juin 19#5": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 19#6": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 19#7": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 19#8": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 19#9": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 19#10": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 19#11": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 19#12": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 19#13": {
+   "c": [
+    "Insuffisance cardiaque"
+   ]
+  },
+  "Juin 19#14": {
+   "c": [
+    "HTA"
+   ]
+  },
+  "Juin 19#15": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Juin 19#15-16"
+  },
+  "Juin 19#16": {
+   "c": [
+    "Maladie du péricarde : péricardite aiguë"
+   ],
+   "case": "Juin 19#15-16"
+  },
+  "Juin 19#17": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Unstable atheroma plaque features = athérosclérose, not angor stable"
+  },
+  "Juin 19#18": {
+   "c": [
+    "Les troubles de conduction cardiaque"
+   ]
+  },
+  "Juin 19#19": {
+   "c": [
+    "Les troubles du rythme cardiaque"
+   ]
+  },
+  "Juin 19#20": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 19#21": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 19#22": {
+   "c": [
+    "Fibrillation atriale"
+   ]
+  },
+  "Juin 19#23": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 19#23-24"
+  },
+  "Juin 19#24": {
+   "c": [
+    "Angor chronique stable (syndrome coronarien chronique)"
+   ],
+   "case": "Juin 19#23-24"
+  },
+  "Juin 19#25": {
+   "c": [
+    "SCA ST+"
+   ]
+  },
+  "Juin 19#26": {
+   "c": [
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications of athérosclérose, not SCA ST+ specifically"
+  },
+  "Juin 19#27": {
+   "c": [
+    "La tamponnade"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on tamponnade, tagged péricardite"
+  },
+  "Juin 19#28": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 19#29": {
+   "c": [
+    "Rhumatisme articulaire aigu"
+   ]
+  },
+  "Juin 19#30": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 19#31": {
+   "c": [
+    "Les endocardites infectieuses"
+   ]
+  },
+  "Juin 19#32": {
+   "c": [
+    "Rétrécissement mitral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Roulement, éclat B1, claquement d'ouverture = RM, tagged IA"
+  },
+  "Juin 19#33": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 19#34": {
+   "c": [
+    "Insuffisance aortique"
+   ]
+  },
+  "Juin 19#35": {
+   "c": [
+    "Rétrécissement aortique"
+   ]
+  },
+  "Juin 19#36": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 19#37": {
+   "c": [
+    "Les cardiopathies congénitales"
+   ]
+  },
+  "Juin 19#38": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 19#39": {
+   "c": [
+    "La maladie veineuse thrombo-embolique"
+   ]
+  },
+  "Juin 19#40": {
+   "c": [
+    "Insuffisance mitrale"
+   ]
+  },
+  "Juin 19#41": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 19#41-44"
+  },
+  "Juin 19#42": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 19#41-44"
+  },
+  "Juin 19#43": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 19#41-44"
+  },
+  "Juin 19#44": {
+   "c": [
+    "Ischémie aiguë des membres inférieurs"
+   ],
+   "case": "Juin 19#41-44"
+  },
+  "Juin 19#45": {
+   "c": [
+    "Anévrisme de l'aorte abdominale"
+   ]
+  },
+  "Juin 19#46": {
+   "c": [
+    "Coarctation aortique"
+   ]
+  },
+  "Juin 19#47": {
+   "c": [
+    "AOMI (artériopathie oblitérante des membres inférieurs)"
+   ]
+  },
+  "Juin 19#48": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 19#49": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  },
+  "Juin 19#50": {
+   "c": [
+    "Varices des membres inférieurs"
+   ]
+  }
+ }
+}
