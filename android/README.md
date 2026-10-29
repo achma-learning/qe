@@ -39,11 +39,18 @@ so the High-Yield page works with no connection at all.
 
 ## Install the prebuilt APK
 
-`dist/qe-bank-debug.apk` is a debug build, self-signed with Gradle's default
-debug key (fine to sideload for personal use; not suitable for Play Store
-distribution as-is). Each build machine has its own debug key, so a new APK
-built elsewhere may refuse to install over an older one ("App not installed"):
-uninstall the old app first, which clears its saved progress. On the device: enable "install unknown apps" for the
+`dist/qe-bank-debug.apk` is a debug build signed with the repo's own
+`qe-debug.keystore` (fine to sideload for personal use; not suitable for Play
+Store distribution as-is).
+
+**Signing key — committed on purpose.** Android only installs an update over
+an app signed with the same key. Up to 1.2 every build used the building
+machine's throwaway debug key, so each new APK refused to install over the
+previous one. From **1.3** every build signs with `android/qe-debug.keystore`
+(password `qebank-debug`, wired in `app/build.gradle`), so later versions
+update in place and keep your progress. Trade-off: anyone with the repo can
+sign an "update" — acceptable for a sideloaded personal app. **Going from 1.2
+or older to 1.3 needs one uninstall first** (clears saved progress). On the device: enable "install unknown apps" for the
 app you use to open the file, then open the APK.
 
 ## Rebuild from source
