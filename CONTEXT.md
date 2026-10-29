@@ -1,122 +1,95 @@
 # qe — MCQ Question Bank — AI Context File
-_Last synced: 2026-10-29 @ bbd8f42 (+ lesson filter)_
+_Last synced: 2026-10-29 @ 30f8eb8_
 
 ## 1. What This Is (Plain English)
-- **In one sentence:** A no-install website that drills you on ~15,000 past medical-school exam multiple-choice questions, entirely from the keyboard and fully offline.
-- **Why it exists:** The owner is a med student with years of past exam papers saved as plain `.txt` dumps. This turns those raw files into a fast trainer — pick answers, get instant correction, track progress, and see which topics you're weak on — without a login, an internet connection, or any app store.
-- **Who uses it:** Just the owner (and probably classmates). It's a personal study tool; all the question data lives right in the repo.
-- **Vibe:** Polished personal tool. Heavily iterated (command palette, learning analytics, focus mode, pomodoro, exam mode with real /20 grading, AI-prompt export) but deliberately framework-free and offline-first. The whole appeal is that it loads instantly and works from a ZIP.
-
-> Context clues: content is French and the grading uses the **FMPM** answer-sheet and grade curves (`assets/app.js:156`, `:165`) — i.e. Moroccan medical-faculty exams, originally from e-qe.online (linked via optional `(Correction collective) : https://...` hint lines).
+- **In one sentence:** a website (and Android app) that drills you on ~15,500 real past medical-school exam multiple-choice questions, fully offline, driven from the keyboard.
+- **Why it exists:** the owner is a med student at FMPM (Marrakech) with years of past exam papers saved as plain `.txt` dumps. This turns them into a fast trainer: answer, get corrected, see which topics and lessons you're weak on — no login, no internet, no app store.
+- **Who uses it:** the owner, probably classmates. Personal study tool; all question data lives in the repo. Content is French.
+- **Vibe:** polished personal tool. Heavily iterated (command palette, analytics, exam mode with the real /20 grade, lesson filter, planner) but deliberately framework-free and offline-first.
 
 ## 2. How To Run It
-- **Setup once:** Nothing. No `npm install`, no dependencies, no env file. (Node.js is only needed if you rebuild the data — see below.)
-- **Run dev (recommended):**
+- **Setup once:** nothing. No install, no env file. Node is only needed to rebuild data.
+- **Run dev:**
   ```sh
-  python3 -m http.server 8000
-  # then open http://localhost:8000/
+  python3 -m http.server 8000   # then open http://localhost:8000/
   ```
-  Note: the viewer loads the **baked** `data/<slug>.data.js` (always present), so editing a `.txt` shows nothing until you rebuild (below). The `fetch()` live-parse only kicks in if a `.data.js` is missing/404s.
-- **Run offline:** Double-click `index.html`. Works on `file://` because the questions are pre-baked into `data/<slug>.data.js` and loaded with plain `<script>` tags.
-- **Add / edit exams:** edit the `.txt` under `data/<sem>/`, then validate and rebuild:
+  Or just double-click `index.html` — it works from `file://`.
+- **After editing a question `.txt`:** the site reads the *baked* files, so rebuild:
   ```sh
-  node tools/check-data.js     # flags silent mistakes (orphan corrections, bad options)
-  node tools/build-data.js     # bakes .txt → data/*.data.js (+ _counts.js, _topics.js)
+  node tools/check-data.js      # catches silent typos that drop a question
+  node tools/build-data.js      # .txt → data/<slug>.data.js + _counts.js + _topics.js
+  node tools/build-lessons.js   # question topics → curriculum lessons (data/_lessons.js)
   ```
-  Commit the regenerated `data/*` files — offline mode reads them. Full guide: `how-to-add-new-exam.md`.
-- **Add a high-yield analysis doc:** drop a PDF/Word/txt into `qe-analysis/<slug>/`, then run `node tools/build-analysis.js` (regenerates `qe-analysis/_analysis.js`). Pushing to `main` does this automatically in CI. The doc then shows on `high-yield.html`.
-- **Live site = GitHub Actions → Pages** (Settings → Pages → Source = "GitHub Actions"): `.github/workflows/deploy.yml` bakes `data/*` + the analysis manifest and deploys the site on every push to `main`, so editing a `.txt` (even on github.com) publishes itself. Live at `https://achma-learning.github.io/qe/`; works at that `/qe/` subpath thanks to the app's all-relative paths. The workflow also best-effort commits the baked files back (needs Actions read/write) for the offline ZIP.
-- **Installable / offline PWA:** `sw.js` + `manifest.webmanifest` make the online site installable and work offline; registered from `app.js`, guarded to http(s) (the `file://` copy is offline regardless).
-- **Required env vars:** _None._ The app makes no network calls and needs no keys.
+  Commit the regenerated `data/*` files. Full guide: `how-to-add-new-exam.md`.
+- **Deploy:** push to `main`. `.github/workflows/deploy.yml` validates, bakes, deploys to GitHub Pages (`https://achma-learning.github.io/qe/`) and best-effort commits the baked files back.
+- **Android APK:** copy steps + `./gradlew assembleDebug` in `android/README.md`; publish with `.github/workflows/release-apk.yml` (manual, or push an `android-v*` tag).
+- **Required env vars:** none. The app makes no network calls.
 
 ## 3. Tech Stack
-- **Language + runtime:** Vanilla JavaScript (browser ES + Node for the build scripts). No TypeScript. No declared runtime version — there is no `package.json`, lockfile, or `.nvmrc`; CI pins Node 20 (`deploy.yml:44`). HTML5 + CSS3.
-- **Framework / key libraries:** **None.** Zero dependencies, no bundler, no package manager, no CDN. This is a hard constraint, not an accident (see §5).
-- **What kind of project:** Static multi-page web app + installable offline PWA (one dashboard + one viewer page per module, plus `report.html` + `high-yield.html`), plus Node CLI tools (build + validate).
-- **External services:** None at runtime. Content was sourced from e-qe.online; the app only ever *links out* to those exam pages when a URL hint line is present.
+- **Language + runtime:** vanilla browser JavaScript, HTML, CSS. Node scripts for builds — no `package.json`/lockfile; CI pins Node 20 (`deploy.yml`). Android wrapper: Java 17, Gradle 8.14.3 wrapper, Android Gradle Plugin 8.5.2 (`android/build.gradle`), minSdk 23 / target 34, `androidx.appcompat:appcompat:1.7.0` only.
+- **Framework / libraries:** **none on purpose.** No framework, bundler, CDN or npm.
+- **What kind of project:** static multi-page web app + installable offline PWA (`sw.js`, `manifest.webmanifest`) + Node CLI tools + a thin Android WebView app.
+- **External services:** none at runtime. GitHub Pages hosts; questions originally from e-qe.online (only linked out via optional `(Correction officielle) : https://…` lines).
 
 ## 4. Code Map (The Important Files Only)
-- `index.html` — **open this first.** The dashboard. Loads `modules.js`, `_counts.js`, `_topics.js`, `app.js`, then calls `QE.bootDashboard()`.
-- `report.html` — root-level "AI report" page (`QE.bootReport()`): pick modules (multi-select), collect every wrong/partial answer via `collectModuleReport`, build one Markdown prompt for an AI, copy/download. Lazy-loads each module's `.data.js`.
-- `high-yield.html` — root-level document browser (`QE.bootHighYield()`, `app.js:3949`): lists every module (no quiz) and links/previews its high-yield analysis doc (PDF/Word/txt) from `qe-analysis/<slug>/`. Reads `window.QE_ANALYSIS` (baked by `tools/build-analysis.js`).
-- `data.html` — root-level "Data — liens utiles" page (`QE.bootData()`): a hand-maintained list of external resources (archive.org zips, S-ECN fiches, YouTube channels, promo linktrees). The links live in `data.html` itself (`window.QE_DATA_LINKS`, an inline `<script>`), which `bootData()` in `app.js` renders — add an entry there, nothing else changes.
-- `qe-analysis/<slug>/` — drop a PDF/Word/txt high-yield doc here (from the user's external `qe-analysis` Claude skill). `qe-analysis/_analysis.js` is the auto-generated manifest (`window.QE_ANALYSIS`). `qe-analysis/README.md` maps slug→module. **Currently populated (6/22, 13 docs):** `s7-glandes-endocrines-revetement`, `s7-hematologie-oncologie`, `s7-maladie-enfant`, `s7-neuro-neurochir`, `s8-anapath-2`, `s10-sante-publique` (the last also ships a `.txt`, which gets the same inline preview as a PDF).
-- `tools/build-analysis.js` — scans `qe-analysis/<slug>/` for docs → regenerates `_analysis.js` (and ensures each module folder exists). Run in CI alongside `build-data.js`.
-- `assets/app.js` — **the monolith (~4,080 lines).** The entire app in one IIFE exposing `window.QE.{bootDashboard,bootViewer,bootReport,bootHighYield}`: `.txt` parser, dashboard, viewer, keyboard layer, command palette, analytics engine, exam grading, focus mode, pomodoro, report export. Boot fns near the bottom; section banners (`// ===== … =====`) split it.
-- `assets/modules.js` — hand-maintained **manifest**: `window.QE_MODULES = [{ sem, slug, name, file, cur }]` + `QE_SEMESTERS` labels. The source of truth for which modules exist and where their `.txt` lives. `cur` = the module's name in the curriculum file (used by the lesson filter).
-- `tools/build-lessons.js` — maps every question topic onto a lesson of the FMPM curriculum (`data/liste cours/curriculum_FMPM_S1-S10.txt`, module picked by `cur`): fuzzy name match + acronyms ("RAA", "mvte"), ties → several lessons, `A + B` split, then `data/liste cours/lesson-aliases.json` overrides (lesson / sub-module / list / `null`). Writes `data/_lessons.js` (`window.QE_LESSONS[slug] = { cur, groups, lessons, lessonGroup, topics: { rawTopic: [lessonIdx | -(groupIdx+1)] } }`). `--report` lists every mapping. Run in CI. Currently 99% of questions land on a lesson; the rest show under "Autres thèmes".
-- `assets/style.css` — all styling (~1,080 lines): dark/light themes, command palette, focus mode, "dynamic island" timer, review cards, accessibility (`:focus-visible`, `prefers-reduced-motion`).
-- `tools/build-data.js` — bakes each `.txt` → `data/<slug>.data.js` and writes `_counts.js` / `_topics.js`.
-- `tools/check-data.js` — validator: parses every `.txt` with the real parser and warns about silent mistakes (orphan corrections, too-few-options, pre-separator questions). Run before baking.
-- `tools/missing-corrections.js` — finds questions with `hasCorrection:false` and builds a paste-ready AI prompt that demands answers back as `Correction probable - <Exam> Q<n> = <letters>` (the estimate line, never `officielle`). `--prompt`, `--out <file>`, `--limit N`. Currently reports 0 — every question has an answer.
-- `tools/parser-bridge.js` — shared loader that lifts `parseQuestionsFile` + the module manifest out of `app.js`/`modules.js` so the build and validator never drift from the app (see §6).
-- `modules/<slug>.html` — one viewer page per module. Carries `<div id="qe-root" data-module="<slug>">`, loads that module's `.data.js`, calls `QE.bootViewer()`. All 22 are near-identical.
-- `data/<sem>/<module>.txt` — **the only hand-edited data.** Source question files (semesters s5–s10).
-- `data/<slug>.data.js` — auto-generated baked payload (`window.QE_DATA = {...}`). **Do not edit.**
-- `data/_counts.js` / `data/_topics.js` — auto-generated indexes for dashboard counts + weakness analysis. **Do not edit.**
-- `data/_lessons.js` — auto-generated by `tools/build-lessons.js`; loaded by every `modules/<slug>.html` for the viewer's **lesson filter** (`C` / 🏷 button, training mode only: multi-select lessons/sub-modules, per-lesson count + accuracy, persisted as `qe:lessonFilter.<slug>`; prev/next walk only the filtered questions; sidebar dims the rest). **Do not edit.**
-- `docs/UX-AUDIT.md` — the design/architecture rationale and feature roadmap. Good background; this file (§7) tracks the live state.
-- `how-to-add-new-exam.md` — human-facing guide for adding/editing exams: the `.txt` format, the strict-vs-forgiving rules, and the validator.
-- `.github/workflows/deploy.yml` — CI: on PRs validates `.txt` (`--strict`); on push to `main` bakes `data/*` + the analysis manifest, deploys to GitHub Pages, and best-effort commits the baked files back. **Stages files by an explicit allow-list** (`cp index.html report.html high-yield.html manifest.webmanifest sw.js icon.svg .nojekyll …` + `cp -r assets data modules qe-analysis`) — **any new root HTML/asset must be added there or it won't deploy.** (Note: the PR-trigger `paths` don't include `qe-analysis/**`, so adding only an analysis doc rebuilds the manifest on merge-to-`main`, not at PR time — fine, since the manifest is committed.)
-- `manifest.webmanifest` + `sw.js` + `icon.svg` — PWA: make the online site installable and offline-capable (service worker: network-first for pages and assets/data, cache fallback after 3 s or offline). Registered from `app.js`.
-- `.nojekyll` — disables Jekyll (which hides `_`-prefixed files like `data/_counts.js` / `_topics.js`). Staged into the deploy artifact and kept at the repo root. **Don't delete.**
-
-**Scale:** 22 modules · 15,542 questions · 315 exams (summed from `data/_counts.js`).
-
-**Two run modes** (toggled with the `mode` pill, persisted as `qe:mode`): **Training** (instant per-question correction) and **Exam** (answer a full set → correction + /20 grade + a per-card AI correction prompt at the end). The viewer also has cyclable **loadout presets** (`PRESETS`, `app.js:612` — Default / Velocity / Exam / Study / Lightning) that preset the pomodoro work/break minutes; cycle with `T` / `8`.
-
-**Keyboard is the whole point.** The full key map lives in `README.md` and the in-app help (`?`). The discovery surface is the command palette (`Ctrl`/`Cmd`+`K`) — a dependency-free fuzzy launcher (`showCommandPalette`, `app.js:1484`) that jumps to any module or runs any command.
+- `index.html` — **open first.** Dashboard: loads `modules.js`, `_counts.js`, `_topics.js`, `app.js`, calls `QE.bootDashboard()`.
+- `assets/app.js` — **the monolith (~5,200 lines, one IIFE).** Everything: parser, dashboard, viewer, keyboard layer, command palette, analytics, exam grading, focus mode, pomodoro, lesson filter, every page's `boot*()`. Banners `// ===== … =====` split it; exports at `window.QE` (`app.js:5173`).
+- `assets/style.css` — all styling: dark/light themes, focus mode, responsive breakpoints (1100 / 900 / 600 / 380 px).
+- `assets/modules.js` — hand-kept **manifest** `window.QE_MODULES = [{ sem, slug, name, file, cur }]` + `QE_SEMESTERS`. `cur` = module name in the curriculum (drives the lesson filter).
+- `modules/<slug>.html` — one viewer page per module (22, near-identical): `data-module="<slug>"`, loads its `.data.js` + `_lessons.js`, calls `QE.bootViewer()`.
+- `data/<sem>/<Module>.txt` — **the only hand-edited question data** (S5–S10).
+- `data/<slug>.data.js`, `data/_counts.js`, `data/_topics.js`, `data/_lessons.js` — generated. **Never edit.**
+- `data/liste cours/` — curriculum S1–S10 outlines (`curriculum_FMPM_S1-S10.txt` + one per semester), `lesson-aliases.json` (hand fixes topic → lesson), `_curriculum.js` (generated, for `curriculum.html`).
+- `tools/build-data.js` / `check-data.js` / `parser-bridge.js` — bake, validate, and the shared loader that lifts the parser out of `app.js`.
+- `tools/build-lessons.js` — fuzzy-maps each question topic to curriculum lessons (+ aliases); `--report` lists every mapping. 15,383 / 15,542 questions mapped.
+- `tools/build-curriculum.js`, `tools/build-analysis.js` — bake `_curriculum.js` and `qe-analysis/_analysis.js`. `tools/missing-corrections.js` — prompt builder for unanswered questions (currently 0).
+- Other pages: `report.html` (AI prompt from your mistakes), `high-yield.html` (docs in `qe-analysis/<slug>/`), `curriculum.html`, `planner.html` (activity heatmap + daily plan), `playlist-fmpm.html`, `data.html` (links live inline in that file as `window.QE_DATA_LINKS`).
+- `sw.js` + `manifest.webmanifest` — PWA, network-first with 3 s cache fallback. Bump `CACHE` to evict.
+- `android/` — WebView shell (`MainActivity.java`, `AssetDocs.java`) around a **copy** of the site in `app/src/main/assets/`; prebuilt `dist/qe-bank-debug.apk`.
+- `docs/UX-AUDIT.md` — design rationale + roadmap (R1–R4).
 
 ## 5. Rules For Editing This Code
-- **Stay zero-dependency.** No framework, no bundler, no `package.json`. The point is that it loads instantly and runs from a ZIP.
-- **Plain `<script>` tags only — no ES module `import`/`export`.** Anything that needs a server or build step breaks the `file://` offline guarantee.
-- **Never hand-edit generated files** (`data/*.data.js`, `data/_counts.js`, `data/_topics.js`, `data/_lessons.js`, `qe-analysis/_analysis.js`). Edit the source, then run the matching `tools/build-*.js` and commit the result.
-- **Adding a module** = (1) drop a `.txt` under `data/<sem>/`, (2) add an entry to `assets/modules.js` (with `cur`), (3) create `modules/<slug>.html` (copy an existing one, change the title, `data-module`, and the `.data.js` path), (4) rebuild (`build-data.js` + `build-lessons.js`).
-- **All state is `localStorage` under the `qe:` prefix** (`assets/app.js:33`, accessed only via the `LS` helper). New keys must be backward-compatible — older records simply lack new fields and must degrade gracefully (this is how analytics was added without a migration). The live schema:
-  - `answers.<slug>` → `{ qIdx: { picked, checked, correct, partial, unknown, ts, tMs, n } }` (per-question result; `ts`/`tMs`/`n` = last-seen, time-on-task, review count).
-  - `progress.<slug>`, `current.<slug>` (cursor), `exam.<slug>.<examIndex>` (per-exam session: `{ picked, cur, submitted, submittedAt, durationSec }`).
-  - `activity` → `{ 'YYYY-MM-DD': { answered, correct, ms } }` (bounded ~400 days; powers streaks/trend).
-  - `lessonFilter.<slug>` → array of selected filter keys (`l<i>` lesson, `g<i>` sub-module, `t:<topic>` uncovered topic); `lessonFilter.hideEmpty`.
-  - UI/config singletons: `theme`, `mode`, `presetIndex`, `autoAdvance`, `sidebarHidden`, `multiSelect`, `focusMode`, `lastModule`, `pomoMinutes`, `pomo.*`, `showCorrectionOnCopy`, `analysis.*`, `examOpen.<slug>`, `visibleModules` (array of slugs shown on the dashboard; absent ⇒ all visible).
-- **No network calls, no CDNs, no fetched fonts.** Preserve the offline guarantee. Everything stays inline ES / SVG / CSS.
-- **Escape every data-derived value before `innerHTML`** (see §6).
+- **Zero dependencies.** No framework, bundler, `package.json`, CDN, fetched font.
+- **Plain `<script>` tags only — no ES `import`/`export`.** Anything needing a server breaks the `file://` offline guarantee.
+- **Relative paths only** — the site runs at `/qe/` on Pages, at `/` locally, and from `file:///android_asset/`.
+- **Never hand-edit generated files** (`data/*.data.js`, `data/_counts.js`, `data/_topics.js`, `data/_lessons.js`, `data/liste cours/_curriculum.js`, `qe-analysis/_analysis.js`). Edit the source, run the `tools/build-*.js`, commit both.
+- **Escape every data-derived value before `innerHTML`** with `escapeHtml()` (`app.js:4928`) — medical text contains `<`, `>`, `&`. Toasts are safe (`textContent`).
+- **All state in `localStorage` under `qe:`**, only via the `LS` helper (`app.js:33`). New fields must be optional — old records lack them. Keys: `answers.<slug>` (`{ qIdx: { picked, checked, correct, partial, unknown, ts, tMs, n } }`), `progress.<slug>`, `current.<slug>`, `exam.<slug>.<i>`, `activity`, `lessonFilter.<slug>`, plus UI singletons (`theme`, `mode`, `focusMode`, `autoAdvance`, `visibleModules`, …).
+- **Adding a module** = `.txt` under `data/<sem>/` + entry in `modules.js` (with `cur`) + copy a `modules/<slug>.html` + rebuild (`build-data.js`, `build-lessons.js`).
+- **New root page or asset → add it to the `cp` allow-list in `deploy.yml`** ("Stage site" step), or it won't deploy. Add it to `sw.js` `SHELL` if it should work offline.
+- **Android changes:** bump `versionCode` + `versionName` in `android/app/build.gradle`; never change the signing key.
 
 ## 6. Fragile Bits & Landmines
-- **The parser is extracted by regex — don't reformat it.** `tools/parser-bridge.js:20` slurps `parseQuestionsFile` out of `app.js` with `/function parseQuestionsFile\(text\) \{[\s\S]*?\n  \}\n/`. That function (`assets/app.js:1594–1720`) **must** keep the exact signature `function parseQuestionsFile(text) {` and close with a two-space-indented `}` (i.e. `\n  }\n`). Renaming it, changing its indentation, or adding another `\n  }\n`-shaped block inside it silently breaks the build. _Symptom if broken: "parseQuestionsFile not found" or garbage bakes._
-- **`.txt` parsing is heuristic and format-sensitive.** Headers (`<exam> Q<n> - <topic>`) are only detected **after the first `---`/`===` separator** and only when the previous line was a boundary (`isLikelyHeader`, `app.js:1617`; the guard is `app.js:1678`). Stray separators, colons, or `?`/`!` endings change what counts as a header. Eyeball the question count after editing a `.txt`.
-- **"Unknown correction" is excluded from accuracy on purpose.** Questions without a `Correction officielle - <exam> Q<n> = <letters>` line get `hasCorrection:false` (`app.js:1688`); the viewer marks answers `rec.unknown` so they don't pollute accuracy (`app.js:2310`). Deliberate honesty call — **don't "fix" it** to count them.
-- **Corrections bind by an exact `exam`+`qn` match and silently drop otherwise** (`app.js:1657`). A `Correction officielle - …` line whose exam name or number doesn't match its question — even by one space (`Juin2025` vs `Juin 2025`) — just doesn't attach; the question then shows "no official answer" with no error anywhere. **Run `node tools/check-data.js`** after editing any `.txt`; it exists to catch exactly this.
-- **`BAREME` grade tables are hard-coded official curves.** `app.js:156` holds the FMPM /20 conversion for 50/40/30/20-question papers; other sizes are scaled onto the /50 curve. These are real published values — don't recompute or "simplify" them.
-- **Exam-review key handler runs `handleGlobalKeys` first** (`app.js`, `viewMode === 'exam-review'` branch). Single-letter globals (`m s l z f p`) win there, which is why the review card navigation uses arrows + `J/K/N` (never `p` for "prev"). Add review keys around that ordering, not over it.
-- **`localStorage` ~5 MB ceiling.** Answer maps + the bounded ~400-day `qe:activity` log stay small. If a future feature stores full per-attempt history, move **that feature** to IndexedDB — don't migrate everything.
-- **Looks-dead-but-isn't (skip on cleanup):** the `.q-chip.flagged` CSS with nothing setting it, and `resetTrainingExamRange` (`app.js:74`, unused) are both reserved for the planned bookmark/review feature (R1 in `docs/UX-AUDIT.md`). Leave them.
-- **`modules.js` is eval'd in a fake `window` at load time** (`tools/parser-bridge.js:28`). Keep it a plain `window.QE_MODULES = [...]` assignment — no imports, no DOM access — or the tools can't read it.
-- **GitHub Pages runs Jekyll, which hides `_`-prefixed files.** `.nojekyll` (staged into the deploy artifact and at the repo root) is load-bearing: without it `data/_counts.js` / `_topics.js` 404 → dashboard counts + weakness analysis break. Don't delete it.
-- **Service worker caches aggressively.** `sw.js` is network-first for navigations (only caching `res.ok`), network-first for assets/data too (cached copy if the network takes >3 s, fails, or errors), so a deploy shows up on the next load online. If you change caching behaviour, bump `CACHE` in `sw.js` to evict old entries. Runs only on http(s), never `file://`.
-- **The Android APK bundles its own frozen copy of the site — including the high-yield docs.** `android/app/src/main/assets/` holds a snapshot of the pages, `assets/*`, `data/*.data.js` **and every `.pdf`/`.docx`/`.txt` listed in `qe-analysis/_analysis.js`** (~10 MB of the ~17 MB APK). Dropping a new analysis doc into `qe-analysis/<slug>/` updates the website via CI, but the app keeps shipping the old set until someone re-runs the copy steps in `android/README.md` and rebuilds — the copy step is manifest-driven for exactly that reason, so it picks up new docs automatically once run. Bump `versionCode`/`versionName` in `android/app/build.gradle` when you do. **Signing:** debug builds sign with the committed `android/qe-debug.keystore` (owner's choice, from 1.3) so every APK updates the installed app in place — never switch keys or users must uninstall and lose progress.
-- **A WebView can't display a PDF or a `.docx`.** `MainActivity` therefore intercepts main-frame navigations to those assets and hands a `FileProvider` `content://` copy to an external viewer, and swaps the high-yield "Aperçu" iframe for an explanatory page. If you add a new document type to the site, teach `AssetDocs.opensExternally()`/`mimeFor()` about it or it'll dead-end in the app. _Symptom if missed: `net::ERR_FILE_NOT_FOUND` or a blank pane, in the app only._
-- **README's APK link points at `releases/latest/download/qe-bank-debug.apk`** — GitHub resolves that URL to whichever release's asset is named `qe-bank-debug.apk`, so a new release that keeps that exact asset filename updates the download automatically; **no README edit needed** for a routine APK rebuild. You only have to touch the link in `README.md` if the asset filename changes, or if the link should ever point at a specific pinned version instead of "latest". The APK itself is rebuilt via `android/README.md`'s steps and published with `.github/workflows/release-apk.yml` (manual `workflow_dispatch`, or push a tag matching `android-v*`).
-- **Escape every data-derived value before `innerHTML`.** All rendering uses `innerHTML` template strings, so any field from question data or `localStorage` (`q.text`, `q.exam`, `q.topic`, `module.name`, `grp.name`, `grp.url`, the search box, analysis file names) must go through `escapeHtml()` (`app.js:4041`) — real medical text contains `<`/`>`/`&`. Exception: `computeReminders()` returns intentional `<b>…</b>` HTML with its dynamic parts already escaped at the source. Toasts are safe (they use `.textContent`).
+- **The parser is extracted by regex.** `tools/parser-bridge.js:20` grabs `function parseQuestionsFile(text) {` … up to the first `\n  }\n`. Keep that exact signature, its two-space-indented closing brace, and no other `\n  }\n`-shaped line inside it (`app.js:1642`). _Symptom: "parseQuestionsFile not found" or garbage bakes._
+- **`.txt` parsing is heuristic.** Headers (`# <exam> Q<n> - <topic>`) only count after the first `---`/`===` separator and right after a boundary (`app.js:1750`, `isLikelyHeader` `app.js:1669`). A line ending in `?`, `!` or `:` is never a header.
+- **Corrections attach by exact `exam` + `qn` match, else silently vanish** (`app.js:1711`). `Juin2025` ≠ `Juin 2025`. Run `check-data.js`.
+- **"Unknown correction" is excluded from accuracy on purpose** (`rec.unknown`). Don't "fix" it.
+- **`BAREME` (`app.js:156`) is the official FMPM /20 curve** for 50/40/30/20-question papers. Real published values — don't recompute.
+- **Exam-review keys:** `handleGlobalKeys` runs first, so single letters `m s l z f p` are taken; review navigation uses arrows + `J/K/N`. Viewer: `C` = lesson filter, `L` = theme.
+- **Lesson mapping is only as good as the topics.** Catch-all topics ("Néphrologie pédiatrique") map to several lessons, so the same 47 questions show under each. Fix in `lesson-aliases.json`, not in code. Filter keys are stored as indexes (`l3`, `g0`) — reordering curriculum lessons changes what a saved filter points to (stale keys are dropped, wrong-but-valid ones aren't).
+- **`modules.js` is eval'd in a fake `window`** (`parser-bridge.js:28`): keep it a plain assignment.
+- **`.nojekyll` is load-bearing.** Without it GitHub Pages hides `_`-prefixed files → dashboard counts and analytics break.
+- **The Android app bundles a frozen copy of the site.** `android/app/src/main/assets/` is synced by hand (`android/README.md` copy steps). It drifts silently: `data.html` was already stale once. Re-run the copy steps before every APK build.
+- **Android signing key is committed on purpose** (`android/qe-debug.keystore`, owner's choice from 1.3) so every APK updates in place. Changing it forces users to uninstall = lose all progress (`localStorage` lives in the app). Builds ≤ 1.2 used throwaway machine keys.
+- **Android-only tweaks are injected, not forked:** `MainActivity` prepends a focus-mode default to `assets/app.js` as it's served, phones only (`MainActivity.java:48`). Back closes `.overlay` elements via JS before navigating. PDFs/`.docx` open in an external viewer through `FileProvider` (a WebView can't show them) — new doc types need `AssetDocs.opensExternally()`/`mimeFor()`.
+- **CSS class collision:** the generic `.empty` (60 px padding) also matched the dashboard's `.sp.empty` sparkline bars and widened the page on phones. Watch generic class names.
+- **Service worker** only runs on http(s). Changing caching → bump `CACHE` in `sw.js`.
+- **Skip on cleanup — looks dead, isn't:** `.q-chip.flagged` CSS and `resetTrainingExamRange` (`app.js:74`) are reserved for the bookmark feature (R1).
+- **Duplicates to know about:** the curriculum file exists in `curriculum data/`, `data/liste cours/` (the one the tools read) and an older S5–S10 copy in `data/`. `data/to add/` holds answer-sheet photos not yet typed in. `anki/`, `issues/`, `curriculum data/idea.txt` are notes, not code.
 
 ## 7. Current State
-- **Last shipped:** **Lesson filter inside a module** (`C` / 🏷): questions tagged with FMPM curriculum lessons via `tools/build-lessons.js` + `lesson-aliases.json`; plus a tablet/phone layout pass (topbar wraps ≤1100px, packed sidebar chips when stacked, dashboard sparkline no longer overflows phones) and Android 1.3 (focus mode default on phones only, Back closes overlays, dark launch) + 🎯 Focus / ▶ Auto buttons in the question controls (both stay visible in focus mode).
-- **Earlier:** **Exam-correction (review) navigation + `Alt+C` prompt copy.** On the results screen, `↑↓` / `←→` / `J` `K` / `N` move a focus cursor across the *visible* review cards (mirrors the dashboard/exam-picker focus model), syncing `idx` + the sidebar's "current" chip. `Alt+C` copies the full « Professeur agrégé » correction prompt (énoncé + ma réponse + correction officielle + mission) for whichever card the **mouse is hovering**, falling back to the keyboard-focused card; `Enter` does the same. The per-card 📋 button and `Alt+C` now share one `copyReviewItemEl()`; switching filters clears stale focus. New `.review-item.focused` outline mirrors `.card.focused`. Verified end-to-end in a headless browser.
-- **Earlier:** PR #22 — exam-**picker** arrow-key navigation (`focusExamTile`), a dashboard **"visible modules"** toggle (`qe:visibleModules`), and the per-question **📋 copy in exam review** (`buildExamReviewPrompt`) this session's `Alt+C` builds on.
-- **Earlier:** Auto-advance timer fix — the per-question countdown resets on every question change (exam *and* training) via a `syncTimer()` guard (`app.js:3262`), instead of restarting on every re-render.
-- **Earlier:** `high-yield.html` page + `qe-analysis/<slug>/` folders + `tools/build-analysis.js` (manifest baker, wired into CI). Topbar gained **Report** + **High-Yield** nav links. **Content drops since (now 6/22 modules, 13 docs):** the owner keeps uploading `*_by_claude.ai.{pdf,docx}` analysis docs straight to `main` — glandes-endocrines, maladie-enfant, neuro-neurochir, hematologie-oncologie, anapath-2, and sante-publique (`+ .txt`). CI re-bakes `_analysis.js` on each push, so they go live without code changes.
-- **Earlier:** Smarter **AI report** (`report.html`) — multi-select modules → one Markdown prompt that leads with computed stats (per-module/per-topic frequency) and asks the AI to classify each error (🧠/🔗/🪤); copy-to-clipboard + `.txt` download; offline-safe clipboard (`copyText`/`execCopy`); reset-sync via `pageshow`/`storage` listeners; mobile/tablet responsive pass.
-- **Earlier:** Installable offline PWA (`sw.js` + `manifest.webmanifest`) + GitHub Actions → Pages deploy; consistent HTML-escaping pass; `check-data.js` validator + `tools/parser-bridge.js`; exam answer-sheet + FMPM /20 grade; command palette, analytics, focus mode.
-- **Working on now:** nothing active in code — high-yield content drops land via CI; the review-mode keyboard polish just shipped.
-- **Next up** (roadmap in `docs/UX-AUDIT.md`, pick ≤3):
-  1. **R1 — Bookmark / mark-difficult + review queue** (wire the dormant `.flagged` chip; keys `B`/`X`).
-  2. **R2 — Global question/topic search** inside the command palette (currently matches modules only).
-  3. **R4 — Export/import progress** as one JSON blob of all `qe:*` keys (backup + move between devices).
+- **Last shipped:** lesson filter inside each module (`C` / 🏷: curriculum lessons, per-lesson count + accuracy, `tools/build-lessons.js` + `lesson-aliases.json`); 🎯 Focus + ▶ Auto buttons in the question controls; tablet/phone layout pass; Android 1.3 (focus default on phones only, Back closes panels, dark launch, fixed committed signing key).
+- **Working on now:** documentation set (`CONTEXT.md`, `CHANGELOG.md`, `README.md`, `RELEASE.md`) and the first proper release tags.
+- **Next up** (roadmap in `docs/UX-AUDIT.md`):
+  1. **R4 — export / import progress** as one JSON of all `qe:*` keys (backup, move devices, survive an app reinstall).
+  2. **R1 — bookmark / mark-difficult + review queue** (wire the dormant `.flagged` chip).
+  3. **R2 — global question/topic search** in the command palette.
 
 ## 8. Update Protocol (Verbatim)
 > **For the AI Assistant:** When asked to "Update CONTEXT.md":
-> 1. Re-run Phase 0 — check for new `GEMINI.md` / `CLAUDE.md` / `AGENTS.md` / `.github/` files.
+> 1. Re-run Phase 0 — check for new or changed `CLAUDE.md` / `AGENTS.md` / `GEMINI.md` / `.github/` files, merge what's new, and re-run Phase 3 so each of them still points to `CONTEXT.md`.
 > 2. Re-scan the tree, manifests, and `.github/workflows/` for drift.
 > 3. Read our recent conversation for new decisions, fragile bits discovered, or shifted goals.
 > 4. Refresh the `_Last synced_` line with today's date and current commit SHA.
 > 5. Rewrite — do not append. One clean source of truth. Preserve still-true content, revise the rest.
-> 6. Keep §1 and §2 in plain English. Keep the file under ~350 lines.
+> 6. Keep §1 and §2 in plain English. Keep the file under ~200 lines.
