@@ -544,7 +544,7 @@
   // A finger is a wide pointer: buttons that sit side by side get hit by
   // mistake. html.touch-ui switches the viewer to a layout built for that
   // (style.css): big Prev / Check / Next on their own row, secondary actions
-  // pushed away below, no 🎯 Focus button next to Next.
+  // (🎯 Focus, Reset, Auto, 🏷…) pushed away below.
   // window.QEAndroid is the bridge MainActivity.java injects — only in the app.
   const IN_APP = typeof window.QEAndroid !== 'undefined';
   const TOUCH_UI = IN_APP || !!(window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches);
@@ -3631,9 +3631,9 @@
       }
     }
 
-    // Focus-mode toggle in the controls row (also Z). Hidden on touch screens
-    // (html.touch-ui): it sat one finger-width from Next and got hit by mistake.
-    // There, focus mode is left with the floating "✕ Focus" and set in Settings.
+    // Focus-mode toggle in the controls row (also Z). On touch screens it lives
+    // in the lower .ctl-more row, away from Next: right under Next (1.3) it got
+    // hit by mistake while moving on.
     function focusBtnHtml() {
       const on = document.documentElement.classList.contains('focus-mode');
       return `<button id="btn-focus" class="${on ? 'active' : ''}" title="Focus mode (Z)">🎯 ${on ? 'Quitter focus' : 'Focus'}</button>`;

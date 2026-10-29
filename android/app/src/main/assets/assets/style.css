@@ -1105,10 +1105,10 @@ a.cur-sem-head:focus-visible .cur-sem-dl { opacity: 1; transform: translateY(1px
 
 /* ============== TOUCH UI (html.touch-ui: phones, tablets, Android app) ============== */
 /* Built against mis-taps (app.js sets the class). The buttons used on every
-   question get their own big row; everything else sits in a smaller row well
-   below, out of reach of a thumb aiming for Next. No 🎯 Focus button: it sat
-   next to Next — focus mode is left with the floating ✕ Focus, set in Settings. */
-html.touch-ui #btn-focus { display: none !important; }
+   question get their own big row; everything else — 🎯 Focus included — sits
+   in a smaller row well below, out of reach of a thumb aiming for Next. (In
+   1.3 🎯 Focus sat right under Next and got hit by mistake; 1.4 hid it; 1.5
+   brought it back in this lower row.) */
 html.touch-ui .controls { flex-direction: column; align-items: stretch; gap: 0; margin-top: 20px; }
 html.touch-ui .controls .ctl-nav { order: 1; display: flex; gap: 14px; }
 html.touch-ui .controls .ctl-nav button { flex: 1 1 0; min-height: 52px; font-size: 16px; }
