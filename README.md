@@ -1,14 +1,16 @@
 # qe — MCQ Question Bank
 
-> Cram for med-school exams by blitzing ~15,000 real past-exam questions — all keyboard, all offline, no login.
+> Cram for med-school exams by blitzing ~15,500 real past-exam questions — all keyboard, all offline, no login.
 
-_TODO: add a screenshot or GIF showing the dashboard → answering a question → instant correction_
+**Quick start:** 1. download the repo as a ZIP and unzip it · 2. double-click `index.html` · 3. pick a module, press `1`–`5` to answer and `Space` to check.
+
+![A question answered wrong, with the correction and the lesson filter bar](./docs/preview.png)
 
 ## What it is
 
-`qe` turns years of past medical-school exam papers (saved as plain `.txt` files) into a fast multiple-choice trainer. Pick your answers, get instant correction, and let it track the topics you keep getting wrong. It ships with 22 modules — 15,542 questions across 315 exams, semesters 5 to 10 — but it'll happily run on any questions in the same text format.
+`qe` turns years of past medical-school exam papers (saved as plain `.txt` files) into a fast multiple-choice trainer. Pick your answers, get instant correction, drill one lesson of the curriculum at a time, and let it track the topics you keep getting wrong. It ships with 22 modules — 15,542 questions from 315 exams, semesters 5 to 10 of the FMPM (Marrakech) program — but it'll happily run on any questions in the same text format.
 
-The one weird thing: **zero dependencies, no build step, no server.** No npm, no framework. Download the repo as a ZIP, double-click `index.html`, and it runs offline — questions and all. Your progress lives in your browser and never leaves it.
+The one weird thing: **zero dependencies, no build step, no server.** No npm, no framework. Unzip it, double-click `index.html`, and it runs offline — questions and all. Your progress lives in your browser and never leaves it.
 
 ## Install & run
 
@@ -23,47 +25,49 @@ python3 -m http.server 8000
 # then open http://localhost:8000/
 ```
 
-Edited a question `.txt` (or the parser) and want it baked back into the offline bundle? That's the only step that needs Node:
-
-```bash
-node tools/build-data.js
-```
+Or use the live site, <https://achma-learning.github.io/qe/>, and hit your browser's **Install** button to keep it offline like an app.
 
 No environment variables, no API keys, no accounts. The app never touches the network.
 
 ## Android app
 
-Prefer a native app over the browser? **[⬇ Download the APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk)** — a thin offline WebView wrapper around this same site (package `online.qe.mcqbank`, no network permission). Enable "install unknown apps" for whichever app you use to open the download, then open it. Source and build instructions: [`android/README.md`](./android/README.md).
+Prefer a real app? **[⬇ Download the APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk)** — the same site wrapped in an offline WebView (package `online.qe.mcqbank`, no internet permission). Works on phones (opens in focus mode) and tablets (keeps the question sidebar). Allow "install unknown apps" for whatever opens the download, then open it.
+
+> Coming from version 1.2 or older? Uninstall it first — older builds were signed with a different key, and Android refuses the update. Uninstalling clears your saved progress. From 1.3 on, updates install over the old version.
+
+Source and build steps: [`android/README.md`](./android/README.md).
 
 ## Usage
 
-Open `index.html` and you land on the **dashboard** — every module grouped by semester. Type to search, or press a number to jump, then `Enter` to open one. Inside a module:
+Open `index.html` → the **dashboard** lists every module by semester. Type to search, or press a number, then `Enter`. Inside a module:
 
-- `1`–`5` — toggle answer options
-- `Space` / `Enter` — check your answer (press again to move on)
+- `1`–`5` — toggle answer options · `Space` / `Enter` — check, press again for the next one
 - `←` `→` — previous / next question
-- `Z` — focus mode (everything but the question vanishes)
-- `C` — **filter by lesson**: pick one or more lessons of the FMPM curriculum (or a whole sub-module) and drill only those questions; each lesson shows its question count and your accuracy. `Shift`+`C` clears it. On a phone, tap 🏷.
-- `W` (on the dashboard) — weakness analysis: accuracy per topic, weakest first, with a jump straight to your first wrong answer
+- `C` — **filter by lesson**: tick one or more lessons of the curriculum (or a whole sub-module) and drill only those. Each lesson shows how many questions it has and your accuracy, so weak lessons jump out. `Shift`+`C` clears it. On a phone, tap 🏷.
+- `Z` — focus mode (everything but the question vanishes) · `A` — auto-advance. Both also have buttons under the question.
+- `W` (dashboard) — weakness analysis: accuracy per topic, weakest first
 
-It's keyboard-first by design. The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that fuzzy-jumps to any module or runs any command. Press `?` anywhere for the full key map.
+The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that jumps to any module or runs any command. `?` shows the full key map.
 
-Two ways to study: **Training** (correction after every question) and **Exam** (answer a full set, then get a /20 grade on the real FMPM scale, plus a downloadable list of what you missed).
+Two ways to study: **Training** (correction after every question) and **Exam** (answer a full paper, then get a /20 grade on the real FMPM scale plus a list of what you missed). Questions with no official answer key show a best estimate, clearly badged **≈ probable**.
+
+Also in the top bar: **Report** (turns your mistakes into one prompt for an AI tutor), **High-Yield** (analysis documents per module), **Curriculum** (the S1–S10 program), **Planner** (activity heatmap + daily plan), **Playlist** and **Data** (links to courses and archives).
 
 ## Adding your own exams
 
-The questions are just text files under `data/sX/` — edit one and either push it or rebuild locally:
+The questions are just text files under `data/sX/` — edit one and either push it or rebuild locally (needs Node):
 
 ```bash
-node tools/check-data.js     # flags typos that would silently drop a question
-node tools/build-data.js     # bakes your edits in — then refresh the page
+node tools/check-data.js      # flags typos that would silently drop a question
+node tools/build-data.js      # bakes your edits in — then refresh the page
+node tools/build-lessons.js   # re-tags questions with curriculum lessons
 ```
 
 Push to `main` (even an edit straight on github.com) and a GitHub Action rebuilds and deploys the site, so the live website shows your new questions on its own. Full walkthrough + gotchas: **[how-to-add-new-exam.md](./how-to-add-new-exam.md)**.
 
 ## What's new
 
-Most recent shipped change: **installable, works-offline web app** — open the live site once and your browser can Install it (or Add to Home Screen) to use it offline, like a native app. Plus a one-command validator (`node tools/check-data.js`) that catches silent formatting slips before they cost you a question.
+**2026-10-29** — filter questions by curriculum lesson inside a module (`C` / 🏷), Focus + Auto buttons, tablet/phone layout fixes, and Android app 1.3. [Full changelog →](./CHANGELOG.md)
 
 ## Why I built this
 
@@ -75,6 +79,7 @@ No `LICENSE` file — this is a personal study project, so treat it as all-right
 
 ## See also
 
-- [`how-to-add-new-exam.md`](./how-to-add-new-exam.md) — how to add or edit exams (format + the gotchas)
-- [`CONTEXT.md`](./CONTEXT.md) — the orientation file for AI assistants joining the project
-- [`docs/UX-AUDIT.md`](./docs/UX-AUDIT.md) — design rationale, architecture notes, and what's on the roadmap
+- [`how-to-add-new-exam.md`](./how-to-add-new-exam.md) — the `.txt` format and its gotchas
+- [`CHANGELOG.md`](./CHANGELOG.md) — what shipped when
+- [`CONTEXT.md`](./CONTEXT.md) — for AI assistants joining the project
+- [`docs/UX-AUDIT.md`](./docs/UX-AUDIT.md) — design notes and the roadmap
