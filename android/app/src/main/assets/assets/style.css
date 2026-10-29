@@ -544,6 +544,9 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
   flex: 1; min-width: 140px; height: 6px; background: var(--bg-soft); border-radius: 3px; overflow: hidden;
 }
 .controls .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); transition: width .25s; }
+/* Button groups: invisible on desktop (one row, as before); on touch screens
+   they become separate rows — see TOUCH UI below. */
+.ctl-nav, .ctl-more { display: contents; }
 .feedback { margin-top: 12px; padding: 10px 14px; border-radius: 10px; font-size: 14px; font-weight: 600; display: none; }
 .feedback.show { display: block; }
 .feedback.ok { background: rgba(16,185,129,.12); color: var(--ok); border: 1px solid var(--ok); }
@@ -912,6 +915,9 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 /* ============== HIGH-YIELD ANALYSIS PAGE ============== */
 .hero-cta { display: flex; flex-wrap: wrap; gap: 8px; }
 .report-link.alt { background: linear-gradient(135deg, rgba(16,185,129,.18), rgba(108,141,255,.10)); border-color: var(--ok); }
+/* Android app only: "⬇ Mettre à jour l'app" (opens the latest APK in the browser). */
+.report-link.app-update { background: linear-gradient(135deg, rgba(245,158,11,.18), rgba(108,141,255,.10)); border-color: var(--warn); }
+.report-link .app-ver { font-family: var(--mono); font-size: 11px; color: var(--text-dim); margin-left: 4px; }
 .hy-hero h1 { font-size: 22px; }
 .hy-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 .hy-card { background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; display: flex; flex-direction: column; gap: 6px; }
@@ -1096,6 +1102,26 @@ a.cur-sem-head:focus-visible .cur-sem-dl { opacity: 1; transform: translateY(1px
   .report-link:hover { transform: none; }
   .opt, .q-chip, .exam-tile, .tab, .review-filters .chip { touch-action: manipulation; }
 }
+
+/* ============== TOUCH UI (html.touch-ui: phones, tablets, Android app) ============== */
+/* Built against mis-taps (app.js sets the class). The buttons used on every
+   question get their own big row; everything else sits in a smaller row well
+   below, out of reach of a thumb aiming for Next. No 🎯 Focus button: it sat
+   next to Next — focus mode is left with the floating ✕ Focus, set in Settings. */
+html.touch-ui #btn-focus { display: none !important; }
+html.touch-ui .controls { flex-direction: column; align-items: stretch; gap: 0; margin-top: 20px; }
+html.touch-ui .controls .ctl-nav { order: 1; display: flex; gap: 14px; }
+html.touch-ui .controls .ctl-nav button { flex: 1 1 0; min-height: 52px; font-size: 16px; }
+html.touch-ui .controls .ctl-nav #btn-check { flex-grow: 2; }
+html.touch-ui .controls .progress { order: 2; flex: 0 0 6px; min-width: 0; margin-top: 14px; }
+html.touch-ui .controls .ctl-more {
+  order: 3; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;
+  margin-top: 30px; padding-top: 14px; border-top: 1px dashed var(--border);
+}
+html.touch-ui .controls .ctl-more button { flex: 0 1 auto; min-height: 40px; min-width: 64px; font-size: 13px; }
+html.touch-ui .focus-exit { min-height: 36px; padding: 6px 12px; }
+html.touch-ui.focus-mode .qhead { padding-right: 96px; }   /* keep the topic tag clear of the floating ✕ Focus */
+html.touch-ui.focus-mode .hero > h1, html.touch-ui.focus-mode .hero > p { padding-right: 92px; }   /* same, dashboard */
 
 /* ============== ACCESSIBILITY & READABILITY ============== */
 /* Visible keyboard focus everywhere (mouse clicks stay clean via :focus-visible). */

@@ -2,8 +2,12 @@ package online.qe.mcqbank;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.KeyEvent;
+import android.webkit.JavascriptInterface;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebSettings;
@@ -55,7 +59,42 @@ public class MainActivity extends AppCompatActivity {
             "(function(){var o=document.querySelectorAll('.overlay');"
             + "if(!o.length)return false;o.forEach(function(x){x.remove();});return true;})()";
 
+    // Volume buttons turn questions like pages in a reader app (ReadEra-style):
+    // ▼ = check the answer, then next question · ▲ = previous question.
+    // Only on a question page (modules/*.html) and only while the setting is on
+    // (Settings → "Volume buttons", default on); everywhere else they still
+    // change the volume. Stored here, not in localStorage, because
+    // dispatchKeyEvent must decide synchronously whether to swallow the key.
+    private static final String PREF_VOLUME_NAV = "volumeNav";
+
     private WebView webView;
+    private SharedPreferences prefs;
+    private volatile boolean volumeNav = true;
+    private String versionName = "";
+
+    /**
+     * The only native API the pages can call, as window.QEAndroid: the
+     * installed version (shown next to the in-app "⬇ Mettre à jour" button)
+     * and the volume-button setting. JS calls arrive on a background thread,
+     * hence the volatile flag; there is no network, so only our own pages run.
+     */
+    private final class AppBridge {
+        @JavascriptInterface
+        public String appVersion() {
+            return versionName;
+        }
+
+        @JavascriptInterface
+        public boolean isVolumeNav() {
+            return volumeNav;
+        }
+
+        @JavascriptInterface
+        public void setVolumeNav(boolean on) {
+            volumeNav = on;
+            prefs.edit().putBoolean(PREF_VOLUME_NAV, on).apply();
+        }
+    }
 
     /** Phones get focus mode by default; tablets keep the sidebar layout. */
     private String seedJs() {
@@ -80,6 +119,16 @@ public class MainActivity extends AppCompatActivity {
         settings.setDatabaseEnabled(true);
         settings.setCacheMode(WebSettings.LOAD_DEFAULT);
 
+        try {
+            versionName = getPackageManager().getPackageInfo(getPackageName(), 0).versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            versionName = "";
+        }
+        prefs = getSharedPreferences("qe", MODE_PRIVATE);
+        volumeNav = prefs.getBoolean(PREF_VOLUME_NAV, true);
+        // Must be added before the first loadUrl() to exist on every page.
+        webView.addJavascriptInterface(new AppBridge(), "QEAndroid");
+
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
@@ -87,9 +136,14 @@ public class MainActivity extends AppCompatActivity {
                 String scheme = uri.getScheme();
                 if ("http".equals(scheme) || "https".equals(scheme)) {
                     // External resources (Data page archives/playlists, high-yield
-                    // source links, etc.): hand off to the user's browser instead
-                    // of navigating the offline shell.
-                    startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                    // source links, the "⬇ Mettre à jour" APK download, etc.):
+                    // hand off to the user's browser instead of navigating the
+                    // offline shell — the app itself has no INTERNET permission.
+                    try {
+                        startActivity(new Intent(Intent.ACTION_VIEW, uri));
+                    } catch (ActivityNotFoundException e) {
+                        toast("Aucun navigateur installé pour ouvrir ce lien");
+                    }
                     return true;
                 }
                 if (request.isForMainFrame()) {
@@ -162,6 +216,33 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+    }
+
+    /**
+     * Volume ▼ / ▲ → QE.hwNav(+1 / -1) on a question page (see app.js). The
+     * key is swallowed there — down, auto-repeat and up — so the volume stays
+     * put; holding the button doesn't race through questions (repeats ignored).
+     */
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event) {
+        int code = event.getKeyCode();
+        boolean volumeKey = code == KeyEvent.KEYCODE_VOLUME_DOWN || code == KeyEvent.KEYCODE_VOLUME_UP;
+        if (volumeKey && volumeNav && onQuestionPage()) {
+            if (event.getAction() == KeyEvent.ACTION_DOWN && event.getRepeatCount() == 0) {
+                int dir = code == KeyEvent.KEYCODE_VOLUME_DOWN ? 1 : -1;
+                webView.evaluateJavascript("window.QE&&QE.hwNav&&QE.hwNav(" + dir + ")", null);
+            }
+            return true;
+        }
+        return super.dispatchKeyEvent(event);
+    }
+
+    /** True on modules/<slug>.html — the pages that show questions. */
+    private boolean onQuestionPage() {
+        String url = webView == null ? null : webView.getUrl();
+        if (url == null) return false;
+        String path = Uri.parse(url).getPath();
+        return path != null && path.startsWith("/android_asset/modules/");
     }
 
     /**

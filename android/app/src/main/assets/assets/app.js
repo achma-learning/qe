@@ -540,6 +540,32 @@
   }
   applyFocus(LS.get('focusMode', false));
 
+  // ===== Touch UI (phones, tablets, the Android app) =====
+  // A finger is a wide pointer: buttons that sit side by side get hit by
+  // mistake. html.touch-ui switches the viewer to a layout built for that
+  // (style.css): big Prev / Check / Next on their own row, secondary actions
+  // pushed away below, no 🎯 Focus button next to Next.
+  // window.QEAndroid is the bridge MainActivity.java injects — only in the app.
+  const IN_APP = typeof window.QEAndroid !== 'undefined';
+  const TOUCH_UI = IN_APP || !!(window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches);
+  if (TOUCH_UI) document.documentElement.classList.add('touch-ui');
+  // Volume-button navigation is an app setting stored on the Java side, so the
+  // app can decide synchronously whether a volume press is ours or the system's.
+  function appVolumeNav() {
+    try { return IN_APP && !!window.QEAndroid.isVolumeNav(); } catch { return false; }
+  }
+  // In-app update: the app has no INTERNET permission, so it can't download
+  // anything itself. The button opens the newest release's APK in the phone's
+  // browser (MainActivity sends every http(s) link there); opening the file
+  // updates the app in place and keeps progress — releases share one signing
+  // key (android/qe-debug.keystore) and a higher versionCode. Relies on the
+  // release asset keeping the exact name qe-bank-debug.apk.
+  const APP_APK_URL = 'https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk';
+  const APP_RELEASES_URL = 'https://github.com/achma-learning/qe/releases';
+  function appVersion() {
+    try { return IN_APP ? String(window.QEAndroid.appVersion() || '') : ''; } catch { return ''; }
+  }
+
   // ===== Activity log / streaks =====
   // One compact record per calendar day in qe:activity:
   //   { 'YYYY-MM-DD': { answered, correct, ms } }
@@ -913,6 +939,7 @@
           <div class="keys">${k('←')} ${k('→')} ${k('↑')} ${k('↓')}</div><div>Prev / next question</div>
           <div class="keys">${k('N')} ${k('J')} / ${k('K')}</div><div>Next / prev (vim-ish)</div>
           <div class="keys">${k('R')}</div><div>Reset current question</div>
+          ${IN_APP ? `<div class="keys">${k('Volume ▼')} / ${k('Volume ▲')}</div><div>📱 App: check the answer, then next question · previous question (Settings to turn off)</div>` : ''}
           <div class="keys">${k('G')}</div><div>Go to question # (prompt)</div>
           <div class="keys">${k('C')} / ${k('Shift+C')}</div><div>🏷 Filter the module by curriculum lesson (multi-select) · clear the filter</div>
           <div class="keys">${k('M')} / ${k('9')}</div><div>Module switcher</div>
@@ -1093,6 +1120,14 @@
       panel.innerHTML = `
         <h3>⚙️ Settings</h3>
         <div style="display:flex;flex-direction:column;gap:14px;font-size:14px;">
+          ${IN_APP ? `<div style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--bg-soft);">
+            <div style="font-weight:700;margin-bottom:8px;">📱 App Android — version installée : ${escapeHtml(appVersion() || '?')}</div>
+            <div style="display:flex;gap:8px;flex-wrap:wrap;">
+              <a class="report-link app-update" href="${APP_APK_URL}">⬇ Télécharger la dernière version</a>
+              <a class="report-link alt" href="${APP_RELEASES_URL}">Nouveautés</a>
+            </div>
+            <div style="font-size:12px;color:var(--text-dim);margin-top:8px;">Le téléchargement s'ouvre dans votre navigateur. Ouvrez ensuite le fichier : la mise à jour remplace l'app et garde vos progrès.</div>
+          </div>` : ''}
           <div style="border:1px solid var(--border);border-radius:10px;padding:10px 12px;background:var(--bg-soft);">
             <div style="font-weight:700;margin-bottom:6px;">Mode</div>
             <label style="display:flex;align-items:center;gap:10px;cursor:pointer;margin-bottom:4px;">
@@ -1108,6 +1143,14 @@
             <input type="checkbox" id="set-auto" ${cfg.autoAdvance ? 'checked' : ''}>
             <span><b>Auto-advance</b> — apply current loadout (Q/A timers) — Training only</span>
           </label>
+          <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
+            <input type="checkbox" id="set-focus" ${document.documentElement.classList.contains('focus-mode') ? 'checked' : ''}>
+            <span><b>🎯 Focus mode</b> — hide everything but the question (also <kbd>Z</kbd>)</span>
+          </label>
+          ${IN_APP ? `<label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
+            <input type="checkbox" id="set-volnav" ${appVolumeNav() ? 'checked' : ''}>
+            <span><b>📱 Volume buttons</b> — <b>▼</b> check the answer, then next question · <b>▲</b> previous question (turn off to use them for volume)</span>
+          </label>` : ''}
           <label style="display:flex;align-items:center;gap:10px;cursor:pointer;">
             <input type="checkbox" id="set-multi" ${cfg.multiSelect ? 'checked' : ''}>
             <span><b>Multi-select</b> mode (toggle answers with 1–5)</span>
@@ -1147,6 +1190,9 @@
         cfg.autoAdvance = panel.querySelector('#set-auto').checked;
         cfg.multiSelect = panel.querySelector('#set-multi').checked;
         cfg.showCorrectionOnCopy = panel.querySelector('#set-corr').checked;
+        applyFocus(panel.querySelector('#set-focus').checked);
+        const vol = panel.querySelector('#set-volnav');
+        if (vol) { try { window.QEAndroid.setVolumeNav(vol.checked); } catch {} }
         const m = parseInt(panel.querySelector('#set-pomo').value, 10);
         if (!isNaN(m) && m > 0 && m <= 180) cfg.pomoMinutes = m;
         const oldMode = getMode();
@@ -1494,6 +1540,7 @@
     items.push({ icon: '🍅', title: (pomo.running ? 'Pause' : 'Start') + ' pomodoro', hint: 'P', run: pomoToggle });
     items.push({ icon: '🔁', title: 'Toggle Training / Exam mode', sub: 'currently ' + getMode(), run: () => { toggleMode(); if (onViewer) location.href = location.pathname; } });
     items.push({ icon: '⛶', title: 'Toggle fullscreen', hint: 'F', run: toggleFS });
+    if (IN_APP) items.push({ icon: '⬇', title: "Mettre à jour l'app", sub: 'installée : v' + appVersion() + ' · télécharge la dernière version', run: go(APP_APK_URL) });
     if (onViewer) {
       items.push({ icon: '#️⃣', title: 'Go to question…', hint: 'G', run: () => { if (state.viewer && state.viewer.gotoPrompt) state.viewer.gotoPrompt(); } });
       items.push({ icon: '🏷', title: 'Filtrer par cours (curriculum)', sub: 'questions d\'un ou plusieurs cours du module', hint: 'C', run: () => { if (state.viewer && state.viewer.lessonFilter) state.viewer.lessonFilter(); } });
@@ -1820,6 +1867,7 @@
           <div class="hero-cta">
             <a class="report-link" href="report.html">🧠 Rapport IA — corrige tes erreurs</a>
             <a class="report-link alt" href="high-yield.html">📈 Questions à forte rentabilité</a>
+            ${IN_APP ? `<a class="report-link app-update" href="${APP_APK_URL}" title="Télécharge la dernière version dans le navigateur — ouvrez le fichier pour installer, vos progrès sont gardés">⬇ Mettre à jour l'app <span class="app-ver">v${escapeHtml(appVersion())}</span></a>` : ''}
           </div>
           <div class="hint">
             <kbd>⌘</kbd><kbd>K</kbd> palette · <kbd>1</kbd>–<kbd>9</kbd> jump · <kbd>↑↓←→</kbd> focus · <kbd>Enter</kbd> open ·
@@ -2245,6 +2293,11 @@
     const viewer = makeViewer(root, module, parsed, island);
     state.viewer = viewer;
     viewer.render();
+    // One-time tip in the Android app: the volume buttons move between questions.
+    if (appVolumeNav() && !LS.get('hint.volumeNav', false)) {
+      LS.set('hint.volumeNav', true);
+      setTimeout(() => toast('📱 Volume ▼ = check, then next · ▲ = previous'), 600);
+    }
 
     document.addEventListener('keydown', (e) => viewer.onKey(e), true);
     document.addEventListener('keyup', (e) => viewer.onKeyUp(e), true);
@@ -2292,6 +2345,7 @@
           activeExamIdx = ei;
           const sess = examSession(ei);
           viewMode = sess.submitted ? 'exam-review' : 'exam-run';
+          if (!sess.submitted && !sess.startedAt) { sess.startedAt = Date.now(); saveExamSession(ei, sess); }
           const grp = exams[ei];
           const localCur = Math.max(0, Math.min(grp.questions.length - 1, sess.cur || 0));
           idx = examStarts[ei] + localCur;
@@ -2324,7 +2378,9 @@
     let resetConfirm = false, resetConfirmT = null;
     let tLong = false, tLongT = null;
     let submitConfirm = false, submitConfirmT = null;
-    let examStartT = 0;
+    // Reopened straight into an exam (?exam=N: reload, Back): resume the clock
+    // from the session's start — left at 0, the banner showed minutes since 1970.
+    let examStartT = viewMode === 'exam-run' ? (examSession(activeExamIdx).startedAt || Date.now()) : 0;
     let examTimerH = null;
     let examPickFocus = -1;     // keyboard focus cursor on the exam-picker tiles
     let reviewFocus = -1;       // keyboard focus cursor on the exam-review correction cards
@@ -2770,16 +2826,20 @@
             <div class="options">${optionsHtml}</div>
             ${feedback}
             <div class="controls">
-              <button id="btn-prev" title="Prev (← / P / K)">‹ Prev</button>
-              <button id="btn-check" class="primary" title="${checked ? 'Next (Space / Enter)' : 'Check (Space / Enter)'}">${checked ? 'Next ›' : 'Check'}</button>
-              <button id="btn-next" title="Next (→ / N / J)">Next ›</button>
-              <button id="btn-reset" title="Reset (R)">Reset</button>
-              <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
-              <button id="btn-auto" class="${cfg.autoAdvance ? 'active' : ''}" title="Auto-advance (A)">${cfg.autoAdvance ? '⏸ Auto' : '▶ Auto'}</button>
-              ${focusBtnHtml()}
-              <button id="btn-loadout" title="Loadout (T)">${preset.emoji} ${preset.q}/${preset.a}</button>
-              <button id="btn-mod" title="Module switcher (M)">📚</button>
-              <button id="btn-lessons" class="${filterList ? 'active' : ''}" title="Filtrer par cours (C)">🏷${filterList ? ' ' + filterList.length : ''}</button>
+              <div class="ctl-nav">
+                <button id="btn-prev" title="Prev (← / P / K)">‹ Prev</button>
+                <button id="btn-check" class="primary" title="${checked ? 'Next (Space / Enter)' : 'Check (Space / Enter)'}">${checked ? 'Next ›' : 'Check'}</button>
+                <button id="btn-next" title="Next (→ / N / J)">Next ›</button>
+              </div>
+              <div class="ctl-more">
+                <button id="btn-reset" title="Reset (R)">Reset</button>
+                <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
+                <button id="btn-auto" class="${cfg.autoAdvance ? 'active' : ''}" title="Auto-advance (A)">${cfg.autoAdvance ? '⏸ Auto' : '▶ Auto'}</button>
+                ${focusBtnHtml()}
+                <button id="btn-loadout" title="Loadout (T)">${preset.emoji} ${preset.q}/${preset.a}</button>
+                <button id="btn-mod" title="Module switcher (M)">📚</button>
+                <button id="btn-lessons" class="${filterList ? 'active' : ''}" title="Filtrer par cours (C)">🏷${filterList ? ' ' + filterList.length : ''}</button>
+              </div>
               <div class="progress" title="${answeredCount}/${total}"><span style="width:${pct}%"></span></div>
             </div>
           </div>
@@ -2793,7 +2853,7 @@
       root.querySelector('#btn-prev').addEventListener('click', prev);
       root.querySelector('#btn-next').addEventListener('click', next);
       root.querySelector('#btn-check').addEventListener('click', spaceAction);
-      root.querySelector('#btn-reset').addEventListener('click', resetCurrent);
+      root.querySelector('#btn-reset').addEventListener('click', () => resetFromButton('Reset'));
       root.querySelector('#btn-toggle-side').addEventListener('click', toggleSidebar);
       root.querySelector('#btn-focus').addEventListener('click', toggleFocus);
       root.querySelector('#btn-auto').addEventListener('click', toggleAuto);
@@ -3101,13 +3161,17 @@
             <div class="qtext">${escapeHtml(q.text)}</div>
             <div class="options">${optionsHtml}</div>
             <div class="controls">
-              <button id="btn-prev" title="Prev (← / K)">‹ Prev</button>
-              <button id="btn-next" title="Next (→ / N / J / Space / Enter)">Next ›</button>
-              <button id="btn-reset" title="Reset (R)">Clear</button>
-              <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
-              ${focusBtnHtml()}
-              <button id="btn-exit-exam" title="Pause & exit (Esc)">⏸ Exit</button>
-              <button id="btn-submit" class="primary" title="Submit exam (press twice)">Submit ▶</button>
+              <div class="ctl-nav">
+                <button id="btn-prev" title="Prev (← / K)">‹ Prev</button>
+                <button id="btn-next" title="Next (→ / N / J / Space / Enter)">Next ›</button>
+              </div>
+              <div class="ctl-more">
+                <button id="btn-reset" title="Reset (R)">Clear</button>
+                <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
+                ${focusBtnHtml()}
+                <button id="btn-exit-exam" title="Pause & exit (Esc)">⏸ Exit</button>
+                <button id="btn-submit" class="primary" title="Submit exam (press twice)">Submit ▶</button>
+              </div>
               <div class="progress" title="${answered}/${total} answered"><span style="width:${pct}%"></span></div>
             </div>
           </div>
@@ -3119,7 +3183,7 @@
       });
       root.querySelector('#btn-prev').addEventListener('click', prev);
       root.querySelector('#btn-next').addEventListener('click', next);
-      root.querySelector('#btn-reset').addEventListener('click', resetCurrent);
+      root.querySelector('#btn-reset').addEventListener('click', () => resetFromButton('Clear'));
       root.querySelector('#btn-toggle-side').addEventListener('click', toggleSidebar);
       root.querySelector('#btn-focus').addEventListener('click', toggleFocus);
       root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
@@ -3567,11 +3631,39 @@
       }
     }
 
-    // Focus-mode toggle in the controls row (also Z): the only way to reach it
-    // with no keyboard, e.g. in the Android app.
+    // Focus-mode toggle in the controls row (also Z). Hidden on touch screens
+    // (html.touch-ui): it sat one finger-width from Next and got hit by mistake.
+    // There, focus mode is left with the floating "✕ Focus" and set in Settings.
     function focusBtnHtml() {
       const on = document.documentElement.classList.contains('focus-mode');
       return `<button id="btn-focus" class="${on ? 'active' : ''}" title="Focus mode (Z)">🎯 ${on ? 'Quitter focus' : 'Focus'}</button>`;
+    }
+
+    // On a touch screen Reset/Clear sits just below Next: a single mis-tap would
+    // wipe the answer, so it needs a second tap within 1.5 s (like the R key).
+    function resetFromButton(label) {
+      if (!TOUCH_UI || resetConfirm) {
+        clearTimeout(resetConfirmT); resetConfirm = false;
+        resetCurrent();
+        return;
+      }
+      resetConfirm = true;
+      toast(`⚠️ Tap ${label} again to clear this answer`, 'warn');
+      resetConfirmT = setTimeout(() => { resetConfirm = false; }, 1500);
+    }
+
+    // Hardware buttons (the Android app's volume keys, via QE.hwNav): +1 = ▼,
+    // -1 = ▲. Forward first reveals the correction of an answered question,
+    // then moves on — so tap the options, and never touch Check/Next at all.
+    function hwNav(dir) {
+      if (document.querySelector('.overlay')) return;     // a panel owns the screen
+      if (viewMode === 'training') {
+        if (dir > 0 && !checked && picked.size > 0) { check(); return; }
+        if (dir > 0) next(); else prev();
+        return;
+      }
+      if (viewMode === 'exam-run') { if (dir > 0) next(); else prev(); return; }
+      if (viewMode === 'exam-review') focusReviewItem(reviewFocus < 0 ? 0 : reviewFocus + dir);
     }
 
     function toggleSidebar() {
@@ -3920,6 +4012,7 @@
       stopTimer,
       gotoPrompt: gotoQuestionPrompt,
       lessonFilter: showLessonFilter,
+      hwNav,
     };
   }
 
@@ -5185,6 +5278,8 @@
     showAnalysis,
     showCommandPalette,
     toggleFocus,
+    // Android app: MainActivity calls QE.hwNav(1 | -1) on volume ▼ / ▲.
+    hwNav: (dir) => { if (state.viewer && state.viewer.hwNav) state.viewer.hwNav(dir); },
     computeActivity,
     computeReminders,
     PRESETS,

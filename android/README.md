@@ -13,8 +13,8 @@ so the High-Yield page works with no connection at all.
 - **Package:** `online.qe.mcqbank`
 - **Min SDK:** 23 (Android 6.0) · **Target SDK:** 34
 - **Permissions:** none. The app never touches the network; external links
-  (Data page archives/playlists, high-yield source docs, etc.) hand off to
-  the device's browser instead.
+  (Data page archives/playlists, high-yield source docs, the update
+  download) hand off to the device's browser instead.
 - **Storage:** progress, exam sessions, planner settings and theme persist
   via the WebView's local storage, scoped to this app — same behavior as the
   browser version, just backed by the app's private data instead of a
@@ -28,9 +28,24 @@ so the High-Yield page works with no connection at all.
   `MainActivity` seeds `qe:focusMode` by prepending one line to `assets/app.js`
   as it's served (`shouldInterceptRequest`), rather than forking the file, so
   the "Rebuild from source" `cp` step below stays a plain, unmodified copy.
-- **Focus + Auto buttons on the question page:** the controls row has a
-  🎯 Focus toggle (same as `Z`) and ▶ Auto (auto-advance, same as `A`), and
-  both stay visible in focus mode — no keyboard needed.
+- **Volume buttons turn questions (1.4):** on a question page, volume ▼
+  checks the answer if one is picked, otherwise goes to the next question;
+  ▲ goes back. `MainActivity.dispatchKeyEvent` swallows the keys there (down,
+  repeats and up — holding doesn't race through questions) and calls
+  `QE.hwNav(±1)` in the page; everywhere else they still change the volume.
+  Settings → "📱 Volume buttons" turns it off; the flag lives in
+  `SharedPreferences` because the key handler must decide synchronously.
+- **In-app update (1.4):** "⬇ Mettre à jour l'app" (dashboard, Settings,
+  command palette) opens
+  `releases/latest/download/qe-bank-debug.apk` in the browser — the app has
+  no INTERNET permission, so it can't download or check versions itself.
+  Opening the file updates in place because every release uses the same key
+  and a higher `versionCode`. The page reads the installed version through
+  the `window.QEAndroid` bridge (`appVersion()`).
+- **Touch layout (1.4):** Prev / Check / Next on their own big row, other
+  buttons in a smaller row below; no 🎯 Focus button on touch (leave focus
+  mode with the floating "✕ Focus", turn it on in Settings); Reset needs two
+  taps. Comes from the site's `html.touch-ui` CSS, not from Android code.
 - **Back closes panels first:** with the lesson filter, settings, command
   palette or help open, the Back button/gesture closes that panel instead of
   leaving the page.
