@@ -444,6 +444,69 @@ html.light .hero-stats .stat { background: rgba(0,0,0,.025); }
 .qhead .qtopic { font-family: var(--mono); font-size: 11px; background: var(--bg-soft); padding: 2px 8px; border-radius: 5px; color: var(--text-dim); }
 .qhead .qexam { font-size: 12px; color: var(--text-faint); font-family: var(--mono); }
 
+/* ============== LESSON FILTER (curriculum tags, C key) ============== */
+.sidebar .q-chip.out { opacity: .28; }
+.sidebar .q-chip.out:hover { opacity: .8; }
+.controls button.active { border-color: var(--accent); color: var(--accent); background: rgba(108,141,255,.12); }
+.lf-bar {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  margin: -4px 0 12px; padding: 6px 8px; border: 1px dashed var(--accent); border-radius: 8px;
+  background: rgba(108,141,255,.07); font-size: 12px;
+}
+.lf-bar-pos { font-family: var(--mono); color: var(--text-dim); white-space: nowrap; }
+.lf-bar-tags { display: flex; gap: 4px; flex-wrap: wrap; flex: 1; min-width: 0; }
+.lf-tag { background: var(--bg-soft); border: 1px solid var(--border); border-radius: 5px; padding: 1px 7px; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lf-tag.more { color: var(--text-dim); }
+.lf-bar .mini, .lf-actions .mini {
+  font-size: 11px; padding: 3px 8px; background: var(--bg-soft); border: 1px solid var(--border);
+  border-radius: 6px; color: var(--text-dim); cursor: pointer;
+}
+.lf-bar .mini:hover, .lf-actions .mini:hover { border-color: var(--accent); color: var(--text); }
+.overlay .panel.lf-panel { max-width: 720px; display: flex; flex-direction: column; overflow: hidden; }
+.lf-cur { color: var(--text-dim); font-weight: 400; }
+.lf-search {
+  width: 100%; box-sizing: border-box; padding: 9px 12px; margin-bottom: 10px;
+  border: 1px solid var(--border); border-radius: 8px; background: var(--bg-soft); color: var(--text); font-size: 14px;
+}
+.lf-search:focus { outline: none; border-color: var(--accent); }
+.lf-list { overflow-y: auto; min-height: 120px; flex: 1; padding-right: 2px; }
+.lf-row {
+  display: flex; align-items: center; gap: 10px; padding: 7px 10px; border-radius: 8px;
+  cursor: pointer; border: 1px solid transparent; font-size: 14px; user-select: none;
+}
+.lf-row:hover, .lf-row.focused { background: var(--bg-soft); border-color: var(--border); }
+.lf-row.focused { border-color: var(--accent); }
+.lf-row.lf-group { margin-top: 10px; font-weight: 700; color: var(--accent); text-transform: uppercase; font-size: 12px; letter-spacing: .5px; }
+.lf-row.lf-child { padding-left: 22px; }
+.lf-row .label { flex: 1; min-width: 0; }
+.lf-row .right { font-family: var(--mono); font-size: 11px; color: var(--text-faint); white-space: nowrap; text-transform: none; letter-spacing: 0; font-weight: 400; }
+.lf-row .right.good { color: var(--ok); }
+.lf-row .right.mid  { color: var(--warn); }
+.lf-row .right.weak { color: var(--bad); }
+.lf-check {
+  width: 16px; height: 16px; flex-shrink: 0; border: 1.5px solid var(--border); border-radius: 4px;
+  display: inline-flex; align-items: center; justify-content: center; font-size: 11px; color: white;
+}
+.lf-row.on .lf-check { background: var(--accent); border-color: var(--accent); }
+.lf-row.on .lf-check::after { content: "✓"; }
+.lf-row.via .lf-check { border-color: var(--accent); }
+.lf-row.via .lf-check::after { content: "•"; color: var(--accent); }
+.lf-row.empty { cursor: default; opacity: .4; }
+.lf-row.empty:hover { background: none; border-color: transparent; }
+.lf-panel.hide-empty .lf-row.empty { display: none; }
+.lf-row[hidden], .lf-others[hidden] { display: none; }
+@media (pointer: coarse) { .lf-keys { display: none; } }
+.lf-actions { display: flex; align-items: center; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.lf-summary { flex: 1; font-family: var(--mono); font-size: 12px; color: var(--text-dim); min-width: 160px; }
+@media (max-width: 640px) {
+  .lf-bar-tags { order: 5; flex-basis: 100%; }
+  .lf-bar-pos { flex: 1; }
+  .overlay .panel.lf-panel { padding: 14px; max-height: 92vh; }
+  .lf-row { padding: 10px 8px; }
+  .lf-row .right { font-size: 10px; }
+  .lf-actions button { min-height: 40px; }
+}
+
 .qtext { font-size: 17px; line-height: 1.55; margin: 10px 0 18px; white-space: pre-wrap; }
 .options { display: flex; flex-direction: column; gap: 8px; }
 .opt {
@@ -956,11 +1019,19 @@ a.cur-sem-head:focus-visible .cur-sem-dl { opacity: 1; transform: translateY(1px
    sidebar sit on top as a horizontally-scrolling strip, ease the topbar. */
 @media (max-width: 900px) {
   .viewer { grid-template-columns: 1fr; padding: 12px; gap: 12px; }
-  .sidebar { position: static; max-height: 40vh; }
+  .sidebar { position: static; max-height: 32vh; }
+  /* Stacked sidebar is full-width: pack the chips instead of 5 giant columns. */
+  .sidebar .q-list { grid-template-columns: repeat(auto-fill, minmax(42px, 1fr)); }
   .topbar { gap: 8px; padding: 8px 12px; }
   .topbar .crumb { font-size: 12px; }
   .review-head { grid-template-columns: 1fr; }
   .review-head .score { text-align: left; }
+}
+
+/* Portrait tablets (≤ 1100px): the nav links + controls no longer fit on one
+   line — wrap instead of overflowing off the right edge. */
+@media (max-width: 1100px) {
+  .topbar { flex-wrap: wrap; row-gap: 8px; }
 }
 
 /* Phone (≤ 600px): single-column everything, bigger tap targets, no hover-only
@@ -1077,7 +1148,6 @@ html.focus-mode #qe-island,
 html.focus-mode .qhead .qexam,
 html.focus-mode .controls #btn-toggle-side,
 html.focus-mode .controls #btn-loadout,
-html.focus-mode .controls #btn-auto,
 html.focus-mode .controls #btn-mod { display: none !important; }
 html.focus-mode .viewer { grid-template-columns: 1fr; max-width: 800px; padding-top: 30px; }
 html.focus-mode .qpane { border: none; background: transparent; min-height: 84vh; padding-top: 6px; }
@@ -1100,7 +1170,7 @@ html.focus-mode .focus-exit { display: inline-flex; }
 .coach-trend .ct-lbl { font-size: 12px; color: var(--text-dim); }
 .coach-trend .spark { display: flex; align-items: flex-end; gap: 3px; height: 46px; }
 .coach-trend .spark .sp { flex: 1; background: linear-gradient(180deg, var(--accent), var(--accent-2)); border-radius: 2px 2px 0 0; min-height: 4px; }
-.coach-trend .spark .sp.empty { background: var(--bg-soft); }
+.coach-trend .spark .sp.empty { background: var(--bg-soft); padding: 0; }   /* not the generic .empty state box */
 .coach-trend .ct-foot { font-family: var(--mono); font-size: 11px; color: var(--text-faint); }
 .coach-reminders h4 { margin: 0 0 8px; font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: .7px; display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .coach-reminders h4 a { font-size: 11px; text-transform: none; letter-spacing: 0; white-space: nowrap; }
@@ -1116,7 +1186,8 @@ a.reminder:hover { border-color: var(--accent); text-decoration: none; transform
 .reminder.stale { border-left: 3px solid var(--accent-2); }
 .reminder.streak { border-left: 3px solid var(--warn); }
 .reminder.strength { border-left: 3px solid var(--ok); }
-@media (max-width: 700px) { .coach { grid-template-columns: 1fr; } }
+@media (max-width: 700px) { .coach { grid-template-columns: minmax(0, 1fr); } }
+.coach > * { min-width: 0; }   /* long reminder text must wrap, not widen the page */
 
 /* ============== ANALYSIS REMINDERS BAND ============== */
 .analysis-reminders { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px; }

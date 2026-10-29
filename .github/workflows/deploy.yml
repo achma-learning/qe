@@ -54,13 +54,15 @@ jobs:
         if: github.event_name != 'pull_request'
         run: node tools/check-data.js || true
 
-      # Turn the .txt files into the baked data the site reads, and scan
-      # qe-analysis/<slug>/ for high-yield docs → qe-analysis/_analysis.js.
+      # Turn the .txt files into the baked data the site reads, scan
+      # qe-analysis/<slug>/ for high-yield docs → qe-analysis/_analysis.js, and
+      # map every question topic onto a curriculum lesson → data/_lessons.js.
       - name: Bake data
         run: |
           node tools/build-data.js
           node tools/build-analysis.js
           node tools/build-curriculum.js
+          node tools/build-lessons.js
 
       # Keep the committed generated files in sync too (for the offline ZIP / git).
       # Best-effort: if it can't push, the live deploy below still happens.

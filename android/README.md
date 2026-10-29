@@ -19,20 +19,31 @@ so the High-Yield page works with no connection at all.
   via the WebView's local storage, scoped to this app — same behavior as the
   browser version, just backed by the app's private data instead of a
   desktop browser profile.
-- **Focus mode by default:** on first launch the app turns on the site's own
+- **Focus mode by default on phones:** on first launch the app turns on the site's own
   "focus mode" (topbar/sidebar hidden, question pane widened) for better use
-  of a phone-sized screen. Tap the floating "✕ Focus" button, or press `Z`
+  of a phone-sized screen. Tablets (smallest width ≥ 600 dp) keep the normal
+  layout with the question sidebar. Tap the floating "✕ Focus" button, or press `Z`
   with a keyboard, to turn it off — that choice is then remembered like any
   other `qe:*` setting and is never overridden again. This is Android-only:
   `MainActivity` seeds `qe:focusMode` by prepending one line to `assets/app.js`
   as it's served (`shouldInterceptRequest`), rather than forking the file, so
   the "Rebuild from source" `cp` step below stays a plain, unmodified copy.
+- **Focus + Auto buttons on the question page:** the controls row has a
+  🎯 Focus toggle (same as `Z`) and ▶ Auto (auto-advance, same as `A`), and
+  both stay visible in focus mode — no keyboard needed.
+- **Back closes panels first:** with the lesson filter, settings, command
+  palette or help open, the Back button/gesture closes that panel instead of
+  leaving the page.
+- **Dark launch:** the window, status bar and navigation bar use the site's
+  dark background, so there's no white flash while the page loads.
 
 ## Install the prebuilt APK
 
 `dist/qe-bank-debug.apk` is a debug build, self-signed with Gradle's default
 debug key (fine to sideload for personal use; not suitable for Play Store
-distribution as-is). On the device: enable "install unknown apps" for the
+distribution as-is). Each build machine has its own debug key, so a new APK
+built elsewhere may refuse to install over an older one ("App not installed"):
+uninstall the old app first, which clears its saved progress. On the device: enable "install unknown apps" for the
 app you use to open the file, then open the APK.
 
 ## Rebuild from source
@@ -45,7 +56,7 @@ cp index.html report.html high-yield.html curriculum.html playlist-fmpm.html \
    data.html planner.html manifest.webmanifest icon.svg \
    android/app/src/main/assets/
 cp -r assets/app.js assets/modules.js assets/style.css android/app/src/main/assets/assets/
-cp data/_counts.js data/_topics.js data/*.data.js android/app/src/main/assets/data/
+cp data/_counts.js data/_topics.js data/_lessons.js data/*.data.js android/app/src/main/assets/data/
 cp "data/liste cours/_curriculum.js" "android/app/src/main/assets/data/liste cours/"
 cp modules/*.html android/app/src/main/assets/modules/
 cp qe-analysis/_analysis.js android/app/src/main/assets/qe-analysis/

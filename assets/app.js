@@ -914,6 +914,7 @@
           <div class="keys">${k('N')} ${k('J')} / ${k('K')}</div><div>Next / prev (vim-ish)</div>
           <div class="keys">${k('R')}</div><div>Reset current question</div>
           <div class="keys">${k('G')}</div><div>Go to question # (prompt)</div>
+          <div class="keys">${k('C')} / ${k('Shift+C')}</div><div>🏷 Filter the module by curriculum lesson (multi-select) · clear the filter</div>
           <div class="keys">${k('M')} / ${k('9')}</div><div>Module switcher</div>
           <div class="keys">${k('D')} / ${k('0')}</div><div>Dashboard (press 0 twice on viewer)</div>
           <div class="keys">${k('C')} (dashboard)</div><div>Continue last module where you left off</div>
@@ -1495,6 +1496,7 @@
     items.push({ icon: '⛶', title: 'Toggle fullscreen', hint: 'F', run: toggleFS });
     if (onViewer) {
       items.push({ icon: '#️⃣', title: 'Go to question…', hint: 'G', run: () => { if (state.viewer && state.viewer.gotoPrompt) state.viewer.gotoPrompt(); } });
+      items.push({ icon: '🏷', title: 'Filtrer par cours (curriculum)', sub: 'questions d\'un ou plusieurs cours du module', hint: 'C', run: () => { if (state.viewer && state.viewer.lessonFilter) state.viewer.lessonFilter(); } });
       items.push({ icon: '📚', title: 'Switch module', hint: 'M', run: showModuleSwitcher });
       items.push({ icon: '🏠', title: 'Back to dashboard', hint: '0', run: go('../index.html') });
     }
@@ -2358,6 +2360,250 @@
       return { correct: allRight && got.size > 0, partial, unknown: false };
     }
 
+    // ===== Lesson filter (curriculum "tags") =====
+    // Each question's topic is mapped onto the FMPM curriculum lessons by
+    // tools/build-lessons.js (window.QE_LESSONS). In training mode the user can
+    // restrict the module to one or more lessons / sub-modules (C key, 🏷 button).
+    // Keys: 'l<i>' = lesson i, 'g<i>' = sub-module i, 't:<topic>' = a raw topic
+    // the curriculum doesn't cover ("Autres thèmes"). Persisted per module.
+    const lessonInfo = (window.QE_LESSONS || {})[module.slug] || null;
+    const lessonFilterKey = `lessonFilter.${module.slug}`;
+    const NO_TOPIC = '(sans thème)';
+    const qKeys = questions.map(q => {
+      const t = (q.topic || '').trim();
+      const targets = lessonInfo && t && lessonInfo.topics[t];
+      if (!targets || !targets.length) return ['t:' + (t || NO_TOPIC)];
+      const ks = new Set();
+      targets.forEach(x => {
+        if (x >= 0) { ks.add('l' + x); ks.add('g' + lessonInfo.lessonGroup[x]); }
+        else ks.add('g' + (-x - 1));
+      });
+      return [...ks];
+    });
+    const keyCounts = new Map();
+    qKeys.forEach(ks => ks.forEach(k => keyCounts.set(k, (keyCounts.get(k) || 0) + 1)));
+    // Drop stale keys (curriculum/aliases changed since the filter was saved).
+    let lessonSel = new Set(LS.get(lessonFilterKey, []).filter(k => keyCounts.has(k)));
+    let filterList = null;   // sorted qIdx inside the filter, or null = no filter
+    let filterSet = null;
+    function rebuildFilter() {
+      if (!lessonSel.size) { filterList = filterSet = null; return; }
+      filterList = [];
+      qKeys.forEach((ks, i) => { if (ks.some(k => lessonSel.has(k))) filterList.push(i); });
+      filterSet = new Set(filterList);
+    }
+    rebuildFilter();
+    const filterOn = () => viewMode === 'training' && !!filterList;
+    // Reopening a filtered module: resume inside the filter, not on a question
+    // the filter hides (the cursor is only saved when an answer is checked).
+    if (filterOn() && !filterSet.has(idx)) {
+      const firstOpen = filterList.find(i => i > idx && !(answers[i] && answers[i].checked))
+        ?? filterList.find(i => !(answers[i] && answers[i].checked));
+      idx = firstOpen != null ? firstOpen : filterList[0];
+    }
+    function lessonKeyLabel(k) {
+      if (k.startsWith('t:')) return k.slice(2);
+      const i = parseInt(k.slice(1), 10);
+      return k[0] === 'g' ? lessonInfo.groups[i] : lessonInfo.lessons[i];
+    }
+    function setLessonFilter(keys) {
+      lessonSel = new Set(keys);
+      LS.set(lessonFilterKey, [...lessonSel]);
+      rebuildFilter();
+      if (filterList && !filterSet.has(idx)) {
+        // Land on the first unanswered question of the filter (else its first).
+        const firstOpen = filterList.find(i => !(answers[i] && answers[i].checked));
+        idx = firstOpen != null ? firstOpen : filterList[0];
+        phase = 'question';
+      }
+      render();
+      toast(filterList ? `🏷 Filtre : ${filterList.length} question(s)` : '🏷 Filtre retiré', 'ok');
+    }
+
+    // Strip under the question header while a filter is active: position inside
+    // the filtered set + the selected lessons, with edit / clear buttons.
+    function filterBarHtml() {
+      if (!filterOn()) return '';
+      const pos = filterList.indexOf(idx);
+      const done = filterList.filter(i => answers[i] && answers[i].checked).length;
+      const names = [...lessonSel].map(lessonKeyLabel);
+      const shown = names.slice(0, 3).map(n => `<span class="lf-tag">${escapeHtml(n)}</span>`).join('');
+      const more = names.length > 3 ? `<span class="lf-tag more">+${names.length - 3}</span>` : '';
+      return `<div class="lf-bar" title="${escapeHtml(names.join(' · '))}">
+        <span class="lf-bar-pos">🏷 ${pos >= 0 ? pos + 1 : '–'} / ${filterList.length} · ${done} faite${done > 1 ? 's' : ''}</span>
+        <span class="lf-bar-tags">${shown}${more}</span>
+        <button type="button" class="mini lf-bar-edit" title="Modifier le filtre (C)">Modifier</button>
+        <button type="button" class="mini lf-bar-clear" title="Retirer le filtre (Shift+C)">✕</button>
+      </div>`;
+    }
+
+    function showLessonFilter() {
+      if (document.querySelector('.overlay')) { closeOverlays(); return; }
+      if (viewMode !== 'training') { toast('🏷 Le filtre par cours est disponible en mode Training', 'warn'); return; }
+      const draft = new Set(lessonSel);
+      // Per-key stats: questions, answered (with a known correction), correct.
+      const stats = new Map();
+      const rawTopics = new Map();   // key → the question topics behind it (searchable: "rao", "mvte"…)
+      qKeys.forEach((ks, i) => {
+        const rec = answers[i];
+        const done = !!(rec && rec.checked && !rec.unknown);
+        const t = (questions[i].topic || '').trim();
+        ks.forEach(k => {
+          if (t) (rawTopics.get(k) || rawTopics.set(k, new Set()).get(k)).add(t);
+          const s = stats.get(k) || { n: 0, done: 0, ok: 0 };
+          s.n++; if (done) { s.done++; if (rec.correct) s.ok++; }
+          stats.set(k, s);
+        });
+      });
+      const rows = [];   // { key, label, group?, depth }
+      if (lessonInfo) {
+        lessonInfo.groups.forEach((g, gi) => {
+          if (g) rows.push({ key: 'g' + gi, label: g, group: true });
+          lessonInfo.lessons.forEach((l, li) => {
+            if (lessonInfo.lessonGroup[li] === gi) rows.push({ key: 'l' + li, label: l, parent: g ? 'g' + gi : null });
+          });
+        });
+      }
+      const others = [...keyCounts.keys()].filter(k => k.startsWith('t:')).sort((a, b) => a.localeCompare(b, 'fr'));
+      const statTxt = (k) => {
+        const s = stats.get(k);
+        if (!s) return '0';
+        const acc = s.done ? ` · ${Math.round((s.ok / s.done) * 100)}%` : '';
+        return `${s.n} q · ${s.done} faite${s.done > 1 ? 's' : ''}${acc}`;
+      };
+      const accCls = (k) => {
+        const s = stats.get(k);
+        if (!s || s.done < 3) return '';
+        const a = s.ok / s.done;
+        return a >= 0.75 ? ' good' : a < 0.5 ? ' weak' : ' mid';
+      };
+      const rowHtml = (r) => {
+        const empty = !keyCounts.has(r.key);
+        return `<div class="lf-row${r.group ? ' lf-group' : ''}${r.parent ? ' lf-child' : ''}${empty ? ' empty' : ''}" data-key="${escapeHtml(r.key)}"${r.parent ? ` data-parent="${r.parent}"` : ''} data-search="${escapeHtml([r.label, ...(r.group ? [] : rawTopics.get(r.key) || [])].join(' | '))}">
+          <span class="lf-check" aria-hidden="true"></span>
+          <span class="label">${escapeHtml(r.label)}</span>
+          <span class="right${accCls(r.key)}">${statTxt(r.key)}</span>
+        </div>`;
+      };
+      const overlay = makeOverlay((panel) => {
+        panel.classList.add('lf-panel');
+        panel.innerHTML = `
+          <h3>🏷 Filtrer par cours${lessonInfo ? ` — <span class="lf-cur">${escapeHtml(lessonInfo.cur)}</span>` : ''}</h3>
+          <input class="lf-search" type="search" placeholder="Rechercher un cours…" autocomplete="off" spellcheck="false">
+          <div class="lf-list">
+            ${rows.map(rowHtml).join('')}
+            ${others.length ? `<div class="group-title lf-others">${lessonInfo ? 'Autres thèmes (hors curriculum)' : 'Thèmes'}</div>
+              ${others.map(k => rowHtml({ key: k, label: k.slice(2) })).join('')}` : ''}
+          </div>
+          <div class="lf-actions">
+            <span class="lf-summary"></span>
+            <button type="button" class="mini" id="lf-hide-empty" title="Cacher les cours sans question">Masquer vides</button>
+            <button type="button" class="mini" id="lf-clear">Tout effacer</button>
+            <button type="button" class="primary" id="lf-apply">Appliquer</button>
+          </div>
+          <div class="esc-hint lf-keys">Tapez pour chercher · <kbd>↑</kbd><kbd>↓</kbd> naviguer · <kbd>Espace</kbd> cocher · <kbd>Entrée</kbd> appliquer · <kbd>Esc</kbd> fermer</div>
+        `;
+      });
+      const panel = overlay.querySelector('.panel');
+      const search = panel.querySelector('.lf-search');
+      const allRows = [...panel.querySelectorAll('.lf-row')];
+      let cursor = -1;
+      const visibleRows = () => allRows.filter(r => !r.hidden && !r.classList.contains('empty'));
+      const refresh = () => {
+        allRows.forEach(r => {
+          const on = draft.has(r.dataset.key);
+          const viaParent = !on && r.dataset.parent && draft.has(r.dataset.parent);
+          r.classList.toggle('on', on);
+          r.classList.toggle('via', !!viaParent);
+          r.setAttribute('aria-checked', String(on || !!viaParent));
+        });
+        let n = 0;
+        if (draft.size) qKeys.forEach(ks => { if (ks.some(k => draft.has(k))) n++; });
+        panel.querySelector('.lf-summary').textContent = draft.size
+          ? `${n} question(s) · ${draft.size} sélection(s)`
+          : `Aucun filtre · ${questions.length} questions`;
+      };
+      const setCursor = (i) => {
+        const vis = visibleRows();
+        allRows.forEach(r => r.classList.remove('focused'));
+        if (!vis.length) { cursor = -1; return; }
+        cursor = Math.max(0, Math.min(vis.length - 1, i));
+        vis[cursor].classList.add('focused');
+        vis[cursor].scrollIntoView({ block: 'nearest' });
+      };
+      const toggleRow = (r) => {
+        if (!r || r.classList.contains('empty')) return;
+        const k = r.dataset.key;
+        if (draft.has(k)) draft.delete(k); else draft.add(k);
+        refresh();
+      };
+      const apply = () => { closeOverlays(); setLessonFilter([...draft]); };
+      allRows.forEach(r => {
+        r.setAttribute('role', 'checkbox');
+        r.addEventListener('click', () => toggleRow(r));
+      });
+      search.addEventListener('input', () => {
+        const q = norm(search.value);
+        const shown = new Set();
+        allRows.forEach(r => {
+          const hit = !q || norm(r.dataset.search).includes(q);
+          r.hidden = !hit;
+          r.classList.remove('ctx');
+          if (hit && r.dataset.parent) shown.add(r.dataset.parent);
+        });
+        // Keep a sub-module header visible when one of its lessons matches.
+        allRows.forEach(r => {
+          if (r.hidden && r.classList.contains('lf-group') && shown.has(r.dataset.key)) { r.hidden = false; r.classList.add('ctx'); }
+        });
+        const othersHead = panel.querySelector('.lf-others');
+        if (othersHead) othersHead.hidden = !allRows.some(r => !r.hidden && r.dataset.key.startsWith('t:'));
+        // Cursor on the first real match, not a header shown only for context.
+        setCursor(Math.max(0, visibleRows().findIndex(r => !r.classList.contains('ctx'))));
+      });
+      let hideEmpty = !!LS.get('lessonFilter.hideEmpty', false);
+      const applyHideEmpty = () => {
+        panel.classList.toggle('hide-empty', hideEmpty);
+        panel.querySelector('#lf-hide-empty').textContent = hideEmpty ? 'Afficher vides' : 'Masquer vides';
+      };
+      panel.querySelector('#lf-hide-empty').addEventListener('click', () => {
+        hideEmpty = !hideEmpty; LS.set('lessonFilter.hideEmpty', hideEmpty); applyHideEmpty();
+      });
+      applyHideEmpty();
+      panel.querySelector('#lf-clear').addEventListener('click', () => { draft.clear(); refresh(); });
+      panel.querySelector('#lf-apply').addEventListener('click', apply);
+      overlay._qeOwnsTyping = true;
+      overlay._qeKeyHandler = (e) => {
+        const k = e.key;
+        const inSearch = e.target === search;
+        if (k === 'ArrowDown') { setCursor(cursor + 1); return true; }
+        if (k === 'ArrowUp')   { setCursor(cursor - 1); return true; }
+        if (k === 'Enter') {
+          // Ctrl/⌘+Enter or Enter on an untouched search applies; Enter on a
+          // focused row while searching toggles it first (quick pick).
+          if (inSearch && search.value && cursor >= 0 && !e.ctrlKey && !e.metaKey) {
+            const r = visibleRows()[cursor];
+            if (r && !draft.has(r.dataset.key)) toggleRow(r);
+          }
+          apply(); return true;
+        }
+        if (k === ' ' && (!inSearch || cursor >= 0 && !search.value)) { toggleRow(visibleRows()[cursor]); return true; }
+        // Typing anywhere goes to the search box.
+        if (!inSearch && k.length === 1 && !e.ctrlKey && !e.metaKey && !e.altKey) {
+          search.focus(); search.value += k; search.dispatchEvent(new Event('input')); return true;
+        }
+        return false;
+      };
+      refresh();
+      // Start the cursor on the first selected row (or the first row).
+      const vis = visibleRows();
+      const firstOn = vis.findIndex(r => draft.has(r.dataset.key));
+      setCursor(firstOn >= 0 ? firstOn : 0);
+      // Don't pop the on-screen keyboard on touch devices.
+      if (!window.matchMedia || !window.matchMedia('(pointer: coarse)').matches) setTimeout(() => search.focus(), 0);
+    }
+    // Accent/case-insensitive search ("hepatite" finds "Hépatites").
+    function norm(s) { return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
+
     // Persistent map of which non-current exam groups the user has manually
     // expanded. The current exam is always open regardless of this map.
     const openKey = `examOpen.${module.slug}`;
@@ -2408,6 +2654,7 @@
           else if (st.kind === 'unknown') { cls += ' picked';  answered++; }
           else if (st.kind === 'picked')  { cls += ' picked';  picked++; }
           if (st.flagged) cls += ' flagged';
+          if (filterOn() && !filterSet.has(qIdx)) cls += ' out';
           const idAttr = interactive ? `data-idx="${qIdx}"` : '';
           return `<div class="${cls}" ${idAttr} title="${escapeHtml('Q' + qq.qn + (qq.topic ? ' — ' + qq.topic : ''))}">${qq.qn}</div>`;
         }).join('');
@@ -2518,6 +2765,7 @@
               <div class="qexam">${escapeHtml(q.exam)}</div>
               ${q.topic ? `<div class="qtopic">${escapeHtml(q.topic)}</div>` : ''}
             </div>
+            ${filterBarHtml()}
             <div class="qtext">${escapeHtml(q.text)}</div>
             <div class="options">${optionsHtml}</div>
             ${feedback}
@@ -2527,9 +2775,11 @@
               <button id="btn-next" title="Next (→ / N / J)">Next ›</button>
               <button id="btn-reset" title="Reset (R)">Reset</button>
               <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
-              <button id="btn-auto" title="Auto-advance (A)">${cfg.autoAdvance ? '⏸ Auto' : '▶ Auto'}</button>
+              <button id="btn-auto" class="${cfg.autoAdvance ? 'active' : ''}" title="Auto-advance (A)">${cfg.autoAdvance ? '⏸ Auto' : '▶ Auto'}</button>
+              ${focusBtnHtml()}
               <button id="btn-loadout" title="Loadout (T)">${preset.emoji} ${preset.q}/${preset.a}</button>
               <button id="btn-mod" title="Module switcher (M)">📚</button>
+              <button id="btn-lessons" class="${filterList ? 'active' : ''}" title="Filtrer par cours (C)">🏷${filterList ? ' ' + filterList.length : ''}</button>
               <div class="progress" title="${answeredCount}/${total}"><span style="width:${pct}%"></span></div>
             </div>
           </div>
@@ -2545,9 +2795,16 @@
       root.querySelector('#btn-check').addEventListener('click', spaceAction);
       root.querySelector('#btn-reset').addEventListener('click', resetCurrent);
       root.querySelector('#btn-toggle-side').addEventListener('click', toggleSidebar);
+      root.querySelector('#btn-focus').addEventListener('click', toggleFocus);
       root.querySelector('#btn-auto').addEventListener('click', toggleAuto);
       root.querySelector('#btn-loadout').addEventListener('click', cyclePreset);
       root.querySelector('#btn-mod').addEventListener('click', showModuleSwitcher);
+      root.querySelector('#btn-lessons').addEventListener('click', showLessonFilter);
+      const fbar = root.querySelector('.lf-bar');
+      if (fbar) {
+        fbar.querySelector('.lf-bar-edit').addEventListener('click', showLessonFilter);
+        fbar.querySelector('.lf-bar-clear').addEventListener('click', () => setLessonFilter([]));
+      }
 
       root.querySelectorAll('.q-chip').forEach(el => {
         el.addEventListener('click', () => { gotoIdx(parseInt(el.dataset.idx, 10)); });
@@ -2848,6 +3105,7 @@
               <button id="btn-next" title="Next (→ / N / J / Space / Enter)">Next ›</button>
               <button id="btn-reset" title="Reset (R)">Clear</button>
               <button id="btn-toggle-side" title="Sidebar (H)">${cfg.sidebarHidden ? '☰ Show' : '☰ Hide'}</button>
+              ${focusBtnHtml()}
               <button id="btn-exit-exam" title="Pause & exit (Esc)">⏸ Exit</button>
               <button id="btn-submit" class="primary" title="Submit exam (press twice)">Submit ▶</button>
               <div class="progress" title="${answered}/${total} answered"><span style="width:${pct}%"></span></div>
@@ -2863,6 +3121,7 @@
       root.querySelector('#btn-next').addEventListener('click', next);
       root.querySelector('#btn-reset').addEventListener('click', resetCurrent);
       root.querySelector('#btn-toggle-side').addEventListener('click', toggleSidebar);
+      root.querySelector('#btn-focus').addEventListener('click', toggleFocus);
       root.querySelector('#btn-exit-exam').addEventListener('click', exitExam);
       root.querySelector('#btn-submit').addEventListener('click', tryConfirmSubmit);
       root.querySelectorAll('.q-chip[data-idx]').forEach(el => {
@@ -3213,6 +3472,14 @@
         render();
         return true;
       }
+      if (filterOn()) {
+        // Step to the previous / next question inside the lesson filter.
+        let ni = -1;
+        if (direction > 0) ni = filterList.find(i => i > idx);
+        else for (let j = filterList.length - 1; j >= 0; j--) if (filterList[j] < idx) { ni = filterList[j]; break; }
+        if (ni == null || ni < 0) return false;
+        idx = ni; phase = 'question'; render(); return true;
+      }
       if (direction > 0 && idx < questions.length - 1) { idx++; phase = 'question'; render(); return true; }
       if (direction < 0 && idx > 0) { idx--; phase = 'question'; render(); return true; }
       return false;
@@ -3221,7 +3488,7 @@
     function next() {
       if (viewMode === 'exam-review') return;
       const moved = navWithin(+1);
-      if (!moved && viewMode !== 'exam-run') toast('🏁 End of module. Great work!', 'ok');
+      if (!moved && viewMode !== 'exam-run') toast(filterOn() ? '🏁 Fin du filtre — C pour changer de cours' : '🏁 End of module. Great work!', 'ok');
       else if (!moved && viewMode === 'exam-run') toast('Last question — press Submit when ready', 'warn');
     }
     function prev() {
@@ -3298,6 +3565,13 @@
       } else {
         next();
       }
+    }
+
+    // Focus-mode toggle in the controls row (also Z): the only way to reach it
+    // with no keyboard, e.g. in the Android app.
+    function focusBtnHtml() {
+      const on = document.documentElement.classList.contains('focus-mode');
+      return `<button id="btn-focus" class="${on ? 'active' : ''}" title="Focus mode (Z)">🎯 ${on ? 'Quitter focus' : 'Focus'}</button>`;
     }
 
     function toggleSidebar() {
@@ -3588,6 +3862,11 @@
       }
       if (k === 'g' || k === 'G') { e.preventDefault(); gotoQuestionPrompt(); return; }
       if (k === 'h' || k === 'H') { e.preventDefault(); toggleSidebar(); return; }
+      if ((k === 'c' || k === 'C') && !e.ctrlKey && !e.metaKey && !e.altKey && viewMode === 'training') {
+        e.preventDefault();
+        if (e.shiftKey) { if (filterList) setLessonFilter([]); } else showLessonFilter();
+        return;
+      }
 
       // Digit shortcuts: 1-5 select option, 6 settings, 7 auto, 8 loadout cycle, 9 module switcher, 0 dashboard
       if (/^[1-5]$/.test(k)) {
@@ -3640,6 +3919,7 @@
       startTimer,
       stopTimer,
       gotoPrompt: gotoQuestionPrompt,
+      lessonFilter: showLessonFilter,
     };
   }
 

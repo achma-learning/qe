@@ -43,6 +43,7 @@ Open `index.html` and you land on the **dashboard** — every module grouped by 
 - `Space` / `Enter` — check your answer (press again to move on)
 - `←` `→` — previous / next question
 - `Z` — focus mode (everything but the question vanishes)
+- `C` — **filter by lesson**: pick one or more lessons of the FMPM curriculum (or a whole sub-module) and drill only those questions; each lesson shows its question count and your accuracy. `Shift`+`C` clears it. On a phone, tap 🏷.
 - `W` (on the dashboard) — weakness analysis: accuracy per topic, weakest first, with a jump straight to your first wrong answer
 
 It's keyboard-first by design. The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that fuzzy-jumps to any module or runs any command. Press `?` anywhere for the full key map.

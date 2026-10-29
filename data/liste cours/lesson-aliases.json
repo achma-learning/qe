@@ -1,0 +1,525 @@
+{
+  "_README": "Hand-made fixes for tools/build-lessons.js. Per module slug: \"<question topic exactly as in the .txt>\": target. A target is a lesson name from the curriculum, a sub-module name (whole group, e.g. \"Neurochirurgie\"), a list of those, or null (= no lesson, shows under 'Autres thèmes'). Only list topics the fuzzy matcher gets wrong or can't place — run `node tools/build-lessons.js --report` to see them.",
+  "s5-parasito-maladie-infectieuse": {
+    "divers Mi": "Maladies infectieuses",
+    "parasites due a l'immunodepression": [
+      "Protozooses intestinales opportunistes",
+      "Toxoplasmoses"
+    ],
+    "Le paludisme infectieuse": "Paludisme (Malaria)",
+    "Infections BGN": null,
+    "lié au peril fecale": [
+      "Amibes et amibiases",
+      "Flagelloses digestives et urogénitales",
+      "Nématodes : Oxyure, Trichocéphale, Ascaris"
+    ],
+    "Le diagnostique des parasites": "Généralités en parasitologie et mycologie médicale",
+    "parasites transcutanée": [
+      "Nématodes : Trichine, Ankylostomes et Anguillules",
+      "Bilharzioses"
+    ],
+    "Bilharziose Mi": "Bilharziose uro-génitale",
+    "Bilharziose parasito": "Bilharzioses"
+  },
+  "s5-pharmacologie": {
+    "toxico": null,
+    "cas clinique en cardio": [
+      "Antithrombotiques 1",
+      "Antithrombotiques 2",
+      "Antithrombotiques 3",
+      "Les inhibiteurs du SRAA",
+      "Les hypolipémiants",
+      "Les inhibiteurs calciques",
+      "Bétabloquants",
+      "Anti-angoreux",
+      "Digitaliques"
+    ],
+    "endocrino": [
+      "L'insulinothérapie",
+      "Les antidiabétiques"
+    ],
+    "divers infectieuse": [
+      "Antibiothérapie - généralités",
+      "Bêta-lactamines",
+      "Aminosides",
+      "Glycopeptides",
+      "Imidazolés",
+      "Quinolones",
+      "Cyclines",
+      "Macrolides",
+      "Sulfamides",
+      "Phénicolés",
+      "Antiviraux",
+      "Antifongiques"
+    ],
+    "Antibiothérapie - Généralités": "Antibiothérapie - généralités"
+  },
+  "s5-radiologie": {
+    "Imagerie du tube digestif": [
+      "Imagerie du tube digestif 1 - techniques d'exploration et sémiologie élémentaire",
+      "Imagerie du tube digestif 2"
+    ]
+  },
+  "s6-cardio-ccv": {
+    "Rao": "Rétrécissement aortique",
+    "risques cardiovasculaire": "Risque cardiovasculaire",
+    "coarctations de l'aorte": "Coarctation aortique",
+    "htp": "HTAP",
+    "sca st +": "SCA ST+",
+    "sca st -": "SCA ST-",
+    "insuffisance cardiaque + cardiomyopathie": "Insuffisance cardiaque"
+  },
+  "s6-gastro-viscerale": {
+    "ulcéres gastro duodenales": "Maladies ulcéreuses gastro-duodénales",
+    "tbk digestive": "La tuberculose abdominale",
+    "sd de malabsorption": "Les syndromes de malabsorption",
+    "troubles moteurs oesophagiens": null
+  },
+  "s6-pneumo-chir-thoracique": {
+    "TBK commune": "Tuberculose pulmonaire commune",
+    "TBK aigue": "Tuberculoses aiguës",
+    "AAE et pneumopathie d'hypersensibilité": "Pneumopathie d'hypersensibilité (alvéolite allergique extrinsèque)"
+  },
+  "s7-glandes-endocrines-revetement": {
+    "les IST": [
+      "Écoulement urétéral",
+      "Ulcération génitale",
+      "Syphilis"
+    ],
+    "HTA endocriniennes": null,
+    "Sd de cushing et insuff surrénalienne": [
+      "Syndrome de Cushing",
+      "Insuffisance surrénalienne"
+    ],
+    "dermatite": "Eczémas"
+  },
+  "s7-hematologie-oncologie": {
+    "Les anémies": [
+      "Anémie par carence en fer",
+      "Anémie mégaloblastique",
+      "Aplasie médullaire",
+      "Anémie par déficit en G6PD",
+      "Sphérocytose héréditaire",
+      "Drépanocytose",
+      "Thalassémie"
+    ],
+    "Les lymphome": [
+      "Lymphome malin non hodgkinien (LMNH)",
+      "Maladie de Hodgkin"
+    ],
+    "Anémie de Fanconi": "Aplasie médullaire",
+    "Lymphome de Burkitt": "Lymphome malin non hodgkinien (LMNH)",
+    "Thalassémie majeure (complications)": "Thalassémie",
+    "Syndromes cliniques (patiente de 12 ans)": null,
+    "Diagnostics à évoquer (hyperleucocytose)": "Leucémie aiguë",
+    "Diagnostic du lymphome de Hodgkin": "Maladie de Hodgkin",
+    "Maladie de Vaquez / Polyglobulie": "Syndromes myéloprolifératifs Philadelphie négatifs",
+    "Bilan étiologique (Maladie de Vaquez)": "Syndromes myéloprolifératifs Philadelphie négatifs",
+    "Polyglobulie de vaquez": "Syndromes myéloprolifératifs Philadelphie négatifs",
+    "Anémie macrocytaire": "Anémie mégaloblastique",
+    "Traitement de la crise drépanocytaire": "Drépanocytose",
+    "Diagnostic (suspicion) de l'anémie ferriprive": "Anémie par carence en fer",
+    "Diagnostic (confirmation) de l'anémie ferriprive": "Anémie par carence en fer",
+    "Traitement de l'anémie ferriprive": "Anémie par carence en fer",
+    "Bilan étiologique de l'anémie ferriprive": "Anémie par carence en fer",
+    "Registre des cancers de Casablanca": "Épidémiologie des cancers",
+    "Épidémiologie descriptive": "Épidémiologie des cancers",
+    "Étude cas-témoin": "Épidémiologie des cancers",
+    "Tamoxifène": "Hormonothérapie",
+    "Hormonothérapie dans le cancer de la prostate": "Hormonothérapie",
+    "Rayonnements en radiothérapie externe": "Radiothérapie",
+    "Action des radiations ionisantes": "Radiothérapie",
+    "Antalgie immédiate (patient avec rétention aiguë d'urines)": "Douleur et cancer",
+    "Traitement associé systématique aux antalgiques": "Douleur et cancer",
+    "Diagnostic (PSA élevé)": "Diagnostic, bilan d'extension et classification des cancers",
+    "Bilan d'extension à distance (cancer de la prostate)": "Diagnostic, bilan d'extension et classification des cancers",
+    "Bilan de première intention (neutropénie fébrile)": "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile",
+    "Diagnostic (neutropénie fébrile)": "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile",
+    "Mesures urgentes (neutropénie fébrile)": "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile",
+    "Molécules de chimiothérapie cytotoxique": "Chimiothérapie",
+    "Objectifs de la chimiothérapie palliative": "Chimiothérapie",
+    "Anémie chimio-induite": "Chimiothérapie",
+    "Néphrotoxicité médicamenteuse": "Chimiothérapie",
+    "Mode d'action des inhibiteurs de tyrosine kinase (TKI)": "Thérapies ciblées",
+    "Mécanismes des anticorps monoclonaux": "Thérapies ciblées",
+    "thérapie ciblée": "Thérapies ciblées"
+  },
+  "s7-maladie-enfant": {
+    "Cardiologie néonatale et du nourrisson": [
+      "Cardiopathies congénitales",
+      "Cyanose néonatale",
+      "Insuffisance cardiaque du nourrisson"
+    ],
+    "Développement et croissance néonatale": [
+      "Développement psychomoteur",
+      "Retard staturo-pondéral",
+      "Prématurité",
+      "RCIU"
+    ],
+    "maladies infectieuses": [
+      "Coqueluche",
+      "Tuberculose chez l'enfant",
+      "Fièvre de l'enfant",
+      "Fièvre éruptive chez l'enfant"
+    ],
+    "Méningites": "Infections neuroméningées de l'enfant",
+    "Gastroentérologie pédiatrique": [
+      "Vomissements chez l'enfant",
+      "Diarrhée chez l'enfant",
+      "Diarrhée aiguë et déshydratation chez l'enfant",
+      "Douleurs abdominales chez l'enfant"
+    ],
+    "pneumologie pédiatrique": [
+      "Asthme de l'enfant et du nourrisson",
+      "Pleurésie de l'enfant",
+      "Infections respiratoires aiguës chez l'enfant",
+      "Coqueluche",
+      "Dyspnée aiguë chez le nourrisson"
+    ],
+    "Hématologie et oncologie pédiatrique": [
+      "Anémie chez l'enfant",
+      "Cancer de l'enfant et leucémie aiguë",
+      "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+    ],
+    "nutrition pédiatrique": [
+      "Alimentation et besoins nutritionnels chez l'enfant",
+      "Carences nutritionnelles chez l'enfant"
+    ],
+    "endocrinologie pédiatrique": "Le diabète chez l'enfant",
+    "Néphrologie pédiatrique": [
+      "Hématuries",
+      "Glomérulonéphrites aiguës chez l'enfant",
+      "Protéinurie",
+      "Syndrome néphrotique",
+      "Infections urinaires chez l'enfant",
+      "Énurésie"
+    ],
+    "Rhumatologie pédiatrique": [
+      "Purpura rhumatoïde",
+      "Arthralgies et arthrite chez l'enfant"
+    ],
+    "Chirurgie digestive et abdominale pédiatrique": [
+      "Atrésie de l'œsophage",
+      "Hernie diaphragmatique",
+      "Occlusion néonatale",
+      "Maladie de Hirschsprung",
+      "Invagination intestinale",
+      "Malformation anorectale",
+      "Proctologie pédiatrique",
+      "Sténose hypertrophique du pylore"
+    ],
+    "Urologie pédiatrique": [
+      "Uropathies de l'enfant",
+      "Torsion du cordon spermatique",
+      "Pathologie du canal péritonéo-vaginal",
+      "Anomalie de migration et de position testiculaire"
+    ],
+    "Orthopédie pédiatrique": [
+      "Les particularités des fractures chez l'enfant",
+      "Infections ostéo-articulaires de l'enfant",
+      "Les boiteries de l'enfant",
+      "Déformation rachidienne",
+      "Maladie luxante de la hanche",
+      "Pied du nouveau-né",
+      "Tumeurs osseuses malignes de l'enfant"
+    ],
+    "Pathologies infectieuses et métaboliques du nouveau-né": [
+      "Infections néonatales",
+      "Ictères néonataux",
+      "Convulsions néonatales"
+    ],
+    "DHA et diarrhée aiguë": "Diarrhée aiguë et déshydratation chez l'enfant",
+    "Hormonothérapie": null,
+    "Questions inclassifiables": null,
+    "Le retard statural": "Retard staturo-pondéral"
+  },
+  "s7-neuro-neurochir": {
+    "Neurologie": "Neurologie",
+    "Neurochirurgie": "Neurochirurgie",
+    "Pathologies infectieuses du système nerveux central": [
+      "Suppuration intracrânienne",
+      "Hydatidose cérébrale et vertébro-médullaire",
+      "Tuberculose du système nerveux"
+    ],
+    "Pathologies vasculaires intracrâniennes": [
+      "Hématomes intracérébraux",
+      "L'hémorragie spontanée des méninges"
+    ],
+    "Malformations congénitales du système nerveux central": [
+      "Spina bifida",
+      "Hydrocéphalie",
+      "Malformation de la charnière cranio-cervicale",
+      "Craniosténoses"
+    ],
+    "Pathologies traumatiques": [
+      "Traumatismes du rachis dorso-lombaire",
+      "Traumatismes crânio-encéphaliques",
+      "Traumatismes du rachis cervical"
+    ],
+    "Pathologies tumorales du système nerveux central": [
+      "Les lésions sellaires et supra-sellaires",
+      "Gliomes hémisphériques",
+      "Méningiomes intracrâniens",
+      "Métastases cérébrales",
+      "Tumeurs de la fosse cérébrale postérieure (FCP)"
+    ],
+    "Pathologies neuromusculaires": [
+      "Sclérose latérale amyotrophique",
+      "Neuropathies périphériques",
+      "Syndrome myasthénique",
+      "Myopathies"
+    ],
+    "Pathologies neurologiques périphériques": [
+      "Syndrome de compression médullaire",
+      "Syndrome de la queue de cheval",
+      "Sciatique par hernie discale"
+    ],
+    "La SLA": "Sclérose latérale amyotrophique",
+    "Pathologies infectieuses": [
+      "Neurosyphilis",
+      "Neuro-Behçet"
+    ],
+    "Le syndrom Parkinsonien": "Maladie de Parkinson",
+    "Les céphalées et algies de face": "Céphalées",
+    "Ataxies cérébelleuses": "Ataxie cérébelleuse",
+    "Les AVCs": [
+      "Les AVC ischémiques",
+      "Thrombophlébite cérébrale"
+    ]
+  },
+  "s8-anapath-2": {
+    "tumeurs mammaires": [
+      "Cancer du sein",
+      "Mastopathies bénignes"
+    ],
+    "tumeur colo-rectale": [
+      "Polypes et polyposes digestives",
+      "Cancers colo-rectaux"
+    ],
+    "Tumeurs hépatiques": [
+      "Tumeurs du foie",
+      "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+    ],
+    "Tumeur rénale": "Tumeurs du rein",
+    "Les tumeurs de la prostate": "Cancer de la prostate",
+    "Tumeur du testicule": "Cancer du testicule",
+    "Méthodes d’étude et de prélèvement des organes lymphoïdes": "Lymphome de Hodgkin",
+    "Lymphomes non hodgkiniens": null
+  },
+  "s8-appareil-locomoteur": {
+    "Algoneurodystrophie": "Algodystrophie",
+    "Tuberculose ostéoarticulaire": "Tuberculose ostéo-articulaire",
+    "Réadaptation fonctionnelle": "Médecine physique et de réadaptation (MPR)",
+    "Les infections en traumatologie": "Les infections de la main",
+    "Traumatismes du genou": [
+      "Fractures du genou",
+      "Lésions ménisco-ligamentaires du genou"
+    ],
+    "Les traumatismes de la hanche": [
+      "Luxation de la hanche",
+      "Fracture de l'extrémité supérieure du fémur (ESF)"
+    ],
+    "Monoarthrite": "Mono-arthrite",
+    "Ab-articulaire": "Pathologie abarticulaire",
+    "Questions inclassifiables": null
+  },
+  "s8-immuno-genetique-med-interne": {
+    "Généralités en génétique": [
+      "Introduction à la génétique",
+      "Modes de transmission des maladies héréditaires",
+      "Génétique des populations",
+      "Mutations : classification, conséquences et nomenclature"
+    ],
+    "Granulomatose de WEGENER": "Vascularites systémiques",
+    "dermatomyosite": "Les myopathies inflammatoires acquises idiopathiques",
+    "Artérite de takayasu": "Maladie de Takayasu",
+    "Introduction aux vascularites systémiques et horton": [
+      "Introduction aux vascularites systémiques",
+      "Artérite à cellules géantes"
+    ],
+    "Immuno-intervention": [
+      "Vaccination",
+      "Anticorps monoclonaux",
+      "Immunosuppresseurs"
+    ],
+    "Diagnostic anténatal et Caryotype": [
+      "Diagnostic anténatal",
+      "Caryotype"
+    ]
+  },
+  "s9-gyneco-obstetricale": {
+    "Questions inclassifiables": null,
+    "ryhtme de suivi de la grossesse": "Suivi de la grossesse et consultations prénatales",
+    "tbk genitale chez la femme": "Tuberculose génitale",
+    "rubeole": "Infections et grossesse",
+    "hepatite virales et grossesse": "Infections et grossesse",
+    "syphilis": "Infections et grossesse",
+    "toxo": "Infections et grossesse",
+    "infection urinaire et grossesse": "Infections et grossesse",
+    "prolapsus genitale": "Prolapsus génitaux"
+  },
+  "s9-orl-ophtalmo-maxillo": {
+    "Appareil otologique": [
+      "Otite moyenne aiguë",
+      "Otites moyennes chroniques simples",
+      "Otites moyennes chroniques dangereuses",
+      "Otospongiose"
+    ],
+    "Paralysie des nerfs": "Paralysie faciale périphérique",
+    "Infections RHINO-LARYNGO": [
+      "Les angines",
+      "Rhinite allergique",
+      "Rhinopharyngite de l'enfant",
+      "Les rhinosinusites"
+    ],
+    "Cancer ORL": [
+      "Cancer du larynx",
+      "Cancer du cavum",
+      "Cancer de la langue"
+    ],
+    "Conduite à tenir : ADP , nodule thyroïdien": [
+      "CAT devant un nodule thyroïdien",
+      "CAT devant une adénopathie cervicale"
+    ],
+    "Traumatisme de la face": [
+      "Urgences faciales",
+      "Fractures du massif facial",
+      "Fracture mandibulaire",
+      "Plaies de la face"
+    ],
+    "Ophtalmo revision": "Ophtalmologie",
+    "Cancérologie": [
+      "Les tumeurs bénignes des maxillaires",
+      "Les tumeurs malignes des maxillaires",
+      "La pathologie des glandes salivaires",
+      "Cancers de la cavité buccale"
+    ]
+  },
+  "s9-sante-mentale": {
+    "Patient qui délire": [
+      "Les schizophrénies",
+      "Les délires chroniques non dissociatifs",
+      "Accès psychotique aigu"
+    ],
+    "Trouble de la femme enceinte": "Les troubles psychologiques de la grossesse et du post-partum",
+    "Thérapeutique": "Psychopharmacologie",
+    "Trouble neurologique": [
+      "Manifestations psychiatriques de l'épilepsie",
+      "Manifestations psychiatriques de la neurosyphilis"
+    ],
+    "Essai clinique randomisée": null,
+    "autres pedopsy": [
+      "Trouble du spectre de l'autisme (TSA)",
+      "Dépression de l'enfant et de l'adolescent",
+      "TDAH",
+      "L'échec scolaire (difficultés scolaires)"
+    ],
+    "Depression": "Les états dépressifs",
+    "Dépression": "Les états dépressifs",
+    "Bipolarité": "Les troubles bipolaires"
+  },
+  "s9-urgence-rea-soins-palliatifs": {
+    "Trouble du milieu intérieur": [
+      "Troubles hydroélectrolytiques",
+      "Dysnatrémies",
+      "Dyskaliémies",
+      "Les troubles acido-basiques",
+      "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+    ],
+    "Rea Cardio-Respiratoire": [
+      "États de choc : généralités",
+      "Choc hypovolémique",
+      "Choc anaphylactique",
+      "Choc septique",
+      "Choc cardiogénique",
+      "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)",
+      "Asthme aigu grave",
+      "SDRA",
+      "Monitorage",
+      "Arrêt cardiaque (ACR)"
+    ],
+    "Traumatisme et coma": [
+      "Prise en charge d'un traumatisme grave",
+      "Traumatismes crâniens graves (phase précoce)",
+      "PEC d'un patient en état de mort encéphalique",
+      "Prise en charge du coma"
+    ],
+    "Plastique": "Chirurgie plastique",
+    "Soins palliatifs": "Soins palliatifs",
+    "État de choc": [
+      "États de choc : généralités",
+      "Choc hypovolémique",
+      "Choc anaphylactique",
+      "Choc septique",
+      "Choc cardiogénique"
+    ],
+    "Brulure": [
+      "Brûlés graves : prise en charge",
+      "PEC locale des brûlures à la phase aiguë"
+    ]
+  },
+  "s10-med-legal-ethique": {
+    "Éthique et procréation": "Procréation médicalement assistée, fœtus et embryon",
+    "Éthique et dons d’organe": "Éthique médicale et don d'organes",
+    "pneumo medtravail": [
+      "Asthme professionnel",
+      "Pneumoconioses (silicose pulmonaire)"
+    ],
+    "Troubles MSC": "Les troubles musculo-squelettiques",
+    "Réparation maladies prof + accid de travail": [
+      "Réparation des accidents du travail",
+      "Réparation des maladies professionnelles"
+    ],
+    "Risque psychosociaux": "Les risques psychosociaux en milieu de travail"
+  },
+  "s10-nephro-uro": {
+    "Intro néphrologie": "Introduction à la pathologie néphrologique",
+    "Nephro héréditaire": "Les maladies rénales héréditaires",
+    "JPU": "Syndrome de la jonction pyélo-urétérale",
+    "Tbk urogénital": "Tuberculose uro-génitale",
+    "GNA": "Glomérulonéphrite aiguë post-infectieuse",
+    "RVR": "Reflux vésico-urétéral",
+    "retricissement sclero-inflammatoire de l'uretre": "Rétrécissement scléro-inflammatoire urétral de l'adulte",
+    "Kyste hydatique": null,
+    "Nephro lupique": "Néphropathie lupique",
+    "Nephro diabétique": "Néphropathie diabétique",
+    "Nephro a igA": "Néphropathie à IgA",
+    "Cancérologies": [
+      "Cancer de la prostate",
+      "Cancer de la vessie",
+      "Tumeurs des voies excrétrices",
+      "Cancer du rein",
+      "Tumeurs rétropéritonéales primitives",
+      "Cancer de la verge",
+      "Cancer du testicule"
+    ]
+  },
+  "s10-sante-publique": {
+    "Mesure des fréquences en SANTÉ publique": "Les mesures de fréquence en épidémiologie",
+    "Intervention de santé": [
+      "Intervention en santé publique",
+      "Planification d'une intervention"
+    ],
+    "SANTE environmental": [
+      "Introduction à la santé environnementale",
+      "Caractériser l'exposition environnementale",
+      "Intervenir en santé environnementale"
+    ],
+    "Prévention et promotion de santé": [
+      "La prévention",
+      "La promotion de la santé"
+    ]
+  },
+  "s10-synthese-therapeutique": {
+    "Épilepsie": "Antiépileptiques",
+    "UGD": "Traitement de la maladie ulcéreuse gastro-duodénale",
+    "Anti bacillaire": "Traitement antibacillaire (tuberculose)",
+    "Transplantation rénale": null,
+    "IRC": null,
+    "Antibiotiques": [
+      "La prescription d'antibiotiques",
+      "Échec de l'antibiothérapie"
+    ],
+    "Questions inclassifiables": null
+  }
+}
