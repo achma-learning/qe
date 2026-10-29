@@ -13,8 +13,8 @@ The APK keeps the fixed name `qe-bank-debug.apk` on purpose: the README's downlo
 ## Current versions
 | Track | Version | Tag | Date | Download latest | Download exactly this version |
 |---|---|---|---|---|---|
-| Android app | 1.4 (versionCode 5) | _pending_ `android-v1.4.0` | — | [latest APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk) | _pending_ |
-| Android app | 1.3 (versionCode 4) | `android-v1.3.0` | 2026-10-29 | — | [1.3 APK](https://github.com/achma-learning/qe/releases/download/android-v1.3.0/qe-bank-debug.apk) |
+| Android app | 1.5 (versionCode 6) | _pending_ `android-v1.5.0` | — | [latest APK](https://github.com/achma-learning/qe/releases/latest/download/qe-bank-debug.apk) | _pending_ |
+| Android app | 1.4 (versionCode 5) | `android-v1.4.0` | 2026-10-29 | — | [1.4 APK](https://github.com/achma-learning/qe/releases/download/android-v1.4.0/qe-bank-debug.apk) |
 | Website | rolling | — | every push | [live site](https://achma-learning.github.io/qe/) | [ZIP of `main`](https://github.com/achma-learning/qe/archive/refs/heads/main.zip) |
 
 ## Roll back a user
@@ -36,7 +36,8 @@ Mixed mode is normal here. The agent builds the APK locally (JDK 17+, Android SD
 Newest first.
 | Date | Tag | Commit | Files | Notes |
 |---|---|---|---|---|
-| _pending_ | `android-v1.4.0` | — | `qe-bank-debug.apk` | 1.4: volume buttons move between questions, in-app update button, touch layout against mis-taps |
+| _pending_ | `android-v1.5.0` | — | `qe-bank-debug.apk` | 1.5: 🎯 Focus button back, in the lower row away from Next |
+| 2026-10-29 | `android-v1.4.0` | `caeba61` | `qe-bank-debug.apk` (SHA-256 `375002c2…62ed`) | 1.4: volume buttons move between questions, in-app update button, touch layout against mis-taps — verified: asset 16,810,147 bytes, `latest` link serves it, same key as 1.3 |
 | 2026-10-29 | `android-v1.3.0` | `c98b689` | `qe-bank-debug.apk` (SHA-256 `60f69624…b78a`) | 1.3: lesson filter, Focus/Auto buttons, tablet layout, fixed signing key — verified: asset 16,748,930 bytes, `latest` link serves it |
 | 2026-09-09 | `android-v20260909-100947` | `c9591ee` | `qe-bank-debug.apk` | 1.2: high-yield docs open in a real viewer |
 | 2026-09-06 | `android-v20260906-195533` | `26c25a5` | `qe-bank-debug.apk` | 1.1: focus mode by default |

@@ -49,7 +49,7 @@ Open `index.html` → the **dashboard** lists every module by semester. Type to 
 - `1`–`5` — toggle answer options · `Space` / `Enter` — check, press again for the next one
 - `←` `→` — previous / next question
 - `C` — **filter by lesson**: tick one or more lessons of the curriculum (or a whole sub-module) and drill only those. Each lesson shows how many questions it has and your accuracy, so weak lessons jump out. `Shift`+`C` clears it. On a phone, tap 🏷.
-- `Z` — focus mode (everything but the question vanishes) · `A` — auto-advance. Both also have buttons under the question (on phones and tablets, Focus lives in ⚙️ Settings instead, so it can't be hit by mistake).
+- `Z` — focus mode (everything but the question vanishes) · `A` — auto-advance. Both also have buttons under the question (on phones and tablets they sit in a lower row, away from Next, so they can't be hit by mistake).
 - `W` (dashboard) — weakness analysis: accuracy per topic, weakest first
 
 The one shortcut worth memorising: **`Ctrl`/`Cmd` + `K`** opens a command palette that jumps to any module or runs any command. `?` shows the full key map.
@@ -72,7 +72,7 @@ Push to `main` (even an edit straight on github.com) and a GitHub Action rebuild
 
 ## What's new
 
-**Android app 1.4** — volume buttons move between questions, an in-app update button, and a touch layout that keeps your thumb off the wrong button. (Earlier the same day: filter questions by curriculum lesson with `C` / 🏷.) [Full changelog →](./CHANGELOG.md)
+**Android app 1.5** — the 🎯 Focus button is back, in the lower row away from Next. 1.4 (same day) added volume buttons that move between questions, an in-app update button, and a touch layout that keeps your thumb off the wrong button. [Full changelog →](./CHANGELOG.md)
 
 ## Why I built this
 

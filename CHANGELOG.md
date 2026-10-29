@@ -20,7 +20,21 @@ _Nothing yet._
 
 ---
 
-## [android v1.4] — 2026-10-29
+## [android v1.5] — 2026-10-29
+
+### Changed
+- 🎯 Focus button back in the question controls on touch screens (owner's request) — now in the lower row, ~65 px below Prev / Check / Next, instead of hidden as in 1.4. `(64da8a3)`
+
+---
+
+## 2026-10-29 — website: 🎯 Focus back on touch screens
+
+### Changed
+- `html.touch-ui` no longer hides `#btn-focus`; it sits in the lower `.ctl-more` row with Reset / Auto / 🏷. Desktop unchanged. `(64da8a3)`
+
+---
+
+## [android v1.4] — 2026-10-29 — tag android-v1.4.0 (caeba61) ✅ known good
 
 ### Added
 - **Volume buttons turn questions** like pages in a reader (ReadEra-style): ▼ first reveals the correction of an answered question, then goes to the next; ▲ goes back. Question pages only, key repeats ignored, switch in Settings. `(bd3f737)`
@@ -247,7 +261,8 @@ _Nothing yet._
 
 ---
 
-[Unreleased]: https://github.com/achma-learning/qe/compare/android-v1.3.0...HEAD
+[Unreleased]: https://github.com/achma-learning/qe/compare/android-v1.4.0...HEAD
+[android v1.4]: https://github.com/achma-learning/qe/compare/android-v1.3.0...android-v1.4.0
 [android v1.3]: https://github.com/achma-learning/qe/compare/android-v20260909-100947...android-v1.3.0
 [android v1.2]: https://github.com/achma-learning/qe/compare/android-v20260906-195533...android-v20260909-100947
 [android v1.1]: https://github.com/achma-learning/qe/compare/android-v20260906-171508...android-v20260906-195533

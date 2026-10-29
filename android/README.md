@@ -42,10 +42,11 @@ so the High-Yield page works with no connection at all.
   Opening the file updates in place because every release uses the same key
   and a higher `versionCode`. The page reads the installed version through
   the `window.QEAndroid` bridge (`appVersion()`).
-- **Touch layout (1.4):** Prev / Check / Next on their own big row, other
-  buttons in a smaller row below; no 🎯 Focus button on touch (leave focus
-  mode with the floating "✕ Focus", turn it on in Settings); Reset needs two
-  taps. Comes from the site's `html.touch-ui` CSS, not from Android code.
+- **Touch layout (1.4, 1.5):** Prev / Check / Next on their own big row,
+  other buttons — 🎯 Focus, Reset, ▶ Auto, 🏷 — in a smaller row ~65 px
+  below (1.4 hid 🎯 Focus after it was mis-tapped under Next; 1.5 brought it
+  back in that lower row); Reset needs two taps. Comes from the site's
+  `html.touch-ui` CSS, not from Android code.
 - **Back closes panels first:** with the lesson filter, settings, command
   palette or help open, the Back button/gesture closes that panel instead of
   leaving the page.
