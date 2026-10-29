@@ -16,10 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
-- `CHANGELOG.md` (this file, full rebuild from the first commit) and a rewritten `CONTEXT.md` — re-scanned repo, landmines list, current state. `(5cfb37a)`
-
-### Changed
-- Android: every build signs with the committed `android/qe-debug.keystore`, so later APKs update in place. Owner's choice (sideload-only app); `dist/` APK re-signed, still 1.3 / versionCode 4. `(30f8eb8)`
+- `CHANGELOG.md` (this file, full rebuild from the first commit), a rewritten `CONTEXT.md`, a refreshed `README.md` with a real screenshot, and `RELEASE.md`. `(5cfb37a, 62786d7, b9142bc)`
 
 ---
 
@@ -30,15 +27,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Bundles the website as of `132ab9a`: lesson filter (`C` / 🏷), refreshed Data page, responsive fixes (see the 2026-10-29 website section). `(132ab9a)`
 
 ### Changed
+- **Breaking:** 1.3 can't install over 1.2 ("App not installed") — 1.2 and earlier used throwaway build-machine keys. Uninstall first (clears saved progress). `(132ab9a, 30f8eb8)`
+- Every build now signs with the committed `android/qe-debug.keystore`, so later APKs update in place. Owner's choice (sideload-only app); APK re-signed, still versionCode 4. `(30f8eb8)`
 - Focus mode is the default on phones only; tablets (smallest width ≥ 600 dp) keep the sidebar layout. `(132ab9a)`
 - Back closes an open panel (filter, settings, palette, help) before leaving the page. `(132ab9a)`
 - Window, status bar and nav bar use the site's dark `#0B1020` — no white flash at launch. `(132ab9a)`
 
 ### Fixed
 - App's Data page was missing links added since 1.2 — the bundled `data.html` copy was never re-synced. `(132ab9a)`
-
-### Broken
-- **1.3 can't install over 1.2** ("App not installed") — 1.2 and earlier were signed with throwaway build-machine keys. Uninstall first; this clears saved progress. `(132ab9a, 30f8eb8)`
 
 ---
 
