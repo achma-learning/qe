@@ -14,7 +14,24 @@ android {
         versionName "1.3"
     }
 
+    // One fixed key for every build, committed on purpose (owner's choice):
+    // Android only lets an APK update an installed app signed with the same
+    // key. Before 1.3 each build used the building machine's throwaway debug
+    // key, so a new APK refused to install over the old one (uninstall = lost
+    // progress). Sideload-only personal app, not a Play Store identity.
+    signingConfigs {
+        debug {
+            storeFile rootProject.file("qe-debug.keystore")
+            storePassword "qebank-debug"
+            keyAlias "qe-debug"
+            keyPassword "qebank-debug"
+        }
+    }
+
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro"
