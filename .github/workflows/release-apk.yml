@@ -53,8 +53,9 @@ jobs:
             - Package: `online.qe.mcqbank`
             - minSdk 23 (Android 6.0) · targetSdk 34
             - No network permission — fully offline
-            - Self-signed with Gradle's default debug key: fine to sideload
-              for personal use, not suitable for Play Store distribution as-is
+            - Signed with the repo's fixed debug key (android/qe-debug.keystore),
+              so later versions install over this one; fine to sideload for
+              personal use, not suitable for Play Store distribution as-is
 
             Install: enable "install unknown apps" for the app you use to open
             the file, then open the APK.
