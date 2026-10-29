@@ -315,7 +315,6 @@
    "flags": [
     "tag_mismatch"
    ],
-   "conf": "low",
    "why": "Likely EI risk class (rheumatic valve = intermediate risk)"
   },
   "Juin 2025#5": {
@@ -708,8 +707,7 @@
    "flags": [
     "tag_mismatch"
    ],
-   "conf": "low",
-   "why": "Polyvascular screening (AOMI) in coronary patient"
+   "why": "Coronary patient = polyvascular atherosclerosis, as its twins"
   },
   "Mai 2024#31": {
    "c": [
@@ -2594,8 +2592,12 @@
   },
   "Mai 2021#33": {
    "c": [
-    "AOMI (artériopathie oblitérante des membres inférieurs)"
-   ]
+    "Athérosclérose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Polyvascular screening = systemic atherosclerosis, as its twins"
   },
   "Mai 2021#34": {
    "c": [

@@ -17,7 +17,7 @@
 const fs = require('fs');
 const path = require('path');
 const { ROOT, loadParser, loadModules } = require('./parser-bridge');
-const { CLASS_DIR, loadCurriculum, lessonGroups, findModuleNode, makeResolver, qKey, loadClassification } = require('./curriculum');
+const { CLASS_DIR, loadCurriculum, lessonGroups, findModuleNode, makeResolver, norm, qKey, loadClassification } = require('./curriculum');
 
 const args = process.argv.slice(2);
 const slug = args[0];
@@ -84,6 +84,25 @@ for (const [label, keys] of cases) {
     const e = cls.q[k];
     if (e.c[0] !== main && !(e.flags || []).includes('case_override')) warnings.push(`case ${label}: ${k} → "${e.c[0]}" differs from the case's "${main}" (flag case_override if intended)`);
   });
+}
+// The same question comes back year after year, and different chunks go to
+// different classifiers: near-identical stems should share their main cours.
+// Stem start + the text of the expected answer(s): a vignette reused with a
+// different answer (IA one year, RAo the next) is a different question.
+const flat = (s) => norm(s).replace(/[^a-z0-9]+/g, ' ').trim();
+const stemKey = (q) => flat(q.text).slice(0, 90) + ' | ' + q.options.filter(o => (q.correct || []).includes(o.letter)).map(o => flat(o.text)).sort().join(' / ');
+const twins = new Map();
+questions.forEach(q => {
+  const e = (cls.q || {})[qKey(q)];
+  if (!e || !e.c || !e.c.length || e.case) return;   // case follow-ups read their vignette, not just the stem
+  const sk = stemKey(q);
+  if (sk.indexOf(' | ') < 25) return;                         // too generic ("Parmi les propositions…")
+  if (!twins.has(sk)) twins.set(sk, []);
+  twins.get(sk).push(qKey(q));
+});
+for (const keys of twins.values()) {
+  const mains = new Set(keys.map(k => cls.q[k].c[0]));
+  if (mains.size > 1) warnings.push(`twins disagree: ${keys.map(k => `${k} → ${cls.q[k].c[0]}`).join('; ')}`);
 }
 const missing = questions.filter(q => !(cls.q || {})[qKey(q)]);
 

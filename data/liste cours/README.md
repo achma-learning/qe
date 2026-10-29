@@ -63,6 +63,8 @@ node tools/classify-check.js <slug> --merge <dir>/<slug>/out-*.json   # merge + 
 node tools/classify-check.js <slug> --flags       # coverage, count per cours, flagged questions
 node tools/build-lessons.js                       # bakes it into data/_lessons.js (QE_LESSONS[slug].qs)
 ```
+The check also warns with `twins disagree` when the same question, reused in another exam with the same expected answer, got a different main cours. That happens because chunks go to different classifiers. Settle each one by hand in the JSON.
+
 After new exams are added, `classify-prep.js <slug> --only-missing` makes worksheets for just the new questions.
 
 ## Rebuild after editing

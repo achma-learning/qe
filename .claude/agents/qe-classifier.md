@@ -16,7 +16,8 @@ The worksheet path is given in your task. It contains:
 2. Pick the single most specific cours from the list. Use the exact string.
 3. The `topic` and `guess` are hints, not truth. If the content says otherwise, follow the content and flag `tag_mismatch` (e.g. topic "AOMI" but the question is about a deep-vein thrombosis → "La maladie veineuse thrombo-embolique").
 4. Add a second cours only when the question genuinely tests two (e.g. a treatment choice that depends on both HTA and Insuffisance cardiaque); flag `multi_topic`. Never more than two.
-5. If no cours fits, use the closest sous-module name (from a `##` header) and flag `not_found`. If the question really belongs to another module of the curriculum, still use the closest target here and flag `other_module`. Never invent a cours.
+5. Exams reuse questions year after year. When the same question (same stem, same expected answer) appears again in your chunk, give it the same cours and the same flags.
+6. If no cours fits, use the closest sous-module name (from a `##` header) and flag `not_found`. If the question really belongs to another module of the curriculum, still use the closest target here and flag `other_module`. Never invent a cours.
 
 ## Clinical cases
 A case is a vignette (a patient described) followed by questions that only make sense with it ("Le score … chez cette patiente", "Pour confirmer votre diagnostic…", "L'échocardiographie est normale. Dans ce contexte…").
