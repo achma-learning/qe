@@ -6,6 +6,8 @@
  *   node tools/classify-check.js <slug> --merge a.json …   # merge qe-classifier
  *                                                          # fragments, then validate
  *   node tools/classify-check.js <slug> --flags            # also list flagged questions
+ *   node tools/classify-check.js <slug> --harmonize        # rewrite disagreeing twins onto
+ *                                                          # their majority cours (flag "harmonized")
  *
  * Checks: every question of the module has an entry, no unknown keys, every
  * cours resolves to a lesson / sub-module of the module, ≤ 2 cours each,
@@ -25,6 +27,7 @@ if (!slug || slug.startsWith('--')) { console.error('usage: node tools/classify-
 const mi = args.indexOf('--merge');
 const fragments = mi >= 0 ? args.slice(mi + 1).filter(a => !a.startsWith('--')) : [];
 const SHOW_FLAGS = args.includes('--flags');
+const HARMONIZE = args.includes('--harmonize');
 
 const m = loadModules().find(x => x.slug === slug);
 if (!m) { console.error(`unknown module slug "${slug}"`); process.exit(1); }
@@ -61,8 +64,10 @@ const errors = [], warnings = [];
 const perTarget = new Map();
 const cases = new Map();
 const flagged = [];
+let keptTopic = 0;
 for (const [k, e] of Object.entries(cls.q || {})) {
   if (!pos.has(k)) { errors.push(`${k}: no such question in ${m.file}`); continue; }
+  if (e && e.keep === 'topic') { keptTopic++; continue; }   // deliberately left on its topic mapping
   const c = (e && e.c) || [];
   if (!c.length) errors.push(`${k}: no cours`);
   if (c.length > 2) errors.push(`${k}: ${c.length} cours (max 2)`);
@@ -100,14 +105,32 @@ questions.forEach(q => {
   if (!twins.has(sk)) twins.set(sk, []);
   twins.get(sk).push(qKey(q));
 });
+let harmonized = 0;
 for (const keys of twins.values()) {
   const mains = new Set(keys.map(k => cls.q[k].c[0]));
-  if (mains.size > 1) warnings.push(`twins disagree: ${keys.map(k => `${k} → ${cls.q[k].c[0]}`).join('; ')}`);
+  if (mains.size < 2) continue;
+  if (!HARMONIZE) { warnings.push(`twins disagree: ${keys.map(k => `${k} → ${cls.q[k].c[0]}`).join('; ')}`); continue; }
+  // Majority wins; a tie goes to the most recent exam (first in file order).
+  const votes = new Map();
+  keys.forEach(k => votes.set(cls.q[k].c[0], (votes.get(cls.q[k].c[0]) || 0) + 1));
+  const top = Math.max(...votes.values());
+  const pick = cls.q[keys.find(k => votes.get(cls.q[k].c[0]) === top)].c[0];
+  keys.forEach(k => {
+    const e = cls.q[k];
+    if (e.c[0] === pick) return;
+    e.c = [pick, ...e.c.filter(x => x !== pick)].slice(0, 2);
+    e.flags = [...new Set([...(e.flags || []), 'harmonized'])];
+    harmonized++;
+  });
+}
+if (HARMONIZE && harmonized) {
+  fs.writeFileSync(FILE, JSON.stringify(cls, null, 1) + '\n');
+  console.log(`harmonized ${harmonized} reused question(s) onto their twins' majority cours → ${path.relative(ROOT, FILE)}`);
 }
 const missing = questions.filter(q => !(cls.q || {})[qKey(q)]);
 
 const n = questions.length - missing.length;
-console.log(`${slug}: ${n}/${questions.length} questions classified (${(100 * n / questions.length).toFixed(1)}%) · ${cases.size} cases · ${flagged.length} flagged`);
+console.log(`${slug}: ${n}/${questions.length} questions classified (${(100 * n / questions.length).toFixed(1)}%)${keptTopic ? ` (${keptTopic} kept on their topic)` : ''} · ${cases.size} cases · ${flagged.length} flagged`);
 console.log('per cours:');
 groups.forEach((g, gi) => {
   if (g.name) console.log(`  ## ${g.name}${perTarget.get(-(gi + 1)) ? `  (whole group: ${perTarget.get(-(gi + 1))})` : ''}`);

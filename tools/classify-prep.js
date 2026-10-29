@@ -20,7 +20,7 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const { ROOT, loadParser, loadModules } = require('./parser-bridge');
-const { loadCurriculum, lessonGroups, findModuleNode, qKey, loadClassification } = require('./curriculum');
+const { CLASS_DIR, loadCurriculum, lessonGroups, findModuleNode, qKey, loadClassification } = require('./curriculum');
 
 const args = process.argv.slice(2);
 const opt = (name, def) => { const i = args.indexOf(name); return i >= 0 ? args[i + 1] : def; };
@@ -90,6 +90,10 @@ groups.forEach(g => {
   g.lessons.forEach(l => header.push(`    - ${l}`));
 });
 header.push('');
+// Settled curriculum notes (classification/_hints.json): what an ambiguous cours covers.
+let hints = [];
+try { hints = JSON.parse(fs.readFileSync(path.join(CLASS_DIR, '_hints.json'), 'utf8'))[slug] || []; } catch (e) { /* none */ }
+if (hints.length) header.push('NOTES — follow these:', ...hints.map(h => `  - ${h}`), '');
 
 // Group by exam, keep file order, then pack whole exams into chunks of ~SIZE.
 const exams = [];

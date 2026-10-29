@@ -1,0 +1,3883 @@
+{
+ "module": "Pharmacologie",
+ "q": {
+  "toxico pharma s6 2025 N#1": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#2": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#3": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#4": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#5": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#6": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#7": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#8": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#9": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#10": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#11": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#12": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#13": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#14": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#15": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#16": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#17": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#18": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#19": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#20": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#21": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#22": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#23": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#24": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#25": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#26": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#27": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#28": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#29": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#30": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#31": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#32": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#33": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#34": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#35": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#36": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#37": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#38": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#39": {
+   "keep": "topic"
+  },
+  "toxico pharma s6 2025 N#40": {
+   "keep": "topic"
+  },
+  "2026 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2026 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2026 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2026 N#4": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Preclinical animal PK studies = drug development stage"
+  },
+  "2026 N#5": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Random screening = discovery phase, not clinical trials"
+  },
+  "2026 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2026 N#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2026 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2026 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2026 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2026 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2026 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2026 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2026 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2026 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2026 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2026 N#17": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2026 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2026 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2026 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2026 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2026 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2026 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2026 N#24": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2026 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2026 N#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2026 N#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2026 N#28": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2026 N#29": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2026 N#30": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2026 N#31": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2026 N#32": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2026 N#33": {
+   "c": [
+    "Antifongiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fluconazole is an antifungal triazole, not nitroimidazole antibacterial"
+  },
+  "2026 N#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2026 N#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2026 N#36": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2026 N#37": {
+   "c": [
+    "Digitaliques"
+   ]
+  },
+  "2026 N#38": {
+   "c": [
+    "Les hypolipémiants"
+   ]
+  },
+  "2026 N#39": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2026 N#40": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2026 N#41": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2026 N#42": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "AVK; unclear which Antithrombotiques part covers AVK"
+  },
+  "2026 N#43": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2026 N#44": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2026 N#45": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2026 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2026 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2026 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2026 N#49": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2026 N#50": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2025 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2025 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2025 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2025 N#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2025 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2025 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2025 N#7": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2025 N#8": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2025 N#9": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2025 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2025 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2025 N#12": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2025 N#13": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2025 N#14": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2025 N#15": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2025 N#16": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2025 N#17": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2025 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2025 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2025 N#20": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2025 N#21": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2025 N#22": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2025 N#23": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2025 N#24": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2025 N#25": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2025 N#26": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "AVK INR management; unclear which Antithrombotiques part"
+  },
+  "2025 N#27": {
+   "c": [
+    "Antithrombotiques 1"
+   ],
+   "why": "Thienopyridines antiplatelets; unclear which Antithrombotiques part"
+  },
+  "2025 N#28": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "Apixaban (AOD); unclear which Antithrombotiques part"
+  },
+  "2025 N#29": {
+   "c": [
+    "Antithrombotiques 1",
+    "Bétabloquants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Post-MI prescription: antiplatelets, statin, beta-blocker"
+  },
+  "2025 N#30": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2025 N#31": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2025 N#32": {
+   "c": [
+    "Anti-angoreux"
+   ]
+  },
+  "2025 N#33": {
+   "c": [
+    "Les hypolipémiants"
+   ]
+  },
+  "2025 N#34": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2025 N#35": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2025 N#36": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2025 N#37": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2025 N#38": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2025 N#39": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2025 N#40": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2025 N#41": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2025 N#42": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2025 N#43": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2025 N#44": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2025 N#45": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2025 N#46": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2025 N#47": {
+   "c": [
+    "Macrolides"
+   ]
+  },
+  "2025 N#48": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2025 N#49": {
+   "c": [
+    "Antifongiques"
+   ]
+  },
+  "2025 N#50": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 N#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 N#6": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 N#7": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 N#8": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 N#9": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 N#12": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 N#13": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 N#14": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 N#15": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 N#16": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 N#17": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 N#20": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 N#21": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 N#24": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 N#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2024 N#27": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2024 N#28": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2024 N#29": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2024 N#30": {
+   "c": [
+    "Glycopeptides"
+   ]
+  },
+  "2024 N#31": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2024 N#32": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 N#33": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 N#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 N#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 N#36": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2024 N#37": {
+   "c": [
+    "Bétabloquants",
+    "Les inhibiteurs calciques"
+   ],
+   "case": "2024 N#37-39",
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Rate control of AF: beta-blocker and diltiazem, not anticoagulation"
+  },
+  "2024 N#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 N#37-39",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 N#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 N#37-39",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 N#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Acute MI: aspirin/HBPM plus statin; antithrombotic numbering assumed"
+  },
+  "2024 N#41": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AOMI: clopidogrel plus statin; antithrombotic numbering assumed"
+  },
+  "2024 N#42": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2024 N#43": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2024 N#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2024 N#45": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2024 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2024 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2024 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2024 R#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 R#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 R#3": {
+   "c": [
+    "Introduction à la pharmacologie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Drug targets (pharmacodynamics), not drug development"
+  },
+  "2024 R#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 R#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 R#6": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 R#7": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 R#8": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 R#9": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 R#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 R#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 R#12": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 R#13": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 R#14": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 R#15": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 R#16": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 R#17": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 R#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 R#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 R#20": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 R#21": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 R#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 R#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 R#24": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 R#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 R#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2024 R#27": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2024 R#28": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 R#29": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 R#30": {
+   "c": [
+    "Glycopeptides"
+   ]
+  },
+  "2024 R#31": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ],
+   "conf": "low",
+   "why": "BHE diffusion across antibiotics, antifungal and antiviral; no single class"
+  },
+  "2024 R#32": {
+   "c": [
+    "Antifongiques"
+   ]
+  },
+  "2024 R#33": {
+   "c": [
+    "Macrolides"
+   ]
+  },
+  "2024 R#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 R#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 R#36": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2024 R#37": {
+   "c": [
+    "Bétabloquants",
+    "Digitaliques"
+   ],
+   "case": "2024 R#37-39",
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Rate control of AF: digoxin, beta-blocker, verapamil"
+  },
+  "2024 R#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 R#37-39",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 R#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 R#37-39",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 R#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Acute MI: antiplatelets/HBPM plus statin; antithrombotic numbering assumed"
+  },
+  "2024 R#41": {
+   "c": [
+    "Antithrombotiques 1"
+   ],
+   "why": "AOMI antithrombotic choice; antithrombotic numbering assumed"
+  },
+  "2024 R#42": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2024 R#43": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2024 R#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2024 R#45": {
+   "c": [
+    "Antispasmodiques"
+   ]
+  },
+  "2024 R#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 R#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 R#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2024 R#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2024 R#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2024 Exceptionnel#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 Exceptionnel#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 Exceptionnel#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2024 Exceptionnel#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 Exceptionnel#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2024 Exceptionnel#6": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 Exceptionnel#7": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2024 Exceptionnel#8": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 Exceptionnel#9": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 Exceptionnel#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 Exceptionnel#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2024 Exceptionnel#12": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 Exceptionnel#13": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 Exceptionnel#14": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2024 Exceptionnel#15": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 Exceptionnel#16": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2024 Exceptionnel#17": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 Exceptionnel#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 Exceptionnel#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2024 Exceptionnel#20": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 Exceptionnel#21": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2024 Exceptionnel#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 Exceptionnel#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2024 Exceptionnel#24": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 Exceptionnel#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2024 Exceptionnel#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2024 Exceptionnel#27": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2024 Exceptionnel#28": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2024 Exceptionnel#29": {
+   "c": [
+    "Glycopeptides"
+   ]
+  },
+  "2024 Exceptionnel#30": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2024 Exceptionnel#31": {
+   "c": [
+    "Macrolides"
+   ]
+  },
+  "2024 Exceptionnel#32": {
+   "c": [
+    "Antifongiques"
+   ]
+  },
+  "2024 Exceptionnel#33": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2024 Exceptionnel#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 Exceptionnel#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2024 Exceptionnel#36": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2024 Exceptionnel#37": {
+   "c": [
+    "Bétabloquants",
+    "Digitaliques"
+   ],
+   "case": "2024 Exceptionnel#37-39",
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Rate control of AF: digoxin, beta-blocker, verapamil"
+  },
+  "2024 Exceptionnel#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 Exceptionnel#37-39",
+   "why": "Oral anticoagulation (AOD/AVK) in AF; Antithrombotiques split assumed",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 Exceptionnel#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2024 Exceptionnel#37-39",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 Exceptionnel#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Acute MI: antiplatelets/HBPM plus statin (and BB); numbering assumed"
+  },
+  "2024 Exceptionnel#41": {
+   "c": [
+    "Antithrombotiques 1"
+   ],
+   "why": "AOMI: clopidogrel; antithrombotic numbering assumed"
+  },
+  "2024 Exceptionnel#42": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2024 Exceptionnel#43": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2024 Exceptionnel#44": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2024 Exceptionnel#45": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2024 Exceptionnel#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 Exceptionnel#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2024 Exceptionnel#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2024 Exceptionnel#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2024 Exceptionnel#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2023 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 N#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 N#5": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2023 N#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2023 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 N#17": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 N#18": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2023 N#19": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2023 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2023 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2023 N#22": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2023 N#23": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2023 N#24": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2023 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2023 N#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2023 N#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2023 N#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2023 N#29": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2023 N#30": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ],
+   "conf": "low",
+   "why": "Diffusion méningée across antibiotics, antifungal and antiviral"
+  },
+  "2023 N#31": {
+   "c": [
+    "Macrolides"
+   ]
+  },
+  "2023 N#32": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2023 N#33": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2023 N#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2023 N#35": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2023 N#36": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2023 N#37": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2023 N#37-38",
+   "why": "AVK dose adjustment; unsure which Antithrombotiques part covers AVK"
+  },
+  "2023 N#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2023 N#37-38",
+   "why": "AVK dose adjustment; unsure which Antithrombotiques part covers AVK"
+  },
+  "2023 N#39": {
+   "c": [
+    "Antithrombotiques 1"
+   ]
+  },
+  "2023 N#40": {
+   "c": [
+    "Antithrombotiques 1"
+   ]
+  },
+  "2023 N#41": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2023 N#42": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2023 N#43": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2023 N#44": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2023 N#45": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2023 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2023 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2023 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2023 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2023 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2023 R#1": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Études précliniques de pharmacodynamie, not pharmacocinétique"
+  },
+  "2023 R#2": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Études de toxicité précliniques chez l'animal"
+  },
+  "2023 R#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2023 R#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2023 R#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2023 R#6": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 R#7": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 R#8": {
+   "c": [
+    "Pharmacocinétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Voie transdermique, évite premier passage hépatique = absorption"
+  },
+  "2023 R#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 R#10": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2023 R#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2023 R#12": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 R#13": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 R#14": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2023 R#15": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2023 R#16": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2023 R#17": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2023 R#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2023 R#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2023 R#20": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2023 R#21": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2023 R#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2023 R#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2023 R#24": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2023 R#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2023 R#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2023 R#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2023 R#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2023 R#29": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2023 R#30": {
+   "c": [
+    "Sulfamides"
+   ]
+  },
+  "2023 R#31": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2023 R#32": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2023 R#33": {
+   "c": [
+    "Cyclines"
+   ]
+  },
+  "2023 R#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2023 R#35": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2023 R#36": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2023 R#37": {
+   "c": [
+    "Antithrombotiques 1"
+   ],
+   "case": "2023 R#37-38"
+  },
+  "2023 R#38": {
+   "c": [
+    "Les hypolipémiants"
+   ],
+   "case": "2023 R#37-38",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Follow-up asks for statine"
+  },
+  "2023 R#39": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2023 R#40": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2023 R#41": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2023 R#42": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "Apixaban (AOD); unsure which Antithrombotiques part covers AOD"
+  },
+  "2023 R#43": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2023 R#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2023 R#45": {
+   "c": [
+    "Antispasmodiques"
+   ]
+  },
+  "2023 R#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2023 R#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2023 R#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2023 R#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2023 R#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2022 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2022 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2022 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2022 N#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2022 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2022 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2022 N#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2022 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2022 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2022 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2022 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2022 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2022 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2022 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2022 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2022 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2022 N#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2022 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2022 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2022 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2022 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2022 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2022 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2022 N#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2022 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2022 N#26": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2022 N#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2022 N#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2022 N#29": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ],
+   "conf": "low",
+   "why": "Diffusion méningée across antibiotics and antiviral"
+  },
+  "2022 N#30": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2022 N#31": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2022 N#32": {
+   "c": [
+    "Sulfamides"
+   ]
+  },
+  "2022 N#33": {
+   "c": [
+    "Imidazolés"
+   ]
+  },
+  "2022 N#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2022 N#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2022 N#36": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2022 N#37": {
+   "c": [
+    "Bétabloquants"
+   ],
+   "case": "2022 N#37-38"
+  },
+  "2022 N#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2022 N#37-38",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Anticoagulation AOD in FA; unsure which Antithrombotiques part"
+  },
+  "2022 N#39": {
+   "c": [
+    "Les hypolipémiants"
+   ]
+  },
+  "2022 N#40": {
+   "c": [
+    "Les inhibiteurs du SRAA",
+    "Bétabloquants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Post-IDM + IC: IEC, BB, aspirine, statine together"
+  },
+  "2022 N#41": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2022 N#42": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2022 N#43": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2022 N#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2022 N#45": {
+   "c": [
+    "L'insulinothérapie"
+   ]
+  },
+  "2022 N#46": {
+   "c": [
+    "L'insulinothérapie"
+   ]
+  },
+  "2022 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2022 N#48": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2022 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2022 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2021 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 N#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 N#5": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preclinical animal studies, not clinical trials"
+  },
+  "2021 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2021 N#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2021 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2021 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2021 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2021 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2021 N#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2021 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 N#22": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2021 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2021 N#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2021 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2021 N#26": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2021 N#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2021 N#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2021 N#29": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2021 N#30": {
+   "c": [
+    "Glycopeptides"
+   ]
+  },
+  "2021 N#31": {
+   "c": [
+    "Glycopeptides"
+   ]
+  },
+  "2021 N#32": {
+   "c": [
+    "Imidazolés"
+   ]
+  },
+  "2021 N#33": {
+   "c": [
+    "Macrolides"
+   ]
+  },
+  "2021 N#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2021 N#35": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2021 N#36": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2021 N#37": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2021 N#38": {
+   "c": [
+    "Antithrombotiques 1"
+   ]
+  },
+  "2021 N#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2021 N#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AOMI: statine + clopidogrel"
+  },
+  "2021 N#41": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2021 N#42": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2021 N#43": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2021 N#44": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2021 N#45": {
+   "c": [
+    "Les antidiabétiques",
+    "L'insulinothérapie"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hypoglycemia risk: sulfamides and insulin"
+  },
+  "2021 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2021 N#47": {
+   "c": [
+    "Les anti-inflammatoires",
+    "La prescription chez la femme enceinte et allaitante"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AINS risks during pregnancy"
+  },
+  "2021 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2021 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2021 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2021 R#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 R#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 R#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 R#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 R#5": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2021 R#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2021 R#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2021 R#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2021 R#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2021 R#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 R#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 R#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 R#13": {
+   "c": [
+    "Pharmacocinétique",
+    "Les interactions médicamenteuses"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Metabolic interactions: enzyme induction/inhibition"
+  },
+  "2021 R#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2021 R#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2021 R#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2021 R#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2021 R#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 R#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 R#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 R#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2021 R#22": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2021 R#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2021 R#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2021 R#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2021 R#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2021 R#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2021 R#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2021 R#29": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2021 R#30": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2021 R#31": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2021 R#32": {
+   "c": [
+    "Quinolones"
+   ]
+  },
+  "2021 R#33": {
+   "c": [
+    "Cyclines"
+   ]
+  },
+  "2021 R#34": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2021 R#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2021 R#36": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2021 R#37": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2021 R#38": {
+   "c": [
+    "Antithrombotiques 1"
+   ]
+  },
+  "2021 R#39": {
+   "c": [
+    "Antithrombotiques 3"
+   ]
+  },
+  "2021 R#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AVC carotidien: statine + aspirine"
+  },
+  "2021 R#41": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2021 R#42": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2021 R#43": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2021 R#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2021 R#45": {
+   "c": [
+    "Les antidiabétiques"
+   ]
+  },
+  "2021 R#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2021 R#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2021 R#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2021 R#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2021 R#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2020 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2020 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2020 N#3": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2020 N#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2020 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2020 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2020 N#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2020 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2020 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2020 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2020 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2020 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2020 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2020 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2020 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2020 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ],
+   "conf": "low",
+   "why": "Counterfeit drugs; could fit Introduction or La vie du médicament"
+  },
+  "2020 N#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2020 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2020 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2020 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2020 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2020 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2020 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2020 N#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2020 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2020 N#26": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2020 N#27": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2020 N#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ],
+   "conf": "low",
+   "why": "Meningeal diffusion across several antibiotic classes"
+  },
+  "2020 N#29": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2020 N#30": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2020 N#31": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2020 N#32": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2020 N#33": {
+   "c": [
+    "Imidazolés"
+   ]
+  },
+  "2020 N#34": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2020 N#35": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2020 N#36": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2020 N#37": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2020 N#38": {
+   "c": [
+    "Antithrombotiques 1"
+   ]
+  },
+  "2020 N#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ]
+  },
+  "2020 N#40": {
+   "c": [
+    "Antithrombotiques 1",
+    "Les hypolipémiants"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Post-IDM: statine + clopidogrel (+ BB)"
+  },
+  "2020 N#41": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2020 N#42": {
+   "c": [
+    "Les inhibiteurs calciques"
+   ]
+  },
+  "2020 N#43": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anti-secretory drugs, not cardio"
+  },
+  "2020 N#44": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2020 N#45": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2020 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2020 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2020 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2020 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2020 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2019 N#1": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "AMM dossier timing = drug life cycle, not clinical trials"
+  },
+  "2019 N#2": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Registration (AMM) criteria = drug life cycle"
+  },
+  "2019 N#3": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preclinical pharmacodynamic studies, not pharmacokinetics"
+  },
+  "2019 N#4": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2019 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2019 N#6": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Preclinical animal studies required before trials"
+  },
+  "2019 N#7": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Preclinical animal studies before trials"
+  },
+  "2019 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2019 N#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2019 N#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Phase galénique/absorption = pharmacokinetics"
+  },
+  "2019 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Active transport in absorption/elimination = pharmacokinetics"
+  },
+  "2019 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Enzyme inhibition in metabolism = pharmacokinetics"
+  },
+  "2019 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2019 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2019 N#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2019 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2019 N#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2019 N#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2019 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2019 N#26": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2019 N#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2019 N#28": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2019 N#29": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2019 N#30": {
+   "c": [
+    "Aminosides"
+   ]
+  },
+  "2019 N#31": {
+   "c": [
+    "Cyclines"
+   ]
+  },
+  "2019 N#32": {
+   "c": [
+    "Imidazolés"
+   ]
+  },
+  "2019 N#33": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2019 N#34": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2019 N#35": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2019 N#36": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2019 N#37": {
+   "c": [
+    "Digitaliques"
+   ],
+   "case": "2019 N#37-38"
+  },
+  "2019 N#38": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "case": "2019 N#37-38",
+   "flags": [
+    "case_override"
+   ],
+   "why": "AVK for mechanical valve; anticoagulant cours number uncertain"
+  },
+  "2019 N#39": {
+   "c": [
+    "Les hypolipémiants"
+   ]
+  },
+  "2019 N#40": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2019 N#41": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2019 N#42": {
+   "c": [
+    "Antithrombotiques 3"
+   ],
+   "why": "Thrombolytics; antithrombotic cours split uncertain"
+  },
+  "2019 N#43": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2019 N#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2019 N#45": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2019 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2019 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Glucocorticoid side effects, not infectious disease"
+  },
+  "2019 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2019 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2019 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2019 R#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2019 R#2": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preclinical animal toxicology = drug life cycle"
+  },
+  "2019 R#3": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preclinical pharmacodynamic studies, not pharmacokinetics"
+  },
+  "2019 R#4": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Drug discovery phase = drug life cycle"
+  },
+  "2019 R#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2019 R#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2019 R#7": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2019 R#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2019 R#9": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2019 R#10": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 R#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 R#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 R#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 R#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2019 R#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2019 R#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2019 R#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2019 R#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 R#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 R#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 R#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 R#22": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2019 R#23": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2019 R#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2019 R#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ]
+  },
+  "2019 R#26": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2019 R#27": {
+   "c": [
+    "Les diurétiques"
+   ]
+  },
+  "2019 R#28": {
+   "c": [
+    "Antibiothérapie - généralités"
+   ]
+  },
+  "2019 R#29": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2019 R#30": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2019 R#31": {
+   "c": [
+    "Quinolones"
+   ]
+  },
+  "2019 R#32": {
+   "c": [
+    "Sulfamides"
+   ]
+  },
+  "2019 R#33": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2019 R#34": {
+   "c": [
+    "Antitussifs"
+   ]
+  },
+  "2019 R#35": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2019 R#36": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2019 R#37": {
+   "c": [
+    "Antithrombotiques 1"
+   ],
+   "case": "2019 R#37-38",
+   "why": "Dual antiplatelet therapy; antithrombotic cours split uncertain"
+  },
+  "2019 R#38": {
+   "c": [
+    "Les hypolipémiants"
+   ],
+   "case": "2019 R#37-38",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Statin after coronary angioplasty"
+  },
+  "2019 R#39": {
+   "c": [
+    "Les inhibiteurs du SRAA"
+   ]
+  },
+  "2019 R#40": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2019 R#41": {
+   "c": [
+    "Anti-angoreux"
+   ]
+  },
+  "2019 R#42": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "AVK indication; anticoagulant cours number uncertain"
+  },
+  "2019 R#43": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2019 R#44": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2019 R#45": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2019 R#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2019 R#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2019 R#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2019 R#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2019 R#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  },
+  "2018 N#1": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2018 N#2": {
+   "c": [
+    "La vie du médicament"
+   ]
+  },
+  "2018 N#3": {
+   "c": [
+    "La vie du médicament"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preclinical pharmacodynamic studies, not pharmacokinetics"
+  },
+  "2018 N#4": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2018 N#5": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2018 N#6": {
+   "c": [
+    "Les essais cliniques"
+   ]
+  },
+  "2018 N#7": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2018 N#8": {
+   "c": [
+    "Les interactions médicamenteuses"
+   ]
+  },
+  "2018 N#9": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2018 N#10": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ],
+   "conf": "low",
+   "why": "Generic/princeps bioequivalence; could be La vie du médicament"
+  },
+  "2018 N#11": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2018 N#12": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2018 N#13": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2018 N#14": {
+   "c": [
+    "Pharmacocinétique"
+   ]
+  },
+  "2018 N#15": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2018 N#16": {
+   "c": [
+    "Effets indésirables des médicaments et pharmacovigilance"
+   ]
+  },
+  "2018 N#17": {
+   "c": [
+    "Médicament et pathologie du foie"
+   ]
+  },
+  "2018 N#18": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2018 N#19": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2018 N#20": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2018 N#21": {
+   "c": [
+    "Les règles générales de la prescription médicamenteuse"
+   ]
+  },
+  "2018 N#22": {
+   "c": [
+    "La prescription médicamenteuse chez l'enfant et le sujet âgé"
+   ]
+  },
+  "2018 N#23": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2018 N#24": {
+   "c": [
+    "La prescription chez la femme enceinte et allaitante"
+   ]
+  },
+  "2018 N#25": {
+   "c": [
+    "Le suivi thérapeutique pharmacologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question is explicitly about suivi thérapeutique pharmacologique"
+  },
+  "2018 N#26": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2018 N#27": {
+   "c": [
+    "Rein et médicaments"
+   ]
+  },
+  "2018 N#28": {
+   "c": [
+    "Antifongiques"
+   ]
+  },
+  "2018 N#29": {
+   "c": [
+    "Quinolones"
+   ]
+  },
+  "2018 N#30": {
+   "c": [
+    "Sulfamides"
+   ]
+  },
+  "2018 N#31": {
+   "c": [
+    "Antiviraux"
+   ]
+  },
+  "2018 N#32": {
+   "c": [
+    "Bêta-lactamines"
+   ]
+  },
+  "2018 N#33": {
+   "c": [
+    "L'insulinothérapie"
+   ]
+  },
+  "2018 N#34": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2018 N#35": {
+   "c": [
+    "Bronchodilatateurs"
+   ]
+  },
+  "2018 N#36": {
+   "c": [
+    "Anti-bacillaires"
+   ]
+  },
+  "2018 N#37": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "AVK in atrial fibrillation; anticoagulant cours number uncertain"
+  },
+  "2018 N#38": {
+   "c": [
+    "Bétabloquants"
+   ]
+  },
+  "2018 N#39": {
+   "c": [
+    "Antithrombotiques 2"
+   ],
+   "why": "Heparin monitoring by TCA; anticoagulant cours number uncertain"
+  },
+  "2018 N#40": {
+   "c": [
+    "Les hypolipémiants"
+   ]
+  },
+  "2018 N#41": {
+   "c": [
+    "Anti-angoreux"
+   ]
+  },
+  "2018 N#42": {
+   "c": [
+    "Bétabloquants"
+   ],
+   "conf": "low",
+   "why": "Beta-blocker for stable angina; could be Anti-angoreux"
+  },
+  "2018 N#43": {
+   "c": [
+    "Les antalgiques"
+   ]
+  },
+  "2018 N#44": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastroduodénale"
+   ]
+  },
+  "2018 N#45": {
+   "c": [
+    "Prise en charge hygiéno-diététique et médicamenteuse (les laxatifs)"
+   ]
+  },
+  "2018 N#46": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2018 N#47": {
+   "c": [
+    "Les anti-inflammatoires"
+   ]
+  },
+  "2018 N#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "2018 N#49": {
+   "c": [
+    "Anxiolytiques"
+   ]
+  },
+  "2018 N#50": {
+   "c": [
+    "Antidépresseurs"
+   ]
+  }
+ }
+}

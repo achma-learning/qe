@@ -63,7 +63,11 @@ node tools/classify-check.js <slug> --merge <dir>/<slug>/out-*.json   # merge + 
 node tools/classify-check.js <slug> --flags       # coverage, count per cours, flagged questions
 node tools/build-lessons.js                       # bakes it into data/_lessons.js (QE_LESSONS[slug].qs)
 ```
-The check also warns with `twins disagree` when the same question, reused in another exam with the same expected answer, got a different main cours. That happens because chunks go to different classifiers. Settle each one by hand in the JSON.
+The check also warns with `twins disagree` when the same question, reused in another exam with the same expected answer, got a different main cours. That happens because chunks go to different classifiers. You can settle each one by hand in the JSON. Or run `--harmonize`, which moves each group of repeated questions onto its majority cours (on a tie, the most recent exam wins) and flags the ones it moved `harmonized`.
+
+Two more tools for awkward cases:
+- **`classification/_hints.json`:** per-module notes that are printed in every worksheet. Use it for cours whose name doesn't say what they cover, e.g. that "Antithrombotiques 1/2/3" = antiagrégants / anticoagulants / thrombolytiques. Settle a question there once instead of letting every classifier guess.
+- **`{ "keep": "topic" }`:** an entry that deliberately leaves a question on its topic mapping. Use it for an exam with no cours in the module, like the toxicology exam in the Pharmaco file.
 
 After new exams are added, `classify-prep.js <slug> --only-missing` makes worksheets for just the new questions.
 
