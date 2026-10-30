@@ -1,0 +1,4287 @@
+{
+ "module": "Urgences - Réanimation - Soins palliatifs - Chirurgie plastique",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Les infections associées aux soins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "PNAVM = infection associée aux soins"
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Les infections associées aux soins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "PNAVM risk factors = infection associée aux soins"
+  },
+  "Normal 2026#5": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Normal 2026#6": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Normal 2026#8": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "Prise en charge du coma"
+   ]
+  },
+  "Normal 2026#19": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ],
+   "conf": "low",
+   "why": "Depth/extent evaluation; could be local burn course"
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Normal 2026#21": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Vipère bite, not intoxication"
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scorpion sting, not intoxication"
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Normal 2026#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#33": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Skin graft; no dedicated cours"
+  },
+  "Normal 2026#36": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Normal 2026#39": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General SP definition; no dedicated cours"
+  },
+  "Normal 2026#47": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Moroccan SP units organisation; no dedicated cours"
+  },
+  "Normal 2026#48": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Formulating SP objectives; no dedicated cours"
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Normal 2025#5-8"
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Normal 2025#5-8",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Pseudo-hyponatrémie hyperosmolaire = dysnatrémie"
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Dyskaliémies"
+   ],
+   "case": "Normal 2025#5-8",
+   "flags": [
+    "case_override"
+   ],
+   "why": "ECG signs of hypokaliémie"
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Normal 2025#5-8"
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "flags": [
+    "other_module"
+   ],
+   "conf": "low",
+   "why": "CURB-65 community pneumonia severity, pneumology topic"
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Normal 2025#14-18"
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Normal 2025#14-18"
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Normal 2025#14-18"
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Normal 2025#14-18"
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Normal 2025#14-18"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Normal 2025#19-21"
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Normal 2025#19-21"
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Normal 2025#19-21"
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cobra bite, not intoxication"
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Skin graft; no dedicated cours"
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General SP definition; no dedicated cours"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Moroccan SP units organisation; no dedicated cours"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Formulating SP objectives; no dedicated cours"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Janvier 2024#1": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Janvier 2024#2": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Janvier 2024#3": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2024#4": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2024#5": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2024#6": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2024#7": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2024#8": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2024#9": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2024#10": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2024#11": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2024#12": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2024#13": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2024#14": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2024#15": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2024#16": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2024#17": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Janvier 2024#18": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Janvier 2024#19": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Janvier 2024#20": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2024#21": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Janvier 2024#22": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2024#23": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2024#24": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2024#25": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Janvier 2024#26": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2024#27": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2024#28": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2024#29": {
+   "c": [
+    "Prise en charge du coma"
+   ]
+  },
+  "Janvier 2024#30": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Janvier 2024#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2024#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2024#33": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2024#34": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2024#35": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Expansion cutanée; no dedicated cours"
+  },
+  "Janvier 2024#36": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2024#37": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2024#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2024#39": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2024#40": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Janvier 2024#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General SP definition; no dedicated cours"
+  },
+  "Janvier 2024#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Moroccan SP units organisation; no dedicated cours"
+  },
+  "Janvier 2024#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Formulating SP objectives; no dedicated cours"
+  },
+  "Janvier 2024#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2024#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2024#46": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2024#47": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Janvier 2024#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Janvier 2024#49": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2024#50": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de cobra = envenimation ophidienne, not intoxication"
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion classe III = envenimation scorpionique"
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Dysnatrémies"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2024#26-30"
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2024#26-30"
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2024#26-30"
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2024#26-30"
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2024#26-30"
+  },
+  "Juin 2024#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no dedicated cours"
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Définition générale des soins palliatifs: no dedicated cours"
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Organisation des unités de SP au Maroc: no dedicated cours"
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectifs généraux des SP: no dedicated cours"
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Évaluation nutritionnelle/hydratation vs démarche symptomatique générale"
+  },
+  "Juin 2024#47": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Septembre 2024#1": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Septembre 2024#2": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no dedicated cours"
+  },
+  "Septembre 2024#3": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Septembre 2024#4": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Septembre 2024#5": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Septembre 2024#6": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Septembre 2024#7": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Septembre 2024#8": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Septembre 2024#9": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Septembre 2024#10": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Septembre 2024#11": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de cobra = envenimation ophidienne, not intoxication"
+  },
+  "Septembre 2024#12": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Septembre 2024#13": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Septembre 2024#14": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion classe III = envenimation scorpionique"
+  },
+  "Septembre 2024#15": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Septembre 2024#16": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Septembre 2024#17": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Septembre 2024#18": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Septembre 2024#19": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Septembre 2024#20": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Septembre 2024#21": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Septembre 2024#22": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Septembre 2024#23": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Septembre 2024#24": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Septembre 2024#25": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Septembre 2024#26": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Septembre 2024#27": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Septembre 2024#28": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Septembre 2024#29": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Septembre 2024#30": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Septembre 2024#31": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Septembre 2024#32": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Septembre 2024#33": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Septembre 2024#34": {
+   "c": [
+    "Dysnatrémies"
+   ]
+  },
+  "Septembre 2024#35": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Septembre 2024#36": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Septembre 2024#36-40"
+  },
+  "Septembre 2024#37": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Septembre 2024#36-40"
+  },
+  "Septembre 2024#38": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Septembre 2024#36-40"
+  },
+  "Septembre 2024#39": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Septembre 2024#36-40"
+  },
+  "Septembre 2024#40": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Septembre 2024#36-40"
+  },
+  "Septembre 2024#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Définition générale des soins palliatifs: no dedicated cours"
+  },
+  "Septembre 2024#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Organisation des unités de SP au Maroc: no dedicated cours"
+  },
+  "Septembre 2024#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectifs généraux des SP: no dedicated cours"
+  },
+  "Septembre 2024#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Septembre 2024#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Septembre 2024#46": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Évaluation nutritionnelle/hydratation vs démarche symptomatique générale"
+  },
+  "Septembre 2024#47": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Septembre 2024#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Septembre 2024#49": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Septembre 2024#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de cobra = envenimation ophidienne, not intoxication"
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion classe III = envenimation scorpionique"
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Dysnatrémies"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Octobre 2024#26-30"
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Octobre 2024#26-30"
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Octobre 2024#26-30"
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Octobre 2024#26-30"
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Octobre 2024#26-30"
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no dedicated cours"
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Définition générale des soins palliatifs: no dedicated cours"
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Organisation des unités de SP au Maroc: no dedicated cours"
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectifs généraux des SP: no dedicated cours"
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Évaluation nutritionnelle/hydratation vs démarche symptomatique générale"
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Janvier 2023#1": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2023#2": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2023#3": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Janvier 2023#4": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Janvier 2023#5": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Janvier 2023#6": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2023#7": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2023#8": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2023#9": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2023#10": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "case": "Janvier 2023#10-11",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Snakebite envenomation, not intoxication"
+  },
+  "Janvier 2023#11": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "case": "Janvier 2023#10-11",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Snakebite envenomation, not intoxication"
+  },
+  "Janvier 2023#12": {
+   "c": [
+    "Intoxications aiguës"
+   ],
+   "case": "Janvier 2023#12-13"
+  },
+  "Janvier 2023#13": {
+   "c": [
+    "Intoxications aiguës"
+   ],
+   "case": "Janvier 2023#12-13"
+  },
+  "Janvier 2023#14": {
+   "c": [
+    "Intoxications aiguës"
+   ],
+   "case": "Janvier 2023#14-15"
+  },
+  "Janvier 2023#15": {
+   "c": [
+    "Intoxications aiguës"
+   ],
+   "case": "Janvier 2023#14-15"
+  },
+  "Janvier 2023#16": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2023#17": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2023#18": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2023#19": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2023#20": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Janvier 2023#21": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Janvier 2023#22": {
+   "c": [
+    "Dysnatrémies"
+   ]
+  },
+  "Janvier 2023#23": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Janvier 2023#24": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2023#24-28"
+  },
+  "Janvier 2023#25": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2023#24-28"
+  },
+  "Janvier 2023#26": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2023#24-28"
+  },
+  "Janvier 2023#27": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2023#24-28"
+  },
+  "Janvier 2023#28": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2023#24-28"
+  },
+  "Janvier 2023#29": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ]
+  },
+  "Janvier 2023#30": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ]
+  },
+  "Janvier 2023#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2023#32": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no specific cours"
+  },
+  "Janvier 2023#33": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2023#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2023#35": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2023#36": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2023#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2023#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2023#39": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2023#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2023#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS definition of palliative approach: no généralités cours"
+  },
+  "Janvier 2023#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no généralités cours"
+  },
+  "Janvier 2023#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectives of palliative care: no généralités cours"
+  },
+  "Janvier 2023#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2023#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2023#46": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Mixes nutrition, hydration and symptom assessment"
+  },
+  "Janvier 2023#47": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2023#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Janvier 2023#49": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2023#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2023#1-4"
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2023#1-4"
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2023#1-4"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2023#1-4"
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2023#5-8"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2023#5-8"
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2023#5-8"
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2023#5-8"
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "case": "Juin 2023#9-10",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Snakebite envenomation, not intoxication"
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "case": "Juin 2023#9-10",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Snakebite envenomation, not intoxication"
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scorpion sting envenomation, not intoxication"
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2023#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Patient right to refuse, prior evaluation: general/ethics"
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "PEC des symptômes et complications en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Mixes pain, symptoms and nutrition assessment"
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS definition of palliative approach: no généralités cours"
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no généralités cours"
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectives of palliative care: no généralités cours"
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2022#1": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Janvier 2022#2": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Janvier 2022#3": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2022#4": {
+   "c": [
+    "États de choc : généralités"
+   ],
+   "conf": "low",
+   "why": "Hemodynamic profiles comparison; answer is cardiogenic"
+  },
+  "Janvier 2022#5": {
+   "c": [
+    "Monitorage"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Volemia monitoring by echocardiography"
+  },
+  "Janvier 2022#6": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2022#7": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2022#8": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2022#9": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cobra syndrome = snakebite envenomation"
+  },
+  "Janvier 2022#10": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Antivenom immunotherapy for snakebite"
+  },
+  "Janvier 2022#11": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2022#12": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "conf": "low",
+   "why": "DKA blood gas: acid-base vs diabetes cours"
+  },
+  "Janvier 2022#13": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2022#14": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2022#15": {
+   "c": [
+    "Prise en charge du coma"
+   ]
+  },
+  "Janvier 2022#16": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ]
+  },
+  "Janvier 2022#17": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Janvier 2022#18": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Janvier 2022#19": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2022#19-22"
+  },
+  "Janvier 2022#20": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2022#19-22"
+  },
+  "Janvier 2022#21": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2022#19-22"
+  },
+  "Janvier 2022#22": {
+   "c": [
+    "Dyskaliémies"
+   ],
+   "case": "Janvier 2022#19-22",
+   "flags": [
+    "case_override"
+   ],
+   "why": "ECG signs of hypokalaemia (K 2.1)"
+  },
+  "Janvier 2022#23": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2022#24": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2022#25": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2022#26": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2022#27": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2022#28": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2022#29": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2022#30": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2022#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2022#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2022#33": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2022#34": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2022#35": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2022#36": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Janvier 2022#37": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Janvier 2022#38": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2022#39": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2022#40": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2022#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS definition of palliative approach: no généralités cours"
+  },
+  "Janvier 2022#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no généralités cours"
+  },
+  "Janvier 2022#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Objectives of palliative care: no généralités cours"
+  },
+  "Janvier 2022#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2022#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2022#46": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2022#47": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2022#48": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "General palliative statements, mostly nutrition"
+  },
+  "Janvier 2022#49": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2022#50": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2021#1": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2021#2": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2021#3": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2021#4": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scorpion envenomation class II, not intoxication"
+  },
+  "Janvier 2021#5": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Viper bite, not intoxication"
+  },
+  "Janvier 2021#6": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2021#7": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Janvier 2021#8": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2021#9": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2021#10": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2021#11": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Janvier 2021#12": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2021#13": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Janvier 2021#14": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2021#15": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2021#16": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2021#17": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Chaîne de survie = arrêt cardiaque, not trauma/coma"
+  },
+  "Janvier 2021#18": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2021#19": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Janvier 2021#20": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Janvier 2021#21": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ]
+  },
+  "Janvier 2021#22": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ]
+  },
+  "Janvier 2021#23": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2021#24": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Janvier 2021#25": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2021#26": {
+   "c": [
+    "Troubles hydroélectrolytiques"
+   ]
+  },
+  "Janvier 2021#27": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2021#28": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2021#29": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2021#30": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2021#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2021#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2021#33": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2021#34": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2021#35": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2021#36": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2021#37": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Janvier 2021#38": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2021#39": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Expansion cutanée: no matching cours"
+  },
+  "Janvier 2021#40": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no matching cours"
+  },
+  "Janvier 2021#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General definition of palliative care: no specific cours"
+  },
+  "Janvier 2021#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no specific cours"
+  },
+  "Janvier 2021#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Moroccan palliative care organisation: no specific cours"
+  },
+  "Janvier 2021#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2021#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2021#46": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2021#47": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2021#48": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2021#49": {
+   "c": [
+    "PEC des symptômes et complications en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Soins de bouche/repas fractionnés; could be alimentation"
+  },
+  "Janvier 2021#50": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cobra bite, not intoxication"
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Les troubles acido-basiques"
+   ]
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2021#15-18"
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2021#15-18"
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2021#15-18"
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2021#15-18"
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2021#19-22"
+  },
+  "Juin 2021#20": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2021#19-22"
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2021#19-22"
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2021#19-22"
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2021#32": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2021#33": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2021#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2021#35": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2021#36": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Expansion cutanée: no matching cours"
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no matching cours"
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Les escarres"
+   ]
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS characteristics of palliative care: no specific cours"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no specific cours"
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Moroccan mobile palliative team: no specific cours"
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2021#46": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Juin 2021#47": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2020#1": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Janvier 2020#2": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2020#3": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2020#4": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2020#5": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2020#6": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2020#7": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2020#8": {
+   "c": [
+    "Les infections associées aux soins"
+   ]
+  },
+  "Janvier 2020#9": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2020#10": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Viper bite, not intoxication"
+  },
+  "Janvier 2020#11": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scorpion sting, not intoxication"
+  },
+  "Janvier 2020#12": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2020#13": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2020#14": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2020#15": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2020#16": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Janvier 2020#16-18"
+  },
+  "Janvier 2020#17": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Janvier 2020#16-18"
+  },
+  "Janvier 2020#18": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Janvier 2020#16-18"
+  },
+  "Janvier 2020#19": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2020#19-21"
+  },
+  "Janvier 2020#20": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2020#19-21"
+  },
+  "Janvier 2020#21": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2020#19-21"
+  },
+  "Janvier 2020#22": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Janvier 2020#22-23"
+  },
+  "Janvier 2020#23": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Janvier 2020#22-23"
+  },
+  "Janvier 2020#24": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2020#25": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2020#26": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2020#27": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Janvier 2020#28": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2020#29": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Janvier 2020#29-32"
+  },
+  "Janvier 2020#30": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Janvier 2020#29-32",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "IRA hypoxémique physiopathology in OAP case, not milieu intérieur"
+  },
+  "Janvier 2020#31": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Janvier 2020#29-32",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "OAP treatment (O2, VNI, diurétiques), not milieu intérieur"
+  },
+  "Janvier 2020#32": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2020#29-32",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Hyponatrémie hypo-osmotique typing in OAP case"
+  },
+  "Janvier 2020#33": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2020#34": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2020#35": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2020#36": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2020#37": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2020#38": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2020#39": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2020#40": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2020#41": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Janvier 2020#42": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau mince: no matching cours"
+  },
+  "Janvier 2020#43": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Janvier 2020#44": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2020#45": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Janvier 2020#46": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS characteristics of palliative care: no specific cours"
+  },
+  "Janvier 2020#47": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care: no specific cours"
+  },
+  "Janvier 2020#48": {
+   "c": [
+    "Soins palliatifs",
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "Formulating palliative care goals; general principles, closest is ethics/communication",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Janvier 2020#49": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2020#50": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2020#1": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Juin 2020#2": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2020#3": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Juin 2020#4": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2020#5": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2020#6": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2020#7": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2020#8": {
+   "c": [
+    "SDRA"
+   ]
+  },
+  "Juin 2020#9": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2020#10": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de vipère = envenimation, not intoxication"
+  },
+  "Juin 2020#11": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2020#12": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion = envenimation, not intoxication"
+  },
+  "Juin 2020#13": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2020#14": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2020#15": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2020#16": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Juin 2020#16-19"
+  },
+  "Juin 2020#17": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Juin 2020#16-19"
+  },
+  "Juin 2020#18": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Juin 2020#16-19"
+  },
+  "Juin 2020#19": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Juin 2020#16-19"
+  },
+  "Juin 2020#20": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2020#20-22"
+  },
+  "Juin 2020#21": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2020#20-22"
+  },
+  "Juin 2020#22": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Juin 2020#20-22"
+  },
+  "Juin 2020#23": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2020#23-24"
+  },
+  "Juin 2020#24": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Juin 2020#23-24"
+  },
+  "Juin 2020#25": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#26": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#27": {
+   "c": [
+    "Insuffisance respiratoire aiguë (détresse respiratoire aiguë)"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#28": {
+   "c": [
+    "Dyskaliémies"
+   ],
+   "case": "Juin 2020#25-28",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Hypokaliémie par transfert sous B2-mimétiques"
+  },
+  "Juin 2020#29": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2020#30": {
+   "c": [
+    "PEC d'un patient en état de mort encéphalique"
+   ]
+  },
+  "Juin 2020#31": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2020#32": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2020#33": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2020#34": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2020#35": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2020#36": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2020#37": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2020#38": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2020#39": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2020#40": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no dedicated cours"
+  },
+  "Juin 2020#41": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2020#42": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2020#43": {
+   "c": [
+    "Alimentation et hydratation en soins palliatifs"
+   ]
+  },
+  "Juin 2020#44": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Juin 2020#45": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ]
+  },
+  "Juin 2020#46": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ],
+   "conf": "low",
+   "why": "General principles of palliative care; ethics closest"
+  },
+  "Juin 2020#47": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "OMS obstacles to palliative care development: no specific cours"
+  },
+  "Juin 2020#48": {
+   "c": [
+    "Soins palliatifs"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Organisation of mobile palliative team: no specific cours"
+  },
+  "Juin 2020#49": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Juin 2020#50": {
+   "c": [
+    "Communication, soutien psychologique et éthique en soins palliatifs"
+   ]
+  },
+  "Janvier 2019#1": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2019#2": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2019#3": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Janvier 2019#4": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Janvier 2019#5": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Janvier 2019#6": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Janvier 2019#7": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Janvier 2019#8": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2019#9": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2019#10": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2019#11": {
+   "c": [
+    "Prise en charge du coma"
+   ],
+   "case": "Janvier 2019#11-14"
+  },
+  "Janvier 2019#12": {
+   "c": [
+    "Prise en charge du coma"
+   ],
+   "case": "Janvier 2019#11-14"
+  },
+  "Janvier 2019#13": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Janvier 2019#11-14",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Coma case resolves as acidocétose; treatment of DKA"
+  },
+  "Janvier 2019#14": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ],
+   "case": "Janvier 2019#11-14",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation of DKA patient"
+  },
+  "Janvier 2019#15": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2019#15-17"
+  },
+  "Janvier 2019#16": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2019#15-17"
+  },
+  "Janvier 2019#17": {
+   "c": [
+    "Prise en charge d'un traumatisme grave"
+   ],
+   "case": "Janvier 2019#15-17"
+  },
+  "Janvier 2019#18": {
+   "c": [
+    "Prise en charge de la douleur aiguë"
+   ],
+   "case": "Janvier 2019#18-20",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Analgésie obstétricale, not trauma"
+  },
+  "Janvier 2019#19": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Janvier 2019#18-20",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2019#20": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ],
+   "case": "Janvier 2019#18-20",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2019#21": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "case": "Janvier 2019#21-22",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion = envenimation, not intoxication"
+  },
+  "Janvier 2019#22": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "case": "Janvier 2019#21-22",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "OAP cardiogénique complicating scorpion envenomation"
+  },
+  "Janvier 2019#23": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de vipère = envenimation, not intoxication"
+  },
+  "Janvier 2019#24": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2019#25": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Janvier 2019#26": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2019#27": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2019#28": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2019#29": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2019#30": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Janvier 2019#31": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Janvier 2019#31-32"
+  },
+  "Janvier 2019#32": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Janvier 2019#31-32"
+  },
+  "Janvier 2019#33": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2019#33-37"
+  },
+  "Janvier 2019#34": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2019#33-37"
+  },
+  "Janvier 2019#35": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2019#33-37"
+  },
+  "Janvier 2019#36": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2019#33-37"
+  },
+  "Janvier 2019#37": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Janvier 2019#33-37"
+  },
+  "Janvier 2019#38": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Janvier 2019#39": {
+   "c": [
+    "Dyskaliémies"
+   ],
+   "case": "Janvier 2019#39-40"
+  },
+  "Janvier 2019#40": {
+   "c": [
+    "Dyskaliémies"
+   ],
+   "case": "Janvier 2019#39-40"
+  },
+  "Janvier 2019#41": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2019#42": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Janvier 2019#43": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Greffe de peau totale: no dedicated cours"
+  },
+  "Janvier 2019#44": {
+   "c": [
+    "Chirurgie plastique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Lambeau: no dedicated cours"
+  },
+  "Janvier 2019#45": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2019#46": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2019#47": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2019#48": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Janvier 2019#49": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Janvier 2019#50": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2019#1": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2019#2": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2019#3": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2019#4": {
+   "c": [
+    "Asthme aigu grave"
+   ]
+  },
+  "Juin 2019#5": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2019#6": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2019#7": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2019#8": {
+   "c": [
+    "Traumatismes crâniens graves (phase précoce)"
+   ]
+  },
+  "Juin 2019#9": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2019#10": {
+   "c": [
+    "Choc septique"
+   ]
+  },
+  "Juin 2019#11": {
+   "c": [
+    "Choc anaphylactique"
+   ]
+  },
+  "Juin 2019#12": {
+   "c": [
+    "Choc hypovolémique"
+   ]
+  },
+  "Juin 2019#13": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Juin 2019#14": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Juin 2019#15": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Juin 2019#16": {
+   "c": [
+    "Choc cardiogénique"
+   ]
+  },
+  "Juin 2019#17": {
+   "c": [
+    "États de choc : généralités"
+   ]
+  },
+  "Juin 2019#18": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2019#19": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2019#20": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2019#21": {
+   "c": [
+    "Envenimation par morsure de serpent"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morsure de cobra = envenimation, not intoxication"
+  },
+  "Juin 2019#22": {
+   "c": [
+    "Envenimation par piqûre de scorpion"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Piqûre de scorpion = envenimation, not intoxication"
+  },
+  "Juin 2019#23": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2019#24": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2019#25": {
+   "c": [
+    "Brûlés graves : prise en charge"
+   ]
+  },
+  "Juin 2019#26": {
+   "c": [
+    "Intoxications aiguës"
+   ]
+  },
+  "Juin 2019#27": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Juin 2019#27-30"
+  },
+  "Juin 2019#28": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Juin 2019#27-30"
+  },
+  "Juin 2019#29": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Juin 2019#27-30"
+  },
+  "Juin 2019#30": {
+   "c": [
+    "SDRA"
+   ],
+   "case": "Juin 2019#27-30"
+  },
+  "Juin 2019#31": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Juin 2019#31-33"
+  },
+  "Juin 2019#32": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Juin 2019#31-33"
+  },
+  "Juin 2019#33": {
+   "c": [
+    "Dysnatrémies"
+   ],
+   "case": "Juin 2019#31-33"
+  },
+  "Juin 2019#34": {
+   "c": [
+    "Dyskaliémies"
+   ]
+  },
+  "Juin 2019#35": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Juin 2019#36": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Juin 2019#37": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Juin 2019#38": {
+   "c": [
+    "Arrêt cardiaque (ACR)"
+   ]
+  },
+  "Juin 2019#39": {
+   "c": [
+    "Prise en charge du coma"
+   ]
+  },
+  "Juin 2019#40": {
+   "c": [
+    "Les complications métaboliques aiguës du diabète (urgences hyperglycémiques)"
+   ]
+  },
+  "Juin 2019#41": {
+   "c": [
+    "Prise en charge du coma"
+   ]
+  },
+  "Juin 2019#42": {
+   "c": [
+    "Douleur : physiopathologie et évaluation"
+   ]
+  },
+  "Juin 2019#43": {
+   "c": [
+    "Les pansements"
+   ]
+  },
+  "Juin 2019#44": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2019#45": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2019#46": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2019#47": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2019#48": {
+   "c": [
+    "La cicatrisation cutanée"
+   ]
+  },
+  "Juin 2019#49": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  },
+  "Juin 2019#50": {
+   "c": [
+    "PEC locale des brûlures à la phase aiguë"
+   ]
+  }
+ }
+}

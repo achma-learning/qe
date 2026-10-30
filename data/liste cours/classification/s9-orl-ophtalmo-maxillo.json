@@ -1,0 +1,4601 @@
+{
+ "module": "ORL - Maxillo-facial - Ophtalmologie",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, rattachée aux OMC simples"
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Normal 2026#5": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Normal 2026#6": {
+   "c": [
+    "Cancer du cavum",
+    "Otites moyennes chroniques simples"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "OSM unilatérale de l'adulte = rechercher un cancer du cavum"
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Normal 2026#8": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Normal 2026#19": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Rappel anatomique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Histologie cornée/rétine, pas un traumatisme"
+  },
+  "Normal 2026#21": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2026#22-27"
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Normal 2026#31": {
+   "c": [
+    "Œil rouge"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Stratégie CHANCE = trachome (conjonctivite), pas traumatisme"
+  },
+  "Normal 2026#32": {
+   "c": [
+    "Contusion oculaire"
+   ]
+  },
+  "Normal 2026#33": {
+   "c": [
+    "Contusion oculaire"
+   ]
+  },
+  "Normal 2026#34": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Normal 2026#36": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Normal 2026#37": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2026#39": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Urgences faciales"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Normal 2026#47": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Normal 2026#48": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiases salivaires, pas cellulite"
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Fracture mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Blocage maxillo-mandibulaire = traitement des fractures mandibulaires"
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Normal 2025#21-26"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Normal 2025#27-30"
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Normal 2025#27-30"
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Normal 2025#27-30"
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Normal 2025#27-30"
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Contusion oculaire"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, rattachée aux OMC simples"
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Cancer de la langue"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Rattrapage 2025#1": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, rattachée aux OMC simples"
+  },
+  "Rattrapage 2025#2": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Rattrapage 2025#3": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Rattrapage 2025#4": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Rattrapage 2025#5": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Rattrapage 2025#6": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Rattrapage 2025#7": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Rattrapage 2025#8": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Rattrapage 2025#9": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Rattrapage 2025#10": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Rattrapage 2025#11": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Rattrapage 2025#12": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Rattrapage 2025#13": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Rattrapage 2025#14": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Rattrapage 2025#15": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Rattrapage 2025#16": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Rattrapage 2025#17": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Rattrapage 2025#18": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Rattrapage 2025#19": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Rattrapage 2025#19-20",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Ulcération buccale non spécifiée langue: cancer cavité buccale"
+  },
+  "Rattrapage 2025#20": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Rattrapage 2025#19-20",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Suite du cas ulcération buccale"
+  },
+  "Rattrapage 2025#21": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Rattrapage 2025#22": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Rattrapage 2025#23": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Rattrapage 2025#24": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Rattrapage 2025#25": {
+   "c": [
+    "Fracture mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Blocage maxillo-mandibulaire = traitement des fractures mandibulaires"
+  },
+  "Rattrapage 2025#26": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Rattrapage 2025#27": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Rattrapage 2025#28": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Rattrapage 2025#29": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Rattrapage 2025#30": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Rattrapage 2025#31": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Rattrapage 2025#32": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiases salivaires, pas cellulite"
+  },
+  "Rattrapage 2025#33": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Rattrapage 2025#34": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Rattrapage 2025#34-37"
+  },
+  "Rattrapage 2025#35": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Rattrapage 2025#34-37"
+  },
+  "Rattrapage 2025#36": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Rattrapage 2025#34-37"
+  },
+  "Rattrapage 2025#37": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Rattrapage 2025#34-37"
+  },
+  "Rattrapage 2025#38": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#39": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#40": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#41": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#42": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#43": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Rattrapage 2025#38-43"
+  },
+  "Rattrapage 2025#44": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Rattrapage 2025#44-47"
+  },
+  "Rattrapage 2025#45": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Rattrapage 2025#44-47"
+  },
+  "Rattrapage 2025#46": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Rattrapage 2025#44-47"
+  },
+  "Rattrapage 2025#47": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Rattrapage 2025#44-47"
+  },
+  "Rattrapage 2025#48": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Endophtalmie avec corps étrangers: complication de plaie du globe"
+  },
+  "Rattrapage 2025#49": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Rattrapage 2025#50": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Janvier 2024#1": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2024#2": {
+   "c": [
+    "Cancer du cavum",
+    "Otites moyennes chroniques simples"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "OSM unilatérale de l'adulte = rechercher un cancer du cavum"
+  },
+  "Janvier 2024#3": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séro-muqueuse, no dedicated cours"
+  },
+  "Janvier 2024#4": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2024#5": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2024#6": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2024#7": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2024#8": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2024#9": {
+   "c": [
+    "CAT devant une adénopathie cervicale",
+    "Cancer du larynx"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "ADP cervicale + dysphonie: bilan ORL d'un cancer laryngé"
+  },
+  "Janvier 2024#10": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2024#11": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2024#12": {
+   "c": [
+    "Cancer de la langue"
+   ]
+  },
+  "Janvier 2024#13": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Janvier 2024#14": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2024#15": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2024#16": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2024#17": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2024#18": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2024#19": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2024#20": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2024#21": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2024#22": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Janvier 2024#23": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Janvier 2024#24": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2024#25": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2024#26": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2024#27": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2024#28": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2024#29": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2024#30": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2024#31": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2024#31-34"
+  },
+  "Janvier 2024#32": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2024#31-34"
+  },
+  "Janvier 2024#33": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2024#31-34"
+  },
+  "Janvier 2024#34": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2024#31-34"
+  },
+  "Janvier 2024#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Janvier 2024#36": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Janvier 2024#37": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2024#38": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2024#39": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2024#40": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2024#41": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2024#42": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2024#43": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2024#44": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2024#45": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2024#46": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2024#47": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2024#48": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ATM bilatérale de l'enfant has its own cours"
+  },
+  "Janvier 2024#49": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2024#50": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiases salivaires, not cellulite"
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Juin 2024#12-15"
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Juin 2024#12-15"
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Juin 2024#12-15"
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Juin 2024#12-15"
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séro-muqueuse, no dedicated cours"
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Juin 2024#35-36"
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Juin 2024#35-36"
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ATM bilatérale de l'enfant has its own cours"
+  },
+  "Juin 2024#45": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiases salivaires, not cellulite"
+  },
+  "Juin 2024#47": {
+   "c": [
+    "CAT devant une adénopathie cervicale",
+    "Cancer du larynx"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "ADP cervicale + dysphonie: bilan ORL d'un cancer laryngé"
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ATM bilatérale de l'enfant has its own cours"
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiases salivaires, not cellulite"
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Octobre 2024#15-18"
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Octobre 2024#15-18"
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Octobre 2024#15-18"
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Octobre 2024#15-18"
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Octobre 2024#19-24"
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "conf": "low",
+   "why": "Endophtalmie, complication of plaie du globe"
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séro-muqueuse, no dedicated cours"
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "CAT devant une adénopathie cervicale",
+    "Cancer du larynx"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "ADP cervicale + dysphonie: bilan ORL d'un cancer laryngé"
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "novembre 2024#1": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "novembre 2024#2": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "novembre 2024#3": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "novembre 2024#4": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "novembre 2024#5": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "novembre 2024#6": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "novembre 2024#7": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "novembre 2024#8": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "novembre 2024#9": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "novembre 2024#10": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "novembre 2024#11": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "novembre 2024#12": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Brûlures oculaires par acide, cours dédié"
+  },
+  "novembre 2024#13": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge des brûlures, cours dédié"
+  },
+  "novembre 2024#14": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications des brûlures, cours dédié"
+  },
+  "novembre 2024#15": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "novembre 2024#16": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "novembre 2024#17": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "novembre 2024#18": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "novembre 2024#19": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "novembre 2024#20": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "novembre 2024#21": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "novembre 2024#22": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "novembre 2024#23": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "novembre 2024#24": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "novembre 2024#25": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "novembre 2024#26": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "novembre 2024#27": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "novembre 2024#28": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "novembre 2024#29": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "novembre 2024#30": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ankylose TM de l'enfant, cours dédié"
+  },
+  "novembre 2024#31": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, pas cellulite"
+  },
+  "novembre 2024#32": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "novembre 2024#33": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "novembre 2024#34": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "novembre 2024#35": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "novembre 2024#36": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "novembre 2024#37": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "novembre 2024#38": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, pas de cours dédié"
+  },
+  "novembre 2024#39": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "novembre 2024#40": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "novembre 2024#41": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "novembre 2024#42": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "novembre 2024#42-43"
+  },
+  "novembre 2024#43": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "novembre 2024#42-43"
+  },
+  "novembre 2024#44": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "novembre 2024#45": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "novembre 2024#46": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "novembre 2024#47": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "novembre 2024#48": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "novembre 2024#49": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "novembre 2024#50": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2023#1": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2023#2": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2023#3": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2023#4": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2023#5": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2023#6": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2023#7": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2023#8": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, pas de cours dédié"
+  },
+  "Janvier 2023#9": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "Janvier 2023#9-10"
+  },
+  "Janvier 2023#10": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "Janvier 2023#9-10"
+  },
+  "Janvier 2023#11": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2023#12": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2023#13": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2023#14": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Janvier 2023#15": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Kyste thyréoglosse: diagnostic de masse cervicale, pas cancer ORL"
+  },
+  "Janvier 2023#16": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2023#17": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2023#18": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2023#19": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2023#20": {
+   "c": [
+    "Rétinoblastome",
+    "Les cataractes"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Leucocorie: rétinoblastome et cataracte congénitale"
+  },
+  "Janvier 2023#21": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2023#22": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2023#23": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Janvier 2023#24": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Janvier 2023#25": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2023#26": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2023#27": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2023#28": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2023#29": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Janvier 2023#30": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2023#31": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#32": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#33": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#34": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#35": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#36": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2023#31-36"
+  },
+  "Janvier 2023#37": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Janvier 2023#38": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2023#39": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2023#40": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2023#41": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2023#42": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2023#43": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2023#44": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2023#45": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2023#46": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2023#47": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, pas cellulite"
+  },
+  "Janvier 2023#48": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2023#49": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2023#50": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Juin 2023#1-3"
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Juin 2023#1-3"
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Œil rouge"
+   ],
+   "case": "Juin 2023#1-3"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Rétinoblastome"
+   ],
+   "case": "Juin 2023#4-7"
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Rétinoblastome"
+   ],
+   "case": "Juin 2023#4-7"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Les cataractes"
+   ],
+   "case": "Juin 2023#4-7",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Cataracte congénitale retrouvée, bilan échographique"
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Les cataractes"
+   ],
+   "case": "Juin 2023#4-7",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Traitement de la cataracte congénitale"
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Juin 2023#8-12"
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Juin 2023#8-12"
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Juin 2023#8-12"
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Juin 2023#8-12"
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Les glaucomes"
+   ],
+   "case": "Juin 2023#8-12"
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Juin 2023#13-18"
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, pas de cours dédié"
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ulcération buccale, cavité buccale pas cancer ORL"
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Juin 2023#49": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, pas cellulite"
+  },
+  "Janvier 2022#1": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2022#2": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2022#3": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2022#4": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, no dedicated cours; closest OMC simples"
+  },
+  "Janvier 2022#5": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2022#6": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2022#7": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2022#8": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2022#9": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ]
+  },
+  "Janvier 2022#10": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2022#11": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2022#12": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2022#13": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2022#14": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2022#15": {
+   "c": [
+    "Cancer de la langue"
+   ]
+  },
+  "Janvier 2022#16": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2022#17": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Janvier 2022#18": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2022#19": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2022#20": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2022#21": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2022#22": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2022#23": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Janvier 2022#24": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2022#25": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2022#26": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2022#27": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2022#28": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Janvier 2022#29": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2022#30": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2022#31": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Janvier 2022#32": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2022#33": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, not cellulite"
+  },
+  "Janvier 2022#34": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2022#35": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2022#36": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2022#37": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2022#38": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2022#39": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2022#40": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2022#41": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2022#42": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2022#43": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2022#44": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2022#45": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2022#46": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2022#46-49"
+  },
+  "Janvier 2022#47": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2022#46-49"
+  },
+  "Janvier 2022#48": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2022#46-49"
+  },
+  "Janvier 2022#49": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2022#46-49"
+  },
+  "Janvier 2022#50": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Brûlure oculaire par acide has its own cours"
+  },
+  "Janvier 2021#1": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, no dedicated cours; closest OMC simples"
+  },
+  "Janvier 2021#2": {
+   "c": [
+    "Cancer du cavum",
+    "Otites moyennes chroniques simples"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "OSM unilatérale de l'adulte = rechercher un cancer du cavum"
+  },
+  "Janvier 2021#3": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2021#4": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2021#5": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2021#6": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2021#7": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2021#8": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2021#9": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2021#10": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2021#11": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2021#12": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2021#13": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2021#14": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2021#15": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2021#16": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2021#17": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2021#18": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2021#19": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2021#20": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2021#21": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2021#22": {
+   "c": [
+    "Fractures du massif facial"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Articulé dentaire definition, trauma semiology, not cellulite"
+  },
+  "Janvier 2021#23": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2021#24": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2021#25": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2021#26": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2021#27": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Janvier 2021#28": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2021#29": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2021#30": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Janvier 2021#31": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2021#32": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, not cellulite"
+  },
+  "Janvier 2021#33": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2021#34": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Janvier 2021#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Chalcose = corps étranger intraoculaire cuivre, not œil rouge"
+  },
+  "Janvier 2021#36": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Janvier 2021#37": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2021#38": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2021#39": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2021#40": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2021#41": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2021#42": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2021#43": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2021#44": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2021#45": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2021#45-48"
+  },
+  "Janvier 2021#46": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2021#45-48"
+  },
+  "Janvier 2021#47": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2021#45-48"
+  },
+  "Janvier 2021#48": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2021#45-48"
+  },
+  "Janvier 2021#49": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Janvier 2021#50": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Brûlures oculaires has its own cours"
+  },
+  "Janvier 2020#1": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2020#2": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2020#3": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2020#4": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2020#5": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2020#6": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2020#7": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2020#8": {
+   "c": [
+    "Otospongiose"
+   ],
+   "conf": "low",
+   "why": "Luxation ossiculaire; differential of transmission deafness, tympan normal"
+  },
+  "Janvier 2020#9": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2020#10": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2020#11": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2020#12": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2020#13": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2020#14": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2020#15": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2020#16": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2020#17": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2020#18": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2020#19": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ]
+  },
+  "Janvier 2020#20": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2020#21": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2020#22": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2020#23": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2020#24": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2020#25": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2020#26": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2020#27": {
+   "c": [
+    "Fractures du massif facial"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Articulé dentaire definition, trauma semiology, not cellulite"
+  },
+  "Janvier 2020#28": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2020#29": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2020#30": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2020#31": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Janvier 2020#32": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, not cellulite"
+  },
+  "Janvier 2020#33": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#34": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Chalcose = corps étranger intraoculaire cuivre, not œil rouge"
+  },
+  "Janvier 2020#36": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#37": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#38": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#39": {
+   "c": [
+    "Les cataractes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "TORCH: causes of congenital cataract, not œil rouge"
+  },
+  "Janvier 2020#40": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#41": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2020#42": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2020#43": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2020#44": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2020#45": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2020#45-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hyphéma, oedème de Berlin, iridodonésis: contusion oculaire"
+  },
+  "Janvier 2020#46": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2020#45-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contusion case follow-up"
+  },
+  "Janvier 2020#47": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2020#45-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contusion case follow-up"
+  },
+  "Janvier 2020#48": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2020#45-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contusion case follow-up"
+  },
+  "Janvier 2020#49": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Janvier 2020#45-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contusion case follow-up"
+  },
+  "Janvier 2020#50": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Brûlures oculaires has its own cours"
+  },
+  "Janvier 2018#1": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2018#2": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2018#3": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2018#4": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, no dedicated cours"
+  },
+  "Janvier 2018#5": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2018#6": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2018#7": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ]
+  },
+  "Janvier 2018#8": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2018#9": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2018#10": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2018#11": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2018#12": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2018#13": {
+   "c": [
+    "Otite moyenne aiguë"
+   ]
+  },
+  "Janvier 2018#14": {
+   "c": [
+    "Cancer du larynx"
+   ]
+  },
+  "Janvier 2018#15": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2018#16": {
+   "c": [
+    "Cancer de la langue"
+   ]
+  },
+  "Janvier 2018#17": {
+   "c": [
+    "Cancer de la langue"
+   ]
+  },
+  "Janvier 2018#18": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2018#19": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2018#20": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Janvier 2018#21": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2018#22": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2018#23": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2018#24": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Janvier 2018#25": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2018#26": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2018#27": {
+   "c": [
+    "Les cataractes"
+   ],
+   "conf": "low",
+   "why": "Amblyopie, taught with congenital cataract"
+  },
+  "Janvier 2018#28": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2018#29": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2018#30": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2018#31": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2018#32": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2018#32-35",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Chemical projection = brûlure oculaire, not globe trauma"
+  },
+  "Janvier 2018#33": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2018#32-35",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Chemical burn emergency management"
+  },
+  "Janvier 2018#34": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2018#32-35",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Examination of chemical burn"
+  },
+  "Janvier 2018#35": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Janvier 2018#32-35",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications of chemical burn (symblépharon)"
+  },
+  "Janvier 2018#36": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2018#37": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2018#38": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2018#39": {
+   "c": [
+    "Fractures du massif facial",
+    "Maxillo-facial"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "why": "Definition of articulé dentaire, not cellulite; no specific cours"
+  },
+  "Janvier 2018#40": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Janvier 2018#40-41",
+   "conf": "low",
+   "why": "Gingival malignancy: oral cavity vs maxillary malignant tumour"
+  },
+  "Janvier 2018#41": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Janvier 2018#40-41",
+   "conf": "low",
+   "why": "Gingival malignancy: oral cavity vs maxillary malignant tumour"
+  },
+  "Janvier 2018#42": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2018#43": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Janvier 2018#44": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2018#45": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, not cellulite"
+  },
+  "Janvier 2018#46": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2018#47": {
+   "c": [
+    "Plaies de la face"
+   ]
+  },
+  "Janvier 2018#48": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2018#49": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Janvier 2018#50": {
+   "c": [
+    "Les tumeurs malignes des maxillaires"
+   ]
+  },
+  "Janvier 2017#1": {
+   "c": [
+    "Otites moyennes chroniques dangereuses"
+   ]
+  },
+  "Janvier 2017#2": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite tuberculeuse, particular form of chronic otitis"
+  },
+  "Janvier 2017#3": {
+   "c": [
+    "Cancer du cavum",
+    "Otites moyennes chroniques simples"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "OSM unilatérale de l'adulte = rechercher un cancer du cavum"
+  },
+  "Janvier 2017#4": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ],
+   "conf": "low",
+   "why": "Otite séromuqueuse, no dedicated cours"
+  },
+  "Janvier 2017#5": {
+   "c": [
+    "Otospongiose"
+   ]
+  },
+  "Janvier 2017#6": {
+   "c": [
+    "CAT devant un nodule thyroïdien"
+   ]
+  },
+  "Janvier 2017#7": {
+   "c": [
+    "CAT devant une adénopathie cervicale"
+   ]
+  },
+  "Janvier 2017#8": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2017#9": {
+   "c": [
+    "Paralysie faciale périphérique"
+   ]
+  },
+  "Janvier 2017#10": {
+   "c": [
+    "Otites moyennes chroniques simples"
+   ]
+  },
+  "Janvier 2017#11": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2017#12": {
+   "c": [
+    "Les rhinosinusites"
+   ]
+  },
+  "Janvier 2017#13": {
+   "c": [
+    "Rhinopharyngite de l'enfant"
+   ]
+  },
+  "Janvier 2017#14": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2017#15": {
+   "c": [
+    "Rhinite allergique"
+   ]
+  },
+  "Janvier 2017#16": {
+   "c": [
+    "Les angines"
+   ]
+  },
+  "Janvier 2017#17": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "Janvier 2017#17-18"
+  },
+  "Janvier 2017#18": {
+   "c": [
+    "Cancer du larynx"
+   ],
+   "case": "Janvier 2017#17-18"
+  },
+  "Janvier 2017#19": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2017#20": {
+   "c": [
+    "Cancer du cavum"
+   ]
+  },
+  "Janvier 2017#21": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Janvier 2017#22": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Janvier 2017#23": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2017#24": {
+   "c": [
+    "Rétinoblastome"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Strabisme de l'enfant; no strabismus cours, refraction also relevant"
+  },
+  "Janvier 2017#25": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2017#26": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Janvier 2017#27": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Janvier 2017#28": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2017#29": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Janvier 2017#30": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Janvier 2017#31": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2017#31-34"
+  },
+  "Janvier 2017#32": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2017#31-34"
+  },
+  "Janvier 2017#33": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2017#31-34"
+  },
+  "Janvier 2017#34": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Janvier 2017#31-34"
+  },
+  "Janvier 2017#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Janvier 2017#36": {
+   "c": [
+    "Les cellulites cervico-faciales d'origine dentaire"
+   ]
+  },
+  "Janvier 2017#37": {
+   "c": [
+    "Les tumeurs bénignes des maxillaires"
+   ]
+  },
+  "Janvier 2017#38": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2017#39": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2017#40": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2017#41": {
+   "c": [
+    "Fracture mandibulaire"
+   ]
+  },
+  "Janvier 2017#42": {
+   "c": [
+    "Fractures du massif facial",
+    "Maxillo-facial"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "why": "Definition of articulé dentaire, not cellulite; no specific cours"
+  },
+  "Janvier 2017#43": {
+   "c": [
+    "Fractures du massif facial"
+   ]
+  },
+  "Janvier 2017#44": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Janvier 2017#44-46"
+  },
+  "Janvier 2017#45": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Janvier 2017#44-46"
+  },
+  "Janvier 2017#46": {
+   "c": [
+    "Cancers de la cavité buccale"
+   ],
+   "case": "Janvier 2017#44-46"
+  },
+  "Janvier 2017#47": {
+   "c": [
+    "Limitation de l'ouverture buccale"
+   ]
+  },
+  "Janvier 2017#48": {
+   "c": [
+    "Ankylose temporo-mandibulaire"
+   ]
+  },
+  "Janvier 2017#49": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ]
+  },
+  "Janvier 2017#50": {
+   "c": [
+    "La pathologie des glandes salivaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lithiase salivaire, not cellulite"
+  },
+  "Qe ophthalmologie regrouper 1#1": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "conf": "low",
+   "why": "Chalcose from intraocular foreign body"
+  },
+  "Qe ophthalmologie regrouper 1#2": {
+   "c": [
+    "Les cataractes",
+    "Les traumatismes du globe oculaire"
+   ],
+   "conf": "low",
+   "why": "Endophtalmie treatment; taught with globe trauma or cataract surgery",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#3": {
+   "c": [
+    "Les cataractes"
+   ],
+   "conf": "low",
+   "why": "Post-op endophtalmie prophylaxis (intracameral cefuroxime)"
+  },
+  "Qe ophthalmologie regrouper 1#4": {
+   "c": [
+    "Les cataractes",
+    "Les traumatismes du globe oculaire"
+   ],
+   "conf": "low",
+   "why": "Endophtalmie treatment; taught with globe trauma or cataract surgery",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#5": {
+   "c": [
+    "Les cataractes"
+   ],
+   "conf": "low",
+   "why": "Post-op endophtalmie prophylaxis (intracameral cefuroxime)"
+  },
+  "Qe ophthalmologie regrouper 1#6": {
+   "c": [
+    "Les cataractes"
+   ],
+   "conf": "low",
+   "why": "TORCH work-up of congenital cataract"
+  },
+  "Qe ophthalmologie regrouper 1#7": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#8": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#9": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#10": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#11": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#12": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#13": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#14": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#15": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#16": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#17": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#18": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#19": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#20": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#21": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#22": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#23": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#24": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#25": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#26": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#27": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#28": {
+   "c": [
+    "Les cataractes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#29": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#30": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#31": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#32": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#33": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#34": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#35": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#36": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#37": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#38": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#39": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#40": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#41": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#42": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#43": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#44": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#45": {
+   "c": [
+    "Les glaucomes"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#46": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#47": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#48": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#49": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophthalmologie regrouper 1#50": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#1": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#2": {
+   "c": [
+    "Rétinopathie diabétique"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#3": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#4": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#5": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#6": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#7": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#8": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#9": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#10": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#11": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#12": {
+   "c": [
+    "Œil rouge"
+   ],
+   "conf": "low",
+   "why": "Contact lens complications: allergic conjunctivitis, amoebic keratitis"
+  },
+  "Qe ophtalmologie regrouper 2#13": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#14": {
+   "c": [
+    "Œil rouge"
+   ],
+   "conf": "low",
+   "why": "Contact lens complications: infectious/amoebic keratitis"
+  },
+  "Qe ophtalmologie regrouper 2#15": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#16": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#17": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#18": {
+   "c": [
+    "Œil rouge"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#19": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#20": {
+   "c": [
+    "Les troubles de réfraction"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#21": {
+   "c": [
+    "Les cataractes",
+    "Les troubles de réfraction"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#22": {
+   "c": [
+    "Ophtalmologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Amblyopie: no dedicated strabismus/amblyopia cours"
+  },
+  "Qe ophtalmologie regrouper 2#23": {
+   "c": [
+    "Ophtalmologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Strabisme de l'enfant: no dedicated cours"
+  },
+  "Qe ophtalmologie regrouper 2#24": {
+   "c": [
+    "Ophtalmologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Amblyopie: no dedicated strabismus/amblyopia cours"
+  },
+  "Qe ophtalmologie regrouper 2#25": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#26": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#27": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#28": {
+   "c": [
+    "Greffe de cornée et don d'organes"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#29": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#30": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#31": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#32": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#33": {
+   "c": [
+    "Rétinoblastome"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#34": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#34-35"
+  },
+  "Qe ophtalmologie regrouper 2#35": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#34-35"
+  },
+  "Qe ophtalmologie regrouper 2#36": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#37": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#38": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#39": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#39-43"
+  },
+  "Qe ophtalmologie regrouper 2#40": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#39-43"
+  },
+  "Qe ophtalmologie regrouper 2#41": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#39-43"
+  },
+  "Qe ophtalmologie regrouper 2#42": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#39-43"
+  },
+  "Qe ophtalmologie regrouper 2#43": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#39-43"
+  },
+  "Qe ophtalmologie regrouper 2#44": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#44-45"
+  },
+  "Qe ophtalmologie regrouper 2#45": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#44-45"
+  },
+  "Qe ophtalmologie regrouper 2#46": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#47": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#48": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#49": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#49-52"
+  },
+  "Qe ophtalmologie regrouper 2#50": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#49-52",
+   "conf": "low",
+   "why": "Post-traumatic corneal abscess; could be Œil rouge"
+  },
+  "Qe ophtalmologie regrouper 2#51": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#49-52",
+   "conf": "low",
+   "why": "Corneal abscess management; could be Œil rouge"
+  },
+  "Qe ophtalmologie regrouper 2#52": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#49-52",
+   "conf": "low",
+   "why": "Corneal abscess complications; could be Œil rouge"
+  },
+  "Qe ophtalmologie regrouper 2#53": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#53-57"
+  },
+  "Qe ophtalmologie regrouper 2#54": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#53-57"
+  },
+  "Qe ophtalmologie regrouper 2#55": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#53-57"
+  },
+  "Qe ophtalmologie regrouper 2#56": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#53-57"
+  },
+  "Qe ophtalmologie regrouper 2#57": {
+   "c": [
+    "Contusion oculaire"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#53-57"
+  },
+  "Qe ophtalmologie regrouper 2#58": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#59": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#60": {
+   "c": [
+    "Œil rouge"
+   ],
+   "conf": "low",
+   "why": "Trachome treatment; closest is red-eye/conjunctivitis cours"
+  },
+  "Qe ophtalmologie regrouper 2#61": {
+   "c": [
+    "Les traumatismes du globe oculaire"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#62": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#63": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  },
+  "Qe ophtalmologie regrouper 2#64": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#64-67"
+  },
+  "Qe ophtalmologie regrouper 2#65": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#64-67"
+  },
+  "Qe ophtalmologie regrouper 2#66": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#64-67"
+  },
+  "Qe ophtalmologie regrouper 2#67": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#64-67"
+  },
+  "Qe ophtalmologie regrouper 2#68": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#68-71"
+  },
+  "Qe ophtalmologie regrouper 2#69": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#68-71"
+  },
+  "Qe ophtalmologie regrouper 2#70": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#68-71"
+  },
+  "Qe ophtalmologie regrouper 2#71": {
+   "c": [
+    "Brûlures oculaires"
+   ],
+   "case": "Qe ophtalmologie regrouper 2#68-71"
+  },
+  "Qe ophtalmologie regrouper 2#72": {
+   "c": [
+    "Brûlures oculaires"
+   ]
+  }
+ }
+}

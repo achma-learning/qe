@@ -1,0 +1,4154 @@
+{
+ "module": "Gynécologie - Obstétrique",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Prolapsus génitaux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Incontinence urinaire d'effort, not urinary infection in pregnancy"
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Normal 2026#5": {
+   "c": [
+    "Travail normal"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Bishop score = cervical assessment for labour/induction, not MAP"
+  },
+  "Normal 2026#6": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Normal 2026#8": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "Cancer de l'endomètre"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Postmenopausal bleeding workup targets endometrial cancer"
+  },
+  "Normal 2026#19": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Normal 2026#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Normal 2026#31": {
+   "c": [
+    "Gynécologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Prise en charge après viol / abus sexuel: pas de cours (médecine légale)"
+  },
+  "Normal 2026#32": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Normal 2026#33": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Normal 2026#34": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Grossesse normale",
+    "Cardiopathies et grossesse"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Physiologie de la grossesse normale (adaptation cardiovasculaire)"
+  },
+  "Normal 2026#36": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Normal 2026#37": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Normal 2026#39": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pathological RCF tracing criteria"
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Présentation transverse (de l'épaule)"
+   ]
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Normal 2026#47": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Normal 2026#48": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Grossesse normale",
+    "Cardiopathies et grossesse"
+   ],
+   "why": "Physiologie de la grossesse normale (adaptation cardiovasculaire)",
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "RCF anomalies interpretation, not asphyxie périnatale"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Normal 2025#24": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2025#25": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2025#27": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Aménorrhée"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "SOPK signs (spanioménorrhée, hyperandrogénie); could be Cycle menstruel"
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Gynécologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Prise en charge après viol / abus sexuel: pas de cours (médecine légale)"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Rattrapage 2025#1": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Rattrapage 2025#2": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Rattrapage 2025#3": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Rattrapage 2025#4": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Rattrapage 2025#5": {
+   "c": [
+    "Cancer de l'endomètre"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Postmenopausal bleeding workup targets endometrial cancer"
+  },
+  "Rattrapage 2025#6": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Rattrapage 2025#7": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Rattrapage 2025#8": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Rattrapage 2025#9": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Rattrapage 2025#10": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Rattrapage 2025#11": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Rattrapage 2025#12": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Rattrapage 2025#13": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Rattrapage 2025#14": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Rattrapage 2025#15": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Rattrapage 2025#16": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Rattrapage 2025#17": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Rattrapage 2025#18": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Rattrapage 2025#19": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Rattrapage 2025#20": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Rattrapage 2025#21": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Rattrapage 2025#21-22"
+  },
+  "Rattrapage 2025#22": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Rattrapage 2025#21-22"
+  },
+  "Rattrapage 2025#23": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Rattrapage 2025#23-26"
+  },
+  "Rattrapage 2025#24": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Rattrapage 2025#23-26"
+  },
+  "Rattrapage 2025#25": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Rattrapage 2025#23-26"
+  },
+  "Rattrapage 2025#26": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Rattrapage 2025#23-26"
+  },
+  "Rattrapage 2025#27": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Rattrapage 2025#28": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Rattrapage 2025#29": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Rattrapage 2025#30": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Rattrapage 2025#31": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Rattrapage 2025#32": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Rattrapage 2025#33": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Rattrapage 2025#34": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Rattrapage 2025#35": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Rattrapage 2025#36": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Rattrapage 2025#37": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Rattrapage 2025#38": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Rattrapage 2025#39": {
+   "c": [
+    "Grossesse normale",
+    "Cardiopathies et grossesse"
+   ],
+   "why": "Physiologie de la grossesse normale (adaptation cardiovasculaire)",
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Rattrapage 2025#40": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Rattrapage 2025#41": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Rattrapage 2025#42": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Rattrapage 2025#43": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Rattrapage 2025#44": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Rattrapage 2025#45": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Rattrapage 2025#46": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Rattrapage 2025#47": {
+   "c": [
+    "Présentation transverse (de l'épaule)"
+   ]
+  },
+  "Rattrapage 2025#48": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Rattrapage 2025#49": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Rattrapage 2025#50": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Janvier 2024#1": {
+   "c": [
+    "Cycle menstruel"
+   ]
+  },
+  "Janvier 2024#2": {
+   "c": [
+    "Cycle menstruel"
+   ]
+  },
+  "Janvier 2024#3": {
+   "c": [
+    "Cycle menstruel"
+   ],
+   "conf": "low",
+   "why": "AUB in children; could be Puberté"
+  },
+  "Janvier 2024#4": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Janvier 2024#5": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Janvier 2024#6": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2024#7": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2024#8": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2024#9": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2024#10": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2024#11": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2024#12": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2024#13": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Janvier 2024#14": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2024#15": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2024#16": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2024#17": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2024#18": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2024#19": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2024#20": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2024#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2024#22": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2024#23": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2024#24": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2024#25": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2024#26": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2024#27": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Janvier 2024#28": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "RCF anomalies requiring extraction, not asphyxia definition"
+  },
+  "Janvier 2024#29": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ]
+  },
+  "Janvier 2024#30": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2024#31": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2024#32": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2024#33": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2024#34": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2024#35": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2024#36": {
+   "c": [
+    "Présentation du sommet"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Options describe sommet (OIGA, flexion maximale), not épaule"
+  },
+  "Janvier 2024#37": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2024#38": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Janvier 2024#39": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Janvier 2024#40": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2024#41": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2024#42": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2024#43": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2024#44": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2024#45": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2024#46": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2024#47": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2024#48": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2024#49": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2024#50": {
+   "c": [
+    "Procidence du cordon"
+   ]
+  },
+  "Juillet 2024#1": {
+   "c": [
+    "Cycle menstruel"
+   ],
+   "conf": "low",
+   "why": "AUB in children; could be Puberté"
+  },
+  "Juillet 2024#2": {
+   "c": [
+    "Cycle menstruel"
+   ],
+   "conf": "low",
+   "why": "AUB in adolescence; could be Puberté"
+  },
+  "Juillet 2024#3": {
+   "c": [
+    "Cycle menstruel"
+   ]
+  },
+  "Juillet 2024#4": {
+   "c": [
+    "Cycle menstruel"
+   ]
+  },
+  "Juillet 2024#5": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Juillet 2024#6": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Juillet 2024#7": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Juillet 2024#8": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Juillet 2024#9": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Juillet 2024#10": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Juillet 2024#11": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Juillet 2024#12": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Juillet 2024#13": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Juillet 2024#14": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Juillet 2024#15": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juillet 2024#16": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Juillet 2024#17": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Juillet 2024#18": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Juillet 2024#19": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "RCF interpretation, not asphyxia"
+  },
+  "Juillet 2024#20": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juillet 2024#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juillet 2024#22": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juillet 2024#23": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Juillet 2024#24": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Juillet 2024#25": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Juillet 2024#26": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Juillet 2024#27": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juillet 2024#28": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juillet 2024#29": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juillet 2024#30": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Juillet 2024#31": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Juillet 2024#32": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Juillet 2024#33": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Juillet 2024#34": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Juillet 2024#35": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Juillet 2024#36": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Juillet 2024#37": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Juillet 2024#38": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question is about MAP, not RPM"
+  },
+  "Juillet 2024#39": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juillet 2024#40": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juillet 2024#41": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "VIH et grossesse, not urinary infection"
+  },
+  "Juillet 2024#42": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Juillet 2024#43": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Juillet 2024#44": {
+   "c": [
+    "Procidence du cordon"
+   ],
+   "case": "Juillet 2024#44-45",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cordon battant perçu: procidence du cordon management"
+  },
+  "Juillet 2024#45": {
+   "c": [
+    "Procidence du cordon"
+   ],
+   "case": "Juillet 2024#44-45",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Procidence du cordon case: césarienne en urgence"
+  },
+  "Juillet 2024#46": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juillet 2024#46-47"
+  },
+  "Juillet 2024#47": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juillet 2024#46-47"
+  },
+  "Juillet 2024#48": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juillet 2024#49": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juillet 2024#50": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Asphyxie périnatale"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on avortements spontanés, not délivrance"
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiological changes of normal pregnancy, not cardiopathy"
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Endométrite du post-partum = suites de couches pathologiques"
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Post-partum discharge instructions = suites de couches"
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Menace d'avortement 1er trimestre, not MAP"
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Octobre 2024#33-36"
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Octobre 2024#33-36"
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Octobre 2024#33-36"
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Octobre 2024#33-36"
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Octobre 2024#41-44"
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Octobre 2024#41-44"
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Octobre 2024#41-44"
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Octobre 2024#41-44"
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Octobre 2024#45-49"
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Octobre 2024#45-49"
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Octobre 2024#45-49"
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Octobre 2024#45-49"
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Octobre 2024#45-49"
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Cycle menstruel",
+    "Puberté"
+   ],
+   "flags": [
+    "ambiguous",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Saignements utérins anormaux de l'enfant: no dedicated cours"
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Cycle menstruel",
+    "Puberté"
+   ],
+   "flags": [
+    "ambiguous",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Saignements utérins anormaux de l'adolescente: no dedicated cours"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Cycle menstruel"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Saignements utérins anormaux de l'adulte: no dedicated cours"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Cycle menstruel",
+    "Ménopause"
+   ],
+   "flags": [
+    "ambiguous",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Saignements post-ménopausiques: no dedicated cours"
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Ménopause"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Interprétation du RCF, not asphyxie néonatale"
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Procidence du cordon"
+   ],
+   "case": "Novembre 2024#44-45",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cordon battant perçu au TV = procidence du cordon"
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Procidence du cordon"
+   ],
+   "case": "Novembre 2024#44-45",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cordon battant perçu au TV = procidence du cordon"
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Novembre 2024#46-47"
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Novembre 2024#46-47"
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2023#1": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2023#2": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2023#3": {
+   "c": [
+    "Gynécologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Prise en charge après viol / abus sexuel: pas de cours (médecine légale)"
+  },
+  "Janvier 2023#4": {
+   "c": [
+    "Gynécologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Prise en charge après viol / abus sexuel: pas de cours (médecine légale)"
+  },
+  "Janvier 2023#5": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Algies pelviennes aiguës: éliminer GEU et torsion d'annexe"
+  },
+  "Janvier 2023#6": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2023#7": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2023#8": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2023#9": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Janvier 2023#10": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2023#11": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2023#12": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2023#13": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Janvier 2023#14": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Interprétation du RCF, not asphyxie néonatale"
+  },
+  "Janvier 2023#15": {
+   "c": [
+    "Diabète et grossesse"
+   ],
+   "case": "Janvier 2023#15-19"
+  },
+  "Janvier 2023#16": {
+   "c": [
+    "Diabète et grossesse"
+   ],
+   "case": "Janvier 2023#15-19"
+  },
+  "Janvier 2023#17": {
+   "c": [
+    "Diabète et grossesse"
+   ],
+   "case": "Janvier 2023#15-19"
+  },
+  "Janvier 2023#18": {
+   "c": [
+    "Diabète et grossesse"
+   ],
+   "case": "Janvier 2023#15-19"
+  },
+  "Janvier 2023#19": {
+   "c": [
+    "Diabète et grossesse"
+   ],
+   "case": "Janvier 2023#15-19"
+  },
+  "Janvier 2023#20": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2023#21": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2023#22": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2023#23": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2023#24": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2023#25": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2023#26": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2023#27": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2023#28": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2023#29": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2023#30": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2023#31": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2023#32": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2023#33": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2023#34": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2023#35": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2023#36": {
+   "c": [
+    "Présentation transverse (de l'épaule)"
+   ]
+  },
+  "Janvier 2023#37": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Janvier 2023#38": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Janvier 2023#39": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2023#40": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2023#41": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2023#42": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2023#43": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiologie de la grossesse normale, not cardiopathie"
+  },
+  "Janvier 2023#44": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteurs de risque d'hémorragie du post-partum immédiat"
+  },
+  "Janvier 2023#45": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Avortements spontanés du 1er trimestre, not délivrance"
+  },
+  "Janvier 2023#46": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Avortements spontanés du 1er trimestre, not délivrance"
+  },
+  "Janvier 2023#47": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Menace d'avortement du 1er trimestre, not délivrance"
+  },
+  "Janvier 2023#48": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2023#49": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2023#50": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2023#7-9"
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2023#7-9"
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2023#7-9"
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Interprétation du RCF, not asphyxie néonatale"
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Présentation transverse (de l'épaule)"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Janvier 2022#1": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "case": "Janvier 2022#1-2",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Avortement incomplet, not délivrance"
+  },
+  "Janvier 2022#2": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "case": "Janvier 2022#1-2",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "CAT avortement incomplet, not délivrance"
+  },
+  "Janvier 2022#3": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Travail sur utérus cicatriciel (antécédent césarienne)"
+  },
+  "Janvier 2022#4": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2022#5": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2022#6": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Modifications physiologiques de la grossesse normale"
+  },
+  "Janvier 2022#7": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2022#8": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2022#9": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2022#10": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2022#11": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2022#12": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2022#13": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2022#14": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Janvier 2022#15": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2022#16": {
+   "c": [
+    "Présentation de siège"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications césarienne dans le siège, not asphyxie"
+  },
+  "Janvier 2022#17": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2022#18": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2022#19": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2022#20": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2022#21": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2022#22": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2022#23": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2022#24": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Janvier 2022#25": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Anomalies RCF imposant extraction; asphyxie also plausible"
+  },
+  "Janvier 2022#26": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Janvier 2022#27": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2022#28": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2022#29": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Janvier 2022#30": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Janvier 2022#31": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2022#32": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Janvier 2022#33": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Janvier 2022#34": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2022#35": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2022#36": {
+   "c": [
+    "Cancer de l'endomètre"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Adénocarcinome endométrioïde type I = endomètre, not col"
+  },
+  "Janvier 2022#37": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2022#38": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2022#38-40"
+  },
+  "Janvier 2022#39": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2022#38-40"
+  },
+  "Janvier 2022#40": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2022#38-40"
+  },
+  "Janvier 2022#41": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2022#42": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2022#43": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2022#44": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2022#45": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2022#46": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2022#47": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2022#48": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2022#49": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2022#50": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2021#1": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2021#2": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2021#3": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2021#4": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2021#5": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2021#6": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2021#7": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2021#8": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2021#9": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2021#10": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2021#11": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2021#12": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2021#13": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2021#14": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2021#15": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2021#16": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2021#17": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#17-21"
+  },
+  "Janvier 2021#18": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#17-21"
+  },
+  "Janvier 2021#19": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#17-21"
+  },
+  "Janvier 2021#20": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#17-21"
+  },
+  "Janvier 2021#21": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#17-21"
+  },
+  "Janvier 2021#22": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2021#23": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Janvier 2021#24": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Anomalies RCF imposant extraction; asphyxie also plausible"
+  },
+  "Janvier 2021#25": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2021#26": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2021#27": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2021#28": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hématocèle rétro-utérine = GEU rompue, not prolapsus"
+  },
+  "Janvier 2021#29": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2021#30": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2021#31": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2021#32": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2021#33": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2021#34": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2021#35": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Modifications physiologiques de la grossesse normale"
+  },
+  "Janvier 2021#36": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2021#37": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteurs de risque HPP, not placenta praevia specifically"
+  },
+  "Janvier 2021#38": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2021#39": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ]
+  },
+  "Janvier 2021#40": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Avortement en cours, not délivrance"
+  },
+  "Janvier 2021#41": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Abcès du Douglas à J11 post-partum; MIP also plausible"
+  },
+  "Janvier 2021#42": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2021#43": {
+   "c": [
+    "Procidence du cordon"
+   ]
+  },
+  "Janvier 2021#44": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#44-45"
+  },
+  "Janvier 2021#45": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "case": "Janvier 2021#44-45"
+  },
+  "Janvier 2021#46": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2021#47": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2021#48": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Janvier 2021#49": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Janvier 2021#50": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Asphyxie périnatale"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Avortements spontanés, not délivrance"
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiologie et suivi de la grossesse normale, not travail"
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Endométrite du post-partum = suites de couches pathologiques"
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Menace d'avortement, not délivrance"
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2021#33-36"
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2021#33-36"
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2021#33-36"
+  },
+  "Juin 2021#36": {
+   "c": [
+    "Placenta praevia"
+   ],
+   "case": "Juin 2021#33-36"
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2021#41-44"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2021#41-44"
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2021#41-44"
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Juin 2021#41-44"
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2021#45-48"
+  },
+  "Juin 2021#46": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2021#45-48"
+  },
+  "Juin 2021#47": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2021#45-48"
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Juin 2021#45-48"
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2020#1": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2020#2": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2020#3": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2020#4": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2020#5": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2020#6": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Janvier 2020#6-9"
+  },
+  "Janvier 2020#7": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Janvier 2020#6-9"
+  },
+  "Janvier 2020#8": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Janvier 2020#6-9"
+  },
+  "Janvier 2020#9": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ],
+   "case": "Janvier 2020#6-9"
+  },
+  "Janvier 2020#10": {
+   "c": [
+    "Maladies inflammatoires du pelvis",
+    "Contraception"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Janvier 2020#11": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2020#11-13"
+  },
+  "Janvier 2020#12": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2020#11-13"
+  },
+  "Janvier 2020#13": {
+   "c": [
+    "Tumeurs du sein"
+   ],
+   "case": "Janvier 2020#11-13"
+  },
+  "Janvier 2020#14": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Janvier 2020#15": {
+   "c": [
+    "Tumeurs de l'ovaire"
+   ]
+  },
+  "Janvier 2020#16": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2020#17": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Janvier 2020#18": {
+   "c": [
+    "Aménorrhée"
+   ],
+   "case": "Janvier 2020#18-20"
+  },
+  "Janvier 2020#19": {
+   "c": [
+    "Aménorrhée"
+   ],
+   "case": "Janvier 2020#18-20"
+  },
+  "Janvier 2020#20": {
+   "c": [
+    "Aménorrhée"
+   ],
+   "case": "Janvier 2020#18-20"
+  },
+  "Janvier 2020#21": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2020#22": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2020#23": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2020#24": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ],
+   "case": "Janvier 2020#24-25"
+  },
+  "Janvier 2020#25": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ],
+   "case": "Janvier 2020#24-25"
+  },
+  "Janvier 2020#26": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Janvier 2020#27": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contractions at 30 SA, short cervix, tocolysis = MAP"
+  },
+  "Janvier 2020#28": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2020#29": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2020#30": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Janvier 2020#31": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Janvier 2020#32": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2020#33": {
+   "c": [
+    "Grossesses multiples"
+   ]
+  },
+  "Janvier 2020#34": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2020#35": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2020#36": {
+   "c": [
+    "Diabète et grossesse"
+   ]
+  },
+  "Janvier 2020#37": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2020#38": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Janvier 2020#39": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2020#40": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2020#41": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2020#42": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2020#43": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2020#44": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2020#45": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2020#46": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2020#47": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2020#48": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2020#49": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2020#50": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2019#1": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Janvier 2019#2": {
+   "c": [
+    "Travail normal"
+   ]
+  },
+  "Janvier 2019#3": {
+   "c": [
+    "Les éléments mécaniques de l'accouchement"
+   ]
+  },
+  "Janvier 2019#4": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Janvier 2019#5": {
+   "c": [
+    "Menace d'accouchement prématuré (MAP)"
+   ]
+  },
+  "Janvier 2019#6": {
+   "c": [
+    "Rupture prématurée des membranes"
+   ]
+  },
+  "Janvier 2019#7": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2019#8": {
+   "c": [
+    "Infections et grossesse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "VIH et grossesse, not urinary infection"
+  },
+  "Janvier 2019#9": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2019#10": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2019#11": {
+   "c": [
+    "Cancer de la vulve"
+   ]
+  },
+  "Janvier 2019#12": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2019#13": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2019#14": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ]
+  },
+  "Janvier 2019#15": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Janvier 2019#16": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Janvier 2019#17": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2019#18": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2019#19": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2019#20": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2019#21": {
+   "c": [
+    "Mort maternelle"
+   ]
+  },
+  "Janvier 2019#22": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2019#23": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2019#24": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2019#25": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2019#26": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Janvier 2019#27": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2019#28": {
+   "c": [
+    "Présentation de siège"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications de césarienne en présentation de siège"
+  },
+  "Janvier 2019#29": {
+   "c": [
+    "Mort fœtale intra-utérine (MFIU)"
+   ]
+  },
+  "Janvier 2019#30": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anomalies du RCF imposant extraction"
+  },
+  "Janvier 2019#31": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2019#32": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2019#33": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2019#34": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2019#35": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Consignes de sortie post-partum, not délivrance"
+  },
+  "Janvier 2019#36": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiological changes of normal pregnancy"
+  },
+  "Janvier 2019#37": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Risk factors of PPH by uterine atony"
+  },
+  "Janvier 2019#38": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "First-trimester spontaneous abortion"
+  },
+  "Janvier 2019#39": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Menace d'avortement au 1er trimestre"
+  },
+  "Janvier 2019#40": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2019#41": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2019#42": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2019#43": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2019#44": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2019#45": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2019#46": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2019#47": {
+   "c": [
+    "Tumeurs du sein"
+   ]
+  },
+  "Janvier 2019#48": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2019#49": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2019#50": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2018#1": {
+   "c": [
+    "Les endométrioses"
+   ]
+  },
+  "Janvier 2018#2": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2018#3": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2018#4": {
+   "c": [
+    "Grossesse extra-utérine (GEU)"
+   ]
+  },
+  "Janvier 2018#5": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2018#6": {
+   "c": [
+    "Cancer de l'endomètre"
+   ]
+  },
+  "Janvier 2018#7": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2018#8": {
+   "c": [
+    "Fibromes utérins"
+   ]
+  },
+  "Janvier 2018#9": {
+   "c": [
+    "Maladie trophoblastique gestationnelle"
+   ]
+  },
+  "Janvier 2018#10": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2018#11": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2018#12": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2018#13": {
+   "c": [
+    "HTA gravidique"
+   ]
+  },
+  "Janvier 2018#14": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2018#15": {
+   "c": [
+    "Présentation de siège"
+   ]
+  },
+  "Janvier 2018#16": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Janvier 2018#17": {
+   "c": [
+    "Présentations céphaliques défléchies"
+   ]
+  },
+  "Janvier 2018#18": {
+   "c": [
+    "Grossesses prolongées et dépassement de terme"
+   ]
+  },
+  "Janvier 2018#19": {
+   "c": [
+    "Cardiopathies et grossesse"
+   ]
+  },
+  "Janvier 2018#20": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2018#21": {
+   "c": [
+    "Cancer du col de l'utérus"
+   ]
+  },
+  "Janvier 2018#22": {
+   "c": [
+    "RCIU"
+   ]
+  },
+  "Janvier 2018#23": {
+   "c": [
+    "RCIU"
+   ]
+  },
+  "Janvier 2018#24": {
+   "c": [
+    "Suivi de la grossesse et consultations prénatales"
+   ]
+  },
+  "Janvier 2018#25": {
+   "c": [
+    "Les avortements spontanés"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on spontaneous abortions, not MAP"
+  },
+  "Janvier 2018#26": {
+   "c": [
+    "Suites de couches normales et pathologiques"
+   ]
+  },
+  "Janvier 2018#27": {
+   "c": [
+    "Grossesse normale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiology of normal pregnancy, not labour"
+  },
+  "Janvier 2018#28": {
+   "c": [
+    "Délivrance normale et pathologique"
+   ]
+  },
+  "Janvier 2018#29": {
+   "c": [
+    "Procidence du cordon"
+   ]
+  },
+  "Janvier 2018#30": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2018#31": {
+   "c": [
+    "Allo-immunisation fœto-maternelle"
+   ]
+  },
+  "Janvier 2018#32": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2018#33": {
+   "c": [
+    "Présentation du sommet"
+   ]
+  },
+  "Janvier 2018#34": {
+   "c": [
+    "Asphyxie périnatale"
+   ]
+  },
+  "Janvier 2018#35": {
+   "c": [
+    "Rythme cardiaque fœtal et hypoxie fœtale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Interpretation of fetal heart rate tracing"
+  },
+  "Janvier 2018#36": {
+   "c": [
+    "Anomalies du liquide amniotique"
+   ]
+  },
+  "Janvier 2018#37": {
+   "c": [
+    "Tuberculose génitale"
+   ]
+  },
+  "Janvier 2018#38": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2018#39": {
+   "c": [
+    "Contraception"
+   ]
+  },
+  "Janvier 2018#40": {
+   "c": [
+    "Cycle menstruel"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Gonadotrophin physiology belongs to cycle menstruel"
+  },
+  "Janvier 2018#41": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2018#42": {
+   "c": [
+    "Maladies inflammatoires du pelvis"
+   ]
+  },
+  "Janvier 2018#43": {
+   "c": [
+    "Infections et grossesse"
+   ]
+  },
+  "Janvier 2018#44": {
+   "c": [
+    "Aménorrhée"
+   ]
+  },
+  "Janvier 2018#45": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2018#46": {
+   "c": [
+    "Hématome rétro-placentaire (HRP)"
+   ]
+  },
+  "Janvier 2018#47": {
+   "c": [
+    "Placenta praevia"
+   ]
+  },
+  "Janvier 2018#48": {
+   "c": [
+    "Prolapsus génitaux"
+   ]
+  },
+  "Janvier 2018#49": {
+   "c": [
+    "Mort maternelle"
+   ]
+  },
+  "Janvier 2018#50": {
+   "c": [
+    "Accouchement sur utérus cicatriciel"
+   ]
+  }
+ }
+}
