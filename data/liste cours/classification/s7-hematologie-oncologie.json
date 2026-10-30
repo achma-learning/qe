@@ -1,0 +1,3442 @@
+{
+ "module": "Hématologie - Oncologie",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "Normal 2026#5": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Normal 2026#6": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Normal 2026#8": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "Normal 2026#9-10"
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "Normal 2026#9-10"
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ],
+   "case": "Normal 2026#12-13"
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ],
+   "case": "Normal 2026#12-13"
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "Normal 2026#19": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Normal 2026#21": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Normal 2026#31": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Normal 2026#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2026#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2026#34": {
+   "c": [
+    "Douleur et cancer"
+   ],
+   "case": "Normal 2026#34-37"
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Douleur et cancer"
+   ],
+   "case": "Normal 2026#34-37"
+  },
+  "Normal 2026#36": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ],
+   "case": "Normal 2026#34-37",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Diagnostic of prostate cancer (PSA, TR), not pain management"
+  },
+  "Normal 2026#37": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ],
+   "case": "Normal 2026#34-37",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Bilan d'extension à distance, not pain management"
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "case": "Normal 2026#38-40"
+  },
+  "Normal 2026#39": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "case": "Normal 2026#38-40"
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "case": "Normal 2026#38-40"
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2026#47": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Normal 2026#48": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Immunothérapie"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neutropénie fébrile has its own hematology emergency cours"
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Leucostase belongs to Urgences hématologiques 1"
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lyse tumorale belongs to Urgences hématologiques 2"
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Anémie par carence en fer"
+   ],
+   "case": "Normal 2025#14-16"
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Anémie par carence en fer"
+   ],
+   "case": "Normal 2025#14-16"
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Anémie par carence en fer"
+   ],
+   "case": "Normal 2025#14-16"
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "Normal 2025#17-20"
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "Normal 2025#23-24"
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "Normal 2025#23-24"
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications of LLC, not a lymphoma question"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Leucémie myéloïde chronique",
+    "Drépanocytose"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Priapisme: LMC, CVO drépanocytaire and LA hyperleucocytaire"
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "TDM sensitivity for extension imaging, not radiotherapy"
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Urgences oncologiques"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Thérapies ciblées"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ITK mechanism = targeted therapy, not chemotherapy"
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2024#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2024#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2024#3": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "normal 2024#4": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2024#5": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2024#6": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2024#7": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2024#8": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2024#9": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2024#10": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2024#11": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2024#12": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2024#13": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2024#14": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2024#15": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2024#16": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ],
+   "case": "normal 2024#16-18"
+  },
+  "normal 2024#17": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ],
+   "case": "normal 2024#16-18"
+  },
+  "normal 2024#18": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ],
+   "case": "normal 2024#16-18"
+  },
+  "normal 2024#19": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "normal 2024#19-21"
+  },
+  "normal 2024#20": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "normal 2024#19-21"
+  },
+  "normal 2024#21": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "normal 2024#19-21"
+  },
+  "normal 2024#22": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2024#22-25"
+  },
+  "normal 2024#23": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2024#22-25"
+  },
+  "normal 2024#24": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2024#22-25"
+  },
+  "normal 2024#25": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2024#22-25"
+  },
+  "normal 2024#26": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ]
+  },
+  "normal 2024#27": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "normal 2024#28": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2024#29": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "normal 2024#30": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2024#31": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2024#32": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2024#33": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2024#34": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2024#35": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2024#36": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2024#37": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2024#38": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2024#39": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2024#40": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2024#41": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2024#42": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2024#43": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2024#44": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2024#45": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2024#46": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2024#47": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2024#48": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2024#49": {
+   "c": [
+    "Urgences oncologiques"
+   ]
+  },
+  "normal 2024#50": {
+   "c": [
+    "Urgences oncologiques"
+   ]
+  },
+  "ratt 2024#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "ratt 2024#2": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "ratt 2024#3": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "ratt 2024#4": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "ratt 2024#5": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "ratt 2024#6": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "ratt 2024#7": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "ratt 2024#8": {
+   "c": [
+    "Aplasie médullaire"
+   ],
+   "conf": "low",
+   "why": "Differential of pancytopenia with poor marrow; answers are other hemopathies"
+  },
+  "ratt 2024#9": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "ratt 2024#10": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "ratt 2024#11": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "ratt 2024#12": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "ratt 2024#13": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "ratt 2024#14": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "ratt 2024#15": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "ratt 2024#16": {
+   "c": [
+    "Myélome multiple"
+   ],
+   "case": "ratt 2024#16-17"
+  },
+  "ratt 2024#17": {
+   "c": [
+    "Myélome multiple"
+   ],
+   "case": "ratt 2024#16-17"
+  },
+  "ratt 2024#18": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "ratt 2024#18-20"
+  },
+  "ratt 2024#19": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "ratt 2024#18-20"
+  },
+  "ratt 2024#20": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "ratt 2024#18-20"
+  },
+  "ratt 2024#21": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "ratt 2024#22": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "ratt 2024#23": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "ratt 2024#24": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "ratt 2024#25": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "ratt 2024#26": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ]
+  },
+  "ratt 2024#27": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ],
+   "conf": "low",
+   "why": "Generic lymphoma workup, could also be Hodgkin"
+  },
+  "ratt 2024#28": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "ratt 2024#29": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "ratt 2024#29-30"
+  },
+  "ratt 2024#30": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "ratt 2024#29-30"
+  },
+  "ratt 2024#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2024#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2024#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2024#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2024#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2024#36": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "ratt 2024#37": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2024#38": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2024#39": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "ratt 2024#40": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "ratt 2024#41": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "ratt 2024#42": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "ratt 2024#43": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "ratt 2024#44": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2024#45": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2024#46": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2024#47": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2024#48": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2024#49": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "ratt 2024#50": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Vacuolated blasts = Burkitt lymphoma, not leukemia"
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "conf": "low",
+   "why": "Bulky RMT>0.35 used in Hodgkin staging, also LMNH"
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Anémie par carence en fer"
+   ],
+   "conf": "low",
+   "why": "Microcytic anemia differential: iron deficiency, inflammation, thalassemia"
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Sphérocytose héréditaire",
+    "Drépanocytose"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "High reticulocytes in hemolytic anemias: spherocytosis and sickle cell"
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "session Novembre 2024#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "session Novembre 2024#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "session Novembre 2024#3": {
+   "c": [
+    "Aplasie médullaire"
+   ],
+   "conf": "low",
+   "why": "Peripheral pancytopenia differential (hepatopathy, lupus), not aplasia itself"
+  },
+  "session Novembre 2024#4": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "session Novembre 2024#5": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "session Novembre 2024#6": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "session Novembre 2024#7": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "session Novembre 2024#8": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "session Novembre 2024#9": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "session Novembre 2024#10": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "session Novembre 2024#11": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "session Novembre 2024#12": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "session Novembre 2024#13": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "session Novembre 2024#14": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "session Novembre 2024#15": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "session Novembre 2024#16": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "session Novembre 2024#17": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "session Novembre 2024#18": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "session Novembre 2024#19": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "session Novembre 2024#20": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "session Novembre 2024#21": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "session Novembre 2024#22": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "session Novembre 2024#23": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "session Novembre 2024#24": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "session Novembre 2024#25": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "session Novembre 2024#26": {
+   "c": [
+    "Sphérocytose héréditaire",
+    "Drépanocytose"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "High reticulocytes in hemolytic anemias: spherocytosis and sickle cell"
+  },
+  "session Novembre 2024#27": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "session Novembre 2024#28": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "session Novembre 2024#29": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "session Novembre 2024#30": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "session Novembre 2024#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "session Novembre 2024#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "session Novembre 2024#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "session Novembre 2024#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "session Novembre 2024#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "session Novembre 2024#36": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "session Novembre 2024#37": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "session Novembre 2024#38": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "session Novembre 2024#39": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "session Novembre 2024#40": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "session Novembre 2024#41": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "session Novembre 2024#42": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "session Novembre 2024#43": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "session Novembre 2024#44": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "session Novembre 2024#45": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "session Novembre 2024#46": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "session Novembre 2024#47": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "session Novembre 2024#48": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "session Novembre 2024#49": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "session Novembre 2024#50": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2023#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2023#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2023#3": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "normal 2023#4": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "normal 2023#5": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2023#6": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2023#7": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2023#8": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2023#9": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2023#10": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2023#11": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2023#12": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "normal 2023#13": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Regenerative hemolytic anemias in general (drépanocytose, sphérocytose, AHAI)"
+  },
+  "normal 2023#14": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2023#15": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2023#16": {
+   "c": [
+    "Drépanocytose"
+   ],
+   "case": "normal 2023#16-17"
+  },
+  "normal 2023#17": {
+   "c": [
+    "Drépanocytose"
+   ],
+   "case": "normal 2023#16-17"
+  },
+  "normal 2023#18": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "normal 2023#19": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "normal 2023#20": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ],
+   "case": "normal 2023#20-21"
+  },
+  "normal 2023#21": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ],
+   "case": "normal 2023#20-21"
+  },
+  "normal 2023#22": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2023#22-23",
+   "conf": "low",
+   "why": "Young adult, B signs, mediastinum: Hodgkin vs LMNH differential"
+  },
+  "normal 2023#23": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "case": "normal 2023#22-23",
+   "conf": "low",
+   "why": "Biopsie ganglionnaire for lymphoma; case favors Hodgkin"
+  },
+  "normal 2023#24": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "case": "normal 2023#24-25"
+  },
+  "normal 2023#25": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "case": "normal 2023#24-25",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Syndrome de lyse tumorale complicating acute leukemia"
+  },
+  "normal 2023#26": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "normal 2023#26-27"
+  },
+  "normal 2023#27": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "case": "normal 2023#26-27"
+  },
+  "normal 2023#28": {
+   "c": [
+    "Myélome multiple"
+   ],
+   "case": "normal 2023#28-29"
+  },
+  "normal 2023#29": {
+   "c": [
+    "Myélome multiple"
+   ],
+   "case": "normal 2023#28-29"
+  },
+  "normal 2023#30": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2023#31": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2023#32": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2023#33": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2023#34": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2023#35": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2023#36": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2023#37": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2023#38": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2023#39": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2023#40": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2023#41": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2023#42": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2023#43": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2023#44": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2023#45": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2023#46": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "normal 2023#47": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2023#48": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2023#49": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2023#50": {
+   "c": [
+    "Urgences oncologiques"
+   ]
+  },
+  "normal 2022#1": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2022#2": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "normal 2022#3": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD",
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Hyperleucocytic LAM: answer is leucostase and lyse tumorale"
+  },
+  "normal 2022#4": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "normal 2022#5": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#6": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#7": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#8": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#9": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#10": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ],
+   "case": "normal 2022#5-10"
+  },
+  "normal 2022#11": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ],
+   "conf": "low",
+   "why": "Hemostasis interpretation (TQ+TCA); CIVD among answers"
+  },
+  "normal 2022#12": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2022#13": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2022#14": {
+   "c": [
+    "Anémie par carence en fer"
+   ],
+   "conf": "low",
+   "why": "Microcytosis mechanism, general; closest is iron deficiency"
+  },
+  "normal 2022#15": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2022#16": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Polyadenopathy differential: LA, Hodgkin, LLC, LMNH"
+  },
+  "normal 2022#17": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2022#18": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Splenomegaly differential across LAL, sphérocytose, LMC"
+  },
+  "normal 2022#19": {
+   "c": [
+    "Maladie de Hodgkin"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Splenomegaly + cervical ADP differential: Hodgkin, LA, LLC"
+  },
+  "normal 2022#20": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2022#21": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2022#22": {
+   "c": [
+    "Leucémie aiguë"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "General classification of hematologic malignancies"
+  },
+  "normal 2022#23": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2022#24": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "normal 2022#25": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2022#26": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2022#27": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2022#28": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2022#29": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2022#30": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2022#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#36": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2022#37": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "normal 2022#38": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2022#39": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2022#40": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2022#41": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2022#42": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2022#43": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2022#44": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2022#45": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2022#46": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2022#47": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2022#48": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2022#49": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2022#50": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2022#1": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "ratt 2022#2": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "ratt 2022#3": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "ratt 2022#4": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "ratt 2022#5": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "ratt 2022#6": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "ratt 2022#7": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "ratt 2022#8": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "ratt 2022#9": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "ratt 2022#10": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "ratt 2022#11": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "ratt 2022#12": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "ratt 2022#13": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "ratt 2022#14": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "ratt 2022#15": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "ratt 2022#16": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "ratt 2022#17": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "ratt 2022#18": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "ratt 2022#19": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "ratt 2022#20": {
+   "c": [
+    "Thalassémie"
+   ],
+   "conf": "low",
+   "why": "Iron chelation threshold; transfusional overload (thalassémie vs transfusion)"
+  },
+  "ratt 2022#21": {
+   "c": [
+    "Aplasie médullaire"
+   ],
+   "conf": "low",
+   "why": "Pancytopenia etiologies; closest is aplasie médullaire cours"
+  },
+  "ratt 2022#22": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "ratt 2022#23": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "ratt 2022#24": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "ratt 2022#25": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "ratt 2022#26": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "ratt 2022#27": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "ratt 2022#28": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "ratt 2022#29": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "ratt 2022#30": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "ratt 2022#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2022#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2022#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2022#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "ratt 2022#35": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "ratt 2022#36": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Ratt 2022#37": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Ratt 2022#38": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "ratt 2022#39": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "ratt 2022#40": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "ratt 2022#41": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "ratt 2022#42": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2022#43": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2022#44": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "ratt 2022#45": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "ratt 2022#46": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "ratt 2022#47": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2022#48": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "ratt 2022#49": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "ratt 2022#50": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2021#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2021#2": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2021#3": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "normal 2021#4": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2021#5": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "normal 2021#6": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "normal 2021#7": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2021#8": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2021#9": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2021#10": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2021#11": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2021#12": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2021#13": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2021#14": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2021#15": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2021#16": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2021#17": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2021#18": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2021#19": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "normal 2021#20": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2021#21": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2021#22": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2021#23": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2021#24": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "normal 2021#25": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2021#26": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2021#27": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2021#28": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2021#29": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "normal 2021#30": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Pyruvate kinase deficiency: no own cours, closest enzymopathy cours"
+  },
+  "normal 2021#31": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2021#32": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2021#33": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2021#34": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2021#35": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2021#36": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "normal 2021#37": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2021#38": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2021#39": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2021#40": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2021#41": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2021#42": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2021#43": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2021#44": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2021#45": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2021#46": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2021#47": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2021#48": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2021#49": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2021#50": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2020#1": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2020#2": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2020#3": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "normal 2020#4": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "normal 2020#5": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2020#6": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2020#7": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ]
+  },
+  "normal 2020#8": {
+   "c": [
+    "Anémie par déficit en G6PD"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Pyruvate kinase deficiency: no own cours, closest enzymopathy cours"
+  },
+  "normal 2020#9": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "normal 2020#10": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "normal 2020#11": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "normal 2020#12": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "normal 2020#13": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2020#14": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2020#15": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2020#16": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2020#17": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2020#18": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ],
+   "conf": "low",
+   "why": "Mediastinal lymphoma: could be Hodgkin or LMNH"
+  },
+  "normal 2020#19": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2020#20": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2020#21": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2020#22": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2020#23": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2020#24": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2020#25": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2020#26": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2020#27": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "normal 2020#28": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "normal 2020#29": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "normal 2020#30": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2020#31": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2020#32": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2020#33": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2020#34": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2020#35": {
+   "c": [
+    "Chimiothérapie"
+   ],
+   "case": "normal 2020#35-36"
+  },
+  "normal 2020#36": {
+   "c": [
+    "Chimiothérapie"
+   ],
+   "case": "normal 2020#35-36"
+  },
+  "normal 2020#37": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2020#38": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2020#39": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2020#40": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2020#41": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2020#42": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2020#43": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2020#44": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2020#45": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "normal 2020#46": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2020#47": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2020#48": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2020#49": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2020#50": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2019#1": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "normal 2019#2": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "normal 2019#3": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "normal 2019#4": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2019#5": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2019#6": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2019#7": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "normal 2019#8": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2019#9": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2019#10": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "normal 2019#11": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2019#12": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "normal 2019#13": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2019#14": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "normal 2019#15": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "normal 2019#16": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "normal 2019#17": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2019#18": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2019#19": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "normal 2019#20": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2019#21": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2019#22": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2019#23": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2019#24": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2019#25": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "normal 2019#26": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "normal 2019#27": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "normal 2019#28": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "normal 2019#29": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "normal 2019#30": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "normal 2019#31": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2019#32": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2019#33": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "normal 2019#34": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2019#35": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "normal 2019#36": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "normal 2019#37": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2019#38": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Normal 2019#39": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2019#40": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2019#41": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "normal 2019#42": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2019#43": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2019#44": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "normal 2019#45": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  },
+  "normal 2019#46": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2019#47": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2019#48": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2019#49": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "normal 2019#50": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#1": {
+   "c": [
+    "Aplasie médullaire"
+   ]
+  },
+  "Ratt 2019#2": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Ratt 2019#3": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "Ratt 2019#4": {
+   "c": [
+    "Leucémie myéloïde chronique"
+   ]
+  },
+  "Ratt 2019#5": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Ratt 2019#6": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)"
+   ]
+  },
+  "Ratt 2019#7": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Ratt 2019#8": {
+   "c": [
+    "Purpura thrombopénique immunologique (PTI)"
+   ]
+  },
+  "Ratt 2019#9": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Ratt 2019#10": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Ratt 2019#11": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Ratt 2019#12": {
+   "c": [
+    "Leucémie aiguë"
+   ]
+  },
+  "Ratt 2019#13": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Ratt 2019#14": {
+   "c": [
+    "Anémie mégaloblastique"
+   ]
+  },
+  "Ratt 2019#15": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Ratt 2019#16": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Ratt 2019#17": {
+   "c": [
+    "Maladie de Hodgkin"
+   ]
+  },
+  "Ratt 2019#18": {
+   "c": [
+    "Syndromes myéloprolifératifs Philadelphie négatifs"
+   ]
+  },
+  "Ratt 2019#19": {
+   "c": [
+    "Drépanocytose"
+   ]
+  },
+  "Ratt 2019#20": {
+   "c": [
+    "Myélome multiple"
+   ]
+  },
+  "Ratt 2019#21": {
+   "c": [
+    "Anémie par carence en fer"
+   ]
+  },
+  "Ratt 2019#22": {
+   "c": [
+    "Sphérocytose héréditaire"
+   ]
+  },
+  "Ratt 2019#23": {
+   "c": [
+    "Urgences hématologiques 1 : syndrome de leucostase et CIVD"
+   ]
+  },
+  "Ratt 2019#24": {
+   "c": [
+    "Hémophilie"
+   ]
+  },
+  "Ratt 2019#25": {
+   "c": [
+    "Transfusion sanguine"
+   ]
+  },
+  "Ratt 2019#26": {
+   "c": [
+    "Lymphome malin non hodgkinien (LMNH)",
+    "Myélome multiple"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Autogreffe indications span myélome, LMNH and Hodgkin"
+  },
+  "Ratt 2019#27": {
+   "c": [
+    "Urgences hématologiques 2 : syndrome de lyse tumorale et neutropénie fébrile"
+   ]
+  },
+  "Ratt 2019#28": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Ratt 2019#29": {
+   "c": [
+    "Leucémie lymphoïde chronique (LLC)"
+   ]
+  },
+  "Ratt 2019#30": {
+   "c": [
+    "Thalassémie"
+   ]
+  },
+  "Ratt 2019#31": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Ratt 2019#32": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Ratt 2019#33": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Ratt 2019#34": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Ratt 2019#35": {
+   "c": [
+    "Chimiothérapie"
+   ]
+  },
+  "Ratt 2019#36": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Ratt 2019#37": {
+   "c": [
+    "Épidémiologie des cancers"
+   ]
+  },
+  "Ratt 2019#38": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Ratt 2019#39": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Ratt 2019#40": {
+   "c": [
+    "Douleur et cancer"
+   ]
+  },
+  "Ratt 2019#41": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Ratt 2019#42": {
+   "c": [
+    "Hormonothérapie"
+   ]
+  },
+  "Ratt 2019#43": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Ratt 2019#44": {
+   "c": [
+    "Thérapies ciblées"
+   ]
+  },
+  "Ratt 2019#45": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#46": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#47": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#48": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#49": {
+   "c": [
+    "Radiothérapie"
+   ]
+  },
+  "Ratt 2019#50": {
+   "c": [
+    "Diagnostic, bilan d'extension et classification des cancers"
+   ]
+  }
+ }
+}

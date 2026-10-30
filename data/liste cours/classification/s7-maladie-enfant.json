@@ -1,0 +1,3994 @@
+{
+ "module": "Maladies de l'enfant",
+ "q": {
+  "normal 2026#1": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "normal 2026#2": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "normal 2026#3": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Liquide amniotique et risque d'asphyxie périnatale"
+  },
+  "normal 2026#4": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Causes obstétricales d'asphyxie périnatale"
+  },
+  "normal 2026#5": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "normal 2026#6": {
+   "c": [
+    "Cardiopathies congénitales"
+   ],
+   "case": "normal 2026#6-7"
+  },
+  "normal 2026#7": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2026#6-7",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Test d'hyperoxie = démarche devant cyanose néonatale"
+  },
+  "normal 2026#8": {
+   "c": [
+    "Insuffisance cardiaque du nourrisson"
+   ]
+  },
+  "normal 2026#9": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "normal 2026#10": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Purpura fébrile = méningococcémie; Fièvre de l'enfant possible"
+  },
+  "normal 2026#11": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2026#12": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2026#13": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2026#14": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "normal 2026#15": {
+   "c": [
+    "Diarrhée chez l'enfant",
+    "Invagination intestinale"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Selles sanglantes: shigellose vs invagination"
+  },
+  "normal 2026#16": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "normal 2026#17": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "normal 2026#18": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "normal 2026#19": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "normal 2026#20": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "normal 2026#21": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite sévère; IRA possible"
+  },
+  "normal 2026#22": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "normal 2026#23": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "normal 2026#24": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ]
+  },
+  "normal 2026#25": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "normal 2026#26": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "normal 2026#27": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Carence martiale, pas développement psychomoteur; Anémie possible"
+  },
+  "normal 2026#28": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "normal 2026#29": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "normal 2026#30": {
+   "c": [
+    "Hématuries"
+   ],
+   "conf": "low",
+   "why": "Orientation étiologique hématurie macroscopique; GNA possible"
+  },
+  "normal 2026#31": {
+   "c": [
+    "Énurésie"
+   ]
+  },
+  "normal 2026#32": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "normal 2026#33": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "normal 2026#34": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "normal 2026#35": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "normal 2026#36": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "normal 2026#37": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "normal 2026#38": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "normal 2026#39": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "case": "normal 2026#39-40",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Masse du flanc: neuroblastome/néphroblastome"
+  },
+  "normal 2026#40": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "case": "normal 2026#39-40",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan initial masse abdominale tumorale"
+  },
+  "normal 2026#41": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "normal 2026#42": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "normal 2026#42-43"
+  },
+  "normal 2026#43": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "normal 2026#42-43"
+  },
+  "normal 2026#44": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Boiterie indolore; Maladie luxante de la hanche possible"
+  },
+  "normal 2026#45": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2026#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "normal 2026#47": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "normal 2026#48": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "normal 2026#49": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "normal 2026#50": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2025#1": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "normal 2025#2": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "normal 2025#3": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite; IRA possible"
+  },
+  "normal 2025#4": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "normal 2025#5": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "normal 2025#6": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "conf": "low",
+   "why": "Vomissements du nourrisson menant à SHP; Vomissements possible"
+  },
+  "normal 2025#7": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "normal 2025#8": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2025#9": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2025#10": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "normal 2025#11": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "normal 2025#12": {
+   "c": [
+    "Déficit immunitaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Ecthyma gangrenosum = signe de déficit immunitaire/neutropénie"
+  },
+  "normal 2025#13": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteurs de risque d'encéphalopathie anoxo-ischémique"
+  },
+  "normal 2025#14": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Score de Silverman, détresse respiratoire néonatale"
+  },
+  "normal 2025#15": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "normal 2025#16": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "normal 2025#17": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2025#17-19"
+  },
+  "normal 2025#18": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2025#17-19"
+  },
+  "normal 2025#19": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2025#17-19"
+  },
+  "normal 2025#20": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "normal 2025#21": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "normal 2025#22": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Leucémie aiguë, pas croissance néonatale"
+  },
+  "normal 2025#23": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "normal 2025#24": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "normal 2025#25": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "normal 2025#26": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "normal 2025#27": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "normal 2025#27-28"
+  },
+  "normal 2025#28": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "normal 2025#27-28"
+  },
+  "normal 2025#29": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "normal 2025#30": {
+   "c": [
+    "Protéinurie"
+   ]
+  },
+  "normal 2025#31": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "normal 2025#32": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "normal 2025#33": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "normal 2025#34": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "normal 2025#35": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "normal 2025#36": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "normal 2025#37": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "normal 2025#38": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "normal 2025#38-39"
+  },
+  "normal 2025#39": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "normal 2025#38-39"
+  },
+  "normal 2025#40": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "normal 2025#41": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "normal 2025#42": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hépatoblastome = tumeur maligne de l'enfant"
+  },
+  "normal 2025#43": {
+   "c": [
+    "Anomalie de migration et de position testiculaire"
+   ]
+  },
+  "normal 2025#44": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "normal 2025#45": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2025#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "normal 2025#47": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2025#48": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2025#49": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "normal 2025#50": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "normal 2024#1": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "normal 2024#2": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "normal 2024#3": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "normal 2024#4": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "normal 2024#5": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2024#6": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "normal 2024#7": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "normal 2024#8": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "normal 2024#9": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "normal 2024#10": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "normal 2024#11": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "normal 2024#12": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "normal 2024#13": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "normal 2024#14": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "normal 2024#15": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite; IRA possible"
+  },
+  "normal 2024#16": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "normal 2024#17": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan de l'asphyxie périnatale"
+  },
+  "normal 2024#18": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes de hernie de coupole diaphragmatique"
+  },
+  "normal 2024#19": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "normal 2024#20": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "normal 2024#21": {
+   "c": [
+    "Cyanose néonatale"
+   ]
+  },
+  "normal 2024#22": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2024#22-24"
+  },
+  "normal 2024#23": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2024#22-24"
+  },
+  "normal 2024#24": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "normal 2024#22-24"
+  },
+  "normal 2024#25": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "normal 2024#26": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Fièvre sans foyer du nourrisson, bandelette; Fièvre de l'enfant possible"
+  },
+  "normal 2024#27": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "normal 2024#28": {
+   "c": [
+    "Hématuries"
+   ]
+  },
+  "normal 2024#29": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "normal 2024#30": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "normal 2024#31": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "normal 2024#32": {
+   "c": [
+    "Retard staturo-pondéral"
+   ],
+   "conf": "low",
+   "why": "Hypothyroïdie congénitale; pas de cours dédié"
+  },
+  "normal 2024#33": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ]
+  },
+  "normal 2024#34": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "normal 2024#35": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "normal 2024#36": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "normal 2024#37": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "normal 2024#37-38"
+  },
+  "normal 2024#38": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "normal 2024#37-38"
+  },
+  "normal 2024#39": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "normal 2024#40": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "normal 2024#41": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Hématocolpos (imperforation hyménéale), aucun cours gynéco pédiatrique"
+  },
+  "normal 2024#42": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ]
+  },
+  "normal 2024#43": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ]
+  },
+  "normal 2024#44": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ]
+  },
+  "normal 2024#45": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "normal 2024#46": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "normal 2024#47": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "normal 2024#48": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "normal 2024#49": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "normal 2024#50": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Ratt 2024#1": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Ratt 2024#2": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques de hernie de coupole diaphragmatique"
+  },
+  "Ratt 2024#3": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Ratt 2024#4": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Ratt 2024#5": {
+   "c": [
+    "Prématurité"
+   ],
+   "conf": "low",
+   "why": "Score de Farr = estimation de l'âge gestationnel"
+  },
+  "Ratt 2024#6": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2024#6-7"
+  },
+  "Ratt 2024#7": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2024#6-7"
+  },
+  "Ratt 2024#8": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Ratt 2024#9": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Ratt 2024#10": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Ratt 2024#11": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Ratt 2024#12": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2024#13": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2024#14": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Ratt 2024#15": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2024#16": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2024#17": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2024#18": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Ratt 2024#19": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Ratt 2024#20": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "Ratt 2024#21": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Ratt 2024#22": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "Ratt 2024#23": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Ratt 2024#24": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Ratt 2024#25": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Ratt 2024#26": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Ratt 2024#27": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Acidocétose diabétique, pas nutrition"
+  },
+  "Ratt 2024#28": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "Ratt 2024#29": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "Ratt 2024#30": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2024#31": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Ratt 2024#32": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "Ratt 2024#33": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Ratt 2024#34": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Ratt 2024#35": {
+   "c": [
+    "Invagination intestinale"
+   ],
+   "case": "Ratt 2024#35-36"
+  },
+  "Ratt 2024#36": {
+   "c": [
+    "Invagination intestinale"
+   ],
+   "case": "Ratt 2024#35-36"
+  },
+  "Ratt 2024#37": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Ratt 2024#38": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Ratt 2024#39": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Ratt 2024#40": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Ratt 2024#40-41",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Réponse attendue = infection urinaire, pas chirurgie digestive"
+  },
+  "Ratt 2024#41": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Ratt 2024#40-41",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ECBU pour infection urinaire"
+  },
+  "Ratt 2024#42": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Ratt 2024#42-43"
+  },
+  "Ratt 2024#43": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Ratt 2024#42-43"
+  },
+  "Ratt 2024#44": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Ratt 2024#45": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Ratt 2024#46": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Ratt 2024#47": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Ratt 2024#48": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Ratt 2024#49": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Ratt 2024#50": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Examens de première intention de l'asphyxie périnatale"
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques de hernie de coupole diaphragmatique"
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Cyanose néonatale"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Prématurité"
+   ],
+   "conf": "low",
+   "why": "Score de Farr = estimation de l'âge gestationnel"
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Octobre 2024#9-11"
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Octobre 2024#9-11"
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Octobre 2024#9-11"
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Protéinurie"
+   ]
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson",
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Douleurs abdominales chez l'enfant",
+    "Syndrome néphrotique"
+   ],
+   "case": "Octobre 2024#28-29",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Péritonite primitive compliquant un syndrome néphrotique"
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Douleurs abdominales chez l'enfant",
+    "Syndrome néphrotique"
+   ],
+   "case": "Octobre 2024#28-29",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Prise en charge péritonite primitive sur syndrome néphrotique"
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Acidocétose diabétique, pas nutrition"
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Masse du flanc = neuroblastome, tumeur solide de l'enfant"
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Occlusion néonatale"
+   ],
+   "conf": "low",
+   "why": "Volvulus sur mésentère commun chez nourrisson de 2 mois"
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Maladie de Hirschsprung"
+   ],
+   "case": "Octobre 2024#44-45"
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Maladie de Hirschsprung"
+   ],
+   "case": "Octobre 2024#44-45"
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Invagination intestinale"
+   ],
+   "case": "Octobre 2024#46-47"
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Invagination intestinale"
+   ],
+   "case": "Octobre 2024#46-47"
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "other_module",
+    "not_found"
+   ],
+   "why": "Hormonothérapie des cancers = oncologie générale, hors pédiatrie"
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Étiologies des détresses respiratoires néonatales"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes de gravité d'une détresse respiratoire"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Prématurité"
+   ],
+   "conf": "low",
+   "why": "Score de Farr = estimation de l'âge gestationnel"
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Novembre 2024#7-9"
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Novembre 2024#7-9"
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Novembre 2024#7-9"
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ],
+   "conf": "low",
+   "why": "Corps étranger bronchique, pas de cours dédié"
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "Novembre 2024#27-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diarrhée chronique: cœliaque, APLV, RGO"
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "Novembre 2024#27-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge diarrhée chronique du nourrisson"
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Œsophagite peptique / RGO du nourrisson"
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Toux, suffocation, hypersalivation = atrésie de l'œsophage"
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Normal 2023#1": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Normal 2023#2": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Normal 2023#3": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Normal 2023#4": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2023#5": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2023#6": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Normal 2023#7": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Normal 2023#8": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Normal 2023#9": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2023#10": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs dyspnée aiguë du nourrisson"
+  },
+  "Normal 2023#11": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2023#12": {
+   "c": [
+    "Pleurésie de l'enfant"
+   ]
+  },
+  "Normal 2023#13": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2023#14": {
+   "c": [
+    "Douleurs abdominales chez l'enfant"
+   ]
+  },
+  "Normal 2023#15": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2023#16": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Normal 2023#17": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Normal 2023#18": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "Normal 2023#19": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Normal 2023#20": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2023#21": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2023#22": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "Normal 2023#22-23",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "APLV révélée par diarrhée chronique; topic nutrition"
+  },
+  "Normal 2023#23": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "case": "Normal 2023#22-23",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "APLV révélée par diarrhée chronique; topic nutrition"
+  },
+  "Normal 2023#24": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Maladie cœliaque: diarrhée chronique vs retard staturo-pondéral"
+  },
+  "Normal 2023#25": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Normal 2023#26": {
+   "c": [
+    "Anémie chez l'enfant"
+   ],
+   "case": "Normal 2023#26-27"
+  },
+  "Normal 2023#27": {
+   "c": [
+    "Anémie chez l'enfant"
+   ],
+   "case": "Normal 2023#26-27"
+  },
+  "Normal 2023#28": {
+   "c": [
+    "Prématurité"
+   ],
+   "conf": "low",
+   "why": "Score de Farr = estimation de l'âge gestationnel"
+  },
+  "Normal 2023#29": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Normal 2023#30": {
+   "c": [
+    "Cyanose néonatale"
+   ]
+  },
+  "Normal 2023#31": {
+   "c": [
+    "Cardiopathies congénitales"
+   ],
+   "case": "Normal 2023#31-32"
+  },
+  "Normal 2023#32": {
+   "c": [
+    "Cardiopathies congénitales"
+   ],
+   "case": "Normal 2023#31-32"
+  },
+  "Normal 2023#33": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Normal 2023#34": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Encéphalopathie anoxo-ischémique = asphyxie périnatale"
+  },
+  "Normal 2023#35": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Normal 2023#36": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Rythme respiratoire de la détresse respiratoire néonatale"
+  },
+  "Normal 2023#37": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "Normal 2023#37-38"
+  },
+  "Normal 2023#38": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "Normal 2023#37-38"
+  },
+  "Normal 2023#39": {
+   "c": [
+    "Maladie de Hirschsprung"
+   ]
+  },
+  "Normal 2023#40": {
+   "c": [
+    "Occlusion néonatale"
+   ],
+   "conf": "low",
+   "why": "Méconium normal: occlusion néonatale vs Hirschsprung"
+  },
+  "Normal 2023#41": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "conf": "low",
+   "why": "Détresse respiratoire néonatale, hémithorax distendu"
+  },
+  "Normal 2023#42": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hépatoblastome / syndrome de Pepper: tumeur abdominale"
+  },
+  "Normal 2023#43": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ]
+  },
+  "Normal 2023#44": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Normal 2023#45": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Normal 2023#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Normal 2023#47": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Normal 2023#48": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2023#49": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Normal 2023#50": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Normal 2022#1": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Classification de Sarnat = encéphalopathie post-asphyxique"
+  },
+  "Normal 2022#2": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Normal 2022#3": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Normal 2022#4": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Encéphalopathie anoxo-ischémique = asphyxie périnatale"
+  },
+  "Normal 2022#5": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Normal 2022#6": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Normal 2022#7": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Normal 2022#8": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Normal 2022#9": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Normal 2022#10": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Normal 2022#11": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Normal 2022#12": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Normal 2022#13": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2022#14": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Laryngite: IRA haute vs dyspnée aiguë du nourrisson"
+  },
+  "Normal 2022#15": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2022#16": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Normal 2022#17": {
+   "c": [
+    "Pleurésie de l'enfant"
+   ]
+  },
+  "Normal 2022#18": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2022#19": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2022#20": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs dyspnée aiguë du nourrisson"
+  },
+  "Normal 2022#21": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2022#22": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2022#23": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Normal 2022#24": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Maladie cœliaque: diarrhée chronique vs retard staturo-pondéral"
+  },
+  "Normal 2022#25": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2022#26": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2022#27": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Normal 2022#28": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ]
+  },
+  "Normal 2022#29": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2022#30": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Normal 2022#31": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Normal 2022#32": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Normal 2022#33": {
+   "c": [
+    "Énurésie"
+   ]
+  },
+  "Normal 2022#34": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "Normal 2022#35": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Normal 2022#36": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "Normal 2022#36-37"
+  },
+  "Normal 2022#37": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "case": "Normal 2022#36-37"
+  },
+  "Normal 2022#38": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Normal 2022#39": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Normal 2022#39-40",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Diagnostic retenu infection urinaire (ECBU); uropathie sous-jacente possible"
+  },
+  "Normal 2022#40": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Normal 2022#39-40",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Diagnostic retenu infection urinaire (ECBU); uropathie sous-jacente possible"
+  },
+  "Normal 2022#41": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2022#41-42"
+  },
+  "Normal 2022#42": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2022#41-42"
+  },
+  "Normal 2022#43": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2022#43-44"
+  },
+  "Normal 2022#44": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2022#43-44"
+  },
+  "Normal 2022#45": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Normal 2022#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Normal 2022#47": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Normal 2022#48": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Normal 2022#49": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Normal 2022#50": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2021#1": {
+   "c": [
+    "Ictères néonataux"
+   ],
+   "case": "Normal 2021#1-2"
+  },
+  "Normal 2021#2": {
+   "c": [
+    "Ictères néonataux"
+   ],
+   "case": "Normal 2021#1-2"
+  },
+  "Normal 2021#3": {
+   "c": [
+    "Néonatologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Nouveau-né de mère diabétique: pas de cours dédié"
+  },
+  "Normal 2021#4": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Normal 2021#5": {
+   "c": [
+    "Prématurité"
+   ],
+   "conf": "low",
+   "why": "Score de Farr = estimation de l'âge gestationnel"
+  },
+  "Normal 2021#6": {
+   "c": [
+    "Prématurité"
+   ],
+   "case": "Normal 2021#6-7"
+  },
+  "Normal 2021#7": {
+   "c": [
+    "Prématurité"
+   ],
+   "case": "Normal 2021#6-7"
+  },
+  "Normal 2021#8": {
+   "c": [
+    "Cyanose néonatale"
+   ]
+  },
+  "Normal 2021#9": {
+   "c": [
+    "Insuffisance cardiaque du nourrisson"
+   ]
+  },
+  "Normal 2021#10": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2021#11": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs dyspnée aiguë du nourrisson"
+  },
+  "Normal 2021#12": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2021#13": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2021#14": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Normal 2021#15": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Normal 2021#16": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Normal 2021#17": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2021#18": {
+   "c": [
+    "Fièvre de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Convulsions fébriles: pas de cours dédié"
+  },
+  "Normal 2021#19": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2021#20": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2021#21": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Normal 2021#22": {
+   "c": [
+    "Développement psychomoteur"
+   ]
+  },
+  "Normal 2021#23": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2021#24": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2021#25": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Normal 2021#26": {
+   "c": [
+    "Hématuries"
+   ]
+  },
+  "Normal 2021#27": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Normal 2021#28": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Normal 2021#29": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Normal 2021#30": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Normal 2021#31": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2021#32": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Maladie cœliaque: diarrhée chronique vs retard staturo-pondéral"
+  },
+  "Normal 2021#33": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Normal 2021#34": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Normal 2021#35": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Normal 2021#36": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2021#36-37"
+  },
+  "Normal 2021#37": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2021#36-37"
+  },
+  "Normal 2021#38": {
+   "c": [
+    "Uropathies de l'enfant"
+   ],
+   "case": "Normal 2021#38-39"
+  },
+  "Normal 2021#39": {
+   "c": [
+    "Uropathies de l'enfant"
+   ],
+   "case": "Normal 2021#38-39"
+  },
+  "Normal 2021#40": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2021#40-41"
+  },
+  "Normal 2021#41": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2021#40-41"
+  },
+  "Normal 2021#42": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neuroblastome: tumeur maligne de l'enfant, pas chirurgie digestive"
+  },
+  "Normal 2021#43": {
+   "c": [
+    "Anomalie de migration et de position testiculaire"
+   ],
+   "case": "Normal 2021#43-44"
+  },
+  "Normal 2021#44": {
+   "c": [
+    "Anomalie de migration et de position testiculaire"
+   ],
+   "case": "Normal 2021#43-44"
+  },
+  "Normal 2021#45": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2021#46": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Normal 2021#47": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Normal 2021#48": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2021#49": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2021#50": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Ratt 2021#1": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Ratt 2021#2": {
+   "c": [
+    "Fièvre éruptive chez l'enfant"
+   ]
+  },
+  "Ratt 2021#3": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Ratt 2021#4": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Ratt 2021#5": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2021#6": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs Dyspnée aiguë du nourrisson"
+  },
+  "Ratt 2021#7": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs Dyspnée aiguë du nourrisson"
+  },
+  "Ratt 2021#8": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Ratt 2021#9": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2021#10": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2021#11": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Ratt 2021#12": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "case": "Ratt 2021#12-13",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes d'asphyxie périnatale, not salle de naissance resuscitation"
+  },
+  "Ratt 2021#13": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "case": "Ratt 2021#12-13",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge du nouveau-né asphyxique convulsant"
+  },
+  "Ratt 2021#14": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Ratt 2021#15": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Étiologies de détresse respiratoire du prématuré"
+  },
+  "Ratt 2021#16": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Ratt 2021#17": {
+   "c": [
+    "RCIU"
+   ]
+  },
+  "Ratt 2021#18": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Ratt 2021#19": {
+   "c": [
+    "Insuffisance cardiaque du nourrisson"
+   ]
+  },
+  "Ratt 2021#20": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Ratt 2021#21": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Ratt 2021#22": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Ratt 2021#23": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Ratt 2021#24": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Ratt 2021#25": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Ratt 2021#26": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Maladie cœliaque = diarrhée chronique; topic retard statural"
+  },
+  "Ratt 2021#27": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2021#28": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Ratt 2021#29": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Ratt 2021#30": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "Ratt 2021#31": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Ratt 2021#32": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ]
+  },
+  "Ratt 2021#33": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "Ratt 2021#34": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "Ratt 2021#34-37"
+  },
+  "Ratt 2021#35": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "Ratt 2021#34-37"
+  },
+  "Ratt 2021#36": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "Ratt 2021#34-37"
+  },
+  "Ratt 2021#37": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ],
+   "case": "Ratt 2021#34-37"
+  },
+  "Ratt 2021#38": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Ratt 2021#39": {
+   "c": [
+    "Uropathies de l'enfant"
+   ],
+   "case": "Ratt 2021#39-40"
+  },
+  "Ratt 2021#40": {
+   "c": [
+    "Uropathies de l'enfant"
+   ],
+   "case": "Ratt 2021#39-40"
+  },
+  "Ratt 2021#41": {
+   "c": [
+    "Proctologie pédiatrique"
+   ]
+  },
+  "Ratt 2021#42": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Ratt 2021#43": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Ratt 2021#44": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Ratt 2021#45": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Ratt 2021#46": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Ratt 2021#47": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Ratt 2021#48": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Ratt 2021#49": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Ratt 2021#50": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Juin 2019#1": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Juin 2019#2": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Juin 2019#3": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Juin 2019#4": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Juin 2019#5": {
+   "c": [
+    "Coqueluche"
+   ]
+  },
+  "Juin 2019#6": {
+   "c": [
+    "Tuberculose chez l'enfant"
+   ]
+  },
+  "Juin 2019#7": {
+   "c": [
+    "Pleurésie de l'enfant"
+   ]
+  },
+  "Juin 2019#8": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Juin 2019#9": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Juin 2019#10": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Juin 2019#11": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Juin 2019#12": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Encéphalopathie anoxo-ischémique = asphyxie périnatale"
+  },
+  "Juin 2019#13": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Juin 2019#14": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Juin 2019#15": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Juin 2019#16": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Juin 2019#17": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Juin 2019#18": {
+   "c": [
+    "RCIU"
+   ]
+  },
+  "Juin 2019#19": {
+   "c": [
+    "RCIU"
+   ]
+  },
+  "Juin 2019#20": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Juin 2019#21": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Juin 2019#22": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Juin 2019#23": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Juin 2019#24": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Maladie cœliaque: diarrhée chronique vs retard staturo-pondéral"
+  },
+  "Juin 2019#25": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Juin 2019#26": {
+   "c": [
+    "Retard staturo-pondéral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hypothyroïdie congénitale, no dedicated cours; age osseux/taille"
+  },
+  "Juin 2019#27": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "APLV: diarrhée chronique vs alimentation du nourrisson"
+  },
+  "Juin 2019#28": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Juin 2019#29": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Juin 2019#30": {
+   "c": [
+    "Hématuries"
+   ]
+  },
+  "Juin 2019#31": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "PNA treatment, not uropathy"
+  },
+  "Juin 2019#32": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Germes de l'infection urinaire, not uropathy"
+  },
+  "Juin 2019#33": {
+   "c": [
+    "Invagination intestinale"
+   ],
+   "conf": "low",
+   "why": "Nourrisson 8 mois, crises de pleurs + vomissements"
+  },
+  "Juin 2019#34": {
+   "c": [
+    "Atrésie de l'œsophage"
+   ]
+  },
+  "Juin 2019#35": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Juin 2019#36": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Juin 2019#37": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "conf": "low",
+   "why": "Hémithorax bombé néonatal; exsufflation suggests pneumothorax differential"
+  },
+  "Juin 2019#38": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Juin 2019#39": {
+   "c": [
+    "Uropathies de l'enfant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Masse rénale fébrile du nourrisson; topic chirurgie digestive"
+  },
+  "Juin 2019#40": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Juin 2019#40-41"
+  },
+  "Juin 2019#41": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Juin 2019#40-41"
+  },
+  "Juin 2019#42": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Juin 2019#43": {
+   "c": [
+    "Occlusion néonatale"
+   ]
+  },
+  "Juin 2019#44": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Juin 2019#45": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Juin 2019#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Juin 2019#47": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Juin 2019#48": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Juin 2019#49": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Juin 2019#50": {
+   "c": [
+    "Pied du nouveau-né"
+   ]
+  },
+  "Normal 2018#1": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2018#2": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2018#3": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2018#4": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Normal 2018#5": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs Dyspnée aiguë du nourrisson"
+  },
+  "Normal 2018#6": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2018#7": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2018#8": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2018#9": {
+   "c": [
+    "Énurésie"
+   ]
+  },
+  "Normal 2018#10": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2018#11": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2018#12": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Normal 2018#13": {
+   "c": [
+    "Asphyxie périnatale (APN)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes de souffrance fœtale = asphyxie périnatale"
+  },
+  "Normal 2018#14": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Normal 2018#15": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Normal 2018#16": {
+   "c": [
+    "Néonatologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "conf": "low",
+   "why": "Suivi de grossesse (consultations, TORCH); no matching cours"
+  },
+  "Normal 2018#17": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "CPAP and maladie des membranes hyalines"
+  },
+  "Normal 2018#18": {
+   "c": [
+    "Cyanose néonatale"
+   ]
+  },
+  "Normal 2018#19": {
+   "c": [
+    "Prématurité"
+   ],
+   "case": "Normal 2018#19-21",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Estimation de l'âge gestationnel du prématuré"
+  },
+  "Normal 2018#20": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Normal 2018#19-21",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Normal 2018#21": {
+   "c": [
+    "Cardiopathies congénitales"
+   ],
+   "case": "Normal 2018#19-21",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Diagnostic of TGV (cœur en œuf)"
+  },
+  "Normal 2018#22": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Normal 2018#23": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ]
+  },
+  "Normal 2018#24": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Normal 2018#25": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2018#26": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Normal 2018#27": {
+   "c": [
+    "Le diabète chez l'enfant"
+   ]
+  },
+  "Normal 2018#28": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Normal 2018#29": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "Normal 2018#30": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Normal 2018#31": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2018#32": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2018#33": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Normal 2018#34": {
+   "c": [
+    "Fièvre de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Convulsion fébrile: fièvre vs infections neuroméningées"
+  },
+  "Normal 2018#35": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2018#35-36"
+  },
+  "Normal 2018#36": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Normal 2018#35-36"
+  },
+  "Normal 2018#37": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hernie inguinale chez la fille; topic chirurgie digestive"
+  },
+  "Normal 2018#38": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Normal 2018#39": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "case": "Normal 2018#39-40"
+  },
+  "Normal 2018#40": {
+   "c": [
+    "Hernie diaphragmatique"
+   ],
+   "case": "Normal 2018#39-40"
+  },
+  "Normal 2018#41": {
+   "c": [
+    "Maladie de Hirschsprung"
+   ]
+  },
+  "Normal 2018#42": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ]
+  },
+  "Normal 2018#43": {
+   "c": [
+    "Invagination intestinale"
+   ]
+  },
+  "Normal 2018#44": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2018#45": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Normal 2018#46": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Normal 2018#47": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Normal 2018#48": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Normal 2018#49": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Normal 2018#50": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Ratt 2018#1": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Ratt 2018#2": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2018#3": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ],
+   "conf": "low",
+   "why": "Bronchiolite: IRA basse vs dyspnée aiguë du nourrisson"
+  },
+  "Ratt 2018#4": {
+   "c": [
+    "Infections respiratoires aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2018#5": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Ratt 2018#6": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Ratt 2018#7": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ],
+   "conf": "low",
+   "why": "Corps étranger bronchique, no dedicated cours"
+  },
+  "Ratt 2018#8": {
+   "c": [
+    "Fièvre de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Convulsion fébrile, no dedicated cours"
+  },
+  "Ratt 2018#9": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "CAT urgente devant détresse respiratoire néonatale"
+  },
+  "Ratt 2018#10": {
+   "c": [
+    "Ictères néonataux"
+   ],
+   "conf": "low",
+   "why": "Incompatibilité rhésus: allo-immunisation, cause d'ictère"
+  },
+  "Ratt 2018#11": {
+   "c": [
+    "Détresses respiratoires néonatales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Maladie des membranes hyalines = DRNN"
+  },
+  "Ratt 2018#12": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Ratt 2018#13": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Ratt 2018#14": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2018#14-17"
+  },
+  "Ratt 2018#15": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2018#14-17"
+  },
+  "Ratt 2018#16": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2018#14-17"
+  },
+  "Ratt 2018#17": {
+   "c": [
+    "Cyanose néonatale"
+   ],
+   "case": "Ratt 2018#14-17"
+  },
+  "Ratt 2018#18": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Ratt 2018#19": {
+   "c": [
+    "Anémie chez l'enfant"
+   ]
+  },
+  "Ratt 2018#20": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ]
+  },
+  "Ratt 2018#21": {
+   "c": [
+    "Diarrhée chez l'enfant"
+   ]
+  },
+  "Ratt 2018#22": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Ratt 2018#23": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Ratt 2018#24": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Ratt 2018#25": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Ratt 2018#26": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Ratt 2018#27": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Ratt 2018#28": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Ratt 2018#29": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Ratt 2018#30": {
+   "c": [
+    "Purpura rhumatoïde"
+   ]
+  },
+  "Ratt 2018#31": {
+   "c": [
+    "Retard staturo-pondéral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hypothyroïdie congénitale, not nutrition; no dedicated cours"
+  },
+  "Ratt 2018#32": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2018#33": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2018#34": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Ratt 2018#35": {
+   "c": [
+    "Pédiatrie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Syndrome de Guillain-Barré, no matching cours"
+  },
+  "Ratt 2018#36": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Ratt 2018#36-38"
+  },
+  "Ratt 2018#37": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Ratt 2018#36-38"
+  },
+  "Ratt 2018#38": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Ratt 2018#36-38"
+  },
+  "Ratt 2018#39": {
+   "c": [
+    "Cancer de l'enfant et leucémie aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neuroblastome = tumeur solide de l'enfant"
+  },
+  "Ratt 2018#40": {
+   "c": [
+    "Occlusion néonatale"
+   ],
+   "case": "Ratt 2018#40-41"
+  },
+  "Ratt 2018#41": {
+   "c": [
+    "Occlusion néonatale"
+   ],
+   "case": "Ratt 2018#40-41"
+  },
+  "Ratt 2018#42": {
+   "c": [
+    "Anomalie de migration et de position testiculaire"
+   ]
+  },
+  "Ratt 2018#43": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Ratt 2018#43-44"
+  },
+  "Ratt 2018#44": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ],
+   "case": "Ratt 2018#43-44"
+  },
+  "Ratt 2018#45": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Ratt 2018#46": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Ratt 2018#47": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  },
+  "Ratt 2018#48": {
+   "c": [
+    "Maladie luxante de la hanche"
+   ]
+  },
+  "Ratt 2018#49": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Ratt 2018#50": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Normal 2017#1": {
+   "c": [
+    "Malformations congénitales"
+   ],
+   "conf": "low",
+   "why": "Cataracte congénitale, ophtalmo; closest cours"
+  },
+  "Normal 2017#2": {
+   "c": [
+    "Néonatologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Suivi de grossesse = obstétrique"
+  },
+  "Normal 2017#3": {
+   "c": [
+    "Infections néonatales"
+   ]
+  },
+  "Normal 2017#4": {
+   "c": [
+    "Réanimation du nouveau-né"
+   ]
+  },
+  "Normal 2017#5": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Normal 2017#6": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Normal 2017#7": {
+   "c": [
+    "Prématurité"
+   ]
+  },
+  "Normal 2017#8": {
+   "c": [
+    "Convulsions néonatales"
+   ]
+  },
+  "Normal 2017#9": {
+   "c": [
+    "Syndrome hémorragique chez l'enfant (troubles de l'hémostase)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Maladie hémorragique du nouveau-né; hémostase cours"
+  },
+  "Normal 2017#10": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Normal 2017#11": {
+   "c": [
+    "Cardiopathies congénitales"
+   ]
+  },
+  "Normal 2017#12": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2017#13": {
+   "c": [
+    "Asthme de l'enfant et du nourrisson"
+   ]
+  },
+  "Normal 2017#14": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2017#15": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2017#16": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2017#17": {
+   "c": [
+    "Infections neuroméningées de l'enfant"
+   ]
+  },
+  "Normal 2017#18": {
+   "c": [
+    "Déficit immunitaire"
+   ]
+  },
+  "Normal 2017#19": {
+   "c": [
+    "Pédiatrie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Syndrome de Guillain-Barré, no matching cours"
+  },
+  "Normal 2017#20": {
+   "c": [
+    "Fièvre de l'enfant"
+   ]
+  },
+  "Normal 2017#21": {
+   "c": [
+    "Diarrhée aiguë et déshydratation chez l'enfant"
+   ]
+  },
+  "Normal 2017#22": {
+   "c": [
+    "Fièvre de l'enfant"
+   ],
+   "conf": "low",
+   "why": "Convulsion fébrile, no dedicated cours"
+  },
+  "Normal 2017#23": {
+   "c": [
+    "Dyspnée aiguë chez le nourrisson"
+   ]
+  },
+  "Normal 2017#24": {
+   "c": [
+    "Alimentation et besoins nutritionnels chez l'enfant"
+   ]
+  },
+  "Normal 2017#25": {
+   "c": [
+    "Retard staturo-pondéral"
+   ]
+  },
+  "Normal 2017#26": {
+   "c": [
+    "Vomissements chez l'enfant"
+   ]
+  },
+  "Normal 2017#27": {
+   "c": [
+    "Ictères néonataux"
+   ]
+  },
+  "Normal 2017#28": {
+   "c": [
+    "Retard staturo-pondéral"
+   ],
+   "conf": "low",
+   "why": "Hypothyroïdie congénitale, no dedicated cours"
+  },
+  "Normal 2017#29": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Normal 2017#30": {
+   "c": [
+    "Carences nutritionnelles chez l'enfant"
+   ]
+  },
+  "Normal 2017#31": {
+   "c": [
+    "Syndrome néphrotique"
+   ]
+  },
+  "Normal 2017#32": {
+   "c": [
+    "Glomérulonéphrites aiguës chez l'enfant"
+   ]
+  },
+  "Normal 2017#33": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ]
+  },
+  "Normal 2017#34": {
+   "c": [
+    "Arthralgies et arthrite chez l'enfant"
+   ]
+  },
+  "Normal 2017#35": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Normal 2017#36": {
+   "c": [
+    "Malformations congénitales"
+   ]
+  },
+  "Normal 2017#37": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Normal 2017#37-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Answer is infection urinaire, ECBU"
+  },
+  "Normal 2017#38": {
+   "c": [
+    "Infections urinaires chez l'enfant"
+   ],
+   "case": "Normal 2017#37-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Answer is infection urinaire, ECBU"
+  },
+  "Normal 2017#39": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2017#39-40"
+  },
+  "Normal 2017#40": {
+   "c": [
+    "Sténose hypertrophique du pylore"
+   ],
+   "case": "Normal 2017#39-40"
+  },
+  "Normal 2017#41": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ]
+  },
+  "Normal 2017#42": {
+   "c": [
+    "Anomalie de migration et de position testiculaire"
+   ]
+  },
+  "Normal 2017#43": {
+   "c": [
+    "Pathologie du canal péritonéo-vaginal"
+   ]
+  },
+  "Normal 2017#44": {
+   "c": [
+    "Les boiteries de l'enfant"
+   ]
+  },
+  "Normal 2017#45": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ],
+   "case": "Normal 2017#45-46"
+  },
+  "Normal 2017#46": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ],
+   "case": "Normal 2017#45-46"
+  },
+  "Normal 2017#47": {
+   "c": [
+    "Tumeurs osseuses malignes de l'enfant"
+   ]
+  },
+  "Normal 2017#48": {
+   "c": [
+    "Déformation rachidienne"
+   ]
+  },
+  "Normal 2017#49": {
+   "c": [
+    "Les particularités des fractures chez l'enfant"
+   ]
+  },
+  "Normal 2017#50": {
+   "c": [
+    "Infections ostéo-articulaires de l'enfant"
+   ]
+  }
+ }
+}
