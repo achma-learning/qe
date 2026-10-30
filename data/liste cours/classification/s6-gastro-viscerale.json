@@ -1,0 +1,4137 @@
+{
+ "module": "Pathologie digestive",
+ "q": {
+  "Ratt 2025#1": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Ratt 2025#2": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Ratt 2025#3": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Ratt 2025#4": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Ratt 2025#5": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Ratt 2025#5-6"
+  },
+  "Ratt 2025#6": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Ratt 2025#5-6"
+  },
+  "Ratt 2025#7": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Ratt 2025#8": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Ratt 2025#8-10"
+  },
+  "Ratt 2025#9": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Ratt 2025#8-10"
+  },
+  "Ratt 2025#10": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Ratt 2025#8-10"
+  },
+  "Ratt 2025#11": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Ratt 2025#12": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Ratt 2025#13": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Ratt 2025#14": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Ratt 2025#15": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Ratt 2025#16": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Ratt 2025#17": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Ratt 2025#18": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Ratt 2025#19": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Ratt 2025#20": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Ratt 2025#21": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Ratt 2025#22": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Ratt 2025#23": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Ratt 2025#24": {
+   "c": [
+    "Abcès hépatique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteurs de risque des abcès du foie, not tumeurs"
+  },
+  "Ratt 2025#25": {
+   "c": [
+    "Cirrhose"
+   ],
+   "case": "Ratt 2025#25-27"
+  },
+  "Ratt 2025#26": {
+   "c": [
+    "Cirrhose"
+   ],
+   "case": "Ratt 2025#25-27"
+  },
+  "Ratt 2025#27": {
+   "c": [
+    "Cirrhose"
+   ],
+   "case": "Ratt 2025#25-27"
+  },
+  "Ratt 2025#28": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Ratt 2025#29": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Ratt 2025#30": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Ratt 2025#31": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Ratt 2025#32": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Ratt 2025#33": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Ratt 2025#34": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Ratt 2025#35": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Ratt 2025#36": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anti-transglutaminase positive = maladie cœliaque, not TFI"
+  },
+  "Ratt 2025#37": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Associations of maladie cœliaque specifically"
+  },
+  "Ratt 2025#38": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Ratt 2025#39": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Ratt 2025#40": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Ratt 2025#41": {
+   "c": [
+    "Dyspepsie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Clinical definition of dyspepsia, not gastritis"
+  },
+  "Ratt 2025#42": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Ratt 2025#43": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Ratt 2025#44": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Ratt 2025#45": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Ratt 2025#46": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Ratt 2025#47": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Ratt 2025#48": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Ratt 2025#49": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2025#1": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2025#1-2",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Épigastralgie aiguë differential leading to suspected pancréatite aiguë"
+  },
+  "Juin 2025#2": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2025#1-2"
+  },
+  "Juin 2025#3": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Juin 2025#4": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2025#5": {
+   "c": [
+    "Cancers biliaires"
+   ]
+  },
+  "Juin 2025#6": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Juin 2025#7": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Juin 2025#8": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2025#9": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2025#10": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2025#11": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Juin 2025#12": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2025#12-13"
+  },
+  "Juin 2025#13": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2025#12-13"
+  },
+  "Juin 2025#14": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Juin 2025#15": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2025#16": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2025#17": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Juin 2025#18": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2025#19": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2025#20": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Juin 2025#21": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Juin 2025#22": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2025#23": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2025#24": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2025#24-25"
+  },
+  "Juin 2025#25": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2025#24-25"
+  },
+  "Juin 2025#26": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2025#26-27"
+  },
+  "Juin 2025#27": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2025#26-27"
+  },
+  "Juin 2025#28": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2025#29": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2025#30": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2025#31": {
+   "c": [
+    "Dyspepsie",
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Dyspepsie fonctionnelle managed by H. pylori test-and-treat"
+  },
+  "Juin 2025#32": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Juin 2025#33": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Juin 2025#34": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Juin 2025#35": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Juin 2025#36": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Juin 2025#37": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anti-transglutaminase screening and biopsy = maladie cœliaque"
+  },
+  "Juin 2025#38": {
+   "c": [
+    "Cancers biliaires",
+    "Les syndromes de malabsorption"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Ampullary tumour with cholestasis and malabsorption, not gallstones"
+  },
+  "Juin 2025#39": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Juin 2025#40": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2025#41": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Juin 2025#42": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Juin 2025#43": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2025#43-45"
+  },
+  "Juin 2025#44": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2025#43-45"
+  },
+  "Juin 2025#45": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2025#43-45"
+  },
+  "Juin 2025#46": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2025#47": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Juin 2025#48": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Juin 2025#49": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2025#50": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2024#1": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#2": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#3": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#4": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2024#8": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2024#9": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2024#10": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie (troubles moteurs œsophagiens): no matching cours"
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2024#17": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2024#18": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie cœliaque"
+  },
+  "Mai 2024#20": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiopathology of maladie cœliaque (villous atrophy)"
+  },
+  "Mai 2024#21": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Mai 2024#29": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Mai 2024#31": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "Cancers biliaires"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#42": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2024#41-43"
+  },
+  "Mai 2024#44": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2024#44-45"
+  },
+  "Mai 2024#45": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2024#44-45"
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2024#47": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2024#48": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2024#49": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2024#50": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2024#7-9"
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2024#7-9"
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2024#7-9"
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Juin 2024#13": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2024#13-14"
+  },
+  "Juin 2024#14": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2024#13-14"
+  },
+  "Juin 2024#15": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2024#29-31"
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2024#29-31"
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Juin 2024#29-31"
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie: no oesophageal motility cours in list"
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specifically celiac disease management, dedicated cours exists"
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specifically celiac disease complications, dedicated cours exists"
+  },
+  "Juin 2024#40": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Juin 2024#47": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Septembre 2024#1": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Septembre 2024#2": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Septembre 2024#3": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Septembre 2024#4": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Septembre 2024#5": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Septembre 2024#6": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Septembre 2024#7": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Septembre 2024#7-9"
+  },
+  "Septembre 2024#8": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Septembre 2024#7-9"
+  },
+  "Septembre 2024#9": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Septembre 2024#7-9"
+  },
+  "Septembre 2024#10": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Septembre 2024#11": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Septembre 2024#12": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Septembre 2024#13": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Septembre 2024#13-14"
+  },
+  "Septembre 2024#14": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Septembre 2024#13-14"
+  },
+  "Septembre 2024#15": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Septembre 2024#16": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Septembre 2024#17": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Septembre 2024#18": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Septembre 2024#19": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Septembre 2024#20": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Septembre 2024#21": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Septembre 2024#22": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Septembre 2024#23": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Septembre 2024#24": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Septembre 2024#25": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Septembre 2024#26": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Septembre 2024#27": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Septembre 2024#28": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Septembre 2024#29": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Septembre 2024#29-31"
+  },
+  "Septembre 2024#30": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Septembre 2024#29-31"
+  },
+  "Septembre 2024#31": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Septembre 2024#29-31"
+  },
+  "Septembre 2024#32": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Septembre 2024#33": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Septembre 2024#34": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Septembre 2024#35": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Septembre 2024#36": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Septembre 2024#37": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie: no oesophageal motility cours in list"
+  },
+  "Septembre 2024#38": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specifically celiac disease management, dedicated cours exists"
+  },
+  "Septembre 2024#39": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specifically celiac disease complications, dedicated cours exists"
+  },
+  "Septembre 2024#40": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Septembre 2024#41": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Septembre 2024#42": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Septembre 2024#43": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Septembre 2024#44": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Septembre 2024#45": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Septembre 2024#46": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Septembre 2024#47": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Septembre 2024#48": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Septembre 2024#49": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Septembre 2024#50": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Décembre 2024#1-4"
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Décembre 2024#1-4"
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Décembre 2024#1-4"
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Décembre 2024#1-4"
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Hépatites virales"
+   ],
+   "conf": "low",
+   "why": "Chronicity of B, C, D viruses; could be chronic B/C cours"
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie: no oesophageal motility cours in list"
+  },
+  "Décembre 2024#12": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Décembre 2024#13": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Décembre 2024#14": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Décembre 2024#15": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specifically celiac disease, dedicated cours exists"
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Celiac villous atrophy mechanism, dedicated cours exists"
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Cancers biliaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cholangiocarcinome is a biliary cancer, not pancreatic"
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Décembre 2024#41-43"
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Décembre 2024#41-43"
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Décembre 2024#41-43"
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Décembre 2024#44-45"
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Décembre 2024#44-45"
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2023#1": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2023#1-2"
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2023#1-2"
+  },
+  "Mai 2023#3": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Mai 2023#10": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2023#13": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ],
+   "case": "Mai 2023#23-25"
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ],
+   "case": "Mai 2023#23-25"
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ],
+   "case": "Mai 2023#23-25"
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie (trouble moteur œsophagien): no matching cours"
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely about maladie cœliaque"
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2023#43": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "case": "Mai 2023#44-45",
+   "flags": [
+    "ambiguous",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Ictère differential (cirrhose/pancréas/hépatites); same case as Juin 2023#45-46"
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "case": "Mai 2023#44-45",
+   "flags": [
+    "ambiguous",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Ictère differential (cirrhose/pancréas/hépatites); same case as Juin 2023#45-46"
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2023#49": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2023#1-2"
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2023#1-2"
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2023#3-5"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2023#3-5"
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2023#3-5"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Ingestion caustique"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2023#20-22"
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2023#20-22"
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2023#20-22"
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Cancers biliaires"
+   ],
+   "case": "Juin 2023#23-25"
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Cancers biliaires"
+   ],
+   "case": "Juin 2023#23-25"
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Cancers biliaires"
+   ],
+   "case": "Juin 2023#23-25"
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question about maladie cœliaque mechanism"
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diagnostic tests of maladie cœliaque"
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2023#39-41"
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2023#39-41"
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2023#39-41"
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "case": "Juin 2023#45-46",
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Cholestatic ictère differential, not strictly hepatitis"
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "case": "Juin 2023#45-46",
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Cholestatic ictère differential, not strictly hepatitis"
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Mai 2022#1": {
+   "c": [
+    "Médecine"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Achalasie (trouble moteur œsophagien): no matching cours"
+  },
+  "Mai 2022#2": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2022#3": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2022#4": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Definition of maladie cœliaque"
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2022#10": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2022#11": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2022#12": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2022#13": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Fissures anales"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Physiopathology of fissure anale"
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Hémochromatose"
+   ]
+  },
+  "Mai 2022#16": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Mai 2022#17": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#18": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#19": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2022#17-19"
+  },
+  "Mai 2022#20": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Mai 2022#24-25"
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Mai 2022#24-25"
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2022#26-27"
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2022#26-27"
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2022#28-29"
+  },
+  "Mai 2022#29": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Mai 2022#28-29"
+  },
+  "Mai 2022#30": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2022#31": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2022#33": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2022#36": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Mai 2022#38": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ],
+   "case": "Mai 2022#38-39"
+  },
+  "Mai 2022#39": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ],
+   "case": "Mai 2022#38-39"
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2022#41": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2022#42": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2022#45": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2022#46": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2022#47": {
+   "c": [
+    "Cancers biliaires"
+   ]
+  },
+  "Mai 2022#48": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2022#49": {
+   "c": [
+    "Les tumeurs du foie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Kyste biliaire = benign liver lesion, as Mai 2023#21"
+  },
+  "Mai 2022#50": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#3": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2021#1-3"
+  },
+  "Mai 2021#4": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Mai 2021#5": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2021#6": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Mai 2021#7": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2021#8": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2021#11": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2021#13": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2021#14": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie coeliaque, own cours"
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2021#18": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2021#19": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2021#20": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2021#24": {
+   "c": [
+    "La tuberculose abdominale"
+   ]
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Pancréatite chronique"
+   ]
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2021#28-29"
+  },
+  "Mai 2021#29": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2021#28-29"
+  },
+  "Mai 2021#30": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2021#31": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2021#32": {
+   "c": [
+    "Cancer de l'œsophage"
+   ],
+   "conf": "low",
+   "why": "Dysphagia differential (peptic, caustic, achalasia), not cancer-specific"
+  },
+  "Mai 2021#33": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2021#36": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Mai 2021#38-40"
+  },
+  "Mai 2021#39": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Mai 2021#38-40"
+  },
+  "Mai 2021#40": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Mai 2021#38-40"
+  },
+  "Mai 2021#41": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2021#45": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2021#45-46"
+  },
+  "Mai 2021#46": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2021#45-46"
+  },
+  "Mai 2021#47": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2021#50": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)",
+    "La tuberculose abdominale"
+   ],
+   "case": "Juin 2021#1-3",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Chronic FID pain: Crohn vs intestinal TB, not appendicitis"
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)",
+    "La tuberculose abdominale"
+   ],
+   "case": "Juin 2021#1-3",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Chronic FID pain: Crohn vs intestinal TB, not appendicitis"
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)",
+    "La tuberculose abdominale"
+   ],
+   "case": "Juin 2021#1-3",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Chronic FID pain: Crohn vs intestinal TB, not appendicitis"
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Pancréatite chronique"
+   ]
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Pancréatite chronique"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie coeliaque, own cours"
+  },
+  "Juin 2021#24": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2021#28-29"
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Juin 2021#28-29"
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "Les appendicites aiguës",
+    "Le cancer du côlon"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "FID mass: plastron appendiculaire vs tumeur caecale"
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Juin 2021#36": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2021#39-41"
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2021#39-41"
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Pancréatites aiguës"
+   ],
+   "case": "Juin 2021#39-41"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Les tumeurs du foie"
+   ]
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2021#46": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Juin 2021#47": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2021#47-48"
+  },
+  "Juin 2021#48": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2021#47-48"
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2020#1": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2020#2": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2020#3": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2020#4": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Mai 2020#4-6"
+  },
+  "Mai 2020#5": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Mai 2020#4-6"
+  },
+  "Mai 2020#6": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Mai 2020#4-6"
+  },
+  "Mai 2020#7": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie coeliaque, own cours"
+  },
+  "Mai 2020#8": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Mai 2020#9": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2020#10": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2020#11": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2020#12": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2020#13": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Mai 2020#14": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "conf": "low",
+   "why": "Fibrosis assessment; could also fit Hépatites chroniques virales B et C"
+  },
+  "Mai 2020#15": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2020#16": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2020#17": {
+   "c": [
+    "Hépatites chroniques virales B et C"
+   ]
+  },
+  "Mai 2020#18": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2020#19": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2020#20": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2020#21": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2020#22": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2020#23": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2020#24": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2020#25": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2020#26": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2020#27": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2020#28": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2020#29": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2020#29-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Generalized defense = peritonitis differential; ASP first, not cholecystitis"
+  },
+  "Mai 2020#30": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2020#29-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Follow-up of peritonitis vignette; ASP first exam"
+  },
+  "Mai 2020#31": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2020#32": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ],
+   "case": "Mai 2020#32-34"
+  },
+  "Mai 2020#33": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ],
+   "case": "Mai 2020#32-34"
+  },
+  "Mai 2020#34": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ],
+   "case": "Mai 2020#32-34"
+  },
+  "Mai 2020#35": {
+   "c": [
+    "Les tumeurs du foie"
+   ],
+   "case": "Mai 2020#35-37"
+  },
+  "Mai 2020#36": {
+   "c": [
+    "Les tumeurs du foie"
+   ],
+   "case": "Mai 2020#35-37"
+  },
+  "Mai 2020#37": {
+   "c": [
+    "Les tumeurs du foie"
+   ],
+   "case": "Mai 2020#35-37"
+  },
+  "Mai 2020#38": {
+   "c": [
+    "Pathologie herniaire de la paroi abdominale"
+   ]
+  },
+  "Mai 2020#39": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2020#40": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2020#41": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2020#42": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2020#43": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2020#44": {
+   "c": [
+    "Abcès hépatique"
+   ]
+  },
+  "Mai 2020#45": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2020#46": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ]
+  },
+  "Mai 2020#47": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2020#48": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2020#49": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2020#50": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2019#1": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2019#2": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2019#3": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2019#4": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2019#5": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2019#6": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2019#7": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2019#8": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie cœliaque, which has its own cours"
+  },
+  "Mai 2019#9": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Mai 2019#10": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Mai 2019#11": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Mai 2019#12": {
+   "c": [
+    "Parasitoses digestives"
+   ]
+  },
+  "Mai 2019#13": {
+   "c": [
+    "Cirrhose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Infection du liquide d'ascite = complication de cirrhose, not tuberculose"
+  },
+  "Mai 2019#14": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2019#15": {
+   "c": [
+    "Maladie de Wilson"
+   ]
+  },
+  "Mai 2019#16": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2019#17": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2019#18": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2019#19": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2019#20": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2019#21": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Mai 2019#22": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Mai 2019#23": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2019#24": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2019#25": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ]
+  },
+  "Mai 2019#26": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2019#26-27"
+  },
+  "Mai 2019#27": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2019#26-27"
+  },
+  "Mai 2019#28": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2019#29": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2019#30": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2019#31": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2019#32": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2019#33": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2019#34": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2019#35": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2019#35-36"
+  },
+  "Mai 2019#36": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2019#35-36"
+  },
+  "Mai 2019#37": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2019#38": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2019#39": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2019#40": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2019#41": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2019#42": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications",
+    "Le kyste hydatique du foie"
+   ],
+   "case": "Mai 2019#42-44",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Ictère: lithiase du cholédoque vs KHF fistulisé dans les voies biliaires"
+  },
+  "Mai 2019#43": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications",
+    "Le kyste hydatique du foie"
+   ],
+   "case": "Mai 2019#42-44",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Ictère: lithiase du cholédoque vs KHF fistulisé dans les voies biliaires"
+  },
+  "Mai 2019#44": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications",
+    "Le kyste hydatique du foie"
+   ],
+   "case": "Mai 2019#42-44",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Sérologie hydatique + bili-IRM: KHF fistulisé vs lithiase cholédocienne"
+  },
+  "Mai 2019#45": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2019#46": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2019#47": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2019#48": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2019#49": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2019#50": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Juin 2019#1": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2019#2": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2019#3": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Juin 2019#4": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2019#5": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2019#6": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2019#7": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Juin 2019#8": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2019#9": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2019#9-11"
+  },
+  "Juin 2019#10": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2019#9-11"
+  },
+  "Juin 2019#11": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ],
+   "case": "Juin 2019#9-11"
+  },
+  "Juin 2019#12": {
+   "c": [
+    "Maladie cœliaque"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on maladie cœliaque, which has its own cours"
+  },
+  "Juin 2019#13": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2019#14": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Juin 2019#15": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Juin 2019#16": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Juin 2019#17": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2019#18": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Juin 2019#18-20"
+  },
+  "Juin 2019#19": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Juin 2019#18-20"
+  },
+  "Juin 2019#20": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Juin 2019#18-20"
+  },
+  "Juin 2019#21": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2019#22": {
+   "c": [
+    "Hépatites virales"
+   ]
+  },
+  "Juin 2019#23": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ]
+  },
+  "Juin 2019#24": {
+   "c": [
+    "Les hépatites aiguës et chroniques"
+   ],
+   "conf": "low",
+   "why": "Évaluation de la fibrose: hépatites chroniques générales vs B et C"
+  },
+  "Juin 2019#25": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Juin 2019#26": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2019#26-28"
+  },
+  "Juin 2019#27": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2019#26-28"
+  },
+  "Juin 2019#28": {
+   "c": [
+    "Les appendicites aiguës"
+   ],
+   "case": "Juin 2019#26-28"
+  },
+  "Juin 2019#29": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Juin 2019#30": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Juin 2019#31": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Juin 2019#32": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Juin 2019#33": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Juin 2019#33-36"
+  },
+  "Juin 2019#34": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Juin 2019#33-36"
+  },
+  "Juin 2019#35": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Juin 2019#33-36"
+  },
+  "Juin 2019#36": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Juin 2019#33-36"
+  },
+  "Juin 2019#37": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2019#38": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Juin 2019#39": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2019#40": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Juin 2019#41": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2019#41-42"
+  },
+  "Juin 2019#42": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Juin 2019#41-42"
+  },
+  "Juin 2019#43": {
+   "c": [
+    "Le cancer du rectum"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on cancer du rectum, tagged occlusion"
+  },
+  "Juin 2019#44": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Juin 2019#45": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Juin 2019#46": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Juin 2019#47": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2019#48": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Juin 2019#49": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Juin 2019#50": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2018#1": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2018#2": {
+   "c": [
+    "Cirrhose"
+   ]
+  },
+  "Mai 2018#3": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2018#4": {
+   "c": [
+    "Dyspepsie"
+   ]
+  },
+  "Mai 2018#5": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Gastrite à HP; aligned with Juin 2019#8 (HP cours) vs Gastrites"
+  },
+  "Mai 2018#6": {
+   "c": [
+    "Gastrites"
+   ]
+  },
+  "Mai 2018#7": {
+   "c": [
+    "Pancréatite chronique"
+   ]
+  },
+  "Mai 2018#8": {
+   "c": [
+    "Pancréatite chronique"
+   ]
+  },
+  "Mai 2018#9": {
+   "c": [
+    "Fistules anales et suppurations"
+   ]
+  },
+  "Mai 2018#10": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2018#11": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2018#12": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2018#13": {
+   "c": [
+    "Le reflux gastro-œsophagien (RGO)"
+   ]
+  },
+  "Mai 2018#14": {
+   "c": [
+    "Les troubles fonctionnels intestinaux"
+   ]
+  },
+  "Mai 2018#15": {
+   "c": [
+    "La diverticulose colique"
+   ]
+  },
+  "Mai 2018#16": {
+   "c": [
+    "Les syndromes de malabsorption"
+   ]
+  },
+  "Mai 2018#17": {
+   "c": [
+    "Cirrhose"
+   ],
+   "case": "Mai 2018#17-18"
+  },
+  "Mai 2018#18": {
+   "c": [
+    "Cirrhose"
+   ],
+   "case": "Mai 2018#17-18"
+  },
+  "Mai 2018#19": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2018#19-20"
+  },
+  "Mai 2018#20": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ],
+   "case": "Mai 2018#19-20"
+  },
+  "Mai 2018#21": {
+   "c": [
+    "Maladies inflammatoires chroniques de l'intestin (MICI)"
+   ]
+  },
+  "Mai 2018#22": {
+   "c": [
+    "Helicobacter pylori et pathologie gastro-duodénale"
+   ]
+  },
+  "Mai 2018#23": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Mai 2018#23-25"
+  },
+  "Mai 2018#24": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Mai 2018#23-25"
+  },
+  "Mai 2018#25": {
+   "c": [
+    "Maladies ulcéreuses gastro-duodénales"
+   ],
+   "case": "Mai 2018#23-25"
+  },
+  "Mai 2018#26": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2018#26-27"
+  },
+  "Mai 2018#27": {
+   "c": [
+    "L'occlusion intestinale aiguë"
+   ],
+   "case": "Mai 2018#26-27"
+  },
+  "Mai 2018#28": {
+   "c": [
+    "Le kyste hydatique du foie"
+   ]
+  },
+  "Mai 2018#29": {
+   "c": [
+    "Le cancer du côlon"
+   ]
+  },
+  "Mai 2018#30": {
+   "c": [
+    "Le cancer du rectum"
+   ]
+  },
+  "Mai 2018#31": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2018#32": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#33": {
+   "c": [
+    "Cancer du pancréas"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#34": {
+   "c": [
+    "Traumatismes de l'abdomen"
+   ]
+  },
+  "Mai 2018#35": {
+   "c": [
+    "Pancréatites aiguës"
+   ]
+  },
+  "Mai 2018#36": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2018#36-38"
+  },
+  "Mai 2018#37": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2018#36-38"
+  },
+  "Mai 2018#38": {
+   "c": [
+    "Les péritonites aiguës"
+   ],
+   "case": "Mai 2018#36-38"
+  },
+  "Mai 2018#39": {
+   "c": [
+    "Les appendicites aiguës"
+   ]
+  },
+  "Mai 2018#40": {
+   "c": [
+    "Ischémie intestinale aiguë"
+   ]
+  },
+  "Mai 2018#41": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2018#42": {
+   "c": [
+    "Cancer du pancréas"
+   ]
+  },
+  "Mai 2018#43": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2018#44": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2018#45": {
+   "c": [
+    "La lithiase de la vésicule biliaire et ses complications"
+   ]
+  },
+  "Mai 2018#46": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2018#47": {
+   "c": [
+    "Cancer de l'œsophage"
+   ]
+  },
+  "Mai 2018#48": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2018#49": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  },
+  "Mai 2018#50": {
+   "c": [
+    "Cancer de l'estomac"
+   ]
+  }
+ }
+}

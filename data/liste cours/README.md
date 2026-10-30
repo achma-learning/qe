@@ -39,6 +39,38 @@ module named by `cur` in `assets/modules.js`, and writes `data/_lessons.js`.
 topics). Run `node tools/build-lessons.js --report` to see every topic and
 where it was mapped.
 
+## Per-question classification (`classification/<slug>.json`)
+The topic mapping above is a guess from one free-text tag. A module can also
+be classified **question by question**, by reading each one. That
+classification wins over the topic guess, and questions it doesn't list keep
+the guess:
+```json
+{ "module": "Pathologie cardiovasculaire",
+  "q": {
+    "Ratt 2025#9":  { "c": ["La maladie veineuse thrombo-embolique"], "flags": ["tag_mismatch"], "why": "Signe de Homans = TVP" },
+    "Ratt 2025#23": { "c": ["Fibrillation atriale"], "case": "Ratt 2025#23-25" } } }
+```
+- Each key is `<exam>#<qn>`.
+- `c` holds 1–2 cours (or sous-module) names, written exactly as in the curriculum. The file stores names, not indexes, so reordering the curriculum is safe.
+- `case` links the questions of one split clinical case.
+- `flags`, `conf` and `why` are review notes, and the build ignores them.
+
+Workflow:
+```sh
+node tools/classify-prep.js <slug> --out <dir>    # worksheets: cours list + questions, ~150 per chunk
+#   → one qe-classifier agent per chunk (.claude/agents/qe-classifier.md) → <dir>/<slug>/out-NN.json
+node tools/classify-check.js <slug> --merge <dir>/<slug>/out-*.json   # merge + validate
+node tools/classify-check.js <slug> --flags       # coverage, count per cours, flagged questions
+node tools/build-lessons.js                       # bakes it into data/_lessons.js (QE_LESSONS[slug].qs)
+```
+The check also warns with `twins disagree` when the same question, reused in another exam with the same expected answer, got a different main cours. That happens because chunks go to different classifiers. You can settle each one by hand in the JSON. Or run `--harmonize`, which moves each group of repeated questions onto its majority cours (on a tie, the most recent exam wins) and flags the ones it moved `harmonized`.
+
+Two more tools for awkward cases:
+- **`classification/_hints.json`:** per-module notes that are printed in every worksheet. Use it for cours whose name doesn't say what they cover, e.g. that "Antithrombotiques 1/2/3" = antiagrégants / anticoagulants / thrombolytiques. Settle a question there once instead of letting every classifier guess.
+- **`{ "keep": "topic" }`:** an entry that deliberately leaves a question on its topic mapping. Use it for an exam with no cours in the module, like the toxicology exam in the Pharmaco file.
+
+After new exams are added, `classify-prep.js <slug> --only-missing` makes worksheets for just the new questions.
+
 ## Rebuild after editing
 ```sh
 node tools/build-curriculum.js   # bakes *.txt → _curriculum.js

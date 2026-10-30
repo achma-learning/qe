@@ -1,0 +1,3911 @@
+{
+ "module": "Anatomie pathologique",
+ "q": {
+  "janvier 2026#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "janvier 2026#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "janvier 2026#3": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "janvier 2026#4": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "janvier 2026#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "janvier 2026#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "janvier 2026#7": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "janvier 2026#8": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "janvier 2026#9": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#10": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#11": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#12": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#13": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "janvier 2026#14": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "janvier 2026#15": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#16": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "janvier 2026#17": {
+   "c": [
+    "La cellule cancéreuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Atypies cytonucléaires de la cellule cancéreuse"
+  },
+  "janvier 2026#18": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "janvier 2026#19": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "janvier 2026#20": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "janvier 2026#21": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "janvier 2026#22": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "janvier 2026#23": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "janvier 2026#24": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Classification TNM, staging of cancers rather than cell biology"
+  },
+  "janvier 2026#25": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "janvier 2026#26": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "janvier 2026#26-29"
+  },
+  "janvier 2026#27": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "janvier 2026#26-29"
+  },
+  "janvier 2026#28": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "janvier 2026#26-29"
+  },
+  "janvier 2026#29": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "janvier 2026#26-29"
+  },
+  "janvier 2026#30": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "janvier 2026#30-32"
+  },
+  "janvier 2026#31": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "janvier 2026#30-32",
+   "conf": "low",
+   "why": "Cirrhose évolution of viral hepatitis; could be cicatrisation (fibrose)"
+  },
+  "janvier 2026#32": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "case": "janvier 2026#30-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Hépatocarcinome on HBV = viral oncogenesis"
+  },
+  "janvier 2026#33": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "janvier 2026#33-35"
+  },
+  "janvier 2026#34": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "janvier 2026#33-35"
+  },
+  "janvier 2026#35": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "janvier 2026#33-35"
+  },
+  "janvier 2026#36": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "janvier 2026#36-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Œdème de Quincke = inflammation aiguë œdémateuse, not spécifique"
+  },
+  "janvier 2026#37": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "janvier 2026#36-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Œdème de Quincke = inflammation aiguë œdémateuse, not spécifique"
+  },
+  "janvier 2026#38": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "janvier 2026#36-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Œdème de Quincke = inflammation aiguë œdémateuse, not spécifique"
+  },
+  "janvier 2026#39": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "janvier 2026#39-40"
+  },
+  "janvier 2026#40": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "janvier 2026#39-40"
+  },
+  "janvier 2026#41": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "janvier 2026#42": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "janvier 2026#43": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "janvier 2026#44": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "janvier 2026#45": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "janvier 2026#46": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "janvier 2026#46-47"
+  },
+  "janvier 2026#47": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "janvier 2026#46-47"
+  },
+  "janvier 2026#48": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteur XII = médiateur chimique de l'inflammation"
+  },
+  "janvier 2026#49": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "janvier 2026#49-50"
+  },
+  "janvier 2026#50": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "janvier 2026#49-50"
+  },
+  "Janvier 2025#1": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Janvier 2025#2": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Janvier 2025#3": {
+   "c": [
+    "Les processus inflammatoires",
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Janvier 2025#4": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Janvier 2025#5": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "conf": "low",
+   "why": "Cellule géante from macrophage fusion; granulome vs cellular phase"
+  },
+  "Janvier 2025#6": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Janvier 2025#6-7"
+  },
+  "Janvier 2025#7": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Janvier 2025#6-7"
+  },
+  "Janvier 2025#8": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "Janvier 2025#8-9"
+  },
+  "Janvier 2025#9": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "Janvier 2025#8-9"
+  },
+  "Janvier 2025#10": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Janvier 2025#11": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Janvier 2025#12": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Janvier 2025#13": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Janvier 2025#14": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Janvier 2025#15": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Janvier 2025#16": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Janvier 2025#16-19"
+  },
+  "Janvier 2025#17": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Janvier 2025#16-19"
+  },
+  "Janvier 2025#18": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Janvier 2025#16-19"
+  },
+  "Janvier 2025#19": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Janvier 2025#16-19"
+  },
+  "Janvier 2025#20": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Janvier 2025#21": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Janvier 2025#22": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "Janvier 2025#22-24"
+  },
+  "Janvier 2025#23": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "Janvier 2025#22-24",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Same as janvier 2026#31; cirrhose evolution of viral hepatitis"
+  },
+  "Janvier 2025#24": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "case": "Janvier 2025#22-24",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Hépatocarcinome on HBV = viral oncogenesis"
+  },
+  "Janvier 2025#25": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Janvier 2025#26": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Janvier 2025#27": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Dysplasie = lésion précancéreuse, pathologie tumorale"
+  },
+  "Janvier 2025#28": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Janvier 2025#29": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Janvier 2025#30": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Janvier 2025#31": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Janvier 2025#32": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Janvier 2025#33": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Janvier 2025#34": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Janvier 2025#35": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Janvier 2025#36": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Janvier 2025#37": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Janvier 2025#38": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Janvier 2025#39": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Janvier 2025#40": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Janvier 2025#41": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Janvier 2025#42": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "Janvier 2025#43": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Janvier 2025#44": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tumour nomenclature; same as janvier 2026#11"
+  },
+  "Janvier 2025#45": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tumour nomenclature (léiomyosarcome)"
+  },
+  "Janvier 2025#46": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Janvier 2025#47": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Janvier 2025#48": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Janvier 2025#49": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Janvier 2025#50": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Normal 2024#1": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Examen macroscopique = technique de prise en charge des prélèvements"
+  },
+  "Normal 2024#2": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Same as Janvier 2025#31, dysplasie"
+  },
+  "Normal 2024#3": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Normal 2024#4": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Normal 2024#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Normal 2024#6": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Normal 2024#7": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Same as Janvier 2025#36, hyperplasie"
+  },
+  "Normal 2024#8": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "Normal 2024#9": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Normal 2024#10": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Normal 2024#11": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Normal 2024#12": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Normal 2024#13": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Normal 2024#14": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Normal 2024#15": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "Normal 2024#16": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Normal 2024#17": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Normal 2024#18": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Normal 2024#19": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Normal 2024#20": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Normal 2024#21": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Normal 2024#22": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Normal 2024#23": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Normal 2024#24": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Normal 2024#25": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cancers héréditaires, mutation germinale = oncogenèse"
+  },
+  "Normal 2024#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Normal 2024#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Normal 2024#28": {
+   "c": [
+    "Les processus inflammatoires",
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Normal 2024#29": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Normal 2024#30": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "conf": "low",
+   "why": "Same as Janvier 2025#5"
+  },
+  "Normal 2024#31": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Normal 2024#32": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Normal 2024#33": {
+   "c": [
+    "Les processus inflammatoires",
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Normal 2024#34": {
+   "c": [
+    "Les processus inflammatoires",
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Normal 2024#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Normal 2024#35-36"
+  },
+  "Normal 2024#36": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Normal 2024#35-36"
+  },
+  "Normal 2024#37": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Normal 2024#38": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Normal 2024#39": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Normal 2024#40": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Normal 2024#41": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Normal 2024#42": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Normal 2024#43": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Normal 2024#44": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Normal 2024#45": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Normal 2024#46": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Normal 2024#47": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Normal 2024#47-49"
+  },
+  "Normal 2024#48": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Normal 2024#47-49"
+  },
+  "Normal 2024#49": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Normal 2024#47-49"
+  },
+  "Normal 2024#50": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "Ratt 2024#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Ratt 2024#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Ratt 2024#3": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Ratt 2024#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique",
+    "Techniques en anatomie pathologique - partie 1"
+   ],
+   "flags": [
+    "multi_topic",
+    "harmonized"
+   ]
+  },
+  "Ratt 2024#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Ratt 2024#6": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Ratt 2024#7": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Ratt 2024#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Ratt 2024#9": {
+   "c": [
+    "Introduction à la pathologie tumorale",
+    "Introduction à l'anatomie pathologique"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Ratt 2024#10": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Ratt 2024#11": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Ratt 2024#12": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Ratt 2024#13": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Ratt 2024#14": {
+   "c": [
+    "Introduction à la pathologie tumorale",
+    "Introduction à l'anatomie pathologique"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Ratt 2024#15": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Ratt 2024#16": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Ratt 2024#17": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Ratt 2024#18": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Ratt 2024#19": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Ratt 2024#20": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "Ratt 2024#21": {
+   "c": [
+    "Les métastases",
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Ratt 2024#22": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Ratt 2024#23": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Ratt 2024#24": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Ratt 2024#25": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Ratt 2024#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Ratt 2024#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Ratt 2024#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Ratt 2024#29": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Ratt 2024#30": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Ratt 2024#31": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Ratt 2024#32": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Ratt 2024#33": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Ratt 2024#34": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Ratt 2024#34-35"
+  },
+  "Ratt 2024#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Ratt 2024#34-35"
+  },
+  "Ratt 2024#36": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Ratt 2024#37": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Ratt 2024#38": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Ratt 2024#39": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#39-41"
+  },
+  "Ratt 2024#40": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#39-41"
+  },
+  "Ratt 2024#41": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#39-41"
+  },
+  "Ratt 2024#42": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#42-45"
+  },
+  "Ratt 2024#43": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#42-45"
+  },
+  "Ratt 2024#44": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#42-45"
+  },
+  "Ratt 2024#45": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Ratt 2024#42-45"
+  },
+  "Ratt 2024#46": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "Ratt 2024#46-49"
+  },
+  "Ratt 2024#47": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "Ratt 2024#46-49"
+  },
+  "Ratt 2024#48": {
+   "c": [
+    "La pathologie circulatoire"
+   ],
+   "case": "Ratt 2024#46-49",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Same patient, cast complication = thrombose"
+  },
+  "Ratt 2024#49": {
+   "c": [
+    "La pathologie circulatoire"
+   ],
+   "case": "Ratt 2024#46-49",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Evolution of thrombosis"
+  },
+  "Ratt 2024#50": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Exceptionnelle 2024#1": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Exceptionnelle 2024#2": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "Exceptionnelle 2024#3": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Exceptionnelle 2024#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "Exceptionnelle 2024#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Exceptionnelle 2024#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Exceptionnelle 2024#7": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Exceptionnelle 2024#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "Exceptionnelle 2024#9": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Exceptionnelle 2024#10": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Exceptionnelle 2024#11": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Exceptionnelle 2024#12": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "Exceptionnelle 2024#13": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "Exceptionnelle 2024#14": {
+   "c": [
+    "Les métastases",
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Exceptionnelle 2024#15": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Exceptionnelle 2024#16": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Exceptionnelle 2024#17": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Exceptionnelle 2024#18": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Exceptionnelle 2024#19": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Definition of cancer, not cancer-cell biology"
+  },
+  "Exceptionnelle 2024#20": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Exceptionnelle 2024#21": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Exceptionnelle 2024#22": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "Exceptionnelle 2024#23": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "Exceptionnelle 2024#24": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "Exceptionnelle 2024#25": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "Exceptionnelle 2024#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Exceptionnelle 2024#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Exceptionnelle 2024#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Exceptionnelle 2024#29": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Exceptionnelle 2024#30": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Exceptionnelle 2024#31": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Exceptionnelle 2024#32": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "Exceptionnelle 2024#33": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Exceptionnelle 2024#34": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "Exceptionnelle 2024#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Exceptionnelle 2024#35-36"
+  },
+  "Exceptionnelle 2024#36": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "Exceptionnelle 2024#35-36"
+  },
+  "Exceptionnelle 2024#37": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Exceptionnelle 2024#38": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Exceptionnelle 2024#39": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "Exceptionnelle 2024#40": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Exceptionnelle 2024#41": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "Exceptionnelle 2024#42": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Exceptionnelle 2024#43": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "Exceptionnelle 2024#44": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Exceptionnelle 2024#45": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Exceptionnelle 2024#46": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "Exceptionnelle 2024#47": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Exceptionnelle 2024#47-49"
+  },
+  "Exceptionnelle 2024#48": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Exceptionnelle 2024#47-49"
+  },
+  "Exceptionnelle 2024#49": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "Exceptionnelle 2024#47-49"
+  },
+  "Exceptionnelle 2024#50": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2023 N#1": {
+   "c": [
+    "La cellule cancéreuse",
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "2023 N#2": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Characteristics of benign tumours"
+  },
+  "2023 N#3": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2023 N#4": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2023 N#5": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2023 N#6": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2023 N#7": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2023 N#8": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2023 N#9": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2023 N#10": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2023 N#11": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2023 N#12": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2023 N#13": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2023 N#14": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2023 N#15": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2023 N#16": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2023 N#17": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tumour classification (germinal), not cancer-cell biology"
+  },
+  "2023 N#18": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tumour classification (pluritissulaire benign), not cancer cell"
+  },
+  "2023 N#19": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "2023 N#20": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2023 N#21": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2023 N#22": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2023 N#23": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2023 N#24": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2023 N#25": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2023 N#26": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2023 N#27": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2023 N#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2023 N#29": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2023 N#30": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "2023 N#30-32"
+  },
+  "2023 N#31": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "2023 N#30-32"
+  },
+  "2023 N#32": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "2023 N#30-32"
+  },
+  "2023 N#33": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2023 N#33-34"
+  },
+  "2023 N#34": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2023 N#33-34"
+  },
+  "2023 N#35": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2023 N#35-37"
+  },
+  "2023 N#36": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2023 N#35-37"
+  },
+  "2023 N#37": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2023 N#35-37"
+  },
+  "2023 N#38": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#39": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#40": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#41": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#42": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#43": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2023 N#44": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2023 N#45": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2023 N#46": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2023 N#47": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2023 N#48": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2023 N#49": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2023 N#50": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2022 N#1": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2022 N#2": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2022 N#3": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2022 N#4": {
+   "c": [
+    "Les phases de l'inflammation",
+    "Les processus inflammatoires"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "2022 N#5": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2022 N#6": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2022 N#6-8"
+  },
+  "2022 N#7": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2022 N#6-8"
+  },
+  "2022 N#8": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2022 N#6-8"
+  },
+  "2022 N#9": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2022 N#9-10"
+  },
+  "2022 N#10": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2022 N#9-10"
+  },
+  "2022 N#11": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2022 N#11-12"
+  },
+  "2022 N#12": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2022 N#11-12"
+  },
+  "2022 N#13": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2022 N#14": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2022 N#15": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2022 N#16": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2022 N#17": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2022 N#18": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2022 N#19": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override",
+    "multi_topic"
+   ],
+   "why": "Prélèvement/acheminement question within liver surcharge case"
+  },
+  "2022 N#20": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override",
+    "multi_topic"
+   ],
+   "why": "Choice of fixative within surcharge case"
+  },
+  "2022 N#21": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override",
+    "multi_topic"
+   ],
+   "why": "Formol dilution within surcharge case"
+  },
+  "2022 N#22": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2022 N#23": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2022 N#24": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2022 N#25": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2022 N#19-25",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2022 N#26": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2022 N#27": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2022 N#28": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2022 N#29": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2022 N#30": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Characteristics of benign tumours only"
+  },
+  "2022 N#31": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "case": "2022 N#31-32",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Phases of carcinogenesis (initiation/promotion/progression)"
+  },
+  "2022 N#32": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "case": "2022 N#31-32",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Promotion phase, non-genetic step of carcinogenesis"
+  },
+  "2022 N#33": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2022 N#34": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#35": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#36": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "TNM staging, not cancer cell properties"
+  },
+  "2022 N#37": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#38": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#39": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#40": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#41": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#42": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2022 N#43": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2022 N#44": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2022 N#45": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2022 N#46": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "2022 N#46-48"
+  },
+  "2022 N#47": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "2022 N#46-48"
+  },
+  "2022 N#48": {
+   "c": [
+    "La cellule cancéreuse"
+   ],
+   "case": "2022 N#46-48",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Hepatocarcinoma complicating hepatitis B case"
+  },
+  "2022 N#49": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2022 N#50": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2021 N#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2021 N#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2021 N#3": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2021 N#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2021 N#5": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2021 N#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2021 N#7": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2021 N#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2021 N#9": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2021 N#10": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2021 N#11": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "2021 N#12": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2021 N#13": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#14": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2021 N#15": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2021 N#16": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#17": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#18": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Microscopic features of benign tumours; same as 2020 N#22"
+  },
+  "2021 N#19": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#20": {
+   "c": [
+    "Généralités sur les tumeurs bénignes",
+    "Introduction à la pathologie tumorale"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "2021 N#21": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#22": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2021 N#23": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2021 N#24": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2021 N#25": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2021 N#26": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2021 N#27": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2021 N#28": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2021 N#29": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2021 N#30": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2021 N#31": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#31-33"
+  },
+  "2021 N#32": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#31-33"
+  },
+  "2021 N#33": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#31-33"
+  },
+  "2021 N#34": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2021 N#35": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2021 N#36": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2021 N#37": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2021 N#38": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2021 N#39": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#39-42"
+  },
+  "2021 N#40": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#39-42"
+  },
+  "2021 N#41": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#39-42",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hemosiderin deposits of hemochromatosis, not amyloidosis"
+  },
+  "2021 N#42": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2021 N#39-42"
+  },
+  "2021 N#43": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2021 N#43-45"
+  },
+  "2021 N#44": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2021 N#43-45",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "TB vs sarcoidosis granuloma; same as 2022 N#7"
+  },
+  "2021 N#45": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2021 N#43-45"
+  },
+  "2021 N#46": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2021 N#46-47"
+  },
+  "2021 N#47": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2021 N#46-47"
+  },
+  "2021 N#48": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2021 N#48-50"
+  },
+  "2021 N#49": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2021 N#48-50"
+  },
+  "2021 N#50": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2021 N#48-50"
+  },
+  "2020 N#1": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2020 N#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Role of the pathologist, not techniques"
+  },
+  "2020 N#3": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2020 N#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2020 N#5": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Characteristics of benign tumours only"
+  },
+  "2020 N#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2020 N#7": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2020 N#8": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2020 N#9": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2020 N#10": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2020 N#11": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2020 N#12": {
+   "c": [
+    "La cellule cancéreuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morphologic criteria of cancer cells"
+  },
+  "2020 N#13": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2020 N#14": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2020 N#15": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2020 N#16": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2020 N#17": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2020 N#18": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2020 N#19": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2020 N#20": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2020 N#21": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2020 N#22": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "2020 N#23": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2020 N#24": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2020 N#25": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2020 N#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2020 N#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2020 N#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2020 N#29": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2020 N#30": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2020 N#31": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2020 N#32": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2020 N#33": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hageman factor, inflammatory chemical mediator, not healing"
+  },
+  "2020 N#34": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2020 N#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2020 N#35-36"
+  },
+  "2020 N#36": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2020 N#35-36"
+  },
+  "2020 N#37": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2020 N#38": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2020 N#39": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2020 N#40": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2020 N#41": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2020 N#42": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2020 N#43": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2020 N#44": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2020 N#45": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2020 N#46": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2020 N#47": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2020 N#47-49"
+  },
+  "2020 N#48": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2020 N#47-49"
+  },
+  "2020 N#49": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2020 N#47-49"
+  },
+  "2020 N#50": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2019 N#1": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 N#3": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#4": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#7": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#8": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Characteristics of benign tumours"
+  },
+  "2019 N#9": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 N#10": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 N#11": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2019 N#12": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2019 N#13": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 N#14": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 N#15": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 N#16": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 N#17": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 N#18": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 N#19": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 N#20": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 N#21": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 N#22": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 N#23": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 N#24": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 N#25": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hereditary cancers: germline mutations, oncogenesis"
+  },
+  "2019 N#26": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2019 N#26-29"
+  },
+  "2019 N#27": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2019 N#26-29"
+  },
+  "2019 N#28": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2019 N#26-29"
+  },
+  "2019 N#29": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2019 N#26-29"
+  },
+  "2019 N#30": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "2019 N#30-31"
+  },
+  "2019 N#31": {
+   "c": [
+    "L'inflammation spécifique"
+   ],
+   "case": "2019 N#30-31"
+  },
+  "2019 N#32": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 N#33": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2019 N#33-35"
+  },
+  "2019 N#34": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2019 N#33-35"
+  },
+  "2019 N#35": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "case": "2019 N#33-35"
+  },
+  "2019 N#36": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2019 N#36-38",
+   "conf": "low",
+   "why": "Quincke oedema: acute inflammation, vasculo-sanguine phase"
+  },
+  "2019 N#37": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2019 N#36-38",
+   "conf": "low",
+   "why": "Quincke oedema: acute inflammation, vasculo-sanguine phase"
+  },
+  "2019 N#38": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "case": "2019 N#36-38",
+   "conf": "low",
+   "why": "Quincke oedema: acute inflammation, vasculo-sanguine phase"
+  },
+  "2019 N#39": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "2019 N#39-40"
+  },
+  "2019 N#40": {
+   "c": [
+    "Les processus inflammatoires"
+   ],
+   "case": "2019 N#39-40"
+  },
+  "2019 N#41": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2019 N#42": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2019 N#43": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2019 N#44": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 N#45": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 N#46": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2019 N#46-47"
+  },
+  "2019 N#47": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2019 N#46-47"
+  },
+  "2019 N#48": {
+   "c": [
+    "Les phases de l'inflammation",
+    "Les processus inflammatoires"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "why": "Hageman factor: inflammation chemical mediators, not healing"
+  },
+  "2019 N#49": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2019 N#49-50"
+  },
+  "2019 N#50": {
+   "c": [
+    "La cicatrisation"
+   ],
+   "case": "2019 N#49-50"
+  },
+  "2019 R#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 R#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 R#3": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 R#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 R#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#7": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 R#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#9": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2019 R#10": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2019 R#11": {
+   "c": [
+    "La cellule cancéreuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Morphological features of cancer cells"
+  },
+  "2019 R#12": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 R#13": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 R#14": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 R#15": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 R#16": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 R#17": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 R#18": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2019 R#19": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#20": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#21": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2019 R#22": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2019 R#23": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2019 R#24": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "2019 R#25": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2019 R#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#29": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#30": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#31": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#32": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#33": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Multinucleated giant cell from macrophages: granuloma"
+  },
+  "2019 R#34": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2019 R#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2019 R#36": {
+   "c": [
+    "Les phases de l'inflammation",
+    "Les processus inflammatoires"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "why": "Hageman factor: inflammation chemical mediators, not healing"
+  },
+  "2019 R#37": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2019 R#38": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "conf": "low",
+   "why": "Anatomo-clinical forms of acute inflammation (fibrinous)"
+  },
+  "2019 R#39": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 R#40": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 R#41": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2019 R#42": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2019 R#43": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2019 R#44": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2019 R#45": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2019 R#46": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2019 R#47": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2019 R#48": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2019 R#49": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2019 R#50": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2018 N#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2018 N#3": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2018 N#4": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#5": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#6": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#7": {
+   "c": [
+    "Généralités sur les tumeurs bénignes"
+   ]
+  },
+  "2018 N#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#9": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hereditary cancers: germline mutations, oncogenesis"
+  },
+  "2018 N#10": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2018 N#11": {
+   "c": [
+    "Bases fondamentales de l'oncogenèse"
+   ]
+  },
+  "2018 N#12": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2018 N#13": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2018 N#14": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2018 N#15": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2018 N#16": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2018 N#17": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2018 N#18": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2018 N#19": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2018 N#20": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2018 N#21": {
+   "c": [
+    "Les amyloses"
+   ]
+  },
+  "2018 N#22": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#23": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2018 N#24": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#25": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2018 N#26": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#27": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#28": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#29": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#30": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#31": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#32": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#33": {
+   "c": [
+    "La pathologie circulatoire"
+   ]
+  },
+  "2018 N#34": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2018 N#35": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2018 N#36": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2018 N#36-38"
+  },
+  "2018 N#37": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2018 N#36-38"
+  },
+  "2018 N#38": {
+   "c": [
+    "Les maladies de surcharge"
+   ],
+   "case": "2018 N#36-38"
+  },
+  "2018 N#39": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2018 N#40": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2018 N#41": {
+   "c": [
+    "Les maladies de surcharge"
+   ]
+  },
+  "2018 N#42": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#43": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#44": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#45": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#46": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#47": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2018 N#48": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2018 N#49": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2018 N#50": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2017 N#1": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#2": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#3": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#4": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#5": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#6": {
+   "c": [
+    "Introduction à l'anatomie pathologique"
+   ]
+  },
+  "2017 N#7": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#8": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#9": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#10": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2017 N#11": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2017 N#12": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2017 N#13": {
+   "c": [
+    "La cellule cancéreuse"
+   ]
+  },
+  "2017 N#14": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2017 N#15": {
+   "c": [
+    "Introduction à la pathologie tumorale"
+   ]
+  },
+  "2017 N#16": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2017 N#17": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2017 N#18": {
+   "c": [
+    "Les métastases"
+   ]
+  },
+  "2017 N#19": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2017 N#20": {
+   "c": [
+    "Le stroma tumoral"
+   ]
+  },
+  "2017 N#21": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "why": "Cryopreservation; unsure which techniques part covers it",
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#22": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "why": "Immunohistochemistry; unsure which techniques part covers it",
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#23": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#24": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#25": {
+   "c": [
+    "Techniques en anatomie pathologique - partie 1",
+    "Techniques en anatomie pathologique - partie 2"
+   ],
+   "flags": [
+    "multi_topic"
+   ]
+  },
+  "2017 N#26": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#27": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#28": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#29": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#30": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#31": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#32": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2017 N#33": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#34": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#35": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#36": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#37": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#38": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#39": {
+   "c": [
+    "Les phases de l'inflammation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hageman factor = inflammatory chemical mediators, not cicatrisation"
+  },
+  "2017 N#40": {
+   "c": [
+    "Les phases de l'inflammation"
+   ]
+  },
+  "2017 N#41": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#42": {
+   "c": [
+    "Les processus inflammatoires"
+   ]
+  },
+  "2017 N#43": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ],
+   "conf": "low",
+   "why": "Tuberculosis lesion evolution; granulomateuse vs spécifique"
+  },
+  "2017 N#44": {
+   "c": [
+    "L'inflammation granulomateuse (chronique)"
+   ]
+  },
+  "2017 N#45": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2017 N#46": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2017 N#47": {
+   "c": [
+    "La cicatrisation"
+   ]
+  },
+  "2017 N#48": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2017 N#49": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  },
+  "2017 N#50": {
+   "c": [
+    "L'inflammation spécifique"
+   ]
+  }
+ }
+}

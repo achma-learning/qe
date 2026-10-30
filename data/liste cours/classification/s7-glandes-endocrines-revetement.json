@@ -1,0 +1,3318 @@
+{
+ "module": "Dermatologie - Endocrinologie",
+ "q": {
+  "normal 2026#1": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "normal 2026#2": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2026#3": {
+   "c": [
+    "Mélanomes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely about melanoma, own cours"
+  },
+  "normal 2026#4": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2026#5": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2026#6": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "normal 2026#7": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2026#8": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2026#8-9"
+  },
+  "normal 2026#9": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2026#8-9"
+  },
+  "normal 2026#10": {
+   "c": [
+    "Érythème noueux"
+   ]
+  },
+  "normal 2026#11": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "normal 2026#12": {
+   "c": [
+    "Tuberculose cutanée"
+   ]
+  },
+  "normal 2026#13": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "About cutaneous manifestations of HIV, not IST"
+  },
+  "normal 2026#14": {
+   "c": [
+    "Syphilis"
+   ]
+  },
+  "normal 2026#15": {
+   "c": [
+    "Écoulement urétéral"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Urethritis germs, not cutaneous viral infections"
+  },
+  "normal 2026#16": {
+   "c": [
+    "Urticaire"
+   ]
+  },
+  "normal 2026#17": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2026#18": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "normal 2026#19": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2026#20": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2026#21": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2026#22": {
+   "c": [
+    "Eczémas"
+   ]
+  },
+  "normal 2026#23": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2026#24": {
+   "c": [
+    "Eczémas"
+   ]
+  },
+  "normal 2026#25": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "normal 2026#26": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2026#26-29",
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "HTA secondaire suspicion; case anchor later reveals Cushing"
+  },
+  "normal 2026#27": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2026#26-29"
+  },
+  "normal 2026#28": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2026#26-29"
+  },
+  "normal 2026#29": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2026#26-29"
+  },
+  "normal 2026#30": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2026#31": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2026#32": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2026#32-35"
+  },
+  "normal 2026#33": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2026#32-35"
+  },
+  "normal 2026#34": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2026#32-35"
+  },
+  "normal 2026#35": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2026#32-35"
+  },
+  "normal 2026#36": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2026#37": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: thyroid nodule cours"
+  },
+  "normal 2026#38": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2026#39": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2026#40": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2026#41": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2026#42": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2026#43": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2026#44": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2026#45": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "conf": "low",
+   "why": "HbA1c generalities; could fit diabetes follow-up in DT2"
+  },
+  "normal 2026#46": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "normal 2026#47": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "normal 2026#48": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2026#49": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2026#49-50"
+  },
+  "normal 2026#50": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2026#49-50"
+  },
+  "normal 2025#1": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2025#2": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2025#2-3"
+  },
+  "normal 2025#3": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2025#2-3"
+  },
+  "normal 2025#4": {
+   "c": [
+    "Les cancers cutanés",
+    "Mélanomes"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Differential nodular melanoma vs pigmented basal cell carcinoma"
+  },
+  "normal 2025#5": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2025#6": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "normal 2025#7": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Perianal ulceration at AIDS stage"
+  },
+  "normal 2025#8": {
+   "c": [
+    "Ulcération génitale"
+   ],
+   "case": "normal 2025#8-9"
+  },
+  "normal 2025#9": {
+   "c": [
+    "Ulcération génitale"
+   ],
+   "case": "normal 2025#8-9"
+  },
+  "normal 2025#10": {
+   "c": [
+    "Écoulement urétéral"
+   ]
+  },
+  "normal 2025#11": {
+   "c": [
+    "Érythème noueux"
+   ]
+  },
+  "normal 2025#12": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "normal 2025#13": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2025#14": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2025#15": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "normal 2025#16": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2025#17": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "normal 2025#18": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2025#19": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2025#20": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "normal 2025#21": {
+   "c": [
+    "Molluscum contagiosum"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Answer molluscum contagiosum, own cours"
+  },
+  "normal 2025#22": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "normal 2025#22-23"
+  },
+  "normal 2025#23": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "normal 2025#22-23"
+  },
+  "normal 2025#24": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2025#25": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2025#26": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: thyroid nodule cours"
+  },
+  "normal 2025#27": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2025#28": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2025#29": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2025#30": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2025#31": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2025#32": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#33": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#34": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#35": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#36": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#37": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2025#32-37"
+  },
+  "normal 2025#38": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ]
+  },
+  "normal 2025#39": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2025#40": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2025#41": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2025#42": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2025#43": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2025#44": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2025#45": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2025#46": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2025#47": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2025#48": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2025#49": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2025#50": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "Normal 2024#1": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Normal 2024#2": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Herpetic gingivostomatitis primo-infection, not IST"
+  },
+  "Normal 2024#3": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Preventive treatment of herpes recurrences"
+  },
+  "Normal 2024#4": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Normal 2024#5": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "Normal 2024#6": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pityrosporum folliculitis is a Malassezia yeast infection"
+  },
+  "Normal 2024#7": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "Normal 2024#8": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Normal 2024#9": {
+   "c": [
+    "Eczémas"
+   ]
+  },
+  "Normal 2024#10": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "Normal 2024#11": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "Normal 2024#12": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Normal 2024#13": {
+   "c": [
+    "Infections cutanées à HPV (papillomavirus)"
+   ]
+  },
+  "Normal 2024#14": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Normal 2024#14-15"
+  },
+  "Normal 2024#15": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Normal 2024#14-15"
+  },
+  "Normal 2024#16": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "Normal 2024#16-17"
+  },
+  "Normal 2024#17": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "Normal 2024#16-17"
+  },
+  "Normal 2024#18": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "Normal 2024#19": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Perianal ulceration at AIDS stage"
+  },
+  "Normal 2024#20": {
+   "c": [
+    "Mélanomes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ungual melanoma, own cours"
+  },
+  "Normal 2024#21": {
+   "c": [
+    "Syphilis"
+   ]
+  },
+  "Normal 2024#22": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "Normal 2024#22-23"
+  },
+  "Normal 2024#23": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "Normal 2024#22-23"
+  },
+  "Normal 2024#24": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "Normal 2024#25": {
+   "c": [
+    "Écoulement urétéral"
+   ]
+  },
+  "Normal 2024#26": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: thyroid nodule cours"
+  },
+  "Normal 2024#27": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2024#28": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2024#29": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2024#30": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Normal 2024#31": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Normal 2024#32": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "Normal 2024#33": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "Normal 2024#34": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "Normal 2024#34-37"
+  },
+  "Normal 2024#35": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "Normal 2024#34-37"
+  },
+  "Normal 2024#36": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "Normal 2024#34-37"
+  },
+  "Normal 2024#37": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "Normal 2024#34-37"
+  },
+  "Normal 2024#38": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Diabetic foot; no dedicated complications cours"
+  },
+  "Normal 2024#39": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Diabetic foot; no dedicated complications cours"
+  },
+  "Normal 2024#40": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Normal 2024#40-43"
+  },
+  "Normal 2024#41": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Normal 2024#40-43"
+  },
+  "Normal 2024#42": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Normal 2024#40-43"
+  },
+  "Normal 2024#43": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Normal 2024#40-43"
+  },
+  "Normal 2024#44": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Normal 2024#44-48"
+  },
+  "Normal 2024#45": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Normal 2024#44-48"
+  },
+  "Normal 2024#46": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Normal 2024#44-48"
+  },
+  "Normal 2024#47": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Normal 2024#44-48"
+  },
+  "Normal 2024#48": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Normal 2024#44-48"
+  },
+  "Normal 2024#49": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "Normal 2024#50": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Causes of ACTH-dependent Cushing syndrome"
+  },
+  "Ratt 2024#1": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Ratt 2024#1-3"
+  },
+  "Ratt 2024#2": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Ratt 2024#1-3"
+  },
+  "Ratt 2024#3": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Ratt 2024#1-3"
+  },
+  "Ratt 2024#4": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "Ratt 2024#5": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "Ratt 2024#6": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "Ratt 2024#7": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Kaposi/angiomatose bacillaire au stade SIDA, not IST"
+  },
+  "Ratt 2024#8": {
+   "c": [
+    "Écoulement urétéral"
+   ],
+   "case": "Ratt 2024#8-9"
+  },
+  "Ratt 2024#9": {
+   "c": [
+    "Écoulement urétéral"
+   ],
+   "case": "Ratt 2024#8-9"
+  },
+  "Ratt 2024#10": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "Ratt 2024#11": {
+   "c": [
+    "Érythème noueux"
+   ]
+  },
+  "Ratt 2024#12": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "Ratt 2024#13": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Ratt 2024#14": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "Ratt 2024#15": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Ratt 2024#16": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement préventif de l'herpès cutané, not IST"
+  },
+  "Ratt 2024#17": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "Ratt 2024#18": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Ratt 2024#19": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Primo-infection herpétique de l'enfant, not IST"
+  },
+  "Ratt 2024#20": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Ratt 2024#21": {
+   "c": [
+    "Molluscum contagiosum"
+   ]
+  },
+  "Ratt 2024#22": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "Ratt 2024#22-23"
+  },
+  "Ratt 2024#23": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "Ratt 2024#22-23"
+  },
+  "Ratt 2024#24": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "Ratt 2024#25": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "Ratt 2024#26": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: nodule thyroïdien cours"
+  },
+  "Ratt 2024#27": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Ratt 2024#28": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Ratt 2024#29": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Ratt 2024#30": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Ratt 2024#31": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Ratt 2024#32": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#33": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#34": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#35": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#36": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#37": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#38": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "Ratt 2024#32-38"
+  },
+  "Ratt 2024#39": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Pied diabétique: no dedicated complications cours"
+  },
+  "Ratt 2024#40": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Ratt 2024#40-43"
+  },
+  "Ratt 2024#41": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Ratt 2024#40-43"
+  },
+  "Ratt 2024#42": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Ratt 2024#40-43"
+  },
+  "Ratt 2024#43": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Ratt 2024#40-43"
+  },
+  "Ratt 2024#44": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Ratt 2024#44-48"
+  },
+  "Ratt 2024#45": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Ratt 2024#44-48"
+  },
+  "Ratt 2024#46": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Ratt 2024#44-48"
+  },
+  "Ratt 2024#47": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Ratt 2024#44-48"
+  },
+  "Ratt 2024#48": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Ratt 2024#44-48"
+  },
+  "Ratt 2024#49": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "Ratt 2024#50": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Mélanomes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely about melanoma, dedicated cours exists"
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Molluscum/histoplasmose au stade SIDA, not IST"
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Syphilis"
+   ],
+   "case": "Novembre 2024#8-9"
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Syphilis"
+   ],
+   "case": "Novembre 2024#8-9"
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "Novembre 2024#10-11"
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "Novembre 2024#10-11"
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement préventif de l'herpès cutané, not IST"
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Primo-infection herpétique de l'enfant, not IST"
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Molluscum contagiosum"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "Novembre 2024#22-23"
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "Novembre 2024#22-23"
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Rétinopathie diabétique: no dedicated complications cours"
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Pied diabétique: no dedicated complications cours"
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Pied diabétique: no dedicated complications cours"
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: nodule thyroïdien cours"
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Novembre 2024#40-43"
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Novembre 2024#40-43"
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Novembre 2024#40-43"
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ],
+   "case": "Novembre 2024#40-43"
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Novembre 2024#44-48"
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Novembre 2024#44-48"
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Novembre 2024#44-48"
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Novembre 2024#44-48"
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "Novembre 2024#44-48"
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2022#1": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Épidémiologie et prise en charge des nodules thyroïdiens"
+  },
+  "normal 2022#2": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "EU-TIRADS, cytoponction: nodule thyroïdien cours"
+  },
+  "normal 2022#3": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2022#4": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2022#5": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2022#6": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2022#7": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "case": "normal 2022#7-9",
+   "flags": [
+    "not_found"
+   ],
+   "why": "HTA endocriniennes: no matching cours"
+  },
+  "normal 2022#8": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "case": "normal 2022#7-9",
+   "flags": [
+    "not_found"
+   ],
+   "why": "Hyperaldostéronisme primaire: no matching cours"
+  },
+  "normal 2022#9": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "case": "normal 2022#7-9",
+   "flags": [
+    "not_found"
+   ],
+   "why": "HTA secondaire: no matching cours"
+  },
+  "normal 2022#10": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Hyperaldostéronisme primaire: no matching cours"
+  },
+  "normal 2022#11": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Phéochromocytome: no matching cours"
+  },
+  "normal 2022#12": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2022#12-15"
+  },
+  "normal 2022#13": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2022#12-15"
+  },
+  "normal 2022#14": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2022#12-15"
+  },
+  "normal 2022#15": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2022#12-15"
+  },
+  "normal 2022#16": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2022#17": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2022#18": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2022#19": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2022#19-21"
+  },
+  "normal 2022#20": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2022#19-21"
+  },
+  "normal 2022#21": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2022#19-21"
+  },
+  "normal 2022#22": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Hypoglycémie organique (triade de Whipple): no matching cours"
+  },
+  "normal 2022#23": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Signes neuroglycopéniques de l'hypoglycémie: no matching cours"
+  },
+  "normal 2022#24": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "conf": "low",
+   "why": "Hypoglycémie du diabétique; could fit diabète cours"
+  },
+  "normal 2022#25": {
+   "c": [
+    "Endocrinologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Hypoglycémies organiques endocriniennes: no matching cours"
+  },
+  "normal 2022#26": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2022#27": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "normal 2022#27-28"
+  },
+  "normal 2022#28": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "normal 2022#27-28"
+  },
+  "normal 2022#29": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2022#30": {
+   "c": [
+    "Urticaire"
+   ]
+  },
+  "normal 2022#31": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2022#32": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2022#33": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "normal 2022#33-34"
+  },
+  "normal 2022#34": {
+   "c": [
+    "Eczémas"
+   ],
+   "case": "normal 2022#33-34"
+  },
+  "normal 2022#35": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Dermatophytie de la peau glabre, not ectoparasitose"
+  },
+  "normal 2022#36": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2022#37": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "case": "normal 2022#37-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Teigne trichophytique = mycose, not ectoparasitose"
+  },
+  "normal 2022#38": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "case": "normal 2022#37-38",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement d'une teigne = mycose, not ectoparasitose"
+  },
+  "normal 2022#39": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2022#40": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2022#40-41"
+  },
+  "normal 2022#41": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2022#40-41"
+  },
+  "normal 2022#42": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2022#43": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2022#44": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "normal 2022#45": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ulcération périanale au stade SIDA, not IST"
+  },
+  "normal 2022#46": {
+   "c": [
+    "Syphilis"
+   ],
+   "case": "normal 2022#46-47"
+  },
+  "normal 2022#47": {
+   "c": [
+    "Syphilis"
+   ],
+   "case": "normal 2022#46-47"
+  },
+  "normal 2022#48": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "normal 2022#49": {
+   "c": [
+    "Érythème noueux"
+   ]
+  },
+  "normal 2022#50": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "normal 2021#1": {
+   "c": [
+    "La lèpre"
+   ]
+  },
+  "normal 2021#2": {
+   "c": [
+    "Tuberculose cutanée"
+   ]
+  },
+  "normal 2021#3": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "normal 2021#3-4"
+  },
+  "normal 2021#4": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "normal 2021#3-4"
+  },
+  "normal 2021#5": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Teigne microsporique = dermatophytie, not ectoparasitose"
+  },
+  "normal 2021#6": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2021#7": {
+   "c": [
+    "Les ectoparasitoses"
+   ]
+  },
+  "normal 2021#8": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2021#9": {
+   "c": [
+    "Infections cutanées à HPV (papillomavirus)"
+   ]
+  },
+  "normal 2021#10": {
+   "c": [
+    "Infections cutanées à HPV (papillomavirus)"
+   ],
+   "case": "normal 2021#10-11",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Papillomes ano-génitaux = condylomes HPV"
+  },
+  "normal 2021#11": {
+   "c": [
+    "Infections cutanées à HPV (papillomavirus)"
+   ],
+   "case": "normal 2021#10-11",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement des condylomes HPV"
+  },
+  "normal 2021#12": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Primo-infection herpétique génitale"
+  },
+  "normal 2021#13": {
+   "c": [
+    "Eczémas"
+   ]
+  },
+  "normal 2021#14": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2021#15": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2021#16": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "normal 2021#16-17"
+  },
+  "normal 2021#17": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "normal 2021#16-17"
+  },
+  "normal 2021#18": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "normal 2021#19": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ulcération périanale au stade SIDA"
+  },
+  "normal 2021#20": {
+   "c": [
+    "Mélanomes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Facteurs de risque du mélanome"
+  },
+  "normal 2021#21": {
+   "c": [
+    "Syphilis"
+   ]
+  },
+  "normal 2021#22": {
+   "c": [
+    "Psoriasis"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Diagnostic différentiel des pustules, transversal"
+  },
+  "normal 2021#23": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "normal 2021#24": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "normal 2021#25": {
+   "c": [
+    "Psoriasis"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Atteinte articulaire de plusieurs dermatoses"
+  },
+  "normal 2021#26": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#27": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#28": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#29": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#30": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#31": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#32": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "case": "normal 2021#26-32"
+  },
+  "normal 2021#33": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Suivi du diabète, général"
+  },
+  "normal 2021#34": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#35": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#36": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#37": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#38": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#39": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#34-39"
+  },
+  "normal 2021#40": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#40-44"
+  },
+  "normal 2021#41": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#40-44"
+  },
+  "normal 2021#42": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#40-44"
+  },
+  "normal 2021#43": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#40-44"
+  },
+  "normal 2021#44": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2021#40-44"
+  },
+  "normal 2021#45": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conduite devant un nodule thyroïdien"
+  },
+  "normal 2021#46": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2021#47": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2021#48": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2021#49": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2021#50": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "ratt 2021#1": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#1-4"
+  },
+  "ratt 2021#2": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#1-4"
+  },
+  "ratt 2021#3": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#1-4"
+  },
+  "ratt 2021#4": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#1-4"
+  },
+  "ratt 2021#5": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#5-8"
+  },
+  "ratt 2021#6": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#5-8"
+  },
+  "ratt 2021#7": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#5-8"
+  },
+  "ratt 2021#8": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#5-8"
+  },
+  "ratt 2021#9": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#9-10"
+  },
+  "ratt 2021#10": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "ratt 2021#9-10"
+  },
+  "ratt 2021#11": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "ratt 2021#12": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2021#13": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2021#14": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2021#15": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Épidémiologie et prise en charge des nodules"
+  },
+  "ratt 2021#16": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "ratt 2021#17": {
+   "c": [
+    "Nutrition clinique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indice glycémique = notion de nutrition"
+  },
+  "ratt 2021#18": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "ratt 2021#19": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "ratt 2021#20": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "ratt 2021#21": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Rétinopathie diabétique, complication non spécifique au type"
+  },
+  "ratt 2021#22": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Rétinopathie diabétique, complication non spécifique au type"
+  },
+  "ratt 2021#23": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "ratt 2021#24": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "ratt 2021#25": {
+   "c": [
+    "Diabète type 1"
+   ],
+   "conf": "low",
+   "why": "Suivi du diabétique, type tronqué dans l'énoncé"
+  },
+  "ratt 2021#26": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "ratt 2021#27": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "ratt 2021#28": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ],
+   "case": "ratt 2021#28-29",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications de la varicelle"
+  },
+  "ratt 2021#29": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ],
+   "case": "ratt 2021#28-29"
+  },
+  "ratt 2021#30": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#31": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#32": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#33": {
+   "c": [
+    "Mycoses superficielles"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Vulvovaginite candidosique"
+  },
+  "ratt 2021#34": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#35": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#36": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#37": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#38": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "ratt 2021#39": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pemphigoïde bulleuse, pas prurit"
+  },
+  "ratt 2021#40": {
+   "c": [
+    "Mélanomes"
+   ],
+   "conf": "low",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lésion pigmentée nodulaire, diagnostic différentiel du mélanome"
+  },
+  "ratt 2021#41": {
+   "c": [
+    "Acné"
+   ]
+  },
+  "ratt 2021#42": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "ratt 2021#43": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "ratt 2021#44": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "ratt 2021#45": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "ratt 2021#46": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Éruption de primo-infection VIH"
+  },
+  "ratt 2021#47": {
+   "c": [
+    "Écoulement urétéral"
+   ]
+  },
+  "ratt 2021#48": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "ratt 2021#49": {
+   "c": [
+    "Psoriasis"
+   ]
+  },
+  "ratt 2021#50": {
+   "c": [
+    "Psoriasis"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Étiologies de l'érythrodermie, transversal"
+  },
+  "normal 2020#1": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2020#2": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2020#3": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2020#4": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Neuropathie diabétique, aucun cours complications dédié"
+  },
+  "normal 2020#5": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Pied diabétique, aucun cours complications dédié"
+  },
+  "normal 2020#6": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "conf": "low",
+   "why": "Pied diabétique, aucun cours complications dédié"
+  },
+  "normal 2020#7": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conduite devant un nodule thyroïdien"
+  },
+  "normal 2020#8": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2020#9": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2020#10": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2020#11": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2020#12": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2020#13": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2020#14": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2020#15": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2020#15-16"
+  },
+  "normal 2020#16": {
+   "c": [
+    "Adénome hypophysaire"
+   ],
+   "case": "normal 2020#15-16"
+  },
+  "normal 2020#17": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2020#18": {
+   "c": [
+    "Adénome hypophysaire"
+   ]
+  },
+  "normal 2020#19": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2020#20": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2020#21": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2020#22": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2020#23": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "normal 2020#24": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "normal 2020#25": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "normal 2020#26": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2020#27": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2020#28": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2020#29": {
+   "c": [
+    "Mycoses superficielles"
+   ]
+  },
+  "normal 2020#30": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2020#30-31",
+   "conf": "low",
+   "why": "Érythème polymorphe, pas de cours dédié"
+  },
+  "normal 2020#31": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2020#30-31",
+   "conf": "low",
+   "why": "Érythème polymorphe, pas de cours dédié"
+  },
+  "normal 2020#32": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2020#33": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ],
+   "case": "normal 2020#33-34"
+  },
+  "normal 2020#34": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ],
+   "case": "normal 2020#33-34"
+  },
+  "normal 2020#35": {
+   "c": [
+    "Les ectoparasitoses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement de la gale, pas mycose"
+  },
+  "normal 2020#36": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2020#37": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "normal 2020#38": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "normal 2020#39": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2020#40": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Dermatoses vésiculeuses, transversal"
+  },
+  "normal 2020#41": {
+   "c": [
+    "Les ectoparasitoses"
+   ],
+   "conf": "low",
+   "why": "Prurit du cuir chevelu, pédiculose en tête"
+  },
+  "normal 2020#42": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2020#43": {
+   "c": [
+    "Syphilis"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sérologie syphilitique faux positif chez la femme enceinte"
+  },
+  "normal 2020#44": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2020#45": {
+   "c": [
+    "Les cancers cutanés"
+   ]
+  },
+  "normal 2020#46": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "case": "normal 2020#46-47",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Primo-infection VIH"
+  },
+  "normal 2020#47": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "case": "normal 2020#46-47",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Confirmation de primo-infection VIH"
+  },
+  "normal 2020#48": {
+   "c": [
+    "Ulcération génitale"
+   ]
+  },
+  "normal 2020#49": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "normal 2020#49-50"
+  },
+  "normal 2020#50": {
+   "c": [
+    "Psoriasis"
+   ],
+   "case": "normal 2020#49-50"
+  },
+  "normal 2019#1": {
+   "c": [
+    "Diabète : définition et classification"
+   ]
+  },
+  "normal 2019#2": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "conf": "low",
+   "why": "HbA1c monitoring; no dedicated cours"
+  },
+  "normal 2019#3": {
+   "c": [
+    "Diabète cortico-induit"
+   ]
+  },
+  "normal 2019#4": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2019#5": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "normal 2019#6": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "conf": "low",
+   "why": "Gestational diabetes, covered under classification"
+  },
+  "normal 2019#7": {
+   "c": [
+    "Diabète type 1"
+   ]
+  },
+  "normal 2019#8": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2019#8-10"
+  },
+  "normal 2019#9": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2019#8-10"
+  },
+  "normal 2019#10": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "normal 2019#8-10"
+  },
+  "normal 2019#11": {
+   "c": [
+    "Diabète type 2"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Diabetic retinopathy; no complications cours"
+  },
+  "normal 2019#12": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule workup: echography, EU-TIRADS"
+  },
+  "normal 2019#13": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2019#14": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2019#15": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "normal 2019#16": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2019#17": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "normal 2019#18": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2019#18-20"
+  },
+  "normal 2019#19": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2019#18-20"
+  },
+  "normal 2019#20": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "normal 2019#18-20"
+  },
+  "normal 2019#21": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "normal 2019#22": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ],
+   "case": "normal 2019#22-25"
+  },
+  "normal 2019#23": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ],
+   "case": "normal 2019#22-25"
+  },
+  "normal 2019#24": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ],
+   "case": "normal 2019#22-25"
+  },
+  "normal 2019#25": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ],
+   "case": "normal 2019#22-25"
+  },
+  "normal 2019#26": {
+   "c": [
+    "Molluscum contagiosum"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Vesicular dermatoses comparison; answer molluscum"
+  },
+  "normal 2019#27": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2019#28": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2019#29": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "normal 2019#30": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "normal 2019#31": {
+   "c": [
+    "Tuberculose cutanée"
+   ]
+  },
+  "normal 2019#32": {
+   "c": [
+    "La lèpre"
+   ]
+  },
+  "normal 2019#33": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "normal 2019#34": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  },
+  "normal 2019#35": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2019#36": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2019#37": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2019#37-39"
+  },
+  "normal 2019#38": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2019#37-39"
+  },
+  "normal 2019#39": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "normal 2019#37-39"
+  },
+  "normal 2019#40": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "normal 2019#41": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "normal 2019#42": {
+   "c": [
+    "Eczémas"
+   ]
+  },
+  "normal 2019#43": {
+   "c": [
+    "Ulcération génitale"
+   ],
+   "case": "normal 2019#43-44"
+  },
+  "normal 2019#44": {
+   "c": [
+    "Ulcération génitale"
+   ],
+   "case": "normal 2019#43-44"
+  },
+  "normal 2019#45": {
+   "c": [
+    "Manifestations cutanées du VIH"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Dermatoses prompting HIV serology"
+  },
+  "normal 2019#46": {
+   "c": [
+    "Mélanomes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Plantar pigmented macule: rule out melanoma"
+  },
+  "normal 2019#47": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "normal 2019#47-48"
+  },
+  "normal 2019#48": {
+   "c": [
+    "Les cancers cutanés"
+   ],
+   "case": "normal 2019#47-48"
+  },
+  "normal 2019#49": {
+   "c": [
+    "Érythème noueux"
+   ],
+   "case": "normal 2019#49-50"
+  },
+  "normal 2019#50": {
+   "c": [
+    "Érythème noueux"
+   ],
+   "case": "normal 2019#49-50"
+  },
+  "ratt 2019#1": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "ratt 2019#2": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "ratt 2019#3": {
+   "c": [
+    "Diabète cortico-induit"
+   ]
+  },
+  "ratt 2019#4": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "conf": "low",
+   "why": "Gestational diabetes, covered under classification"
+  },
+  "ratt 2019#5": {
+   "c": [
+    "Diabète cortico-induit"
+   ],
+   "case": "ratt 2019#5-7"
+  },
+  "ratt 2019#6": {
+   "c": [
+    "Diabète cortico-induit"
+   ],
+   "case": "ratt 2019#5-7"
+  },
+  "ratt 2019#7": {
+   "c": [
+    "Diabète : définition et classification"
+   ],
+   "case": "ratt 2019#5-7",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Dysglycemia classification (hyperglycémie modérée à jeun)"
+  },
+  "ratt 2019#8": {
+   "c": [
+    "Diabète type 2"
+   ]
+  },
+  "ratt 2019#9": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2019#10": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2019#11": {
+   "c": [
+    "Pathologie thyroïdienne"
+   ]
+  },
+  "ratt 2019#12": {
+   "c": [
+    "Nodule thyroïdien"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question about thyroid nodules"
+  },
+  "ratt 2019#13": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "ratt 2019#14": {
+   "c": [
+    "Nutrition clinique"
+   ]
+  },
+  "ratt 2019#15": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "ratt 2019#15-17"
+  },
+  "ratt 2019#16": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "ratt 2019#15-17"
+  },
+  "ratt 2019#17": {
+   "c": [
+    "Syndrome de Cushing"
+   ],
+   "case": "ratt 2019#15-17"
+  },
+  "ratt 2019#18": {
+   "c": [
+    "Syndrome de Cushing"
+   ]
+  },
+  "ratt 2019#19": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "ratt 2019#20": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "ratt 2019#21": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "ratt 2019#22": {
+   "c": [
+    "Insuffisance surrénalienne"
+   ]
+  },
+  "ratt 2019#23": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ]
+  },
+  "ratt 2019#24": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ]
+  },
+  "ratt 2019#25": {
+   "c": [
+    "L'obésité chez l'adulte"
+   ]
+  },
+  "ratt 2019#26": {
+   "c": [
+    "Dermatoses bulleuses"
+   ]
+  },
+  "ratt 2019#27": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "ratt 2019#27-29"
+  },
+  "ratt 2019#28": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "ratt 2019#27-29"
+  },
+  "ratt 2019#29": {
+   "c": [
+    "Dermatoses bulleuses"
+   ],
+   "case": "ratt 2019#27-29"
+  },
+  "ratt 2019#30": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "ratt 2019#30-31"
+  },
+  "ratt 2019#31": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "ratt 2019#30-31"
+  },
+  "ratt 2019#32": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "ratt 2019#32-33"
+  },
+  "ratt 2019#33": {
+   "c": [
+    "Dermatoses bactériennes"
+   ],
+   "case": "ratt 2019#32-33"
+  },
+  "ratt 2019#34": {
+   "c": [
+    "Psoriasis"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Scaly scalp lesion differential: teigne, eczéma, psoriasis"
+  },
+  "ratt 2019#35": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "ratt 2019#36": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "ratt 2019#37": {
+   "c": [
+    "Dermatoses bactériennes"
+   ]
+  },
+  "ratt 2019#38": {
+   "c": [
+    "Les ectoparasitoses"
+   ]
+  },
+  "ratt 2019#39": {
+   "c": [
+    "Infections cutanées à HSV"
+   ]
+  },
+  "ratt 2019#40": {
+   "c": [
+    "Les ectoparasitoses"
+   ]
+  },
+  "ratt 2019#41": {
+   "c": [
+    "Les ectoparasitoses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Gale des gens propres = scabies, not mycosis"
+  },
+  "ratt 2019#42": {
+   "c": [
+    "Molluscum contagiosum"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Explicitly molluscum contagiosum"
+  },
+  "ratt 2019#43": {
+   "c": [
+    "Molluscum contagiosum"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Umbilicated papules = molluscum contagiosum"
+  },
+  "ratt 2019#44": {
+   "c": [
+    "Infections cutanées à HPV (papillomavirus)"
+   ]
+  },
+  "ratt 2019#45": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Genital herpes primo-infection; could be Ulcération génitale"
+  },
+  "ratt 2019#46": {
+   "c": [
+    "Infections cutanées à HSV"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Genital herpes primo-infection; could be Ulcération génitale"
+  },
+  "ratt 2019#47": {
+   "c": [
+    "Infections cutanées à virus varicelle-zona"
+   ]
+  },
+  "ratt 2019#48": {
+   "c": [
+    "Manifestations cutanées du VIH",
+    "Infections cutanées à virus varicelle-zona"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Zona in young adult prompts HIV serology"
+  },
+  "ratt 2019#49": {
+   "c": [
+    "Prurit"
+   ]
+  },
+  "ratt 2019#50": {
+   "c": [
+    "Toxidermie médicamenteuse"
+   ]
+  }
+ }
+}

@@ -1,0 +1,4097 @@
+{
+ "module": "Santé publique",
+ "q": {
+  "Normal 2025#1": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Normal 2025#4-8"
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Normal 2025#4-8",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Phases of a public health intervention"
+  },
+  "Normal 2025#6": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Normal 2025#4-8"
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Normal 2025#4-8",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Evaluation of an intervention"
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Normal 2025#4-8",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Components of an intervention"
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Maladie et santé"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Maladie et santé"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Maladie et santé"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Normal 2025#19-23"
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Normal 2025#19-23"
+  },
+  "Normal 2025#21": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Normal 2025#19-23",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Disease phase of screening intervention = prevention levels"
+  },
+  "Normal 2025#22": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Normal 2025#19-23",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Prevention level of screening"
+  },
+  "Normal 2025#23": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Normal 2025#19-23",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Smoking ban law = promotional approach"
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Normal 2025#24-28"
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Normal 2025#24-28"
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Normal 2025#24-28"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Normal 2025#24-28",
+   "conf": "low",
+   "why": "Health effect types may belong to Introduction"
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Normal 2025#24-28",
+   "conf": "low",
+   "why": "Synergy/additivity may belong to Introduction"
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Les études étiologiques : cas-témoins",
+    "Les études étiologiques : cohorte"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Etiological studies = cohort and case-control"
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Normal 2025#35-40"
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Normal 2025#41-47"
+  },
+  "Normal 2025#48": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "Normal 2025#48-50"
+  },
+  "Normal 2025#49": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "Normal 2025#48-50"
+  },
+  "Normal 2025#50": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "Normal 2025#48-50"
+  },
+  "juin 2024#1": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "juin 2024#2": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "juin 2024#3": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Therapeutic education = tertiary prevention"
+  },
+  "juin 2024#4": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "juin 2024#4-8",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Type of programme: promotion / primordial prevention"
+  },
+  "juin 2024#5": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "juin 2024#4-8",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Phases of a public health intervention"
+  },
+  "juin 2024#6": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "juin 2024#4-8"
+  },
+  "juin 2024#7": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "juin 2024#4-8",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Evaluation of an intervention"
+  },
+  "juin 2024#8": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "juin 2024#4-8",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Components of an intervention"
+  },
+  "juin 2024#9": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Quality improvement methods"
+  },
+  "juin 2024#10": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "juin 2024#11": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "juin 2024#12": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "juin 2024#13": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Health definition models"
+  },
+  "juin 2024#14": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Health definition models"
+  },
+  "juin 2024#15": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Consequences of disease: déficience"
+  },
+  "juin 2024#16": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "juin 2024#17": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "juin 2024#18": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Essential public health functions"
+  },
+  "juin 2024#19": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "juin 2024#19-23"
+  },
+  "juin 2024#20": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "juin 2024#19-23"
+  },
+  "juin 2024#21": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "juin 2024#19-23",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Disease phase of intervention = prevention levels"
+  },
+  "juin 2024#22": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "juin 2024#19-23",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Prevention level"
+  },
+  "juin 2024#23": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "juin 2024#19-23",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Disease phase of screening = prevention levels"
+  },
+  "juin 2024#24": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29"
+  },
+  "juin 2024#25": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29"
+  },
+  "juin 2024#26": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29"
+  },
+  "juin 2024#27": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29"
+  },
+  "juin 2024#28": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29",
+   "conf": "low",
+   "why": "Health effect types may belong to Introduction"
+  },
+  "juin 2024#29": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "juin 2024#24-29",
+   "conf": "low",
+   "why": "Synergy/additivity may belong to Introduction"
+  },
+  "juin 2024#30": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "juin 2024#31": {
+   "c": [
+    "Les études étiologiques : cas-témoins",
+    "Les études étiologiques : cohorte"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Etiological studies = cohort and case-control"
+  },
+  "juin 2024#32": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "juin 2024#33": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#34": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#35": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#36": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#37": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#38": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "juin 2024#33-38"
+  },
+  "juin 2024#39": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "juin 2024#39-43"
+  },
+  "juin 2024#40": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "juin 2024#39-43"
+  },
+  "juin 2024#41": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "juin 2024#39-43"
+  },
+  "juin 2024#42": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "juin 2024#39-43"
+  },
+  "juin 2024#43": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "case": "juin 2024#39-43"
+  },
+  "juin 2024#44": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#45": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#46": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#47": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#48": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#49": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "juin 2024#50": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "juin 2024#44-50"
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "conf": "low",
+   "why": "Determinants of behaviour change; promotion vs prevention"
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "La promotion de la santé"
+   ]
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Novembre 2024#5-6",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ottawa health promotion strategies"
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Novembre 2024#5-6",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Phases of a public health intervention"
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Relational model of prevention levels"
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Screening programme criteria"
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Quality improvement methods"
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Consequences of disease: incapacité"
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Health definition models"
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Health definition models"
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Consequences of disease: handicap"
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Health definition models"
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Novembre 2024#20-24"
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Novembre 2024#20-24"
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Novembre 2024#20-24"
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Novembre 2024#20-24",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Prevention level"
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Novembre 2024#20-24",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Prevention level"
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Novembre 2024#25-29"
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Novembre 2024#25-29"
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Novembre 2024#25-29"
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Novembre 2024#25-29",
+   "conf": "low",
+   "why": "Health effect types may belong to Introduction"
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Novembre 2024#25-29"
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "L'essai clinique randomisé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Interventional study = randomized trial"
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Odds ratio CI interpretation, not randomization"
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Novembre 2024#39-43"
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Novembre 2024#39-43"
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Novembre 2024#39-43"
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Novembre 2024#39-43"
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Novembre 2024#39-43"
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Novembre 2024#44-50"
+  },
+  "Mai 2023#1": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2023#1-4"
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2023#1-4",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Phases d'un programme d'intervention"
+  },
+  "Mai 2023#3": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2023#1-4"
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2023#1-4",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Évaluation de recherche/normative d'une intervention"
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2023#5-6",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Audit clinique = méthode d'amélioration de la qualité"
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2023#5-6"
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2023#10": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Critères de justification d'un dépistage"
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)"
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "La promotion de la santé"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "La prévention",
+    "La promotion de la santé"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Compare prévention et promotion"
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Incapacité = conséquence de la maladie"
+  },
+  "Mai 2023#19": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Définition de la maladie, modèle biomédical"
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Type d'indicateur (taux de mortalité maternelle)"
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Numérateur d'un indicateur de mortalité"
+  },
+  "Mai 2023#24": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fardeau mondial de mortalité maternelle par région OMS"
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "case": "Mai 2023#25-29",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Fonctions essentielles de santé publique"
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2023#25-29",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2023#25-29",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Mai 2023#25-29",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Sevrage tabagique = intervention préventive"
+  },
+  "Mai 2023#29": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "case": "Mai 2023#25-29",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Phases de l'histoire naturelle de la maladie"
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2023#30-34",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Type d'agent environnemental (amiante)"
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2023#30-34",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Synergie d'expositions environnementales"
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2023#30-34",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Types d'effets sur la santé"
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2023#30-34",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Voie d'exposition"
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2023#30-34",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Modèle d'exposition"
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2023#36": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nature de l'incidence (taux)"
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2023#41-42"
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2023#41-42"
+  },
+  "Mai 2023#43": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2023#43-46"
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2023#43-46"
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2023#43-46"
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2023#43-46"
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2023#47-48"
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2023#47-48"
+  },
+  "Mai 2023#49": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Interprétation IC d'un odds-ratio, pas randomisation"
+  },
+  "Mai 2022#1": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Incapacité dans le processus de la maladie"
+  },
+  "Mai 2022#2": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2022#3": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Déficience = conséquence de la maladie"
+  },
+  "Mai 2022#4": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fonctions essentielles de santé publique"
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2022#7-11"
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2022#7-11"
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2022#7-11"
+  },
+  "Mai 2022#10": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "case": "Mai 2022#7-11",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Fonctions essentielles de santé publique"
+  },
+  "Mai 2022#11": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "case": "Mai 2022#7-11",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Fonctions essentielles de santé publique"
+  },
+  "Mai 2022#12": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2022#12-16",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Type d'agent environnemental (amiante)"
+  },
+  "Mai 2022#13": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2022#12-16",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Voie d'exposition"
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2022#12-16",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Modèle d'exposition"
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2022#12-16",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Types d'effets sur la santé"
+  },
+  "Mai 2022#16": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2022#12-16",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Synergie d'expositions environnementales"
+  },
+  "Mai 2022#17": {
+   "c": [
+    "Les études étiologiques : cas-témoins",
+    "Les études étiologiques : cohorte"
+   ],
+   "flags": [
+    "multi_topic",
+    "harmonized"
+   ],
+   "why": "Études étiologiques = cohorte et cas-témoins"
+  },
+  "Mai 2022#18": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2022#19": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2022#20": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2022#21-26"
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#29": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#30": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#31": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#33": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2022#27-34"
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Composantes d'une intervention"
+  },
+  "Mai 2022#36": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Types de mesures de prévention"
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2022#35-44"
+  },
+  "Mai 2022#38": {
+   "c": [
+    "Planification d'une intervention"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Critères SMART d'un objectif"
+  },
+  "Mai 2022#39": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)",
+   "case": "Mai 2022#35-44"
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)",
+   "case": "Mai 2022#35-44"
+  },
+  "Mai 2022#41": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Axes de la charte d'Ottawa"
+  },
+  "Mai 2022#42": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Acquisition d'aptitudes individuelles"
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2022#35-44",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Évaluation de recherche d'une intervention"
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic",
+    "case_override"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)",
+   "case": "Mai 2022#35-44"
+  },
+  "Mai 2022#45": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2022#45-50"
+  },
+  "Mai 2022#46": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2022#45-50",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Audit clinique = méthode d'amélioration de la qualité"
+  },
+  "Mai 2022#47": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2022#45-50",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Outils qualité: brainstorming, Ishikawa"
+  },
+  "Mai 2022#48": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2022#45-50"
+  },
+  "Mai 2022#49": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2022#45-50"
+  },
+  "Mai 2022#50": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2022#45-50"
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)"
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Système de santé marocain = concepts de base (as the other exams)"
+  },
+  "Mai 2021#3": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2021#4": {
+   "c": [
+    "Qualité des soins"
+   ]
+  },
+  "Mai 2021#5": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2021#5-7"
+  },
+  "Mai 2021#6": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2021#5-7"
+  },
+  "Mai 2021#7": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2021#5-7",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Outils qualité: brainstorming, diagramme cause-effet"
+  },
+  "Mai 2021#8": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Type de mesure de prévention (vaccination)"
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2021#11": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Axes de la charte d'Ottawa"
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2021#13": {
+   "c": [
+    "Planification d'une intervention"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Critères SMART d'un objectif"
+  },
+  "Mai 2021#14": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Facteurs d'adoption d'un comportement de santé"
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2021#8-15",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Méthodes d'évaluation d'un programme"
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2021#18": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Incapacité = conséquence de la maladie"
+  },
+  "Mai 2021#19": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2021#20": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2021#21-26"
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2021#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Voie d'exposition"
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2021#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Modèle d'exposition"
+  },
+  "Mai 2021#24": {
+   "c": [
+    "Introduction à la santé environnementale"
+   ],
+   "case": "Mai 2021#21-26",
+   "conf": "low",
+   "why": "Types d'effets sur la santé"
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2021#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Chaîne exposition-dose-réponse biologique"
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ],
+   "case": "Mai 2021#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Modèle d'intervention en santé environnementale"
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Déterminants de la santé"
+   ]
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2021#28-32"
+  },
+  "Mai 2021#29": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2021#28-32"
+  },
+  "Mai 2021#30": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "case": "Mai 2021#28-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Type d'indicateur (proportion)"
+  },
+  "Mai 2021#31": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "case": "Mai 2021#28-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Lecture de la mortalité mondiale 2016"
+  },
+  "Mai 2021#32": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "case": "Mai 2021#28-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Mortalité mondiale selon revenu et âge"
+  },
+  "Mai 2021#33": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#36": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#39": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2021#33-39"
+  },
+  "Mai 2021#40": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#41": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#45": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#46": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#47": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2021#50": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2021#40-50"
+  },
+  "Mai 2020#1": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Transition épidémiologique = état de santé, pas prévention"
+  },
+  "Mai 2020#2": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2020#3": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "conf": "low",
+   "why": "Facteurs de changement de comportement; prévention possible"
+  },
+  "Mai 2020#4": {
+   "c": [
+    "La promotion de la santé"
+   ]
+  },
+  "Mai 2020#5": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Financement du système de soins marocain = concepts de base"
+  },
+  "Mai 2020#6": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Principes de l'offre de soins (gradation) = système de soins"
+  },
+  "Mai 2020#7": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Approche biomédicale de l'intervention du médecin"
+  },
+  "Mai 2020#8": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#9": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#10": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#11": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#12": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "case": "Mai 2020#6-12",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#13": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2020#13-16"
+  },
+  "Mai 2020#14": {
+   "c": [
+    "Planification d'une intervention"
+   ],
+   "case": "Mai 2020#13-16",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Phases de l'intervention: planification"
+  },
+  "Mai 2020#15": {
+   "c": [
+    "Planification d'une intervention"
+   ],
+   "case": "Mai 2020#13-16",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Objectifs SMART = planification"
+  },
+  "Mai 2020#16": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2020#13-16",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Types d'évaluation d'une intervention"
+  },
+  "Mai 2020#17": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2020#18": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Conséquences de la maladie (incapacité)"
+  },
+  "Mai 2020#19": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2020#20": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2020#21": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèle de bien-être de la définition de la santé"
+  },
+  "Mai 2020#22": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fonctions de santé publique"
+  },
+  "Mai 2020#23": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "case": "Mai 2020#23-25",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mortalité maternelle mondiale"
+  },
+  "Mai 2020#24": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "case": "Mai 2020#23-25",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mortalité maternelle mondiale"
+  },
+  "Mai 2020#25": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2020#23-25",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Explication par accès aux soins, éducation, revenu"
+  },
+  "Mai 2020#26": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Taux de couverture vaccinale = indicateur"
+  },
+  "Mai 2020#27": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Calcul de la couverture vaccinale"
+  },
+  "Mai 2020#28": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Tabac = déterminant comportemental"
+  },
+  "Mai 2020#29": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#30": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#31": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#32": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#33": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2020#28-33",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#34": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ]
+  },
+  "Mai 2020#35": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Questions fermées d'un questionnaire = méthodologie"
+  },
+  "Mai 2020#36": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Question ouverte/fermée = méthodologie"
+  },
+  "Mai 2020#37": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Types d'échantillonnage = méthodologie"
+  },
+  "Mai 2020#38": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Échantillon non probabiliste = méthodologie"
+  },
+  "Mai 2020#39": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Objectif de l'étude cas-témoins: confirmer une hypothèse"
+  },
+  "Mai 2020#40": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Pas de prévalence en cas-témoins"
+  },
+  "Mai 2020#41": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#42": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#43": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#44": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#45": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#46": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#47": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2020#35-47",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2020#48": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2020#49": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2020#50": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2019#1": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Conséquences de la maladie (handicap)"
+  },
+  "Mai 2019#2": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Financement du système de soins marocain"
+  },
+  "Mai 2019#3": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Valeurs des systèmes de soins"
+  },
+  "Mai 2019#4": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2019#5": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2019#6": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2019#7": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2019#8": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2019#8-12"
+  },
+  "Mai 2019#9": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2019#8-12"
+  },
+  "Mai 2019#10": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2019#8-12"
+  },
+  "Mai 2019#11": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2019#8-12"
+  },
+  "Mai 2019#12": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ],
+   "case": "Mai 2019#8-12",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix de l'intervention environnementale (évacuation)"
+  },
+  "Mai 2019#13": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Type d'intervention: clinique, individuelle"
+  },
+  "Mai 2019#14": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Approches de l'intervention en santé publique"
+  },
+  "Mai 2019#15": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Tabagisme = déterminant comportemental"
+  },
+  "Mai 2019#16": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Stratégies de promotion de la santé (Ottawa)"
+  },
+  "Mai 2019#17": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Composantes d'une intervention"
+  },
+  "Mai 2019#18": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Type d'évaluation d'une intervention"
+  },
+  "Mai 2019#19": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Mai 2019#13-19",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Satisfaction et évaluation de la qualité des soins"
+  },
+  "Mai 2019#20": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Revue de morbidité devant un événement indésirable"
+  },
+  "Mai 2019#21": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Questions fermées d'un questionnaire = méthodologie"
+  },
+  "Mai 2019#22": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Types d'échantillonnage, pas l'ECR"
+  },
+  "Mai 2019#23": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "conf": "low",
+   "why": "Taux brut de mortalité; possible Indicateurs"
+  },
+  "Mai 2019#24": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Mai 2019#25": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ]
+  },
+  "Mai 2019#26": {
+   "c": [
+    "Les études étiologiques : cas-témoins",
+    "Les études étiologiques : cohorte"
+   ],
+   "flags": [
+    "multi_topic",
+    "harmonized"
+   ],
+   "why": "Études étiologiques = cohorte et cas-témoins"
+  },
+  "Mai 2019#27": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2019#28": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Mai 2019#29": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2019#30": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2019#31": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2019#32": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Mai 2019#32-34",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Choix de la prévalence comme mesure de fréquence"
+  },
+  "Mai 2019#33": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2019#32-34",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2019#34": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Mai 2019#32-34",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Calcul de la prévalence"
+  },
+  "Mai 2019#35": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#36": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#37": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#38": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#39": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#40": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#41": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2019#35-41"
+  },
+  "Mai 2019#42": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Les 4 groupes de déterminants de la santé"
+  },
+  "Mai 2019#43": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Rentabilité de la prévention primaire des MNT"
+  },
+  "Mai 2019#44": {
+   "keep": "topic"
+  },
+  "Mai 2019#45": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cibles de la vaccination antigrippale"
+  },
+  "Mai 2019#46": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "RAI tuberculose = indicateur populationnel"
+  },
+  "Mai 2019#47": {
+   "keep": "topic"
+  },
+  "Mai 2019#48": {
+   "keep": "topic"
+  },
+  "Mai 2019#49": {
+   "keep": "topic"
+  },
+  "Mai 2019#50": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Modèle de Wagner des soins chroniques"
+  },
+  "Juin 2019#1": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Conséquences de la maladie (handicap)"
+  },
+  "Juin 2019#2": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "conf": "low",
+   "why": "Financement du système de soins marocain"
+  },
+  "Juin 2019#3": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "conf": "low",
+   "why": "Valeurs des systèmes de soins"
+  },
+  "Juin 2019#4": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Juin 2019#5": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Modèles de définition de la santé"
+  },
+  "Juin 2019#6": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Juin 2019#7": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Juin 2019#8": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Juin 2019#8-12"
+  },
+  "Juin 2019#9": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Juin 2019#8-12"
+  },
+  "Juin 2019#10": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Juin 2019#8-12"
+  },
+  "Juin 2019#11": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Juin 2019#8-12"
+  },
+  "Juin 2019#12": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ],
+   "case": "Juin 2019#8-12",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Choix de l'intervention environnementale (évacuation)"
+  },
+  "Juin 2019#13": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Juin 2019#13-19"
+  },
+  "Juin 2019#14": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Juin 2019#13-19"
+  },
+  "Juin 2019#15": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Juin 2019#13-19",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Tabagisme = déterminant comportemental"
+  },
+  "Juin 2019#16": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Juin 2019#13-19",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Stratégies de promotion de la santé (Ottawa)"
+  },
+  "Juin 2019#17": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Juin 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Composantes d'une intervention"
+  },
+  "Juin 2019#18": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Juin 2019#13-19",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Type d'évaluation d'une intervention"
+  },
+  "Juin 2019#19": {
+   "c": [
+    "Qualité des soins"
+   ],
+   "case": "Juin 2019#13-19",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Satisfaction et évaluation de la qualité des soins"
+  },
+  "Juin 2019#20": {
+   "c": [
+    "Sécurité des soins"
+   ],
+   "conf": "low",
+   "why": "Revue de morbidité; possible Qualité des soins"
+  },
+  "Juin 2019#21": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Questions fermées d'un questionnaire = méthodologie"
+  },
+  "Juin 2019#22": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Types d'échantillonnage, pas l'ECR"
+  },
+  "Juin 2019#23": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "conf": "low",
+   "why": "Taux brut de mortalité; possible Indicateurs"
+  },
+  "Juin 2019#24": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Juin 2019#25": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Définition de la prévalence"
+  },
+  "Juin 2019#26": {
+   "c": [
+    "Les études étiologiques : cas-témoins",
+    "Les études étiologiques : cohorte"
+   ],
+   "flags": [
+    "multi_topic",
+    "harmonized"
+   ],
+   "why": "Études étiologiques = cohorte et cas-témoins"
+  },
+  "Juin 2019#27": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Juin 2019#28": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Juin 2019#29": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Juin 2019#30": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Juin 2019#31": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Juin 2019#32": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Juin 2019#32-34",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Choix de la prévalence comme mesure de fréquence"
+  },
+  "Juin 2019#33": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Juin 2019#32-34",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Juin 2019#34": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Juin 2019#32-34",
+   "flags": [
+    "tag_mismatch",
+    "case_override"
+   ],
+   "why": "Calcul de la prévalence"
+  },
+  "Juin 2019#35": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#36": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#37": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#38": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#39": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#40": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#41": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Juin 2019#35-41"
+  },
+  "Juin 2019#42": {
+   "c": [
+    "Déterminants de la santé"
+   ]
+  },
+  "Juin 2019#43": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Rentabilité de la prévention primaire des MNT"
+  },
+  "Juin 2019#44": {
+   "keep": "topic"
+  },
+  "Juin 2019#45": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cibles de la vaccination antigrippale"
+  },
+  "Juin 2019#46": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "RAI tuberculose = indicateur populationnel"
+  },
+  "Juin 2019#47": {
+   "keep": "topic"
+  },
+  "Juin 2019#48": {
+   "keep": "topic"
+  },
+  "Juin 2019#49": {
+   "keep": "topic"
+  },
+  "Juin 2019#50": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Modèle de Wagner des soins chroniques"
+  },
+  "Mai 2018#1": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2018#1-13"
+  },
+  "Mai 2018#2": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2018#1-13"
+  },
+  "Mai 2018#3": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Catégories de déterminants (modèle écologique/Lalonde)",
+   "case": "Mai 2018#1-13"
+  },
+  "Mai 2018#4": {
+   "c": [
+    "Déterminants de la santé"
+   ],
+   "case": "Mai 2018#1-13"
+  },
+  "Mai 2018#5": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Classification individuelle/populationnelle d'une intervention"
+  },
+  "Mai 2018#6": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Niveau de prévention (secondaire)"
+  },
+  "Mai 2018#7": {
+   "c": [
+    "La prévention"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Phase d'histoire naturelle ciblée par le dépistage"
+  },
+  "Mai 2018#8": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Stratégies de la charte d'Ottawa"
+  },
+  "Mai 2018#9": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2018#10": {
+   "c": [
+    "La promotion de la santé"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Notion de communauté, action communautaire"
+  },
+  "Mai 2018#11": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Composantes d'une intervention"
+  },
+  "Mai 2018#12": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "conf": "low",
+   "why": "Évaluation d'intervention, peut relever de la planification",
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2018#13": {
+   "c": [
+    "Intervention en santé publique"
+   ],
+   "case": "Mai 2018#1-13",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Type d'évaluation d'une intervention"
+  },
+  "Mai 2018#14": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Qualité des soins"
+   ],
+   "conf": "low",
+   "why": "Valeurs des systèmes de soins, possiblement concepts de base",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Mai 2018#15": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2018#16": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2018#17": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2018#18": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2018#18-19"
+  },
+  "Mai 2018#19": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2018#18-19"
+  },
+  "Mai 2018#20": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ]
+  },
+  "Mai 2018#21": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Techniques d'échantillonnage, pas l'ECR"
+  },
+  "Mai 2018#22": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Conception du questionnaire, outil de collecte"
+  },
+  "Mai 2018#23": {
+   "c": [
+    "Indicateurs de santé publique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Définition du taux brut de mortalité"
+  },
+  "Mai 2018#24": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2018#25": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2018#26": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ]
+  },
+  "Mai 2018#27": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ]
+  },
+  "Mai 2018#28": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2018#29": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Mai 2018#30": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ]
+  },
+  "Mai 2018#31": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Interprétation de l'OR et son IC"
+  },
+  "Mai 2018#32": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#33": {
+   "c": [
+    "Les études étiologiques : cohorte"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#34": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Mai 2018#34-35",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Choix de la prévalence comme mesure de fréquence"
+  },
+  "Mai 2018#35": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2018#34-35",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Étude transversale pour la prévalence"
+  },
+  "Mai 2018#36": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#37": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#38": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#39": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#40": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#41": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2018#36-41"
+  },
+  "Mai 2018#42": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Transitions démographique et épidémiologique"
+  },
+  "Mai 2018#43": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "conf": "low",
+   "why": "Charge morbide, possiblement indicateurs de santé"
+  },
+  "Mai 2018#44": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Transition épidémiologique"
+  },
+  "Mai 2018#45": {
+   "keep": "topic"
+  },
+  "Mai 2018#46": {
+   "keep": "topic"
+  },
+  "Mai 2018#47": {
+   "c": [
+    "La prévention"
+   ],
+   "why": "Critères OMS de dépistage"
+  },
+  "Mai 2018#48": {
+   "c": [
+    "Déterminants de la santé"
+   ]
+  },
+  "Mai 2018#49": {
+   "keep": "topic"
+  },
+  "Mai 2018#50": {
+   "keep": "topic"
+  },
+  "Mai 2017#1": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Modèles de définition de la santé"
+  },
+  "Mai 2017#2": {
+   "c": [
+    "Maladie et santé"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conséquences de la maladie (déficience, incapacité, handicap)"
+  },
+  "Mai 2017#3": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2017#4": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Offre/demande/besoin de soins, système de santé"
+  },
+  "Mai 2017#5": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2017#6": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2017#7": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fonctions essentielles de santé publique"
+  },
+  "Mai 2017#8": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ]
+  },
+  "Mai 2017#9": {
+   "c": [
+    "Sécurité des soins"
+   ]
+  },
+  "Mai 2017#10": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2017#11": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2017#12": {
+   "c": [
+    "La promotion de la santé"
+   ]
+  },
+  "Mai 2017#13": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2017#13-18"
+  },
+  "Mai 2017#14": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2017#13-18"
+  },
+  "Mai 2017#15": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2017#13-18"
+  },
+  "Mai 2017#16": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2017#13-18"
+  },
+  "Mai 2017#17": {
+   "c": [
+    "Caractériser l'exposition environnementale"
+   ],
+   "case": "Mai 2017#13-18"
+  },
+  "Mai 2017#18": {
+   "c": [
+    "Intervenir en santé environnementale"
+   ],
+   "case": "Mai 2017#13-18",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Intervention face à un accident environnemental"
+  },
+  "Mai 2017#19": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2017#20": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Mai 2017#21": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2017#22": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sondage systématique, échantillonnage"
+  },
+  "Mai 2017#23": {
+   "c": [
+    "L'essai clinique randomisé"
+   ]
+  },
+  "Mai 2017#24": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Interprétation de l'OR et son IC"
+  },
+  "Mai 2017#25": {
+   "c": [
+    "Les études descriptives"
+   ]
+  },
+  "Mai 2017#26": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ]
+  },
+  "Mai 2017#27": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Choix de la prévalence comme mesure de fréquence"
+  },
+  "Mai 2017#28": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2017#29": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2017#30": {
+   "c": [
+    "Initiation à la méthodologie de la recherche clinique (3 parties)"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Avantage de l'échantillonnage aléatoire simple"
+  },
+  "Mai 2017#31": {
+   "c": [
+    "Les mesures de fréquence en épidémiologie"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Calcul de prévalence"
+  },
+  "Mai 2017#32": {
+   "c": [
+    "Les études descriptives"
+   ],
+   "case": "Mai 2017#27-32",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Mai 2017#33": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#34": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#35": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#36": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#37": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#38": {
+   "c": [
+    "Les études étiologiques : cas-témoins"
+   ],
+   "case": "Mai 2017#33-38"
+  },
+  "Mai 2017#39": {
+   "c": [
+    "État de santé dans le monde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Impact des transitions au Maroc"
+  },
+  "Mai 2017#40": {
+   "c": [
+    "Concepts de base en santé publique (partie 1)",
+    "Concepts de base en santé publique (partie 2)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Financement du système de santé marocain"
+  },
+  "Mai 2017#41": {
+   "keep": "topic"
+  },
+  "Mai 2017#42": {
+   "keep": "topic"
+  },
+  "Mai 2017#43": {
+   "c": [
+    "La prévention"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prévention primaire des diarrhées infectieuses"
+  },
+  "Mai 2017#44": {
+   "keep": "topic"
+  },
+  "Mai 2017#45": {
+   "c": [
+    "Les critères de causalité"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Cause nécessaire non suffisante, triade agent-hôte-environnement"
+  },
+  "Mai 2017#46": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2017#47": {
+   "c": [
+    "La prévention"
+   ]
+  },
+  "Mai 2017#48": {
+   "keep": "topic"
+  },
+  "Mai 2017#49": {
+   "keep": "topic"
+  },
+  "Mai 2017#50": {
+   "keep": "topic"
+  }
+ }
+}

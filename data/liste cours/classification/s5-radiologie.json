@@ -1,0 +1,4013 @@
+{
+ "module": "Radiologie - Imagerie médicale",
+ "q": {
+  "janvier 2026#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "janvier 2026#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "janvier 2026#3": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "janvier 2026#4": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "janvier 2026#4-5",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hémorragie méningée non traumatique / anévrysme, pas un TCE"
+  },
+  "janvier 2026#5": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "janvier 2026#4-5",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anévrysme rompu = AVC hémorragique, pas un TCE"
+  },
+  "janvier 2026#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "janvier 2026#7": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "janvier 2026#8": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "janvier 2026#9": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "janvier 2026#10": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "janvier 2026#11": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "janvier 2026#12": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "janvier 2026#13": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "janvier 2026#14": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "janvier 2026#15": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "janvier 2026#16": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ],
+   "case": "janvier 2026#16-18"
+  },
+  "janvier 2026#17": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ],
+   "case": "janvier 2026#16-18"
+  },
+  "janvier 2026#18": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ],
+   "case": "janvier 2026#16-18"
+  },
+  "janvier 2026#19": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "janvier 2026#20": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "janvier 2026#21": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "janvier 2026#22": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "janvier 2026#23": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "janvier 2026#24": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "janvier 2026#25": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "janvier 2026#26": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "janvier 2026#27": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "janvier 2026#28": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sémiologie de l'opacité médiastinale"
+  },
+  "janvier 2026#29": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Collapsus pulmonaire = trouble de ventilation"
+  },
+  "janvier 2026#30": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "janvier 2026#31": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "janvier 2026#32": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "janvier 2026#33": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "janvier 2026#34": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications des biopsies percutanées; même question que 2024 N#19"
+  },
+  "janvier 2026#35": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "janvier 2026#36": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "janvier 2026#37": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "janvier 2026#38": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sténose hypertrophique du pylore = pathologie du nourrisson"
+  },
+  "janvier 2026#39": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Atrésie de l'oesophage = pathologie néonatale"
+  },
+  "janvier 2026#40": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Malformation urinaire du nourrisson (JPU)"
+  },
+  "janvier 2026#41": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hépatoblastome = tumeur pédiatrique"
+  },
+  "janvier 2026#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "janvier 2026#43": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "janvier 2026#44": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "janvier 2026#44-45"
+  },
+  "janvier 2026#45": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "janvier 2026#44-45"
+  },
+  "janvier 2026#46": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Microcalcifications Le Gal = sein, pas masse rénale"
+  },
+  "janvier 2026#47": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "janvier 2026#48": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Infertilité, hystérosalpingographie: pas une masse pelvienne"
+  },
+  "janvier 2026#49": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "janvier 2026#49-50",
+   "conf": "low",
+   "why": "GEU/douleur pelvienne aiguë; hésitation avec pelvis féminin"
+  },
+  "janvier 2026#50": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "janvier 2026#49-50",
+   "conf": "low",
+   "why": "Suite du cas GEU; hésitation avec pelvis féminin"
+  },
+  "Janvier 2025#1": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ],
+   "conf": "low",
+   "why": "Tumeur rectale; hésitation entre tube digestif 1 et 2"
+  },
+  "Janvier 2025#2": {
+   "c": [
+    "Abdomen aigu"
+   ]
+  },
+  "Janvier 2025#3": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "Janvier 2025#4": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Kyste biliaire simple hépatique, pas tube digestif"
+  },
+  "Janvier 2025#5": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "Janvier 2025#6": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "Janvier 2025#7": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "Janvier 2025#8": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "Janvier 2025#9": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "Janvier 2025#10": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "Janvier 2025#11": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "Janvier 2025#12": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "Janvier 2025#13": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "Janvier 2025#14": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "Janvier 2025#15": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "Janvier 2025#16": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lecture normale d'une radio du rachis lombaire, pas spondylodiscite"
+  },
+  "Janvier 2025#17": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "Janvier 2025#18": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sténose hypertrophique du pylore = pathologie du nourrisson"
+  },
+  "Janvier 2025#19": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "Janvier 2025#20": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "Janvier 2025#21": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "Janvier 2025#22": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "Janvier 2025#23": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "Janvier 2025#24": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "Janvier 2025#25": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "Janvier 2025#26": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "Janvier 2025#27": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "Janvier 2025#28": {
+   "c": [
+    "Syndrome pleural"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pneumothorax = syndrome pleural"
+  },
+  "Janvier 2025#29": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ],
+   "conf": "low",
+   "why": "Origine d'une opacité périphérique; hésitation avec syndrome pleural"
+  },
+  "Janvier 2025#30": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "Janvier 2025#31": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "Janvier 2025#32": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "Janvier 2025#33": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "case": "Janvier 2025#33-34",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix de la biopsie percutanée guidée"
+  },
+  "Janvier 2025#34": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "case": "Janvier 2025#33-34",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2025#35": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "Janvier 2025#36": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "Janvier 2025#37": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "Janvier 2025#38": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "Janvier 2025#39": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "Janvier 2025#39-40"
+  },
+  "Janvier 2025#40": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "Janvier 2025#39-40"
+  },
+  "Janvier 2025#41": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "Janvier 2025#42": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "Janvier 2025#43": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "Janvier 2025#43-44"
+  },
+  "Janvier 2025#44": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "Janvier 2025#43-44"
+  },
+  "Janvier 2025#45": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "Janvier 2025#46": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "Janvier 2025#47": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ],
+   "conf": "low",
+   "why": "Microcalcifications; hésitation avec exploration du sein"
+  },
+  "Janvier 2025#48": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "Janvier 2025#49": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Kyste dermoïde = masse ovarienne"
+  },
+  "Janvier 2025#50": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "conf": "low",
+   "why": "Cancer du col; hésitation avec masse pelvienne"
+  },
+  "2024 N#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 N#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 N#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 N#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 N#4-5"
+  },
+  "2024 N#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 N#4-5"
+  },
+  "2024 N#6": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2024 N#7": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 N#8": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 N#9": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 N#10": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Volvulus du sigmoïde = abdomen aigu (cf. Janvier 2025#2)"
+  },
+  "2024 N#11": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2024 N#11-12"
+  },
+  "2024 N#12": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2024 N#11-12"
+  },
+  "2024 N#13": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2024 N#14": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ],
+   "conf": "low",
+   "why": "Tumeur rectale; hésitation entre tube digestif 1 et 2"
+  },
+  "2024 N#15": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 N#16": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 N#17": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2024 N#18": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2024 N#19": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2024 N#20": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 N#21": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 N#22": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 N#23": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 N#24": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 N#25": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 N#26": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2024 N#27": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2024 N#28": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2024 N#29": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 N#30": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 N#31": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 N#32": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 N#33": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 N#34": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 N#35": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 N#36": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 N#37": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 N#38": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2024 N#39": {
+   "c": [
+    "Les ostéoarthrites 2 - spondylodiscites"
+   ]
+  },
+  "2024 N#40": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2024 N#41": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2024 N#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2024 N#43": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2024 N#43-44",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix du premier examen urinaire"
+  },
+  "2024 N#44": {
+   "c": [
+    "Syndrome de masse rénale"
+   ],
+   "case": "2024 N#43-44",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "2024 N#45": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "2024 N#45-46"
+  },
+  "2024 N#46": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "case": "2024 N#45-46"
+  },
+  "2024 N#47": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ]
+  },
+  "2024 N#48": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2024 N#49": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "2024 N#50": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Même question que Janvier 2025#50 (cancer du col)"
+  },
+  "2024 R#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 R#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 R#3": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 R#3-5"
+  },
+  "2024 R#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 R#3-5"
+  },
+  "2024 R#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 R#3-5"
+  },
+  "2024 R#6": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2024 R#7": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 R#8": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 R#9": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 R#10": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2024 R#11": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2024 R#12": {
+   "c": [
+    "Abdomen aigu"
+   ]
+  },
+  "2024 R#13": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 R#14": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 R#15": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 R#16": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2024 R#17": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2024 R#18": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2024 R#19": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 R#20": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 R#21": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 R#22": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 R#23": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 R#24": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 R#25": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "case": "2024 R#25-26"
+  },
+  "2024 R#26": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "case": "2024 R#25-26",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Contre-indications de biopsie percutanée = geste interventionnel"
+  },
+  "2024 R#27": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 R#28": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 R#29": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 R#30": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 R#31": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 R#32": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 R#33": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 R#34": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 R#35": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 R#36": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2024 R#37": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2024 R#38": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2024 R#39": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2024 R#40": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2024 R#41": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2024 R#41-42"
+  },
+  "2024 R#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2024 R#41-42"
+  },
+  "2024 R#43": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2024 R#43-44"
+  },
+  "2024 R#44": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2024 R#43-44"
+  },
+  "2024 R#45": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2024 R#46": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2024 R#47": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2024 R#47-48"
+  },
+  "2024 R#48": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2024 R#47-48"
+  },
+  "2024 R#49": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule mammaire palpable : bilan du nodule du sein"
+  },
+  "2024 R#50": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2024 Exceptionnelle#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 Exceptionnelle#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 Exceptionnelle#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2024 Exceptionnelle#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 Exceptionnelle#4-5"
+  },
+  "2024 Exceptionnelle#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2024 Exceptionnelle#4-5"
+  },
+  "2024 Exceptionnelle#6": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2024 Exceptionnelle#7": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 Exceptionnelle#8": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 Exceptionnelle#9": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2024 Exceptionnelle#10": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 Exceptionnelle#11": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2024 Exceptionnelle#12": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2024 Exceptionnelle#13": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2024 Exceptionnelle#14": {
+   "c": [
+    "Les ostéoarthrites 2 - spondylodiscites"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mal de Pott = spondylodiscite tuberculeuse"
+  },
+  "2024 Exceptionnelle#15": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 Exceptionnelle#16": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 Exceptionnelle#17": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 Exceptionnelle#18": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2024 Exceptionnelle#19": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2024 Exceptionnelle#20": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2024 Exceptionnelle#21": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Volvulus du sigmoïde = occlusion colique, abdomen aigu"
+  },
+  "2024 Exceptionnelle#22": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2024 Exceptionnelle#23": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 Exceptionnelle#24": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 Exceptionnelle#25": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 Exceptionnelle#26": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2024 Exceptionnelle#27": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 Exceptionnelle#28": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 Exceptionnelle#29": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 Exceptionnelle#30": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 Exceptionnelle#31": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2024 Exceptionnelle#32": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2024 Exceptionnelle#33": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2024 Exceptionnelle#34": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 Exceptionnelle#35": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2024 Exceptionnelle#36": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2024 Exceptionnelle#37": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Bilan initial d'une suspicion de tuberculose, pas un geste interventionnel"
+  },
+  "2024 Exceptionnelle#38": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2024 Exceptionnelle#39": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2024 Exceptionnelle#40": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2024 Exceptionnelle#41": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Complications de biopsie pulmonaire percutanée = geste interventionnel"
+  },
+  "2024 Exceptionnelle#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2024 Exceptionnelle#42-43"
+  },
+  "2024 Exceptionnelle#43": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2024 Exceptionnelle#42-43"
+  },
+  "2024 Exceptionnelle#44": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ]
+  },
+  "2024 Exceptionnelle#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2024 Exceptionnelle#46": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2024 Exceptionnelle#46-47",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mastite/abcès, pas un nodule; même question que 2024 R#43"
+  },
+  "2024 Exceptionnelle#47": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2024 Exceptionnelle#46-47",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Suite du cas mastite; même question que 2024 R#44"
+  },
+  "2024 Exceptionnelle#48": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2024 Exceptionnelle#49": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Même question que 2024 R#50 (cancer du col)"
+  },
+  "2024 Exceptionnelle#50": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2023 N#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2023 N#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2023 N#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2023 N#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2023 N#4-5"
+  },
+  "2023 N#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2023 N#4-5"
+  },
+  "2023 N#6": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2023 N#7": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2023 N#8": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2023 N#9": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2023 N#10": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2023 N#11": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2023 N#12": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2023 N#13": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2023 N#14": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2023 N#15": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2023 N#16": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2023 N#17": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2023 N#18": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ],
+   "case": "2023 N#18-19"
+  },
+  "2023 N#19": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ],
+   "case": "2023 N#18-19"
+  },
+  "2023 N#20": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2023 N#21": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2023 N#22": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2023 N#23": {
+   "c": [
+    "Abdomen aigu"
+   ]
+  },
+  "2023 N#24": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2023 N#25": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan d'extension du cancer du rectum, pas le foie"
+  },
+  "2023 N#26": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2023 N#27": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2023 N#28": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2023 N#29": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Réponse = cancer broncho-pulmonaire hilaire, non une masse médiastinale"
+  },
+  "2023 N#30": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2023 N#31": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2023 N#32": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2023 N#33": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2023 N#34": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2023 N#35": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2023 N#36": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2023 N#37": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2023 N#38": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2023 N#39": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2023 N#40": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2023 N#40-41"
+  },
+  "2023 N#41": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "case": "2023 N#40-41"
+  },
+  "2023 N#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2023 N#43": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "2023 N#44": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2023 N#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "case": "2023 N#45-46"
+  },
+  "2023 N#46": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ],
+   "case": "2023 N#45-46"
+  },
+  "2023 N#47": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "2023 N#48": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2023 N#48-49"
+  },
+  "2023 N#49": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2023 N#48-49"
+  },
+  "2023 N#50": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2022 N#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2022 N#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2022 N#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ],
+   "case": "2022 N#3-4",
+   "conf": "low",
+   "why": "Hémorragie méningée anévrysmale: exploration vs Imagerie des AVC"
+  },
+  "2022 N#4": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ],
+   "case": "2022 N#3-4",
+   "conf": "low",
+   "why": "Hémorragie méningée anévrysmale: exploration vs Imagerie des AVC"
+  },
+  "2022 N#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2022 N#5-6"
+  },
+  "2022 N#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2022 N#5-6"
+  },
+  "2022 N#7": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2022 N#8": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2022 N#9": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2022 N#9-10"
+  },
+  "2022 N#10": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2022 N#9-10"
+  },
+  "2022 N#11": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2022 N#11-12"
+  },
+  "2022 N#12": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2022 N#11-12"
+  },
+  "2022 N#13": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2022 N#13-16"
+  },
+  "2022 N#14": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2022 N#13-16"
+  },
+  "2022 N#15": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2022 N#13-16"
+  },
+  "2022 N#16": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2022 N#13-16"
+  },
+  "2022 N#17": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2022 N#18": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2022 N#19": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2022 N#20": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2022 N#21": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2022 N#22": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2022 N#23": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2022 N#24": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2022 N#25": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2022 N#26": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2022 N#27": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2022 N#28": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2022 N#29": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2022 N#30": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2022 N#31": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signe de Golden = atélectasie LSD sur tumeur proximale"
+  },
+  "2022 N#32": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2022 N#33": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Contre-indications de la ponction biopsie radioguidée"
+  },
+  "2022 N#34": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2022 N#35": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2022 N#36": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2022 N#37": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Colique néphrétique avec hydronéphrose, pas masse rénale"
+  },
+  "2022 N#38": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2022 N#39": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2022 N#40": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2022 N#41": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2022 N#42": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2022 N#43": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2022 N#44": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "conf": "low",
+   "why": "IRM prostatique devant dysurie; aucun cours prostate dédié"
+  },
+  "2022 N#45": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2022 N#45-46",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "GEU, douleur pelvienne gynécologique, pas obstruction urinaire"
+  },
+  "2022 N#46": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2022 N#45-46",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Échographie pelvienne devant suspicion de GEU"
+  },
+  "2022 N#47": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2022 N#47-48"
+  },
+  "2022 N#48": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2022 N#47-48"
+  },
+  "2022 N#49": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2022 N#50": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2021 N#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 N#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 N#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 N#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2021 N#4-6"
+  },
+  "2021 N#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2021 N#4-6"
+  },
+  "2021 N#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2021 N#4-6"
+  },
+  "2021 N#7": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2021 N#8": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2021 N#9": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2021 N#10": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2021 N#11": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2021 N#12": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signe de Golden = atélectasie LSD sur tumeur proximale"
+  },
+  "2021 N#13": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan d'extension du cancer bronchique"
+  },
+  "2021 N#14": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Contre-indications de la ponction biopsie radioguidée"
+  },
+  "2021 N#15": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2021 N#16": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2021 N#17": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2021 N#18": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2021 N#19": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2021 N#20": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 N#21": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 N#22": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 N#23": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 N#24": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 N#25": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2021 N#26": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ostéoblastome = tumeur bénigne"
+  },
+  "2021 N#27": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Chondroblastome = tumeur bénigne"
+  },
+  "2021 N#28": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2021 N#29": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2021 N#30": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2021 N#31": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2021 N#32": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2021 N#33": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2021 N#33-34"
+  },
+  "2021 N#34": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2021 N#33-34"
+  },
+  "2021 N#35": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ],
+   "conf": "low",
+   "why": "Cancer du rectum; partie 1 vs 2 incertaine"
+  },
+  "2021 N#36": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2021 N#36-37"
+  },
+  "2021 N#37": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2021 N#36-37"
+  },
+  "2021 N#38": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Colique néphrétique avec hydronéphrose, pas masse rénale"
+  },
+  "2021 N#39": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Colique néphrétique: uroscanner sans injection"
+  },
+  "2021 N#40": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2021 N#41": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2021 N#41-42"
+  },
+  "2021 N#42": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2021 N#41-42"
+  },
+  "2021 N#43": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2021 N#44": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2021 N#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2021 N#46": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2021 N#47": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2021 N#48": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "conf": "low",
+   "why": "IRM prostatique devant dysurie; aucun cours prostate dédié"
+  },
+  "2021 N#49": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2021 N#49-50"
+  },
+  "2021 N#50": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2021 N#49-50"
+  },
+  "2021 R#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 R#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 R#3": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2021 R#4": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2021 R#4-5"
+  },
+  "2021 R#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2021 R#4-5"
+  },
+  "2021 R#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "conf": "low",
+   "why": "HSA non traumatique; options = sémiologie des hématomes du TC"
+  },
+  "2021 R#7": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2021 R#8": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 R#9": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 R#10": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 R#11": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2021 R#12": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2021 R#13": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2021 R#14": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ostéoblastome = tumeur bénigne"
+  },
+  "2021 R#15": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2021 R#16": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2021 R#17": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2021 R#18": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2021 R#19": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2021 R#20": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2021 R#21": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2021 R#22": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2021 R#23": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2021 R#24": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2021 R#25": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signe de Golden = atélectasie LSD sur tumeur proximale"
+  },
+  "2021 R#26": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2021 R#27": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Techniques de guidage de la ponction biopsie pulmonaire"
+  },
+  "2021 R#28": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2021 R#29": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2021 R#30": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2021 R#31": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2021 R#32": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires",
+    "Imagerie des infections pulmonaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Opacité excavée: tumeur nécrosée, abcès, aspergillose, kyste hydatique"
+  },
+  "2021 R#33": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "2021 R#34": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2021 R#35": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "conf": "low",
+   "why": "IRM prostatique devant dysurie; aucun cours prostate dédié"
+  },
+  "2021 R#36": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2021 R#37": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ]
+  },
+  "2021 R#38": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2021 R#39": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2021 R#39-40"
+  },
+  "2021 R#40": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2021 R#39-40"
+  },
+  "2021 R#41": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ]
+  },
+  "2021 R#42": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2021 R#43": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2021 R#44": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ],
+   "conf": "low",
+   "why": "Cancer colique; partie 1 vs 2 incertaine"
+  },
+  "2021 R#45": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2021 R#46": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2021 R#47": {
+   "c": [
+    "Abdomen aigu"
+   ]
+  },
+  "2021 R#48": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2021 R#48-50"
+  },
+  "2021 R#49": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2021 R#48-50"
+  },
+  "2021 R#50": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2021 R#48-50"
+  },
+  "2020 N#1": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2020 N#2": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2020 N#3": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hémorragie méningée non traumatique = AVC hémorragique, pas TCE"
+  },
+  "2020 N#4": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Sémiologie de l'hémorragie méningée spontanée, pas traumatique"
+  },
+  "2020 N#5": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2020 N#6": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2020 N#7": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2020 N#8": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2020 N#9": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2020 N#10": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 N#11": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 N#12": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 N#13": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2020 N#14": {
+   "c": [
+    "Radiologie interventionnelle"
+   ]
+  },
+  "2020 N#15": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2020 N#16": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2020 N#17": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2020 N#18": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2020 N#19": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2020 N#20": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2020 N#21": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2020 N#22": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2020 N#23": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2020 N#24": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 N#25": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 N#26": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 N#27": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 N#28": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2020 N#29": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ostéoblastome = tumeur bénigne"
+  },
+  "2020 N#30": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2020 N#31": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2020 N#32": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2020 N#33": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2020 N#34": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2020 N#35": {
+   "c": [
+    "Imagerie du tube digestif 1 - techniques d'exploration et sémiologie élémentaire"
+   ]
+  },
+  "2020 N#36": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2020 N#36-38"
+  },
+  "2020 N#37": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2020 N#36-38"
+  },
+  "2020 N#38": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2020 N#36-38"
+  },
+  "2020 N#39": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2020 N#40": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2020 N#41": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2020 N#42": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "conf": "low",
+   "why": "IRM prostatique; dysurie obstructive, aucun cours prostate dédié"
+  },
+  "2020 N#43": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2020 N#44": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 N#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 N#46": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "2020 N#47": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2020 N#48": {
+   "c": [
+    "Imagerie pédiatrique - généralités"
+   ]
+  },
+  "2020 N#49": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2020 N#50": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2020 R#1": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 R#2": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 R#3": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2020 R#4": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2020 R#5": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2020 R#6": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2020 R#7": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2020 R#8": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Signe de recouvrement: masse médiastinale vs cardiomégalie"
+  },
+  "2020 R#9": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2020 R#10": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2020 R#11": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2020 R#12": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ]
+  },
+  "2020 R#13": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contre-indications de la ponction biopsie radioguidée"
+  },
+  "2020 R#14": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications des biopsies pulmonaires radioguidées"
+  },
+  "2020 R#15": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2020 R#16": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2020 R#16-17"
+  },
+  "2020 R#17": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2020 R#16-17"
+  },
+  "2020 R#18": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2020 R#18-20"
+  },
+  "2020 R#19": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2020 R#18-20"
+  },
+  "2020 R#20": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2020 R#18-20"
+  },
+  "2020 R#21": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2020 R#22": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 R#23": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2020 R#24": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Sémiologie générale bénignité (Lodwick, périoste), pas tumeur précise"
+  },
+  "2020 R#25": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ostéoblastome = tumeur bénigne"
+  },
+  "2020 R#26": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2020 R#27": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2020 R#28": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2020 R#29": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2020 R#30": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2020 R#31": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2020 R#32": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2020 R#32-34",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hémorragie méningée anévrysmale = AVC hémorragique"
+  },
+  "2020 R#33": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2020 R#32-34",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hémorragie méningée anévrysmale = AVC hémorragique"
+  },
+  "2020 R#34": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2020 R#32-34"
+  },
+  "2020 R#35": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2020 R#36": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2020 R#36-37",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hématome intraparenchymateux hypertensif, pas traumatique"
+  },
+  "2020 R#37": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2020 R#36-37",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Étiologie HTA d'un AVC hémorragique"
+  },
+  "2020 R#38": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2020 R#39": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2020 R#40": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ]
+  },
+  "2020 R#41": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2020 R#41-42"
+  },
+  "2020 R#42": {
+   "c": [
+    "Exploration radiologique du sein"
+   ],
+   "case": "2020 R#41-42"
+  },
+  "2020 R#43": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2020 R#44": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 R#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 R#46": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 R#47": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2020 R#48": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2020 R#48-49"
+  },
+  "2020 R#49": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "case": "2020 R#48-49"
+  },
+  "2020 R#50": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2019 N#1": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 N#2": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 N#3": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2019 N#4": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2019 N#5": {
+   "c": [
+    "Imagerie des infections pulmonaires",
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Syndrome cavitaire: abcès, caverne tuberculeuse et tumeur excavée"
+  },
+  "2019 N#6": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2019 N#7": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Lignes médiastinales = médiastin normal"
+  },
+  "2019 N#8": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 N#9": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 N#10": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Signe de Golden = collapsus lobaire sur tumeur hilaire"
+  },
+  "2019 N#11": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 N#12": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 N#13": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contre-indications de la biopsie scanoguidée"
+  },
+  "2019 N#14": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complications des biopsies pulmonaires radioguidées"
+  },
+  "2019 N#15": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 N#16": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 N#17": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 N#18": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 N#19": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ostéoblastome = tumeur bénigne"
+  },
+  "2019 N#20": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2019 N#21": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2019 N#22": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2019 N#23": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2019 N#24": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2019 N#25": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2019 N#26": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2019 N#27": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2019 N#27-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Hémorragie méningée spontanée (anévrysme), pas traumatique"
+  },
+  "2019 N#28": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2019 N#27-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Rupture d'anévrisme = AVC hémorragique"
+  },
+  "2019 N#29": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2019 N#30": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "2019 N#31": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2019 N#32": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2019 N#33": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2019 N#34": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2019 N#34-35"
+  },
+  "2019 N#35": {
+   "c": [
+    "Imagerie du foie"
+   ],
+   "case": "2019 N#34-35"
+  },
+  "2019 N#36": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2019 N#37": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2019 N#38": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2019 N#39": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2019 N#40": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ],
+   "conf": "low",
+   "why": "IRM prostatique; dysurie obstructive, aucun cours prostate dédié"
+  },
+  "2019 N#41": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2019 N#42": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2019 N#43": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2019 N#44": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2019 N#45": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 N#46": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sténose hypertrophique du pylore = imagerie pédiatrique"
+  },
+  "2019 N#47": {
+   "c": [
+    "Imagerie pédiatrique - généralités"
+   ]
+  },
+  "2019 N#48": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2019 N#49": {
+   "c": [
+    "Exploration radiologique du nodule du sein"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule du sein chez femme jeune"
+  },
+  "2019 N#50": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2019 R#1": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2019 R#2": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2019 R#3": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ]
+  },
+  "2019 R#4": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 R#5": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 R#6": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 R#7": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 R#8": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2019 R#8-9",
+   "conf": "low",
+   "why": "GEU suspicion; pelvic emergency, could fit pelvis féminin"
+  },
+  "2019 R#9": {
+   "c": [
+    "Exploration radiologique d'une masse pelvienne"
+   ],
+   "case": "2019 R#8-9",
+   "conf": "low",
+   "why": "GEU suspicion; pelvic emergency, could fit pelvis féminin"
+  },
+  "2019 R#10": {
+   "c": [
+    "Exploration radiologique de l'appareil urinaire"
+   ]
+  },
+  "2019 R#11": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2019 R#12": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2019 R#13": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2019 R#14": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2019 R#15": {
+   "c": [
+    "Moyens d'exploration en neuroradiologie"
+   ]
+  },
+  "2019 R#16": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2019 R#16-17"
+  },
+  "2019 R#17": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2019 R#16-17"
+  },
+  "2019 R#18": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2019 R#19": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "conf": "low",
+   "why": "HSA CT semiology; traumatic or spontaneous (AVC) context unclear"
+  },
+  "2019 R#20": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Spontaneous hémorragie méningée from aneurysm = AVC, not trauma"
+  },
+  "2019 R#21": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 R#22": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 R#23": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 R#24": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 R#25": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2019 R#26": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2019 R#27": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2019 R#28": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 R#29": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 R#30": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2019 R#31": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 R#32": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2019 R#33": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2019 R#34": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Thoracic biopsy contraindications = interventional radiology"
+  },
+  "2019 R#35": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "CT-guided biopsy complications = interventional radiology"
+  },
+  "2019 R#36": {
+   "c": [
+    "Imagerie du tube digestif 1 - techniques d'exploration et sémiologie élémentaire"
+   ]
+  },
+  "2019 R#37": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ]
+  },
+  "2019 R#38": {
+   "c": [
+    "Abdomen aigu"
+   ]
+  },
+  "2019 R#39": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Gallbladder lithiasis on ultrasound, not liver"
+  },
+  "2019 R#40": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2019 R#41": {
+   "c": [
+    "Imagerie du pancréas"
+   ]
+  },
+  "2019 R#42": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2019 R#43": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 R#44": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2019 R#45": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2019 R#46": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2019 R#47": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2019 R#48": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2019 R#49": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2019 R#50": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2018 N#1": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2018 N#2": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2018 N#3": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Thick-walled irregular cavity = bronchial cancer, not mediastinum"
+  },
+  "2018 N#4": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "case": "2018 N#4-5"
+  },
+  "2018 N#5": {
+   "c": [
+    "Imagerie des tumeurs malignes broncho-pulmonaires"
+   ],
+   "case": "2018 N#4-5"
+  },
+  "2018 N#6": {
+   "c": [
+    "Syndrome pleural"
+   ]
+  },
+  "2018 N#7": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ]
+  },
+  "2018 N#8": {
+   "c": [
+    "L'exploration radiologique du thorax"
+   ]
+  },
+  "2018 N#9": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2018 N#10": {
+   "c": [
+    "Le médiastin normal et pathologique"
+   ]
+  },
+  "2018 N#11": {
+   "c": [
+    "Syndrome alvéolaire et interstitiel"
+   ]
+  },
+  "2018 N#12": {
+   "c": [
+    "Imagerie des infections pulmonaires"
+   ]
+  },
+  "2018 N#13": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "CT-guided biopsy contraindications = interventional radiology"
+  },
+  "2018 N#14": {
+   "c": [
+    "Radiologie interventionnelle"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Lung biopsy complications = interventional radiology"
+  },
+  "2018 N#15": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2018 N#16": {
+   "c": [
+    "Imagerie du foie"
+   ]
+  },
+  "2018 N#17": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ],
+   "case": "2018 N#17-18"
+  },
+  "2018 N#18": {
+   "c": [
+    "Imagerie des voies biliaires"
+   ],
+   "case": "2018 N#17-18"
+  },
+  "2018 N#19": {
+   "c": [
+    "Imagerie du tube digestif 2"
+   ]
+  },
+  "2018 N#20": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2018 N#20-21"
+  },
+  "2018 N#21": {
+   "c": [
+    "Abdomen aigu"
+   ],
+   "case": "2018 N#20-21"
+  },
+  "2018 N#22": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2018 N#22-24"
+  },
+  "2018 N#23": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2018 N#22-24"
+  },
+  "2018 N#24": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "case": "2018 N#22-24"
+  },
+  "2018 N#25": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2018 N#25-27"
+  },
+  "2018 N#26": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2018 N#25-27"
+  },
+  "2018 N#27": {
+   "c": [
+    "Imagerie des AVC"
+   ],
+   "case": "2018 N#25-27"
+  },
+  "2018 N#28": {
+   "c": [
+    "Imagerie des AVC"
+   ]
+  },
+  "2018 N#29": {
+   "c": [
+    "Syndrome obstructif des voies urinaires",
+    "Exploration radiologique de l'appareil urinaire"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "2018 N#30": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "2018 N#31": {
+   "c": [
+    "Syndrome obstructif des voies urinaires"
+   ]
+  },
+  "2018 N#32": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2018 N#33": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2018 N#34": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2018 N#35": {
+   "c": [
+    "Syndrome de masse rénale"
+   ]
+  },
+  "2018 N#36": {
+   "c": [
+    "Exploration radiologique du pelvis féminin"
+   ]
+  },
+  "2018 N#37": {
+   "c": [
+    "Exploration radiologique du sein"
+   ]
+  },
+  "2018 N#38": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2018 N#39": {
+   "c": [
+    "Imagerie pédiatrique - applications"
+   ]
+  },
+  "2018 N#40": {
+   "c": [
+    "Syndrome bronchique et troubles de la ventilation"
+   ],
+   "conf": "low",
+   "why": "Pediatric foreign body inhalation; could fit Imagerie pédiatrique - applications"
+  },
+  "2018 N#41": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2018 N#42": {
+   "c": [
+    "Approche diagnostique d'une lésion osseuse"
+   ]
+  },
+  "2018 N#43": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2018 N#44": {
+   "c": [
+    "Les tumeurs osseuses bénignes"
+   ]
+  },
+  "2018 N#45": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2018 N#46": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2018 N#47": {
+   "c": [
+    "Les tumeurs osseuses malignes"
+   ]
+  },
+  "2018 N#48": {
+   "c": [
+    "Les ostéoarthrites 1 - ostéomyélites et ostéites"
+   ]
+  },
+  "2018 N#49": {
+   "c": [
+    "Exploration radiologique du rachis"
+   ]
+  },
+  "2018 N#50": {
+   "c": [
+    "Exploration radiologique de l'arthrose"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Common radiological signs of arthrose, not rachis exploration"
+  }
+ }
+}

@@ -1,0 +1,4068 @@
+{
+ "module": "Maladies de l'appareil locomoteur",
+ "q": {
+  "normal 2025#1": {
+   "c": [
+    "Épaule douloureuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conflit sous-acromial = rhumatologie, not traumatisme"
+  },
+  "normal 2025#2": {
+   "c": [
+    "Épaule douloureuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Capsulite rétractile = épaule douloureuse"
+  },
+  "normal 2025#3": {
+   "c": [
+    "Hanche douloureuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coxites chroniques, not bassin trauma"
+  },
+  "normal 2025#4": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "normal 2025#5": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "normal 2025#6": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "normal 2025#7": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "normal 2025#8": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "normal 2025#9": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "normal 2025#10": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "normal 2025#11": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "normal 2025#12": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "normal 2025#13": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "normal 2025#14": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "normal 2025#15": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "normal 2025#16": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "normal 2025#17": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "normal 2025#18": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "normal 2025#19": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "normal 2025#20": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "normal 2025#21": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "normal 2025#22": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "normal 2025#23": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "normal 2025#24": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "normal 2025#25": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "normal 2025#26": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "normal 2025#27": {
+   "c": [
+    "MPR et affections de l'appareil locomoteur"
+   ]
+  },
+  "normal 2025#28": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "conf": "low",
+   "why": "Évaluation de la douleur dans le bilan du handicap"
+  },
+  "normal 2025#29": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "normal 2025#30": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "normal 2025#31": {
+   "c": [
+    "Fracture de la palette humérale"
+   ]
+  },
+  "normal 2025#32": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "normal 2025#33": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Luxation rétrolunaire du carpe = poignet, not coude"
+  },
+  "normal 2025#34": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scaphoïde has its own poignet cours"
+  },
+  "normal 2025#35": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "normal 2025#36": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "normal 2025#37": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Col du fémur = ESF"
+  },
+  "normal 2025#38": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "normal 2025#39": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "normal 2025#40": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Fémur distal supracondylien: genou vs fémur"
+  },
+  "normal 2025#41": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Plateau tibial (Schatzker): genou vs jambe"
+  },
+  "normal 2025#42": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fractures trochantériennes = ESF"
+  },
+  "normal 2025#43": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "normal 2025#44": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "normal 2025#45": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "normal 2025#46": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "normal 2025#47": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "normal 2025#48": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ],
+   "case": "normal 2025#48-49",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Plaie cuisse postérieure: atteinte du nerf sciatique"
+  },
+  "normal 2025#49": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ],
+   "case": "normal 2025#48-49"
+  },
+  "normal 2025#50": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Mai 2024#1": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Extrémité distale du fémur: genou vs fémur"
+  },
+  "Mai 2024#2": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2024#3": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Col du fémur = ESF"
+  },
+  "Mai 2024#4": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Plateau tibial: genou vs jambe"
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Luxation de la hanche"
+   ]
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2024#8": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2024#9": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Mai 2024#10": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Deux os de l'avant-bras have own cours"
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Olécrane has own cours"
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scaphoïde has its own poignet cours"
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2024#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2024#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2024#20": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2024#21": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2024#29": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Mai 2024#31": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2024#42": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2024#43-46"
+  },
+  "Mai 2024#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2024#43-46"
+  },
+  "Mai 2024#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2024#43-46"
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Mai 2024#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation vers le kinésithérapeute = intervenants"
+  },
+  "Mai 2024#47": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Lésions musculaires du sportif"
+  },
+  "Mai 2024#48": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "Mai 2024#49": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Lésions musculaires du sportif"
+  },
+  "Mai 2024#50": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Extrémité distale du fémur: genou vs fémur"
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Plateau tibial: genou vs jambe"
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Monteggia = fracture de l'ulna, avant-bras"
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Fracture de la palette humérale"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scaphoïde has its own poignet cours"
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Tumeurs des parties molles"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Rachialgie inflammatoire évocatrice de spondyloarthrite"
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Juin 2024#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation vers le kinésithérapeute = intervenants"
+  },
+  "Juin 2024#47": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Lésions musculaires du sportif"
+  },
+  "Juin 2024#48": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Lésions musculaires du sportif"
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "conf": "low",
+   "why": "Orthoprothésiste: intervenant vs appareillage"
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Fractures du genou",
+    "Fracture du fémur"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Traumatisme du bassin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Fracture du cotyle relève du bassin, pas hanche"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Col du fémur = ESF, pas diaphyse"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Olécrane a son cours dédié"
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Fracture de la palette humérale"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Traumatismes du coude"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Supracondylienne enfant: coude vs palette humérale"
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Extrémité distale du radius = poignet"
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Plaies de la main"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mallet finger = lésion tendon extenseur, pas nerf"
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Extrémité supérieure de l'humérus = épaule"
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Anti-CCP: marqueur spécifique de la PR"
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Novembre 2024#43-46",
+   "conf": "low",
+   "why": "Déficience/limitation/restriction = classification du handicap"
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Novembre 2024#43-46",
+   "conf": "low",
+   "why": "Limitation d'activité = classification du handicap"
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Novembre 2024#43-46",
+   "conf": "low",
+   "why": "Restriction de participation = classification du handicap"
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Novembre 2024#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix de l'intervenant de rééducation"
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "conf": "low",
+   "why": "Professionnel confectionnant l'orthèse; vs appareillages"
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Col du fémur = ESF; même question que Nov 2024#3"
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Plateau tibial = fracture du genou, pas jambe"
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Luxation de la hanche"
+   ]
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "Traumatismes du coude"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Supracondylienne enfant: coude vs palette humérale"
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scaphoïde a son cours dédié"
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Décembre 2024#12": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Décembre 2024#13": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Olécrane a son cours dédié"
+  },
+  "Décembre 2024#14": {
+   "c": [
+    "Fracture de la palette humérale"
+   ]
+  },
+  "Décembre 2024#15": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "Tumeurs des parties molles"
+   ],
+   "case": "Décembre 2024#21-22"
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Tumeurs des parties molles"
+   ],
+   "case": "Décembre 2024#21-22"
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Épaule douloureuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Capsulite rétractile = épaule douloureuse raide"
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ]
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Vignette PR typique, anti-CCP pour confirmer"
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Anamnèse de spondyloarthrite, pas radiculalgie"
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Décembre 2024#43-46",
+   "conf": "low",
+   "why": "Déficience/limitation/restriction = classification du handicap"
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Décembre 2024#43-46",
+   "conf": "low",
+   "why": "Limitation d'activité = classification du handicap"
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Décembre 2024#43-46",
+   "conf": "low",
+   "why": "Restriction de participation = classification du handicap"
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Décembre 2024#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix de l'intervenant de rééducation"
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "MPR et affections neurologiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Paralysie cérébrale, pas tuberculose"
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Mai 2023#1": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2023#3": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Extrémité supérieure du fémur = ESF"
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Fracture de la palette humérale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Palette humérale a son cours dédié"
+  },
+  "Mai 2023#10": {
+   "c": [
+    "Traumatismes du coude"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Supracondylienne enfant, pas épaule; coude vs palette"
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Extrémité distale du radius = poignet"
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scaphoïde a son cours dédié"
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Tumeurs des parties molles"
+   ],
+   "case": "Mai 2023#21-22"
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Tumeurs des parties molles"
+   ],
+   "case": "Mai 2023#21-22"
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Radiculalgie des membres"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Névralgie cervico-brachiale C6 = radiculalgie"
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2023#33-37"
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2023#33-37"
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2023#33-37"
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2023#33-37"
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2023#33-37"
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2023#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2023#43-46",
+   "conf": "low",
+   "why": "Déficience = classification du handicap"
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2023#43-46",
+   "conf": "low",
+   "why": "Limitation d'activité = classification du handicap"
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2023#43-46",
+   "conf": "low",
+   "why": "Restriction de participation = classification du handicap"
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Mai 2023#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choix de l'intervenant de rééducation"
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Mai 2023#48": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Mai 2023#49": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Mai 2023#50": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Fractures sus/intercondyliennes = extrémité inférieure du fémur (genou)"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Luxation de la hanche"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Monteggia = fracture de l'avant-bras"
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Fracture de la palette humérale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement des fractures de la palette humérale"
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fracture du scaphoïde, not main"
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Radiculalgie des membres"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "NCB C6 par hernie discale cervicale, not nerf périphérique"
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Goutte"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cristaux en aiguilles = goutte; traitement de la crise"
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2023#43-47"
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2023#43-47"
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2023#43-47"
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Juin 2023#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation vers le kinésithérapeute = intervenants"
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Appareillages et aides techniques"
+   ],
+   "case": "Juin 2023#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Prescription d'une canne = aide technique"
+  },
+  "Juin 2023#48": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Juin 2023#49": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Lésions musculaires du sportif"
+  },
+  "Mai 2022#1": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2022#2": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2022#3": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Mai 2022#3-5"
+  },
+  "Mai 2022#4": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Mai 2022#3-5"
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Luxation de la hanche"
+   ],
+   "case": "Mai 2022#3-5"
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2022#10": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fractures de la tête radiale"
+  },
+  "Mai 2022#11": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2022#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fracture du scaphoïde"
+  },
+  "Mai 2022#13": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Extrémité inférieure du radius = poignet"
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Syndrome des loges, pas de cours dédié"
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2022#16": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2022#17": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Mai 2022#18": {
+   "c": [
+    "Tumeurs des parties molles"
+   ]
+  },
+  "Mai 2022#19": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2022#20": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Mai 2022#29": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2022#30": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Mai 2022#31": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2022#33": {
+   "c": [
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ]
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2022#36": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Mai 2022#38": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2022#39": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2022#41": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2022#42": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2022#43-47"
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2022#43-47"
+  },
+  "Mai 2022#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2022#43-47"
+  },
+  "Mai 2022#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Mai 2022#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation vers le kinésithérapeute = intervenants"
+  },
+  "Mai 2022#47": {
+   "c": [
+    "MPR et affections de l'appareil locomoteur"
+   ],
+   "case": "Mai 2022#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Objectifs de rééducation d'une lombalgie chronique"
+  },
+  "Mai 2022#48": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "conf": "low",
+   "why": "Options portent sur la sédentarité, malgré stem décubitus"
+  },
+  "Mai 2022#49": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "Mai 2022#50": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Juin 2022#1": {
+   "c": [
+    "Traumatisme du bassin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fractures du cotyle = bassin, not hanche"
+  },
+  "Juin 2022#2": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Juin 2022#3": {
+   "c": [
+    "Luxation de la hanche"
+   ]
+  },
+  "Juin 2022#4": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2022#5": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2022#6": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2022#7": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2022#8": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "case": "Juin 2022#8-12"
+  },
+  "Juin 2022#9": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "case": "Juin 2022#8-12"
+  },
+  "Juin 2022#10": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "case": "Juin 2022#8-12"
+  },
+  "Juin 2022#11": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "case": "Juin 2022#8-12"
+  },
+  "Juin 2022#12": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "case": "Juin 2022#8-12"
+  },
+  "Juin 2022#13": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Paralysie radiale complication de fracture diaphysaire humérale"
+  },
+  "Juin 2022#14": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Juin 2022#15": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Juin 2022#16": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Juin 2022#17": {
+   "c": [
+    "Tumeurs des parties molles"
+   ]
+  },
+  "Juin 2022#18": {
+   "c": [
+    "Plaies de la main"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signe de la corne = lésion des extenseurs propres, main"
+  },
+  "Juin 2022#19": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2022#20": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Juin 2022#21": {
+   "c": [
+    "Traumatisme de la cheville"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Pilon tibial et Danis Weber = cheville"
+  },
+  "Juin 2022#22": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Juin 2022#23": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2022#24": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2022#25": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Juin 2022#26": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2022#27": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Juin 2022#28": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2022#29": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2022#30": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2022#31": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Juin 2022#32": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Juin 2022#33": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2022#34": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2022#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2022#36": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2022#37": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2022#38": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2022#39": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2022#40": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2022#41": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2022#42": {
+   "c": [
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ]
+  },
+  "Juin 2022#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2022#43-47"
+  },
+  "Juin 2022#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2022#43-47"
+  },
+  "Juin 2022#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2022#43-47"
+  },
+  "Juin 2022#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Juin 2022#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Orientation vers le kinésithérapeute = intervenants"
+  },
+  "Juin 2022#47": {
+   "c": [
+    "MPR et affections de l'appareil locomoteur"
+   ],
+   "case": "Juin 2022#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Objectifs de rééducation d'une coxarthrose"
+  },
+  "Juin 2022#48": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Juin 2022#49": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Juin 2022#50": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2021#3": {
+   "c": [
+    "Traumatologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "conf": "low",
+   "why": "Fractures de fatigue: no dedicated cours"
+  },
+  "Mai 2021#4": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2021#5": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2021#6": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fracture trochantérienne = ESF, not diaphyse fémorale"
+  },
+  "Mai 2021#7": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2021#8": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2021#11": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2021#13": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Extrémité inférieure du radius = poignet, not avant-bras diaphysaire"
+  },
+  "Mai 2021#14": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Luxation péri-lunaire = carpe/poignet"
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "conf": "low",
+   "why": "Syndrome des loges: no dedicated cours, kept with avant-bras"
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2021#18": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2021#19": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2021#20": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2021#24": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Arthrose"
+   ],
+   "conf": "low",
+   "why": "Liquide mécanique differential; could be Mono-arthrite"
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2021#29": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2021#30": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2021#31": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Mai 2021#32": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2021#33": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2021#35-38"
+  },
+  "Mai 2021#36": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2021#35-38"
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2021#35-38"
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ],
+   "case": "Mai 2021#35-38"
+  },
+  "Mai 2021#39": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Mai 2021#40": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2021#41": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2021#45": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2021#45-49"
+  },
+  "Mai 2021#46": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2021#45-49"
+  },
+  "Mai 2021#47": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Mai 2021#45-49"
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Mai 2021#45-49",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choice of rehabilitation professional"
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Appareillages et aides techniques"
+   ],
+   "case": "Mai 2021#45-49",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Use of canne = aide technique"
+  },
+  "Mai 2021#50": {
+   "c": [
+    "L'activité physique et sport"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Fractures du genou",
+    "Fracture du fémur"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Les infections de la main"
+   ],
+   "case": "Juin 2021#9-13"
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Les infections de la main"
+   ],
+   "case": "Juin 2021#9-13"
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Les infections de la main"
+   ],
+   "case": "Juin 2021#9-13"
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Les infections de la main"
+   ],
+   "case": "Juin 2021#9-13"
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Les infections de la main"
+   ],
+   "case": "Juin 2021#9-13"
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "conf": "low",
+   "why": "Syndrome des loges: no dedicated cours, kept with avant-bras"
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Hanche douloureuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Étiologies des coxites = hanche douloureuse"
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Radiculalgie des membres"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Lomboradiculalgie L3 topography = radiculalgie"
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Juin 2021#36": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "PR au début, not spondyloarthrite"
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Tuberculose ostéo-articulaire"
+   ]
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2021#41-45"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2021#41-45"
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2021#41-45"
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Handicap : généralités"
+   ],
+   "case": "Juin 2021#41-45"
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ],
+   "case": "Juin 2021#41-45",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choice of rehabilitation professional"
+  },
+  "Juin 2021#46": {
+   "c": [
+    "MPR et affections de l'appareil locomoteur"
+   ],
+   "conf": "low",
+   "why": "Complications de décubitus; could be Handicap généralités"
+  },
+  "Juin 2021#47": {
+   "c": [
+    "MPR et affections neurologiques"
+   ]
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "MPR et troubles de la marche"
+   ]
+  },
+  "Juin 2020#1": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Juin 2020#2": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Juin 2020#3": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fracture du scaphoïde has its own cours"
+  },
+  "Juin 2020#4": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Juin 2020#5": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Juin 2020#6": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Juin 2020#7": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Juin 2020#7-9"
+  },
+  "Juin 2020#8": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Juin 2020#7-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Follow-up of hip trauma case, not leg fracture"
+  },
+  "Juin 2020#9": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Juin 2020#7-9"
+  },
+  "Juin 2020#10": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2020#11": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2020#12": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Juin 2020#13": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Juin 2020#14": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Juin 2020#15": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Juin 2020#16": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Humérus proximal belongs to épaule, not diaphyse/palette"
+  },
+  "Juin 2020#17": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2020#18": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2020#19": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Juin 2020#20": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Juin 2020#21": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2020#22": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2020#23": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Juin 2020#24": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2020#25": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2020#26": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Juin 2020#27": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2020#28": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Juin 2020#29": {
+   "c": [
+    "Polyarthrite rhumatoïde",
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Juin 2020#30": {
+   "c": [
+    "Lombalgies"
+   ]
+  },
+  "Juin 2020#31": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2020#32": {
+   "c": [
+    "Mono-arthrite"
+   ]
+  },
+  "Juin 2020#33": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Juin 2020#34": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Juin 2020#35": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Juin 2020#36": {
+   "c": [
+    "Algodystrophie"
+   ]
+  },
+  "Juin 2020#37": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Juin 2020#38": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2020#39": {
+   "c": [
+    "Hypercalcémies"
+   ]
+  },
+  "Juin 2020#40": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Juin 2020#41": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "Juin 2020#42": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "Juin 2020#43": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "Juin 2020#44": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "Juin 2020#45": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2020#46": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2020#47": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2020#48": {
+   "c": [
+    "Handicap : généralités"
+   ]
+  },
+  "Juin 2020#49": {
+   "c": [
+    "Principaux intervenants et techniques de rééducation et réadaptation"
+   ]
+  },
+  "Juin 2020#50": {
+   "c": [
+    "Appareillages et aides techniques"
+   ]
+  },
+  "Mai 2018#1": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2018#2": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2018#3": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2018#4": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2018#5": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2018#6": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2018#7": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2018#8": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Mai 2018#9": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2018#10": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2018#11": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2018#12": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2018#13": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2018#14": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2018#15": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2018#16": {
+   "c": [
+    "CAT devant un rhumatisme inflammatoire débutant"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Polyarthrite débutante: diagnostic précoce, échographie synovite"
+  },
+  "Mai 2018#17": {
+   "c": [
+    "Polyarthrite rhumatoïde"
+   ]
+  },
+  "Mai 2018#18": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2018#19": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fracture du scaphoïde = cours poignet, not main"
+  },
+  "Mai 2018#20": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement orthopédique fracture du scaphoïde"
+  },
+  "Mai 2018#21": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Syndrome des loges, complication générique; could be Traumatismes vasculaires"
+  },
+  "Mai 2018#22": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Luxation rétro-lunaire du carpe = traumatisme du poignet"
+  },
+  "Mai 2018#23": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2018#24": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ]
+  },
+  "Mai 2018#25": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2018#26": {
+   "c": [
+    "Fracture de la palette humérale"
+   ]
+  },
+  "Mai 2018#27": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Mai 2018#28": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2018#29": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Mai 2018#29-31"
+  },
+  "Mai 2018#30": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Mai 2018#29-31"
+  },
+  "Mai 2018#31": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ],
+   "case": "Mai 2018#29-31"
+  },
+  "Mai 2018#32": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2018#33": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2018#34": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2018#35": {
+   "c": [
+    "Fracture de l'extrémité supérieure du fémur (ESF)"
+   ]
+  },
+  "Mai 2018#36": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ]
+  },
+  "Mai 2018#37": {
+   "c": [
+    "Fracture du fémur"
+   ],
+   "conf": "low",
+   "why": "Fracture de fatigue, générique; rattachée au fémur par le topic"
+  },
+  "Mai 2018#38": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ],
+   "conf": "low",
+   "why": "Luxation du genou; risque artère poplitée, could be Traumatismes vasculaires"
+  },
+  "Mai 2018#39": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2018#40": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2018#41": {
+   "c": [
+    "Fracture de la jambe"
+   ]
+  },
+  "Mai 2018#42": {
+   "c": [
+    "Fracture du fémur"
+   ]
+  },
+  "Mai 2018#43": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2018#44": {
+   "c": [
+    "Plaies de la main"
+   ],
+   "conf": "low",
+   "why": "Diagnostic de lésion nerveuse; could be Traumatismes des nerfs périphériques"
+  },
+  "Mai 2018#45": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ]
+  },
+  "Mai 2018#46": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Mai 2018#47": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2018#48": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2018#49": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2018#50": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2017#1": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2017#2": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2017#3": {
+   "c": [
+    "Épaule douloureuse"
+   ]
+  },
+  "Mai 2017#4": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2017#5": {
+   "c": [
+    "Ostéomalacie"
+   ]
+  },
+  "Mai 2017#6": {
+   "c": [
+    "Ostéoporose"
+   ]
+  },
+  "Mai 2017#7": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2017#8": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2017#9": {
+   "c": [
+    "Radiculalgie des membres"
+   ]
+  },
+  "Mai 2017#10": {
+   "c": [
+    "Hanche douloureuse"
+   ]
+  },
+  "Mai 2017#11": {
+   "c": [
+    "Arthrose"
+   ],
+   "case": "Mai 2017#11-12"
+  },
+  "Mai 2017#12": {
+   "c": [
+    "Arthrose"
+   ],
+   "case": "Mai 2017#11-12"
+  },
+  "Mai 2017#13": {
+   "c": [
+    "Goutte"
+   ]
+  },
+  "Mai 2017#14": {
+   "c": [
+    "Arthrose"
+   ]
+  },
+  "Mai 2017#15": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2017#16": {
+   "c": [
+    "Spondylarthrite ankylosante"
+   ]
+  },
+  "Mai 2017#17": {
+   "c": [
+    "Traumatismes du coude"
+   ]
+  },
+  "Mai 2017#18": {
+   "c": [
+    "Fracture de la diaphyse humérale"
+   ]
+  },
+  "Mai 2017#19": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement orthopédique fracture du scaphoïde"
+  },
+  "Mai 2017#20": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2017#21": {
+   "c": [
+    "Fractures de la main"
+   ]
+  },
+  "Mai 2017#22": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ]
+  },
+  "Mai 2017#23": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fractures de l'extrémité inférieure du radius = poignet"
+  },
+  "Mai 2017#24": {
+   "c": [
+    "Fractures du poignet (scaphoïde)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Luxations périlunaires du carpe = traumatisme du poignet"
+  },
+  "Mai 2017#25": {
+   "c": [
+    "Fracture de l'olécrane, de la tête radiale et des deux os de l'avant-bras"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Syndrome des loges, complication générique; could be Traumatismes vasculaires"
+  },
+  "Mai 2017#26": {
+   "c": [
+    "Les infections de la main"
+   ]
+  },
+  "Mai 2017#27": {
+   "c": [
+    "Fractures du genou"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Extrémité inférieure du fémur = fracture du genou"
+  },
+  "Mai 2017#28": {
+   "c": [
+    "Pathologie abarticulaire"
+   ],
+   "conf": "low",
+   "why": "Rupture tendineuse, biomécanique du tendon"
+  },
+  "Mai 2017#29": {
+   "c": [
+    "Fractures du genou"
+   ]
+  },
+  "Mai 2017#30": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tests méniscaux (Appley, Brunet-Guedj)"
+  },
+  "Mai 2017#31": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2017#32": {
+   "c": [
+    "Traumatisme de la cheville"
+   ]
+  },
+  "Mai 2017#33": {
+   "c": [
+    "L'activité physique et sport"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Lésion musculaire du sportif; no dedicated cours"
+  },
+  "Mai 2017#34": {
+   "c": [
+    "Lésions ménisco-ligamentaires du genou"
+   ],
+   "conf": "low",
+   "why": "Luxation du genou; risque artère poplitée, could be Traumatismes vasculaires"
+  },
+  "Mai 2017#35": {
+   "c": [
+    "Fracture du fémur"
+   ],
+   "conf": "low",
+   "why": "Fracture de fatigue, générique; rattachée au fémur par le topic"
+  },
+  "Mai 2017#36": {
+   "c": [
+    "Pathologie abarticulaire"
+   ]
+  },
+  "Mai 2017#37": {
+   "c": [
+    "Fracture de la jambe"
+   ],
+   "case": "Mai 2017#37-40"
+  },
+  "Mai 2017#38": {
+   "c": [
+    "Fracture de la jambe"
+   ],
+   "case": "Mai 2017#37-40"
+  },
+  "Mai 2017#39": {
+   "c": [
+    "Fracture de la jambe"
+   ],
+   "case": "Mai 2017#37-40"
+  },
+  "Mai 2017#40": {
+   "c": [
+    "Fracture de la jambe"
+   ],
+   "case": "Mai 2017#37-40"
+  },
+  "Mai 2017#41": {
+   "c": [
+    "Traumatismes vasculaires"
+   ]
+  },
+  "Mai 2017#42": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2017#43": {
+   "c": [
+    "Tumeurs osseuses"
+   ]
+  },
+  "Mai 2017#44": {
+   "c": [
+    "Traumatisme du bassin"
+   ]
+  },
+  "Mai 2017#45": {
+   "c": [
+    "Syndrome du canal carpien"
+   ]
+  },
+  "Mai 2017#46": {
+   "c": [
+    "Traumatismes de l'épaule"
+   ]
+  },
+  "Mai 2017#47": {
+   "c": [
+    "Plaies de la main"
+   ]
+  },
+  "Mai 2017#48": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ],
+   "case": "Mai 2017#48-49"
+  },
+  "Mai 2017#49": {
+   "c": [
+    "Traumatismes des nerfs périphériques"
+   ],
+   "case": "Mai 2017#48-49"
+  },
+  "Mai 2017#50": {
+   "c": [
+    "Traumatologie"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "not_found",
+    "other_module"
+   ],
+   "why": "Traumatisme du rachis cervical sans atteinte nerveuse; no cours"
+  }
+ }
+}

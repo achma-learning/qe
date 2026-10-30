@@ -1,0 +1,4431 @@
+{
+ "module": "Neurologie - Neurochirurgie",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Les lésions sellaires et supra-sellaires"
+   ]
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2026#5": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2026#6": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Hématomes intracérébraux"
+   ],
+   "conf": "low",
+   "why": "Rupture de MAV: hématome vs hémorragie méningée"
+  },
+  "Normal 2026#8": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2026#19": {
+   "c": [
+    "Les lésions sellaires et supra-sellaires",
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Tumeurs de l'enfant: craniopharyngiome et médulloblastome"
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Gliomes hémisphériques"
+   ],
+   "conf": "low",
+   "why": "Transformation maligne: astrocytome; question générale sur tumeurs"
+  },
+  "Normal 2026#21": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Complications postopératoires crâniennes: aucun cours dédié"
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Complications postopératoires rachidiennes: aucun cours dédié"
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2026#26-29"
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2026#26-29"
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2026#26-29"
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2026#26-29"
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Démences"
+   ],
+   "case": "Normal 2026#30-32"
+  },
+  "Normal 2026#31": {
+   "c": [
+    "Démences"
+   ],
+   "case": "Normal 2026#30-32"
+  },
+  "Normal 2026#32": {
+   "c": [
+    "Démences"
+   ],
+   "case": "Normal 2026#30-32"
+  },
+  "Normal 2026#33": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Normal 2026#33-35"
+  },
+  "Normal 2026#34": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Normal 2026#33-35"
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Normal 2026#33-35"
+  },
+  "Normal 2026#36": {
+   "c": [
+    "Les AVC ischémiques"
+   ],
+   "case": "Normal 2026#36-38"
+  },
+  "Normal 2026#37": {
+   "c": [
+    "Les AVC ischémiques"
+   ],
+   "case": "Normal 2026#36-38"
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Les AVC ischémiques"
+   ],
+   "case": "Normal 2026#36-38"
+  },
+  "Normal 2026#39": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2026#39-40"
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2026#39-40"
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2026#43-44"
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2026#43-44"
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2026#45-47"
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2026#45-47"
+  },
+  "Normal 2026#47": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2026#45-47"
+  },
+  "Normal 2026#48": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2025#5-7"
+  },
+  "Normal 2025#6": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2025#5-7"
+  },
+  "Normal 2025#7": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2025#5-7"
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Gliomes hémisphériques",
+    "Méningiomes intracrâniens"
+   ],
+   "flags": [
+    "multi_topic",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Question générale sur l'âge de survenue de plusieurs tumeurs"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Gliomes hémisphériques",
+    "Méningiomes intracrâniens"
+   ],
+   "flags": [
+    "multi_topic",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Question générale sur la topographie de plusieurs tumeurs"
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications postopératoires crâniennes, pas traumatologie"
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications postopératoires rachidiennes, pas traumatologie"
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Délire mégalomaniaque + démence = paralysie générale syphilitique"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "IRM dans la neurosyphilis, pas Neuro-Behçet"
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2025#28-29"
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2025#28-29"
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2025#30-32"
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2025#30-32"
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2025#30-32"
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2025#35-36"
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2025#35-36"
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2025#37-40"
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2025#37-40"
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2025#37-40"
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ],
+   "case": "Normal 2025#37-40"
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Démences"
+   ],
+   "case": "Normal 2025#41-42"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Démences"
+   ],
+   "case": "Normal 2025#41-42"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Normal 2025#43-44"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Normal 2025#43-44"
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Céphalées"
+   ],
+   "case": "Normal 2025#45-46",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Céphalée brutale inhabituelle: démarche diagnostique, drapeaux rouges"
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Céphalées"
+   ],
+   "case": "Normal 2025#45-46",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Drapeaux rouges d'une céphalée"
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2024#1": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2024#2": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2024#3": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2024#4": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2024#5": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2024#6": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2024#7": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2024#8": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2024#9": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2024#10": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2024#11": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2024#12": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2024#13": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2024#14": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2024#14-17"
+  },
+  "Normal 2024#15": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2024#14-17"
+  },
+  "Normal 2024#16": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2024#14-17"
+  },
+  "Normal 2024#17": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Normal 2024#14-17"
+  },
+  "Normal 2024#18": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2024#19": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2024#20": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2024#21": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2024#21-23"
+  },
+  "Normal 2024#22": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2024#21-23"
+  },
+  "Normal 2024#23": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2024#21-23"
+  },
+  "Normal 2024#24": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2024#24-25"
+  },
+  "Normal 2024#25": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2024#24-25"
+  },
+  "Normal 2024#26": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2024#27": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2024#28": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2024#29": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2024#30": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2024#31": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2024#32": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2024#33": {
+   "c": [
+    "Traumatismes du rachis cervical",
+    "Traumatismes du rachis dorso-lombaire"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Lésions cervicales et luxation L5S1"
+  },
+  "Normal 2024#34": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2024#35": {
+   "c": [
+    "Méningiomes intracrâniens",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Tumeurs de l'adulte: méningiome, métastase, adénome hypophysaire"
+  },
+  "Normal 2024#36": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2024#37": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2024#38": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2024#39": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2024#40": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2024#40-41"
+  },
+  "Normal 2024#41": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2024#40-41"
+  },
+  "Normal 2024#42": {
+   "c": [
+    "Hématomes intracérébraux"
+   ],
+   "case": "Normal 2024#42-43"
+  },
+  "Normal 2024#43": {
+   "c": [
+    "Hématomes intracérébraux"
+   ],
+   "case": "Normal 2024#42-43"
+  },
+  "Normal 2024#44": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2024#45": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2024#46": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2024#47": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2024#48": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2024#49": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2024#50": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Ratt 2024#1": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Ratt 2024#2": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2024#3": {
+   "c": [
+    "Les AVC ischémiques",
+    "Neurosyphilis"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AVC ischémique sur artérite syphilitique, options include syphilis treatment"
+  },
+  "Ratt 2024#4": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2024#5": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2024#6": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2024#7": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2024#8": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2024#9": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Ratt 2024#10": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2024#11": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2024#12": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Ratt 2024#12-14"
+  },
+  "Ratt 2024#13": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Ratt 2024#12-14"
+  },
+  "Ratt 2024#14": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Ratt 2024#12-14"
+  },
+  "Ratt 2024#15": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Ratt 2024#15-17"
+  },
+  "Ratt 2024#16": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Ratt 2024#15-17"
+  },
+  "Ratt 2024#17": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Ratt 2024#15-17"
+  },
+  "Ratt 2024#18": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2024#19": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Ratt 2024#20": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Ratt 2024#20-21"
+  },
+  "Ratt 2024#21": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Ratt 2024#20-21"
+  },
+  "Ratt 2024#22": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Ratt 2024#22-24"
+  },
+  "Ratt 2024#23": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Ratt 2024#22-24"
+  },
+  "Ratt 2024#24": {
+   "c": [
+    "Syndrome myasthénique"
+   ],
+   "case": "Ratt 2024#22-24"
+  },
+  "Ratt 2024#25": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2024#26": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2024#27": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2024#28": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Ratt 2024#29": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire",
+    "Traumatismes du rachis cervical"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Lésions lombaires/dorsales et cervicales mélangées"
+  },
+  "Ratt 2024#30": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Ratt 2024#31": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Médulloblastome (FCP) et craniopharyngiome (sellaire)"
+  },
+  "Ratt 2024#32": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2024#33": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Ratt 2024#34": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2024#35": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Ratt 2024#36": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications post-craniotomie, pas de cours dédié; pas traumatique"
+  },
+  "Ratt 2024#37": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications chirurgie rachidienne, pas de cours dédié; pas traumatique"
+  },
+  "Ratt 2024#38": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Ratt 2024#39": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2024#40": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2024#41": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Ratt 2024#42": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Ratt 2024#43": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Ratt 2024#44": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Ratt 2024#45": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2024#46": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Ratt 2024#47": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2024#48": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2024#49": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2024#50": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications post-craniotomie, pas de cours dédié; pas traumatique"
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications chirurgie rachidienne, pas de cours dédié; pas traumatique"
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Médulloblastome (FCP) et craniopharyngiome (sellaire)"
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Octobre 2024#26-29"
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Octobre 2024#26-29"
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Octobre 2024#26-29"
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Octobre 2024#26-29"
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Octobre 2024#34-35"
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Octobre 2024#34-35"
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Octobre 2024#36-38"
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Octobre 2024#36-38"
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Octobre 2024#36-38"
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Octobre 2024#39-41"
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Octobre 2024#39-41"
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Octobre 2024#39-41"
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Les AVC ischémiques",
+    "Neurosyphilis"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "AVC ischémique sur artérite syphilitique, options include syphilis treatment"
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Localisation sus/sous-tentorielle de plusieurs tumeurs, pas de cours unique"
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications post-craniotomie, pas de cours dédié; pas traumatique"
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Complications chirurgie rachidienne, pas de cours dédié; pas traumatique"
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Médulloblastome (FCP) et craniopharyngiome (sellaire)"
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Novembre 2024#26-29"
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Novembre 2024#26-29"
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Novembre 2024#26-29"
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Novembre 2024#26-29"
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Novembre 2024#34-35"
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Novembre 2024#34-35"
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Novembre 2024#36-38"
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Novembre 2024#36-38"
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Novembre 2024#36-38"
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Novembre 2024#39-41"
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Novembre 2024#39-41"
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Novembre 2024#39-41"
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2023#1": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2023#2": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2023#3": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2023#4": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2023#5": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2023#6": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2023#7": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2023#8": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2023#9": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2023#10": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2023#11": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2023#12": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2023#13": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2023#14": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2023#14-15"
+  },
+  "Normal 2023#15": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2023#14-15"
+  },
+  "Normal 2023#16": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2023#17": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2023#18": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2023#18-19"
+  },
+  "Normal 2023#19": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2023#18-19"
+  },
+  "Normal 2023#20": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Guillain-Barré = neuropathie, not neurochir guesses"
+  },
+  "Normal 2023#21": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2023#22": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2023#22-23"
+  },
+  "Normal 2023#23": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2023#22-23"
+  },
+  "Normal 2023#24": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2023#24-25"
+  },
+  "Normal 2023#25": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2023#24-25"
+  },
+  "Normal 2023#26": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2023#27": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2023#28": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2023#29": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2023#30": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2023#31": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "General tumour topography sus/sous-tentoriel; no generic tumour cours"
+  },
+  "Normal 2023#32": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2023#33": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2023#34": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2023#35": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2023#36": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2023#37": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2023#38": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2023#39": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2023#40": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2023#41": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2023#42": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2023#43": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2023#44": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2023#45": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2023#46": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2023#47": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2023#48": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2023#49": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2023#50": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2022#1": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2022#2": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2022#3": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2022#4": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2022#5": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2022#6": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2022#7": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2022#8": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2022#9": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2022#10": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2022#11": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2022#12": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2022#12-13"
+  },
+  "Normal 2022#13": {
+   "c": [
+    "Neurosyphilis"
+   ],
+   "case": "Normal 2022#12-13"
+  },
+  "Normal 2022#14": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2022#14-15"
+  },
+  "Normal 2022#15": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2022#14-15",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Follow-up of myopathy case (ENMG, CK), not neurochir"
+  },
+  "Normal 2022#16": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diabetic polyneuropathy, not neurochir guesses"
+  },
+  "Normal 2022#17": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2022#18": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2022#19": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Polyradiculoneuropathy semiology, not neurochir guesses"
+  },
+  "Normal 2022#20": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2022#21": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Small-fibre neuropathy, not neurochir guesses"
+  },
+  "Normal 2022#22": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2022#22-23"
+  },
+  "Normal 2022#23": {
+   "c": [
+    "Neuro-Behçet"
+   ],
+   "case": "Normal 2022#22-23"
+  },
+  "Normal 2022#24": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2022#24-25"
+  },
+  "Normal 2022#25": {
+   "c": [
+    "Maladie de Parkinson"
+   ],
+   "case": "Normal 2022#24-25"
+  },
+  "Normal 2022#26": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2022#27": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2022#28": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2022#29": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2022#30": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2022#31": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2022#32": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2022#33": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2022#34": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2022#35": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2022#36": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2022#37": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2022#38": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2022#39": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2022#40": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2022#41": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2022#42": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2022#43": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2022#44": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Médulloblastome (FCP) and craniopharyngiome (sellaire)"
+  },
+  "Normal 2022#45": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "General tumour topography sus/sous-tentoriel; no generic tumour cours"
+  },
+  "Normal 2022#46": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2022#47": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2022#48": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2022#49": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Post-op cranial complications; no dedicated cours"
+  },
+  "Normal 2022#50": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Post-op spinal complications; no dedicated cours"
+  },
+  "Normal 2021#1": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2021#1-2"
+  },
+  "Normal 2021#2": {
+   "c": [
+    "Myopathies"
+   ],
+   "case": "Normal 2021#1-2"
+  },
+  "Normal 2021#3": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2021#4": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2021#5": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2021#6": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2021#7": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2021#8": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2021#9": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2021#9-10",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Guillain-Barré = neuropathie, not neurochir guesses"
+  },
+  "Normal 2021#10": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2021#9-10",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Guillain-Barré work-up, not neurochir guesses"
+  },
+  "Normal 2021#11": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2021#12": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2021#13": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2021#14": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2021#15": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2021#16": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2021#17": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2021#18": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2021#19": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2021#20": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2021#21": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Normal 2021#22": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2021#23": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2021#24": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2021#25": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2021#26": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2021#27": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2021#28": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2021#29": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2021#30": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2021#31": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)",
+    "Les lésions sellaires et supra-sellaires"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Médulloblastome (FCP) and craniopharyngiome (sellaire)"
+  },
+  "Normal 2021#32": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "General tumour topography sus/sous-tentoriel; no generic tumour cours"
+  },
+  "Normal 2021#33": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2021#34": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2021#35": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2021#36": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Post-op spinal complications; no dedicated cours"
+  },
+  "Normal 2021#37": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Post-op cranial complications; no dedicated cours"
+  },
+  "Normal 2021#38": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2021#39": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2021#40": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2021#41": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2021#41-43"
+  },
+  "Normal 2021#42": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2021#41-43"
+  },
+  "Normal 2021#43": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2021#41-43"
+  },
+  "Normal 2021#44": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2021#45": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2021#46": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2021#47": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2021#48": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2021#49": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2021#50": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2020#1": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2020#2": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2020#3": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2020#4": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2020#5": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2020#6": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General epidemiology across several tumor cours"
+  },
+  "Normal 2020#7": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2020#8": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2020#9": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Normal 2020#10": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2020#11": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2020#12": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Generic postoperative spine complications, no specific cours"
+  },
+  "Normal 2020#13": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Generic postoperative cranial complications, no specific cours"
+  },
+  "Normal 2020#14": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2020#15": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2020#16": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2020#17": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2020#18": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2020#19": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2020#20": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2020#21": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2020#22": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2020#23": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2020#24": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2020#25": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2020#26": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Normal 2020#27": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2020#28": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2020#29": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2020#30": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2020#31": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2020#32": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2020#33": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2020#34": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2020#35": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2020#36": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2020#37": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2020#38": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2020#39": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2020#40": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2020#41": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2020#42": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2020#43": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2020#44": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2020#45": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2020#46": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Guillain-Barré (PRNA), not cerebellar ataxia"
+  },
+  "Normal 2020#47": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2020#48": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2020#49": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2020#50": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2019#1": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2019#2": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2019#3": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2019#4": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2019#5": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2019#6": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2019#7": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "conf": "low",
+   "why": "Pediatric tumors; answer is médulloblastome (FCP)"
+  },
+  "Normal 2019#8": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General supratentorial tumor location across several cours"
+  },
+  "Normal 2019#9": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2019#10": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Normal 2019#11": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2019#12": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2019#13": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Generic postoperative cranial complications, no specific cours"
+  },
+  "Normal 2019#14": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2019#15": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2019#16": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2019#17": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2019#18": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2019#19": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2019#20": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2019#21": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2019#22": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2019#23": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2019#24": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2019#25": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2019#26": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2019#27": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR of tuberculous meningitis, not syphilis/Behçet"
+  },
+  "Normal 2019#28": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2019#29": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2019#30": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2019#31": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2019#32": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2019#33": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2019#34": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2019#35": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2019#36": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2019#37": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2019#38": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2019#38-39"
+  },
+  "Normal 2019#39": {
+   "c": [
+    "Neuropathies périphériques"
+   ],
+   "case": "Normal 2019#38-39"
+  },
+  "Normal 2019#40": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2019#41": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2019#42": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2019#43": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2019#44": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2019#45": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2019#46": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2019#47": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2019#48": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Normal 2019#49": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Normal 2019#50": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2019#1": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2019#2": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2019#3": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Ratt 2019#4": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Ratt 2019#5": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Ratt 2019#6": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Ratt 2019#7": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Adult tumor epidemiology, not malformation; spans several cours"
+  },
+  "Ratt 2019#8": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2019#9": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Ratt 2019#10": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Ratt 2019#11": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2019#12": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Ratt 2019#13": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire",
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found",
+    "harmonized"
+   ],
+   "why": "Generic postoperative spine complications, no specific cours"
+  },
+  "Ratt 2019#14": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Ratt 2019#15": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Ratt 2019#16": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Ratt 2019#17": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Ratt 2019#18": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2019#19": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2019#20": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Ratt 2019#21": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2019#22": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2019#23": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2019#24": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Ratt 2019#25": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Ratt 2019#26": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Ratt 2019#27": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2019#28": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2019#29": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Ratt 2019#30": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Ratt 2019#31": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2019#32": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR of tuberculous meningitis, not syphilis/Behçet"
+  },
+  "Ratt 2019#33": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2019#34": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Ratt 2019#35": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Ratt 2019#36": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Ratt 2019#37": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2019#38": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2019#39": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Ratt 2019#40": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Ratt 2019#41": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2019#42": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2019#43": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2019#44": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2019#45": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Ratt 2019#45-47"
+  },
+  "Ratt 2019#46": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Ratt 2019#45-47"
+  },
+  "Ratt 2019#47": {
+   "c": [
+    "Épilepsie"
+   ],
+   "case": "Ratt 2019#45-47"
+  },
+  "Ratt 2019#48": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2019#49": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2019#50": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2018#1": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2018#2": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2018#3": {
+   "c": [
+    "Sclérose en plaques (SEP)",
+    "Neuro-Behçet"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "IRM comparison SEP vs Neurobehçet"
+  },
+  "Normal 2018#4": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2018#5": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2018#6": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2018#7": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2018#8": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2018#9": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2018#10": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2018#11": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2018#12": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2018#13": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2018#14": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2018#15": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2018#16": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2018#17": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2018#18": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2018#19": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neurotuberculose, not neurosyphilis/Behçet"
+  },
+  "Normal 2018#20": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR of tuberculous meningitis"
+  },
+  "Normal 2018#21": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2018#22": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2018#23": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2018#24": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2018#25": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Normal 2018#26": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2018#27": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2018#28": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2018#29": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2018#30": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2018#31": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2018#32": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2018#33": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2018#34": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2018#35": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2018#36": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Intraventricular tumors, no dedicated cours"
+  },
+  "Normal 2018#37": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2018#38": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2018#39": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Normal 2018#40": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2018#41": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2018#42": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Normal 2018#43": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2018#44": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ]
+  },
+  "Normal 2018#45": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Normal 2018#46": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Normal 2018#47": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2018#48": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "case": "Normal 2018#48-50"
+  },
+  "Normal 2018#49": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "case": "Normal 2018#48-50"
+  },
+  "Normal 2018#50": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "case": "Normal 2018#48-50"
+  },
+  "Ratt 2018#1": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2018#2": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Ratt 2018#2-4"
+  },
+  "Ratt 2018#3": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Ratt 2018#2-4"
+  },
+  "Ratt 2018#4": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Ratt 2018#2-4"
+  },
+  "Ratt 2018#5": {
+   "c": [
+    "Syndrome de la queue de cheval"
+   ]
+  },
+  "Ratt 2018#6": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Ratt 2018#7": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2018#8": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2018#9": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2018#10": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Ratt 2018#11": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Ratt 2018#12": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Ratt 2018#13": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2018#14": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2018#15": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Ratt 2018#16": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Ratt 2018#17": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Ratt 2018#18": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Ratt 2018#19": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2018#20": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "General adult brain tumor epidemiology, several tumor cours"
+  },
+  "Ratt 2018#21": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Intraventricular tumors, no dedicated cours"
+  },
+  "Ratt 2018#22": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Ratt 2018#23": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Ratt 2018#24": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Ratt 2018#25": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Ratt 2018#26": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Ratt 2018#27": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Ratt 2018#28": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2018#29": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2018#30": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Ratt 2018#31": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Ratt 2018#32": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Ratt 2018#33": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2018#34": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2018#35": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neurotuberculose, not neurosyphilis/Behçet"
+  },
+  "Ratt 2018#36": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Ratt 2018#37": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2018#38": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Ratt 2018#39": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Ratt 2018#40": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2018#41": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2018#42": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2018#43": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2018#44": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2018#45": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2018#46": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Ratt 2018#47": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Ratt 2018#48": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2018#49": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2018#50": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2017#1": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Normal 2017#2": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2017#3": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Normal 2017#4": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Normal 2017#5": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2017#6": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2017#7": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Normal 2017#8": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Neurotuberculose, not neurosyphilis/Behçet"
+  },
+  "Normal 2017#9": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR of tuberculous meningitis"
+  },
+  "Normal 2017#10": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2017#11": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Normal 2017#12": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2017#13": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2017#14": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Normal 2017#15": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2017#16": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Normal 2017#17": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Normal 2017#18": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2017#19": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2017#20": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Normal 2017#21": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Normal 2017#22": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2017#23": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Normal 2017#24": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Normal 2017#25": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Normal 2017#26": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Normal 2017#27": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2017#27-28"
+  },
+  "Normal 2017#28": {
+   "c": [
+    "L'hémorragie spontanée des méninges"
+   ],
+   "case": "Normal 2017#27-28"
+  },
+  "Normal 2017#29": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Normal 2017#30": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Normal 2017#31": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2017#32": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Normal 2017#33": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Normal 2017#34": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Normal 2017#35": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Normal 2017#36": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2017#37": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2017#38": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Normal 2017#39": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Normal 2017#40": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Normal 2017#41": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Normal 2017#42": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Normal 2017#43": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2017#44": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Normal 2017#45": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2017#46": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2017#47": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Normal 2017#48": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Normal 2017#49": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Normal 2017#50": {
+   "c": [
+    "Neurochirurgie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Intraventricular tumors, no dedicated cours"
+  },
+  "Ratt 2017#1": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2017#2": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2017#3": {
+   "c": [
+    "Traumatismes crânio-encéphaliques"
+   ]
+  },
+  "Ratt 2017#4": {
+   "c": [
+    "Traumatismes du rachis cervical"
+   ]
+  },
+  "Ratt 2017#5": {
+   "c": [
+    "Traumatismes du rachis dorso-lombaire"
+   ]
+  },
+  "Ratt 2017#6": {
+   "c": [
+    "Craniosténoses"
+   ]
+  },
+  "Ratt 2017#7": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2017#8": {
+   "c": [
+    "Hydrocéphalie"
+   ]
+  },
+  "Ratt 2017#9": {
+   "c": [
+    "Spina bifida"
+   ]
+  },
+  "Ratt 2017#10": {
+   "c": [
+    "Malformation de la charnière cranio-cervicale"
+   ]
+  },
+  "Ratt 2017#11": {
+   "c": [
+    "Hydatidose cérébrale et vertébro-médullaire"
+   ]
+  },
+  "Ratt 2017#12": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ]
+  },
+  "Ratt 2017#13": {
+   "c": [
+    "Les lésions sellaires et supra-sellaires"
+   ]
+  },
+  "Ratt 2017#14": {
+   "c": [
+    "Méningiomes intracrâniens"
+   ]
+  },
+  "Ratt 2017#15": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2017#16": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ]
+  },
+  "Ratt 2017#17": {
+   "c": [
+    "Gliomes hémisphériques"
+   ]
+  },
+  "Ratt 2017#18": {
+   "c": [
+    "Tumeurs de la fosse cérébrale postérieure (FCP)"
+   ],
+   "conf": "low",
+   "why": "Kyste épidermoïde de l'angle ponto-cérébelleux, pas de cours dédié"
+  },
+  "Ratt 2017#19": {
+   "c": [
+    "Les lésions sellaires et supra-sellaires"
+   ]
+  },
+  "Ratt 2017#20": {
+   "c": [
+    "Métastases cérébrales"
+   ]
+  },
+  "Ratt 2017#21": {
+   "c": [
+    "Sciatique par hernie discale"
+   ]
+  },
+  "Ratt 2017#22": {
+   "c": [
+    "Hématomes intracérébraux"
+   ]
+  },
+  "Ratt 2017#23": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2017#24": {
+   "c": [
+    "Syndrome de compression médullaire"
+   ]
+  },
+  "Ratt 2017#25": {
+   "c": [
+    "Suppuration intracrânienne"
+   ]
+  },
+  "Ratt 2017#26": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2017#27": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2017#28": {
+   "c": [
+    "Sclérose latérale amyotrophique"
+   ]
+  },
+  "Ratt 2017#29": {
+   "c": [
+    "Syndrome myasthénique"
+   ]
+  },
+  "Ratt 2017#30": {
+   "c": [
+    "Neuropathies périphériques"
+   ]
+  },
+  "Ratt 2017#31": {
+   "c": [
+    "Myopathies"
+   ]
+  },
+  "Ratt 2017#32": {
+   "c": [
+    "Tuberculose du système nerveux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR de méningite tuberculeuse, pas neurosyphilis ni Behçet"
+  },
+  "Ratt 2017#33": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2017#34": {
+   "c": [
+    "Sclérose en plaques (SEP)"
+   ]
+  },
+  "Ratt 2017#35": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Ratt 2017#36": {
+   "c": [
+    "Ataxie cérébelleuse"
+   ]
+  },
+  "Ratt 2017#37": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2017#38": {
+   "c": [
+    "Les AVC ischémiques"
+   ]
+  },
+  "Ratt 2017#39": {
+   "c": [
+    "Maladie de Parkinson"
+   ]
+  },
+  "Ratt 2017#40": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Ratt 2017#41": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2017#42": {
+   "c": [
+    "Démences"
+   ]
+  },
+  "Ratt 2017#43": {
+   "c": [
+    "Troubles du sommeil"
+   ]
+  },
+  "Ratt 2017#44": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2017#45": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2017#46": {
+   "c": [
+    "Céphalées"
+   ]
+  },
+  "Ratt 2017#47": {
+   "c": [
+    "Épilepsie"
+   ]
+  },
+  "Ratt 2017#48": {
+   "c": [
+    "Neuro-Behçet"
+   ]
+  },
+  "Ratt 2017#49": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  },
+  "Ratt 2017#50": {
+   "c": [
+    "Neurosyphilis"
+   ]
+  }
+ }
+}

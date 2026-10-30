@@ -1,0 +1,15 @@
+{
+ "_README": "Per-module notes printed in the classify-prep.js worksheets, for curriculum cours whose name doesn't say what they cover. Settle a question once here instead of letting each classifier guess.",
+ "s5-pharmacologie": [
+  "Antithrombotiques 1 = antiagrégants plaquettaires (aspirine, clopidogrel, prasugrel, ticagrélor…).",
+  "Antithrombotiques 2 = anticoagulants (héparines HNF/HBPM, fondaparinux, AVK, AOD : apixaban, rivaroxaban…), INR/TCA/anti-Xa monitoring.",
+  "Antithrombotiques 3 = fibrinolytiques / thrombolytiques.",
+  "The \"toxico pharma\" exam has no cours in this module: give its questions {\"keep\": \"topic\"} instead of a cours."
+ ],
+ "s10-sante-publique": [
+  "The split between \"Concepts de base en santé publique (partie 1)\" and \"(partie 2)\" is unknown: every question on those basic concepts gets both parts."
+ ],
+ "s5-anatomie-pathologique": [
+  "The split between \"Techniques en anatomie pathologique - partie 1\" and \"partie 2\" is unknown: every techniques question gets both parts."
+ ]
+}

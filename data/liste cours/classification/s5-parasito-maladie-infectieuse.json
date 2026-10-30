@@ -1,0 +1,3562 @@
+{
+ "module": "Parasitologie - Mycologie - Maladies infectieuses",
+ "q": {
+  "janvier 2026#1": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "janvier 2026#1-3"
+  },
+  "janvier 2026#2": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "janvier 2026#1-3"
+  },
+  "janvier 2026#3": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "janvier 2026#1-3"
+  },
+  "janvier 2026#4": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "janvier 2026#4-5"
+  },
+  "janvier 2026#5": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "janvier 2026#4-5"
+  },
+  "janvier 2026#6": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ACT treatment of imported malaria, not herpetic encephalitis"
+  },
+  "janvier 2026#7": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "janvier 2026#8": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "janvier 2026#9": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "janvier 2026#10": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "janvier 2026#11": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "janvier 2026#12": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "janvier 2026#13": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "janvier 2026#14": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "janvier 2026#15": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "janvier 2026#16": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "janvier 2026#17": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "janvier 2026#18": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "janvier 2026#19": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "janvier 2026#20": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "janvier 2026#21": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "janvier 2026#22": {
+   "c": [
+    "Borrélioses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Erythème migrant = maladie de Lyme (borréliose)"
+  },
+  "janvier 2026#23": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "janvier 2026#24": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "janvier 2026#25": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "janvier 2026#26": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "janvier 2026#27": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "janvier 2026#28": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "janvier 2026#29": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "janvier 2026#30": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "janvier 2026#31": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "janvier 2026#32": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "janvier 2026#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "janvier 2026#34": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "janvier 2026#35": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "janvier 2026#36": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "janvier 2026#37": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "janvier 2026#38": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "janvier 2026#39": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "janvier 2026#40": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "janvier 2026#41": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "janvier 2026#42": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "janvier 2026#43": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "janvier 2026#44": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "janvier 2026#45": {
+   "c": [
+    "Mycologie médicale - introduction et généralités"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Mycological culture media = mycology generalities"
+  },
+  "janvier 2026#46": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Candida is a yeast, not filamentous fungus"
+  },
+  "janvier 2026#47": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Superficial candidiasis risk factors = levuroses"
+  },
+  "janvier 2026#48": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Cryptococcal meningoencephalitis = yeast infection, tagged VIH"
+  },
+  "janvier 2026#49": {
+   "c": [
+    "Levures et levuroses",
+    "Les mycoses à champignons filamenteux"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Compares Candida vs dermatophyte onychomycoses"
+  },
+  "janvier 2026#50": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "Janvier 2025#1": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "Janvier 2025#1-4"
+  },
+  "Janvier 2025#2": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "Janvier 2025#1-4"
+  },
+  "Janvier 2025#3": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "Janvier 2025#1-4"
+  },
+  "Janvier 2025#4": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "Janvier 2025#1-4"
+  },
+  "Janvier 2025#5": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "Janvier 2025#6": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "Janvier 2025#7": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "Janvier 2025#8": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "Janvier 2025#9": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "Janvier 2025#10": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "Janvier 2025#11": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "Janvier 2025#12": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "Janvier 2025#13": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "Janvier 2025#14": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "Janvier 2025#15": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "Janvier 2025#16": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "Janvier 2025#17": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "Janvier 2025#18": {
+   "c": [
+    "Bilharzioses"
+   ]
+  },
+  "Janvier 2025#19": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "Janvier 2025#20": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "Janvier 2025#21": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "Janvier 2025#22": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "Janvier 2025#23": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "Janvier 2025#24": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "Janvier 2025#25": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "Janvier 2025#26": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "Janvier 2025#27": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "Janvier 2025#28": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "Janvier 2025#29": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ],
+   "case": "Janvier 2025#29-31"
+  },
+  "Janvier 2025#30": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ],
+   "case": "Janvier 2025#29-31"
+  },
+  "Janvier 2025#31": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ],
+   "case": "Janvier 2025#29-31"
+  },
+  "Janvier 2025#32": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "Janvier 2025#32-33"
+  },
+  "Janvier 2025#33": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "Janvier 2025#32-33"
+  },
+  "Janvier 2025#34": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ]
+  },
+  "Janvier 2025#35": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "Janvier 2025#35-36"
+  },
+  "Janvier 2025#36": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "Janvier 2025#35-36"
+  },
+  "Janvier 2025#37": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "Janvier 2025#37-40"
+  },
+  "Janvier 2025#38": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "Janvier 2025#37-40"
+  },
+  "Janvier 2025#39": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "Janvier 2025#37-40"
+  },
+  "Janvier 2025#40": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "Janvier 2025#37-40"
+  },
+  "Janvier 2025#41": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "Janvier 2025#41-43"
+  },
+  "Janvier 2025#42": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "Janvier 2025#41-43"
+  },
+  "Janvier 2025#43": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "Janvier 2025#41-43"
+  },
+  "Janvier 2025#44": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "Janvier 2025#45": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "Janvier 2025#46": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "Janvier 2025#47": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "Janvier 2025#48": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "Janvier 2025#49": {
+   "c": [
+    "Les infections à streptocoques"
+   ]
+  },
+  "Janvier 2025#50": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2024 N#1": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 N#1-2"
+  },
+  "2024 N#2": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 N#1-2"
+  },
+  "2024 N#3": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2024 N#4": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 N#4-5"
+  },
+  "2024 N#5": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 N#4-5"
+  },
+  "2024 N#6": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2024 N#7": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ],
+   "case": "2024 N#7-9"
+  },
+  "2024 N#8": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ],
+   "case": "2024 N#7-9"
+  },
+  "2024 N#9": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ],
+   "case": "2024 N#7-9"
+  },
+  "2024 N#10": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2024 N#11": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2024 N#12": {
+   "c": [
+    "Les infections à staphylocoques"
+   ]
+  },
+  "2024 N#13": {
+   "c": [
+    "Maladies infectieuses"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Gram-negative bacteremia has no dedicated cours"
+  },
+  "2024 N#14": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 N#14-16"
+  },
+  "2024 N#15": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 N#14-16"
+  },
+  "2024 N#16": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 N#14-16"
+  },
+  "2024 N#17": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2024 N#18": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2024 N#18-19"
+  },
+  "2024 N#19": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2024 N#18-19"
+  },
+  "2024 N#20": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2024 N#21": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 N#22": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 N#23": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2024 N#24": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2024 N#25": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2024 N#26": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2024 N#27": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2024 N#28": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2024 N#29": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2024 N#30": {
+   "c": [
+    "Amibes et amibiases",
+    "Flagelloses digestives et urogénitales"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "conf": "low",
+   "why": "Fecal-peril protozoa across amibes, flagellés, cryptosporidies"
+  },
+  "2024 N#31": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 N#32": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 N#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 N#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 N#35": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 N#36": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 N#37": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 N#38": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "2024 N#39": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Answers Cryptococcus and Candida = opportunistic yeasts"
+  },
+  "2024 N#40": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 N#41": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 N#42": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 N#43": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2024 N#44": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2024 N#45": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2024 N#46": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2024 N#47": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Aspergillus is a filamentous fungus, not a yeast"
+  },
+  "2024 N#48": {
+   "c": [
+    "Trématodes - distomatoses (les douves)"
+   ]
+  },
+  "2024 N#49": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 N#50": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "2024 R#1": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2024 R#2": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2024 R#3": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2024 R#3-4"
+  },
+  "2024 R#4": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2024 R#3-4",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Classification CDC du VIH, not meningitis"
+  },
+  "2024 R#5": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2024 R#6": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2024 R#7": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 R#8": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 R#9": {
+   "c": [
+    "Rickettsioses - fièvre Q",
+    "Borrélioses"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Tick-borne: FBM and Lyme disease"
+  },
+  "2024 R#10": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2024 R#11": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2024 R#12": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 R#12-15"
+  },
+  "2024 R#13": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 R#12-15"
+  },
+  "2024 R#14": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 R#12-15"
+  },
+  "2024 R#15": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 R#12-15"
+  },
+  "2024 R#16": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2024 R#17": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2024 R#18": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2024 R#19": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2024 R#20": {
+   "c": [
+    "Les infections à staphylocoques"
+   ]
+  },
+  "2024 R#21": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 R#21-22"
+  },
+  "2024 R#22": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 R#21-22"
+  },
+  "2024 R#23": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2024 R#24": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 R#24-25"
+  },
+  "2024 R#25": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 R#24-25"
+  },
+  "2024 R#26": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2024 R#27": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2024 R#28": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2024 R#29": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2024 R#30": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ],
+   "conf": "low",
+   "why": "Péril fécal transmission across parasitoses; answer is amoebose"
+  },
+  "2024 R#31": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 R#32": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 R#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 R#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 R#35": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 R#36": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 R#37": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 R#38": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "2024 R#39": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 R#40": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 R#41": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2024 R#42": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2024 R#43": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 R#44": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 R#45": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2024 R#46": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2024 R#47": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2024 R#48": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 R#49": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 R#50": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 Exceptionnel#1": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 Exceptionnel#1-2"
+  },
+  "2024 Exceptionnel#2": {
+   "c": [
+    "La méningo-encéphalite herpétique"
+   ],
+   "case": "2024 Exceptionnel#1-2"
+  },
+  "2024 Exceptionnel#3": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2024 Exceptionnel#4": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 Exceptionnel#4-6"
+  },
+  "2024 Exceptionnel#5": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 Exceptionnel#4-6"
+  },
+  "2024 Exceptionnel#6": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2024 Exceptionnel#4-6"
+  },
+  "2024 Exceptionnel#7": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2024 Exceptionnel#8": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2024 Exceptionnel#9": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 Exceptionnel#9-10"
+  },
+  "2024 Exceptionnel#10": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2024 Exceptionnel#9-10"
+  },
+  "2024 Exceptionnel#11": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2024 Exceptionnel#12": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2024 Exceptionnel#13": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2024 Exceptionnel#14": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2024 Exceptionnel#14-15"
+  },
+  "2024 Exceptionnel#15": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2024 Exceptionnel#14-15"
+  },
+  "2024 Exceptionnel#16": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2024 Exceptionnel#17": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2024 Exceptionnel#18": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 Exceptionnel#19": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2024 Exceptionnel#20": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2024 Exceptionnel#20-23"
+  },
+  "2024 Exceptionnel#21": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2024 Exceptionnel#20-23"
+  },
+  "2024 Exceptionnel#22": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2024 Exceptionnel#20-23"
+  },
+  "2024 Exceptionnel#23": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "case": "2024 Exceptionnel#20-23",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Management of confirmed tuberculous meningitis"
+  },
+  "2024 Exceptionnel#24": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2024 Exceptionnel#25": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2024 Exceptionnel#26": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ],
+   "conf": "low",
+   "why": "Péril fécal transmission across parasitoses; answer is amibiase"
+  },
+  "2024 Exceptionnel#27": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2024 Exceptionnel#28": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2024 Exceptionnel#29": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2024 Exceptionnel#30": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2024 Exceptionnel#31": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 Exceptionnel#32": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2024 Exceptionnel#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 Exceptionnel#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 Exceptionnel#35": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2024 Exceptionnel#36": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 Exceptionnel#37": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2024 Exceptionnel#38": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "2024 Exceptionnel#39": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 Exceptionnel#40": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 Exceptionnel#41": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2024 Exceptionnel#42": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hepatic involvement = Entamoeba histolytica, not oxyure"
+  },
+  "2024 Exceptionnel#43": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 Exceptionnel#44": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2024 Exceptionnel#45": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2024 Exceptionnel#46": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2024 Exceptionnel#47": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2024 Exceptionnel#48": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 Exceptionnel#49": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2024 Exceptionnel#50": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2023 N#1": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2023 N#1-4"
+  },
+  "2023 N#2": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2023 N#1-4"
+  },
+  "2023 N#3": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2023 N#1-4"
+  },
+  "2023 N#4": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2023 N#1-4"
+  },
+  "2023 N#5": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2023 N#6": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2023 N#7": {
+   "c": [
+    "COVID-19"
+   ],
+   "case": "2023 N#7-9"
+  },
+  "2023 N#8": {
+   "c": [
+    "COVID-19"
+   ],
+   "case": "2023 N#7-9"
+  },
+  "2023 N#9": {
+   "c": [
+    "COVID-19"
+   ],
+   "case": "2023 N#7-9"
+  },
+  "2023 N#10": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2023 N#11": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2023 N#12": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2023 N#12-17"
+  },
+  "2023 N#13": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2023 N#12-17"
+  },
+  "2023 N#14": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2023 N#12-17"
+  },
+  "2023 N#15": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2023 N#12-17"
+  },
+  "2023 N#16": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2023 N#12-17",
+   "flags": [
+    "case_override"
+   ],
+   "why": "HIV screening in the cryptococcal meningitis case"
+  },
+  "2023 N#17": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2023 N#12-17",
+   "flags": [
+    "case_override"
+   ],
+   "why": "HIV confirmation in the cryptococcal meningitis case"
+  },
+  "2023 N#18": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2023 N#19": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2023 N#20": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2023 N#21": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2023 N#22": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2023 N#23": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2023 N#24": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2023 N#25": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2023 N#26": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "2023 N#26-29"
+  },
+  "2023 N#27": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "2023 N#26-29"
+  },
+  "2023 N#28": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "2023 N#26-29"
+  },
+  "2023 N#29": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "case": "2023 N#26-29"
+  },
+  "2023 N#30": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2023 N#31": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2023 N#32": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2023 N#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2023 N#34": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2023 N#35": {
+   "c": [
+    "Les trypanosomiases : maladie du sommeil et maladie de Chagas"
+   ]
+  },
+  "2023 N#36": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2023 N#37": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Oocysts: cryptosporidiose and isosporose, opportunistic coccidioses"
+  },
+  "2023 N#38": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules",
+    "Bilharzioses"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Transcutaneous entry: anguillule, ankylostome, bilharzie"
+  },
+  "2023 N#39": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2023 N#40": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2023 N#41": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2023 N#42": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2023 N#43": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "2023 N#44": {
+   "c": [
+    "Généralités sur les helminthes et helminthiases"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hyperéosinophilie of helminthiases (bilharziose, anguillulose)"
+  },
+  "2023 N#45": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2023 N#46": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2023 N#47": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Answer is cryptococcose, a yeast infection"
+  },
+  "2023 N#48": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2023 N#49": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "conf": "low",
+   "why": "Pneumocystis: atypical fungus, no dedicated cours"
+  },
+  "2023 N#50": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2022 N#1": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2022 N#2": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2022 N#3": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2022 N#4": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2022 N#5": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2022 N#6": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2022 N#7": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2022 N#8": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2022 N#9": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2022 N#10": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2022 N#11": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2022 N#12": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2022 N#13": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2022 N#14": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2022 N#15": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2022 N#16": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)",
+    "Généralités en parasitologie et mycologie médicale"
+   ],
+   "conf": "low",
+   "why": "Scotch-test indications across parasites; answer is Taenia saginata",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "2022 N#17": {
+   "c": [
+    "Bilharzioses"
+   ]
+  },
+  "2022 N#18": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2022 N#19": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2022 N#20": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2022 N#21": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2022 N#22": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2022 N#23": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2022 N#24": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2022 N#25": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "2022 N#26": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2022 N#27": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2022 N#28": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2022 N#29": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2022 N#30": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2022 N#31": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2022 N#32": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2022 N#33": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2022 N#34": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2022 N#35": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2022 N#36": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2022 N#37": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2022 N#38": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2022 N#39": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2022 N#40": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2022 N#41": {
+   "c": [
+    "Les méningites infectieuses de l'adulte",
+    "Paludisme (Malaria)"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Chimioprophylaxie: méningocoque and paludisme"
+  },
+  "2022 N#42": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2022 N#42-44"
+  },
+  "2022 N#43": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2022 N#42-44"
+  },
+  "2022 N#44": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2022 N#42-44"
+  },
+  "2022 N#45": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2022 N#46": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2022 N#46-48"
+  },
+  "2022 N#47": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2022 N#46-48"
+  },
+  "2022 N#48": {
+   "c": [
+    "Le tétanos"
+   ],
+   "case": "2022 N#46-48"
+  },
+  "2022 N#49": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2022 N#50": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2021 N#1": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#1-5"
+  },
+  "2021 N#2": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#1-5"
+  },
+  "2021 N#3": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#1-5"
+  },
+  "2021 N#4": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#1-5"
+  },
+  "2021 N#5": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2021 N#1-5",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Management of newly diagnosed HIV (CD4, partner testing, declaration)"
+  },
+  "2021 N#6": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#6-7"
+  },
+  "2021 N#7": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2021 N#6-7"
+  },
+  "2021 N#8": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2021 N#9": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2021 N#10": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2021 N#10-13"
+  },
+  "2021 N#11": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2021 N#10-13"
+  },
+  "2021 N#12": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2021 N#10-13"
+  },
+  "2021 N#13": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2021 N#10-13"
+  },
+  "2021 N#14": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 N#15": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2021 N#16": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2021 N#17": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2021 N#18": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2021 N#19": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2021 N#20": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2021 N#21": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2021 N#22": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2021 N#23": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2021 N#24": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2021 N#25": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2021 N#26": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2021 N#27": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2021 N#28": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2021 N#29": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2021 N#30": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2021 N#31": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2021 N#32": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "conf": "low",
+   "why": "Pneumocystis: atypical fungus, no dedicated cours"
+  },
+  "2021 N#33": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2021 N#34": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 N#35": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 N#36": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 N#37": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2021 N#38": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2021 N#39": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2021 N#40": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2021 N#41": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2021 N#42": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)",
+    "Généralités en parasitologie et mycologie médicale"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Same scotch-test question as 2022 N#16; multi-parasite diagnostic"
+  },
+  "2021 N#43": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2021 N#44": {
+   "c": [
+    "Bilharzioses"
+   ]
+  },
+  "2021 N#45": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 N#46": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 N#47": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 N#48": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "2021 N#49": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 N#50": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 R#1": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2021 R#2": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2021 R#3": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 R#4": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2021 R#5": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2021 R#6": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2021 R#7": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2021 R#8": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2021 R#9": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2021 R#10": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2021 R#11": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2021 R#12": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2021 R#13": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2021 R#14": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2021 R#15": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2021 R#16": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2021 R#17": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2021 R#18": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2021 R#19": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2021 R#20": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2021 R#21": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Asks LCR profile of méningo-encéphalite tuberculeuse specifically"
+  },
+  "2021 R#22": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2021 R#23": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2021 R#24": {
+   "c": [
+    "COVID-19"
+   ]
+  },
+  "2021 R#25": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2021 R#26": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 R#27": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2021 R#28": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2021 R#29": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 R#30": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2021 R#31": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 R#32": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2021 R#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2021 R#34": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2021 R#35": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2021 R#36": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2021 R#37": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2021 R#38": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2021 R#39": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2021 R#40": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2021 R#41": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2021 R#42": {
+   "c": [
+    "Bilharzioses"
+   ]
+  },
+  "2021 R#43": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ]
+  },
+  "2021 R#44": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2021 R#45": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2021 R#46": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 R#47": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 R#48": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2021 R#49": {
+   "c": [
+    "Levures et levuroses"
+   ],
+   "conf": "low",
+   "why": "Pneumocystis: atypical fungus, no dedicated cours"
+  },
+  "2021 R#50": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2020 N#1": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2020 N#1-3"
+  },
+  "2020 N#2": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2020 N#1-3"
+  },
+  "2020 N#3": {
+   "c": [
+    "La rage humaine"
+   ],
+   "case": "2020 N#1-3"
+  },
+  "2020 N#4": {
+   "c": [
+    "Fièvres typhoïdes"
+   ],
+   "case": "2020 N#4-6"
+  },
+  "2020 N#5": {
+   "c": [
+    "Fièvres typhoïdes"
+   ],
+   "case": "2020 N#4-6"
+  },
+  "2020 N#6": {
+   "c": [
+    "Fièvres typhoïdes"
+   ],
+   "case": "2020 N#4-6"
+  },
+  "2020 N#7": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "2020 N#7-9"
+  },
+  "2020 N#8": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "2020 N#7-9"
+  },
+  "2020 N#9": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ],
+   "case": "2020 N#7-9"
+  },
+  "2020 N#10": {
+   "c": [
+    "Epidémiologie des maladies infectieuses"
+   ]
+  },
+  "2020 N#11": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse",
+    "Levures et levuroses"
+   ],
+   "case": "2020 N#11-12",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "LCR lymphocytaire hypoglycorachique: tuberculose ou cryptococcose"
+  },
+  "2020 N#12": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse",
+    "Levures et levuroses"
+   ],
+   "case": "2020 N#11-12",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "GeneXpert/ZN/Lowenstein + encre de chine"
+  },
+  "2020 N#13": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2020 N#13-14"
+  },
+  "2020 N#14": {
+   "c": [
+    "Infection par le VIH"
+   ],
+   "case": "2020 N#13-14"
+  },
+  "2020 N#15": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2020 N#16": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2020 N#17": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2020 N#18": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2020 N#19": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2020 N#20": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2020 N#21": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2020 N#22": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2020 N#23": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2020 N#24": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2020 N#25": {
+   "c": [
+    "Les infections à staphylocoques"
+   ]
+  },
+  "2020 N#26": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 N#27": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 N#28": {
+   "c": [
+    "Mycologie médicale - introduction et généralités"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mode de transmission des champignons = généralités mycologie"
+  },
+  "2020 N#29": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 N#30": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2020 N#31": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2020 N#32": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2020 N#33": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 N#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 N#35": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2020 N#36": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 N#37": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 N#38": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2020 N#39": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2020 N#40": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "2020 N#41": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2020 N#42": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2020 N#43": {
+   "c": [
+    "Filaires et filarioses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Onchocercose = filariose, pas larva migrans"
+  },
+  "2020 N#44": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2020 N#45": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2020 N#46": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 N#47": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 N#48": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 N#49": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 N#50": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2020 R#1": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#2": {
+   "c": [
+    "Mycologie médicale - introduction et généralités"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Éléments infestants des mycoses = généralités mycologie"
+  },
+  "2020 R#3": {
+   "c": [
+    "Les mycoses à champignons filamenteux",
+    "Levures et levuroses"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Aspergillus (filamenteux) et Cryptococcus (levure)"
+  },
+  "2020 R#4": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#5": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2020 R#6": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2020 R#7": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2020 R#8": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 R#9": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 R#10": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2020 R#11": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#12": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#13": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2020 R#14": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2020 R#15": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "2020 R#16": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#17": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2020 R#18": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2020 R#19": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2020 R#20": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2020 R#21": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 R#22": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 R#23": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2020 R#24": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2020 R#25": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2020 R#26": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "2020 R#26-28"
+  },
+  "2020 R#27": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "2020 R#26-28"
+  },
+  "2020 R#28": {
+   "c": [
+    "Leptospiroses"
+   ],
+   "case": "2020 R#26-28"
+  },
+  "2020 R#29": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2020 R#29-33"
+  },
+  "2020 R#30": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2020 R#29-33"
+  },
+  "2020 R#31": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2020 R#29-33"
+  },
+  "2020 R#32": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2020 R#29-33"
+  },
+  "2020 R#33": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ],
+   "case": "2020 R#29-33"
+  },
+  "2020 R#34": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2020 R#35": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2020 R#36": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question spécifique à la méningo-encéphalite tuberculeuse"
+  },
+  "2020 R#37": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2020 R#37-39"
+  },
+  "2020 R#38": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2020 R#37-39"
+  },
+  "2020 R#39": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2020 R#37-39"
+  },
+  "2020 R#40": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2020 R#41": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2020 R#42": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2020 R#43": {
+   "c": [
+    "Borrélioses"
+   ]
+  },
+  "2020 R#44": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2020 R#45": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2020 R#46": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2020 R#47": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2020 R#48": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2020 R#49": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2020 R#50": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2019 N#1": {
+   "c": [
+    "Les fièvres persistantes"
+   ]
+  },
+  "2019 N#2": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 N#3": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 N#4": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 N#5": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2019 N#6": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2019 N#7": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2019 N#8": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2019 N#9": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2019 N#10": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2019 N#11": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2019 N#12": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2019 N#13": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2019 N#14": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2019 N#15": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2019 N#16": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question spécifique à la méningo-encéphalite tuberculeuse"
+  },
+  "2019 N#17": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question spécifique à la méningo-encéphalite tuberculeuse"
+  },
+  "2019 N#18": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2019 N#19": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2019 N#20": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2019 N#21": {
+   "c": [
+    "Les infections à staphylocoques"
+   ]
+  },
+  "2019 N#22": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2019 N#23": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2019 N#24": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2019 N#25": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2019 N#26": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2019 N#27": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 N#28": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 N#29": {
+   "c": [
+    "Mycologie médicale - introduction et généralités"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Levures et filamenteux à la fois: généralités mycoses invasives"
+  },
+  "2019 N#30": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 N#31": {
+   "c": [
+    "Amibes et amibiases"
+   ]
+  },
+  "2019 N#32": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2019 N#33": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2019 N#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2019 N#35": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2019 N#36": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2019 N#37": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 N#38": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 N#39": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2019 N#40": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2019 N#41": {
+   "c": [
+    "Bilharzioses"
+   ]
+  },
+  "2019 N#42": {
+   "c": [
+    "Syndromes de larva migrans et nématodes tissulaires"
+   ]
+  },
+  "2019 N#43": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2019 N#44": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2019 N#45": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2019 N#46": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 N#47": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 N#48": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 N#49": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2019 N#50": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 R#1": {
+   "c": [
+    "Accidents d'exposition au sang (AES)"
+   ]
+  },
+  "2019 R#2": {
+   "c": [
+    "Les infections associées aux soins (IAS)"
+   ]
+  },
+  "2019 R#3": {
+   "c": [
+    "Les infections à staphylocoques"
+   ]
+  },
+  "2019 R#4": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2019 R#5": {
+   "c": [
+    "La rage humaine"
+   ]
+  },
+  "2019 R#6": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question explicitly on méningo-encéphalite tuberculeuse, not adult meningitis"
+  },
+  "2019 R#7": {
+   "c": [
+    "La méningo-encéphalite tuberculeuse"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LCR features of méningo-encéphalite tuberculeuse"
+  },
+  "2019 R#8": {
+   "c": [
+    "Les méningites infectieuses de l'adulte"
+   ]
+  },
+  "2019 R#9": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2019 R#10": {
+   "c": [
+    "Infection par le VIH"
+   ]
+  },
+  "2019 R#11": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2019 R#12": {
+   "c": [
+    "La brucellose"
+   ]
+  },
+  "2019 R#13": {
+   "c": [
+    "Bilharziose uro-génitale"
+   ]
+  },
+  "2019 R#14": {
+   "c": [
+    "Toxi-infections alimentaires collectives (TIAC)"
+   ]
+  },
+  "2019 R#15": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2019 R#16": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2019 R#17": {
+   "c": [
+    "Fièvres typhoïdes"
+   ]
+  },
+  "2019 R#18": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2019 R#19": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2019 R#20": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 R#21": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 R#22": {
+   "c": [
+    "Leptospiroses"
+   ]
+  },
+  "2019 R#23": {
+   "c": [
+    "Le choléra"
+   ]
+  },
+  "2019 R#24": {
+   "c": [
+    "Le tétanos"
+   ]
+  },
+  "2019 R#25": {
+   "c": [
+    "Rickettsioses - fièvre Q"
+   ]
+  },
+  "2019 R#26": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 R#27": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 R#28": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 R#29": {
+   "c": [
+    "Amibes et amibiases"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Serological diagnosis of hepatic amoebiasis"
+  },
+  "2019 R#30": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2019 R#31": {
+   "c": [
+    "Flagelloses digestives et urogénitales"
+   ]
+  },
+  "2019 R#32": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2019 R#33": {
+   "c": [
+    "Paludisme (Malaria)"
+   ]
+  },
+  "2019 R#34": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2019 R#35": {
+   "c": [
+    "Leishmanioses"
+   ]
+  },
+  "2019 R#36": {
+   "c": [
+    "Toxoplasmoses"
+   ]
+  },
+  "2019 R#37": {
+   "c": [
+    "Protozooses intestinales opportunistes"
+   ]
+  },
+  "2019 R#38": {
+   "c": [
+    "Généralités en parasitologie et mycologie médicale"
+   ]
+  },
+  "2019 R#39": {
+   "c": [
+    "Nématodes : Trichine, Ankylostomes et Anguillules"
+   ]
+  },
+  "2019 R#40": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2019 R#41": {
+   "c": [
+    "Nématodes : Oxyure, Trichocéphale, Ascaris"
+   ]
+  },
+  "2019 R#42": {
+   "c": [
+    "Echinococcoses humaines (hydatidoses)"
+   ]
+  },
+  "2019 R#43": {
+   "c": [
+    "Entomologie médicale et ectoparasitoses"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Gale (Sarcoptes scabiei) diagnosis = ectoparasitose"
+  },
+  "2019 R#44": {
+   "c": [
+    "Les cestodes et cestodoses (taeniasis et cysticercose)"
+   ]
+  },
+  "2019 R#45": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2019 R#46": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 R#47": {
+   "c": [
+    "Les mycoses à champignons filamenteux"
+   ]
+  },
+  "2019 R#48": {
+   "c": [
+    "Levures et levuroses"
+   ]
+  },
+  "2019 R#49": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2019 R#49-50"
+  },
+  "2019 R#50": {
+   "c": [
+    "Paludisme (Malaria)"
+   ],
+   "case": "2019 R#49-50"
+  }
+ }
+}

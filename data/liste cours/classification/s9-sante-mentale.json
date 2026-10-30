@@ -1,0 +1,4644 @@
+{
+ "module": "Santé mentale",
+ "q": {
+  "Normal 2026#1": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2026#2": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2026#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2026#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2026#5": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2026#6": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2026#7": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2026#7-10"
+  },
+  "Normal 2026#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2026#7-10"
+  },
+  "Normal 2026#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2026#7-10"
+  },
+  "Normal 2026#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2026#7-10"
+  },
+  "Normal 2026#11": {
+   "c": [
+    "Risques et conduites suicidaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tentatives de suicide, not délire"
+  },
+  "Normal 2026#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Normal 2026#13": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Normal 2026#14": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Normal 2026#15": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Normal 2026#16": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2026#17": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2026#18": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2026#19": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ],
+   "case": "Normal 2026#19-20"
+  },
+  "Normal 2026#20": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ],
+   "case": "Normal 2026#19-20"
+  },
+  "Normal 2026#21": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Normal 2026#22": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Normal 2026#23": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2026#24": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2026#25": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2026#26": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Troubles mentaux critiques = manifestations ictales de l'épilepsie"
+  },
+  "Normal 2026#27": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Normal 2026#28": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on hystérie, not délire"
+  },
+  "Normal 2026#29": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Normal 2026#29-32"
+  },
+  "Normal 2026#30": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Normal 2026#29-32"
+  },
+  "Normal 2026#31": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Normal 2026#29-32"
+  },
+  "Normal 2026#32": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Normal 2026#29-32"
+  },
+  "Normal 2026#33": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Normal 2026#34": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Normal 2026#35": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Normal 2026#36": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Normal 2026#37": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Normal 2026#38": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Normal 2026#39": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Normal 2026#40": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Normal 2026#41": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Normal 2026#42": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Normal 2026#43": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Normal 2026#43-50"
+  },
+  "Normal 2026#44": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Normal 2026#43-50"
+  },
+  "Normal 2026#45": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Normal 2026#43-50"
+  },
+  "Normal 2026#46": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Normal 2026#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Alprazolam adjuvant = anxiolytique"
+  },
+  "Normal 2026#47": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Normal 2026#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Contre-indication des hypnotiques"
+  },
+  "Normal 2026#48": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Normal 2026#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Durée maximale de prescription d'hypnotique"
+  },
+  "Normal 2026#49": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Normal 2026#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Effet indésirable du zolpidem"
+  },
+  "Normal 2026#50": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Normal 2026#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Lévomépromazine, neuroleptique sédatif; could be hypnotiques context"
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2025#1-4"
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2025#1-4"
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2025#1-4"
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Normal 2025#1-4"
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Delirium tremens has its own cours"
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Normal 2025#19": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ],
+   "case": "Normal 2025#22-24"
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ],
+   "case": "Normal 2025#22-24"
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ],
+   "case": "Normal 2025#22-24"
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Trouble de conversion = hystérie, not délire"
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Traitement de l'hystérie, not délire"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Les troubles psychosomatiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge des troubles psychosomatiques, not neurologique"
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Normal 2025#40-41"
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Normal 2025#40-41"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "conf": "low",
+   "why": "Serotonin physiology, framed within ATD course"
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "2025 Rattrapage#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "2025 Rattrapage#1-5"
+  },
+  "2025 Rattrapage#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "2025 Rattrapage#1-5"
+  },
+  "2025 Rattrapage#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "2025 Rattrapage#1-5"
+  },
+  "2025 Rattrapage#4": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "2025 Rattrapage#1-5"
+  },
+  "2025 Rattrapage#5": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "2025 Rattrapage#1-5"
+  },
+  "2025 Rattrapage#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "2025 Rattrapage#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "2025 Rattrapage#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "2025 Rattrapage#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "2025 Rattrapage#10": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "2025 Rattrapage#11": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "2025 Rattrapage#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "2025 Rattrapage#13": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coma alcoolique = alcoolisme cours"
+  },
+  "2025 Rattrapage#14": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications de la sismothérapie"
+  },
+  "2025 Rattrapage#15": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "2025 Rattrapage#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "2025 Rattrapage#17": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "2025 Rattrapage#18": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "2025 Rattrapage#19": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "2025 Rattrapage#20": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "2025 Rattrapage#21": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "2025 Rattrapage#22": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question on hystérie, not délire"
+  },
+  "2025 Rattrapage#23": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Douleurs conversives = hystérie"
+  },
+  "2025 Rattrapage#24": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "2025 Rattrapage#25": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "2025 Rattrapage#26": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "2025 Rattrapage#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "2025 Rattrapage#28": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "2025 Rattrapage#29": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "2025 Rattrapage#30": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "2025 Rattrapage#31": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "2025 Rattrapage#32": {
+   "c": [
+    "Les troubles psychosomatiques"
+   ]
+  },
+  "2025 Rattrapage#33": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "2025 Rattrapage#34": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "2025 Rattrapage#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "2025 Rattrapage#36": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "2025 Rattrapage#37": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "2025 Rattrapage#38": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Obsessions phobiques are TOC symptoms, not phobic disorder"
+  },
+  "2025 Rattrapage#39": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "ISRS indications across anxiety disorders; alt Troubles anxieux : généralités"
+  },
+  "2025 Rattrapage#40": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "2025 Rattrapage#41": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "2025 Rattrapage#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "2025 Rattrapage#43": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "conf": "low",
+   "why": "Serotonin physiology, framed within ATD course"
+  },
+  "2025 Rattrapage#44": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "2025 Rattrapage#45": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "2025 Rattrapage#46": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "2025 Rattrapage#47": {
+   "c": [
+    "Les hypnotiques"
+   ]
+  },
+  "2025 Rattrapage#48": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "2025 Rattrapage#48-49"
+  },
+  "2025 Rattrapage#49": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "2025 Rattrapage#48-49"
+  },
+  "2025 Rattrapage#50": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Janvier 2024#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2024#1-3"
+  },
+  "Janvier 2024#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2024#1-3"
+  },
+  "Janvier 2024#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2024#1-3"
+  },
+  "Janvier 2024#4": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2024#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2024#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2024#7": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2024#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2024#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2024#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2024#11": {
+   "c": [
+    "Les addictions aux produits"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "DSM-5 substance use disorder criteria, not bipolarity"
+  },
+  "Janvier 2024#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2024#13": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2024#14": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coma alcoolique belongs to alcoholism cours"
+  },
+  "Janvier 2024#15": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Janvier 2024#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2024#17": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Janvier 2024#18": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2024#19": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2024#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Janvier 2024#20-22"
+  },
+  "Janvier 2024#21": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Janvier 2024#20-22"
+  },
+  "Janvier 2024#22": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Janvier 2024#20-22"
+  },
+  "Janvier 2024#23": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ]
+  },
+  "Janvier 2024#24": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2024#25": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Janvier 2024#26": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Janvier 2024#27": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2024#28": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2024#29": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2024#30": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2024#31": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2024#32": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Crise conversive = hystérie, not délire"
+  },
+  "Janvier 2024#33": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2024#34": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#35": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#37": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#38": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2024#34-42",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Attaques de panique within PTSD case"
+  },
+  "Janvier 2024#39": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2024#34-42",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Physical symptoms of panic attacks"
+  },
+  "Janvier 2024#40": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#41": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2024#34-42"
+  },
+  "Janvier 2024#43": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2024#43-47"
+  },
+  "Janvier 2024#44": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2024#43-47"
+  },
+  "Janvier 2024#45": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2024#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Choice of antidepressant (sertraline)"
+  },
+  "Janvier 2024#46": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2024#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Sertraline dosage"
+  },
+  "Janvier 2024#47": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Janvier 2024#43-47",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Bromazepam as anxiolytic adjuvant"
+  },
+  "Janvier 2024#48": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2024#49": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2024#50": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2024#1-3"
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2024#1-3"
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2024#1-3"
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Delirium tremens has its own cours"
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Risques et conduites suicidaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tentatives de suicide, not depression itself"
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question explicitly about hystérie"
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Douleurs conversives = hystérie"
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2024#43-46"
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Juin 2024#43-46",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Lévomépromazine, sedative neuroleptic as alternative to hypnotic"
+  },
+  "Juin 2024#47": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "conf": "low",
+   "why": "Serotonin role; taught in antidepressant pharmacology"
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Octobre 2024#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Octobre 2024#1-5"
+  },
+  "Octobre 2024#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Octobre 2024#1-5"
+  },
+  "Octobre 2024#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Octobre 2024#1-5"
+  },
+  "Octobre 2024#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Octobre 2024#1-5",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Virage maniaque under antidepressant; bipolar vs antidépresseurs"
+  },
+  "Octobre 2024#5": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Octobre 2024#1-5",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "CAT of virage maniaque: stop antidepressant"
+  },
+  "Octobre 2024#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Octobre 2024#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Octobre 2024#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#12": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#13": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Octobre 2024#14": {
+   "c": [
+    "Psychothérapie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "TCC is psychotherapy, not psychopharmacology"
+  },
+  "Octobre 2024#15": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Octobre 2024#16": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Delirium tremens has its own cours"
+  },
+  "Octobre 2024#17": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Octobre 2024#18": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Octobre 2024#19": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Octobre 2024#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Octobre 2024#20-22"
+  },
+  "Octobre 2024#21": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Octobre 2024#20-22"
+  },
+  "Octobre 2024#22": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Octobre 2024#20-22"
+  },
+  "Octobre 2024#23": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Octobre 2024#24": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Octobre 2024#25": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Octobre 2024#26": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Octobre 2024#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Octobre 2024#28": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Octobre 2024#29": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Octobre 2024#30": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Octobre 2024#31": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Octobre 2024#32": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Trouble de conversion = hystérie"
+  },
+  "Octobre 2024#33": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Octobre 2024#34": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Octobre 2024#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Octobre 2024#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Octobre 2024#37": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Octobre 2024#38": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Octobre 2024#39": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Octobre 2024#40": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Octobre 2024#41": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Octobre 2024#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Octobre 2024#43": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Octobre 2024#43-50"
+  },
+  "Octobre 2024#44": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Octobre 2024#43-50"
+  },
+  "Octobre 2024#45": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Octobre 2024#43-50"
+  },
+  "Octobre 2024#46": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Octobre 2024#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Alprazolam as anxiolytic adjuvant"
+  },
+  "Octobre 2024#47": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Octobre 2024#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Olanzapine for severe agitated depression"
+  },
+  "Octobre 2024#48": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Octobre 2024#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Contraindication of olanzapine"
+  },
+  "Octobre 2024#49": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Octobre 2024#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Lévomépromazine for agitation and insomnia"
+  },
+  "Octobre 2024#50": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Octobre 2024#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "conf": "low",
+   "why": "Anticholinergic side effect of prescribed olanzapine"
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Novembre 2024#1-3"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coma alcoolique = intoxication alcoolique aiguë"
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge de l'hystérie, not délire"
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Psychopharmacologie"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Randomisation = méthodologie/épidémiologie, hors santé mentale"
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Novembre 2024#38-39"
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ],
+   "case": "Novembre 2024#38-39"
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Novembre 2024#40-41"
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Novembre 2024#40-41"
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "conf": "low",
+   "why": "Sérotonine, neurotransmission générale; closest antidépresseurs"
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Les hypnotiques"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "Janvier 2023#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2023#1-4"
+  },
+  "Janvier 2023#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2023#1-4"
+  },
+  "Janvier 2023#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2023#1-4"
+  },
+  "Janvier 2023#4": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2023#1-4"
+  },
+  "Janvier 2023#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2023#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2023#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2023#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2023#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2023#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2023#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2023#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2023#13": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2023#14": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Dépression chez l'alcoolique = cours Alcoolisme"
+  },
+  "Janvier 2023#15": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Janvier 2023#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2023#17": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2023#18": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Janvier 2023#19": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2023#20": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2023#20-22"
+  },
+  "Janvier 2023#21": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2023#20-22"
+  },
+  "Janvier 2023#22": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2023#20-22"
+  },
+  "Janvier 2023#23": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2023#24": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2023#25": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2023#26": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2023#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2023#28": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2023#29": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2023#30": {
+   "c": [
+    "Manifestations psychiatriques de la neurosyphilis"
+   ]
+  },
+  "Janvier 2023#31": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Crise conversive = hystérie, not délire"
+  },
+  "Janvier 2023#32": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ]
+  },
+  "Janvier 2023#33": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2023#33-35"
+  },
+  "Janvier 2023#34": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2023#33-35"
+  },
+  "Janvier 2023#35": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2023#33-35"
+  },
+  "Janvier 2023#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Janvier 2023#37": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2023#37-39"
+  },
+  "Janvier 2023#38": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2023#37-39"
+  },
+  "Janvier 2023#39": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2023#37-39"
+  },
+  "Janvier 2023#40": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Janvier 2023#41": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2023#42": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2023#43": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Janvier 2023#44": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Janvier 2023#45": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Janvier 2023#46": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Janvier 2023#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Alprazolam adjuvant = anxiolytique"
+  },
+  "Janvier 2023#47": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Janvier 2023#48": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Janvier 2023#49": {
+   "c": [
+    "Les antipsychotiques"
+   ],
+   "case": "Janvier 2023#43-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Lévomépromazine sédative = neuroleptique"
+  },
+  "Janvier 2023#50": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Janvier 2023#43-50"
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2023#1-5"
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Psychothérapie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "TCC = psychothérapie, not pharmacologie"
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Delirium tremens has its own cours"
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge de l'hystérie, not délire"
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Les troubles psychosomatiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Psychosomatique, not épilepsie/neurosyphilis"
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Les troubles psychosomatiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Psychosomatique, not épilepsie/neurosyphilis"
+  },
+  "Juin 2023#33": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Troubles anxieux : généralités"
+   ],
+   "conf": "low",
+   "why": "ISRS indications across anxiety disorders; could be antidépresseurs"
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2023#43-46"
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2023#43-46"
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2023#43-46"
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Juin 2023#43-46"
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2023#47-50"
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Juin 2023#47-50",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Alprazolam adjuvant = anxiolytique"
+  },
+  "Janvier 2022#1": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2022#1-4"
+  },
+  "Janvier 2022#2": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2022#1-4"
+  },
+  "Janvier 2022#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2022#1-4"
+  },
+  "Janvier 2022#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2022#1-4"
+  },
+  "Janvier 2022#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2022#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2022#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2022#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2022#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2022#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2022#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2022#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2022#13": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2022#14": {
+   "c": [
+    "Alcoolisme",
+    "Les états dépressifs"
+   ],
+   "flags": [
+    "multi_topic",
+    "harmonized"
+   ],
+   "why": "Dépression secondaire chez l'alcoolique"
+  },
+  "Janvier 2022#15": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Janvier 2022#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2022#17": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2022#18": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Janvier 2022#19": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2022#20": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2022#20-23"
+  },
+  "Janvier 2022#21": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2022#20-23"
+  },
+  "Janvier 2022#22": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2022#20-23"
+  },
+  "Janvier 2022#23": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2022#20-23"
+  },
+  "Janvier 2022#24": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2022#25": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2022#26": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2022#27": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Crise conversive = hystérie, not délire"
+  },
+  "Janvier 2022#28": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Trouble de conversion = hystérie, not délire"
+  },
+  "Janvier 2022#29": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2022#30": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2022#31": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2022#32": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2022#33": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2022#33-35"
+  },
+  "Janvier 2022#34": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2022#33-35"
+  },
+  "Janvier 2022#35": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Janvier 2022#33-35"
+  },
+  "Janvier 2022#36": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Janvier 2022#37": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Janvier 2022#38": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Janvier 2022#39": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2022#40": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2022#41": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2022#42": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2022#43": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Janvier 2022#44": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "conf": "low",
+   "why": "Rôle de la sérotonine, pharmacologie générale"
+  },
+  "Janvier 2022#45": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2022#46": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2022#47": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "Janvier 2022#48": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2022#49": {
+   "c": [
+    "Les hypnotiques"
+   ]
+  },
+  "Janvier 2022#50": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "Juin 2022#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2022#1-4"
+  },
+  "Juin 2022#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2022#1-4"
+  },
+  "Juin 2022#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Juin 2022#1-4",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Virage maniaque sous antidépresseur = bipolaire type III"
+  },
+  "Juin 2022#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Juin 2022#1-4",
+   "flags": [
+    "case_override"
+   ],
+   "why": "CAT d'un virage maniaque induit"
+  },
+  "Juin 2022#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2022#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2022#7": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2022#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2022#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2022#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2022#11": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2022#12": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Juin 2022#13": {
+   "c": [
+    "Troubles de la personnalité"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diagnostic de trouble de personnalité, not neurologique"
+  },
+  "Juin 2022#14": {
+   "c": [
+    "Alcoolisme"
+   ]
+  },
+  "Juin 2022#15": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Juin 2022#16": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2022#17": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Juin 2022#18": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2022#19": {
+   "c": [
+    "Psychothérapie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "TCC = psychothérapie, not psychopharmacologie"
+  },
+  "Juin 2022#20": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Juin 2022#20-22"
+  },
+  "Juin 2022#21": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Juin 2022#20-22"
+  },
+  "Juin 2022#22": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ],
+   "case": "Juin 2022#20-22"
+  },
+  "Juin 2022#23": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2022#24": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2022#25": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2022#26": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2022#27": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2022#28": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2022#29": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Juin 2022#30": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Juin 2022#31": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Juin 2022#32": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Trouble de conversion = hystérie, not délire"
+  },
+  "Juin 2022#33": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ],
+   "case": "Juin 2022#33-35"
+  },
+  "Juin 2022#34": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ],
+   "case": "Juin 2022#33-35"
+  },
+  "Juin 2022#35": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ],
+   "case": "Juin 2022#33-35"
+  },
+  "Juin 2022#36": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Juin 2022#36-39"
+  },
+  "Juin 2022#37": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Juin 2022#36-39"
+  },
+  "Juin 2022#38": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Juin 2022#36-39"
+  },
+  "Juin 2022#39": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Juin 2022#36-39"
+  },
+  "Juin 2022#40": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2022#41": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2022#42": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2022#43": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Juin 2022#44": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Juin 2022#45": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Juin 2022#46": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Juin 2022#47": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "Juin 2022#48": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Juin 2022#49": {
+   "c": [
+    "Les hypnotiques"
+   ]
+  },
+  "Juin 2022#50": {
+   "c": [
+    "Les antidépresseurs",
+    "Les antipsychotiques"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Allongement QT: tricycliques et antipsychotiques sédatifs"
+  },
+  "Janvier 2021#1": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2021#1-4"
+  },
+  "Janvier 2021#2": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2021#1-4"
+  },
+  "Janvier 2021#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2021#1-4"
+  },
+  "Janvier 2021#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2021#1-4"
+  },
+  "Janvier 2021#5": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2021#5-7"
+  },
+  "Janvier 2021#6": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2021#5-7"
+  },
+  "Janvier 2021#7": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2021#5-7"
+  },
+  "Janvier 2021#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2021#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2021#10": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2021#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Janvier 2021#12": {
+   "c": [
+    "Alcoolisme"
+   ]
+  },
+  "Janvier 2021#13": {
+   "c": [
+    "Alcoolisme"
+   ]
+  },
+  "Janvier 2021#14": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2021#15": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2021#16": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2021#17": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2021#18": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2021#19": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Douleurs conversives = hystérie, not délire"
+  },
+  "Janvier 2021#20": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prise en charge de l'hystérie, not délire"
+  },
+  "Janvier 2021#21": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Janvier 2021#22": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2021#23": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2021#24": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2021#25": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2021#26": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2021#27": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ]
+  },
+  "Janvier 2021#28": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Janvier 2021#29": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Janvier 2021#30": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2021#30-32"
+  },
+  "Janvier 2021#31": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2021#30-32"
+  },
+  "Janvier 2021#32": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ],
+   "case": "Janvier 2021#30-32"
+  },
+  "Janvier 2021#33": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2021#34": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2021#35": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Janvier 2021#36": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Janvier 2021#37": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2021#38": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2021#38-41"
+  },
+  "Janvier 2021#39": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2021#38-41"
+  },
+  "Janvier 2021#40": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2021#38-41"
+  },
+  "Janvier 2021#41": {
+   "c": [
+    "Les hypnotiques"
+   ],
+   "case": "Janvier 2021#38-41"
+  },
+  "Janvier 2021#42": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "Janvier 2021#43": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "Janvier 2021#44": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2021#45": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2021#46": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2021#47": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2021#48": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ],
+   "case": "Janvier 2021#48-50"
+  },
+  "Janvier 2021#49": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ],
+   "case": "Janvier 2021#48-50"
+  },
+  "Janvier 2021#50": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ],
+   "case": "Janvier 2021#48-50"
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2021#1-3"
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2021#1-3"
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Juin 2021#1-3"
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Risques et conduites suicidaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Suicide risk attitudes, not depression itself"
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ]
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Ivresse pathologique = alcohol course"
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on delirium tremens"
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Psychothérapie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "TCC is psychotherapy, not pharmacology"
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hysteria question tagged 'patient qui délire'"
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conversion pain = hysteria"
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Les troubles psychosomatiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Psychosomatic disorders list, not neurology"
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Juin 2021#32-34"
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Juin 2021#32-34"
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Troubles phobiques"
+   ],
+   "case": "Juin 2021#32-34"
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2021#36": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2021#38-41"
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2021#38-41"
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "case": "Juin 2021#38-41"
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Les anxiolytiques"
+   ],
+   "case": "Juin 2021#38-41",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Adjuvant benzodiazepine choice"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Sismothérapie et stimulation magnétique transcrânienne (SMT)"
+   ]
+  },
+  "Juin 2021#46": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Juin 2021#47": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "janvier 2020#1": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "janvier 2020#1-4"
+  },
+  "janvier 2020#2": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "janvier 2020#1-4"
+  },
+  "janvier 2020#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "janvier 2020#1-4"
+  },
+  "janvier 2020#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "janvier 2020#1-4"
+  },
+  "janvier 2020#5": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "janvier 2020#5-7"
+  },
+  "janvier 2020#6": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "janvier 2020#5-7"
+  },
+  "janvier 2020#7": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "janvier 2020#5-7"
+  },
+  "janvier 2020#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "janvier 2020#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "janvier 2020#10": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "janvier 2020#11": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "janvier 2020#12": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "janvier 2020#13": {
+   "c": [
+    "Les antidépresseurs"
+   ]
+  },
+  "janvier 2020#14": {
+   "c": [
+    "Les thymorégulateurs"
+   ]
+  },
+  "janvier 2020#15": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "janvier 2020#16": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "janvier 2020#17": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "janvier 2020#18": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on delirium tremens"
+  },
+  "janvier 2020#19": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "janvier 2020#20": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "janvier 2020#21": {
+   "c": [
+    "TDAH"
+   ]
+  },
+  "janvier 2020#22": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "janvier 2020#23": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "janvier 2020#24": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "janvier 2020#25": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "janvier 2020#26": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "janvier 2020#27": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "janvier 2020#28": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "janvier 2020#29": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "janvier 2020#30": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "janvier 2020#31": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "janvier 2020#32": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "janvier 2020#33": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "janvier 2020#34": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "janvier 2020#35": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "janvier 2020#36": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "janvier 2020#37": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "janvier 2020#38": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "janvier 2020#39": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hysteria management tagged 'patient qui délire'"
+  },
+  "janvier 2020#40": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conversion pain = hysteria"
+  },
+  "janvier 2020#41": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "janvier 2020#42": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "janvier 2020#42-43"
+  },
+  "janvier 2020#43": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "janvier 2020#42-43"
+  },
+  "janvier 2020#44": {
+   "c": [
+    "Trouble panique"
+   ]
+  },
+  "janvier 2020#45": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "janvier 2020#46": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "janvier 2020#47": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "janvier 2020#48": {
+   "c": [
+    "Troubles phobiques"
+   ]
+  },
+  "janvier 2020#49": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "janvier 2020#50": {
+   "c": [
+    "Trouble obsessionnel compulsif (TOC)"
+   ]
+  },
+  "Janvier 2019#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2019#1-4",
+   "flags": [
+    "case_override"
+   ],
+   "why": "EDM diagnosis before bipolar history revealed"
+  },
+  "Janvier 2019#2": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#1-4",
+   "conf": "low",
+   "why": "Bipolar screening before antidepressant; could be depression course",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2019#3": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#1-4",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2019#4": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#1-4",
+   "flags": [
+    "case_override"
+   ]
+  },
+  "Janvier 2019#5": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Antidepressant contraindications"
+  },
+  "Janvier 2019#6": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Antidepressant delay, dose, duration"
+  },
+  "Janvier 2019#7": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2019#8": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2019#9": {
+   "c": [
+    "Les états dépressifs"
+   ]
+  },
+  "Janvier 2019#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#10-13"
+  },
+  "Janvier 2019#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#10-13"
+  },
+  "Janvier 2019#12": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#10-13"
+  },
+  "Janvier 2019#13": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2019#10-13"
+  },
+  "Janvier 2019#14": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2019#15": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2019#16": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Alcohol withdrawal prevention with benzodiazepines"
+  },
+  "Janvier 2019#17": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2019#18": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2019#19": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2019#20": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2019#21": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2019#22": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2019#23": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2019#24": {
+   "c": [
+    "Les troubles psychologiques de la grossesse et du post-partum"
+   ]
+  },
+  "Janvier 2019#25": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2019#26": {
+   "c": [
+    "Les troubles des conduites sexuelles"
+   ]
+  },
+  "Janvier 2019#27": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2019#28": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2019#29": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2019#30": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2019#31": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found",
+    "other_module"
+   ],
+   "why": "Alzheimer dementia: no matching cours, neurology/geriatrics"
+  },
+  "Janvier 2019#32": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hysteria management tagged 'patient qui délire'"
+  },
+  "Janvier 2019#33": {
+   "c": [
+    "Accès psychotique aigu"
+   ]
+  },
+  "Janvier 2019#34": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2019#35": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2019#36": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2019#37": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2019#38": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2019#39": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2019#40": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2019#41": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2019#42": {
+   "c": [
+    "Trouble du spectre de l'autisme (TSA)"
+   ]
+  },
+  "Janvier 2019#43": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2019#44": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Enuresis: no matching cours"
+  },
+  "Janvier 2019#45": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2019#45-48"
+  },
+  "Janvier 2019#46": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2019#45-48"
+  },
+  "Janvier 2019#47": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2019#45-48"
+  },
+  "Janvier 2019#48": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2019#45-48"
+  },
+  "Janvier 2019#49": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Janvier 2019#50": {
+   "c": [
+    "Trouble de stress post-traumatique (PTSD)"
+   ]
+  },
+  "Janvier 2018#1": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2018#1-4"
+  },
+  "Janvier 2018#2": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2018#1-4"
+  },
+  "Janvier 2018#3": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2018#1-4"
+  },
+  "Janvier 2018#4": {
+   "c": [
+    "Les états dépressifs"
+   ],
+   "case": "Janvier 2018#1-4"
+  },
+  "Janvier 2018#5": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ISRS classification = pharmacology of antidepressants"
+  },
+  "Janvier 2018#6": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Contre-indication of antidepressants"
+  },
+  "Janvier 2018#7": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Antidepressant delay, dose, treatment duration"
+  },
+  "Janvier 2018#8": {
+   "c": [
+    "Les antidépresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tricyclic contre-indications"
+  },
+  "Janvier 2018#9": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2018#9-11"
+  },
+  "Janvier 2018#10": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2018#9-11"
+  },
+  "Janvier 2018#11": {
+   "c": [
+    "Les troubles bipolaires"
+   ],
+   "case": "Janvier 2018#9-11"
+  },
+  "Janvier 2018#12": {
+   "c": [
+    "Alcoolisme"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Alcohol withdrawal treatment = benzodiazepines"
+  },
+  "Janvier 2018#13": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "case": "Janvier 2018#13-15",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Vignette is delirium tremens"
+  },
+  "Janvier 2018#14": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "case": "Janvier 2018#13-15",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan of delirium tremens"
+  },
+  "Janvier 2018#15": {
+   "c": [
+    "Delirium tremens"
+   ],
+   "case": "Janvier 2018#13-15",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Treatment of delirium tremens"
+  },
+  "Janvier 2018#16": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2018#17": {
+   "c": [
+    "Les anxiolytiques"
+   ]
+  },
+  "Janvier 2018#18": {
+   "c": [
+    "Les addictions aux produits"
+   ]
+  },
+  "Janvier 2018#19": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Enuresis has no dedicated cours"
+  },
+  "Janvier 2018#20": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Enuresis has no dedicated cours"
+  },
+  "Janvier 2018#21": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2018#22": {
+   "c": [
+    "Maltraitance et sévices"
+   ]
+  },
+  "Janvier 2018#23": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "National mental disorder prevalence survey; general epidemiology"
+  },
+  "Janvier 2018#24": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2018#24-27"
+  },
+  "Janvier 2018#25": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2018#24-27"
+  },
+  "Janvier 2018#26": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2018#24-27"
+  },
+  "Janvier 2018#27": {
+   "c": [
+    "Trouble panique"
+   ],
+   "case": "Janvier 2018#24-27"
+  },
+  "Janvier 2018#28": {
+   "c": [
+    "Trouble anxieux généralisé (TAG)"
+   ]
+  },
+  "Janvier 2018#29": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Janvier 2018#30": {
+   "c": [
+    "L'échec scolaire (difficultés scolaires)"
+   ]
+  },
+  "Janvier 2018#31": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2018#32": {
+   "c": [
+    "Dépression de l'enfant et de l'adolescent"
+   ]
+  },
+  "Janvier 2018#33": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2018#33-36"
+  },
+  "Janvier 2018#34": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2018#33-36"
+  },
+  "Janvier 2018#35": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2018#33-36"
+  },
+  "Janvier 2018#36": {
+   "c": [
+    "Accès psychotique aigu"
+   ],
+   "case": "Janvier 2018#33-36"
+  },
+  "Janvier 2018#37": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2018#38": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2018#39": {
+   "c": [
+    "Les schizophrénies"
+   ]
+  },
+  "Janvier 2018#40": {
+   "c": [
+    "Les délires chroniques non dissociatifs"
+   ]
+  },
+  "Janvier 2018#41": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2018#42": {
+   "c": [
+    "Les antipsychotiques"
+   ]
+  },
+  "Janvier 2018#43": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2018#44": {
+   "c": [
+    "Troubles des conduites alimentaires (TCA)"
+   ]
+  },
+  "Janvier 2018#45": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Dementia epidemiology; no dementia cours in list"
+  },
+  "Janvier 2018#46": {
+   "c": [
+    "Psychiatrie clinique"
+   ],
+   "flags": [
+    "not_found",
+    "tag_mismatch"
+   ],
+   "why": "Alzheimer dementia; no dementia cours in list"
+  },
+  "Janvier 2018#47": {
+   "c": [
+    "Manifestations psychiatriques de la neurosyphilis"
+   ]
+  },
+  "Janvier 2018#48": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Conversion symptoms = hysteria, not delusion"
+  },
+  "Janvier 2018#49": {
+   "c": [
+    "Hystérie"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Management of hysteria"
+  },
+  "Janvier 2018#50": {
+   "c": [
+    "Manifestations psychiatriques de l'épilepsie"
+   ]
+  }
+ }
+}

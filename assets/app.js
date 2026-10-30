@@ -2425,9 +2425,11 @@
     const lessonInfo = (window.QE_LESSONS || {})[module.slug] || null;
     const lessonFilterKey = `lessonFilter.${module.slug}`;
     const NO_TOPIC = '(sans thème)';
+    // A question classified one by one (lessonInfo.qs, keyed "<exam>#<qn>")
+    // wins over the guess made from its topic.
     const qKeys = questions.map(q => {
       const t = (q.topic || '').trim();
-      const targets = lessonInfo && t && lessonInfo.topics[t];
+      const targets = lessonInfo && ((lessonInfo.qs && lessonInfo.qs[q.exam + '#' + q.qn]) || (t && lessonInfo.topics[t]));
       if (!targets || !targets.length) return ['t:' + (t || NO_TOPIC)];
       const ks = new Set();
       targets.forEach(x => {

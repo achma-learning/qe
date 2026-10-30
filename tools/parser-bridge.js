@@ -16,7 +16,8 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 
 function loadParser() {
-  const code = fs.readFileSync(path.join(ROOT, 'assets', 'app.js'), 'utf8');
+  // CRLF → LF so the regex also works on a Windows (core.autocrlf) checkout.
+  const code = fs.readFileSync(path.join(ROOT, 'assets', 'app.js'), 'utf8').replace(/\r\n/g, '\n');
   const m = code.match(/function parseQuestionsFile\(text\) \{[\s\S]*?\n  \}\n/);
   if (!m) throw new Error('parseQuestionsFile not found in assets/app.js');
   return new Function(m[0] + '\nreturn parseQuestionsFile;')();

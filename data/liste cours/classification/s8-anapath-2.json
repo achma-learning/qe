@@ -1,0 +1,3424 @@
+{
+ "module": "Anatomie pathologique II",
+ "q": {
+  "Normal 2025#1": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Cancer du col utérin"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Cancer du col utérin"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Cancer du col utérin"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2025#44-46"
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2025#44-46"
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2025#44-46"
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2025#49-50"
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2025#49-50"
+  },
+  "Normal 2024#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2024#2": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2024#3": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2024#4": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#9": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2024#10": {
+   "c": [
+    "Cancer du sein"
+   ],
+   "conf": "low",
+   "why": "Extemporané contraindications span benign and in situ lesions"
+  },
+  "Normal 2024#11": {
+   "c": [
+    "Mastopathies bénignes"
+   ],
+   "conf": "low",
+   "why": "Recurring benign/borderline breast tumours (phyllode, fibromatose)"
+  },
+  "Normal 2024#12": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2024#13": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2024#14": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2024#15": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2024#16": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2024#17": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2024#18": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2024#19": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2024#20": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2024#21": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2024#22": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2024#23": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2024#24": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2024#25": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2024#26": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2024#27": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2024#28": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Endobrachyœsophage is oesophageal, not gastric"
+  },
+  "Normal 2024#29": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2024#30": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2024#31": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2024#32": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2024#33": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2024#34": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2024#35": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2024#35-36"
+  },
+  "Normal 2024#36": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2024#35-36"
+  },
+  "Normal 2024#37": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2024#38": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2024#39": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2024#40": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2024#41": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2024#42": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2024#43": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2024#44": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2024#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2024#46": {
+   "keep": "topic"
+  },
+  "Normal 2024#47": {
+   "keep": "topic"
+  },
+  "Normal 2024#48": {
+   "keep": "topic"
+  },
+  "Normal 2024#49": {
+   "keep": "topic"
+  },
+  "Normal 2024#50": {
+   "keep": "topic"
+  },
+  "ratt 2024#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "ratt 2024#2": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "ratt 2024#3": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#4": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#9": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "ratt 2024#10": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "ratt 2024#11": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "ratt 2024#12": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "ratt 2024#13": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "ratt 2024#14": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "ratt 2024#15": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "ratt 2024#16": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "ratt 2024#17": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "ratt 2024#18": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "ratt 2024#19": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "ratt 2024#20": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "ratt 2024#21": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "ratt 2024#22": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "ratt 2024#23": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "ratt 2024#24": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "ratt 2024#25": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "ratt 2024#26": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "ratt 2024#27": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "ratt 2024#28": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "ratt 2024#29": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "ratt 2024#30": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "ratt 2024#31": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "ratt 2024#32": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "ratt 2024#33": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "ratt 2024#34": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "ratt 2024#35": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "ratt 2024#36": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2024#36-37"
+  },
+  "ratt 2024#37": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2024#36-37"
+  },
+  "ratt 2024#38": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "ratt 2024#39": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "ratt 2024#40": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "ratt 2024#41": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "ratt 2024#42": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "ratt 2024#43": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "ratt 2024#44": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "ratt 2024#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "ratt 2024#46": {
+   "keep": "topic"
+  },
+  "ratt 2024#47": {
+   "keep": "topic"
+  },
+  "ratt 2024#48": {
+   "keep": "topic"
+  },
+  "ratt 2024#49": {
+   "keep": "topic"
+  },
+  "ratt 2024#50": {
+   "keep": "topic"
+  },
+  "Exceptionnelle 2024#1": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Exceptionnelle 2024#2": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Exceptionnelle 2024#3": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#4": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#9": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#10": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#11": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Exceptionnelle 2024#12": {
+   "c": [
+    "Mastopathies bénignes"
+   ],
+   "conf": "low",
+   "why": "Phyllode grade I = benign fibroepithelial tumor"
+  },
+  "Exceptionnelle 2024#13": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Exceptionnelle 2024#14": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Exceptionnelle 2024#15": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Exceptionnelle 2024#16": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Exceptionnelle 2024#17": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Exceptionnelle 2024#18": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Exceptionnelle 2024#19": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Exceptionnelle 2024#20": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Exceptionnelle 2024#21": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Exceptionnelle 2024#22": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Exceptionnelle 2024#23": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Exceptionnelle 2024#24": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Exceptionnelle 2024#25": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Exceptionnelle 2024#26": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Exceptionnelle 2024#27": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Exceptionnelle 2024#28": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Exceptionnelle 2024#29": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Exceptionnelle 2024#30": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Exceptionnelle 2024#31": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Exceptionnelle 2024#32": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Exceptionnelle 2024#33": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Exceptionnelle 2024#34": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Exceptionnelle 2024#34-36"
+  },
+  "Exceptionnelle 2024#35": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Exceptionnelle 2024#34-36"
+  },
+  "Exceptionnelle 2024#36": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Exceptionnelle 2024#34-36"
+  },
+  "Exceptionnelle 2024#37": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Exceptionnelle 2024#38": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Exceptionnelle 2024#39": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Exceptionnelle 2024#40": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Exceptionnelle 2024#41": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Exceptionnelle 2024#41-42"
+  },
+  "Exceptionnelle 2024#42": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Exceptionnelle 2024#41-42"
+  },
+  "Exceptionnelle 2024#43": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Exceptionnelle 2024#44": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Exceptionnelle 2024#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Exceptionnelle 2024#46": {
+   "keep": "topic"
+  },
+  "Exceptionnelle 2024#47": {
+   "keep": "topic"
+  },
+  "Exceptionnelle 2024#48": {
+   "keep": "topic"
+  },
+  "Exceptionnelle 2024#49": {
+   "keep": "topic"
+  },
+  "Exceptionnelle 2024#50": {
+   "keep": "topic"
+  },
+  "Extraordinaire 2024#1": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Extraordinaire 2024#2": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Extraordinaire 2024#3": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#4": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Extraordinaire 2024#9": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Extraordinaire 2024#10": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Extraordinaire 2024#11": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Extraordinaire 2024#12": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Extraordinaire 2024#13": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Extraordinaire 2024#14": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Extraordinaire 2024#15": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Extraordinaire 2024#16": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Extraordinaire 2024#17": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Extraordinaire 2024#18": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Extraordinaire 2024#19": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Extraordinaire 2024#20": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Extraordinaire 2024#21": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Extraordinaire 2024#22": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Extraordinaire 2024#23": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Extraordinaire 2024#24": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Extraordinaire 2024#25": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Extraordinaire 2024#26": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Extraordinaire 2024#27": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Extraordinaire 2024#28": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Extraordinaire 2024#29": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Extraordinaire 2024#30": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Extraordinaire 2024#31": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Extraordinaire 2024#32": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Extraordinaire 2024#33": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Extraordinaire 2024#34": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Extraordinaire 2024#35": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Extraordinaire 2024#35-36"
+  },
+  "Extraordinaire 2024#36": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Extraordinaire 2024#35-36"
+  },
+  "Extraordinaire 2024#37": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Extraordinaire 2024#38": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Extraordinaire 2024#39": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Extraordinaire 2024#40": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Extraordinaire 2024#41": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Extraordinaire 2024#42": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Extraordinaire 2024#43": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Extraordinaire 2024#44": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Extraordinaire 2024#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Extraordinaire 2024#46": {
+   "keep": "topic"
+  },
+  "Extraordinaire 2024#47": {
+   "keep": "topic"
+  },
+  "Extraordinaire 2024#48": {
+   "keep": "topic"
+  },
+  "Extraordinaire 2024#49": {
+   "keep": "topic"
+  },
+  "Extraordinaire 2024#50": {
+   "keep": "topic"
+  },
+  "Normal 2023#1": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2023#2": {
+   "c": [
+    "Mastopathies bénignes"
+   ],
+   "conf": "low",
+   "why": "Phyllode tumor: benign-to-malignant fibroepithelial spectrum"
+  },
+  "Normal 2023#3": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2023#4": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2023#5": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#6": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#7": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#8": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#9": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#10": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2023#11": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2023#12": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2023#13": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2023#14": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2023#15": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2023#16": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2023#17": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2023#18": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2023#19": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2023#20": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2023#21": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2023#22": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2023#23": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2023#24": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2023#25": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2023#26": {
+   "keep": "topic"
+  },
+  "Normal 2023#27": {
+   "keep": "topic"
+  },
+  "Normal 2023#28": {
+   "keep": "topic"
+  },
+  "Normal 2023#29": {
+   "keep": "topic"
+  },
+  "Normal 2023#30": {
+   "keep": "topic"
+  },
+  "Normal 2023#31": {
+   "keep": "topic"
+  },
+  "Normal 2023#32": {
+   "keep": "topic"
+  },
+  "Normal 2023#33": {
+   "keep": "topic"
+  },
+  "Normal 2023#34": {
+   "keep": "topic"
+  },
+  "Normal 2023#35": {
+   "keep": "topic"
+  },
+  "Normal 2023#36": {
+   "keep": "topic"
+  },
+  "Normal 2023#37": {
+   "keep": "topic"
+  },
+  "Normal 2023#38": {
+   "keep": "topic"
+  },
+  "Normal 2023#39": {
+   "keep": "topic"
+  },
+  "Normal 2023#40": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2023#41": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2023#42": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2023#43": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2023#44": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2023#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2023#46": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2023#47": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2023#48": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2023#49": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Normal 2023#50": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Ratt 2023#2": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Ratt 2023#3": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Ratt 2023#4": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2023#5": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2023#6": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2023#7": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2023#8": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2023#9": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2023#10": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2023#11": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2023#12": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Ratt 2023#13": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Ratt 2023#14": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Ratt 2023#15": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Ratt 2023#16": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Ratt 2023#17": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Ratt 2023#18": {
+   "c": [
+    "Cancer du sein"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "conf": "low",
+   "why": "LNH mammaire; no LNH cours, breast tumour differential with carcinoma"
+  },
+  "Ratt 2023#19": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2023#20": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Ratt 2023#21": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2023#22": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2023#23": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2023#24": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2023#25": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2023#26": {
+   "keep": "topic"
+  },
+  "Ratt 2023#27": {
+   "keep": "topic"
+  },
+  "Ratt 2023#28": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#29": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#30": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#31": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#32": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#33": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2023#34": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2023#35": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2023#36": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2023#37": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2023#38": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2023#39": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#40": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#41": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#42": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#43": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#44": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#45": {
+   "c": [
+    "Tumeurs de la vessie"
+   ]
+  },
+  "Ratt 2023#46": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Ratt 2023#47": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Ratt 2023#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Ratt 2023#49": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Ratt 2023#50": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2022#1": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2022#2": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2022#3": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2022#4": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2022#5": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2022#6": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2022#7": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2022#8": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2022#9": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2022#10": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2022#11": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2022#12": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2022#13": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2022#14": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2022#15": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2022#16": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2022#17": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2022#18": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2022#19": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2022#20": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2022#21": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2022#22": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Adénome colorectal cancérisé, not lymphoid organ methods"
+  },
+  "Normal 2022#23": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2022#24": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hodgkin nodulaire à prédominance lymphocytaire, not sampling methods"
+  },
+  "Normal 2022#25": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2022#26": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2022#27": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2022#28": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2022#28-30"
+  },
+  "Normal 2022#29": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2022#28-30"
+  },
+  "Normal 2022#30": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2022#28-30"
+  },
+  "Normal 2022#31": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2022#31-32"
+  },
+  "Normal 2022#32": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2022#31-32"
+  },
+  "Normal 2022#33": {
+   "keep": "topic"
+  },
+  "Normal 2022#34": {
+   "keep": "topic"
+  },
+  "Normal 2022#35": {
+   "keep": "topic"
+  },
+  "Normal 2022#36": {
+   "keep": "topic"
+  },
+  "Normal 2022#37": {
+   "keep": "topic"
+  },
+  "Normal 2022#38": {
+   "keep": "topic"
+  },
+  "Normal 2022#39": {
+   "keep": "topic"
+  },
+  "Normal 2022#40": {
+   "keep": "topic"
+  },
+  "Normal 2022#41": {
+   "keep": "topic"
+  },
+  "Normal 2022#42": {
+   "keep": "topic"
+  },
+  "Normal 2022#43": {
+   "keep": "topic"
+  },
+  "Normal 2022#44": {
+   "keep": "topic"
+  },
+  "Normal 2022#45": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ],
+   "case": "Normal 2022#45-46"
+  },
+  "Normal 2022#46": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ],
+   "case": "Normal 2022#45-46"
+  },
+  "Normal 2022#47": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2022#47-48"
+  },
+  "Normal 2022#48": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2022#47-48"
+  },
+  "Normal 2022#49": {
+   "c": [
+    "Tumeurs de la vessie"
+   ],
+   "case": "Normal 2022#49-50"
+  },
+  "Normal 2022#50": {
+   "c": [
+    "Tumeurs de la vessie"
+   ],
+   "case": "Normal 2022#49-50"
+  },
+  "Normal 2021#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2021#2": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2021#3": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2021#4": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2021#5": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2021#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2021#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2021#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2021#9": {
+   "c": [
+    "Cancer du sein"
+   ],
+   "conf": "low",
+   "why": "Extemporané in breast pathology; mostly benign lesions listed"
+  },
+  "Normal 2021#10": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2021#11": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2021#12": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2021#13": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2021#14": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2021#15": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2021#16": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2021#17": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2021#18": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2021#19": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2021#20": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2021#21": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2021#22": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2021#23": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2021#24": {
+   "c": [
+    "Cancer du sein"
+   ],
+   "conf": "low",
+   "why": "Extemporané in breast pathology; mostly benign lesions listed"
+  },
+  "Normal 2021#25": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2021#26": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2021#26-27"
+  },
+  "Normal 2021#27": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2021#26-27"
+  },
+  "Normal 2021#28": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2021#28-30"
+  },
+  "Normal 2021#29": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2021#28-30"
+  },
+  "Normal 2021#30": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2021#28-30"
+  },
+  "Normal 2021#31": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2021#32": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2021#33": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38"
+  },
+  "Normal 2021#34": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38"
+  },
+  "Normal 2021#35": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38"
+  },
+  "Normal 2021#36": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38",
+   "conf": "low",
+   "why": "Ganglion conditioning follow-up of gastric case"
+  },
+  "Normal 2021#37": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38",
+   "conf": "low",
+   "why": "Ganglion macroscopy follow-up of gastric case"
+  },
+  "Normal 2021#38": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2021#33-38"
+  },
+  "Normal 2021#39": {
+   "keep": "topic"
+  },
+  "Normal 2021#40": {
+   "keep": "topic"
+  },
+  "Normal 2021#41": {
+   "keep": "topic"
+  },
+  "Normal 2021#42": {
+   "keep": "topic"
+  },
+  "Normal 2021#43": {
+   "keep": "topic"
+  },
+  "Normal 2021#44": {
+   "keep": "topic"
+  },
+  "Normal 2021#45": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2021#45-47"
+  },
+  "Normal 2021#46": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2021#45-47"
+  },
+  "Normal 2021#47": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2021#45-47"
+  },
+  "Normal 2021#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2021#49": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2021#50": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Normal 2020#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2020#2": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2020#3": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2020#4": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Normal 2020#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#7": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#9": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#10": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#11": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#12": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#13": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2020#14": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2020#15": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2020#16": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2020#17": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2020#18": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2020#19": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2020#20": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2020#21": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2020#22": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2020#23": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2020#24": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2020#25": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2020#26": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#26-28"
+  },
+  "Normal 2020#27": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#26-28"
+  },
+  "Normal 2020#28": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#26-28"
+  },
+  "Normal 2020#29": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#29-32"
+  },
+  "Normal 2020#30": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#29-32"
+  },
+  "Normal 2020#31": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#29-32"
+  },
+  "Normal 2020#32": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2020#29-32"
+  },
+  "Normal 2020#33": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Normal 2020#34": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2020#34-36"
+  },
+  "Normal 2020#35": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2020#34-36"
+  },
+  "Normal 2020#36": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2020#34-36"
+  },
+  "Normal 2020#37": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2020#37-38"
+  },
+  "Normal 2020#38": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Normal 2020#37-38"
+  },
+  "Normal 2020#39": {
+   "keep": "topic"
+  },
+  "Normal 2020#40": {
+   "keep": "topic"
+  },
+  "Normal 2020#41": {
+   "keep": "topic"
+  },
+  "Normal 2020#42": {
+   "keep": "topic"
+  },
+  "Normal 2020#43": {
+   "keep": "topic"
+  },
+  "Normal 2020#44": {
+   "keep": "topic"
+  },
+  "Normal 2020#45": {
+   "keep": "topic"
+  },
+  "Normal 2020#46": {
+   "keep": "topic"
+  },
+  "Normal 2020#47": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2020#47-49"
+  },
+  "Normal 2020#48": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2020#47-49"
+  },
+  "Normal 2020#49": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2020#47-49"
+  },
+  "Normal 2020#50": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2019#1": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#2": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#3": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#4": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2019#5": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#6": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#7": {
+   "c": [
+    "Mastopathies bénignes"
+   ]
+  },
+  "Normal 2019#8": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#9": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2019#10": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2019#11": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2019#12": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2019#13": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2019#14": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2019#15": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2019#16": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2019#17": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2019#18": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2019#19": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2019#20": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2019#21": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2019#22": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2019#23": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Recoupe bronchique, extension pleuro-pariétale = lung surgical specimen"
+  },
+  "Normal 2019#24": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2019#25": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2019#26": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#26-29"
+  },
+  "Normal 2019#27": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#26-29"
+  },
+  "Normal 2019#28": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#26-29"
+  },
+  "Normal 2019#29": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#26-29"
+  },
+  "Normal 2019#30": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#30-31"
+  },
+  "Normal 2019#31": {
+   "c": [
+    "Tumeurs du rein"
+   ],
+   "case": "Normal 2019#30-31"
+  },
+  "Normal 2019#32": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Normal 2019#32-35"
+  },
+  "Normal 2019#33": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Normal 2019#32-35"
+  },
+  "Normal 2019#34": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Normal 2019#32-35"
+  },
+  "Normal 2019#35": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Normal 2019#32-35"
+  },
+  "Normal 2019#36": {
+   "keep": "topic"
+  },
+  "Normal 2019#37": {
+   "keep": "topic"
+  },
+  "Normal 2019#38": {
+   "keep": "topic"
+  },
+  "Normal 2019#39": {
+   "keep": "topic"
+  },
+  "Normal 2019#40": {
+   "keep": "topic"
+  },
+  "Normal 2019#41": {
+   "keep": "topic"
+  },
+  "Normal 2019#42": {
+   "keep": "topic"
+  },
+  "Normal 2019#43": {
+   "keep": "topic"
+  },
+  "Normal 2019#44": {
+   "keep": "topic"
+  },
+  "Normal 2019#45": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2019#46": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2019#47": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2019#47-49"
+  },
+  "Normal 2019#48": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2019#47-49"
+  },
+  "Normal 2019#49": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Normal 2019#47-49"
+  },
+  "Normal 2019#50": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "H. pylori: gastric MALT lymphoma and adenocarcinoma"
+  },
+  "Ratt 2019#1": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Ratt 2019#2": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Ratt 2019#3": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Ratt 2019#3-4"
+  },
+  "Ratt 2019#4": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Ratt 2019#3-4"
+  },
+  "Ratt 2019#5": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Ratt 2019#5-6"
+  },
+  "Ratt 2019#6": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ],
+   "case": "Ratt 2019#5-6"
+  },
+  "Ratt 2019#7": {
+   "c": [
+    "Tumeur de l'ovaire"
+   ]
+  },
+  "Ratt 2019#8": {
+   "c": [
+    "Tumeurs du rein"
+   ]
+  },
+  "Ratt 2019#9": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Ratt 2019#10": {
+   "keep": "topic"
+  },
+  "Ratt 2019#11": {
+   "keep": "topic"
+  },
+  "Ratt 2019#12": {
+   "keep": "topic"
+  },
+  "Ratt 2019#13": {
+   "keep": "topic"
+  },
+  "Ratt 2019#14": {
+   "keep": "topic"
+  },
+  "Ratt 2019#15": {
+   "keep": "topic"
+  },
+  "Ratt 2019#16": {
+   "keep": "topic"
+  },
+  "Ratt 2019#17": {
+   "keep": "topic"
+  },
+  "Ratt 2019#18": {
+   "keep": "topic"
+  },
+  "Ratt 2019#19": {
+   "keep": "topic"
+  },
+  "Ratt 2019#20": {
+   "keep": "topic"
+  },
+  "Ratt 2019#21": {
+   "keep": "topic"
+  },
+  "Ratt 2019#22": {
+   "keep": "topic"
+  },
+  "Ratt 2019#23": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2019#24": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2019#25": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Ratt 2019#26": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2019#27": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#28": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#29": {
+   "keep": "topic"
+  },
+  "Ratt 2019#30": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#31": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#32": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#33": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Ratt 2019#34": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2019#35": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2019#36": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2019#37": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2019#38": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Ratt 2019#39": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Ratt 2019#40": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Ratt 2019#41": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Ratt 2019#42": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Ratt 2019#43": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Ratt 2019#44": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2019#45": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2019#46": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2019#47": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2019#48": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Ratt 2019#49": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Ratt 2019#50": {
+   "c": [
+    "Cancer du sein"
+   ]
+  },
+  "Normal 2018#1": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#2": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#3": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#4": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#5": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#6": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2018#7": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#8": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#9": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#10": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#11": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#12": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#13": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#14": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#15": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2018#16": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2018#17": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2018#18": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2018#19": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2018#20": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2018#21": {
+   "c": [
+    "Polypes et polyposes digestives",
+    "Cancers colo-rectaux"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Adénome cancérisé: polype + critères pronostiques du cancer invasif"
+  },
+  "Normal 2018#22": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2018#23": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2018#24": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2018#25": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2018#26": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2018#27": {
+   "keep": "topic"
+  },
+  "Normal 2018#28": {
+   "keep": "topic"
+  },
+  "Normal 2018#29": {
+   "keep": "topic"
+  },
+  "Normal 2018#30": {
+   "keep": "topic"
+  },
+  "Normal 2018#31": {
+   "keep": "topic"
+  },
+  "Normal 2018#32": {
+   "keep": "topic"
+  },
+  "Normal 2018#33": {
+   "keep": "topic"
+  },
+  "Normal 2018#34": {
+   "keep": "topic"
+  },
+  "Normal 2018#35": {
+   "keep": "topic"
+  },
+  "Normal 2018#36": {
+   "keep": "topic"
+  },
+  "Normal 2018#37": {
+   "keep": "topic"
+  },
+  "Normal 2018#38": {
+   "keep": "topic"
+  },
+  "Normal 2018#39": {
+   "keep": "topic"
+  },
+  "Normal 2018#40": {
+   "keep": "topic"
+  },
+  "Normal 2018#41": {
+   "keep": "topic"
+  },
+  "Normal 2018#42": {
+   "keep": "topic"
+  },
+  "Normal 2018#43": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2018#44": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2018#45": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2018#46": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ],
+   "case": "Normal 2018#46-47"
+  },
+  "Normal 2018#47": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ],
+   "case": "Normal 2018#46-47"
+  },
+  "Normal 2018#48": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2018#49": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2018#49-50"
+  },
+  "Normal 2018#50": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ],
+   "case": "Normal 2018#49-50"
+  },
+  "Normal 2017#1": {
+   "keep": "topic"
+  },
+  "Normal 2017#2": {
+   "keep": "topic"
+  },
+  "Normal 2017#3": {
+   "keep": "topic"
+  },
+  "Normal 2017#4": {
+   "keep": "topic"
+  },
+  "Normal 2017#5": {
+   "keep": "topic"
+  },
+  "Normal 2017#6": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2017#7": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2017#8": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2017#9": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2017#10": {
+   "c": [
+    "Lymphome de Hodgkin"
+   ]
+  },
+  "Normal 2017#11": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#12": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#13": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#14": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#15": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#16": {
+   "c": [
+    "Tumeurs broncho-pulmonaires"
+   ]
+  },
+  "Normal 2017#17": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2017#18": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2017#19": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2017#20": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2017#21": {
+   "c": [
+    "Pathologies de l'œsophage"
+   ]
+  },
+  "Normal 2017#22": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#23": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#24": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#25": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#26": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#27": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#28": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#29": {
+   "c": [
+    "Tumeurs de l'estomac"
+   ]
+  },
+  "Normal 2017#30": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#31": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#32": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#33": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#34": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#35": {
+   "c": [
+    "Polypes et polyposes digestives",
+    "Cancers colo-rectaux"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Adénome cancérisé: polype + critères pronostiques du cancer invasif"
+  },
+  "Normal 2017#36": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#37": {
+   "c": [
+    "Polypes et polyposes digestives"
+   ]
+  },
+  "Normal 2017#38": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#39": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#40": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#41": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#42": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#43": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#44": {
+   "c": [
+    "Cancers colo-rectaux"
+   ]
+  },
+  "Normal 2017#45": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2017#46": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2017#47": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2017#48": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  },
+  "Normal 2017#49": {
+   "c": [
+    "Démarche diagnostique devant une métastase hépatique d'un primitif inconnu"
+   ]
+  },
+  "Normal 2017#50": {
+   "c": [
+    "Tumeurs du foie"
+   ]
+  }
+ }
+}
