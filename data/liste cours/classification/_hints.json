@@ -6,6 +6,9 @@
   "Antithrombotiques 3 = fibrinolytiques / thrombolytiques.",
   "The \"toxico pharma\" exam has no cours in this module: give its questions {\"keep\": \"topic\"} instead of a cours."
  ],
+ "s10-sante-publique": [
+  "The split between \"Concepts de base en santé publique (partie 1)\" and \"(partie 2)\" is unknown: every question on those basic concepts gets both parts."
+ ],
  "s5-anatomie-pathologique": [
   "The split between \"Techniques en anatomie pathologique - partie 1\" and \"partie 2\" is unknown: every techniques question gets both parts."
  ]

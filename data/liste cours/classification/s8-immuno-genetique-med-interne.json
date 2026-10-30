@@ -1,0 +1,4596 @@
+{
+ "module": "Immunopathologie - Génétique médicale - Maladies de système",
+ "q": {
+  "normal 2025#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "normal 2025#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "normal 2025#3": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "normal 2025#3-6"
+  },
+  "normal 2025#4": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "normal 2025#3-6"
+  },
+  "normal 2025#5": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "normal 2025#3-6",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Sclérodactylie + ulcérations pulpaires = ScS; mortalité par PID"
+  },
+  "normal 2025#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "normal 2025#3-6",
+   "flags": [
+    "case_override",
+    "tag_mismatch"
+   ],
+   "why": "Traitement PID de la sclérodermie (MMF)"
+  },
+  "normal 2025#7": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "normal 2025#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "normal 2025#9": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Aphtes, ulcères génitaux, TVP, anévrisme pulmonaire = Behçet"
+  },
+  "normal 2025#10": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "normal 2025#10-12"
+  },
+  "normal 2025#11": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "normal 2025#10-12"
+  },
+  "normal 2025#12": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "normal 2025#10-12"
+  },
+  "normal 2025#13": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "normal 2025#13-14"
+  },
+  "normal 2025#14": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "normal 2025#13-14"
+  },
+  "normal 2025#15": {
+   "c": [
+    "Introduction aux vascularites systémiques"
+   ]
+  },
+  "normal 2025#16": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "normal 2025#17": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "normal 2025#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "normal 2025#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "normal 2025#20": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "normal 2025#21": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "normal 2025#22": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "normal 2025#23": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "normal 2025#24": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "normal 2025#25": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "normal 2025#26": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "normal 2025#27": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "normal 2025#28": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "normal 2025#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "normal 2025#30": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "normal 2025#31": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "normal 2025#32": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "normal 2025#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Action génomique des glucocorticoïdes, pas de la génétique"
+  },
+  "normal 2025#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "normal 2025#35": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "normal 2025#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "normal 2025#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "normal 2025#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "normal 2025#39": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Fréquence des hétérozygotes via Hardy-Weinberg"
+  },
+  "normal 2025#40": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "normal 2025#41": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "normal 2025#42": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "normal 2025#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "normal 2025#44": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "normal 2025#45": {
+   "c": [
+    "Génétique des populations"
+   ]
+  },
+  "normal 2025#46": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "normal 2025#47": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "normal 2025#48": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "normal 2025#49": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "normal 2025#50": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Mai 2024#1": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Mai 2024#1-2",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Abolition pouls radial femme jeune = Takayasu; tag/clé disent Behçet"
+  },
+  "Mai 2024#2": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Mai 2024#1-2",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Imagerie TSA/artères = bilan de Takayasu"
+  },
+  "Mai 2024#3": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Mai 2024#3-4"
+  },
+  "Mai 2024#4": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Mai 2024#3-4"
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Mai 2024#5-6"
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Mai 2024#5-6"
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Mai 2024#7-8"
+  },
+  "Mai 2024#8": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Mai 2024#7-8"
+  },
+  "Mai 2024#9": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2024#9-10"
+  },
+  "Mai 2024#10": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2024#9-10"
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Sclérodermie systémique"
+   ]
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Mai 2024#12-13"
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Mai 2024#12-13"
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Mai 2024#14-17"
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Mai 2024#14-17"
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Mai 2024#14-17"
+  },
+  "Mai 2024#17": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Mai 2024#14-17"
+  },
+  "Mai 2024#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Mai 2024#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Mai 2024#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ],
+   "conf": "low",
+   "why": "IGRA: test de stimulation T, aussi immunité anti-infectieuse"
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Mai 2024#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Mai 2024#31": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2024#42": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Mai 2024#44": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2024#45": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Mai 2024#47": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Mai 2024#48": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Calcul du risque génétique = conseil génétique"
+  },
+  "Mai 2024#49": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Mai 2024#50": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Septembre 2024#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Septembre 2024#1-4"
+  },
+  "Septembre 2024#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Septembre 2024#1-4"
+  },
+  "Septembre 2024#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Septembre 2024#1-4"
+  },
+  "Septembre 2024#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Septembre 2024#1-4"
+  },
+  "Septembre 2024#5": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Septembre 2024#5-7"
+  },
+  "Septembre 2024#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Septembre 2024#5-7"
+  },
+  "Septembre 2024#7": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Septembre 2024#5-7"
+  },
+  "Septembre 2024#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Septembre 2024#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Septembre 2024#10": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Septembre 2024#10-11"
+  },
+  "Septembre 2024#11": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Septembre 2024#10-11"
+  },
+  "Septembre 2024#12": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Septembre 2024#12-13"
+  },
+  "Septembre 2024#13": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Septembre 2024#12-13"
+  },
+  "Septembre 2024#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Septembre 2024#14-15"
+  },
+  "Septembre 2024#15": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Septembre 2024#14-15"
+  },
+  "Septembre 2024#16": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Septembre 2024#16-17"
+  },
+  "Septembre 2024#17": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Septembre 2024#16-17"
+  },
+  "Septembre 2024#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Septembre 2024#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Septembre 2024#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Septembre 2024#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Septembre 2024#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Septembre 2024#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Septembre 2024#24": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Septembre 2024#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Septembre 2024#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Septembre 2024#28": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Septembre 2024#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Septembre 2024#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Septembre 2024#31": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Septembre 2024#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Septembre 2024#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Septembre 2024#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Septembre 2024#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Septembre 2024#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Septembre 2024#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Septembre 2024#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Septembre 2024#39": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Septembre 2024#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Septembre 2024#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Septembre 2024#42": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Septembre 2024#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Septembre 2024#44": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Septembre 2024#45": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Septembre 2024#46": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Septembre 2024#47": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Septembre 2024#48": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Translocation robertsonienne = anomalie de structure chromosomique"
+  },
+  "Septembre 2024#49": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Septembre 2024#50": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Novembre 2024#1-4"
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Novembre 2024#1-4"
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Novembre 2024#1-4"
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Novembre 2024#1-4"
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Novembre 2024#5-7"
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Novembre 2024#10-11"
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Novembre 2024#10-11"
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Novembre 2024#12-13"
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Novembre 2024#12-13"
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Novembre 2024#14-15"
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Novembre 2024#14-15"
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Novembre 2024#16-17"
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Novembre 2024#16-17"
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)",
+    "Auto-immunité et maladies auto-immunes"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "conf": "low",
+   "why": "Translocation robertsonienne: structural anomaly vs caryotype course"
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hérédité mitochondriale = mode de transmission, not caryotype/DAN"
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Sclérodermie systémique"
+   ]
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Sclérodermie systémique"
+   ]
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ]
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#12": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#13": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#14": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#15": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Décembre 2024#11-16"
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ],
+   "conf": "low",
+   "why": "IGRA: HS retardée vs immunité anti-infectieuse (tuberculose)"
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Exemples de pathologies autosomiques et gonosomiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Diseases with X-linked dominant transmission, not chromosomal"
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Same as Novembre 2024#38: néomutation AD and paternal age"
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2023#1": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Mai 2023#3": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Artérite à cellules géantes"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Garbled stem (lupus vignette); options on large-vessel vasculitis"
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Maladie de Takayasu"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Mai 2023#9-13"
+  },
+  "Mai 2023#10": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Mai 2023#9-13"
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Mai 2023#9-13"
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Mai 2023#9-13"
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Mai 2023#9-13"
+  },
+  "Mai 2023#14": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2023#14-17",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sclérodactylie, anti-Scl70, PID = sclérodermie systémique"
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2023#14-17",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sclérodermie prognosis/antibodies, not Raynaud"
+  },
+  "Mai 2023#16": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2023#14-17",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Treatment of sclérodermie lung fibrosis"
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Mai 2023#14-17",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Treatment of HTAP in sclérodermie"
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Drug hypersensitivity spanning types I, II and IV"
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ],
+   "conf": "low",
+   "why": "IGRA: HS retardée vs immunité anti-infectieuse (tuberculose)"
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Introduction à la génétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Definition of congenital disease, general genetics"
+  },
+  "Mai 2023#35": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Introduction à la génétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Definition of locus, basic genetics vocabulary"
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Mai 2023#38-39"
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Mai 2023#38-39"
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg conditions = population genetics"
+  },
+  "Mai 2023#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Amyotrophie spinale (SMA)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "SMA is a monogenic disease with its own cours"
+  },
+  "Mai 2023#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Néomutation in autosomal dominant transmission"
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indication of parental karyotype, not transmission mode"
+  },
+  "Mai 2023#49": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2022#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2022#1-5"
+  },
+  "Normal 2022#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2022#1-5"
+  },
+  "Normal 2022#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2022#1-5"
+  },
+  "Normal 2022#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2022#1-5"
+  },
+  "Normal 2022#5": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2022#1-5"
+  },
+  "Normal 2022#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Normal 2022#6-7",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sclérodactylie, anti-topo1: diagnostic de sclérodermie systémique"
+  },
+  "Normal 2022#7": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Normal 2022#6-7",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan d'extension de la sclérodermie"
+  },
+  "Normal 2022#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2022#8-10"
+  },
+  "Normal 2022#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2022#8-10"
+  },
+  "Normal 2022#10": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2022#8-10"
+  },
+  "Normal 2022#11": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Normal 2022#11-12"
+  },
+  "Normal 2022#12": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Normal 2022#11-12"
+  },
+  "Normal 2022#13": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2022#13-16"
+  },
+  "Normal 2022#14": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2022#13-16"
+  },
+  "Normal 2022#15": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2022#13-16"
+  },
+  "Normal 2022#16": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2022#13-16"
+  },
+  "Normal 2022#17": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2022#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2022#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2022#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2022#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2022#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2022#23": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2022#24": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2022#25": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Normal 2022#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2022#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2022#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2022#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2022#30": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Normal 2022#31": {
+   "c": [
+    "Immunité anti-tumorale"
+   ],
+   "conf": "low",
+   "why": "BCG-thérapie = immunothérapie anti-tumorale; no immunotherapy cours"
+  },
+  "Normal 2022#32": {
+   "c": [
+    "Anticorps monoclonaux"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Immunoglobulines polyvalentes: no dedicated cours, closest immunotherapy cours"
+  },
+  "Normal 2022#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Normal 2022#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal 2022#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal 2022#36": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "conf": "low",
+   "why": "Âge maternel avancé -> risque d'aneuploïdie"
+  },
+  "Normal 2022#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2022#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2022#39": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2022#40": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications du caryotype constitutionnel, not conseil génétique"
+  },
+  "Normal 2022#41": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "conf": "low",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Risque lié à la consanguinité (cousins germains)"
+  },
+  "Normal 2022#42": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2022#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2022#44": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2022#45": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on Klinefelter syndrome"
+  },
+  "Normal 2022#46": {
+   "c": [
+    "Conseil génétique",
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Conseil génétique appliqué aux formules du Turner"
+  },
+  "Normal 2022#47": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2022#48": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal 2022#49": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "conf": "low",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Retard mental garçon: caryotype + méthyl-PCR FMR1"
+  },
+  "Normal 2022#50": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Tests FMR1 pré-mutation/mutation complète"
+  },
+  "Ratt 2022#1": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2022#1-4"
+  },
+  "Ratt 2022#2": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2022#1-4"
+  },
+  "Ratt 2022#3": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2022#1-4"
+  },
+  "Ratt 2022#4": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2022#1-4"
+  },
+  "Ratt 2022#5": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2022#5-8"
+  },
+  "Ratt 2022#6": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2022#5-8"
+  },
+  "Ratt 2022#7": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2022#5-8"
+  },
+  "Ratt 2022#8": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2022#5-8"
+  },
+  "Ratt 2022#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ]
+  },
+  "Ratt 2022#10": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Ratt 2022#11": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Ratt 2022#12": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Ratt 2022#13": {
+   "c": [
+    "Introduction aux vascularites systémiques"
+   ]
+  },
+  "Ratt 2022#14": {
+   "c": [
+    "Artérite à cellules géantes"
+   ]
+  },
+  "Ratt 2022#15": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Ratt 2022#15-17"
+  },
+  "Ratt 2022#16": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Ratt 2022#15-17"
+  },
+  "Ratt 2022#17": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Ratt 2022#15-17"
+  },
+  "Ratt 2022#18": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2022#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2022#20": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2022#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2022#22": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Ratt 2022#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2022#24": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2022#25": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2022#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2022#27": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2022#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2022#29": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Ratt 2022#30": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Ratt 2022#31": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Ratt 2022#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Ratt 2022#33": {
+   "c": [
+    "Anticorps monoclonaux"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Immunoglobulines polyvalentes: no dedicated cours, closest immunotherapy cours"
+  },
+  "Ratt 2022#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Ratt 2022#35": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Formule chromosomique de triploïdie"
+  },
+  "Ratt 2022#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "conf": "low",
+   "why": "Âge paternel -> néomutations autosomiques dominantes"
+  },
+  "Ratt 2022#37": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Calcul de fréquence des hétérozygotes (Hardy-Weinberg)"
+  },
+  "Ratt 2022#38": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2022#39": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2022#40": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications du caryotype constitutionnel"
+  },
+  "Ratt 2022#41": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2022#42": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2022#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2022#44": {
+   "c": [
+    "Syndrome de Prader-Willi"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on Prader-Willi syndrome"
+  },
+  "Ratt 2022#45": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2022#46": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques du syndrome de Turner"
+  },
+  "Ratt 2022#47": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2022#48": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Ratt 2022#49": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on X fragile"
+  },
+  "Ratt 2022#50": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Formules chromosomiques du syndrome de Turner"
+  },
+  "Normal 2021#1": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#2": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#3": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#4": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#5": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#6": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2021#1-6"
+  },
+  "Normal 2021#7": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2021#7-10"
+  },
+  "Normal 2021#8": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2021#7-10"
+  },
+  "Normal 2021#9": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2021#7-10"
+  },
+  "Normal 2021#10": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Normal 2021#7-10"
+  },
+  "Normal 2021#11": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Normal 2021#12": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Normal 2021#13": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Normal 2021#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Normal 2021#15": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Normal 2021#15-16",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Jeune fille, sténoses rénales, aortite: Takayasu"
+  },
+  "Normal 2021#16": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Normal 2021#15-16",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Atteintes vasculaires du Takayasu"
+  },
+  "Normal 2021#17": {
+   "c": [
+    "Artérite à cellules géantes"
+   ]
+  },
+  "Normal 2021#18": {
+   "c": [
+    "Artérite à cellules géantes"
+   ]
+  },
+  "Normal 2021#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2021#20": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2021#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2021#22": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2021#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Normal 2021#24": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2021#25": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2021#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2021#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2021#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2021#29": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Normal 2021#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Normal 2021#31": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Normal 2021#32": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Normal 2021#33": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Normal 2021#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal 2021#35": {
+   "c": [
+    "Conseil génétique",
+    "Génétique des populations"
+   ],
+   "conf": "low",
+   "why": "Consanguinité et risque autosomique récessif",
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Normal 2021#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2021#37": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Calcul de fréquence des hétérozygotes (Hardy-Weinberg)"
+  },
+  "Normal 2021#38": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coefficient de parenté entre cousins germains"
+  },
+  "Normal 2021#39": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2021#40": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Question entirely on X fragile"
+  },
+  "Normal 2021#41": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Signes cliniques du syndrome de Turner"
+  },
+  "Normal 2021#42": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2021#43": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Formules chromosomiques du syndrome de Turner"
+  },
+  "Normal 2021#44": {
+   "c": [
+    "Syndrome de Prader-Willi"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Mécanismes génétiques du Prader-Willi"
+  },
+  "Normal 2021#45": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal 2021#46": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2021#47": {
+   "c": [
+    "Diagnostic anténatal",
+    "Caryotype"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Caryotype anténatal: indications et prélèvements"
+  },
+  "Normal 2021#48": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2021#49": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2021#50": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications du caryotype constitutionnel"
+  },
+  "Ratt 2021#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#5": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#6": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2021#1-6"
+  },
+  "Ratt 2021#7": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2021#7-10"
+  },
+  "Ratt 2021#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2021#7-10"
+  },
+  "Ratt 2021#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2021#7-10"
+  },
+  "Ratt 2021#10": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2021#7-10"
+  },
+  "Ratt 2021#11": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Ratt 2021#11-12"
+  },
+  "Ratt 2021#12": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Ratt 2021#11-12"
+  },
+  "Ratt 2021#13": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2021#13-14"
+  },
+  "Ratt 2021#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2021#13-14"
+  },
+  "Ratt 2021#15": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Ratt 2021#16": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Ratt 2021#17": {
+   "c": [
+    "Maladie de Takayasu"
+   ]
+  },
+  "Ratt 2021#18": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Ratt 2021#19": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2021#20": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2021#21": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2021#22": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2021#23": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2021#24": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2021#25": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ],
+   "conf": "low",
+   "why": "CTLA4 molecule: tolerance/anergy vs immunosuppressive drug"
+  },
+  "Ratt 2021#26": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2021#27": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2021#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2021#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2021#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Ratt 2021#31": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Ratt 2021#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Ratt 2021#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ]
+  },
+  "Ratt 2021#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Ratt 2021#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Ratt 2021#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2021#37": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Ratt 2021#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2021#39": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2021#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2021#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2021#42": {
+   "c": [
+    "Mutations : classification, conséquences et nomenclature"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Gene mutations types, not chromosomal pathology"
+  },
+  "Ratt 2021#43": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2021#44": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2021#45": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2021#46": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Specific Klinefelter cours exists"
+  },
+  "Ratt 2021#47": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Risk from population heterozygote frequency"
+  },
+  "Ratt 2021#48": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg conditions = population genetics"
+  },
+  "Ratt 2021#49": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2021#50": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Martin-Bell triad, specific X fragile cours"
+  },
+  "Normal 2020#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2020#1-6"
+  },
+  "Normal 2020#2": {
+   "c": [
+    "Lupus érythémateux systémique",
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Normal 2020#1-6",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Diagnosis lupus with secondary SAPL"
+  },
+  "Normal 2020#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2020#1-6"
+  },
+  "Normal 2020#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2020#1-6"
+  },
+  "Normal 2020#5": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2020#1-6"
+  },
+  "Normal 2020#6": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Normal 2020#1-6"
+  },
+  "Normal 2020#7": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2020#7-10"
+  },
+  "Normal 2020#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2020#7-10"
+  },
+  "Normal 2020#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2020#7-10"
+  },
+  "Normal 2020#10": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Normal 2020#7-10"
+  },
+  "Normal 2020#11": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2020#11-14"
+  },
+  "Normal 2020#12": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2020#11-14"
+  },
+  "Normal 2020#13": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2020#11-14"
+  },
+  "Normal 2020#14": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2020#11-14"
+  },
+  "Normal 2020#15": {
+   "c": [
+    "Phénomène de Raynaud"
+   ]
+  },
+  "Normal 2020#16": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Normal 2020#17": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Normal 2020#18": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2020#19": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2020#20": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2020#21": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2020#22": {
+   "c": [
+    "Déficits immunitaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Recurrent encapsulated infections in infant = suspected humoral deficit"
+  },
+  "Normal 2020#23": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2020#24": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2020#25": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2020#26": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2020#27": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Normal 2020#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2020#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2020#30": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Normal 2020#31": {
+   "c": [
+    "Immunité anti-tumorale",
+    "Anticorps monoclonaux"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Anti-checkpoint mAbs lifting CTL inhibition"
+  },
+  "Normal 2020#32": {
+   "c": [
+    "Vaccination"
+   ]
+  },
+  "Normal 2020#33": {
+   "c": [
+    "Immunosuppresseurs"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "IV immunoglobulins; no dedicated cours, immuno-intervention"
+  },
+  "Normal 2020#34": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Normal 2020#35": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal 2020#36": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2020#37": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "conf": "low",
+   "why": "Consanguinity effect, population genetics vs transmission modes"
+  },
+  "Ratt 2020#1": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Ratt 2020#1-4"
+  },
+  "Ratt 2020#2": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Ratt 2020#1-4"
+  },
+  "Ratt 2020#3": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Ratt 2020#1-4"
+  },
+  "Ratt 2020#4": {
+   "c": [
+    "Vascularites systémiques"
+   ],
+   "case": "Ratt 2020#1-4"
+  },
+  "Ratt 2020#5": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2020#5-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Sclerodactyly, megacapillaries, HTAP = systemic sclerosis"
+  },
+  "Ratt 2020#6": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2020#5-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "HTAP in systemic sclerosis"
+  },
+  "Ratt 2020#7": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2020#5-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "HTAP treatment in systemic sclerosis"
+  },
+  "Ratt 2020#8": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2020#5-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "D-penicillamine in systemic sclerosis"
+  },
+  "Ratt 2020#9": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2020#5-9",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Scleroderma renal crisis"
+  },
+  "Ratt 2020#10": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2020#10-14"
+  },
+  "Ratt 2020#11": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2020#10-14"
+  },
+  "Ratt 2020#12": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2020#10-14"
+  },
+  "Ratt 2020#13": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2020#10-14"
+  },
+  "Ratt 2020#14": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2020#10-14"
+  },
+  "Ratt 2020#15": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ]
+  },
+  "Ratt 2020#16": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Ratt 2020#17": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ]
+  },
+  "Ratt 2020#18": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2020#19": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2020#20": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Ratt 2020#21": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2020#22": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2020#23": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ],
+   "conf": "low",
+   "why": "General classification of hypersensitivity states"
+  },
+  "Ratt 2020#24": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2020#25": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2020#26": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Ratt 2020#27": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2020#28": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2020#29": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2020#30": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2020#31": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Ratt 2020#32": {
+   "c": [
+    "Immunité anti-tumorale",
+    "Anticorps monoclonaux"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Anti-checkpoint mAbs lifting CTL inhibition"
+  },
+  "Ratt 2020#33": {
+   "c": [
+    "Anticorps monoclonaux"
+   ]
+  },
+  "Ratt 2020#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Ratt 2020#35": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2020#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires",
+    "Mutations : classification, conséquences et nomenclature"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Paternal age -> de novo AD point mutations"
+  },
+  "Ratt 2020#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2020#38": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2020#39": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Turner karyotypes, specific cours exists"
+  },
+  "Ratt 2020#40": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2020#41": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Risk from population heterozygote frequency"
+  },
+  "Ratt 2020#42": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2020#43": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "FMR1 CGG expansion, specific X fragile cours"
+  },
+  "Ratt 2020#44": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Ratt 2020#45": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Ratt 2020#46": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Reproductive options for balanced translocation carrier"
+  },
+  "Ratt 2020#47": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2020#48": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2020#49": {
+   "c": [
+    "Syndrome de Turner"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Turner clinical features, specific cours exists"
+  },
+  "Ratt 2020#50": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2019#1": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2019#1-5"
+  },
+  "Normal 2019#2": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2019#1-5"
+  },
+  "Normal 2019#3": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2019#1-5"
+  },
+  "Normal 2019#4": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2019#1-5"
+  },
+  "Normal 2019#5": {
+   "c": [
+    "Maladie de Behçet"
+   ],
+   "case": "Normal 2019#1-5"
+  },
+  "Normal 2019#6": {
+   "c": [
+    "Vascularites systémiques"
+   ]
+  },
+  "Normal 2019#7": {
+   "c": [
+    "Vascularites systémiques"
+   ]
+  },
+  "Normal 2019#8": {
+   "c": [
+    "Vascularites systémiques"
+   ]
+  },
+  "Normal 2019#9": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Normal 2019#9-10"
+  },
+  "Normal 2019#10": {
+   "c": [
+    "Phénomène de Raynaud"
+   ],
+   "case": "Normal 2019#9-10"
+  },
+  "Normal 2019#11": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Normal 2019#11-12"
+  },
+  "Normal 2019#12": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Normal 2019#11-12"
+  },
+  "Normal 2019#13": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Normal 2019#13-14"
+  },
+  "Normal 2019#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Normal 2019#13-14"
+  },
+  "Normal 2019#15": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2019#15-16"
+  },
+  "Normal 2019#16": {
+   "c": [
+    "Artérite à cellules géantes"
+   ],
+   "case": "Normal 2019#15-16"
+  },
+  "Normal 2019#17": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2019#18": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2019#19": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Normal 2019#20": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Normal 2019#21": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2019#22": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2019#23": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2019#24": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Normal 2019#25": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2019#26": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Normal 2019#27": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2019#28": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2019#29": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Normal 2019#30": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Normal 2019#31": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2019#32": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Normal 2019#33": {
+   "c": [
+    "Immunité anti-tumorale"
+   ]
+  },
+  "Normal 2019#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal 2019#35": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg heterozygote frequency calculation"
+  },
+  "Normal 2019#36": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Consanguinity risk calculation; could be Modes de transmission or SMA"
+  },
+  "Normal 2019#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2019#38": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2019#39": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal 2019#40": {
+   "c": [
+    "Introduction à la génétique"
+   ],
+   "conf": "low",
+   "why": "Hétérogénéité allélique: vocabulary, possibly Modes de transmission"
+  },
+  "Normal 2019#41": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal 2019#42": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2019#43": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "X-linked recessive monogenic diseases, not chromosomal"
+  },
+  "Normal 2019#44": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal 2019#45": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2019#46": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2019#47": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal 2019#48": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal 2019#49": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal 2019#50": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "Ratt 2019#1": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2019#1-5"
+  },
+  "Ratt 2019#2": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2019#1-5"
+  },
+  "Ratt 2019#3": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2019#1-5"
+  },
+  "Ratt 2019#4": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2019#1-5"
+  },
+  "Ratt 2019#5": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ],
+   "case": "Ratt 2019#1-5"
+  },
+  "Ratt 2019#6": {
+   "c": [
+    "Lupus érythémateux systémique"
+   ]
+  },
+  "Ratt 2019#7": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2019#7-9"
+  },
+  "Ratt 2019#8": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2019#7-9"
+  },
+  "Ratt 2019#9": {
+   "c": [
+    "Syndrome de Gougerot-Sjögren"
+   ],
+   "case": "Ratt 2019#7-9"
+  },
+  "Ratt 2019#10": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Ratt 2019#10-11"
+  },
+  "Ratt 2019#11": {
+   "c": [
+    "Maladie de Takayasu"
+   ],
+   "case": "Ratt 2019#10-11"
+  },
+  "Ratt 2019#12": {
+   "c": [
+    "Sclérodermie systémique"
+   ],
+   "case": "Ratt 2019#12-13"
+  },
+  "Ratt 2019#13": {
+   "c": [
+    "Sclérodermie systémique",
+    "Phénomène de Raynaud"
+   ],
+   "case": "Ratt 2019#12-13",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Symptomatic Raynaud treatment in a scleroderma case"
+  },
+  "Ratt 2019#14": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2019#14-15"
+  },
+  "Ratt 2019#15": {
+   "c": [
+    "Les myopathies inflammatoires acquises idiopathiques"
+   ],
+   "case": "Ratt 2019#14-15"
+  },
+  "Ratt 2019#16": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Ratt 2019#16-17"
+  },
+  "Ratt 2019#17": {
+   "c": [
+    "Syndrome des anti-phospholipides (SAPL)"
+   ],
+   "case": "Ratt 2019#16-17"
+  },
+  "Ratt 2019#18": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2019#19": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2019#20": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2019#21": {
+   "c": [
+    "Auto-immunité et maladies auto-immunes"
+   ]
+  },
+  "Ratt 2019#22": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2019#23": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2019#24": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2019#25": {
+   "c": [
+    "Déficits immunitaires"
+   ]
+  },
+  "Ratt 2019#26": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2019#27": {
+   "c": [
+    "Hypersensibilité immédiate et allergie"
+   ]
+  },
+  "Ratt 2019#28": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Ratt 2019#29": {
+   "c": [
+    "Hypersensibilité de type 2 et 3"
+   ]
+  },
+  "Ratt 2019#30": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2019#31": {
+   "c": [
+    "Hypersensibilité de type 4"
+   ]
+  },
+  "Ratt 2019#32": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2019#33": {
+   "c": [
+    "Immunité anti-infectieuse"
+   ]
+  },
+  "Ratt 2019#34": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Ratt 2019#35": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2019#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2019#37": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2019#38": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Ratt 2019#39": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2019#40": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2019#41": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Ratt 2019#42": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Ratt 2019#43": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg conditions = population genetics"
+  },
+  "Ratt 2019#44": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Ratt 2019#45": {
+   "c": [
+    "Exemples de pathologies autosomiques et gonosomiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Duchenne is monogenic, not chromosomal pathology"
+  },
+  "Ratt 2019#46": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "X-linked recessive risk calculation, not chromosomal"
+  },
+  "Ratt 2019#47": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Ratt 2019#48": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Ratt 2019#49": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Ratt 2019#50": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#1": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2018#2": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Triploidy formulas = chromosomal pathology"
+  },
+  "Normal génétique 2018#3": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#4": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#5": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#6": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#7": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#8": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#9": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "AR risk from heterozygote frequency; not chromosomal"
+  },
+  "Normal génétique 2018#10": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Consanguinity risk calculation; could be Modes de transmission or SMA"
+  },
+  "Normal génétique 2018#11": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2018#12": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#13": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#14": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Normal génétique 2018#14-15"
+  },
+  "Normal génétique 2018#15": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Normal génétique 2018#14-15"
+  },
+  "Normal génétique 2018#16": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2018#17": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg conditions = population genetics"
+  },
+  "Normal génétique 2018#18": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Chromosomal heteromorphisms seen on karyotype"
+  },
+  "Normal génétique 2018#19": {
+   "c": [
+    "Introduction à la génétique"
+   ],
+   "conf": "low",
+   "why": "Hétérogénéité allélique: vocabulary, possibly Modes de transmission"
+  },
+  "Normal génétique 2018#20": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#21": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#22": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2018#22-26"
+  },
+  "Normal génétique 2018#23": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2018#22-26"
+  },
+  "Normal génétique 2018#24": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2018#22-26"
+  },
+  "Normal génétique 2018#25": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2018#22-26"
+  },
+  "Normal génétique 2018#26": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "case": "Normal génétique 2018#22-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Reproductive options = genetic counselling"
+  },
+  "Normal génétique 2018#27": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#28": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "Normal génétique 2018#29": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal génétique 2018#30": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#31": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Normal génétique 2018#32": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#33": {
+   "c": [
+    "Exemples de pathologies autosomiques et gonosomiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Duchenne is monogenic, not chromosomal pathology"
+  },
+  "Normal génétique 2018#34": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2018#35": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Néomutation as particularity of AD transmission"
+  },
+  "Normal génétique 2018#36": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Multifactorial inheritance model"
+  },
+  "Normal génétique 2018#37": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Karyotype question mis-tagged as Lupus"
+  },
+  "Normal génétique 2018#38": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Normal génétique 2018#39": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2018#40": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2018#41": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "X-linked dominant monogenic diseases, not chromosomal"
+  },
+  "Normal génétique 2018#42": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal génétique 2018#43": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal génétique 2018#44": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal génétique 2018#45": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal génétique 2018#46": {
+   "c": [
+    "Syndrome de l'X fragile",
+    "Caryotype"
+   ],
+   "flags": [
+    "multi_topic",
+    "tag_mismatch"
+   ],
+   "why": "Intellectual disability work-up: karyotype + FMR1 methyl-PCR"
+  },
+  "Normal génétique 2018#47": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "Normal génétique 2018#48": {
+   "c": [
+    "Caryotype"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Indications of constitutional karyotype in newborn"
+  },
+  "Normal génétique 2018#49": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Coefficient de consanguinité = population genetics"
+  },
+  "Normal génétique 2018#50": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2017#1": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2017#2": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2017#3": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "conf": "low",
+   "why": "Âge paternel = néomutations AD; could be Mutations cours"
+  },
+  "Normal génétique 2017#4": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2017#5": {
+   "c": [
+    "Introduction à la génétique"
+   ]
+  },
+  "Normal génétique 2017#6": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#7": {
+   "c": [
+    "Génétique des populations"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Hardy-Weinberg heterozygote frequency calculation"
+  },
+  "Normal génétique 2017#8": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#9": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#10": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#11": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#12": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#13": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#14": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#15": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "conf": "low",
+   "why": "Coefficient de consanguinité may sit in Génétique des populations"
+  },
+  "Normal génétique 2017#16": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#17": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2017#18": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2017#19": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2017#20": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal génétique 2017#21": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#21-26"
+  },
+  "Normal génétique 2017#22": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#21-26"
+  },
+  "Normal génétique 2017#23": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "case": "Normal génétique 2017#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Zygotes possibles du couple = conseil génétique"
+  },
+  "Normal génétique 2017#24": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "case": "Normal génétique 2017#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Risque de récurrence = conseil génétique"
+  },
+  "Normal génétique 2017#25": {
+   "c": [
+    "Conseil génétique"
+   ],
+   "case": "Normal génétique 2017#21-26",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Options reproductives du couple = conseil génétique"
+  },
+  "Normal génétique 2017#26": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#21-26"
+  },
+  "Normal génétique 2017#27": {
+   "c": [
+    "La pathologie chromosomique"
+   ]
+  },
+  "Normal génétique 2017#28": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#28-30"
+  },
+  "Normal génétique 2017#29": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#28-30"
+  },
+  "Normal génétique 2017#30": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "case": "Normal génétique 2017#28-30"
+  },
+  "Normal génétique 2017#31": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "Normal génétique 2017#32": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2017#33": {
+   "c": [
+    "La pathologie chromosomique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Remaniements équilibrés, not caryotype technique"
+  },
+  "Normal génétique 2017#34": {
+   "c": [
+    "Syndrome de Klinefelter"
+   ]
+  },
+  "Normal génétique 2017#35": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2017#36": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal génétique 2017#37": {
+   "c": [
+    "Syndrome de l'X fragile"
+   ]
+  },
+  "Normal génétique 2017#38": {
+   "c": [
+    "Syndrome de Turner"
+   ]
+  },
+  "Normal génétique 2017#39": {
+   "c": [
+    "Caryotype"
+   ]
+  },
+  "Normal génétique 2017#40": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#41": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#42": {
+   "c": [
+    "Conseil génétique"
+   ]
+  },
+  "Normal génétique 2017#43": {
+   "c": [
+    "Mutations : classification, conséquences et nomenclature"
+   ]
+  },
+  "Normal génétique 2017#44": {
+   "c": [
+    "Exemples de pathologies autosomiques et gonosomiques"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Duchenne gene/diagnostic details, a gonosomal disease example"
+  },
+  "Normal génétique 2017#45": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal génétique 2017#46": {
+   "c": [
+    "Diagnostic anténatal"
+   ]
+  },
+  "Normal génétique 2017#47": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ]
+  },
+  "Normal génétique 2017#48": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Normal génétique 2017#48-50"
+  },
+  "Normal génétique 2017#49": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Normal génétique 2017#48-50"
+  },
+  "Normal génétique 2017#50": {
+   "c": [
+    "Modes de transmission des maladies héréditaires"
+   ],
+   "case": "Normal génétique 2017#48-50"
+  }
+ }
+}
