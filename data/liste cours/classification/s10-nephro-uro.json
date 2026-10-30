@@ -1,0 +1,4393 @@
+{
+ "module": "Néphrologie - Urologie",
+ "q": {
+  "ratt 2025#1": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "ratt 2025#2": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "ratt 2025#3": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "ratt 2025#4": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "ratt 2025#5": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "ratt 2025#6": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "ratt 2025#7": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "ratt 2025#8": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "ratt 2025#9": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ]
+  },
+  "ratt 2025#10": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "ratt 2025#11": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "ratt 2025#12": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "ratt 2025#13": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "ratt 2025#14": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "ratt 2025#15": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "ratt 2025#16": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "ratt 2025#17": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "ratt 2025#18": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "ratt 2025#19": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "ratt 2025#20": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "ratt 2025#21": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "ratt 2025#22": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "ratt 2025#23": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "ratt 2025#24": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "ratt 2025#25": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2025#25-28"
+  },
+  "ratt 2025#26": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2025#25-28"
+  },
+  "ratt 2025#27": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2025#25-28"
+  },
+  "ratt 2025#28": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "ratt 2025#25-28"
+  },
+  "ratt 2025#29": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "ratt 2025#30": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "ratt 2025#31": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "ratt 2025#32": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "ratt 2025#32-34"
+  },
+  "ratt 2025#33": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "ratt 2025#32-34"
+  },
+  "ratt 2025#34": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "ratt 2025#32-34"
+  },
+  "ratt 2025#35": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "ratt 2025#35-37"
+  },
+  "ratt 2025#36": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "ratt 2025#35-37"
+  },
+  "ratt 2025#37": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "ratt 2025#35-37"
+  },
+  "ratt 2025#38": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "ratt 2025#39": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "ratt 2025#40": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "ratt 2025#41": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "ratt 2025#42": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "ratt 2025#43": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "ratt 2025#44": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "ratt 2025#45": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "ratt 2025#46": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "ratt 2025#47": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "ratt 2025#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "ratt 2025#49": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "ratt 2025#50": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2025#1": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Normal 2025#25-29"
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Normal 2025#25-29"
+  },
+  "Normal 2025#27": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Normal 2025#25-29"
+  },
+  "Normal 2025#28": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Normal 2025#25-29"
+  },
+  "Normal 2025#29": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Normal 2025#25-29"
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ],
+   "case": "Normal 2025#36-37"
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ],
+   "case": "Normal 2025#36-37"
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Normal 2025#41-43"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Tumeurs rétropéritonéales primitives"
+   ]
+  },
+  "Normal 2025#47": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Normal 2025#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2025#49": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Normal 2025#50": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2024#1": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#2": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#3": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2024#1-4"
+  },
+  "Mai 2024#4": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2024#1-4",
+   "flags": [
+    "case_override"
+   ],
+   "why": "IR obstructive néoplasique drainée par néphrostomie = anurie obstructive"
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Mai 2024#5-7"
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Mai 2024#5-7"
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Mai 2024#5-7"
+  },
+  "Mai 2024#8": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Hématurie du fumeur: diagnostic différentiel rein / VES / vessie"
+  },
+  "Mai 2024#9": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Mai 2024#10": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Colique néphrétique (écho + AINS), pas une infection urinaire"
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2024#17": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2024#18": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2024#20": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2024#21": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Mai 2024#29": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2024#31": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "conf": "low",
+   "flags": [
+    "ambiguous"
+   ],
+   "why": "Hématurie macroscopique récidivante: Alport, IgA, polykystose"
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2024#42": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Mai 2024#44": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Mai 2024#45": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Mai 2024#47": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2024#48": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2024#49": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2024#50": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Cockcroft = estimation fonction rénale, not specific to IRA"
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Juin 2024#12": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Juin 2024#13": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Juin 2024#14": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2024#15": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Juin 2024#16": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Juin 2024#19": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2024#47": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Novembre 2024#1": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Novembre 2024#2": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Novembre 2024#3": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Novembre 2024#4": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Cockcroft = estimation fonction rénale, not specific to IRA"
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Décembre 2024#4-6"
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Décembre 2024#4-6"
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Décembre 2024#4-6"
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Anurie obstructive",
+    "Lithiase urinaire"
+   ],
+   "case": "Décembre 2024#7-8",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Calcul obstructif sur rein unique fonctionnel, vessie vide: anurie obstructive lithiasique"
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Anurie obstructive",
+    "Lithiase urinaire"
+   ],
+   "case": "Décembre 2024#7-8",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Drainage double J d'une anurie obstructive sur calcul urétéral"
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Décembre 2024#12": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Décembre 2024#13": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Décembre 2024#14": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Décembre 2024#15": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "case": "Décembre 2024#27-31"
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "case": "Décembre 2024#27-31"
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "case": "Décembre 2024#27-31"
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "case": "Décembre 2024#27-31"
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ],
+   "case": "Décembre 2024#27-31"
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Néphropathie diabétique"
+   ],
+   "case": "Décembre 2024#32-36"
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "Néphropathie diabétique"
+   ],
+   "case": "Décembre 2024#32-36"
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Néphropathie diabétique"
+   ],
+   "case": "Décembre 2024#32-36"
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Néphropathie diabétique"
+   ],
+   "case": "Décembre 2024#32-36"
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Néphropathie diabétique"
+   ],
+   "case": "Décembre 2024#32-36"
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nécrose tubulaire aiguë = IRA organique, not NTI"
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "conf": "low",
+   "why": "Syndrome néphritique aigu, compares several glomerulopathies"
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2023#1": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2023#2": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2023#3": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2023#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2023#8": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2023#10": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Classification of proliferative glomerulopathies in general, not GNA alone"
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nécrose tubulaire aiguë causes = IRA organique"
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Mai 2023#28": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2023#40-42"
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2023#40-42"
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2023#40-42"
+  },
+  "Mai 2023#43": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2023#43-45"
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2023#43-45"
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2023#43-45"
+  },
+  "Mai 2023#46": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Mai 2023#49": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ]
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ]
+  },
+  "Juin 2023#2": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2023#3": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ],
+   "case": "Juin 2023#38-39"
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ],
+   "case": "Juin 2023#38-39"
+  },
+  "Juin 2023#40": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Juin 2023#40-42",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Obstructive bilateral hydronephrosis from pelvic tumour; urgent drainage"
+  },
+  "Juin 2023#41": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Juin 2023#40-42",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Bilan of obstructive renal failure"
+  },
+  "Juin 2023#42": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Juin 2023#40-42",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Urgent néphrostomie for obstructive anuria"
+  },
+  "Juin 2023#43": {
+   "c": [
+    "Anurie obstructive"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2023#45-48"
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2023#45-48"
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2023#45-48"
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Juin 2023#45-48",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Obstructive renal failure complication; drainage by néphrostomie"
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Mai 2022#1": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2022#2": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2022#3": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2022#4": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2022#10": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Mai 2022#11": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2022#12": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2022#13": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse",
+    "Introduction à la pathologie néphrologique"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "harmonized"
+   ],
+   "conf": "low",
+   "why": "Glomerulopathies with nephritic syndrome, not tubulo-interstitial"
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Mai 2022#16": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Mai 2022#17": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Mai 2022#18": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Mai 2022#19": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Mai 2022#20": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2022#28-30"
+  },
+  "Mai 2022#29": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2022#28-30"
+  },
+  "Mai 2022#30": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2022#28-30"
+  },
+  "Mai 2022#31": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Mai 2022#31-32",
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Hydronéphrose on solitary kidney: PNA compliquée vs JPU vs obstruction"
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Mai 2022#31-32",
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Urgent bilan of same case; could be Anurie obstructive"
+  },
+  "Mai 2022#33": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2022#33-34"
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Mai 2022#33-34"
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ],
+   "case": "Mai 2022#35-36",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Weak stream in young man: urethral stricture, not anuria"
+  },
+  "Mai 2022#36": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ],
+   "case": "Mai 2022#35-36",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Workup (ECBU, débitmétrie) of suspected urethral stricture"
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2022#38": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2022#39": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2022#41": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2022#42": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2022#45": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2022#46": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2022#47": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Mai 2022#48": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Mai 2022#49": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2022#50": {
+   "c": [
+    "Incontinence urinaire"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Urethral closure pressure = urodynamics of stress incontinence"
+  },
+  "Juin 2022#1": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2022#2": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2022#3": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2022#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2022#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2022#6": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2022#7": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2022#8": {
+   "c": [
+    "Les maladies rénales héréditaires",
+    "Néphropathie à IgA"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hématuries récidivantes: Alport, PKD and IgA all correct"
+  },
+  "Juin 2022#9": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Juin 2022#10": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2022#11": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2022#12": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2022#13": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2022#14": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2022#15": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2022#16": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2022#17": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2022#18": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2022#19": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2022#20": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Juin 2022#21": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "General renal functions, not MRC-specific"
+  },
+  "Juin 2022#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ],
+   "conf": "low",
+   "why": "Stem says IRA but answers fit IRC with/without anemia"
+  },
+  "Juin 2022#23": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2022#24": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2022#25": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2022#25-26"
+  },
+  "Juin 2022#26": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2022#25-26"
+  },
+  "Juin 2022#27": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Juin 2022#27-30"
+  },
+  "Juin 2022#28": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Juin 2022#27-30"
+  },
+  "Juin 2022#29": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Juin 2022#27-30"
+  },
+  "Juin 2022#30": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Juin 2022#27-30"
+  },
+  "Juin 2022#31": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2022#32": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2022#33": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2022#34": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2022#35": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Juin 2022#36": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Juin 2022#37": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Juin 2022#38": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2022#39": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2022#39-41"
+  },
+  "Juin 2022#40": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2022#39-41"
+  },
+  "Juin 2022#41": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2022#39-41"
+  },
+  "Juin 2022#42": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2022#42-44"
+  },
+  "Juin 2022#43": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2022#42-44"
+  },
+  "Juin 2022#44": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2022#42-44"
+  },
+  "Juin 2022#45": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Juin 2022#45-47",
+   "conf": "low",
+   "why": "Differential of hematuria; case resolves to renal tumor"
+  },
+  "Juin 2022#46": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Juin 2022#45-47"
+  },
+  "Juin 2022#47": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Juin 2022#45-47"
+  },
+  "Juin 2022#48": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2022#49": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Juin 2022#50": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2021#3": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2021#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2021#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2021#6": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2021#7": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2021#8": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Les maladies rénales héréditaires",
+    "Néphropathie à IgA"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hématuries récidivantes: Alport, PKD and IgA all correct"
+  },
+  "Mai 2021#11": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#13": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#14": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2021#11-17"
+  },
+  "Mai 2021#18": {
+   "c": [
+    "Néphropathie à IgA"
+   ],
+   "case": "Mai 2021#18-20"
+  },
+  "Mai 2021#19": {
+   "c": [
+    "Néphropathie à IgA"
+   ],
+   "case": "Mai 2021#18-20"
+  },
+  "Mai 2021#20": {
+   "c": [
+    "Néphropathie à IgA"
+   ],
+   "case": "Mai 2021#18-20"
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2021#24": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule dur au TR, PSA 10, biopsy: prostate cancer case"
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule dur au TR, PSA 10, biopsy: prostate cancer case"
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Nodule dur au TR, PSA 10, biopsy: prostate cancer case"
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prostate biopsy for suspected cancer"
+  },
+  "Mai 2021#29": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30"
+  },
+  "Mai 2021#30": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Mai 2021#25-30"
+  },
+  "Mai 2021#31": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2021#32": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2021#33": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2021#36": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ]
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ]
+  },
+  "Mai 2021#39": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Mai 2021#40": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Mai 2021#41": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Chronic lumbar pain, major dilatation, young woman: JPU workup"
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2021#45": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2021#46": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2021#47": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2021#50": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2021#1": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Juin 2021#2": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2021#3": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2021#4": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2021#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2021#6": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2021#7": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2021#8": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2021#9": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2021#10": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2021#11": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "conf": "low",
+   "why": "Classification of non-proliferative glomerulopathies (LGM, HSF, GEM)"
+  },
+  "Juin 2021#12": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2021#13": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Juin 2021#14": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2021#15": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2021#16": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2021#17": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2021#18": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Juin 2021#19": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Juin 2021#20": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2021#21": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2021#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2021#23": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2021#24": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2021#25": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2021#25-26"
+  },
+  "Juin 2021#26": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2021#25-26"
+  },
+  "Juin 2021#27": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2021#27-28"
+  },
+  "Juin 2021#28": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2021#27-28"
+  },
+  "Juin 2021#29": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Juin 2021#30": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Juin 2021#31": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2021#31-32",
+   "conf": "low",
+   "why": "Differential of chronic lumbar pain + hematuria (calcul, JPU, tumeurs)"
+  },
+  "Juin 2021#32": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2021#31-32"
+  },
+  "Juin 2021#33": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Juin 2021#34": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Juin 2021#35": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Young man with severe dysuria, débitmétrie: urethral stricture, not anuria"
+  },
+  "Juin 2021#36": {
+   "c": [
+    "Torsion du cordon spermatique"
+   ]
+  },
+  "Juin 2021#37": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2021#38": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2021#39": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2021#40": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2021#41": {
+   "c": [
+    "Infertilité masculine"
+   ],
+   "conf": "low",
+   "why": "Dysgénésie gonadique: links infertility and testicular cancer risk"
+  },
+  "Juin 2021#42": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Juin 2021#43": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2021#44": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Juin 2021#45": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2021#46": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2021#47": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prostate biopsy (PSA > 4) is cancer diagnosis, not HBP"
+  },
+  "Juin 2021#48": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Juin 2021#49": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Juin 2021#50": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Juin 2020#1": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2020#2": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2020#3": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Juin 2020#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2020#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Juin 2020#6": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2020#7": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Juin 2020#8": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Juin 2020#9": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Juin 2020#10": {
+   "c": [
+    "Les maladies rénales héréditaires",
+    "Néphropathie à IgA"
+   ],
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Hématurie macroscopique récidivante: Alport and IgA nephropathy"
+  },
+  "Juin 2020#11": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2020#12": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Juin 2020#13": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2020#14": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2020#15": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Juin 2020#16": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Juin 2020#17": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Juin 2020#18": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Juin 2020#19": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2020#20": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Juin 2020#21": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2020#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2020#23": {
+   "c": [
+    "Néphropathies tubulo-interstitielles"
+   ]
+  },
+  "Juin 2020#24": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Juin 2020#25": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#26": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#27": {
+   "c": [
+    "Cancer de la vessie"
+   ],
+   "case": "Juin 2020#25-28"
+  },
+  "Juin 2020#28": {
+   "c": [
+    "Anurie obstructive"
+   ],
+   "case": "Juin 2020#25-28",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Obstructive renal failure managed by nephrostomies"
+  },
+  "Juin 2020#29": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Juin 2020#30": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Juin 2020#31": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2020#31-32"
+  },
+  "Juin 2020#32": {
+   "c": [
+    "Infection urinaire"
+   ],
+   "case": "Juin 2020#31-32"
+  },
+  "Juin 2020#33": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2020#33-34"
+  },
+  "Juin 2020#34": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Juin 2020#33-34"
+  },
+  "Juin 2020#35": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ],
+   "case": "Juin 2020#35-36"
+  },
+  "Juin 2020#36": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ],
+   "case": "Juin 2020#35-36"
+  },
+  "Juin 2020#37": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#38": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#39": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#40": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#41": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#42": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Juin 2020#37-42"
+  },
+  "Juin 2020#43": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2020#44": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2020#45": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Juin 2020#46": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Juin 2020#47": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Juin 2020#47-48"
+  },
+  "Juin 2020#48": {
+   "c": [
+    "Cancer du testicule"
+   ],
+   "case": "Juin 2020#47-48"
+  },
+  "Juin 2020#49": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Juin 2020#50": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Septembre 2020#1": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Septembre 2020#2": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Septembre 2020#3": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Septembre 2020#4": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Septembre 2020#5": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Septembre 2020#6": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Septembre 2020#7": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Septembre 2020#8": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Septembre 2020#9": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Septembre 2020#10": {
+   "c": [
+    "Glomérulonéphrites extra-capillaires"
+   ]
+  },
+  "Septembre 2020#11": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Septembre 2020#12": {
+   "c": [
+    "Néphropathie à IgA"
+   ]
+  },
+  "Septembre 2020#13": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Septembre 2020#14": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Septembre 2020#15": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Septembre 2020#16": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ]
+  },
+  "Septembre 2020#17": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Septembre 2020#18": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Septembre 2020#19": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Septembre 2020#20": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Septembre 2020#21": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Septembre 2020#22": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Septembre 2020#23": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Septembre 2020#24": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Septembre 2020#25": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Septembre 2020#25-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prostatic symptoms workup, case concludes to HBP managed by TURP"
+  },
+  "Septembre 2020#26": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Septembre 2020#25-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "HBP vs prostate cancer differential; case is HBP"
+  },
+  "Septembre 2020#27": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ],
+   "case": "Septembre 2020#25-28",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Complicated HBP, PSA 2.5 → endoscopic resection"
+  },
+  "Septembre 2020#28": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "case": "Septembre 2020#25-28",
+   "flags": [
+    "case_override"
+   ],
+   "why": "Same patient later: PSA 20, hard prostate → cancer biopsy"
+  },
+  "Septembre 2020#29": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Septembre 2020#30": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Septembre 2020#31": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Septembre 2020#31-32"
+  },
+  "Septembre 2020#32": {
+   "c": [
+    "Fistules uro-génitales"
+   ],
+   "case": "Septembre 2020#31-32"
+  },
+  "Septembre 2020#33": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#33-36"
+  },
+  "Septembre 2020#34": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#33-36"
+  },
+  "Septembre 2020#35": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#33-36"
+  },
+  "Septembre 2020#36": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#33-36"
+  },
+  "Septembre 2020#37": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#37-38"
+  },
+  "Septembre 2020#38": {
+   "c": [
+    "Lithiase urinaire"
+   ],
+   "case": "Septembre 2020#37-38"
+  },
+  "Septembre 2020#39": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Septembre 2020#40": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ],
+   "case": "Septembre 2020#40-42"
+  },
+  "Septembre 2020#41": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ],
+   "case": "Septembre 2020#40-42"
+  },
+  "Septembre 2020#42": {
+   "c": [
+    "Reflux vésico-urétéral"
+   ],
+   "case": "Septembre 2020#40-42"
+  },
+  "Septembre 2020#43": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Septembre 2020#44": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Septembre 2020#45": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Septembre 2020#46": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Septembre 2020#47": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Septembre 2020#48": {
+   "c": [
+    "Cancer du testicule"
+   ]
+  },
+  "Septembre 2020#49": {
+   "c": [
+    "Cancer de la verge"
+   ]
+  },
+  "Mai 2019#1": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2019#2": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2019#3": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Prostate biopsy indications (PSA > 4) belong to prostate cancer"
+  },
+  "Mai 2019#4": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Mai 2019#5": {
+   "c": [
+    "Cancer du rein",
+    "Tumeurs des voies excrétrices"
+   ],
+   "case": "Mai 2019#5-7",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Differential renal tumor vs upper tract urothelial tumor"
+  },
+  "Mai 2019#6": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Mai 2019#5-7"
+  },
+  "Mai 2019#7": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Mai 2019#5-7"
+  },
+  "Mai 2019#8": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2019#9": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Mai 2019#10": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Mai 2019#11": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2019#12": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2019#13": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Mai 2019#14": {
+   "c": [
+    "Incontinence urinaire"
+   ]
+  },
+  "Mai 2019#15": {
+   "c": [
+    "Fistules uro-génitales"
+   ]
+  },
+  "Mai 2019#16": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2019#17": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ]
+  },
+  "Mai 2019#18": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2019#19": {
+   "c": [
+    "Urologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Kyste hydatique du rein has no cours in list"
+  },
+  "Mai 2019#20": {
+   "c": [
+    "Urologie"
+   ],
+   "flags": [
+    "not_found"
+   ],
+   "why": "Kyste hydatique du rein has no cours in list"
+  },
+  "Mai 2019#21": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ]
+  },
+  "Mai 2019#22": {
+   "c": [
+    "Rétrécissement scléro-inflammatoire urétral de l'adulte"
+   ]
+  },
+  "Mai 2019#23": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2019#24": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ]
+  },
+  "Mai 2019#25": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2019#26": {
+   "c": [
+    "Infection urinaire"
+   ]
+  },
+  "Mai 2019#27": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2019#28": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2019#29": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2019#30": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2019#31": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2019#32": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2019#33": {
+   "c": [
+    "Les amyloses rénales"
+   ]
+  },
+  "Mai 2019#34": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2019#35": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2019#36": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2019#37": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2019#38": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2019#39": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2019#40": {
+   "c": [
+    "Les maladies rénales héréditaires"
+   ]
+  },
+  "Mai 2019#41": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2019#41-45"
+  },
+  "Mai 2019#42": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2019#41-45"
+  },
+  "Mai 2019#43": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2019#41-45"
+  },
+  "Mai 2019#44": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2019#41-45"
+  },
+  "Mai 2019#45": {
+   "c": [
+    "Glomérulonéphrite aiguë post-infectieuse"
+   ],
+   "case": "Mai 2019#41-45"
+  },
+  "Mai 2019#46": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "case": "Mai 2019#46-50"
+  },
+  "Mai 2019#47": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "case": "Mai 2019#46-50"
+  },
+  "Mai 2019#48": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "case": "Mai 2019#46-50"
+  },
+  "Mai 2019#49": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "case": "Mai 2019#46-50"
+  },
+  "Mai 2019#50": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ],
+   "case": "Mai 2019#46-50"
+  },
+  "Mai 2018#1": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2018#2": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2018#3": {
+   "c": [
+    "Cancer de la prostate"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Biopsie prostatique sur PSA > 4 = diagnostic du cancer prostatique"
+  },
+  "Mai 2018#4": {
+   "c": [
+    "Cancer de la prostate"
+   ]
+  },
+  "Mai 2018#5": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Mai 2018#5-7",
+   "conf": "low",
+   "why": "Hématurie+lombalgie, différentiel tumeurs; cas aboutit à tumeur rénale"
+  },
+  "Mai 2018#6": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Mai 2018#5-7",
+   "conf": "low",
+   "why": "Bilan d'orientation de l'hématurie du même cas"
+  },
+  "Mai 2018#7": {
+   "c": [
+    "Cancer du rein"
+   ],
+   "case": "Mai 2018#5-7"
+  },
+  "Mai 2018#8": {
+   "c": [
+    "Hypertrophie bénigne de la prostate (HBP)"
+   ]
+  },
+  "Mai 2018#9": {
+   "c": [
+    "Cancer du rein"
+   ]
+  },
+  "Mai 2018#10": {
+   "c": [
+    "Tumeurs des voies excrétrices"
+   ]
+  },
+  "Mai 2018#11": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2018#12": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2018#13": {
+   "c": [
+    "Vessie neurologique"
+   ]
+  },
+  "Mai 2018#14": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2018#15": {
+   "c": [
+    "Infertilité masculine"
+   ]
+  },
+  "Mai 2018#16": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ],
+   "case": "Mai 2018#16-18",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "ATCD pleurésie TB, nodule épididymaire, BK urinaire: tuberculose uro-génitale"
+  },
+  "Mai 2018#17": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ],
+   "case": "Mai 2018#16-18",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "BK urinaires, IDR: bilan de tuberculose uro-génitale"
+  },
+  "Mai 2018#18": {
+   "c": [
+    "Tuberculose uro-génitale"
+   ],
+   "case": "Mai 2018#16-18",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Épididymectomie, UPR: bilan de tuberculose uro-génitale"
+  },
+  "Mai 2018#19": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Mai 2018#19-20"
+  },
+  "Mai 2018#20": {
+   "c": [
+    "Syndrome de la jonction pyélo-urétérale"
+   ],
+   "case": "Mai 2018#19-20"
+  },
+  "Mai 2018#21": {
+   "c": [
+    "Anurie obstructive",
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2018#21-23",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Tumeur vésicale avec dilatation bilatérale et insuffisance rénale obstructive"
+  },
+  "Mai 2018#22": {
+   "c": [
+    "Anurie obstructive",
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2018#21-23",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Dérivation urinaire urgente d'une IR obstructive sur tumeur vésicale"
+  },
+  "Mai 2018#23": {
+   "c": [
+    "Anurie obstructive",
+    "Cancer de la vessie"
+   ],
+   "case": "Mai 2018#21-23",
+   "flags": [
+    "tag_mismatch",
+    "multi_topic"
+   ],
+   "why": "Surveillance diurèse, kaliémie après levée d'obstacle"
+  },
+  "Mai 2018#24": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2018#27": {
+   "c": [
+    "Lithiase urinaire"
+   ]
+  },
+  "Mai 2018#28": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ],
+   "case": "Mai 2018#28-30"
+  },
+  "Mai 2018#29": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ],
+   "case": "Mai 2018#28-30"
+  },
+  "Mai 2018#30": {
+   "c": [
+    "Les traumatismes uro-génitaux"
+   ],
+   "case": "Mai 2018#28-30"
+  },
+  "Mai 2018#31": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2018#32": {
+   "c": [
+    "Lésions glomérulaires minimes"
+   ]
+  },
+  "Mai 2018#33": {
+   "c": [
+    "Hyalinose segmentaire et focale"
+   ]
+  },
+  "Mai 2018#34": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Mai 2018#35": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Mai 2018#36": {
+   "c": [
+    "Glomérulonéphrite membrano-proliférative (GNMP)"
+   ]
+  },
+  "Mai 2018#37": {
+   "c": [
+    "Glomérulonéphrite extra-membraneuse (GEM)"
+   ]
+  },
+  "Mai 2018#38": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Mai 2018#39": {
+   "c": [
+    "Atteinte rénale au cours du myélome multiple"
+   ]
+  },
+  "Mai 2018#40": {
+   "c": [
+    "Insuffisance rénale aiguë"
+   ]
+  },
+  "Mai 2018#41": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2018#42": {
+   "c": [
+    "Néphropathie lupique"
+   ]
+  },
+  "Mai 2018#43": {
+   "c": [
+    "Introduction à la pathologie néphrologique"
+   ]
+  },
+  "Mai 2018#44": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2018#45": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "conf": "low",
+   "why": "Estimation du DFG (MDRD) relève de la MRC, pas de l'IRA"
+  },
+  "Mai 2018#46": {
+   "c": [
+    "Maladie rénale chronique (MRC)"
+   ]
+  },
+  "Mai 2018#47": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2018#48": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2018#49": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  },
+  "Mai 2018#50": {
+   "c": [
+    "Néphropathie diabétique"
+   ]
+  }
+ }
+}

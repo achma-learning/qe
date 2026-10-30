@@ -1,0 +1,3519 @@
+{
+ "module": "Synthèse thérapeutique",
+ "q": {
+  "Normal 2025#1": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Normal 2025#2": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Normal 2025#3": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Normal 2025#4": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2025#5": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2025#6": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Normal 2025#7": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Normal 2025#8": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Normal 2025#9": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Normal 2025#9-10"
+  },
+  "Normal 2025#10": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Normal 2025#9-10"
+  },
+  "Normal 2025#11": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Normal 2025#12": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Normal 2025#13": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Normal 2025#14": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Normal 2025#15": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Normal 2025#16": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Normal 2025#17": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Normal 2025#17-18"
+  },
+  "Normal 2025#18": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Normal 2025#17-18"
+  },
+  "Normal 2025#19": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Normal 2025#20": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Normal 2025#21": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Normal 2025#22": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Normal 2025#23": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Normal 2025#24": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Normal 2025#25": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Normal 2025#26": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Normal 2025#27": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Normal 2025#28": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Normal 2025#29": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Normal 2025#30": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Normal 2025#31": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Normal 2025#32": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Normal 2025#33": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#34": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#35": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#36": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#37": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#38": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#39": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Normal 2025#40": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Normal 2025#41": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Normal 2025#42": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Normal 2025#42-43"
+  },
+  "Normal 2025#43": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Normal 2025#42-43"
+  },
+  "Normal 2025#44": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Normal 2025#45": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Normal 2025#46": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Normal 2025#47": {
+   "keep": "topic"
+  },
+  "Normal 2025#48": {
+   "keep": "topic"
+  },
+  "Normal 2025#49": {
+   "keep": "topic"
+  },
+  "Normal 2025#50": {
+   "keep": "topic"
+  },
+  "Mai 2024#1": {
+   "keep": "topic"
+  },
+  "Mai 2024#2": {
+   "keep": "topic"
+  },
+  "Mai 2024#3": {
+   "keep": "topic"
+  },
+  "Mai 2024#4": {
+   "keep": "topic"
+  },
+  "Mai 2024#5": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Mai 2024#6": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Mai 2024#7": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2024#8": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2024#9": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2024#10": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2024#11": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2024#12": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2024#13": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2024#14": {
+   "c": [
+    "Traitement de la migraine"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Non-specific treatment of migraine crisis, not AINS course"
+  },
+  "Mai 2024#15": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2024#16": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2024#17": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2024#18": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2024#19": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2024#20": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2024#21": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2024#22": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2024#23": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2024#24": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2024#25": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2024#26": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2024#27": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2024#28": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Mai 2024#28-29"
+  },
+  "Mai 2024#29": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Mai 2024#28-29"
+  },
+  "Mai 2024#30": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2024#31": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Mai 2024#32": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Mai 2024#33": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Mai 2024#34": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Mai 2024#35": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Mai 2024#36": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2024#37": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2024#38": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Mai 2024#39": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Mai 2024#40": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2024#41": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2024#42": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2024#43": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2024#44": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2024#45": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2024#46": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2024#47": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2024#48": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2024#49": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2024#50": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2024#1": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2024#2": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2024#3": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2024#4": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2024#5": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2024#6": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2024#7": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2024#8": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2024#8-9"
+  },
+  "Juin 2024#9": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2024#8-9"
+  },
+  "Juin 2024#10": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2024#11": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2024#12": {
+   "keep": "topic"
+  },
+  "Juin 2024#13": {
+   "keep": "topic"
+  },
+  "Juin 2024#14": {
+   "keep": "topic"
+  },
+  "Juin 2024#15": {
+   "keep": "topic"
+  },
+  "Juin 2024#16": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Juin 2024#17": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Juin 2024#18": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Métalyse dose for STEMI, same as SCA questions"
+  },
+  "Juin 2024#19": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2024#20": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2024#21": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2024#22": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2024#23": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2024#24": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2024#25": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2024#26": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2024#27": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2024#28": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2024#29": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2024#30": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Juin 2024#31": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Juin 2024#32": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2024#33": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2024#34": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2024#35": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2024#36": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2024#37": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2024#38": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2024#39": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2024#40": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2024#41": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2024#42": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2024#43": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2024#44": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2024#45": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2024#46": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Juin 2024#47": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2024#48": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Juin 2024#49": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2024#50": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Novembre 2024#1": {
+   "keep": "topic"
+  },
+  "Novembre 2024#2": {
+   "keep": "topic"
+  },
+  "Novembre 2024#3": {
+   "keep": "topic"
+  },
+  "Novembre 2024#4": {
+   "keep": "topic"
+  },
+  "Novembre 2024#5": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Novembre 2024#6": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Novembre 2024#7": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#8": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#9": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#10": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Novembre 2024#11": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Novembre 2024#12": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Novembre 2024#13": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Novembre 2024#14": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Novembre 2024#15": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Novembre 2024#16": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Novembre 2024#17": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Novembre 2024#18": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Novembre 2024#19": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Novembre 2024#20": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Novembre 2024#21": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Novembre 2024#22": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Novembre 2024#23": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Novembre 2024#24": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Novembre 2024#25": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Novembre 2024#26": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Novembre 2024#27": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Novembre 2024#28": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Novembre 2024#28-29"
+  },
+  "Novembre 2024#29": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Novembre 2024#28-29"
+  },
+  "Novembre 2024#30": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Novembre 2024#31": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Novembre 2024#32": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Novembre 2024#33": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Novembre 2024#34": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Novembre 2024#35": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Novembre 2024#36": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Novembre 2024#37": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Novembre 2024#38": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Novembre 2024#39": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Novembre 2024#40": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Novembre 2024#41": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Novembre 2024#42": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Novembre 2024#43": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Novembre 2024#44": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Novembre 2024#45": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Novembre 2024#46": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Novembre 2024#47": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Novembre 2024#48": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Novembre 2024#49": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Novembre 2024#50": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Décembre 2024#1": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Décembre 2024#2": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Décembre 2024#3": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Décembre 2024#4": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Décembre 2024#5": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Décembre 2024#6": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Décembre 2024#7": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Décembre 2024#8": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Décembre 2024#8-9"
+  },
+  "Décembre 2024#9": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Décembre 2024#8-9"
+  },
+  "Décembre 2024#10": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Décembre 2024#11": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Décembre 2024#12": {
+   "keep": "topic"
+  },
+  "Décembre 2024#13": {
+   "keep": "topic"
+  },
+  "Décembre 2024#14": {
+   "keep": "topic"
+  },
+  "Décembre 2024#15": {
+   "keep": "topic"
+  },
+  "Décembre 2024#16": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë",
+    "SCA : prise en charge thérapeutique"
+   ],
+   "flags": [
+    "harmonized"
+   ]
+  },
+  "Décembre 2024#17": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Décembre 2024#18": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Dose de ténectéplase dans l'IDM = SCA, same as Nov 2024#34"
+  },
+  "Décembre 2024#19": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Décembre 2024#20": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Décembre 2024#21": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Décembre 2024#22": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Décembre 2024#23": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Décembre 2024#24": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Décembre 2024#25": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Décembre 2024#26": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Décembre 2024#27": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Décembre 2024#28": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Décembre 2024#29": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Décembre 2024#30": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Décembre 2024#31": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Décembre 2024#32": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Décembre 2024#33": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Décembre 2024#34": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Décembre 2024#35": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Décembre 2024#36": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Décembre 2024#37": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Décembre 2024#38": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Décembre 2024#39": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Décembre 2024#40": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Décembre 2024#41": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Décembre 2024#42": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Décembre 2024#43": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Décembre 2024#44": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Décembre 2024#45": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Décembre 2024#46": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Décembre 2024#47": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Décembre 2024#48": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Décembre 2024#49": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Décembre 2024#50": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Éradication d'Helicobacter pylori = maladie ulcéreuse, not RGO"
+  },
+  "Mai 2023#1": {
+   "keep": "topic"
+  },
+  "Mai 2023#2": {
+   "keep": "topic"
+  },
+  "Mai 2023#3": {
+   "keep": "topic"
+  },
+  "Mai 2023#4": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Mai 2023#5": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Mai 2023#6": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Mai 2023#7": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Mai 2023#8": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Mai 2023#9": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Mai 2023#10": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2023#11": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2023#12": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2023#13": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2023#14": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2023#15": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2023#16": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2023#17": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2023#18": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2023#19": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2023#20": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2023#21": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2023#22": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2023#23": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2023#24": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2023#25": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2023#26": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Mai 2023#26-27"
+  },
+  "Mai 2023#27": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Mai 2023#26-27"
+  },
+  "Mai 2023#28": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2023#29": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2023#30": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2023#31": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2023#32": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2023#33": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2023#34": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2023#35": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2023#35-36"
+  },
+  "Mai 2023#36": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2023#35-36"
+  },
+  "Mai 2023#37": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2023#38": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2023#39": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2023#40": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2023#41": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2023#42": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2023#43": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2023#44": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2023#45": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Mai 2023#46": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Mai 2023#47": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2023#47-49"
+  },
+  "Mai 2023#48": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2023#47-49"
+  },
+  "Mai 2023#49": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2023#47-49"
+  },
+  "Mai 2023#50": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Juin 2023#1": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2023#2": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2023#3": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ],
+   "conf": "low",
+   "why": "AOD classification, generic anticoagulant pharmacology under SCA tag"
+  },
+  "Juin 2023#4": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2023#5": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2023#6": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2023#7": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2023#8": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2023#9": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2023#10": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2023#11": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2023#12": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2023#13": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2023#14": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2023#15": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2023#16": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2023#17": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2023#18": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2023#19": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2023#20": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2023#21": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2023#22": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2023#23": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#24": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#25": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#26": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#27": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#28": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2023#29": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2023#30": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Juin 2023#30-31"
+  },
+  "Juin 2023#31": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ],
+   "case": "Juin 2023#30-31"
+  },
+  "Juin 2023#32": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2023#33": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2023#34": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Juin 2023#35": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2023#36": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Juin 2023#37": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2023#38": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2023#39": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2023#40": {
+   "keep": "topic"
+  },
+  "Juin 2023#41": {
+   "keep": "topic"
+  },
+  "Juin 2023#42": {
+   "keep": "topic"
+  },
+  "Juin 2023#43": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2023#44": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Juin 2023#45": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2023#46": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2023#47": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2023#48": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2023#49": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2023#50": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2022#1": {
+   "keep": "topic"
+  },
+  "Mai 2022#2": {
+   "keep": "topic"
+  },
+  "Mai 2022#3": {
+   "keep": "topic"
+  },
+  "Mai 2022#4": {
+   "keep": "topic"
+  },
+  "Mai 2022#5": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Mai 2022#6": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Mai 2022#7": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2022#8": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2022#9": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2022#10": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2022#11": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Mai 2022#12": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ],
+   "case": "Mai 2022#12-13",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Post-STEMI discharge prescription, not chest pain workup"
+  },
+  "Mai 2022#13": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ],
+   "case": "Mai 2022#12-13",
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "LDL target after STEMI = SCA management"
+  },
+  "Mai 2022#14": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Mai 2022#15": {
+   "c": [
+    "Traitement du RGO"
+   ],
+   "case": "Mai 2022#15-16"
+  },
+  "Mai 2022#16": {
+   "c": [
+    "Traitement du RGO"
+   ],
+   "case": "Mai 2022#15-16"
+  },
+  "Mai 2022#17": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2022#18": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2022#19": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2022#20": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2022#21": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2022#22": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2022#23": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2022#24": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2022#25": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2022#26": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2022#27": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2022#28": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2022#29": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2022#30": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2022#31": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2022#32": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2022#33": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2022#34": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2022#35": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2022#36": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2022#36-40"
+  },
+  "Mai 2022#37": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2022#36-40"
+  },
+  "Mai 2022#38": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2022#36-40"
+  },
+  "Mai 2022#39": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2022#36-40"
+  },
+  "Mai 2022#40": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2022#36-40"
+  },
+  "Mai 2022#41": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2022#42": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2022#43": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2022#44": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2022#45": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2022#46": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2022#47": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2022#48": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2022#49": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Mai 2022#50": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2022#1": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2022#2": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2022#3": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2022#4": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2022#4-5"
+  },
+  "Juin 2022#5": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2022#4-5"
+  },
+  "Juin 2022#6": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2022#7": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Juin 2022#8": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2022#9": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2022#10": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2022#11": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2022#12": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2022#13": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2022#14": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2022#15": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2022#16": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2022#17": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2022#18": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2022#19": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2022#20": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2022#21": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2022#22": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2022#23": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2022#24": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2022#25": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2022#26": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2022#27": {
+   "c": [
+    "CAT devant une douleur thoracique aiguë"
+   ]
+  },
+  "Juin 2022#28": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ]
+  },
+  "Juin 2022#29": {
+   "c": [
+    "SCA : prise en charge thérapeutique"
+   ]
+  },
+  "Juin 2022#30": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2022#31": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2022#32": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2022#33": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2022#34": {
+   "keep": "topic"
+  },
+  "Juin 2022#35": {
+   "keep": "topic"
+  },
+  "Juin 2022#36": {
+   "keep": "topic"
+  },
+  "Juin 2022#37": {
+   "keep": "topic"
+  },
+  "Juin 2022#38": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2022#38-40"
+  },
+  "Juin 2022#39": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2022#38-40"
+  },
+  "Juin 2022#40": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2022#38-40"
+  },
+  "Juin 2022#41": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Juin 2022#42": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Juin 2022#43": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2022#44": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2022#45": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2022#46": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2022#47": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Juin 2022#48": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Juin 2022#49": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2022#50": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2021#1": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2021#2": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2021#3": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2021#4": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2021#5": {
+   "keep": "topic"
+  },
+  "Mai 2021#6": {
+   "keep": "topic"
+  },
+  "Mai 2021#7": {
+   "keep": "topic"
+  },
+  "Mai 2021#8": {
+   "keep": "topic"
+  },
+  "Mai 2021#9": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Mai 2021#9-10"
+  },
+  "Mai 2021#10": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Mai 2021#9-10"
+  },
+  "Mai 2021#11": {
+   "c": [
+    "Traitement de l'asthme"
+   ],
+   "case": "Mai 2021#11-12"
+  },
+  "Mai 2021#12": {
+   "c": [
+    "Traitement de l'asthme"
+   ],
+   "case": "Mai 2021#11-12"
+  },
+  "Mai 2021#13": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2021#14": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2021#15": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2021#16": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2021#17": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2021#18": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2021#19": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2021#20": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2021#21": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2021#22": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2021#23": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2021#24": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2021#24-27"
+  },
+  "Mai 2021#25": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2021#24-27"
+  },
+  "Mai 2021#26": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2021#24-27"
+  },
+  "Mai 2021#27": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2021#24-27"
+  },
+  "Mai 2021#28": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2021#29": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2021#30": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2021#31": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2021#31-34"
+  },
+  "Mai 2021#32": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2021#31-34"
+  },
+  "Mai 2021#33": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2021#31-34"
+  },
+  "Mai 2021#34": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2021#31-34"
+  },
+  "Mai 2021#35": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2021#36": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2021#37": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2021#38": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2021#39": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2021#39-40"
+  },
+  "Mai 2021#40": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2021#39-40"
+  },
+  "Mai 2021#41": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Mai 2021#42": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Mai 2021#43": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ],
+   "case": "Mai 2021#43-44"
+  },
+  "Mai 2021#44": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ],
+   "case": "Mai 2021#43-44"
+  },
+  "Mai 2021#45": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2021#46": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2021#47": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2021#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2021#49": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2021#50": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2020#1": {
+   "keep": "topic"
+  },
+  "Mai 2020#2": {
+   "keep": "topic"
+  },
+  "Mai 2020#3": {
+   "keep": "topic"
+  },
+  "Mai 2020#4": {
+   "keep": "topic"
+  },
+  "Mai 2020#5": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2020#6": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2020#7": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2020#8": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2020#9": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2020#10": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2020#11": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2020#12": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Mai 2020#12-13"
+  },
+  "Mai 2020#13": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Mai 2020#12-13"
+  },
+  "Mai 2020#14": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2020#15": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2020#16": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2020#17": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2020#18": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2020#19": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2020#20": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2020#21": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2020#22": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2020#23": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2020#24": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2020#25": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2020#26": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2020#27": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2020#28": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2020#29": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Mai 2020#30": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Mai 2020#31": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2020#31-34"
+  },
+  "Mai 2020#32": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2020#31-34"
+  },
+  "Mai 2020#33": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2020#31-34"
+  },
+  "Mai 2020#34": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2020#31-34"
+  },
+  "Mai 2020#35": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2020#36": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2020#37": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2020#38": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2020#39": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2020#39-40"
+  },
+  "Mai 2020#40": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Mai 2020#39-40"
+  },
+  "Mai 2020#41": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2020#41-43"
+  },
+  "Mai 2020#42": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2020#41-43"
+  },
+  "Mai 2020#43": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2020#41-43"
+  },
+  "Mai 2020#44": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Mai 2020#45": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2020#46": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2020#47": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2020#48": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2020#49": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2020#50": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2020#1": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2020#2": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2020#3": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Juin 2020#4": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Juin 2020#5": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2020#6": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2020#7": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2020#8": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2020#9": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Juin 2020#9-10"
+  },
+  "Juin 2020#10": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ],
+   "case": "Juin 2020#9-10"
+  },
+  "Juin 2020#11": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2020#12": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2020#13": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2020#14": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2020#15": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2020#16": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2020#17": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2020#18": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2020#19": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2020#20": {
+   "keep": "topic"
+  },
+  "Juin 2020#21": {
+   "keep": "topic"
+  },
+  "Juin 2020#22": {
+   "keep": "topic"
+  },
+  "Juin 2020#23": {
+   "keep": "topic"
+  },
+  "Juin 2020#24": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2020#25": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2020#26": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2020#27": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2020#28": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2020#29": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2020#30": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Juin 2020#31": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2020#32": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Juin 2020#33": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2020#34": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Juin 2020#35": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Juin 2020#36": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2020#37": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Juin 2020#38": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2020#39": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2020#40": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Juin 2020#41": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2020#41-44"
+  },
+  "Juin 2020#42": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2020#41-44"
+  },
+  "Juin 2020#43": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2020#41-44"
+  },
+  "Juin 2020#44": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2020#41-44"
+  },
+  "Juin 2020#45": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2020#46": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2020#47": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Juin 2020#47-50"
+  },
+  "Juin 2020#48": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Juin 2020#47-50"
+  },
+  "Juin 2020#49": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Juin 2020#47-50"
+  },
+  "Juin 2020#50": {
+   "c": [
+    "Prise en charge de l'HTA",
+    "Traitement du diabète (type 1 et 2)"
+   ],
+   "case": "Juin 2020#47-50",
+   "flags": [
+    "multi_topic"
+   ],
+   "why": "Targets for both BP/LDL and HbA1c in diabetic hypertensive"
+  },
+  "Juin 2019#1": {
+   "keep": "topic"
+  },
+  "Juin 2019#2": {
+   "keep": "topic"
+  },
+  "Juin 2019#3": {
+   "keep": "topic"
+  },
+  "Juin 2019#4": {
+   "keep": "topic"
+  },
+  "Juin 2019#5": {
+   "keep": "topic"
+  },
+  "Juin 2019#6": {
+   "keep": "topic"
+  },
+  "Juin 2019#7": {
+   "keep": "topic"
+  },
+  "Juin 2019#8": {
+   "keep": "topic"
+  },
+  "Juin 2019#9": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2019#10": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2019#11": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2019#12": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Juin 2019#13": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2019#14": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2019#15": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Juin 2019#16": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2019#17": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2019#18": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Juin 2019#19": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2019#20": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Juin 2019#21": {
+   "keep": "topic"
+  },
+  "Juin 2019#22": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Juin 2019#23": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ],
+   "flags": [
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Allergic rhinitis treatment; no rhinitis cours, ORL closest"
+  },
+  "Juin 2019#24": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2019#25": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Juin 2019#26": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Juin 2019#26-27"
+  },
+  "Juin 2019#27": {
+   "c": [
+    "Traitement de l'IRABC"
+   ],
+   "case": "Juin 2019#26-27"
+  },
+  "Juin 2019#28": {
+   "c": [
+    "Traitement de l'asthme"
+   ],
+   "case": "Juin 2019#28-29"
+  },
+  "Juin 2019#29": {
+   "c": [
+    "Traitement de l'asthme"
+   ],
+   "case": "Juin 2019#28-29"
+  },
+  "Juin 2019#30": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2019#31": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2019#32": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2019#33": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Juin 2019#34": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2019#35": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2019#36": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Juin 2019#37": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2019#37-38"
+  },
+  "Juin 2019#38": {
+   "c": [
+    "Les AINS"
+   ],
+   "case": "Juin 2019#37-38"
+  },
+  "Juin 2019#39": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2019#40": {
+   "c": [
+    "Les AINS"
+   ]
+  },
+  "Juin 2019#41": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Juin 2019#42": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Juin 2019#43": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2019#43-44"
+  },
+  "Juin 2019#44": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Juin 2019#43-44"
+  },
+  "Juin 2019#45": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Juin 2019#46": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Juin 2019#47": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Juin 2019#48": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Juin 2019#49": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ],
+   "flags": [
+    "tag_mismatch"
+   ],
+   "why": "Endoscopic control after gastric ulcer treatment = UGD"
+  },
+  "Juin 2019#50": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2018#1": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2018#2": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2018#3": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2018#4": {
+   "c": [
+    "Traitement du diabète (type 1 et 2)"
+   ]
+  },
+  "Mai 2018#5": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2018#6": {
+   "c": [
+    "Traitement de la pathologie thyroïdienne"
+   ]
+  },
+  "Mai 2018#7": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2018#8": {
+   "c": [
+    "Traitements locaux en dermatologie"
+   ]
+  },
+  "Mai 2018#9": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2018#10": {
+   "c": [
+    "Traitement antibacillaire (tuberculose)"
+   ]
+  },
+  "Mai 2018#11": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2018#12": {
+   "c": [
+    "Traitement de l'asthme"
+   ]
+  },
+  "Mai 2018#13": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2018#14": {
+   "c": [
+    "Antiépileptiques"
+   ]
+  },
+  "Mai 2018#15": {
+   "keep": "topic"
+  },
+  "Mai 2018#16": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2018#17": {
+   "c": [
+    "Traitement de la migraine"
+   ]
+  },
+  "Mai 2018#18": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2018#18-21"
+  },
+  "Mai 2018#19": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2018#18-21"
+  },
+  "Mai 2018#20": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2018#18-21"
+  },
+  "Mai 2018#21": {
+   "c": [
+    "Prise en charge de l'HTA"
+   ],
+   "case": "Mai 2018#18-21"
+  },
+  "Mai 2018#22": {
+   "c": [
+    "Traitement du RGO"
+   ]
+  },
+  "Mai 2018#23": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2018#24": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2018#25": {
+   "c": [
+    "Traitement de la maladie ulcéreuse gastro-duodénale"
+   ]
+  },
+  "Mai 2018#26": {
+   "keep": "topic"
+  },
+  "Mai 2018#27": {
+   "keep": "topic"
+  },
+  "Mai 2018#28": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "conf": "low",
+   "why": "General osteoporosis prevention; corticoid context closest"
+  },
+  "Mai 2018#29": {
+   "keep": "topic"
+  },
+  "Mai 2018#30": {
+   "c": [
+    "La prescription d'antibiotiques"
+   ]
+  },
+  "Mai 2018#31": {
+   "c": [
+    "Échec de l'antibiothérapie"
+   ]
+  },
+  "Mai 2018#32": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#33": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ],
+   "case": "Mai 2018#32-33"
+  },
+  "Mai 2018#34": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Mai 2018#35": {
+   "c": [
+    "Corticothérapie : CAT devant un patient sous corticoïdes au long cours"
+   ]
+  },
+  "Mai 2018#36": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2018#37": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2018#38": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2018#39": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2018#40": {
+   "c": [
+    "Traitement de l'IRABC"
+   ]
+  },
+  "Mai 2018#41": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2018#42": {
+   "c": [
+    "Vaccination au Maroc"
+   ]
+  },
+  "Mai 2018#43": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ]
+  },
+  "Mai 2018#44": {
+   "c": [
+    "Traitement de la sinusite aiguë"
+   ],
+   "flags": [
+    "tag_mismatch",
+    "ambiguous"
+   ],
+   "conf": "low",
+   "why": "Allergic rhinitis, not IRABC; no rhinitis cours, ORL closest"
+  },
+  "Mai 2018#45": {
+   "c": [
+    "Traitement des angines aiguës"
+   ]
+  },
+  "Mai 2018#46": {
+   "c": [
+    "Traitement de l'otite moyenne aiguë (OMA)"
+   ]
+  },
+  "Mai 2018#47": {
+   "keep": "topic"
+  },
+  "Mai 2018#48": {
+   "keep": "topic"
+  },
+  "Mai 2018#49": {
+   "keep": "topic"
+  },
+  "Mai 2018#50": {
+   "keep": "topic"
+  }
+ }
+}
